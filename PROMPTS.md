@@ -25,14 +25,14 @@ This year we will compete again in Battlecode 2025.  Store all results in a new 
 
 I like the local tournament configuration we used in battlecode26b-vibe.  I'd like this setup to be like that one
 
-## #3 (2026-11-25 07:55 PDT)
+## #3 (2026-11-25 08:55 PDT)
 
 I'd like you to schedule a prod every 20 minutes that reports on the current state of the local tournament, replica, and things like disk usage
 
-## #4 (2026-11-25 08:04 PDT)
+## #4 (2026-11-25 09:04 PDT)
 
 Clean out all VM disk under 2026b, bc26b, and bc26a0
 
-## #5 (2026-11-25 08:14 PDT)
+## #5 (2026-11-25 09:14 PDT)
 
 Please start a graph in progress/ to track the Elo ratings of the local tournament champions, using wallclock time on the x axis.  Keep it up to date as part of crowning a new champion
