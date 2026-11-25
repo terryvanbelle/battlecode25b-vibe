@@ -55,7 +55,7 @@ def chart():
     if not rows:
         sys.exit('replica_elo: no samples yet')
     t = [datetime.strptime(r['when_pdt'], '%Y-%m-%d %H:%M').replace(tzinfo=PDT) for r in rows]
-    fig, ax = plt.subplots(figsize=(11, 5.5))
+    fig, (ax, gx) = plt.subplots(2, 1, figsize=(11, 8.5), sharex=True, gridspec_kw={'height_ratios': [3, 2]})
     greys = {1: '#444444', 5: '#777777', 10: '#9a9a9a', 15: '#bdbdbd'}
     for p in PLACES:
         pts = [(ti, float(r[f'p{p}'])) for ti, r in zip(t, rows) if r[f'p{p}']]
@@ -73,9 +73,22 @@ def chart():
             ax.axvline(ti, color='#2a6fdb', alpha=0.25, lw=1)
             ax.text(ti, ax.get_ylim()[1], f" {r['champion']}", fontsize=8, color='#2a6fdb', va='top', rotation=90)
         prev = r['champion']
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %H:%M', tz=PDT))
+    # lower panel: our rating minus the rating at each place (owner prompt #7); above 0 means we are ahead of it
+    gap_col = {1: '#c0392b', 5: '#e67e22', 10: '#27ae60', 15: '#8e44ad'}
+    for p in PLACES:
+        pts = [(ti, float(r['our_rating']) - float(r[f'p{p}'])) for ti, r in zip(t, rows) if r[f'p{p}']]
+        if pts:
+            gx.plot([a for a, _ in pts], [b for _, b in pts], color=gap_col[p], lw=1.8, marker='o', ms=3,
+                    label=f'us - #{p}')
+            gx.annotate(f'{pts[-1][1]:+.0f}', pts[-1], textcoords='offset points', xytext=(6, -3), fontsize=8,
+                        color=gap_col[p])
+    gx.axhline(0, color='black', lw=0.8)
+    gx.set_ylabel('our rating minus place')
+    gx.grid(alpha=0.3)
+    gx.legend(loc='best', fontsize=9, ncol=4)
+    gx.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %H:%M', tz=PDT))
     fig.autofmt_xdate()
-    ax.set_xlabel('time (PDT)')
+    gx.set_xlabel('time (PDT)')
     ax.set_ylabel('replica rating (galaxy Elo)')
     ax.set_title(f'Replica ladder: vibe25b vs places 1/5/10/15 ({len(rows)} samples, last {last["when_pdt"]} PDT)')
     ax.grid(alpha=0.3)

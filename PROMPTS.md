@@ -40,3 +40,7 @@ Please start a graph in progress/ to track the Elo ratings of the local tourname
 ## #6 (2026-11-25 10:44 PDT)
 
 New that we're above 1000 Elo on the replica, let's start a graph showing our replica Elo versus wallclock time.  Also include lines for the Elo of the 15th, 10th, 5th and 1st place bots.  Don't include any data points before now
+
+## #7 (2026-11-25 12:19 PDT)
+
+Can you add a panel to replica-elo.png to plot the current Elo minus the Elo for #15, #10, #5 and #1?
