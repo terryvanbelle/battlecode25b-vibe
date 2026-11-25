@@ -5,4 +5,31 @@
 # The official examplefuncsplayer twice: the replica's end-to-end test teams.
 bc25-example	~/projects/vibe/reference/battlecode25-scaffold/java/src/examplefuncsplayer	The official examplefuncsplayer (battlecode25-scaffold).
 bc25-example-copy	~/projects/vibe/reference/battlecode25-scaffold/java/src/examplefuncsplayer	A second copy of the official examplefuncsplayer.
-# Benchmark field (~/projects/vibe/bc25b-benchmarks): none yet.
+# Benchmark field (~/projects/vibe/bc25b-benchmarks/<team>/<package>; provenance in MANIFEST.tsv there).
+just-woke-up	~/projects/vibe/bc25b-benchmarks/just-woke-up/v57_Optimaler	Benchmark just-woke-up (v57_Optimaler) from battlecode-archive/2025-Just-Woke-Up@ba5976b.
+confused	~/projects/vibe/bc25b-benchmarks/confused/finals	Benchmark confused (finals) from battlecode-archive/2025-confused@bb21870.
+om-nom	~/projects/vibe/bc25b-benchmarks/om-nom/srpStack	Benchmark om-nom (srpStack) from battlecode-archive/2025-Om-Nom@bc2f945.
+gone-whalin	~/projects/vibe/bc25b-benchmarks/gone-whalin/submit7	Benchmark gone-whalin (submit7) from battlecode-archive/2025-Gone-Whalin@d74560d.
+spaark	~/projects/vibe/bc25b-benchmarks/spaark/SPAARK	Benchmark spaark (SPAARK) from battlecode-archive/2025-SPAARK@63165da.
+the-kragle	~/projects/vibe/bc25b-benchmarks/the-kragle/quals	Benchmark the-kragle (quals) from battlecode-archive/2025-The-Kragle@0fb4b78.
+placeholder-name-2	~/projects/vibe/bc25b-benchmarks/placeholder-name-2/v9	Benchmark placeholder-name-2 (v9) from battlecode-archive/2025-placeholder-name-2@ceb8e07.
+podemice	~/projects/vibe/bc25b-benchmarks/podemice/zenith	Benchmark podemice (zenith) from battlecode-archive/2025-podemice@5f58f6e.
+old-but-gold	~/projects/vibe/bc25b-benchmarks/old-but-gold/basic45	Benchmark old-but-gold (basic45) from battlecode-archive/2025-Old-But-Gold@fa0181b.
+subscribe-to-caterpillow	~/projects/vibe/bc25b-benchmarks/subscribe-to-caterpillow/caterpillow	Benchmark subscribe-to-caterpillow (caterpillow) from battlecode-archive/2025-subscribe-to-caterpillow@9939fec.
+lobster-roll	~/projects/vibe/bc25b-benchmarks/lobster-roll/V09	Benchmark lobster-roll (V09) from battlecode-archive/2025-lobster-roll@438769c.
+immutable	~/projects/vibe/bc25b-benchmarks/immutable/immanentize	Benchmark immutable (immanentize) from battlecode-archive/2025-immutable@f84d1ca.
+varunvejalla	~/projects/vibe/bc25b-benchmarks/varunvejalla/moneymoneymoney	Benchmark varunvejalla (moneymoneymoney) from VarunVejalla/Battlecode2025@ccaeb6c.
+scienceqiu	~/projects/vibe/bc25b-benchmarks/scienceqiu/waxingcrescent	Benchmark scienceqiu (waxingcrescent) from scienceqiu/battlecode25fr@7d008f6.
+angtn	~/projects/vibe/bc25b-benchmarks/angtn/gen_o4f	Benchmark angtn (gen_o4f) from angtn/battle-code@b7aa069.
+geesegeesego	~/projects/vibe/bc25b-benchmarks/geesegeesego/prod_latest	Benchmark geesegeesego (prod_latest) from Andycipation/battlegeese-25@71f37e7.
+ryanaspen	~/projects/vibe/bc25b-benchmarks/ryanaspen/finishingTouches15	Benchmark ryanaspen (finishingTouches15) from RyanAspen/Evil-Robots-Must-Have-Red-Eyes@23ff65b.
+slifland	~/projects/vibe/bc25b-benchmarks/slifland/Version15	Benchmark slifland (Version15) from slifland/Battlecode2025@ecc0c6d.
+jasonzeng124	~/projects/vibe/bc25b-benchmarks/jasonzeng124/fighter_v4a	Benchmark jasonzeng124 (fighter_v4a) from jasonzeng124/battlecode25@76b51de.
+2y1b	~/projects/vibe/bc25b-benchmarks/2y1b/v3	Benchmark 2y1b (v3) from ecoArcGaming/battlecode25@8f17e87.
+coffeecoder1015	~/projects/vibe/bc25b-benchmarks/coffeecoder1015/s2rd	Benchmark coffeecoder1015 (s2rd) from CoffeeCoder1015/battlecode@fd0702b.
+itb-faizalfadaa	~/projects/vibe/bc25b-benchmarks/itb-faizalfadaa/main_bot	Benchmark itb-faizalfadaa (main_bot) from Faizalfadaa/Tubes1_mangkus-sangkil@cb27709.
+itb-aufafaza	~/projects/vibe/bc25b-benchmarks/itb-aufafaza/main_bot	Benchmark itb-aufafaza (main_bot) from aufafaza/Tubes1_rank1_all_rhythm_game@343f1d8.
+itb-hagon47	~/projects/vibe/bc25b-benchmarks/itb-hagon47/main_bot	Benchmark itb-hagon47 (main_bot) from Hagon47/Greedy-Battlebot@6d14cf1.
+botpocalypse	~/projects/vibe/bc25b-benchmarks/botpocalypse/purge	Benchmark botpocalypse (purge) from ameygupta007/botpocalypse@5e5d6db.
+viper-x	~/projects/vibe/bc25b-benchmarks/viper-x/ViperX	Benchmark viper-x (ViperX) from Nightmare9801/Viper-X@862f313.
+bc25-vibe-orig	~/projects/vibe/bc25b-benchmarks/bc25-vibe-orig/darla	Benchmark bc25-vibe-orig (darla) from terryvanbelle/battlecode25-vibe@9713f08.
