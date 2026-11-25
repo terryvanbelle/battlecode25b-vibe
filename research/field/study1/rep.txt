@@ -1,0 +1,326 @@
+===== LOST matches (strong field) 21 games
+per game: m g map opp rounds win wintype
+ 8 0 Fossil        just-woke-up     161 L MAJORITY_PAINTED     30x30
+ 8 1 Parking_lot   just-woke-up     279 L MAJORITY_PAINTED     45x45
+ 8 2 PlumberGame   just-woke-up     226 L MAJORITY_PAINTED     60x30
+ 9 0 Brat          confused         198 L ALL_UNITS_DESTROYED  29x29
+ 9 1 catface       confused         182 L ALL_UNITS_DESTROYED  30x30
+ 9 2 maze          confused         615 L MAJORITY_PAINTED     60x60
+10 0 Brat          om-nom           288 L MAJORITY_PAINTED     29x29
+10 1 Snowglobe     om-nom           325 L ALL_UNITS_DESTROYED  40x40
+10 2 sierpinski    om-nom           243 L ALL_UNITS_DESTROYED  39x50
+11 0 box           spaark           409 L MAJORITY_PAINTED     31x31
+11 1 maze          spaark           628 L MAJORITY_PAINTED     60x60
+11 2 shell         spaark           262 L ALL_UNITS_DESTROYED  40x40
+13 0 FourCorners   podemice         271 L MAJORITY_PAINTED     25x25
+13 1 box           podemice         453 L MAJORITY_PAINTED     31x31
+13 2 gardenworld   podemice         455 L MAJORITY_PAINTED     60x60
+27 0 Parking_lot   lobster-roll     355 L MAJORITY_PAINTED     45x45
+27 1 sierpinski    lobster-roll     354 L MAJORITY_PAINTED     39x50
+27 2 walalilongla  lobster-roll     367 L MAJORITY_PAINTED     45x45
+28 0 BunnyGame     lobster-roll     482 L MAJORITY_PAINTED     30x50
+28 1 rain          lobster-roll     419 L MAJORITY_PAINTED     30x30
+28 2 walalilongla  lobster-roll     438 L MAJORITY_PAINTED     45x45
+snapshot medians  us | opp   (n games reaching round)
+r50   n=21 cov:184|136 money:780|850 srp:0|0 pt:1|1 mt:2|3 dt:0|0 sol:8|5 spl:0|0 mop:2|1 upaint:648|1588
+r100  n=21 cov:281|246 money:1280|1020 srp:0|0 pt:2|1 mt:2|5 dt:0|0 sol:7|8 spl:0|1 mop:1|3 upaint:796|2185
+r150  n=21 cov:298|390 money:1560|1440 srp:0|1 pt:1|2 mt:2|6 dt:0|0 sol:4|9 spl:1|2 mop:1|7 upaint:683|2391
+r200  n=18 cov:285.5|553.5 money:1915.0|1787.5 srp:0.0|2.0 pt:1.0|2.0 mt:2.0|7.0 dt:0.0|0.0 sol:3.0|10.0 spl:1.5|3.0 mop:1.0|9.0 upaint:773.0|3319.5
+r300  n=12 cov:270.5|886.0 money:3125.0|2101.5 srp:0.0|3.0 pt:1.5|3.5 mt:2.0|8.0 dt:0.0|0.0 sol:3.0|14.5 spl:3.5|10.0 mop:1.0|17.0 upaint:1249.0|6636.5
+r500  n=2  cov:479.5|1733.0 money:3480.0|998.0 srp:0.0|11.0 pt:2.5|6.5 mt:1.5|16.0 dt:0.0|0.0 sol:6.5|51.5 spl:12.0|96.5 mop:2.0|41.0 upaint:2714.0|29542.5
+rend  n=21 cov:114|961 money:2430|1688 srp:0|4 pt:1|5 mt:1|9 dt:0|0 sol:1|20 spl:2|14 mop:0|19 upaint:451|8294
+first SRP round              us med       -  opp med      87   us:[None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+                             opp:[87, 106, 89, None, 181, 171, None, 89, 153, 84, 77, 78, 37, 35, 117, 18, 98, 60, 317, 78, 27]
+SRP completions total        us med       0  opp med      10   us:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                             opp:[6, 8, 20, 0, 1, 7, 0, 26, 7, 10, 18, 10, 1, 5, 26, 10, 13, 13, 12, 10, 21]
+SRP completions <=200        us med       0  opp med       4   us:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                             opp:[6, 4, 14, 0, 1, 1, 0, 7, 4, 6, 4, 5, 1, 3, 5, 4, 6, 4, 0, 2, 3]
+first tower build round      us med      16  opp med      21   us:[14, 81, 18, 13, 12, 28, 13, 16, 16, 14, 28, 37, 22, 16, 16, 180, 16, 16, 16, 20, 25]
+                             opp:[17, 27, 18, 18, 16, 27, 13, 15, 19, 13, 31, 23, 27, 32, 26, 14, 22, 30, 21, 19, 28]
+towers built by 100          us med       2  opp med       4   us:[3, 1, 4, 1, 1, 1, 3, 4, 2, 3, 1, 2, 2, 3, 3, 0, 2, 2, 2, 3, 4]
+                             opp:[6, 4, 8, 2, 3, 5, 2, 5, 5, 5, 4, 6, 1, 3, 4, 4, 5, 5, 3, 5, 4]
+towers built by 200          us med       3  opp med       8   us:[3, 1, 4, 1, 1, 3, 3, 7, 2, 5, 1, 3, 3, 3, 6, 1, 2, 5, 2, 4, 6]
+                             opp:[8, 8, 12, 8, 6, 17, 7, 12, 9, 5, 8, 13, 3, 4, 9, 12, 10, 6, 5, 6, 5]
+upgrades                     us med       1  opp med       3   us:[0, 0, 1, 0, 0, 5, 0, 0, 1, 1, 4, 1, 0, 3, 1, 2, 2, 1, 1, 3, 4]
+                             opp:[1, 1, 1, 0, 0, 3, 1, 5, 3, 16, 48, 0, 0, 3, 7, 17, 7, 6, 5, 6, 7]
+first upgrade round          us med   180.0  opp med     162   us:[None, None, 177, None, None, 144, None, None, 139, 230, 144, 183, None, 137, 379, 223, 177, 263, 302, 161, 191]
+                             opp:[145, 262, 226, None, None, 439, 255, 171, 151, 123, 158, None, None, 189, 245, 162, 174, 155, 161, 139, 141]
+robots spawned               us med      25  opp med      74   us:[19, 19, 25, 12, 15, 60, 16, 21, 17, 38, 51, 18, 19, 45, 47, 23, 26, 42, 30, 29, 50]
+                             opp:[27, 64, 55, 26, 27, 330, 39, 82, 39, 82, 524, 74, 41, 77, 342, 83, 117, 114, 74, 74, 131]
+spawned SOLDIER              us med      15  opp med      28   us:[13, 11, 16, 9, 10, 29, 10, 14, 12, 20, 24, 13, 12, 21, 27, 13, 15, 24, 17, 17, 27]
+                             opp:[13, 28, 20, 12, 14, 123, 21, 41, 22, 37, 79, 28, 21, 40, 127, 26, 39, 36, 25, 24, 43]
+spawned SPLASHER             us med       5  opp med      17   us:[2, 4, 3, 0, 1, 20, 2, 1, 1, 10, 18, 1, 4, 14, 9, 5, 5, 9, 7, 6, 13]
+                             opp:[5, 15, 11, 6, 2, 130, 9, 21, 7, 14, 273, 20, 6, 13, 103, 19, 34, 32, 17, 19, 37]
+spawned MOPPER               us med       6  opp med      26   us:[4, 4, 6, 3, 4, 11, 4, 6, 4, 8, 9, 4, 3, 10, 11, 5, 6, 9, 6, 6, 10]
+                             opp:[9, 21, 24, 8, 11, 77, 9, 20, 10, 31, 172, 26, 14, 24, 112, 38, 44, 46, 32, 31, 51]
+towers lost                  us med       3  opp med       0   us:[2, 1, 2, 3, 3, 3, 5, 9, 4, 6, 1, 5, 4, 3, 8, 1, 2, 5, 3, 4, 5]
+                             opp:[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+mopper unpaint (enemy paint mopped) us med      38  opp med     188   us:[33, 1, 39, 29, 17, 34, 54, 43, 17, 52, 19, 15, 38, 60, 86, 9, 33, 64, 46, 42, 81]
+                             opp:[105, 123, 179, 62, 137, 134, 132, 256, 188, 301, 99, 248, 140, 363, 267, 144, 297, 438, 459, 431, 518]
+robots died                  us med      22  opp med      13   us:[10, 13, 22, 12, 15, 35, 15, 21, 17, 33, 30, 18, 17, 39, 42, 17, 26, 39, 30, 27, 48]
+                             opp:[1, 10, 4, 3, 3, 49, 9, 18, 10, 29, 134, 13, 2, 6, 9, 14, 19, 32, 22, 39, 27]
+robots died at 0 paint       us med      20  opp med       8   us:[8, 10, 20, 12, 13, 35, 15, 18, 15, 25, 30, 14, 11, 34, 33, 15, 25, 38, 28, 26, 45]
+                             opp:[1, 10, 4, 1, 2, 41, 4, 8, 6, 29, 133, 11, 0, 5, 5, 8, 10, 13, 12, 20, 18]
+mark actions                 us med     144  opp med      47   us:[168, 72, 144, 144, 144, 144, 168, 240, 144, 72, 120, 168, 144, 120, 264, 72, 168, 240, 216, 168, 240]
+                             opp:[15, 31, 39, 12, 5, 24, 28, 54, 49, 47, 56, 44, 44, 30, 98, 1325, 1419, 857, 562, 333, 1179]
+soldier attack frac          us med     0.0  opp med     0.1   us:[0.01, 0.07, 0.05, 0.0, 0.1, 0.02, 0.0, 0.01, 0.05, 0.1, 0.01, 0.08, 0.11, 0.05, 0.09, 0.04, 0.02, 0.04, 0.01, 0.05, 0.04]
+                             opp:[0.09, 0.04, 0.03, 0.24, 0.21, 0.04, 0.21, 0.18, 0.17, 0.22, 0.02, 0.12, 0.24, 0.12, 0.09, 0.02, 0.06, 0.09, 0.08, 0.18, 0.11]
+soldier attacks n            us med      21  opp med      91   us:[3, 25, 23, 0, 29, 17, 0, 3, 20, 55, 4, 37, 28, 26, 80, 15, 8, 34, 5, 21, 29]
+                             opp:[48, 45, 32, 78, 68, 68, 110, 194, 106, 151, 31, 124, 106, 92, 174, 26, 59, 91, 76, 136, 131]
+soldier paints n             us med     416  opp med     862   us:[307, 343, 458, 214, 265, 814, 237, 416, 374, 504, 611, 431, 231, 506, 806, 337, 378, 742, 331, 427, 653]
+                             opp:[489, 1174, 972, 242, 251, 1830, 421, 862, 520, 545, 1850, 881, 330, 683, 1800, 1235, 990, 924, 846, 619, 1074]
+splashes n                   us med       8  opp med      35   us:[1, 5, 3, 0, 3, 22, 6, 5, 4, 28, 29, 3, 5, 37, 36, 8, 9, 15, 24, 9, 41]
+                             opp:[25, 29, 53, 20, 10, 77, 27, 39, 26, 44, 56, 27, 22, 35, 132, 27, 51, 84, 47, 25, 82]
+mop swings/attacks n         us med       6  opp med     140   us:[0, 0, 4, 6, 6, 10, 6, 0, 2, 0, 0, 0, 0, 12, 16, 10, 0, 6, 6, 12, 12]
+                             opp:[10, 4, 84, 8, 44, 252, 90, 92, 58, 262, 264, 10, 170, 614, 242, 278, 48, 140, 148, 204, 280]
+enemy units near MY towers<=100 us med       4  opp med       1   us:[5, 4, 0, 10, 7, 7, 7, 4, 3, 1, 3, 5, 11, 0, 0, 7, 0, 3, 10, 3, 2]
+                             opp:[2, 5, 0, 0, 7, 7, 0, 0, 3, 0, 6, 8, 9, 1, 0, 7, 1, 0, 8, 1, 0]
+first enemy near MY towers   us med      24  opp med      15   us:[28, 29, None, 22, 15, 2, 19, 54, 47, 98, 2, 31, 3, None, None, 2, None, 24, 20, 59, 45]
+                             opp:[43, 4, None, None, 14, 3, None, None, 69, None, 3, 15, 3, 22, None, 4, 34, None, 18, 19, None]
+dmg taken by my towers<=150  us med    2000  opp med     300   us:[2900, 2000, 1400, 4000, 4000, 0, 3600, 5050, 3000, 2300, 0, 2750, 2150, 650, 0, 350, 450, 1500, 1800, 3500, 1650]
+                             opp:[150, 1100, 700, 0, 1550, 0, 0, 0, 800, 1300, 0, 1350, 650, 0, 300, 550, 0, 600, 200, 700, 100]
+tower deaths (victim side: round, type, killers dmg by type):
+  8 0 us lost: [[55, 'MO', {'SOLDIER': 1000}], [94, 'MO', {'SOLDIER': 900, 'SPLASHER': 100}]]  opp lost: []
+  8 1 us lost: [[84, 'MO', {'SOLDIER': 1500}]]  opp lost: []
+  8 2 us lost: [[153, 'PA', {'SOLDIER': 1000}], [204, 'PA', {'SPLASHER': 900}]]  opp lost: []
+  9 0 us lost: [[36, 'MO', {'SOLDIER': 1000}], [63, 'PA', {'SOLDIER': 1400, 'SPLASHER': 100}], [117, 'MO', {'SOLDIER': 1350}]]  opp lost: []
+  9 1 us lost: [[40, 'MO', {'SOLDIER': 900, 'SPLASHER': 100}], [90, 'MO', {'SOLDIER': 1150, 'SPLASHER': 100}], [138, 'PA', {'SOLDIER': 1100, 'SPLASHER': 400}]]  opp lost: [[29, 'MO', {'SOLDIER': 1000}]]
+  9 2 us lost: [[372, 'MO', {'SOLDIER': 1300}], [543, 'MO', {'SOLDIER': 750}], [608, 'PA', {'SPLASHER': 800}]]  opp lost: []
+  10 0 us lost: [[73, 'MO', {'SOLDIER': 1500}], [78, 'PA', {'SOLDIER': 1000}], [112, 'MO', {'SOLDIER': 900, 'SPLASHER': 100}], [180, 'MO', {'SPLASHER': 300, 'SOLDIER': 700}], [201, 'PA', {'SOLDIER': 1400}]]  opp lost: []
+  10 1 us lost: [[73, 'PA', {'SOLDIER': 1000}], [137, 'MO', {'SOLDIER': 1000}], [150, 'PA', {'SOLDIER': 1000}], [169, 'MO', {'SPLASHER': 100, 'SOLDIER': 500}], [169, 'PA', {'SOLDIER': 1000}], [175, 'PA', {'SOLDIER': 1000}], [176, 'PA', {'SOLDIER': 700}], [269, 'MO', {'SOLDIER': 150}], [325, 'MO', {'SPLASHER': 100, 'SOLDIER': 650}]]  opp lost: []
+  10 2 us lost: [[115, 'PA', {'SOLDIER': 650}], [175, 'PA', {'SOLDIER': 650}], [201, 'MO', {'SOLDIER': 350}], [215, 'MO', {'SOLDIER': 1000, 'SPLASHER': 200}]]  opp lost: []
+  11 0 us lost: [[128, 'MO', {'SOLDIER': 1000}], [143, 'MO', {'SOLDIER': 850}], [202, 'MO', {'SOLDIER': 700}], [307, 'MO', {'SOLDIER': 300}], [337, 'MO', {'SPLASHER': 100, 'SOLDIER': 600}], [408, 'PA', {'SPLASHER': 200, 'SOLDIER': 1000}]]  opp lost: []
+  11 1 us lost: [[487, 'MO', {'SOLDIER': 800}]]  opp lost: []
+  11 2 us lost: [[93, 'PA', {'SOLDIER': 1500}], [129, 'PA', {'SOLDIER': 1000}], [227, 'PA', {'SOLDIER': 1250}], [240, 'MO', {'SOLDIER': 50}], [243, 'MO', {'SOLDIER': 1150}]]  opp lost: []
+  13 0 us lost: [[53, 'MO', {'SOLDIER': 1000}], [96, 'MO', {'SOLDIER': 800}], [178, 'MO', {'SOLDIER': 850}], [265, 'PA', {'SPLASHER': 200, 'SOLDIER': 1000}]]  opp lost: []
+  13 1 us lost: [[198, 'MO', {'SOLDIER': 300}], [297, 'MO', {'SOLDIER': 450, 'SPLASHER': 200}], [396, 'MO', {'SOLDIER': 1000}]]  opp lost: []
+  13 2 us lost: [[206, 'PA', {'SOLDIER': 1000}], [228, 'MO', {'SOLDIER': 900, 'SPLASHER': 100}], [308, 'PA', {'SPLASHER': 200, 'SOLDIER': 800}], [308, 'PA', {'SOLDIER': 1000}], [329, 'PA', {'SPLASHER': 200, 'SOLDIER': 300}], [353, 'PA', {'SOLDIER': 700}], [377, 'MO', {'SOLDIER': 600}], [427, 'MO', {'SOLDIER': 1300}]]  opp lost: []
+  27 0 us lost: [[319, 'MO', {'SOLDIER': 200}]]  opp lost: []
+  27 1 us lost: [[198, 'PA', {'SPLASHER': 100, 'SOLDIER': 950}], [286, 'PA', {'SOLDIER': 400, 'SPLASHER': 100}]]  opp lost: []
+  27 2 us lost: [[156, 'PA', {'SPLASHER': 100, 'SOLDIER': 550}], [264, 'MO', {'SPLASHER': 100, 'SOLDIER': 300}], [277, 'MO', {'SOLDIER': 600, 'SPLASHER': 300}], [327, 'PA', {'SOLDIER': 450, 'SPLASHER': 100}], [359, 'PA', {'SPLASHER': 500, 'SOLDIER': 400}]]  opp lost: []
+  28 0 us lost: [[78, 'MO', {'SOLDIER': 550}], [244, 'PA', {'SOLDIER': 550}], [391, 'PA', {'SOLDIER': 650, 'SPLASHER': 200}]]  opp lost: []
+  28 1 us lost: [[104, 'MO', {'SOLDIER': 1000}], [122, 'MO', {'SOLDIER': 750}], [280, 'MO', {'SPLASHER': 100, 'SOLDIER': 400}], [310, 'MO', {'SOLDIER': 200}]]  opp lost: []
+  28 2 us lost: [[213, 'PA', {'SOLDIER': 900, 'SPLASHER': 100}], [254, 'MO', {'SOLDIER': 200}], [276, 'MO', {'SOLDIER': 200}], [358, 'PA', {'SOLDIER': 600}], [425, 'MO', {'SOLDIER': 400, 'SPLASHER': 100}]]  opp lost: []
+opening (first 10 spawns):
+  8 0 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL MON MON SOL MON MON MON
+  8 1 us: SOL SOL SOL SOL MOP MOP SOL SOL SOL SOL  | opp: SOL SOL SOL SOL MOP MON MOP SOL MON SOL
+  8 2 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL MON MON MON SOL SOL SOL
+  9 0 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL MON SPL SPL SOL SOL SOL
+  9 1 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL MON MOP MOP SPL MOP MON
+  9 2 us: SOL SOL SOL SOL MOP MOP SOL MON SOL SOL  | opp: SOL SOL SOL SOL SOL MON SOL SOL MON SOL
+  10 0 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL MON MOP SOL SOL MOP
+  10 1 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL MON MOP MON MON MON
+  10 2 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL MON SOL SOL MON MOP
+  11 0 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL MON MON MON MOP SOL
+  11 1 us: SOL SOL SOL SOL MOP MOP SOL MON SOL SOL  | opp: SOL SOL SOL SOL SOL MOP MOP MON SOL MON
+  11 2 us: SOL SOL SOL SOL MOP MOP SOL MON SOL SOL  | opp: SOL SOL SOL SOL SOL MOP MON MON MON MON
+  13 0 us: SOL SOL SOL SOL MOP MOP SOL MON SOL SOL  | opp: SOL SOL MOP MOP SOL SOL MON SOL SOL SOL
+  13 1 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL MOP MOP SOL SOL SOL MON MON SOL
+  13 2 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL MOP MOP SOL SOL MON SOL MON SOL
+  27 0 us: SOL SOL SOL SOL MOP MOP SOL SOL SOL SOL  | opp: SOL SOL SOL SOL SOL MON MOP MOP MON MON
+  27 1 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL MON MOP SOL MOP SOL
+  27 2 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL MOP MON SOL MON MON
+  28 0 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL MON MOP MOP MOP MON
+  28 1 us: SOL SOL SOL SOL MOP MOP SOL MON SOL SOL  | opp: SOL SOL SOL SOL SOL MON MOP MON MON MON
+  28 2 us: SOL SOL SOL SOL MOP MOP SOL MON SOL SOL  | opp: SOL SOL SOL SOL SOL MOP MON MON MON PAI
+upgrades:
+  8 0 us: [] | opp: [[145, 'PAINT_TOWER', '2']]
+  8 1 us: [] | opp: [[262, 'PAINT_TOWER', '2']]
+  8 2 us: [[177, 'PAINT_TOWER', '2']] | opp: [[226, 'PAINT_TOWER', '2']]
+  9 0 us: [] | opp: []
+  9 1 us: [] | opp: []
+  9 2 us: [[144, 'MONEY_TOWER', '2'], [250, 'PAINT_TOWER', '2'], [298, 'PAINT_TOWER', '2'], [358, 'MONEY_TOWER', '2'], [501, 'PAINT_TOWER', '4']] | opp: [[439, 'PAINT_TOWER', '2'], [447, 'PAINT_TOWER', '2'], [611, 'PAINT_TOWER', '2']]
+  10 0 us: [] | opp: [[255, 'PAINT_TOWER', '2']]
+  10 1 us: [] | opp: [[171, 'PAINT_TOWER', '4'], [225, 'PAINT_TOWER', '2'], [227, 'PAINT_TOWER', '3'], [273, 'PAINT_TOWER', '2'], [289, 'PAINT_TOWER', '2']]
+  10 2 us: [[139, 'PAINT_TOWER', '2']] | opp: [[151, 'PAINT_TOWER', '2'], [203, 'PAINT_TOWER', '2'], [221, 'PAINT_TOWER', '2']]
+  11 0 us: [[230, 'PAINT_TOWER', '2']] | opp: [[123, 'MONEY_TOWER', '2'], [143, 'MONEY_TOWER', '2'], [159, 'MONEY_TOWER', '2'], [173, 'MONEY_TOWER', '2'], [185, 'MONEY_TOWER', '2'], [209, 'PAINT_TOWER', '4']]
+  11 1 us: [[144, 'MONEY_TOWER', '2'], [228, 'PAINT_TOWER', '4'], [345, 'PAINT_TOWER', '2'], [467, 'PAINT_TOWER', '3']] | opp: [[158, 'MONEY_TOWER', '2'], [176, 'MONEY_TOWER', '2'], [230, 'MONEY_TOWER', '2'], [242, 'MONEY_TOWER', '2'], [273, 'PAINT_TOWER', '2'], [303, 'MONEY_TOWER', '2']]
+  11 2 us: [[183, 'PAINT_TOWER', '2']] | opp: []
+  13 0 us: [] | opp: []
+  13 1 us: [[137, 'PAINT_TOWER', '2'], [254, 'MONEY_TOWER', '2'], [351, 'PAINT_TOWER', '4']] | opp: [[189, 'PAINT_TOWER', '4'], [316, 'DEFENSE_TOWER', '2'], [335, 'DEFENSE_TOWER', '3']]
+  13 2 us: [[379, 'MONEY_TOWER', '2']] | opp: [[245, 'PAINT_TOWER', '2'], [313, 'PAINT_TOWER', '2'], [372, 'PAINT_TOWER', '2'], [405, 'PAINT_TOWER', '2'], [416, 'PAINT_TOWER', '2'], [427, 'PAINT_TOWER', '4']]
+  27 0 us: [[223, 'MONEY_TOWER', '2'], [313, 'PAINT_TOWER', '4']] | opp: [[162, 'PAINT_TOWER', '4'], [188, 'MONEY_TOWER', '2'], [195, 'MONEY_TOWER', '2'], [202, 'MONEY_TOWER', '2'], [204, 'PAINT_TOWER', '2'], [213, 'PAINT_TOWER', '3']]
+  27 1 us: [[177, 'PAINT_TOWER', '2'], [284, 'MONEY_TOWER', '2']] | opp: [[174, 'PAINT_TOWER', '2'], [207, 'PAINT_TOWER', '2'], [230, 'PAINT_TOWER', '4'], [259, 'PAINT_TOWER', '2'], [288, 'PAINT_TOWER', '3'], [325, 'PAINT_TOWER', '2']]
+  27 2 us: [[263, 'PAINT_TOWER', '2']] | opp: [[155, 'PAINT_TOWER', '2'], [197, 'PAINT_TOWER', '4'], [243, 'PAINT_TOWER', '2'], [282, 'PAINT_TOWER', '3'], [317, 'PAINT_TOWER', '2'], [349, 'PAINT_TOWER', '3']]
+  28 0 us: [[302, 'PAINT_TOWER', '2']] | opp: [[161, 'PAINT_TOWER', '4'], [210, 'PAINT_TOWER', '2'], [279, 'PAINT_TOWER', '3'], [333, 'PAINT_TOWER', '2'], [464, 'PAINT_TOWER', '2']]
+  28 1 us: [[161, 'MONEY_TOWER', '2'], [201, 'MONEY_TOWER', '2'], [252, 'PAINT_TOWER', '4']] | opp: [[139, 'PAINT_TOWER', '4'], [215, 'MONEY_TOWER', '2'], [217, 'PAINT_TOWER', '2'], [261, 'PAINT_TOWER', '3'], [300, 'PAINT_TOWER', '2'], [370, 'PAINT_TOWER', '3']]
+  28 2 us: [[191, 'PAINT_TOWER', '2'], [252, 'PAINT_TOWER', '2'], [304, 'PAINT_TOWER', '2'], [389, 'MONEY_TOWER', '2']] | opp: [[141, 'PAINT_TOWER', '2'], [194, 'PAINT_TOWER', '4'], [268, 'PAINT_TOWER', '2'], [308, 'PAINT_TOWER', '2'], [359, 'PAINT_TOWER', '3'], [385, 'PAINT_TOWER', '2']]
+territory (n tiles, med dist to own spawn, med dist to center, frac on own half):
+  r100 8 0 us [209, 8.6, 11.8, 1.0]  opp [284, 9.1, 11.0, 0.85]
+  r100 8 1 us [225, 17.0, 17.0, 1.0]  opp [119, 21.5, 22.4, 1.0]
+  r100 8 2 us [344, 13.3, 16.6, 1.0]  opp [306, 21.0, 12.8, 0.89]
+  r100 9 0 us [109, 7.0, 10.0, 0.89]  opp [148, 14.8, 7.8, 0.42]
+  r100 9 1 us [145, 10.9, 11.6, 0.9]  opp [120, 13.8, 8.5, 0.59]
+  r100 9 2 us [281, 9.6, 24.8, 0.98]  opp [135, 28.8, 19.5, 1.0]
+  r100 10 0 us [184, 10.4, 7.1, 0.78]  opp [160, 10.0, 11.4, 0.65]
+  r100 10 1 us [255, 9.0, 13.3, 1.0]  opp [268, 12.7, 13.7, 0.74]
+  r100 10 2 us [247, 11.4, 12.4, 0.83]  opp [203, 18.4, 13.5, 0.87]
+  r100 11 0 us [231, 9.6, 11.0, 0.95]  opp [246, 11.5, 10.0, 0.82]
+  r100 11 1 us [299, 10.1, 25.1, 0.99]  opp [232, 21.9, 20.9, 1.0]
+  r100 11 2 us [296, 11.9, 12.5, 0.75]  opp [244, 11.8, 12.0, 0.75]
+  r100 13 0 us [169, 6.7, 9.1, 0.91]  opp [120, 5.8, 9.7, 0.91]
+  r100 13 1 us [323, 10.1, 11.4, 0.97]  opp [261, 9.5, 11.2, 0.96]
+  r100 13 2 us [303, 15.5, 15.5, 0.95]  opp [306, 15.0, 15.7, 0.97]
+  r100 27 0 us [192, 16.1, 16.0, 1.0]  opp [291, 21.3, 21.5, 1.0]
+  r100 27 1 us [299, 10.6, 13.3, 0.87]  opp [293, 12.6, 19.0, 1.0]
+  r100 27 2 us [295, 14.1, 12.4, 0.67]  opp [294, 14.6, 19.1, 0.78]
+  r100 28 0 us [191, 14.5, 8.5, 0.72]  opp [159, 9.7, 12.3, 0.72]
+  r100 28 1 us [250, 10.6, 9.3, 0.84]  opp [207, 11.0, 10.1, 0.88]
+  r100 28 2 us [290, 9.7, 12.2, 0.82]  opp [265, 17.1, 17.0, 0.68]
+  r200 8 0 us [106, 9.2, 13.6, 1.0]  opp [589, 13.0, 10.7, 0.63]
+  r200 8 1 us [255, 18.4, 18.4, 1.0]  opp [528, 18.4, 19.1, 1.0]
+  r200 8 2 us [229, 8.5, 22.5, 1.0]  opp [848, 24.4, 12.6, 0.64]
+  r200 9 0 us [25, 7.2, 9.8, 1.0]  opp [346, 15.2, 11.0, 0.44]
+  r200 9 1 us [114, 11.0, 9.7, 0.89]  opp [259, 15.0, 10.1, 0.53]
+  r200 9 2 us [373, 11.0, 27.6, 1.0]  opp [546, 33.6, 17.2, 0.73]
+  r200 10 0 us [111, 6.3, 10.2, 0.82]  opp [293, 13.0, 10.0, 0.54]
+  r200 10 1 us [270, 10.4, 15.9, 0.99]  opp [506, 15.7, 13.0, 0.7]
+  r200 10 2 us [176, 9.0, 14.5, 0.94]  opp [515, 20.4, 14.5, 0.6]
+  r200 11 0 us [283, 9.0, 12.6, 0.92]  opp [363, 11.8, 11.0, 0.74]
+  r200 11 1 us [357, 10.0, 26.7, 1.0]  opp [527, 25.1, 19.5, 0.87]
+  r200 11 2 us [125, 8.1, 16.4, 0.98]  opp [765, 17.2, 14.7, 0.54]
+  r200 13 0 us [99, 4.5, 11.4, 0.98]  opp [224, 8.8, 7.9, 0.74]
+  r200 13 1 us [357, 9.4, 13.0, 0.97]  opp [344, 10.3, 11.2, 0.88]
+  r200 13 2 us [591, 15.8, 16.8, 0.93]  opp [620, 15.3, 15.2, 0.84]
+  r200 27 0 us [236, 18.4, 18.2, 1.0]  opp [670, 19.0, 19.0, 1.0]
+  r200 27 1 us [205, 9.3, 14.2, 0.96]  opp [649, 19.6, 16.0, 0.72]
+  r200 27 2 us [349, 15.2, 17.5, 0.77]  opp [557, 14.5, 14.2, 0.61]
+  r200 28 0 us [213, 8.7, 13.5, 0.94]  opp [276, 12.8, 11.9, 0.67]
+  r200 28 1 us [187, 9.0, 11.1, 0.99]  opp [289, 12.0, 10.5, 0.79]
+  r200 28 2 us [380, 11.9, 16.3, 0.75]  opp [539, 15.5, 13.9, 0.62]
+===== WON matches 12 games
+per game: m g map opp rounds win wintype
+12 0 Bunny         bc25-vibe-orig  1244 W MAJORITY_PAINTED     44x30
+12 1 DefaultHuge   bc25-vibe-orig   628 L MAJORITY_PAINTED     59x59
+12 2 yearofthesnake bc25-vibe-orig  1361 W MAJORITY_PAINTED     45x45
+14 0 Piglets2      itb-hagon47      511 W MAJORITY_PAINTED     60x40
+14 1 SaltyPepper   itb-hagon47      381 W MAJORITY_PAINTED     40x40
+14 2 galaxy        itb-hagon47      620 W MAJORITY_PAINTED     45x45
+ 6 0 box           bc25-example     182 W MAJORITY_PAINTED     31x31
+ 6 1 maze          bc25-example    1115 W MAJORITY_PAINTED     60x60
+ 6 2 sayhi         bc25-example     294 W MAJORITY_PAINTED     40x50
+ 7 0 AlarmClock    bc25-example-copy  209 W MAJORITY_PAINTED     35x35
+ 7 1 leavemealone  bc25-example-copy  244 W MAJORITY_PAINTED     50x30
+ 7 2 yearofthesnake bc25-example-copy  352 W MAJORITY_PAINTED     45x45
+snapshot medians  us | opp   (n games reaching round)
+r50   n=12 cov:241.5|149.5 money:770.0|250.0 srp:0.0|0.0 pt:1.0|1.0 mt:2.0|1.0 dt:0.0|0.0 sol:8.0|1.5 spl:0.0|0.0 mop:2.0|4.0 upaint:676.5|318.5
+r100  n=12 cov:360.0|171.5 money:845.0|245.0 srp:0.0|0.0 pt:2.0|1.5 mt:3.0|1.0 dt:0.0|0.0 sol:9.0|1.5 spl:0.0|0.0 mop:0.5|4.5 upaint:1302.0|490.0
+r150  n=12 cov:494.0|191.0 money:870.0|500.0 srp:0.0|0.0 pt:3.0|1.5 mt:4.0|1.0 dt:0.0|0.0 sol:10.5|1.5 spl:1.0|0.0 mop:2.0|2.5 upaint:1925.5|457.5
+r200  n=11 cov:679|259 money:770|400 srp:0|0 pt:5|2 mt:4|1 dt:0|0 sol:13|4 spl:2|0 mop:3|3 upaint:2743|672
+r300  n=8  cov:767.5|377.0 money:1760.0|1115.0 srp:0.0|0.0 pt:5.0|3.0 mt:4.5|1.0 dt:0.0|0.0 sol:12.5|5.0 spl:5.0|1.0 mop:2.5|2.0 upaint:3174.5|980.5
+r500  n=6  cov:853.5|435.0 money:2465.0|1065.0 srp:0.0|0.0 pt:4.5|2.5 mt:6.0|1.5 dt:0.0|0.0 sol:7.5|4.0 spl:11.0|4.0 mop:2.5|0.5 upaint:3803.0|1285.0
+rend  n=12 cov:1098.5|115.0 money:1495.0|515.0 srp:0.0|0.0 pt:7.5|1.0 mt:6.0|1.0 dt:0.0|0.0 sol:18.5|0.5 spl:11.5|0.0 mop:4.5|2.0 upaint:5631.5|352.5
+first SRP round              us med       -  opp med       -   us:[None, None, None, None, None, None, None, None, None, None, None, None]
+                             opp:[None, None, None, None, None, None, None, None, None, None, None, None]
+SRP completions total        us med     0.0  opp med     0.0   us:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                             opp:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+SRP completions <=200        us med     0.0  opp med     0.0   us:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                             opp:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+first tower build round      us med    17.0  opp med    29.5   us:[22, 12, 14, 17, 17, 19, 16, 19, 32, 14, 19, 14]
+                             opp:[18, 12, 17, 41, 59, 61, None, None, None, None, None, None]
+towers built by 100          us med     3.0  opp med     0.5   us:[3, 3, 3, 3, 2, 3, 3, 1, 3, 4, 4, 4]
+                             opp:[1, 5, 3, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+towers built by 200          us med     6.0  opp med     0.5   us:[6, 8, 4, 6, 8, 6, 6, 1, 8, 11, 9, 4]
+                             opp:[1, 8, 3, 1, 2, 2, 0, 0, 0, 0, 0, 0]
+upgrades                     us med     3.0  opp med     0.0   us:[8, 12, 27, 3, 2, 15, 0, 3, 0, 0, 1, 4]
+                             opp:[2, 15, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+first upgrade round          us med     179  opp med     162   us:[297, 367, 132, 168, 309, 179, None, 146, None, None, 226, 146]
+                             opp:[125, 162, 211, None, None, None, None, None, None, None, None, None]
+robots spawned               us med    75.0  opp med    42.5   us:[167, 98, 217, 84, 66, 103, 26, 165, 47, 34, 40, 48]
+                             opp:[59, 149, 90, 33, 44, 52, 25, 116, 36, 28, 28, 41]
+spawned SOLDIER              us med    40.0  opp med    13.5   us:[67, 52, 90, 43, 37, 51, 18, 76, 30, 24, 25, 29]
+                             opp:[22, 74, 51, 26, 38, 38, 2, 5, 2, 2, 2, 2]
+spawned SPLASHER             us med    19.5  opp med     1.0   us:[69, 28, 89, 25, 14, 31, 1, 54, 5, 3, 5, 8]
+                             opp:[37, 73, 38, 4, 2, 9, 0, 0, 0, 0, 0, 0]
+spawned MOPPER               us med    15.5  opp med    14.0   us:[31, 18, 38, 16, 15, 21, 7, 35, 12, 7, 10, 11]
+                             opp:[0, 2, 1, 3, 4, 5, 23, 111, 34, 26, 26, 39]
+towers lost                  us med     0.0  opp med     1.0   us:[3, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                             opp:[7, 1, 5, 2, 0, 4, 0, 0, 1, 0, 1, 1]
+mopper unpaint (enemy paint mopped) us med   103.5  opp med    82.0   us:[385, 207, 412, 111, 130, 241, 12, 2, 82, 66, 96, 33]
+                             opp:[0, 15, 7, 19, 28, 40, 124, 423, 225, 158, 169, 146]
+robots died                  us med    34.5  opp med    36.5   us:[131, 81, 162, 39, 30, 45, 7, 74, 17, 7, 13, 19]
+                             opp:[58, 69, 86, 33, 37, 51, 20, 109, 33, 24, 28, 36]
+robots died at 0 paint       us med    34.5  opp med    36.5   us:[115, 69, 147, 39, 30, 45, 7, 74, 17, 7, 13, 19]
+                             opp:[45, 64, 67, 30, 37, 51, 19, 109, 33, 21, 27, 36]
+mark actions                 us med   420.0  opp med   120.0   us:[384, 624, 408, 480, 432, 552, 192, 528, 504, 336, 336, 336]
+                             opp:[288, 936, 168, 3096, 5040, 3000, 48, 48, 48, 48, 48, 72]
+soldier attack frac          us med     0.0  opp med     0.0   us:[0.11, 0.09, 0.09, 0.05, 0.04, 0.05, 0.0, 0.02, 0.04, 0.03, 0.03, 0.0]
+                             opp:[0.15, 0.02, 0.13, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+soldier attacks n            us med    37.0  opp med     0.0   us:[114, 119, 125, 60, 33, 54, 1, 29, 41, 21, 24, 2]
+                             opp:[96, 33, 88, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+soldier paints n             us med  1000.5  opp med   127.0   us:[893, 1231, 1238, 1133, 733, 1072, 576, 1377, 1085, 714, 712, 929]
+                             opp:[547, 1423, 584, 205, 249, 279, 44, 49, 36, 45, 34, 45]
+splashes n                   us med    38.5  opp med     5.0   us:[221, 134, 175, 51, 18, 45, 1, 87, 14, 4, 16, 32]
+                             opp:[278, 427, 236, 20, 10, 42, 0, 0, 0, 0, 0, 0]
+mop swings/attacks n         us med     2.0  opp med   115.0   us:[6, 4, 2, 6, 0, 2, 2, 0, 12, 2, 16, 0]
+                             opp:[0, 4, 0, 0, 0, 0, 226, 1334, 362, 250, 246, 344]
+enemy units near MY towers<=100 us med     0.0  opp med     3.5   us:[1, 0, 0, 3, 0, 2, 0, 4, 0, 0, 0, 0]
+                             opp:[0, 0, 3, 8, 0, 8, 5, 9, 4, 2, 4, 3]
+first enemy near MY towers   us med    21.5  opp med      23   us:[89, None, None, 29, None, 14, None, 2, None, None, None, None]
+                             opp:[None, None, 85, 8, None, 3, 23, 2, 6, 41, 62, 25]
+dmg taken by my towers<=150  us med     0.0  opp med    25.0   us:[350, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                             opp:[0, 0, 350, 500, 0, 0, 50, 0, 450, 100, 0, 50]
+tower deaths (victim side: round, type, killers dmg by type):
+  12 0 us lost: [[359, 'PA', {'SOLDIER': 150, 'SPLASHER': 400}], [604, 'PA', {'SPLASHER': 100, 'SOLDIER': 100}], [619, 'MO', {'SPLASHER': 100}]]  opp lost: [[240, 'PA', {'SOLDIER': 1000}], [403, 'MO', {'SOLDIER': 350}], [559, 'PA', {'SOLDIER': 200, 'SPLASHER': 100}], [585, 'MO', {'SPLASHER': 100}], [596, 'PA', {'SPLASHER': 200, 'SOLDIER': 700}], [823, 'PA', {'SPLASHER': 300, 'SOLDIER': 100}], [854, 'MO', {'SPLASHER': 100, 'SOLDIER': 300}]]
+  12 1 us lost: [[283, 'PA', {'SPLASHER': 1000}], [436, 'PA', {'SOLDIER': 400, 'SPLASHER': 300}], [443, 'PA', {'SPLASHER': 1100}], [468, 'PA', {'SPLASHER': 300}], [569, 'PA', {'SOLDIER': 300, 'SPLASHER': 100}]]  opp lost: [[612, 'MO', {'SOLDIER': 150}]]
+  12 2 us lost: [[204, 'MO', {'SPLASHER': 1200}], [1079, 'MO', {'SOLDIER': 400, 'SPLASHER': 200}]]  opp lost: [[389, 'PA', {'SPLASHER': 100, 'SOLDIER': 400}], [670, 'PA', {'SOLDIER': 600, 'SPLASHER': 200}], [833, 'MO', {'SOLDIER': 200}], [931, 'MO', {'SOLDIER': 350}], [1162, 'PA', {'SOLDIER': 50}]]
+  14 0 us lost: []  opp lost: [[318, 'PA', {'SOLDIER': 450}], [473, 'PA', {'SOLDIER': 100, 'SPLASHER': 400}]]
+  14 1 us lost: []  opp lost: []
+  14 2 us lost: []  opp lost: [[441, 'PA', {'SPLASHER': 600, 'SOLDIER': 500}], [489, 'PA', {'SOLDIER': 450, 'SPLASHER': 200}], [532, 'PA', {'SOLDIER': 350, 'SPLASHER': 300}], [592, 'PA', {'SOLDIER': 50}]]
+  6 0 us lost: []  opp lost: []
+  6 1 us lost: []  opp lost: []
+  6 2 us lost: []  opp lost: [[279, 'MO', {'SOLDIER': 300}]]
+  7 0 us lost: []  opp lost: []
+  7 1 us lost: []  opp lost: [[210, 'PA', {'SPLASHER': 300, 'SOLDIER': 1200}]]
+  7 2 us lost: []  opp lost: [[333, 'MO', {'SPLASHER': 400, 'SOLDIER': 50}]]
+opening (first 10 spawns):
+  12 0 us: SOL SOL SOL SOL MOP MOP SOL MON SOL SOL  | opp: SOL SOL SOL SOL SOL PAI SOL SOL SOL SOL
+  12 1 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL PAI PAI MON MON MON
+  12 2 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: SOL SOL SOL SOL SOL PAI SOL SOL SOL SOL
+  14 0 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: MOP MOP SOL SOL SPL SOL SOL PAI MOP SPL
+  14 1 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: MOP MOP SOL SOL SOL SOL SOL SOL PAI SOL
+  14 2 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: MOP MOP SOL SOL SOL SPL SOL SOL PAI MOP
+  6 0 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: MOP MOP SOL SOL MOP MOP MOP MOP MOP MOP
+  6 1 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: MOP MOP SOL SOL MOP MOP MOP MOP MOP MOP
+  6 2 us: SOL SOL SOL SOL MOP MOP SOL MON SOL SOL  | opp: MOP MOP SOL SOL MOP MOP MOP MOP MOP MOP
+  7 0 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: MOP MOP SOL SOL MOP MOP MOP MOP MOP MOP
+  7 1 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: MOP MOP SOL SOL MOP MOP MOP MOP MOP MOP
+  7 2 us: SOL SOL SOL SOL MOP MOP MON SOL SOL SOL  | opp: MOP MOP SOL SOL MOP MOP MOP MOP MOP MOP
+upgrades:
+  12 0 us: [[297, 'PAINT_TOWER', '2'], [364, 'PAINT_TOWER', '2'], [458, 'PAINT_TOWER', '2'], [571, 'MONEY_TOWER', '2'], [699, 'PAINT_TOWER', '2'], [1027, 'MONEY_TOWER', '2']] | opp: [[125, 'PAINT_TOWER', '2'], [357, 'PAINT_TOWER', '2']]
+  12 1 us: [[367, 'PAINT_TOWER', '2'], [388, 'PAINT_TOWER', '2'], [420, 'PAINT_TOWER', '2'], [443, 'PAINT_TOWER', '2'], [463, 'PAINT_TOWER', '2'], [487, 'PAINT_TOWER', '2']] | opp: [[162, 'PAINT_TOWER', '2'], [282, 'PAINT_TOWER', '2'], [328, 'PAINT_TOWER', '2'], [368, 'PAINT_TOWER', '2'], [386, 'PAINT_TOWER', '2'], [424, 'PAINT_TOWER', '2']]
+  12 2 us: [[132, 'MONEY_TOWER', '2'], [164, 'MONEY_TOWER', '2'], [198, 'PAINT_TOWER', '2'], [332, 'PAINT_TOWER', '2'], [351, 'PAINT_TOWER', '2'], [377, 'MONEY_TOWER', '2']] | opp: [[211, 'PAINT_TOWER', '2'], [308, 'PAINT_TOWER', '2'], [489, 'PAINT_TOWER', '2'], [688, 'PAINT_TOWER', '4']]
+  14 0 us: [[168, 'PAINT_TOWER', '2'], [308, 'PAINT_TOWER', '2'], [392, 'PAINT_TOWER', '2']] | opp: []
+  14 1 us: [[309, 'PAINT_TOWER', '2'], [343, 'PAINT_TOWER', '2']] | opp: []
+  14 2 us: [[179, 'PAINT_TOWER', '2'], [201, 'PAINT_TOWER', '2'], [240, 'MONEY_TOWER', '2'], [265, 'MONEY_TOWER', '2'], [294, 'MONEY_TOWER', '2'], [325, 'MONEY_TOWER', '2']] | opp: []
+  6 0 us: [] | opp: []
+  6 1 us: [[146, 'MONEY_TOWER', '2'], [224, 'PAINT_TOWER', '4'], [325, 'PAINT_TOWER', '2']] | opp: []
+  6 2 us: [] | opp: []
+  7 0 us: [] | opp: []
+  7 1 us: [[226, 'PAINT_TOWER', '2']] | opp: []
+  7 2 us: [[146, 'PAINT_TOWER', '2'], [199, 'MONEY_TOWER', '2'], [231, 'MONEY_TOWER', '2'], [259, 'PAINT_TOWER', '2']] | opp: []
+territory (n tiles, med dist to own spawn, med dist to center, frac on own half):
+  r100 12 0 us [219, 9.7, 12.7, 1.0]  opp [222, 10.6, 12.5, 0.89]
+  r100 12 1 us [283, 12.0, 16.3, 0.99]  opp [324, 16.7, 11.7, 0.81]
+  r100 12 2 us [319, 14.0, 14.1, 0.81]  opp [275, 13.8, 15.8, 0.83]
+  r100 14 0 us [277, 10.0, 11.9, 0.88]  opp [150, 8.8, 7.1, 0.6]
+  r100 14 1 us [202, 12.5, 14.1, 0.97]  opp [168, 9.6, 16.5, 0.86]
+  r100 14 2 us [239, 10.5, 12.0, 0.95]  opp [139, 12.8, 8.1, 0.76]
+  r100 6 0 us [372, 13.2, 11.0, 0.71]  opp [41, 5.6, 15.0, 1.0]
+  r100 6 1 us [268, 10.4, 26.6, 0.96]  opp [44, 12.1, 30.1, 1.0]
+  r100 6 2 us [278, 9.9, 10.7, 0.71]  opp [36, 14.9, 18.0, 0.58]
+  r100 7 0 us [293, 12.1, 10.8, 0.77]  opp [44, 7.6, 17.0, 1.0]
+  r100 7 1 us [309, 13.5, 12.7, 0.89]  opp [34, 10.2, 23.7, 1.0]
+  r100 7 2 us [337, 13.8, 13.4, 0.8]  opp [39, 18.3, 26.2, 1.0]
+  r200 12 0 us [396, 10.5, 13.5, 0.9]  opp [283, 10.3, 12.5, 0.91]
+  r200 12 1 us [639, 16.6, 20.1, 0.94]  opp [857, 19.2, 16.1, 0.71]
+  r200 12 2 us [447, 14.1, 17.0, 0.81]  opp [430, 14.8, 14.8, 0.78]
+  r200 14 0 us [553, 13.6, 15.6, 0.83]  opp [224, 7.2, 8.7, 0.78]
+  r200 14 1 us [494, 15.9, 15.6, 0.89]  opp [243, 10.0, 17.0, 0.9]
+  r200 14 2 us [461, 17.4, 14.0, 0.6]  opp [206, 12.7, 9.2, 0.82]
+  r200 6 0 us [582, 15.0, 11.4, 0.66]  opp [33, 6.0, 15.6, 1.0]
+  r200 6 1 us [330, 11.3, 27.0, 0.97]  opp [44, 12.1, 30.1, 1.0]
+  r200 6 2 us [657, 12.1, 12.3, 0.67]  opp [31, 15.0, 18.6, 0.68]
+  r200 7 0 us [698, 16.5, 12.2, 0.53]  opp [17, 8.5, 18.0, 1.0]
+  r200 7 1 us [614, 14.8, 12.7, 0.68]  opp [21, 11.0, 25.3, 1.0]
+  r200 7 2 us [619, 15.5, 14.3, 0.68]  opp [36, 18.4, 26.2, 1.0]
