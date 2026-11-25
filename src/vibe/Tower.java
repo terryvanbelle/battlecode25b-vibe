@@ -41,11 +41,11 @@ public strictfp class Tower {
         // a third moppers: they drain enemy robots, clean ruins and feed allies
         switch (k) {
             case 0: return UnitType.SOLDIER;
-            case 1: return UnitType.SPLASHER;
-            case 2: return UnitType.MOPPER;
-            case 3: return UnitType.SPLASHER;
-            case 4: return UnitType.MOPPER;
-            default: return UnitType.SOLDIER;
+            case 1: return UnitType.MOPPER;
+            case 2: return UnitType.SPLASHER;
+            case 3: return UnitType.MOPPER;
+            case 4: return UnitType.SOLDIER;
+            default: return UnitType.MOPPER;
         }
     }
 

@@ -13,13 +13,17 @@
 # sw03 (retired: -120 vs y02 after 50, > 2 SE; greed is the losing side of the y02 trade)
 # sw04 (retired: -21 vs sw06 after 431; paint reserve, y02 base; sw08 carries it on the mopper mix)
 # sw05 (retired: -92 vs y06 after 145, > 2 SE; early 1-in-3 soldier rush; v2 to be designed: paired rush or ruin-denial)
-sw06
+# sw06 (retired: former champion, -38 vs y11 after 863)
 # y10 (retired: -103 vs sw06 after 281; fewer upgrades fails again)
 # sw07 (retired: -93 vs sw06 after 294; paint reserve on y06)
-sw08
+# sw08 (retired: -34 vs y11 after 604; tower paint reserve neutral)
 y11
-y12
-sw09
+# y12 (retired: -38 vs y11 after 458; earlier refills neutral)
+# sw09 (retired: -103 vs y11 after 448; SRP v3 (late, near own towers) - third SRP version to lose; SRPs parked)
 y13
 y14
 sw10
+y15
+y16
+sw11
+sw12
