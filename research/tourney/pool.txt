@@ -57,13 +57,13 @@ y30
 # sw20 (retired: -103 vs sw17 after 154; full early rush)
 y37
 # y38 (retired: -37 vs y30 after 364; wide defence)
-y39
+# y39 (retired: -10 vs y30 after 681; siege from 15 paint r2 225)
 y40
 # sw21 (retired: -54 vs y30 after 210; study2 H1 opening cap + reserve)
 # sw22 (retired: -30 vs y30 after 256; study2 H3 hurt-upgrade)
-y41
+# y41 (retired: -14 vs y30 after 542; distance-based refill)
 # sw23 (retired: -83 vs y30 after 221; study2 H5 no lone sieges)
 # sw24 (retired: -49 vs y30 after 203; study2 H1+H3+H4)
-sw25
+# sw25 (retired: -96 vs y30 after 243; SRP v3 on y30 - 4th SRP version to lose)
 y42
 y43
