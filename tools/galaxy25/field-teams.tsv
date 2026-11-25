@@ -1,0 +1,8 @@
+# The field (tools/galaxy25/field.py seed): team<TAB>location (~ expanded, on the machine running seed)<TAB>about
+# A location is a Java package directory, a submission .zip (<package>/RobotPlayer.java ...), or a directory holding
+# exactly one such .zip. `field.py scan` prints rows for every ~/projects/vibe/bc25b-benchmarks/<team>/: append the
+# wanted ones below, then `field.py seed`.
+# The official examplefuncsplayer twice: the replica's end-to-end test teams.
+bc25-example	~/projects/vibe/reference/battlecode25-scaffold/java/src/examplefuncsplayer	The official examplefuncsplayer (battlecode25-scaffold).
+bc25-example-copy	~/projects/vibe/reference/battlecode25-scaffold/java/src/examplefuncsplayer	A second copy of the official examplefuncsplayer.
+# Benchmark field (~/projects/vibe/bc25b-benchmarks): none yet.
