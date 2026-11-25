@@ -5,6 +5,7 @@ import battlecode.common.*;
 /** Moppers: swing at enemy robots, mop enemy paint (ruin pattern areas and ground under enemies first), give paint
  *  to low allies, and hunt enemy paint near our territory. */
 public strictfp class Mopper {
+    static final int DEFEND_R2 = 25, DEFEND_BONUS = 40;
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
         if (rc.isActionReady()) act();
@@ -70,6 +71,8 @@ public strictfp class Mopper {
         for (RobotInfo e : G.enemies) {
             if (!e.type.isRobotType()) continue;
             int d = G.here.distanceSquaredTo(e.location);
+            // defend: enemy robots within reach of one of our towers come first
+            for (int i = G.nTowers; --i >= 0; ) if (G.towerLoc[i].distanceSquaredTo(e.location) <= DEFEND_R2) { d -= DEFEND_BONUS; break; }
             if (d < bestD) { bestD = d; best = e.location; }
         }
         for (MapInfo mi : G.infos) {

@@ -25,12 +25,16 @@
 # sw10 (retired: -50 vs y11 after 433; ruin denial v1 fires too rarely)
 # y15 (retired: -46 vs sw11 after 488; generous mopper transfers)
 # y16 (retired: -34 vs sw11 after 482; earlier upgrades)
-sw11
+# sw11 (retired: former champion)
 sw12
 sw13
 y17
 # y18 (retired: -25 vs sw11 after 466; y15+y16 on sw11)
 y19
 y20
-sw14
-y21
+# sw14 (retired: -322 vs sw11 after 78; paint towers first starves chips)
+# y21 (retired: -388 vs sw11 after 82; paint towers from 1500 chips starves chips)
+y22
+y23
+y24
+sw15
