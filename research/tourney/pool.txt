@@ -1,11 +1,13 @@
 # v01 (retired: -62 after 386 games)
-v02
+# v02 (retired: -69 vs y02 after 647 games; former champion)
 # y01 (retired: -54 vs v02 after 266 games; y02 carries its upgrade change)
 y02
 # y03 (retired: -90 vs y02 after 255 games; SRP v1 diverted soldiers; second version sw01)
-y04
+# y04 (retired: -71 vs y02 after 164; superseded by y05, same change on y02)
 y05
 sw01
 sw02
 y06
 y07
+y08
+sw03
