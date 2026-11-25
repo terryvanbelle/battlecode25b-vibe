@@ -1,0 +1,330 @@
+#!/usr/bin/env python3
+"""Headless Battlecode 2025 runner.
+
+Bot specs:
+  <dir>/<pkg>            a source package directory (e.g. src/bot, bots/v3); compiled into a private, content-hashed
+                         class tree build/bots/<pkg>-<hash12>/ (never recompiled while in use: trees are immutable)
+  cls:<classdir>:<pkg>   an already compiled class tree (benchmark bots)
+
+Commands:
+  arena.py compile SPEC                  print the class dir
+  arena.py game A B MAP [--seed S] [--out DIR] [--keep]   one game; prints the result row (JSON)
+  arena.py matrix CELLS.tsv --run DIR [--jobs N]          cells: a<TAB>b<TAB>map<TAB>seed per line; appends to
+                                                          DIR/results.jsonl, skipping cells already present
+Every game runs with no network (unshare -rn), a heap cap and a wall-clock cap, and holds one machine-wide slot
+(flock on $BC_SLOTS_DIR/slot<i>, i < $BC_SLOTS) so that every tool shares one concurrency limit.
+The row's summary fields come from one ReplayDump run (tsv mode with --tsv, else summary mode; its stdout is never
+passed through). The tools are rebuilt first when a source is newer (tools/build-tools.sh); when that build fails,
+the classes of the last good build are used and the row gets tools_warning (its dumpVersion says which dumper).
+A replay that fails to summarize gets summary_error and no winType (the server's winner line still scores it).
+"""
+import argparse, fcntl, hashlib, json, os, re, shutil, subprocess, sys, tempfile, threading, time
+
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+JDK = os.environ.get('BC_JDK', os.path.expanduser('~/opt/jdk21'))
+ENGINE = os.path.join(REPO, 'engine', 'battlecode25-java-3.1.0.jar')
+TOOLS_CP = os.path.join(REPO, 'build', 'tools')
+MAPS = os.path.join(REPO, 'maps')
+SLOTS = int(os.environ.get('BC_SLOTS', '7'))
+SLOTS_DIR = os.environ.get('BC_SLOTS_DIR', '/tmp/bc25b-slots')
+GAME_TIMEOUT = int(os.environ.get('BC_GAME_TIMEOUT', '1800'))
+XMX = os.environ.get('BC_XMX', '1g')
+ADD_OPENS = ['--add-opens=java.base/jdk.internal.misc=ALL-UNNAMED', '--add-opens=java.base/jdk.internal.math=ALL-UNNAMED',
+             '--add-opens=java.base/jdk.internal.util=ALL-UNNAMED', '--add-opens=java.base/jdk.internal.access=ALL-UNNAMED',
+             '--add-opens=java.base/sun.security.action=ALL-UNNAMED']
+
+
+def tree_hash(d):
+    h = hashlib.sha256()
+    for root, dirs, files in sorted(os.walk(d)):
+        dirs.sort()
+        for f in sorted(files):
+            if f.endswith('.java'):
+                p = os.path.join(root, f)
+                h.update(os.path.relpath(p, d).encode()); h.update(b'\0'); h.update(open(p, 'rb').read())
+    return h.hexdigest()
+
+
+class Bot:
+    """A bot: package name, class dir, content hash, display name."""
+    def __init__(self, spec):
+        self.spec = spec
+        if spec.startswith('cls:'):
+            _, self.cls, self.pkg = spec.split(':', 2)
+            self.hash = 'cls-' + hashlib.sha256(self.cls.encode()).hexdigest()[:12]
+            if os.path.exists(os.path.join(self.cls, '.hash')):
+                self.hash = open(os.path.join(self.cls, '.hash')).read().strip()
+            self.name = self.pkg
+        else:
+            src = os.path.abspath(spec).rstrip('/')
+            self.pkg = os.path.basename(src)
+            self.hash = tree_hash(src)[:12]
+            self.name = self.pkg
+            self.cls = os.path.join(REPO, 'build', 'bots', f'{self.pkg}-{self.hash}')
+            if not os.path.isdir(self.cls):
+                compile_pkg(src, self.pkg, self.cls)
+
+
+def compile_pkg(src, pkg, out):
+    files = [os.path.join(r, f) for r, _, fs in os.walk(src) for f in fs if f.endswith('.java')]
+    if not files:
+        raise SystemExit(f'no java sources in {src}')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    tmp = tempfile.mkdtemp(prefix='.cmp-', dir=os.path.dirname(out))
+    r = subprocess.run([os.path.join(JDK, 'bin', 'javac'), '-nowarn', '-proc:none', '-encoding', 'UTF-8', '--release', '21',
+                        '-cp', ENGINE, '-d', tmp] + files, capture_output=True, text=True)
+    if r.returncode != 0:
+        shutil.rmtree(tmp, ignore_errors=True)
+        raise SystemExit(f'compile failed for {src}:\n{r.stderr[-3000:]}')
+    try:
+        os.rename(tmp, out)          # atomic publish; a concurrent compile of the same hash loses harmlessly
+    except OSError:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+class Slot:
+    """Machine-wide game slot (flock), shared by every tool that starts games."""
+    def __enter__(self):
+        os.makedirs(SLOTS_DIR, exist_ok=True)
+        while True:
+            for i in range(SLOTS):
+                f = open(os.path.join(SLOTS_DIR, f'slot{i}'), 'w')
+                try:
+                    fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                    self.f = f
+                    return self
+                except BlockingIOError:
+                    f.close()
+            time.sleep(0.5)
+
+    def __exit__(self, *a):
+        fcntl.flock(self.f, fcntl.LOCK_UN); self.f.close()
+
+
+_map_lock = threading.Lock()
+
+
+def map_dir(seed):
+    """Seed 0 = the original maps. Otherwise copies with the map seed replaced, built once per seed."""
+    if not seed:
+        return MAPS
+    d = os.path.join(REPO, 'build', 'maps', f's{seed}')
+    with _map_lock:
+        if not os.path.isdir(d):
+            names = sorted(f[:-6] for f in os.listdir(MAPS) if f.endswith('.map25'))
+            tmp = d + f'.tmp{os.getpid()}'
+            err, warn = tools_ready('bc25tools.MapReseed')
+            if err:
+                raise RuntimeError(err)
+            if warn:
+                print(f'arena: {warn}\narena: MapReseed runs from the existing build/tools classes', file=sys.stderr)
+            p = java_tool('bc25tools.MapReseed', MAPS, tmp, str(seed), *names)
+            if p.returncode != 0:
+                shutil.rmtree(tmp, ignore_errors=True)
+                raise RuntimeError(f'MapReseed failed: {p.stderr.strip()[-1000:]}')
+            try: os.rename(tmp, d)
+            except OSError: shutil.rmtree(tmp, ignore_errors=True)
+    return d
+
+
+WIN_RE = re.compile(r'\[server\]\s+(\S+) \(([AB])\) wins \(round (\d+)\)')
+REASON_RE = re.compile(r'\[server\] Reason: (.*)')
+
+
+SUMMARY_KEYS = ('winType', 'covA', 'covB', 'covPctA', 'covPctB', 'moneyA', 'moneyB', 'srpA', 'srpB', 'towersA',
+                'towersB', 'unitsA', 'unitsB', 'spawnedA', 'spawnedB', 'diedA', 'diedB', 'towersBuiltA',
+                'towersBuiltB', 'towersLostA', 'towersLostB', 'exceptionsA', 'exceptionsB', 'maxBcRobotA',
+                'maxBcRobotB', 'maxBcTowerA', 'maxBcTowerB', 'atLimitA', 'atLimitB', 'r50A', 'r50B', 'r70A', 'r70B',
+                'paintable', 'covMismatch', 'dumpVersion')
+TOOLS_RETRY = 60        # seconds before a failed tools build is tried again
+_tools_lock = threading.Lock()
+_tools = {'ok': False, 'err': None, 'at': None}
+
+
+def build_tools():
+    """Run tools/build-tools.sh (it recompiles only when a source is newer than the classes): None once it has
+    succeeded in this process (it is not run again), else its error text. A failure is not kept: a call TOOLS_RETRY
+    seconds later builds again."""
+    with _tools_lock:
+        if not _tools['ok'] and (_tools['at'] is None or time.time() - _tools['at'] >= TOOLS_RETRY):
+            b = subprocess.run([os.path.join(REPO, 'tools', 'build-tools.sh')], capture_output=True, text=True)
+            _tools.update(ok=b.returncode == 0, at=time.time(),
+                          err=None if b.returncode == 0 else f'build-tools.sh failed: {b.stderr.strip()[-1000:]}')
+        return _tools['err']
+
+
+def tools_ready(cls):
+    """(error, warning) before running the build/tools class cls: a failed build is only a warning while the class is
+    there from an earlier build (build-tools.sh fails before it touches build/tools), else it is the error."""
+    err = build_tools()
+    if err and os.path.isfile(os.path.join(TOOLS_CP, *cls.split('.')) + '.class'):
+        return None, err
+    return err, None
+
+
+def java_tool(*args):
+    """Run a build/tools class (args: class, then its arguments); CompletedProcess. Holds the build lock shared, so
+    build-tools.sh cannot swap or delete the class tree while the JVM loads from it."""
+    with open(os.path.join(REPO, 'build', '.tools.lock'), 'a') as lk:
+        fcntl.flock(lk, fcntl.LOCK_SH)
+        return subprocess.run([os.path.join(JDK, 'bin', 'java'), '-cp', f'{ENGINE}:{os.path.realpath(TOOLS_CP)}',
+                               *args], capture_output=True, text=True)
+
+
+def parse_summary(p):
+    """(game 0's summary dict, None) or (None, error) from a ReplayDump run: a non-zero exit (summary mode exits 1 on
+    a bad replay, after an 'error' line), no output, an 'error' line and a summary without winType are all errors."""
+    if p.returncode != 0:
+        return None, f'ReplayDump exit {p.returncode}: {(p.stderr or "").strip()[-500:]}'
+    try:
+        lines = [json.loads(x) for x in p.stdout.splitlines() if x.strip()]
+    except ValueError as e:
+        return None, f'ReplayDump output is not JSON: {e}'
+    bad = next((x for x in lines if 'error' in x), None)
+    if bad:
+        return None, f"ReplayDump: {bad['error']}"
+    if not lines or lines[0].get('winType') is None:
+        return None, 'ReplayDump: no summary with a winType'
+    return lines[0], None
+
+
+def summarize(replay, tsv_dir=None):
+    """(summary, error, tools warning) of a replay's game 0 (parse_summary; tools_ready); with tsv_dir, the tsv dump
+    is written there in the same run."""
+    err, warn = tools_ready('bc25tools.ReplayDump')
+    if err:
+        return None, err, None
+    p = java_tool('bc25tools.ReplayDump', *(('tsv', replay, tsv_dir) if tsv_dir else ('summary', replay)))
+    return (*parse_summary(p), warn)
+
+
+def add_summary(row, summ, err, warn=None):
+    """Copy a summary's fields into a result row, or record summary_error (no winType);
+    a tools build failure that the existing classes covered goes in tools_warning."""
+    if warn:
+        row['tools_warning'] = warn
+    if err:
+        row['summary_error'] = err
+        return row
+    for k in SUMMARY_KEYS:
+        row[k] = summ.get(k)
+    return row
+
+
+def run_game(a, b, mapname, seed=0, out=None, keep=False, tsv=False):
+    """Play one game; return the result row. a and b are Bot objects (a plays team A)."""
+    tmpdir = None
+    if out is None:
+        tmpdir = out = tempfile.mkdtemp(prefix='game-')
+    out = os.path.abspath(out)
+    os.makedirs(out, exist_ok=True)
+    tag = f'{a.name}-{a.hash[:6]}_vs_{b.name}-{b.hash[:6]}_{mapname}_s{seed}'
+    replay = os.path.join(out, tag + '.bc25')
+    md = map_dir(seed)
+    pkg_a, pkg_b = a.pkg, b.pkg
+    cmd = ['timeout', str(GAME_TIMEOUT), os.path.join(JDK, 'bin', 'java'), f'-Xmx{XMX}', '-XX:+UseSerialGC', *ADD_OPENS,
+           '-cp', ENGINE, '-Dbc.server.mode=headless', f'-Dbc.game.map-path={md}',
+           '-Dbc.server.robot-player-to-system-out=false', '-Dbc.server.debug=false',
+           '-Dbc.engine.debug-methods=false', '-Dbc.engine.enable-profiler=false', '-Dbc.engine.show-indicators=true',
+           f'-Dbc.game.team-a={pkg_a}', f'-Dbc.game.team-b={pkg_b}', f'-Dbc.game.team-a.url={a.cls}',
+           f'-Dbc.game.team-b.url={b.cls}', f'-Dbc.game.team-a.package={pkg_a}', f'-Dbc.game.team-b.package={pkg_b}',
+           f'-Dbc.game.maps={mapname}', '-Dbc.server.validate-maps=false', f'-Dbc.server.save-file={replay}',
+           'battlecode.server.Main', '-c=-']
+    if shutil.which('unshare') and os.environ.get('BC_NONET', '1') == '1':
+        cmd = ['unshare', '-rn'] + cmd
+    t0 = time.time()
+    with Slot():
+        p = subprocess.run(cmd, capture_output=True, text=True, cwd=out)
+    wall = time.time() - t0
+    row = {'a': a.name, 'a_hash': a.hash, 'b': b.name, 'b_hash': b.hash, 'a_spec': a.spec, 'b_spec': b.spec, 'map': mapname, 'seed': seed,
+           'wall': round(wall, 1), 'exit': p.returncode}
+    m = WIN_RE.search(p.stdout)
+    if m:
+        row['winner'], row['rounds'] = m.group(2), int(m.group(3))
+    r = REASON_RE.search(p.stdout)
+    row['reason'] = r.group(1).strip() if r else None
+    if p.returncode != 0 or not m:
+        row['error'] = (p.stderr or p.stdout)[-1500:]
+    if os.path.exists(replay):
+        add_summary(row, *summarize(replay, os.path.join(out, tag) if tsv else None))
+        if keep or tsv:
+            row['replay'] = replay
+        else:
+            os.remove(replay)
+    if tmpdir and not keep and not tsv:
+        shutil.rmtree(tmpdir, ignore_errors=True)
+    return row
+
+
+def cell_key(a_hash, b_hash, mapname, seed):
+    return f'{a_hash}|{b_hash}|{mapname}|{seed}'
+
+
+def matrix(cells_file, run, jobs, keep_losses_for=None):
+    os.makedirs(run, exist_ok=True)
+    res = os.path.join(run, 'results.jsonl')
+    done = set()
+    if os.path.exists(res):
+        for line in open(res):
+            try:
+                d = json.loads(line); done.add(cell_key(d['a_hash'], d['b_hash'], d['map'], d['seed']))
+            except Exception:
+                pass
+    bots, cells = {}, []
+    for line in open(cells_file):
+        if not line.strip() or line.startswith('#'):
+            continue
+        sa, sb, mp, sd = line.rstrip('\n').split('\t')[:4]
+        for s in (sa, sb):
+            if s not in bots:
+                bots[s] = Bot(s)
+        if cell_key(bots[sa].hash, bots[sb].hash, mp, int(sd)) not in done:
+            cells.append((bots[sa], bots[sb], mp, int(sd)))
+    for sd in sorted({c[3] for c in cells}):
+        map_dir(sd)          # here, not in the workers: a failure stops the run before any game
+    lock = threading.Lock()
+    it = iter(cells)
+    n = [0]
+
+    def worker():
+        while True:
+            with lock:
+                c = next(it, None)
+            if c is None:
+                return
+            row = run_game(*c, out=os.path.join(run, 'replays'), keep=os.environ.get('BC_KEEP') == '1')
+            with lock:
+                with open(res, 'a') as f:
+                    f.write(json.dumps(row) + '\n')
+                n[0] += 1
+    ts = [threading.Thread(target=worker) for _ in range(max(1, jobs))]
+    for t in ts: t.start()
+    for t in ts: t.join()
+    open(os.path.join(run, 'DONE'), 'w').write(f'{n[0]} new games\n')
+    print(f'{n[0]} games -> {res}')
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    sp = ap.add_subparsers(dest='cmd', required=True)
+    c = sp.add_parser('compile'); c.add_argument('spec')
+    g = sp.add_parser('game'); g.add_argument('a'); g.add_argument('b'); g.add_argument('map')
+    g.add_argument('--seed', type=int, default=0); g.add_argument('--out'); g.add_argument('--keep', action='store_true')
+    g.add_argument('--tsv', action='store_true')
+    m = sp.add_parser('matrix'); m.add_argument('cells'); m.add_argument('--run', required=True)
+    m.add_argument('--jobs', type=int, default=SLOTS)
+    args = ap.parse_args()
+    if args.cmd == 'compile':
+        print(Bot(args.spec).cls)
+        return
+    try:
+        if args.cmd == 'game':
+            print(json.dumps(run_game(Bot(args.a), Bot(args.b), args.map, args.seed, args.out, args.keep, args.tsv)))
+        elif args.cmd == 'matrix':
+            matrix(args.cells, args.run, args.jobs)
+    except RuntimeError as e:      # map_dir: a tools build or MapReseed failure
+        sys.exit(f'arena: {e}')
+
+
+if __name__ == '__main__':
+    main()
