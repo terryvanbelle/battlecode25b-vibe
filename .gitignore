@@ -1,0 +1,7 @@
+build/
+runs/
+*.bc25
+__pycache__/
+.venv/
+*.class
+engine/*.jar
