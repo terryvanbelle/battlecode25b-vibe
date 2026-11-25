@@ -9,7 +9,7 @@ public strictfp class Mopper {
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
         if (rc.isActionReady()) act();
-        if (G.paint < 15 && Unit.refill(15)) return;
+        if (G.paint < 40 && Unit.refill(40)) return;
         MapLocation goal = target();
         Nav.moveTo(goal != null ? goal : Unit.exploreTarget());
         if (rc.isActionReady()) act();

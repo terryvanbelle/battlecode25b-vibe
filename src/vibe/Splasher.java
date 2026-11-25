@@ -16,7 +16,7 @@ public strictfp class Splasher {
         towersIntoGrid();
         boolean done = false;
         if (G.paint >= 50 && rc.isActionReady()) done = splash(9);
-        if (Unit.refill(50)) return;
+        if (Unit.refill(100)) return;
         // guards: a unit's first turn on a big map spends most of its budget on the map memory
         MapLocation goal = Clock.getBytecodesLeft() > 5000 ? frontier() : null;
         Nav.moveTo(goal != null ? goal : Unit.exploreTarget());

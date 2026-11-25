@@ -50,6 +50,20 @@ public strictfp class Unit {
         return true;
     }
 
+    /** study 3 tactic 3: with the action still unused, top up to full from any adjacent ally tower holding paint. */
+    static void topUp() throws GameActionException {
+        RobotController rc = G.rc;
+        if (!rc.isActionReady()) return;
+        int cap = G.type.paintCapacity, p = rc.getPaint();
+        if (p >= cap) return;
+        MapLocation me = rc.getLocation();
+        for (RobotInfo a : rc.senseNearbyRobots(2, G.me)) {
+            if (!a.type.isTowerType() || a.paintAmount <= 0) continue;
+            int take = Math.min(cap - p, a.paintAmount);
+            if (rc.canTransferPaint(a.location, -take)) { rc.transferPaint(a.location, -take); G.paint = rc.getPaint(); return; }
+        }
+    }
+
     static void markDry(MapLocation l) {
         for (int i = G.nTowers; --i >= 0; ) if (G.towerLoc[i].equals(l)) towerDry[i] = G.round;
     }

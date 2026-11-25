@@ -26,7 +26,7 @@ public strictfp class Soldier {
             if (workRuin()) return;
         }
         if (siege()) return;
-        if (Unit.refill(40)) { paintHere(); return; }
+        if (Unit.refill(100)) { paintHere(); return; }
         // explore, painting as we go
         paintNear();
         Nav.moveTo(Unit.exploreTarget());

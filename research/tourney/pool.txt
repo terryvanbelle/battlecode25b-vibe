@@ -44,7 +44,7 @@
 # y27 (retired: -37 vs sw17 after 504)
 # y28 (retired: -51 vs sw17 after 523; carried in sw17)
 # y29 (retired: -12 vs y30 after 1075; wide defence neutral)
-y30
+# y30 (retired: former champion)
 # y31 (retired: -14 vs y25 after 134, -63 vs y28 parent; kiting matters)
 # sw17 (retired: former champion; splasher siege -23 vs y30)
 # y32 (retired: -55 vs y25 after 107; splashers matter, soldier swap loses again)
@@ -65,12 +65,15 @@ y30
 # sw23 (retired: -83 vs y30 after 221; study2 H5 no lone sieges)
 # sw24 (retired: -49 vs y30 after 203; study2 H1+H3+H4)
 # sw25 (retired: -96 vs y30 after 243; SRP v3 on y30 - 4th SRP version to lose)
-y42
-y43
-sw26
+# y42 (retired: -1 vs y30 after 714)
+# y43 (retired: +6 vs y30 after 710)
+# sw26 (retired: -29 vs y30 after 305; money-first + 1000 reserve alone)
 y44
-sw27
+# sw27 (retired: -72 vs y30 after 304; S-M-X cycle as built)
 sw28
 sw29
 y45
 y46
+y47
+y48
+y49

@@ -13,3 +13,4 @@ when_pdt,bot,base,change,submission
 2026-11-25 13:44,sw16,y25,y25 + soldier siege: with no ruin and paint>=80 kite a known enemy tower within r2 64,43
 2026-11-25 14:04,sw17,sw16,y28 (siege from 50 paint r2 100) + splasher siege (towers weigh 40; walk to known tower within r2 100 at paint>=100),44
 2026-11-25 14:44,y30,sw17,y28 with soldier siege from 30 paint within r2 144 (no splasher siege),45
+2026-11-25 16:30,y44,y30,study 3 tactic 3 (enemy refill policy): return at 50% paint (soldier 100/splasher 100/mopper 40) + end-of-turn top-up from any adjacent ally tower,46
