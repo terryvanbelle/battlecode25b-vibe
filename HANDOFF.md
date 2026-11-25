@@ -56,6 +56,11 @@ season's tools. Times are the owner's zone: `TZ=America/Vancouver` (UTC-7, "PDT"
   `contest.py scrim --n K` until our ranked-match count matches the field median.
 - Timers: field activity is on, and so is autoscrim (8-hourly ranked round), since 2026-11-25 09:30 PDT.
 
+## Replica progress chart
+`python3 tools/replica_elo.py sample`, run every prod, appends our rank and rating and the ratings at places 1, 5, 10
+and 15 to `progress/replica-elo.csv`. `~/.venv-bc25b/bin/python tools/replica_elo.py chart` redraws
+`progress/replica-elo.png` from it (owner prompt #6). The data starts at 2026-11-25 10:44 PDT.
+
 ## Prod
 A session cron fires every 20 minutes (owner prompt #3). It follows TRAINING_ALGORITHM §7.1 and reports on the
 tournament, the replica and disk on the driver, the VM and the box.
