@@ -1,0 +1,35 @@
+just-woke-up  per-tower transitions {'SOL>MOP': 53, 'SPL>SOL': 40, 'MOP>SPL': 37, 'MOP>MOP': 10, 'SOL>SOL': 7, 'MOP>SOL': 4, 'SPL>MOP': 2}
+    team transitions {'SOL>MOP': 42, 'SOL>SOL': 34, 'MOP>SOL': 32, 'MOP>MOP': 26, 'MOP>SPL': 26, 'SPL>SOL': 19, 'SPL>MOP': 18, 'SOL>SPL': 12, 'SPL>SPL': 11}
+    no enemy within 80   n=165  {'SPL': 0.24, 'SOL': 0.45, 'MOP': 0.3}
+    enemy d2 21-80       n=38   {'MOP': 0.53, 'SOL': 0.26, 'SPL': 0.21}
+    enemy within d2<=20  n=23   {'SOL': 0.22, 'MOP': 0.7, 'SPL': 0.09}
+confused  per-tower transitions {'SOL>MOP': 32, 'SOL>SOL': 20, 'MOP>SOL': 18, 'SPL>MOP': 12, 'SPL>SOL': 12, 'SOL>SPL': 9, 'MOP>MOP': 4}
+    team transitions {'SOL>SOL': 37, 'SOL>MOP': 27, 'MOP>SOL': 26, 'SOL>SPL': 20, 'SPL>SOL': 20, 'MOP>MOP': 19, 'MOP>SPL': 16, 'SPL>MOP': 15, 'SPL>SPL': 8}
+    no enemy within 80   n=168  {'SOL': 0.45, 'MOP': 0.3, 'SPL': 0.24}
+    enemy d2 21-80       n=11   {'SPL': 0.18, 'MOP': 0.27, 'SOL': 0.55}
+    enemy within d2<=20  n=15   {'MOP': 0.53, 'SOL': 0.4, 'SPL': 0.07}
+om-nom  per-tower transitions {'SOL>MOP': 38, 'SOL>SOL': 21, 'MOP>SPL': 14, 'SPL>SOL': 12, 'SPL>SPL': 11, 'SPL>MOP': 8, 'MOP>SOL': 4, 'MOP>MOP': 2, 'SOL>SPL': 1}
+    team transitions {'SOL>SOL': 32, 'SOL>MOP': 25, 'MOP>SOL': 25, 'SPL>SPL': 19, 'MOP>SPL': 17, 'SPL>MOP': 16, 'MOP>MOP': 16, 'SPL>SOL': 14, 'SOL>SPL': 14}
+    no enemy within 80   n=126  {'SOL': 0.42, 'MOP': 0.27, 'SPL': 0.31}
+    enemy d2 21-80       n=42   {'SOL': 0.48, 'MOP': 0.36, 'SPL': 0.17}
+    enemy within d2<=20  n=16   {'MOP': 0.56, 'SOL': 0.19, 'SPL': 0.25}
+spaark  per-tower transitions {'MOP>SOL': 26, 'SOL>MOP': 20, 'MOP>SPL': 17, 'SPL>MOP': 17, 'SOL>SPL': 10, 'SPL>SOL': 8, 'SOL>SOL': 4, 'MOP>MOP': 1}
+    team transitions {'MOP>SOL': 28, 'SOL>MOP': 25, 'SOL>SOL': 16, 'SPL>MOP': 15, 'SOL>SPL': 13, 'MOP>SPL': 13, 'SPL>SOL': 9, 'MOP>MOP': 8, 'SPL>SPL': 3}
+    enemy d2 21-80       n=10   {'SOL': 0.5, 'SPL': 0.3, 'MOP': 0.2}
+    no enemy within 80   n=118  {'MOP': 0.37, 'SOL': 0.41, 'SPL': 0.22}
+    enemy within d2<=20  n=5    {'MOP': 0.6, 'SOL': 0.4}
+podemice  per-tower transitions {'SOL>SOL': 19, 'SOL>MOP': 19, 'MOP>SOL': 11, 'SOL>SPL': 11, 'MOP>MOP': 10, 'SPL>SOL': 7, 'MOP>SPL': 6, 'SPL>MOP': 5, 'SPL>SPL': 1}
+    team transitions {'SOL>SOL': 27, 'MOP>SOL': 23, 'SOL>MOP': 19, 'SOL>SPL': 10, 'SPL>MOP': 8, 'SPL>SOL': 7, 'MOP>MOP': 7, 'MOP>SPL': 5, 'SPL>SPL': 3}
+    enemy within d2<=20  n=5    {'MOP': 0.4, 'SOL': 0.6}
+    enemy d2 21-80       n=29   {'SOL': 0.52, 'SPL': 0.24, 'MOP': 0.24}
+    no enemy within 80   n=78   {'SPL': 0.14, 'SOL': 0.53, 'MOP': 0.33}
+lobster-roll  per-tower transitions {'SOL>MOP': 52, 'MOP>SPL': 47, 'SPL>SOL': 41, 'MOP>MOP': 7, 'MOP>SOL': 6, 'SOL>SPL': 1}
+    team transitions {'SOL>MOP': 43, 'MOP>SOL': 35, 'MOP>MOP': 35, 'MOP>SPL': 29, 'SPL>MOP': 20, 'SPL>SOL': 17, 'SPL>SPL': 11, 'SOL>SPL': 8, 'SOL>SOL': 6}
+    no enemy within 80   n=172  {'SOL': 0.32, 'MOP': 0.45, 'SPL': 0.23}
+    enemy d2 21-80       n=31   {'MOP': 0.52, 'SPL': 0.29, 'SOL': 0.19}
+    enemy within d2<=20  n=7    {'MOP': 1.0}
+old-but-gold  per-tower transitions {'SOL>MOP': 24, 'MOP>SPL': 20, 'SPL>SOL': 18, 'MOP>MOP': 4, 'MOP>SOL': 1}
+    team transitions {'SOL>MOP': 17, 'MOP>SPL': 13, 'SPL>SOL': 12, 'MOP>MOP': 10, 'MOP>SOL': 10, 'SOL>SOL': 7, 'SOL>SPL': 5, 'SPL>MOP': 5, 'SPL>SPL': 2}
+    enemy within d2<=20  n=8    {'MOP': 0.88, 'SOL': 0.12}
+    enemy d2 21-80       n=13   {'MOP': 0.54, 'SOL': 0.31, 'SPL': 0.15}
+    no enemy within 80   n=63   {'SOL': 0.41, 'MOP': 0.3, 'SPL': 0.29}

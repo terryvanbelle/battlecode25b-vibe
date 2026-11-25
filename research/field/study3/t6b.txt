@@ -1,0 +1,21 @@
+just-woke-up {'Ain': 0.36, '-out': 0.33, 'Aout': 0.29, '-in': 0.01} n 436
+    pairs [('-out>-out', 128), ('Ain>Aout', 122), ('Aout>Ain', 103), ('-out>Ain', 16), ('Aout>-out', 12), ('Ain>-in', 6)]
+    soldier HP at last hit med 75.0
+confused {'Ain': 0.49, 'Aout': 0.41, '-out': 0.08, '-in': 0.02} n 585
+    pairs [('Ain>Aout', 232), ('Aout>Ain', 177), ('-out>Ain', 40), ('Aout>-out', 36), ('Ain>Ain', 13), ('Ain>-in', 10)]
+    soldier HP at last hit med 100
+om-nom {'Ain': 0.48, 'Aout': 0.4, '-out': 0.09, '-in': 0.03} n 942
+    pairs [('Ain>Aout', 350), ('Aout>Ain', 274), ('-out>Ain', 71), ('Aout>-out', 65), ('-in>Aout', 24), ('Ain>-in', 19)]
+    soldier HP at last hit med 100
+spaark {'Ain': 0.48, 'Aout': 0.37, '-out': 0.13, '-in': 0.03} n 364
+    pairs [('Ain>Aout', 118), ('Aout>Ain', 101), ('-out>Ain', 32), ('Aout>-out', 27), ('-out>-out', 15), ('Ain>-in', 11)]
+    soldier HP at last hit med 90
+podemice {'Ain': 0.35, '-out': 0.35, 'Aout': 0.28, '-in': 0.02} n 589
+    pairs [('-out>-out', 186), ('Ain>Aout', 155), ('Aout>Ain', 95), ('Ain>Ain', 22), ('Aout>-out', 16), ('-out>Ain', 16)]
+    soldier HP at last hit med 160.0
+lobster-roll {'-out': 0.6, 'Ain': 0.4, '-in': 0.0} n 1305
+    pairs [('-out>-out', 427), ('Ain>-out', 354), ('-out>Ain', 353), ('Ain>Ain', 88), ('-in>Ain', 5), ('Ain>-in', 4)]
+    soldier HP at last hit med 40
+old-but-gold {'Ain': 0.48, 'Aout': 0.39, '-out': 0.13} n 361
+    pairs [('Ain>Aout', 139), ('Aout>Ain', 94), ('-out>Ain', 33), ('Aout>-out', 32), ('-out>-out', 15), ('Ain>Ain', 5)]
+    soldier HP at last hit med 100.0

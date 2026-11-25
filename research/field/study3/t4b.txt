@@ -1,0 +1,7 @@
+just-woke-up {'overlaps OWN tower': 121, 'overlaps UNBUILT ruin': 3, 'no overlapping ruin': 17, 'overlaps OUR tower': 2} overlap tiles agreeing with own tower pattern (agree, disagree): [402, 352]
+confused {'overlaps OWN tower': 39, 'no overlapping ruin': 16} overlap tiles agreeing with own tower pattern (agree, disagree): [152, 114]
+om-nom {'overlaps OWN tower': 86, 'overlaps UNBUILT ruin': 11, 'no overlapping ruin': 5} overlap tiles agreeing with own tower pattern (agree, disagree): [186, 171]
+spaark {'overlaps OWN tower': 53, 'no overlapping ruin': 1, 'overlaps OUR tower': 1} overlap tiles agreeing with own tower pattern (agree, disagree): [199, 201]
+podemice {'overlaps OWN tower': 33, 'no overlapping ruin': 8, 'overlaps UNBUILT ruin': 1} overlap tiles agreeing with own tower pattern (agree, disagree): [110, 73]
+lobster-roll {'overlaps OWN tower': 86, 'no overlapping ruin': 24, 'overlaps UNBUILT ruin': 4} overlap tiles agreeing with own tower pattern (agree, disagree): [273, 233]
+old-but-gold {'overlaps OWN tower': 24, 'no overlapping ruin': 7} overlap tiles agreeing with own tower pattern (agree, disagree): [76, 65]

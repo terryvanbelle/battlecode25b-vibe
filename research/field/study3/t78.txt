@@ -1,0 +1,140 @@
+  just-woke-up
+     mopper turn mix (sampled): {'none': 0.84, 'mop tile': 0.1, 'mop robot': 0.02, 'give paint': 0.02, 'swing': 0.01, 'withdraw': 0.01} n 4290
+     splash aoe composition: {'ours(enemy to them)': 0.46, 'own': 0.3, 'unpaintable': 0.13, 'empty': 0.11}
+     MOP dist to our paint (frontier)                           med 4.0 mean 8.31 p10 1.0 p25 2.0 p75 11.3 p90 23.5 n=4290
+     MOP dist to our robot                                      med 10.3 mean 13.38 p10 1.4 p25 4.1 p75 20.4 p90 30.0 n=4290
+     MOP dist to own tower                                      med 5.0 mean 6.14 p10 2.2 p25 3.2 p75 8.1 p90 11.7 n=4290
+     MOP idle: dist to our paint                                med 5.1 mean 9.16 p10 1.0 p25 2.0 p75 13.0 p90 25.0 n=3611
+     MOP mopped tile within a ruin 5x5 (frac)                   med 0.0 mean 0.33 p10 0 p25 0 p75 1 p90 1 n=948
+     MOP paint                                                  med 74.0 mean 65.93 p10 24 p25 39 p75 94 p90 99 n=4290
+     MOP robots hit per swing record                            med 1.0 mean 0.86 p10 0 p25 0 p75 2 p90 2 n=252
+     SPL dist to our paint (frontier)                           med 5.0 mean 6.91 p10 1.0 p25 2.0 p75 10.2 p90 15.3 n=2690
+     SPL dist to our robot                                      med 10.4 mean 11.97 p10 2.2 p25 5.1 p75 17.0 p90 23.8 n=2690
+     SPL dist to own tower                                      med 6.4 mean 7.95 p10 2.2 p25 4.1 p75 10.0 p90 16.1 n=2690
+     SPL empty tiles in aoe                                     med 0 mean 1.38 p10 0 p25 0 p75 2 p90 5 n=289
+     SPL our tiles in aoe                                       med 6 mean 5.98 p10 1 p25 2 p75 10 p90 11 n=289
+     SPL paint before splash                                    med 201 mean 203.67 p10 93 p25 142 p75 253 p90 298 n=289
+     SPL splash in ruin 5x5 area (frac)                         med 0 mean 0.39 p10 0 p25 0 p75 1 p90 1 n=289
+     SPL tiles gained per splash (empty + ours within r2<=2)    med 7 mean 6.2 p10 1 p25 4 p75 9 p90 10 n=289
+     splashes per game                                          med 41.0 mean 48.17 p10 25 p25 29 p75 53 p90 100 n=6
+     splashes per splasher-turn                                 med 0.1 mean 0.07 p10 0.0 p25 0.0 p75 0.1 p90 0.1 n=6
+  confused
+     mopper turn mix (sampled): {'none': 0.92, 'mop tile': 0.05, 'swing': 0.01, 'withdraw': 0.01, 'mop robot': 0.0, 'give paint': 0.0} n 7367
+     splash aoe composition: {'ours(enemy to them)': 0.58, 'own': 0.22, 'empty': 0.1, 'unpaintable': 0.1}
+     MOP dist to our paint (frontier)                           med 10.0 mean 12.08 p10 1.4 p25 3.0 p75 19.0 p90 27.0 n=7367
+     MOP dist to our robot                                      med 16.3 mean 17.24 p10 3.6 p25 9.2 p75 24.2 p90 32.3 n=7367
+     MOP dist to own tower                                      med 4.5 mean 5.83 p10 2.0 p25 3.0 p75 8.1 p90 11.0 n=7367
+     MOP idle: dist to our paint                                med 10.8 mean 12.84 p10 2.0 p25 4.0 p75 20.0 p90 27.5 n=6803
+     MOP mopped tile within a ruin 5x5 (frac)                   med 0.0 mean 0.42 p10 0 p25 0 p75 1 p90 1 n=832
+     MOP paint                                                  med 69 mean 62.35 p10 16 p25 39 p75 89 p90 96 n=7367
+     MOP robots hit per swing record                            med 0.5 mean 0.57 p10 0 p25 0 p75 1 p90 1 n=394
+     SPL dist to our paint (frontier)                           med 10.8 mean 12.48 p10 2.0 p25 5.0 p75 19.2 p90 24.4 n=11539
+     SPL dist to our robot                                      med 15.2 mean 16.23 p10 5.0 p25 8.6 p75 22.6 p90 28.8 n=11539
+     SPL dist to own tower                                      med 5.1 mean 6.14 p10 2.2 p25 3.2 p75 8.9 p90 11.0 n=11539
+     SPL empty tiles in aoe                                     med 0 mean 1.34 p10 0 p25 0 p75 2 p90 5 n=189
+     SPL our tiles in aoe                                       med 8 mean 7.49 p10 2 p25 6 p75 10 p90 12 n=189
+     SPL paint before splash                                    med 176 mean 174.41 p10 70 p25 115 p75 235 p90 286 n=189
+     SPL splash in ruin 5x5 area (frac)                         med 0 mean 0.49 p10 0 p25 0 p75 1 p90 1 n=189
+     SPL tiles gained per splash (empty + ours within r2<=2)    med 8 mean 7.15 p10 2 p25 6 p75 9 p90 10 n=189
+     splashes per game                                          med 25.0 mean 31.5 p10 10 p25 20 p75 32 p90 77 n=6
+     splashes per splasher-turn                                 med 0.1 mean 0.05 p10 0.0 p25 0.0 p75 0.1 p90 0.1 n=6
+  om-nom
+     mopper turn mix (sampled): {'none': 0.84, 'mop tile': 0.08, 'swing': 0.04, 'mop robot': 0.03, 'withdraw': 0.02} n 6922
+     splash aoe composition: {'ours(enemy to them)': 0.53, 'own': 0.3, 'unpaintable': 0.1, 'empty': 0.07}
+     MOP dist to our paint (frontier)                           med 2.8 mean 6.15 p10 1.0 p25 1.4 p75 7.6 p90 17.2 n=6922
+     MOP dist to our robot                                      med 8.1 mean 10.71 p10 1.0 p25 3.0 p75 16.6 p90 23.7 n=6922
+     MOP dist to own tower                                      med 5.8 mean 6.73 p10 2.2 p25 3.2 p75 8.9 p90 12.8 n=6922
+     MOP idle: dist to our paint                                med 3.0 mean 6.85 p10 1.0 p25 1.4 p75 9.2 p90 18.8 n=5793
+     MOP mopped tile within a ruin 5x5 (frac)                   med 0.0 mean 0.45 p10 0 p25 0 p75 1 p90 1 n=1358
+     MOP paint                                                  med 77.0 mean 72.56 p10 41 p25 57 p75 92 p90 98 n=6922
+     MOP robots hit per swing record                            med 1.0 mean 0.64 p10 0 p25 0 p75 1 p90 2 n=1060
+     SPL dist to our paint (frontier)                           med 7.8 mean 9.65 p10 1.0 p25 3.0 p75 14.6 p90 21.2 n=5071
+     SPL dist to our robot                                      med 12.0 mean 13.41 p10 2.8 p25 6.0 p75 19.4 p90 26.5 n=5071
+     SPL dist to own tower                                      med 6.1 mean 7.58 p10 2.2 p25 3.6 p75 10.4 p90 15.0 n=5071
+     SPL empty tiles in aoe                                     med 0.0 mean 0.96 p10 0 p25 0 p75 1 p90 3 n=280
+     SPL our tiles in aoe                                       med 7.0 mean 6.91 p10 3 p25 5 p75 9 p90 12 n=280
+     SPL paint before splash                                    med 192.0 mean 195.35 p10 82 p25 130 p75 249 p90 295 n=280
+     SPL splash in ruin 5x5 area (frac)                         med 1.0 mean 0.55 p10 0 p25 0 p75 1 p90 1 n=280
+     SPL tiles gained per splash (empty + ours within r2<=2)    med 6.0 mean 6.06 p10 1 p25 4 p75 8 p90 9 n=280
+     splashes per game                                          med 33.0 mean 46.67 p10 2 p25 26 p75 41 p90 145 n=6
+     splashes per splasher-turn                                 med 0.0 mean 0.05 p10 0.0 p25 0.0 p75 0.1 p90 0.1 n=6
+  spaark
+     mopper turn mix (sampled): {'none': 0.93, 'mop tile': 0.03, 'withdraw': 0.02, 'swing': 0.01, 'mop robot': 0.01, 'give paint': 0.0} n 9960
+     splash aoe composition: {'ours(enemy to them)': 0.58, 'empty': 0.17, 'own': 0.14, 'unpaintable': 0.11}
+     MOP dist to our paint (frontier)                           med 10.6 mean 12.53 p10 2.0 p25 3.0 p75 20.2 p90 27.5 n=9960
+     MOP dist to our robot                                      med 14.9 mean 16.23 p10 4.0 p25 7.8 p75 23.4 p90 30.9 n=9960
+     MOP dist to own tower                                      med 5.0 mean 5.37 p10 2.2 p25 3.0 p75 7.1 p90 9.8 n=9960
+     MOP idle: dist to our paint                                med 11.4 mean 13.03 p10 2.0 p25 3.2 p75 20.9 p90 27.7 n=9274
+     MOP mopped tile within a ruin 5x5 (frac)                   med 0.0 mean 0.23 p10 0 p25 0 p75 0 p90 1 n=648
+     MOP paint                                                  med 67.0 mean 60.72 p10 13 p25 34 p75 90 p90 98 n=9960
+     MOP robots hit per swing record                            med 0.0 mean 0.5 p10 0 p25 0 p75 1 p90 1 n=536
+     SPL dist to our paint (frontier)                           med 13.6 mean 14.45 p10 3.2 p25 7.0 p75 21.2 p90 26.6 n=18563
+     SPL dist to our robot                                      med 16.4 mean 17.5 p10 6.7 p25 10.8 p75 23.3 p90 30.0 n=18563
+     SPL dist to own tower                                      med 4.5 mean 5.29 p10 2.2 p25 2.8 p75 7.1 p90 10.2 n=18563
+     SPL empty tiles in aoe                                     med 0 mean 2.26 p10 0 p25 0 p75 2 p90 11 n=127
+     SPL our tiles in aoe                                       med 8 mean 7.48 p10 0 p25 7 p75 10 p90 11 n=127
+     SPL paint before splash                                    med 200 mean 196.51 p10 78 p25 132 p75 259 p90 291 n=127
+     SPL splash in ruin 5x5 area (frac)                         med 0 mean 0.46 p10 0 p25 0 p75 1 p90 1 n=127
+     SPL tiles gained per splash (empty + ours within r2<=2)    med 9 mean 8.39 p10 6 p25 7 p75 9 p90 11 n=127
+     splashes per game                                          med 44 mean 42.33 p10 27 p25 27 p75 56 p90 56 n=3
+     splashes per splasher-turn                                 med 0.0 mean 0.02 p10 0.0 p25 0.0 p75 0.0 p90 0.0 n=3
+  podemice
+     mopper turn mix (sampled): {'none': 0.89, 'mop tile': 0.05, 'swing': 0.04, 'mop robot': 0.01, 'give paint': 0.01} n 7058
+     splash aoe composition: {'ours(enemy to them)': 0.54, 'own': 0.22, 'unpaintable': 0.12, 'empty': 0.12}
+     MOP dist to our paint (frontier)                           med 6.0 mean 6.98 p10 1.0 p25 2.2 p75 11.0 p90 14.1 n=7058
+     MOP dist to our robot                                      med 9.4 mean 12.57 p10 2.2 p25 4.5 p75 17.7 p90 28.3 n=7058
+     MOP dist to own tower                                      med 5.0 mean 5.33 p10 2.0 p25 3.0 p75 7.2 p90 9.4 n=7058
+     MOP idle: dist to our paint                                med 7.0 mean 7.55 p10 2.0 p25 3.2 p75 11.4 p90 14.3 n=6263
+     MOP mopped tile within a ruin 5x5 (frac)                   med 0.0 mean 0.35 p10 0 p25 0 p75 1 p90 1 n=770
+     MOP paint                                                  med 63.0 mean 58.63 p10 12 p25 34 p75 87 p90 97 n=7058
+     MOP robots hit per swing record                            med 0.5 mean 0.55 p10 0 p25 0 p75 1 p90 1 n=1026
+     SPL dist to our paint (frontier)                           med 6.3 mean 6.88 p10 1.4 p25 3.2 p75 10.0 p90 13.3 n=4968
+     SPL dist to our robot                                      med 10.2 mean 13.91 p10 2.8 p25 5.0 p75 20.0 p90 31.6 n=4968
+     SPL dist to own tower                                      med 4.5 mean 5.2 p10 2.0 p25 3.0 p75 6.7 p90 9.0 n=4968
+     SPL empty tiles in aoe                                     med 0 mean 1.5 p10 0 p25 0 p75 1 p90 7 n=189
+     SPL our tiles in aoe                                       med 7 mean 7.07 p10 4 p25 5 p75 9 p90 11 n=189
+     SPL paint before splash                                    med 189 mean 186.74 p10 78 p25 120 p75 246 p90 286 n=189
+     SPL splash in ruin 5x5 area (frac)                         med 0 mean 0.37 p10 0 p25 0 p75 1 p90 1 n=189
+     SPL tiles gained per splash (empty + ours within r2<=2)    med 7 mean 6.95 p10 4 p25 5 p75 9 p90 10 n=189
+     splashes per game                                          med 35 mean 63.0 p10 22 p25 22 p75 132 p90 132 n=3
+     splashes per splasher-turn                                 med 0.0 mean 0.03 p10 0.0 p25 0.0 p75 0.1 p90 0.1 n=3
+  lobster-roll
+     mopper turn mix (sampled): {'none': 0.85, 'mop tile': 0.06, 'mop robot': 0.04, 'withdraw': 0.02, 'swing': 0.02, 'give paint': 0.01} n 14244
+     splash aoe composition: {'ours(enemy to them)': 0.44, 'empty': 0.26, 'own': 0.21, 'unpaintable': 0.09}
+     MOP dist to our paint (frontier)                           med 5.4 mean 6.93 p10 1.0 p25 1.4 p75 10.4 p90 15.3 n=14244
+     MOP dist to our robot                                      med 9.2 mean 10.56 p10 1.4 p25 3.6 p75 15.3 p90 22.2 n=14244
+     MOP dist to own tower                                      med 5.1 mean 5.49 p10 2.0 p25 3.2 p75 7.3 p90 9.5 n=14244
+     MOP idle: dist to our paint                                med 6.4 mean 7.57 p10 1.0 p25 2.0 p75 11.2 p90 16.1 n=12046
+     MOP mopped tile within a ruin 5x5 (frac)                   med 0 mean 0.35 p10 0 p25 0 p75 1 p90 1 n=2287
+     MOP paint                                                  med 64.0 mean 64.33 p10 29 p25 44 p75 90 p90 98 n=14244
+     MOP robots hit per swing record                            med 0.0 mean 0.51 p10 0 p25 0 p75 1 p90 1 n=1098
+     SPL dist to our paint (frontier)                           med 8.6 mean 9.87 p10 1.4 p25 4.0 p75 14.3 p90 19.9 n=5643
+     SPL dist to our robot                                      med 13.5 mean 14.23 p10 4.2 p25 7.8 p75 19.8 p90 25.6 n=5643
+     SPL dist to own tower                                      med 5.0 mean 5.59 p10 2.0 p25 3.2 p75 7.3 p90 10.0 n=5643
+     SPL empty tiles in aoe                                     med 2.0 mean 3.4 p10 0 p25 0 p75 6 p90 10 n=316
+     SPL our tiles in aoe                                       med 6.0 mean 5.75 p10 0 p25 3 p75 9 p90 11 n=316
+     SPL paint before splash                                    med 221.0 mean 207.56 p10 100 p25 158 p75 277 p90 292 n=316
+     SPL splash in ruin 5x5 area (frac)                         med 0.0 mean 0.42 p10 0 p25 0 p75 1 p90 1 n=316
+     SPL tiles gained per splash (empty + ours within r2<=2)    med 8.0 mean 7.83 p10 4 p25 6 p75 10 p90 11 n=316
+     splashes per game                                          med 49.0 mean 52.67 p10 25 p25 27 p75 82 p90 84 n=6
+     splashes per splasher-turn                                 med 0.0 mean 0.03 p10 0.0 p25 0.0 p75 0.0 p90 0.0 n=6
+  old-but-gold
+     mopper turn mix (sampled): {'none': 0.73, 'mop tile': 0.11, 'mop robot': 0.08, 'swing': 0.05, 'withdraw': 0.02, 'give paint': 0.01} n 1700
+     splash aoe composition: {'ours(enemy to them)': 0.6, 'own': 0.18, 'empty': 0.15, 'unpaintable': 0.08}
+     MOP dist to our paint (frontier)                           med 1.4 mean 3.13 p10 1.0 p25 1.0 p75 3.6 p90 8.1 n=1700
+     MOP dist to our robot                                      med 3.6 mean 5.45 p10 1.0 p25 2.0 p75 7.8 p90 12.8 n=1700
+     MOP dist to own tower                                      med 6.0 mean 7.24 p10 2.2 p25 3.6 p75 9.2 p90 14.0 n=1700
+     MOP idle: dist to our paint                                med 2.0 mean 3.6 p10 1.0 p25 1.0 p75 4.2 p90 9.4 n=1233
+     MOP mopped tile within a ruin 5x5 (frac)                   med 1 mean 0.59 p10 0 p25 0 p75 1 p90 1 n=589
+     MOP paint                                                  med 89.0 mean 80.91 p10 50 p25 68 p75 97 p90 100 n=1700
+     MOP robots hit per swing record                            med 0.5 mean 0.58 p10 0 p25 0 p75 1 p90 1 n=386
+     SPL dist to our paint (frontier)                           med 4.1 mean 6.32 p10 1.0 p25 2.0 p75 9.2 p90 15.0 n=502
+     SPL dist to our robot                                      med 7.1 mean 8.78 p10 2.0 p25 3.6 p75 12.8 p90 18.0 n=502
+     SPL dist to own tower                                      med 6.2 mean 8.34 p10 2.2 p25 3.2 p75 12.2 p90 19.0 n=502
+     SPL empty tiles in aoe                                     med 1 mean 1.9 p10 0 p25 0 p75 3 p90 5 n=61
+     SPL our tiles in aoe                                       med 8 mean 7.74 p10 4 p25 5 p75 10 p90 12 n=61
+     SPL paint before splash                                    med 193 mean 200.3 p10 88 p25 139 p75 248 p90 297 n=61
+     SPL splash in ruin 5x5 area (frac)                         med 1 mean 0.62 p10 0 p25 0 p75 1 p90 1 n=61
+     SPL tiles gained per splash (empty + ours within r2<=2)    med 9 mean 8.1 p10 6 p25 7 p75 9 p90 10 n=61
+     splashes per game                                          med 20 mean 20.33 p10 0 p25 0 p75 41 p90 41 n=3
+     splashes per splasher-turn                                 med 0.1 mean 0.04 p10 0.0 p25 0.0 p75 0.1 p90 0.1 n=3

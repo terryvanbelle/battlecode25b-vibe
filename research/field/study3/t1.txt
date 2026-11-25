@@ -1,0 +1,292 @@
+== m8 g0 just-woke-up Fossil 30x30  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@MO:300/2030 5S@PA:350/1870 33S@MO:421/1060 64X@PA:740/980 67M@MO:440/970 70S@PA:500/1060 72M@MO:221/1070 74M@PA:340/1030 76S@MO:340/990 86X@PA:360/1040 92S@MO:245/1020 94S@MO:378/1030 96M@MO:178/1040 98S@MO:425/1000 100S@PA:200/1010 102M@MO:225/1020 104X@PA:373/980 110M@PA:100/1160 119M@PA:460/1030 121X@PA:370/990 143X@PA:300/3194 149S@PA:211/1090 156M@PA:211/1002
+== m8 g1 just-woke-up Parking_lot 45x45  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@MO:500/2500 1S@PA:510/2500 2S@MO:300/2030 2S@PA:320/2030 20M@MO:100/2070 28M@PA:380/1010 53S@MO:406/1960 60S@MO:206/1100 63M@MO:258/1060 96X@PA:624/1070 102S@PA:384/1090 105M@PA:214/1050 108M@MO:158/760 111M@PA:652/470 135X@PA:414/1090 139S@PA:539/1050 142M@PA:354/1070 145M@PA:543/1040 167S@PA:290/999 169M@PA:116/1045 171X@PA:363/1041 180X@PA:687/973 183S@PA:411/1017 185M@PA:227/1063 187S@MO:387/1059
+== m8 g2 just-woke-up PlumberGame 60x30  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 48S@MO:408/1030 51S@MO:208/1050 54S@MO:393/1070 66X@PA:760/1100 90M@MO:466/200 93M@MO:366/290 107M@PA:493/730 111S@PA:910/1030 113M@PA:730/1080 114M@MO:286/930 114M@MO:187/930 116M@MO:266/630 117M@MO:193/480 118M@MO:166/330 131X@PA:810/980 135S@PA:550/980 137M@PA:370/1030 139X@PA:405/1030 141X@PA:319/972 144X@PA:568/1085 150M@PA:316/711
+== m9 g0 confused Brat 29x29  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@MO:500/2500 1S@PA:510/2500 2S@MO:300/2030 2S@PA:320/2030 26X@PA:360/1390 34X@MO:362/1390 40S@PA:200/1290 60S@PA:200/2040 80S@PA:200/2790 82X@MO:333/1640 100M@MO:100/2500 100M@PA:200/2500 110S@PA:200/2600 120M@PA:100/3050 129M@PA:454/2380 130S@PA:359/2150 131M@PA:111/1970 140S@PA:200/2300 150X@MO:500/1750 158M@MO:100/1190 170S@MO:397/1210 173M@MO:197/1290 176X@PA:325/1320 186S@MO:347/1120 189M@MO:147/1260
+== m9 g1 confused catface 30x30  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@MO:500/2500 1S@PA:510/2500 2S@MO:300/2030 2S@PA:320/2030 17M@MO:436/980 20M@PA:300/830 27X@MO:336/880 28M@MO:100/530 83M@MO:424/720 96X@PA:960/1330 100S@PA:700/1210 104S@PA:540/1240 107S@MO:324/1200 111M@PA:410/1230 125S@PA:450/1170 128S@MO:404/1190 131M@PA:310/1210 134S@PA:240/1180 135M@MO:204/1020 141M@MO:135/1260 144M@MO:104/1230 150S@PA:200/1470 160S@MO:439/1180 162S@MO:239/1150 165M@PA:150/1230
+== m9 g2 confused maze 60x60  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 31S@PA:210/1210 36S@MO:320/1210 56S@PA:260/1240 70S@PA:200/1210 73S@MO:294/1230 75S@MO:341/1160 95S@PA:250/1230 97S@MO:359/1240 98S@MO:287/1120 101M@MO:100/1260 103M@MO:120/1220 105M@MO:159/1180 114S@MO:500/1150 116S@MO:300/1200 120X@PA:300/1550 130M@PA:100/2650 136X@MO:450/2250 137M@MO:150/2000 142X@MO:309/1450 150S@PA:200/2410
+== m10 g0 om-nom Brat 29x29  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@MO:500/2500 1S@PA:510/2500 2S@MO:300/2030 2S@PA:320/2030 10S@PA:200/1770 26M@MO:100/1240 32S@PA:220/1240 37S@MO:331/1240 42M@PA:120/1240 48M@MO:131/1240 68S@PA:280/1180 72S@MO:339/1210 76M@MO:138/1240 96X@PA:302/2340 125S@PA:200/3970 131X@MO:499/3120 137X@MO:490/2120 141M@MO:185/2000 145S@PA:200/1980 159M@PA:340/1710 160S@PA:244/1480 163M@PA:100/1440 200X@MO:398/2350 204S@PA:200/2390 215S@MO:222/2390
+== m10 g1 om-nom Snowglobe 40x40  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 26M@MO:100/1200 65S@PA:550/1230 67M@PA:370/1200 70S@MO:353/1230 72X@PA:319/1200 76M@MO:153/1240 86S@MO:399/1200 88S@MO:300/1210 91M@MO:199/1150 94S@MO:309/1240 95S@MO:421/1120 97S@MO:221/1130 99M@MO:107/1140 108X@PA:379/1130 115S@MO:309/1180 123S@PA:229/1190 130M@MO:109/1230 131S@MO:341/1120 132S@MO:392/1060 135M@MO:141/1380
+== m10 g2 om-nom sierpinski 39x50  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 12S@PA:207/1830 28S@MO:353/1220 33S@PA:217/1220 41M@MO:379/450 71M@MO:277/710 74M@MO:153/740 79M@PA:462/990 91X@PA:482/1190 94M@MO:177/1180 96S@MO:323/1140 98S@MO:204/1150 100M@MO:123/1160 102S@MO:378/1120 104X@PA:312/1130 107M@MO:177/1120 123S@PA:202/2900 141X@PA:369/3990 143S@PA:201/3850 165X@MO:318/2760 166M@PA:100/2510 170S@PA:382/1810
+== m11 g0 spaark box 31x31  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 49M@PA:390/1130 52S@MO:339/1100 55M@PA:350/1120 58S@MO:336/1090 61S@MO:418/1110 64S@MO:217/1130 76S@MO:297/1140 79X@PA:490/1220 82M@PA:220/1150 95S@PA:250/1040 97S@MO:359/1050 100M@PA:100/1190 130X@PA:300/1950 145S@PA:207/1266 151M@PA:103/2132 163S@PA:210/1666 168M@PA:105/2486 182X@PA:310/2978 191S@PA:217/2342 195M@PA:117/3172
+== m11 g1 spaark maze 60x60  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 20M@PA:100/1820 30M@PA:100/1820 43S@MO:310/1130 72S@MO:339/1090 75S@MO:326/1110 82X@PA:520/1290 95S@MO:355/1060 98M@PA:380/1140 100S@PA:300/1060 103M@PA:130/1140 115M@PA:393/1160 117S@PA:303/1080 130X@PA:312/2305 136S@MO:378/1455 144S@PA:203/2425 144X@PA:301/2425 151M@PA:115/2937 153M@PA:100/2969 163S@PA:207/1669 169M@PA:103/2475
+== m11 g2 spaark shell 40x40  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@MO:500/2500 1S@PA:510/2500 2S@MO:300/2030 2S@PA:320/2030 11S@PA:204/1800 21M@PA:104/1850 67M@PA:464/1110 70S@MO:329/1140 72S@MO:306/1110 74S@MO:419/1080 87S@MO:209/1060 92M@PA:449/1160 94S@PA:359/1080 100X@PA:694/1290 111M@PA:384/1100 114S@PA:314/1130 116M@PA:134/1100 134S@MO:420/1020 136M@PA:544/1070 144S@PA:499/1054 146X@PA:349/1146 148X@PA:455/1109 150M@PA:113/1093 152M@PA:199/1177 153M@PA:465/1069
+== m13 g0 podemice FourCorners 25x25  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2M@PA:320/2030 2M@MO:300/2030 3S@PA:230/1460 3S@MO:200/1460 34S@PA:340/1010 43S@PA:230/1010 48S@MO:500/1010 53M@MO:300/1010 59S@MO:200/1010 64S@PA:240/1010 96X@PA:300/2414 104M@PA:104/2462 127X@PA:303/3450 135M@PA:107/3498 158S@PA:208/4486 160S@PA:508/3348 161S@PA:316/3154 166M@PA:112/3184 181S@PA:207/3724 192S@MO:500/3090 193X@MO:300/2919 202S@PA:508/2230 203M@PA:316/2059
+== m13 g1 podemice box 31x31  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2M@PA:320/2030 2M@MO:300/2030 3S@PA:230/1460 3S@MO:200/1460 31S@PA:310/1800 62S@PA:420/1000 65M@PA:250/960 70S@MO:500/1010 73S@MO:300/970 77M@MO:100/1000 81S@MO:500/980 94M@PA:240/928 97M@MO:300/934 100S@MO:200/940 103M@PA:135/996 106S@MO:500/1002 108M@MO:300/956 111M@MO:200/998 115M@MO:100/954 122S@PA:201/1452 129M@PA:113/2000 135M@PA:109/2384 147S@PA:201/3452
+== m13 g2 podemice gardenworld 60x60  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2M@PA:320/2030 2M@MO:300/2030 3S@PA:230/1460 3S@MO:200/1460 33S@PA:330/980 53S@PA:330/1010 56S@MO:500/970 60S@PA:200/1000 63S@MO:300/960 67M@MO:100/990 71S@MO:500/970 75S@MO:300/1000 78M@PA:120/960 105S@PA:290/990 108M@MO:100/1010 111S@MO:500/980 145S@PA:330/990 147M@MO:300/1000 149S@MO:200/960 159S@PA:459/1010 162X@PA:300/950 167M@PA:302/1000 169M@PA:218/996
+== m27 g0 lobster-roll Parking_lot 45x45  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@MO:500/2500 1S@PA:510/2500 2S@MO:300/2030 2S@PA:320/2030 10S@PA:200/1770 27M@MO:100/1070 35M@PA:154/1170 68S@PA:387/1180 70M@PA:213/1134 73S@MO:383/1140 76M@MO:177/1196 78S@PA:217/1100 89S@MO:296/1156 91M@PA:117/1156 93S@MO:388/1106 95M@MO:188/1106 101M@MO:185/1586 103M@PA:103/1566 110M@MO:348/1150 122X@PA:307/2842 126M@MO:327/1158 127M@MO:351/1076 137M@MO:435/1956 139S@PA:212/2144 141M@MO:310/1382
+== m27 g1 lobster-roll sierpinski 39x50  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 11S@PA:202/1800 28M@PA:135/1160 34S@MO:329/1160 39M@MO:129/1160 45S@PA:201/1160 55M@PA:101/1410 124X@PA:691/1080 131S@PA:461/1190 132M@PA:271/1070 135M@MO:233/1160 137M@PA:497/1120 139X@PA:407/1080 142M@PA:637/1070 146X@PA:514/1090 149X@PA:321/1098 152M@MO:353/1178 153S@PA:207/1044 155M@MO:183/1126 159S@PA:208/1490 161S@PA:213/1572 162M@PA:100/1488
+== m27 g2 lobster-roll walalilongla 45x45  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 21M@PA:104/1850 37S@MO:358/1150 74M@MO:269/650 77M@PA:411/620 84M@MO:136/950 98S@PA:774/1110 101M@PA:604/1190 102M@MO:169/1000 110X@PA:597/1180 113S@PA:336/1155 115M@PA:162/1155 117M@MO:100/1105 120M@PA:559/1180 122X@PA:475/1130 125M@MO:357/1105 128S@PA:223/1180 135X@PA:307/1805 138M@PA:103/1780 143M@MO:235/1197 150S@PA:202/1933
+== m28 g0 lobster-roll BunnyGame 30x50  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 12S@PA:209/1830 22M@MO:318/880 26M@PA:130/780 35M@MO:215/930 59M@PA:340/1150 63S@PA:280/1130 67M@PA:114/1160 71S@MO:270/1140 86S@PA:204/1940 97M@PA:108/2460 98S@MO:236/1230 107M@PA:108/1790 144X@PA:301/3820 144M@MO:146/3820 181S@PA:471/1190 183M@PA:301/1160 186M@PA:333/1190 190X@PA:305/1330 200X@PA:303/2030 203S@PA:200/1960 230M@MO:412/1120
+== m28 g1 lobster-roll rain 30x30  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 11S@PA:202/1800 27M@PA:162/1170 74S@PA:532/1180 76M@PA:352/1190 78S@PA:272/1150 78M@MO:220/1150 79M@MO:120/530 86M@PA:152/1140 90S@MO:355/1160 92M@MO:155/1170 94S@MO:328/1130 96M@MO:111/1140 98S@MO:391/1100 100M@MO:191/1110 102M@PA:212/1070 105M@MO:191/1160 121X@PA:302/2940 153S@PA:202/1700 160M@PA:107/2360 167M@MO:423/1970 168X@MO:323/1820
+== m28 g2 lobster-roll walalilongla 45x45  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 11S@PA:202/1800 22M@PA:106/1880 78S@PA:570/1112 81M@PA:409/1168 84S@PA:348/1174 86M@PA:174/1128 89S@MO:350/1134 92M@MO:150/1190 95S@MO:333/1196 97M@MO:133/1150 100S@PA:231/1180 102M@MO:180/1158 104M@PA:641/1086 107X@PA:574/1128 111S@PA:318/1184 113M@PA:140/1162 122X@PA:383/1070 125M@MO:374/1090 130S@PA:211/1490 137M@PA:107/2220 149X@PA:377/1100
+== m608 g0 old-but-gold Castle 27x27  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 25S@MO:378/1230 30S@PA:200/1230 71M@MO:249/290 73M@MO:149/250 75M@MO:355/210 77M@MO:255/170 80M@MO:155/260 82M@MO:291/220 84M@MO:191/180 93S@PA:654/1176 95M@PA:480/1222 98X@PA:419/1366 110S@PA:200/2627 128M@MO:186/4427 133M@PA:203/4752 134S@PA:318/3577 142M@PA:211/1627 149X@PA:311/2202 166S@PA:210/3927 170X@PA:311/4181
+== m608 g1 old-but-gold DefaultLarge 50x30  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@MO:500/2500 1S@PA:510/2500 2S@MO:300/2030 2S@PA:320/2030 10S@PA:200/1770 31M@MO:353/630 32M@MO:253/400 37M@MO:153/250 58S@PA:306/1220 68M@PA:206/1470 92X@PA:310/2522 105S@PA:206/3221 119S@PA:464/3275 120M@PA:278/3122 133X@PA:413/1349 137S@PA:213/1269 149M@PA:240/1224 159M@PA:563/1189 162S@MO:271/1139 164S@MO:293/1189 167X@PA:370/1389 178S@PA:348/1154 179S@MO:227/1104 181M@PA:232/1254 183X@PA:1000/1354
+== m608 g2 old-but-gold DefaultSmall 20x20  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 27S@MO:330/1210 32S@PA:220/1210 33M@MO:130/1010 50S@PA:200/1560 70M@PA:200/2310 144S@PA:225/4710
+== m609 g0 just-woke-up DefaultMedium 35x35  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 32S@MO:440/1050 50S@MO:240/1060 54S@MO:425/1090 86X@PA:960/1080 87M@MO:312/790 92S@PA:566/1040 94M@PA:386/1010 97X@PA:316/1040 110M@PA:407/1050 112X@PA:323/1028 114M@MO:316/924 117S@PA:246/1086 118S@MO:216/1020 119S@MO:317/954 121M@PA:122/1072 127S@PA:212/1876 136X@PA:319/2336 137M@PA:365/1138 140X@PA:316/1244 145S@PA:217/1854 148S@MO:453/1084
+== m609 g1 just-woke-up defensetower 40x59  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 3M@PA:130/1560 3M@MO:100/1560 23M@MO:446/560 36M@PA:360/910 70S@MO:346/1050 73M@MO:146/1070 76S@MO:360/1040 79M@MO:160/1060 82S@MO:365/1030 85M@MO:165/1050 100X@PA:805/1060 104S@PA:545/1100 113M@PA:148/980 122S@MO:377/970 124M@MO:177/1020 126S@MO:374/1020 128S@MO:376/1070 137X@PA:370/970 147M@PA:108/2175 165S@PA:347/1053 166M@PA:160/974
+== m609 g2 just-woke-up mit 60x60  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 21X@PA:310/2100 54S@MO:461/1970 59S@MO:261/1970 65S@MO:471/1060 69S@MO:271/1090 99S@PA:790/1080 102M@PA:620/1100 105X@PA:550/1070 111M@MO:450/210 124S@PA:440/1080 127M@PA:270/1100 132X@PA:552/1050 137S@PA:489/1100 139S@PA:204/1030 142M@PA:314/1050 156X@PA:304/2010 159M@PA:104/1880 165S@MO:433/1000 170S@MO:233/1100 180S@PA:244/1050 188M@PA:124/960
+== m610 g0 confused Oasis 59x59  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 28S@MO:365/1220 47S@PA:370/1240 61S@PA:310/1190 64S@MO:333/1210 67S@MO:364/1230 70S@PA:200/1250 70M@MO:133/1250 71M@MO:164/790 88S@MO:382/1180 91S@PA:210/1200 103M@MO:100/1190 106M@MO:143/1220 108S@MO:371/1140 111S@PA:210/1220 113M@MO:182/1190 130M@MO:171/1180 132S@MO:351/1180 134M@MO:151/1230 136S@MO:500/1230 137S@MO:300/1130
+== m610 g1 confused rain 30x30  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 25X@PA:350/1380 35M@MO:346/660 47S@PA:270/1200 51S@MO:246/230 81S@PA:410/1200 83S@PA:230/1210 86X@MO:370/1350 89X@MO:363/1340 92X@MO:369/1330 95M@MO:500/300 100M@MO:400/650 106S@MO:300/1130 109M@MO:100/1270 111M@MO:140/1230 113S@PA:330/1190 123S@MO:490/1220 125S@MO:290/1230 130X@PA:300/1630 140M@PA:100/2530 147S@MO:330/2140 148M@MO:500/1020
+== m610 g2 confused sunrise 45x55  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 29S@MO:436/1210 34S@PA:240/1210 39S@MO:236/1210 57S@PA:270/1180 61S@MO:414/1210 65S@MO:214/1240 70S@PA:200/1340 92S@PA:220/1170 94S@MO:239/1140 97S@MO:335/1220 100M@MO:100/1300 109S@MO:324/1150 112M@MO:135/1290 114M@MO:124/1250 123S@MO:369/1240 125X@PA:350/1290 127M@MO:169/1190 134M@PA:140/1940 144X@MO:427/2140 145M@MO:127/1890
+== m611 g0 om-nom HungerGames 50x50  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 66S@PA:560/1140 68M@PA:380/1150 71X@PA:310/1240 74M@MO:100/1230 76S@MO:356/1190 100X@PA:300/1120 104M@MO:156/1160 104M@MO:332/1160 107S@MO:353/1190 108S@MO:333/1150 109S@MO:385/1110 110S@MO:361/1070 112M@MO:153/1240 113M@MO:133/1150 114M@MO:185/1060 116M@MO:161/1180 117S@MO:359/1090 118S@MO:321/1050 120S@PA:200/1220 121M@MO:159/1180
+== m611 g1 om-nom Racetrack 25x25  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 49M@MO:379/1050 54S@PA:439/1200 57M@PA:268/1220 60S@MO:285/1190 63S@MO:383/1210 66S@MO:279/1230 68M@MO:182/1160 72X@PA:318/1220 101X@PA:308/3430 123X@MO:423/3790 127M@MO:118/3750 133S@PA:204/3990 146X@MO:498/3890 153S@PA:203/4120 157X@MO:498/3210 160X@PA:319/2092 162M@PA:105/1896 184S@PA:200/1340 185X@PA:304/1192 193M@MO:455/608
+== m611 g2 om-nom defensetower 40x59  first 25 spawns: (round type tower paintBefore chipsBefore nearestEnemyD2 towerAge)
+   1S@PA:510/2500 1S@MO:500/2500 2S@PA:320/2030 2S@MO:300/2030 10S@PA:200/1770 21M@PA:104/1850 38M@PA:174/1240 57S@PA:264/1190 71S@MO:312/1160 74S@MO:332/1180 77M@MO:112/1200 80M@MO:132/1170 80M@MO:342/1170 89S@MO:242/1180 93M@PA:189/1290 110S@PA:208/2520 135S@PA:205/4344 145M@PA:104/5114 163M@PA:120/1686 181X@PA:319/3438 182X@MO:392/2126 190S@PA:208/2638
+
+== spawn mix by phase (counts)
+   ('ALL', 'r1-50') {'SOL': 184, 'MOP': 42, 'SPL': 5} {'SOL': 0.8, 'MOP': 0.18, 'SPL': 0.02}
+   ('ALL', 'r101-200') {'MOP': 230, 'SPL': 123, 'SOL': 203} {'MOP': 0.41, 'SPL': 0.22, 'SOL': 0.37}
+   ('ALL', 'r201+') {'MOP': 725, 'SPL': 886, 'SOL': 665} {'MOP': 0.32, 'SPL': 0.39, 'SOL': 0.29}
+   ('ALL', 'r51-100') {'SPL': 24, 'MOP': 83, 'SOL': 118} {'SPL': 0.11, 'MOP': 0.37, 'SOL': 0.52}
+   ('confused', 'r1-50') {'SOL': 36, 'SPL': 4, 'MOP': 4} {'SOL': 0.82, 'SPL': 0.09, 'MOP': 0.09}
+   ('confused', 'r101-200') {'SOL': 43, 'MOP': 45, 'SPL': 19} {'SOL': 0.4, 'MOP': 0.42, 'SPL': 0.18}
+   ('confused', 'r201+') {'SOL': 137, 'MOP': 105, 'SPL': 181} {'SOL': 0.32, 'MOP': 0.25, 'SPL': 0.43}
+   ('confused', 'r51-100') {'SOL': 26, 'SPL': 5, 'MOP': 8} {'SOL': 0.67, 'SPL': 0.13, 'MOP': 0.21}
+   ('just-woke-up', 'r1-50') {'SOL': 28, 'MOP': 6, 'SPL': 1} {'SOL': 0.8, 'MOP': 0.17, 'SPL': 0.03}
+   ('just-woke-up', 'r101-200') {'MOP': 55, 'SPL': 26, 'SOL': 43} {'MOP': 0.44, 'SPL': 0.21, 'SOL': 0.35}
+   ('just-woke-up', 'r201+') {'MOP': 68, 'SPL': 65, 'SOL': 76} {'MOP': 0.33, 'SPL': 0.31, 'SOL': 0.36}
+   ('just-woke-up', 'r51-100') {'SPL': 7, 'MOP': 12, 'SOL': 20} {'SPL': 0.18, 'MOP': 0.31, 'SOL': 0.51}
+   ('lobster-roll', 'r1-50') {'SOL': 33, 'MOP': 10} {'SOL': 0.77, 'MOP': 0.23}
+   ('lobster-roll', 'r101-200') {'MOP': 52, 'SPL': 26, 'SOL': 20} {'MOP': 0.53, 'SPL': 0.27, 'SOL': 0.2}
+   ('lobster-roll', 'r201+') {'MOP': 158, 'SOL': 120, 'SPL': 132} {'MOP': 0.39, 'SOL': 0.29, 'SPL': 0.32}
+   ('lobster-roll', 'r51-100') {'SOL': 20, 'MOP': 22} {'SOL': 0.48, 'MOP': 0.52}
+   ('old-but-gold', 'r1-50') {'SOL': 20, 'MOP': 4} {'SOL': 0.83, 'MOP': 0.17}
+   ('old-but-gold', 'r101-200') {'SOL': 15, 'MOP': 10, 'SPL': 8} {'SOL': 0.45, 'MOP': 0.3, 'SPL': 0.24}
+   ('old-but-gold', 'r201+') {'SOL': 14, 'MOP': 15, 'SPL': 12} {'SOL': 0.34, 'MOP': 0.37, 'SPL': 0.29}
+   ('old-but-gold', 'r51-100') {'MOP': 10, 'SOL': 2, 'SPL': 2} {'MOP': 0.71, 'SOL': 0.14, 'SPL': 0.14}
+   ('om-nom', 'r1-50') {'SOL': 34, 'MOP': 8} {'SOL': 0.81, 'MOP': 0.19}
+   ('om-nom', 'r101-200') {'SOL': 35, 'SPL': 25, 'MOP': 29} {'SOL': 0.39, 'SPL': 0.28, 'MOP': 0.33}
+   ('om-nom', 'r201+') {'SOL': 95, 'SPL': 90, 'MOP': 62} {'SOL': 0.38, 'SPL': 0.36, 'MOP': 0.25}
+   ('om-nom', 'r51-100') {'SOL': 21, 'MOP': 18, 'SPL': 6} {'SOL': 0.47, 'MOP': 0.4, 'SPL': 0.13}
+   ('podemice', 'r1-50') {'SOL': 17, 'MOP': 6} {'SOL': 0.74, 'MOP': 0.26}
+   ('podemice', 'r101-200') {'MOP': 17, 'SPL': 6, 'SOL': 26} {'MOP': 0.35, 'SPL': 0.12, 'SOL': 0.53}
+   ('podemice', 'r201+') {'SOL': 132, 'MOP': 120, 'SPL': 115} {'SOL': 0.36, 'MOP': 0.33, 'SPL': 0.31}
+   ('podemice', 'r51-100') {'MOP': 7, 'SOL': 13, 'SPL': 1} {'MOP': 0.33, 'SOL': 0.62, 'SPL': 0.05}
+   ('spaark', 'r1-50') {'SOL': 16, 'MOP': 4} {'SOL': 0.8, 'MOP': 0.2}
+   ('spaark', 'r101-200') {'SPL': 13, 'SOL': 21, 'MOP': 22} {'SPL': 0.23, 'SOL': 0.38, 'MOP': 0.39}
+   ('spaark', 'r201+') {'SOL': 91, 'MOP': 197, 'SPL': 291} {'SOL': 0.16, 'MOP': 0.34, 'SPL': 0.5}
+   ('spaark', 'r51-100') {'SOL': 16, 'MOP': 6, 'SPL': 3} {'SOL': 0.64, 'MOP': 0.24, 'SPL': 0.12}
+
+== r20-200 tower turns with paint>=200: spawn rate by chips bucket (spawned, idle, rate)
+   ('ALL', '<1000') [60, 3921] 0.02
+   ('ALL', '<1250') [250, 1620] 0.13
+   ('ALL', '<1500') [14, 170] 0.08
+   ('ALL', '<2500') [23, 361] 0.06
+   ('ALL', '<500') [12, 2351] 0.01
+   ('ALL', '>=2500') [18, 319] 0.05
+   ('confused', '<1000') [4, 353] 0.01
+   ('confused', '<1250') [41, 313] 0.12
+   ('confused', '<1500') [3, 34] 0.08
+   ('confused', '<2500') [8, 6] 0.57
+   ('confused', '<500') [1, 215] 0.0
+   ('confused', '>=2500') [2, 0] 1.0
+   ('just-woke-up', '<1000') [26, 1304] 0.02
+   ('just-woke-up', '<1250') [63, 285] 0.18
+   ('just-woke-up', '<1500') [0, 57] 0.0
+   ('just-woke-up', '<2500') [2, 91] 0.02
+   ('just-woke-up', '<500') [5, 674] 0.01
+   ('just-woke-up', '>=2500') [0, 4] 0.0
+   ('lobster-roll', '<1000') [6, 767] 0.01
+   ('lobster-roll', '<1250') [50, 338] 0.13
+   ('lobster-roll', '<1500') [2, 49] 0.04
+   ('lobster-roll', '<2500') [3, 144] 0.02
+   ('lobster-roll', '<500') [0, 489] 0.0
+   ('lobster-roll', '>=2500') [1, 211] 0.0
+   ('old-but-gold', '<1000') [1, 114] 0.01
+   ('old-but-gold', '<1250') [13, 77] 0.14
+   ('old-but-gold', '<1500') [5, 4] 0.56
+   ('old-but-gold', '<2500') [2, 21] 0.09
+   ('old-but-gold', '<500') [5, 179] 0.03
+   ('old-but-gold', '>=2500') [5, 25] 0.17
+   ('om-nom', '<1000') [3, 558] 0.01
+   ('om-nom', '<1250') [36, 387] 0.09
+   ('om-nom', '<1500') [1, 7] 0.12
+   ('om-nom', '<2500') [5, 35] 0.12
+   ('om-nom', '<500') [1, 384] 0.0
+   ('om-nom', '>=2500') [6, 50] 0.11
+   ('podemice', '<1000') [19, 435] 0.04
+   ('podemice', '<1250') [12, 25] 0.32
+   ('podemice', '<1500') [0, 6] 0.0
+   ('podemice', '<2500') [2, 35] 0.05
+   ('podemice', '<500') [0, 176] 0.0
+   ('podemice', '>=2500') [3, 19] 0.14
+   ('spaark', '<1000') [1, 390] 0.0
+   ('spaark', '<1250') [35, 195] 0.15
+   ('spaark', '<1500') [3, 13] 0.19
+   ('spaark', '<2500') [1, 29] 0.03
+   ('spaark', '<500') [0, 234] 0.0
+   ('spaark', '>=2500') [1, 10] 0.09
+
+== per team medians
+  just-woke-up
+     paint_after_SOL                                                        med 71  p10 4 p90 300  n=167
+     paint_before_SOL                                                       med 271  p10 204 p90 500  n=167
+     enemy_d2_SOL                                                           med 405  p10 80 p90 1009  n=167
+     tower_age_SOL                                                          med 39  p10 2 p90 223  n=167
+     paint_after_SPL                                                        med 27  p10 8 p90 321  n=99
+     paint_before_SPL                                                       med 327  p10 308 p90 621  n=99
+     enemy_d2_SPL                                                           med 290  p10 65 p90 999  n=99
+     tower_age_SPL                                                          med 92  p10 11 p90 246  n=99
+     paint_after_MOP                                                        med 38  p10 4 p90 314  n=141
+     paint_before_MOP                                                       med 138  p10 104 p90 414  n=141
+     enemy_d2_MOP                                                           med 202  p10 18 p90 1033  n=141
+     tower_age_MOP                                                          med 73  p10 7 p90 225  n=141
+     chips at first splasher                                                med 1075.0  p10 980 p90 2100  n=6
+     towers alive at first splasher                                         med 6.0  p10 2 p90 7  n=6
+     first_SOL                                                              med 1.0  p10 1 p90 1  n=6
+     first_SPL                                                              med 76.0  p10 21 p90 100  n=6
+     first_MOP                                                              med 77.0  p10 3 p90 102  n=6
+     frac spawns from towers aged<=3 rounds                                 med 0.0  p10 0.0 p90 0.1  n=6
+     idle tower turns r2-200 with paint>=200 & chips>=250 (frac of non-spawn tower turns) med 0.3  p10 0.2 p90 0.4  n=6
+  confused
+     paint_after_SOL                                                        med 59.0  p10 0 p90 300  n=242
+     paint_before_SOL                                                       med 259.0  p10 200 p90 500  n=242
+     enemy_d2_SOL                                                           med 461.0  p10 104 p90 1025  n=242
+     tower_age_SOL                                                          med 5.0  p10 1 p90 150  n=242
+     paint_after_SPL                                                        med 36  p10 1 p90 200  n=209
+     paint_before_SPL                                                       med 336  p10 301 p90 500  n=209
+     enemy_d2_SPL                                                           med 365  p10 104 p90 1090  n=209
+     tower_age_SPL                                                          med 6  p10 1 p90 331  n=209
+     paint_after_MOP                                                        med 26.0  p10 0 p90 100  n=162
+     paint_before_MOP                                                       med 126.0  p10 100 p90 200  n=162
+     enemy_d2_MOP                                                           med 325.0  p10 26 p90 1205  n=162
+     tower_age_MOP                                                          med 42.0  p10 2 p90 293  n=162
+     chips at first splasher                                                med 1385.0  p10 880 p90 1780  n=6
+     towers alive at first splasher                                         med 6.0  p10 3 p90 8  n=6
+     first_SOL                                                              med 1.0  p10 1 p90 1  n=6
+     first_SPL                                                              med 73.5  p10 25 p90 143  n=6
+     first_MOP                                                              med 85.0  p10 17 p90 101  n=6
+     frac spawns from towers aged<=3 rounds                                 med 0.2  p10 0.1 p90 0.4  n=6
+     idle tower turns r2-200 with paint>=200 & chips>=250 (frac of non-spawn tower turns) med 0.1  p10 0.1 p90 0.3  n=6
+  om-nom
+     paint_after_SOL                                                        med 50  p10 1 p90 296  n=185
+     paint_before_SOL                                                       med 250  p10 201 p90 496  n=185
+     enemy_d2_SOL                                                           med 281  p10 52 p90 999  n=185
+     tower_age_SOL                                                          med 24  p10 1 p90 215  n=185
+     paint_after_MOP                                                        med 49  p10 2 p90 264  n=117
+     paint_before_MOP                                                       med 149  p10 102 p90 364  n=117
+     enemy_d2_MOP                                                           med 145  p10 17 p90 809  n=117
+     tower_age_MOP                                                          med 26  p10 5 p90 162  n=117
+     paint_after_SPL                                                        med 40  p10 3 p90 196  n=121
+     paint_before_SPL                                                       med 340  p10 303 p90 496  n=121
+     enemy_d2_SPL                                                           med 272  p10 50 p90 999  n=121
+     tower_age_SPL                                                          med 4  p10 1 p90 266  n=121
+     chips at first splasher                                                med 1230.0  p10 1190 p90 3438  n=6
+     towers alive at first splasher                                         med 5.5  p10 4 p90 7  n=6
+     first_SOL                                                              med 1.0  p10 1 p90 1  n=6
+     first_SPL                                                              med 81.5  p10 71 p90 181  n=6
+     first_MOP                                                              med 33.5  p10 21 p90 68  n=6
+     frac spawns from towers aged<=3 rounds                                 med 0.1  p10 0.1 p90 0.3  n=6
+     idle tower turns r2-200 with paint>=200 & chips>=250 (frac of non-spawn tower turns) med 0.2  p10 0.1 p90 0.2  n=6
+  spaark
+     paint_after_SOL                                                        med 44.5  p10 5 p90 299  n=144
+     paint_before_SOL                                                       med 244.5  p10 205 p90 499  n=144
+     enemy_d2_SOL                                                           med 417.5  p10 82 p90 1053  n=144
+     tower_age_SOL                                                          med 86.5  p10 2 p90 352  n=144
+     paint_after_MOP                                                        med 34  p10 4 p90 412  n=229
+     paint_before_MOP                                                       med 134  p10 104 p90 512  n=229
+     enemy_d2_MOP                                                           med 650  p10 85 p90 1184  n=229
+     tower_age_MOP                                                          med 193  p10 28 p90 448  n=229
+     paint_after_SPL                                                        med 34  p10 5 p90 412  n=307
+     paint_before_SPL                                                       med 334  p10 305 p90 712  n=307
+     enemy_d2_SPL                                                           med 706  p10 106 p90 1250  n=307
+     tower_age_SPL                                                          med 217  p10 50 p90 479  n=307
+     chips at first splasher                                                med 1290  p10 1220 p90 1290  n=3
+     towers alive at first splasher                                         med 6  p10 5 p90 8  n=3
+     first_SOL                                                              med 1  p10 1 p90 1  n=3
+     first_SPL                                                              med 82  p10 79 p90 100  n=3
+     first_MOP                                                              med 21  p10 20 p90 49  n=3
+     frac spawns from towers aged<=3 rounds                                 med 0.0  p10 0.0 p90 0.0  n=3
+     idle tower turns r2-200 with paint>=200 & chips>=250 (frac of non-spawn tower turns) med 0.1  p10 0.1 p90 0.3  n=3
+  podemice
+     paint_after_SOL                                                        med 30.0  p10 2 p90 300  n=188
+     paint_before_SOL                                                       med 230.0  p10 202 p90 500  n=188
+     enemy_d2_SOL                                                           med 189.0  p10 25 p90 999  n=188
+     tower_age_SOL                                                          med 73.5  p10 1 p90 341  n=188
+     paint_after_MOP                                                        med 24.0  p10 2 p90 200  n=150
+     paint_before_MOP                                                       med 124.0  p10 102 p90 300  n=150
+     enemy_d2_MOP                                                           med 227.5  p10 20 p90 1040  n=150
+     tower_age_MOP                                                          med 135.0  p10 3 p90 354  n=150
+     paint_after_SPL                                                        med 18.0  p10 0 p90 44  n=122
+     paint_before_SPL                                                       med 318.0  p10 300 p90 344  n=122
+     enemy_d2_SPL                                                           med 208.0  p10 25 p90 1156  n=122
+     tower_age_SPL                                                          med 202.5  p10 10 p90 348  n=122
+     chips at first splasher                                                med 2414  p10 950 p90 7068  n=3
+     towers alive at first splasher                                         med 5  p10 3 p90 10  n=3
+     first_SOL                                                              med 1  p10 1 p90 1  n=3
+     first_SPL                                                              med 162  p10 96 p90 181  n=3
+     first_MOP                                                              med 2  p10 2 p90 2  n=3
+     frac spawns from towers aged<=3 rounds                                 med 0.2  p10 0.1 p90 0.3  n=3
+     idle tower turns r2-200 with paint>=200 & chips>=250 (frac of non-spawn tower turns) med 0.2  p10 0.1 p90 0.3  n=3
+  lobster-roll
+     paint_after_SOL                                                        med 18  p10 2 p90 191  n=193
+     paint_before_SOL                                                       med 218  p10 202 p90 391  n=193
+     enemy_d2_SOL                                                           med 365  p10 113 p90 999  n=193
+     tower_age_SOL                                                          med 113  p10 2 p90 320  n=193
+     paint_after_MOP                                                        med 30.0  p10 4 p90 309  n=242
+     paint_before_MOP                                                       med 130.0  p10 104 p90 409  n=242
+     enemy_d2_MOP                                                           med 260.5  p10 40 p90 999  n=242
+     tower_age_MOP                                                          med 75.0  p10 1 p90 307  n=242
+     paint_after_SPL                                                        med 18.5  p10 3 p90 110  n=158
+     paint_before_SPL                                                       med 318.5  p10 303 p90 410  n=158
+     enemy_d2_SPL                                                           med 329.0  p10 80 p90 999  n=158
+     tower_age_SPL                                                          med 150.0  p10 3 p90 347  n=158
+     chips at first splasher                                                med 2011.0  p10 1080 p90 3820  n=6
+     towers alive at first splasher                                         med 7.0  p10 6 p90 9  n=6
+     first_SOL                                                              med 1.0  p10 1 p90 1  n=6
+     first_SPL                                                              med 121.5  p10 107 p90 144  n=6
+     first_MOP                                                              med 24.5  p10 21 p90 28  n=6
+     frac spawns from towers aged<=3 rounds                                 med 0.1  p10 0.1 p90 0.2  n=6
+     idle tower turns r2-200 with paint>=200 & chips>=250 (frac of non-spawn tower turns) med 0.2  p10 0.1 p90 0.3  n=6
+  old-but-gold
+     paint_after_SOL                                                        med 47  p10 0 p90 300  n=51
+     paint_before_SOL                                                       med 247  p10 200 p90 500  n=51
+     enemy_d2_SOL                                                           med 234  p10 73 p90 999  n=51
+     tower_age_SOL                                                          med 15  p10 1 p90 178  n=51
+     paint_after_MOP                                                        med 123  p10 53 p90 255  n=39
+     paint_before_MOP                                                       med 223  p10 153 p90 355  n=39
+     enemy_d2_MOP                                                           med 101  p10 9 p90 436  n=39
+     tower_age_MOP                                                          med 41  p10 7 p90 219  n=39
+     paint_after_SPL                                                        med 27.5  p10 5 p90 119  n=22
+     paint_before_SPL                                                       med 327.5  p10 305 p90 419  n=22
+     enemy_d2_SPL                                                           med 190.5  p10 82 p90 481  n=22
+     tower_age_SPL                                                          med 102.5  p10 15 p90 230  n=22
+     chips at first splasher                                                med 1944.0  p10 1366 p90 2522  n=2
+     towers alive at first splasher                                         med 5.5  p10 4 p90 7  n=2
+     first_SOL                                                              med 1  p10 1 p90 1  n=3
+     first_SPL                                                              med 95.0  p10 92 p90 98  n=2
+     first_MOP                                                              med 33  p10 31 p90 71  n=3
+     frac spawns from towers aged<=3 rounds                                 med 0.1  p10 0.0 p90 0.1  n=3
+     idle tower turns r2-200 with paint>=200 & chips>=250 (frac of non-spawn tower turns) med 0.1  p10 0.0 p90 0.2  n=3

@@ -1,0 +1,12 @@
+just-woke-up {'built <=30r': 68, 'never built (neutral)': 13, 'built later': 14} {'built <=30r': 0.72, 'never built (neutral)': 0.14, 'built later': 0.15}
+   never-built (first mark, last mark, our paints on pattern meanwhile, game end): [(95, 95, 0, 161), (263, 263, 0, 279), (274, 274, 0, 279), (278, 278, 0, 279), (178, 178, 0, 226), (223, 223, 0, 226), (144, 144, 0, 186), (160, 160, 0, 186), (177, 183, 2, 186), (222, 222, 0, 283), (281, 281, 0, 283), (340, 340, 0, 345)]
+confused {'built <=30r': 50, 'built later': 15, 'never built (neutral)': 15} {'built <=30r': 0.62, 'built later': 0.19, 'never built (neutral)': 0.19}
+   never-built (first mark, last mark, our paints on pattern meanwhile, game end): [(164, 164, 0, 198), (188, 188, 0, 198), (193, 193, 0, 198), (197, 197, 0, 198), (234, 234, 0, 615), (499, 499, 0, 615), (603, 603, 0, 615), (609, 609, 0, 615), (174, 174, 0, 313), (274, 274, 0, 313), (136, 136, 0, 155), (140, 140, 0, 155)]
+om-nom {'built <=30r': 32, 'built later': 35, 'never built (neutral)': 18} {'built <=30r': 0.38, 'built later': 0.41, 'never built (neutral)': 0.21}
+   never-built (first mark, last mark, our paints on pattern meanwhile, game end): [(280, 280, 0, 288), (283, 283, 0, 288), (112, 112, 0, 325), (269, 269, 0, 325), (292, 292, 0, 325), (142, 142, 0, 243), (200, 200, 0, 243), (371, 371, 0, 431), (374, 374, 0, 431), (411, 411, 0, 431), (419, 419, 0, 431), (222, 222, 0, 236)]
+spaark {'built <=30r': 39, 'built later': 9, 'we built it instead': 1, 'never built (neutral)': 1} {'built <=30r': 0.78, 'built later': 0.18, 'we built it instead': 0.02, 'never built (neutral)': 0.02}
+   never-built (first mark, last mark, our paints on pattern meanwhile, game end): [(245, 245, 0, 262)]
+podemice {'built <=30r': 14, 'we built it instead': 3, 'built later': 18, 'never built (neutral)': 4} {'built <=30r': 0.36, 'we built it instead': 0.08, 'built later': 0.46, 'never built (neutral)': 0.1}
+   never-built (first mark, last mark, our paints on pattern meanwhile, game end): [(260, 260, 0, 271), (269, 269, 0, 271), (401, 401, 2, 453), (454, 454, 0, 455)]
+lobster-roll {'built <=30r': 47, 'built later': 33, 'never built (neutral)': 6} {'built <=30r': 0.55, 'built later': 0.38, 'never built (neutral)': 0.07}
+   never-built (first mark, last mark, our paints on pattern meanwhile, game end): [(286, 291, 0, 354), (31, 31, 0, 367), (329, 329, 0, 367), (364, 364, 0, 367), (366, 366, 0, 367), (430, 430, 0, 438)]

@@ -67,3 +67,8 @@ y40
 # sw25 (retired: -96 vs y30 after 243; SRP v3 on y30 - 4th SRP version to lose)
 y42
 y43
+sw26
+y44
+sw27
+sw28
+sw29

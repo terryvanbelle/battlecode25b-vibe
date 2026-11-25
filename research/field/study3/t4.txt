@@ -1,0 +1,187 @@
+m8 g0 just-woke-up Fossil: SRPs (round,centre,actor) [(87, (8, 22), 'SO'), (91, (14, 24), 'SO'), (106, (19, 27), 'SO'), (127, (20, 21), 'SO'), (129, (14, 20), 'SO'), (148, (23, 27), 'SO')]
+m8 g1 just-woke-up Parking_lot: SRPs (round,centre,actor) [(106, (2, 19), 'SO'), (108, (3, 13), 'SO'), (155, (6, 2), 'SO'), (165, (2, 2), 'SO'), (243, (3, 31), 'SO'), (252, (39, 22), 'SO'), (271, (6, 42), 'SO'), (276, (39, 18), 'SO')]
+m8 g2 just-woke-up PlumberGame: SRPs (round,centre,actor) [(89, (24, 20), 'SO'), (102, (26, 2), 'SO'), (132, (23, 6), 'SO'), (153, (20, 17), 'SO'), (159, (19, 9), 'SO'), (165, (23, 6), 'SO'), (175, (18, 27), 'SO'), (182, (14, 6), 'SO'), (182, (17, 2), 'SO'), (186, (30, 18), 'SO'), (189, (30, 6), 'SO'), (197, (30, 2), 'SO'), (199, (6, 23), 'SO'), (200, (26, 27), 'SO'), (206, (14, 10), 'SO'), (214, (6, 27), 'SO'), (217, (36, 3), 'SO'), (219, (38, 16), 'SO'), (222, (10, 27), 'SO'), (223, (6, 14), 'SO')]
+m9 g0 confused Brat: SRPs (round,centre,actor) []
+m9 g1 confused catface: SRPs (round,centre,actor) [(181, (6, 19), 'SO')]
+m9 g2 confused maze: SRPs (round,centre,actor) [(171, (49, 45), 'SO'), (219, (22, 45), 'SO'), (243, (37, 45), 'SO'), (245, (49, 37), 'SO'), (370, (10, 37), 'SO'), (375, (10, 45), 'SO'), (521, (45, 6), 'SO')]
+m10 g0 om-nom Brat: SRPs (round,centre,actor) []
+m10 g1 om-nom Snowglobe: SRPs (round,centre,actor) [(89, (4, 13), 'SO'), (111, (12, 24), 'SO'), (112, (12, 24), 'SO'), (114, (12, 24), 'SO'), (147, (12, 24), 'SO'), (149, (12, 24), 'SO'), (161, (12, 24), 'SO'), (202, (2, 8), 'SO'), (221, (12, 24), 'SO'), (223, (12, 24), 'SO'), (233, (12, 24), 'SO'), (249, (12, 24), 'SO'), (256, (12, 24), 'SO'), (258, (12, 24), 'SO'), (282, (4, 30), 'SO'), (285, (27, 23), 'SO'), (285, (23, 23), 'SO'), (286, (22, 17), 'SO'), (293, (12, 24), 'SO'), (298, (22, 30), 'SO')]
+m10 g2 om-nom sierpinski: SRPs (round,centre,actor) [(153, (3, 24), 'SO'), (180, (13, 24), 'SO'), (184, (13, 24), 'SO'), (187, (30, 27), 'SO'), (228, (30, 27), 'SO'), (232, (13, 24), 'SO'), (233, (13, 24), 'SO')]
+m11 g0 spaark box: SRPs (round,centre,actor) [(84, (13, 24), 'SO'), (89, (21, 19), 'SO'), (109, (13, 28), 'SO'), (120, (23, 26), 'SO'), (139, (25, 19), 'SO'), (195, (28, 23), 'SO'), (258, (7, 26), 'SO'), (296, (5, 15), 'SO'), (398, (13, 6), 'SO'), (408, (13, 2), 'SO')]
+m11 g1 spaark maze: SRPs (round,centre,actor) [(77, (33, 11), 'SO'), (92, (57, 22), 'SO'), (135, (42, 37), 'SO'), (158, (49, 37), 'SO'), (225, (27, 28), 'SO'), (228, (45, 6), 'SO'), (257, (32, 28), 'SO'), (266, (39, 6), 'SO'), (321, (37, 45), 'SO'), (338, (43, 43), 'SO'), (339, (16, 37), 'SO'), (375, (49, 45), 'SO'), (381, (10, 37), 'SO'), (410, (16, 45), 'SO'), (431, (57, 29), 'SO'), (448, (23, 45), 'SO'), (567, (54, 52), 'SO'), (569, (10, 45), 'SO')]
+m11 g2 spaark shell: SRPs (round,centre,actor) [(78, (26, 16), 'SO'), (90, (4, 23), 'SO'), (97, (11, 16), 'SO'), (124, (3, 29), 'SO'), (186, (12, 23), 'SO'), (205, (15, 16), 'SO'), (229, (16, 27), 'SO'), (249, (16, 23), 'SO'), (251, (26, 16), 'SO'), (255, (34, 29), 'SO')]
+m13 g0 podemice FourCorners: SRPs (round,centre,actor) [(37, (6, 22), 'SO')]
+m13 g1 podemice box: SRPs (round,centre,actor) [(35, (22, 2), 'SO'), (58, (14, 6), 'SO'), (111, (26, 6), 'SO'), (254, (14, 6), 'SO'), (440, (6, 2), 'SO')]
+m13 g2 podemice gardenworld: SRPs (round,centre,actor) [(117, (22, 46), 'SO'), (128, (22, 42), 'SO'), (140, (30, 42), 'SO'), (159, (26, 34), 'SO'), (163, (30, 46), 'SO'), (214, (14, 26), 'SO'), (221, (18, 30), 'SO'), (222, (18, 34), 'SO'), (223, (10, 26), 'SO'), (261, (6, 26), 'SO'), (283, (10, 22), 'SO'), (299, (26, 50), 'SO'), (304, (6, 34), 'SO'), (335, (2, 34), 'SO'), (355, (30, 50), 'SO'), (378, (42, 34), 'SO'), (393, (42, 38), 'SO'), (397, (30, 18), 'SO'), (403, (46, 38), 'SO'), (426, (26, 14), 'SO')]
+m27 g0 lobster-roll Parking_lot: SRPs (round,centre,actor) [(18, (22, 42), 'SO'), (49, (34, 42), 'SO'), (103, (6, 2), 'SO'), (177, (42, 26), 'SO'), (266, (22, 42), 'SO'), (302, (34, 42), 'SO'), (308, (42, 26), 'SP'), (312, (42, 22), 'SO'), (344, (2, 22), 'SO'), (348, (2, 42), 'SO')]
+m27 g1 lobster-roll sierpinski: SRPs (round,centre,actor) [(98, (2, 2), 'SO'), (100, (34, 14), 'SO'), (125, (34, 18), 'SO'), (125, (2, 14), 'SO'), (145, (2, 18), 'SO'), (168, (6, 22), 'SO'), (204, (6, 26), 'SO'), (277, (30, 22), 'SO'), (289, (30, 26), 'SO'), (309, (6, 30), 'SO'), (318, (34, 14), 'SO'), (333, (34, 18), 'SO'), (350, (2, 34), 'SO')]
+m27 g2 lobster-roll walalilongla: SRPs (round,centre,actor) [(60, (34, 10), 'SO'), (103, (34, 14), 'SO'), (106, (42, 34), 'SO'), (171, (30, 14), 'SO'), (205, (30, 18), 'SO'), (209, (30, 22), 'SO'), (211, (38, 34), 'SO'), (229, (22, 22), 'SO'), (311, (14, 22), 'SO'), (352, (34, 14), 'SO'), (352, (38, 30), 'SO'), (352, (14, 22), 'SO'), (364, (14, 26), 'SO')]
+m28 g0 lobster-roll BunnyGame: SRPs (round,centre,actor) [(317, (6, 34), 'SO'), (351, (14, 22), 'SO'), (392, (14, 34), 'SO'), (411, (14, 30), 'SO'), (412, (10, 34), 'SO'), (418, (14, 22), 'SP'), (424, (14, 26), 'SO'), (432, (22, 26), 'SO'), (436, (18, 34), 'SO'), (445, (22, 34), 'SO'), (457, (6, 34), 'SO'), (476, (26, 34), 'SO')]
+m28 g1 lobster-roll rain: SRPs (round,centre,actor) [(78, (18, 14), 'SO'), (86, (18, 14), 'SO'), (221, (18, 14), 'SO'), (271, (18, 14), 'SO'), (332, (14, 14), 'SO'), (339, (18, 22), 'SO'), (343, (10, 6), 'SO'), (360, (10, 18), 'SO'), (390, (10, 2), 'SO'), (397, (14, 14), 'SO')]
+m28 g2 lobster-roll walalilongla: SRPs (round,centre,actor) [(27, (2, 6), 'SO'), (48, (14, 30), 'SO'), (161, (10, 34), 'SO'), (269, (14, 26), 'SO'), (279, (10, 30), 'SO'), (286, (14, 30), 'SO'), (300, (22, 22), 'SO'), (301, (14, 22), 'SO'), (346, (2, 10), 'SO'), (348, (30, 18), 'SO'), (354, (30, 22), 'SO'), (365, (6, 14), 'SO'), (365, (30, 18), 'SO'), (377, (6, 34), 'SO'), (385, (30, 22), 'SO'), (396, (2, 22), 'SO'), (398, (10, 30), 'SP'), (400, (34, 14), 'SO'), (402, (6, 30), 'SO'), (404, (6, 22), 'SO')]
+m608 g0 old-but-gold Castle: SRPs (round,centre,actor) [(36, (2, 18), 'SO'), (118, (2, 5), 'SO'), (141, (6, 2), 'SO')]
+m608 g1 old-but-gold DefaultLarge: SRPs (round,centre,actor) [(34, (34, 14), 'SO'), (47, (34, 26), 'SO'), (61, (34, 10), 'SO'), (81, (34, 22), 'SO'), (81, (34, 6), 'SO'), (128, (42, 14), 'SO'), (152, (42, 10), 'SO'), (161, (46, 10), 'SO'), (167, (38, 2), 'SO'), (171, (38, 6), 'SO'), (174, (38, 22), 'SO'), (176, (42, 2), 'SO'), (186, (34, 2), 'SO'), (189, (46, 6), 'SO'), (192, (46, 18), 'SO'), (197, (46, 22), 'SO'), (201, (42, 26), 'SO'), (214, (34, 26), 'SO'), (215, (34, 22), 'SO'), (230, (30, 26), 'SO')]
+m608 g2 old-but-gold DefaultSmall: SRPs (round,centre,actor) []
+m609 g0 just-woke-up DefaultMedium: SRPs (round,centre,actor) [(61, (3, 22), 'SO'), (66, (10, 24), 'SO'), (67, (2, 14), 'SO'), (83, (10, 17), 'SO'), (101, (11, 29), 'SO'), (137, (10, 10), 'SO'), (149, (23, 31), 'SO'), (163, (14, 24), 'SO'), (166, (17, 32), 'SO'), (174, (23, 31), 'SO'), (182, (11, 3), 'SO'), (186, (10, 17), 'SO')]
+m609 g1 just-woke-up defensetower: SRPs (round,centre,actor) [(92, (33, 22), 'SO'), (129, (34, 15), 'SO'), (148, (36, 9), 'SO'), (150, (37, 19), 'SO'), (182, (17, 9), 'SO'), (182, (6, 17), 'SO'), (184, (25, 18), 'SO'), (194, (26, 2), 'SO'), (198, (31, 7), 'SO'), (201, (31, 11), 'SO'), (205, (30, 2), 'SO'), (210, (29, 32), 'SO'), (224, (26, 26), 'SO'), (228, (29, 40), 'SO'), (239, (2, 17), 'SO'), (242, (29, 18), 'SO'), (252, (22, 2), 'SO'), (256, (33, 37), 'SO'), (258, (37, 33), 'SO'), (261, (37, 26), 'SO')]
+m609 g2 just-woke-up mit: SRPs (round,centre,actor) [(127, (10, 49), 'SO'), (160, (6, 49), 'SO'), (167, (9, 40), 'SO'), (205, (30, 39), 'SO'), (211, (10, 49), 'SO'), (212, (20, 54), 'SO'), (213, (5, 56), 'SO'), (217, (10, 53), 'SO'), (227, (14, 49), 'SO'), (235, (5, 40), 'SO'), (239, (6, 45), 'SO'), (246, (30, 57), 'SO'), (247, (2, 49), 'SO'), (271, (37, 57), 'SO'), (286, (42, 52), 'SO'), (288, (5, 34), 'SO'), (289, (37, 57), 'SO'), (289, (14, 57), 'SO'), (291, (7, 6), 'SO'), (316, (45, 57), 'SO')]
+m610 g0 confused Oasis: SRPs (round,centre,actor) [(174, (56, 18), 'SO'), (176, (40, 14), 'SO'), (177, (52, 18), 'SO'), (188, (22, 26), 'SO'), (197, (18, 22), 'SO'), (201, (22, 6), 'SO'), (204, (48, 22), 'SO'), (209, (40, 10), 'SO'), (210, (10, 56), 'SO'), (214, (40, 18), 'SO'), (223, (48, 26), 'SO'), (237, (52, 22), 'SO'), (237, (32, 6), 'SO'), (238, (18, 26), 'SO'), (255, (36, 22), 'SO'), (268, (26, 26), 'SO'), (273, (32, 26), 'SO'), (283, (14, 40), 'SO'), (289, (36, 2), 'SO'), (296, (18, 40), 'SO')]
+m610 g1 confused rain: SRPs (round,centre,actor) []
+m610 g2 confused sunrise: SRPs (round,centre,actor) [(158, (30, 22), 'SO'), (172, (38, 22), 'SO'), (173, (26, 22), 'SO'), (176, (34, 22), 'SO'), (189, (42, 22), 'SO'), (191, (26, 22), 'SO'), (198, (30, 32), 'SO'), (210, (6, 44), 'SO'), (220, (26, 32), 'SO'), (222, (42, 32), 'SO'), (255, (38, 44), 'SO'), (275, (42, 6), 'SO'), (277, (14, 32), 'SO'), (279, (18, 32), 'SO')]
+m611 g0 om-nom HungerGames: SRPs (round,centre,actor) [(101, (12, 22), 'SO'), (101, (12, 18), 'SO'), (130, (12, 18), 'SO'), (152, (12, 22), 'SO'), (164, (36, 19), 'SO'), (175, (32, 10), 'SO'), (182, (12, 26), 'SO'), (185, (26, 8), 'SO'), (251, (36, 19), 'SO'), (296, (32, 14), 'SO'), (316, (28, 29), 'SO'), (326, (4, 5), 'SO'), (329, (47, 30), 'SO'), (337, (12, 26), 'SO'), (340, (12, 22), 'SO'), (369, (8, 22), 'SO'), (374, (33, 34), 'SO'), (389, (21, 37), 'SO'), (392, (12, 30), 'SO'), (393, (26, 12), 'SO')]
+m611 g1 om-nom Racetrack: SRPs (round,centre,actor) [(109, (21, 17), 'SO')]
+m611 g2 om-nom defensetower: SRPs (round,centre,actor) [(83, (2, 23), 'SO'), (110, (6, 23), 'SO')]
+
+  just-woke-up
+     completer type                                {'SOL': 99}
+     dist to nearest own tower                     med 3.6 p10 3.0 p90 6.0 n=99
+     Chebyshev dist to nearest ruin                med 3 p10 3 p90 5 n=99
+     last-painter types of the 25 tiles (summed)   {'SOLDIER': 2365, 'SPLASHER': 93}
+     distinct painters of the 25 tiles             med 3 p10 2 p90 5 n=99
+     marked centre? (rounds mark->complete)        med 15 p10 7 p90 59 n=99
+     re-completion at same centre                  med 0 p10 0 p90 0 n=99
+     SRP completions per game                      med 16.0 p10 6 p90 28 n=6
+     distinct SRP centres per game                 med 14.5 p10 6 p90 25 n=6
+     first SRP round                               med 90.5 p10 61 p90 127 n=6
+     towers alive at first SRP                     med 6.5 p10 6 p90 9 n=6
+     chips at first SRP                            med 590.0 p10 270 p90 1100 n=6
+     completions by r150                           med 3.5 p10 1 p90 7 n=6
+     completions by r250                           med 12.5 p10 5 p90 20 n=6
+     gap between completions (all)                 med 5 p10 1 p90 24 n=93
+     active SRPs r100                              med 0.0 p10 0 p90 0 n=6
+     active SRPs r150                              med 1.0 p10 0 p90 3 n=6
+     active SRPs r200                              med 1.5 p10 0 p90 4 n=4
+     active SRPs r300                              med 12 p10 12 p90 12 n=1
+     centre (x%4,y%4): [((2, 2), 19), ((2, 1), 13), ((2, 3), 11), ((3, 3), 8), ((3, 2), 8), ((1, 2), 7)]
+     offsets between nearby distinct centres (Cheb<=6): [((0, 4), 23), ((4, 4), 11), ((3, 4), 10), ((3, 6), 9), ((1, 6), 8), ((3, 5), 8), ((2, 6), 4), ((1, 5), 4)]
+  confused
+     SRP completions per game                      med 4.0 p10 0 p90 28 n=6
+     distinct SRP centres per game                 med 4.0 p10 0 p90 27 n=6
+     first SRP round                               med 172.5 p10 158 p90 181 n=4
+     towers alive at first SRP                     med 9.0 p10 7 p90 12 n=4
+     chips at first SRP                            med 1995.0 p10 1180 p90 2290 n=4
+     completions by r150                           med 0.0 p10 0 p90 0 n=6
+     completions by r250                           med 2.5 p10 0 p90 14 n=6
+     gap between completions (all)                 med 5.0 p10 1 p90 24 n=46
+     active SRPs r100                              med 0.0 p10 0 p90 0 n=6
+     active SRPs r150                              med 0.0 p10 0 p90 0 n=6
+     completer type                                {'SOL': 50}
+     dist to nearest own tower                     med 4.1 p10 3.0 p90 9.1 n=50
+     Chebyshev dist to nearest ruin                med 4.0 p10 3 p90 9 n=50
+     last-painter types of the 25 tiles (summed)   {'SOLDIER': 1143, 'SPLASHER': 53}
+     distinct painters of the 25 tiles             med 3.0 p10 2 p90 7 n=50
+     marked centre? (rounds mark->complete)        med - p10 - p90 - n=0
+     re-completion at same centre                  med 0.0 p10 0 p90 0 n=50
+     active SRPs r200                              med 0 p10 0 p90 0 n=3
+     active SRPs r300                              med 9 p10 4 p90 14 n=3
+     centre (x%4,y%4): [((2, 0), 16), ((0, 2), 14), ((2, 2), 12), ((1, 1), 3), ((2, 1), 3), ((2, 3), 1)]
+     offsets between nearby distinct centres (Cheb<=6): [((0, 4), 24), ((4, 4), 15), ((0, 6), 4), ((4, 6), 4), ((6, 6), 1)]
+  om-nom
+     SRP completions per game                      med 4.5 p10 0 p90 28 n=6
+     distinct SRP centres per game                 med 2.5 p10 0 p90 23 n=6
+     first SRP round                               med 101 p10 83 p90 153 n=5
+     towers alive at first SRP                     med 7 p10 5 p90 11 n=5
+     chips at first SRP                            med 1090 p10 840 p90 3750 n=5
+     completions by r150                           med 1.5 p10 0 p90 6 n=6
+     completions by r250                           med 4.5 p10 0 p90 12 n=6
+     gap between completions (all)                 med 5 p10 1 p90 29 n=59
+     active SRPs r100                              med 0.0 p10 0 p90 0 n=6
+     active SRPs r150                              med 0.0 p10 0 p90 1 n=6
+     active SRPs r200                              med 1.0 p10 0 p90 2 n=6
+     completer type                                {'SOL': 64}
+     dist to nearest own tower                     med 4.2 p10 3.0 p90 6.0 n=64
+     Chebyshev dist to nearest ruin                med 4.0 p10 3 p90 4 n=64
+     last-painter types of the 25 tiles (summed)   {'SOLDIER': 1442, 'SPLASHER': 121}
+     distinct painters of the 25 tiles             med 6.0 p10 3 p90 8 n=64
+     marked centre? (rounds mark->complete)        med 19.0 p10 8 p90 203 n=64
+     re-completion at same centre                  med 0.0 p10 0 p90 1 n=64
+     active SRPs r300                              med 2.5 p10 2 p90 3 n=2
+     centre (x%4,y%4): [((0, 0), 18), ((0, 2), 13), ((1, 1), 6), ((1, 0), 4), ((2, 3), 4), ((1, 2), 4)]
+     offsets between nearby distinct centres (Cheb<=6): [((0, 4), 13), ((4, 4), 4), ((2, 6), 3), ((2, 5), 1), ((1, 6), 1), ((5, 6), 1), ((3, 5), 1), ((6, 6), 1)]
+  spaark
+     completer type                                {'SOL': 38}
+     dist to nearest own tower                     med 3.2 p10 3.0 p90 4.2 n=38
+     Chebyshev dist to nearest ruin                med 3.0 p10 3 p90 4 n=38
+     last-painter types of the 25 tiles (summed)   {'SOLDIER': 894, 'SPLASHER': 56}
+     distinct painters of the 25 tiles             med 4.0 p10 2 p90 7 n=38
+     marked centre? (rounds mark->complete)        med 22.0 p10 11 p90 127 n=38
+     re-completion at same centre                  med 0.0 p10 0 p90 0 n=38
+     SRP completions per game                      med 10 p10 10 p90 18 n=3
+     distinct SRP centres per game                 med 10 p10 9 p90 18 n=3
+     first SRP round                               med 78 p10 77 p90 84 n=3
+     towers alive at first SRP                     med 6 p10 5 p90 7 n=3
+     chips at first SRP                            med 1040 p10 270 p90 1070 n=3
+     completions by r150                           med 4 p10 3 p90 5 n=3
+     completions by r250                           med 6 p10 6 p90 8 n=3
+     gap between completions (all)                 med 20 p10 3 p90 63 n=35
+     active SRPs r100                              med 0 p10 0 p90 0 n=3
+     active SRPs r150                              med 2 p10 2 p90 2 n=3
+     active SRPs r200                              med 3 p10 3 p90 5 n=3
+     active SRPs r300                              med 6.0 p10 6 p90 6 n=2
+     centre (x%4,y%4): [((0, 3), 5), ((1, 3), 4), ((1, 2), 4), ((2, 1), 4), ((1, 1), 4), ((3, 2), 3)]
+     offsets between nearby distinct centres (Cheb<=6): [((0, 4), 6), ((2, 6), 4), ((0, 6), 3), ((1, 6), 2), ((3, 5), 1), ((3, 4), 1), ((0, 5), 1), ((5, 6), 1)]
+  podemice
+     completer type                                {'SOL': 32}
+     dist to nearest own tower                     med 4.0 p10 3.0 p90 6.7 n=32
+     Chebyshev dist to nearest ruin                med 4.0 p10 3 p90 5 n=32
+     last-painter types of the 25 tiles (summed)   {'SOLDIER': 723, 'SPLASHER': 77}
+     distinct painters of the 25 tiles             med 6.0 p10 3 p90 9 n=32
+     marked centre? (rounds mark->complete)        med - p10 - p90 - n=0
+     re-completion at same centre                  med 0.0 p10 0 p90 0 n=32
+     SRP completions per game                      med 5 p10 1 p90 26 n=3
+     distinct SRP centres per game                 med 4 p10 1 p90 26 n=3
+     first SRP round                               med 37 p10 35 p90 117 n=3
+     towers alive at first SRP                     med 3 p10 3 p90 7 n=3
+     chips at first SRP                            med 710 p10 330 p90 910 n=3
+     completions by r150                           med 3 p10 1 p90 3 n=3
+     completions by r250                           med 3 p10 1 p90 9 n=3
+     gap between completions (all)                 med 12 p10 1 p90 53 n=29
+     active SRPs r100                              med 1 p10 0 p90 1 n=3
+     active SRPs r150                              med 1 p10 0 p90 2 n=3
+     active SRPs r200                              med 2 p10 1 p90 3 n=3
+     active SRPs r300                              med 5.5 p10 2 p90 9 n=2
+     centre (x%4,y%4): [((2, 2), 32)]
+     offsets between nearby distinct centres (Cheb<=6): [((0, 4), 18), ((4, 4), 13)]
+  lobster-roll
+     completer type                                {'SOL': 76, 'SPL': 3}
+     dist to nearest own tower                     med 4.0 p10 3.0 p90 7.0 n=79
+     Chebyshev dist to nearest ruin                med 3 p10 3 p90 7 n=79
+     last-painter types of the 25 tiles (summed)   {'SOLDIER': 1690, 'SPLASHER': 222}
+     distinct painters of the 25 tiles             med 4 p10 2 p90 8 n=79
+     marked centre? (rounds mark->complete)        med 17 p10 9 p90 230 n=79
+     re-completion at same centre                  med 0 p10 0 p90 1 n=79
+     SRP completions per game                      med 12.5 p10 10 p90 21 n=6
+     distinct SRP centres per game                 med 10.5 p10 6 p90 17 n=6
+     first SRP round                               med 69.0 p10 18 p90 317 n=6
+     towers alive at first SRP                     med 6.0 p10 2 p90 7 n=6
+     chips at first SRP                            med 985.0 p10 590 p90 3090 n=6
+     completions by r150                           med 2.5 p10 0 p90 5 n=6
+     completions by r250                           med 3.5 p10 0 p90 8 n=6
+     gap between completions (all)                 med 12 p10 2 p90 65 n=73
+     active SRPs r100                              med 0.0 p10 0 p90 2 n=6
+     active SRPs r150                              med 1.5 p10 0 p90 2 n=6
+     active SRPs r200                              med 2.5 p10 0 p90 5 n=6
+     active SRPs r300                              med 1.5 p10 0 p90 8 n=6
+     centre (x%4,y%4): [((2, 2), 79)]
+     offsets between nearby distinct centres (Cheb<=6): [((0, 4), 35), ((4, 4), 15)]
+  old-but-gold
+     completer type                                {'SOL': 25}
+     dist to nearest own tower                     med 4.0 p10 3.0 p90 7.3 n=25
+     Chebyshev dist to nearest ruin                med 4 p10 3 p90 7 n=25
+     last-painter types of the 25 tiles (summed)   {'SOLDIER': 590, 'SPLASHER': 7}
+     distinct painters of the 25 tiles             med 3 p10 1 p90 5 n=25
+     marked centre? (rounds mark->complete)        med 101 p10 101 p90 101 n=1
+     re-completion at same centre                  med 0 p10 0 p90 0 n=25
+     SRP completions per game                      med 3 p10 0 p90 22 n=3
+     distinct SRP centres per game                 med 3 p10 0 p90 20 n=3
+     first SRP round                               med 35.0 p10 34 p90 36 n=2
+     towers alive at first SRP                     med 4.0 p10 4 p90 4 n=2
+     chips at first SRP                            med 290.0 p10 240 p90 340 n=2
+     completions by r150                           med 3 p10 0 p90 6 n=3
+     completions by r250                           med 3 p10 0 p90 21 n=3
+     gap between completions (all)                 med 9 p10 2 p90 24 n=23
+     active SRPs r100                              med 1 p10 0 p90 2 n=3
+     active SRPs r150                              med 1 p10 0 p90 5 n=3
+     active SRPs r200                              med 3.5 p10 3 p90 4 n=2
+     centre (x%4,y%4): [((2, 2), 24), ((2, 1), 1)]
+     offsets between nearby distinct centres (Cheb<=6): [((0, 4), 17), ((4, 4), 14), ((3, 4), 1)]
