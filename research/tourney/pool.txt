@@ -17,13 +17,16 @@
 # y10 (retired: -103 vs sw06 after 281; fewer upgrades fails again)
 # sw07 (retired: -93 vs sw06 after 294; paint reserve on y06)
 # sw08 (retired: -34 vs y11 after 604; tower paint reserve neutral)
-y11
+# y11 (retired: former champion)
 # y12 (retired: -38 vs y11 after 458; earlier refills neutral)
 # sw09 (retired: -103 vs y11 after 448; SRP v3 (late, near own towers) - third SRP version to lose; SRPs parked)
-y13
-y14
-sw10
+# y13 (retired: -33 vs y11 after 409; 4 moppers per 6 is past the peak)
+# y14 (retired: -25 vs y11 after 430; mix from r50 neutral)
+# sw10 (retired: -50 vs y11 after 433; ruin denial v1 fires too rarely)
 y15
 y16
 sw11
 sw12
+sw13
+y17
+y18

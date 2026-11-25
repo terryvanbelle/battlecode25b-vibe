@@ -32,7 +32,6 @@ public strictfp class Tower {
 
     static UnitType choose() {
         int r = G.round;
-        if (built < 2) return UnitType.SOLDIER;
         int enemyNear = G.enemies.length;
         for (RobotInfo e : G.enemies) if (e.type == UnitType.MOPPER) enemyNear--;
         int k = built % 6;
