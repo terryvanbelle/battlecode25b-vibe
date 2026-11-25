@@ -46,13 +46,16 @@
 y29
 y30
 # y31 (retired: -14 vs y25 after 134, -63 vs y28 parent; kiting matters)
-sw17
+# sw17 (retired: former champion; splasher siege -23 vs y30)
 # y32 (retired: -55 vs y25 after 107; splashers matter, soldier swap loses again)
 # y33 (retired: -21 vs sw17 after 378; y30 params do not stack)
 # y34 (retired: -24 vs sw17 after 367; wide defence does not stack)
 # sw18 (retired: -41 vs sw17 after 331; over-eager splasher siege)
-sw19
-y35
+# sw19 (retired: -40 vs sw17 after 451; half early rush)
+# y35 (retired: -52 vs sw17 after 469; 2 splashers per 6)
 y36
-sw20
+# sw20 (retired: -103 vs sw17 after 154; full early rush)
 y37
+y38
+y39
+y40
