@@ -1,0 +1,13 @@
+== LOST (per marked ruin; outcome built / stolen = enemy built it / never)
+  op built   n=104 enemy tiles in 5x5 @mark+10 med 0.0 @+30 med 0.0  own tiles @+30 med 24.0  mopper within r2 8 in 40r: 0.44
+  op never   n=25  enemy tiles in 5x5 @mark+10 med 0 @+30 med 0  own tiles @+30 med 14  mopper within r2 8 in 40r: 0.8
+  us built   n=41  enemy tiles in 5x5 @mark+10 med 0 @+30 med 0  own tiles @+30 med 23  mopper within r2 8 in 40r: 0.07
+  us never   n=31  enemy tiles in 5x5 @mark+10 med 0 @+30 med 1  own tiles @+30 med 15  mopper within r2 8 in 40r: 0.06
+  us stolen  n=31  enemy tiles in 5x5 @mark+10 med 3 @+30 med 3  own tiles @+30 med 12  mopper within r2 8 in 40r: 0.19
+== WON (per marked ruin; outcome built / stolen = enemy built it / never)
+  op built   n=30  enemy tiles in 5x5 @mark+10 med 0.0 @+30 med 0.0  own tiles @+30 med 21.5  mopper within r2 8 in 40r: 0.07
+  op never   n=15  enemy tiles in 5x5 @mark+10 med 0 @+30 med 0  own tiles @+30 med 9  mopper within r2 8 in 40r: 0.0
+  op stolen  n=14  enemy tiles in 5x5 @mark+10 med 11.0 @+30 med 8.5  own tiles @+30 med 3.0  mopper within r2 8 in 40r: 0.0
+  us built   n=130 enemy tiles in 5x5 @mark+10 med 0.0 @+30 med 0.0  own tiles @+30 med 22.5  mopper within r2 8 in 40r: 0.12
+  us never   n=50  enemy tiles in 5x5 @mark+10 med 1.0 @+30 med 3.5  own tiles @+30 med 7.0  mopper within r2 8 in 40r: 0.18
+  us stolen  n=23  enemy tiles in 5x5 @mark+10 med 24 @+30 med 24  own tiles @+30 med 0  mopper within r2 8 in 40r: 0.13

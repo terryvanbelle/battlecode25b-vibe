@@ -1,0 +1,18 @@
+== LOST
+  us: episodes 158, killed 1 (0.01)
+    killing  n=1    med attackers 5, med max-simultaneous 2, med dmg 1000, med length 14, attackers <10 paint at last hit 0/5, attackers dead within 10r 1/5
+    failed   n=157  med attackers 1, med max-simultaneous 1, med dmg 150, med length 3, attackers <10 paint at last hit 28/188, attackers dead within 10r 91/188
+    episodes with 1 attacker: 131, >=3 attackers: 5 (kill rate 0.2)
+  op: episodes 225, killed 79 (0.35)
+    killing  n=79   med attackers 2, med max-simultaneous 1, med dmg 750, med length 16, attackers <10 paint at last hit 8/184, attackers dead within 10r 33/184
+    failed   n=146  med attackers 1.0, med max-simultaneous 1.0, med dmg 300.0, med length 8.5, attackers <10 paint at last hit 19/192, attackers dead within 10r 75/192
+    episodes with 1 attacker: 128, >=3 attackers: 38 (kill rate 0.79)
+== WON
+  us: episodes 181, killed 22 (0.12)
+    killing  n=22   med attackers 2.0, med max-simultaneous 1.0, med dmg 300.0, med length 5.0, attackers <10 paint at last hit 3/43, attackers dead within 10r 8/43
+    failed   n=159  med attackers 1, med max-simultaneous 1, med dmg 200, med length 4, attackers <10 paint at last hit 23/198, attackers dead within 10r 60/198
+    episodes with 1 attacker: 137, >=3 attackers: 13 (kill rate 0.38)
+  op: episodes 113, killed 10 (0.09)
+    killing  n=10   med attackers 1.5, med max-simultaneous 1.0, med dmg 150.0, med length 3.5, attackers <10 paint at last hit 0/22, attackers dead within 10r 1/22
+    failed   n=103  med attackers 1, med max-simultaneous 1, med dmg 200, med length 4, attackers <10 paint at last hit 4/117, attackers dead within 10r 44/117
+    episodes with 1 attacker: 96, >=3 attackers: 6 (kill rate 0.67)
