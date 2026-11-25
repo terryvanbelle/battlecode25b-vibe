@@ -53,7 +53,7 @@ public strictfp class Soldier {
             // two soldiers per ruin at most
             int helpers = 0;
             for (RobotInfo a : G.allies) if (a.type == UnitType.SOLDIER && a.location.distanceSquaredTo(r) <= 8) helpers++;
-            if (helpers >= 1 && G.here.distanceSquaredTo(r) > 2) continue;
+            if (helpers >= 1 && G.here.distanceSquaredTo(r) > 8) continue;
             int d = G.here.distanceSquaredTo(r);
             if (d < bestD) { bestD = d; best = r; }
         }
