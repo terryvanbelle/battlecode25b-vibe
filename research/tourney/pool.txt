@@ -4,13 +4,16 @@
 y02
 # y03 (retired: -90 vs y02 after 255 games; SRP v1 diverted soldiers; second version sw01)
 # y04 (retired: -71 vs y02 after 164; superseded by y05, same change on y02)
-y05
+# y05 (retired: -21 vs y02 after 289; idle-at-ruin fix neutral on y02)
 # sw01 (retired: -75 vs y02 after 222; SRP v2 (idle chips) still loses; SRP v3 to come after the paint fix)
-sw02
+# sw02 (retired: -65 vs y02 after 266; splasher army)
 y06
-y07
+# y07 (retired: level with y02 after 237; re-test on y06 as y10)
 y08
 # sw03 (retired: -120 vs y02 after 50, > 2 SE; greed is the losing side of the y02 trade)
 sw04
 sw05
 sw06
+y10
+sw07
+sw08

@@ -197,6 +197,9 @@ public class BotTest {
         Tower.turn(); turn(w);
         check(w.builtUnits.size() == 2 && w.builtUnits.get(0).startsWith("SOLDIER") && w.builtUnits.get(1).startsWith("SOLDIER"),
                 "first two units are soldiers: " + w.builtUnits);
+        w.myPaint = 500; w.chips = 2500; G.startTurn();
+        Tower.turn(); turn(w);
+        check(w.builtUnits.size() == 3 && w.builtUnits.get(2).startsWith("SOLDIER"), "third unit is a soldier (y06): " + w.builtUnits);
     }
 
     static void testTowerAttacksWeakest() throws GameActionException {
