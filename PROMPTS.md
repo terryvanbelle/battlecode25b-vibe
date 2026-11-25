@@ -25,6 +25,6 @@ This year we will compete again in Battlecode 2025.  Store all results in a new 
 
 I like the local tournament configuration we used in battlecode26b-vibe.  I'd like this setup to be like that one
 
-## Prompt #3 (2026-11-25 07:55 PDT)
+## #3 (2026-11-25 07:55 PDT)
 
 I'd like you to schedule a prod every 20 minutes that reports on the current state of the local tournament, replica, and things like disk usage
