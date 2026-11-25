@@ -35,7 +35,7 @@ public strictfp class Soldier {
 
     // ---- siege: a soldier with no ruin to build and paint to spare kites a known enemy tower nearby: step into
     // range (r2 <= 9), hit it, step back out
-    static final int SIEGE_PAINT = 80, SIEGE_R2 = 64;
+    static final int SIEGE_PAINT = 50, SIEGE_R2 = 100;
     static boolean siege() throws GameActionException {
         RobotController rc = G.rc;
         MapLocation t = Unit.enemyTower;

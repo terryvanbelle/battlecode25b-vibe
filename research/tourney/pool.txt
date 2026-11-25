@@ -40,9 +40,9 @@
 # sw15 (retired: -28 vs y19 after 351; money:paint 1:1)
 # y25 (retired: former champion)
 # y26 (retired: -24 vs y25 after 407; never join occupied ruin)
-sw16
-y27
-y28
+# sw16 (retired: former champion)
+# y27 (retired: -37 vs sw17 after 504)
+# y28 (retired: -51 vs sw17 after 523; carried in sw17)
 y29
 y30
 # y31 (retired: -14 vs y25 after 134, -63 vs y28 parent; kiting matters)
@@ -51,3 +51,6 @@ sw17
 y33
 y34
 sw18
+sw19
+y35
+y36

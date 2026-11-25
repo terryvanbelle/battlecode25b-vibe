@@ -18,7 +18,8 @@ public strictfp class Splasher {
         if (G.paint >= 50 && rc.isActionReady()) done = splash(9);
         if (Unit.refill(50)) return;
         // guards: a unit's first turn on a big map spends most of its budget on the map memory
-        MapLocation goal = Clock.getBytecodesLeft() > 5000 ? frontier() : null;
+        MapLocation goal = (Unit.enemyTower != null && G.paint >= 100 && G.here.distanceSquaredTo(Unit.enemyTower) <= 100) ? Unit.enemyTower
+                : Clock.getBytecodesLeft() > 5000 ? frontier() : null;
         Nav.moveTo(goal != null ? goal : Unit.exploreTarget());
         if (!done && G.paint >= 50 && rc.isActionReady() && Clock.getBytecodesLeft() > 2500) {
             G.here = rc.getLocation();
@@ -37,7 +38,7 @@ public strictfp class Splasher {
         for (RobotInfo e : G.enemies) {
             if (!e.type.isTowerType()) continue;
             int gx = e.location.x - gx0 + 5, gy = e.location.y - gy0 + 5;
-            if (gx >= 0 && gx < 11 && gy >= 0 && gy < 11) { V1[gy * 11 + gx] += 12; V2[gy * 11 + gx] += 12; }
+            if (gx >= 0 && gx < 11 && gy >= 0 && gy < 11) { V1[gy * 11 + gx] += 40; V2[gy * 11 + gx] += 40; }
         }
     }
 
