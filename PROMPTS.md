@@ -55,3 +55,6 @@ If they're truly beating us, then it should win in our local tournament
 
 ## #10 (2026-11-25 16:41 PDT)
 How about in replica-elo.png you use the vertical lines to mark the champions that had an especially high improvement in local Elo score?
+
+## #11 (2026-11-25 16:42 PDT)
+Also, the table in local-elo.md is stale

@@ -109,6 +109,11 @@ def cmd_rank(root):
         print(f'NEW CHAMPION {elig[0][0]} (was {ch}): leads the bots with >= {MIN_GAMES} games')
     else:
         print(f'champion {ch}')
+    if root == R:   # keep progress/local-elo.md current every prod, not only at crownings
+        import datetime as dt
+        from zoneinfo import ZoneInfo
+        gs = games(root)
+        write_md(gs, elolib.fit(gs), champ_history(), dt.datetime.now(ZoneInfo('America/Vancouver')))
 
 
 def pending():
@@ -200,6 +205,26 @@ def entry_times():
     return out
 
 
+def write_md(gs, rt, hist, now, out=os.path.join(R, 'progress')):
+    """progress/local-elo.md: every champion at its current rating. `rank` rewrites it each prod so it never goes
+    stale between crownings; `chart` also redraws the PNG it embeds."""
+    L = ['# Local tournament Elo', '',
+         f'Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all {len(gs)} games in '
+         f'one fit as of {now:%Y-%m-%d %H:%M} PDT, so every point is on the same scale; earlier champions are '
+         'shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py '
+         'rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.', '',
+         '![local elo](local-elo.png)', '',
+         '| Champion from (PDT) | Bot | Change on base | Submission | Rating +- SE | Gain | Games |',
+         '|---|---|---|---:|---:|---:|---:|']
+    for r in hist:
+        x, y = rt.get(r['bot']), rt.get(r['base'])
+        gain = f'{x.rating - y.rating:+.0f}' if x and y else ''
+        L.append(f"| {r['when_pdt']} | {r['bot']} | {r['change'] + (' on ' + r['base'] if r['base'] else '')} | "
+                 f"{('#' + r['submission']) if r['submission'] else ''} | "
+                 f"{f'{x.rating:.0f} +- {x.se:.0f}' if x else '-'} | {gain} | {f'{x.games:.0f}' if x else '-'} |")
+    open(os.path.join(out, 'local-elo.md'), 'w').write('\n'.join(L) + '\n')
+
+
 def cmd_chart(out=os.path.join(R, 'progress')):
     import datetime as dt
     from zoneinfo import ZoneInfo
@@ -270,18 +295,7 @@ def cmd_chart(out=os.path.join(R, 'progress')):
             t.remove()
     fig.savefig(os.path.join(out, 'local-elo.png'), dpi=110)
     plt.close(fig)
-    L = ['# Local tournament Elo', '',
-         f'Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all {len(gs)} games in '
-         f'one fit as of {now:%Y-%m-%d %H:%M} PDT, so every point is on the same scale; earlier champions are '
-         'shown at their current rating. Regenerate with `tools/tourney.py chart`.', '',
-         '![local elo](local-elo.png)', '',
-         '| Champion from (PDT) | Bot | Change on base | Submission | Rating +- SE | Games |', '|---|---|---|---:|---:|---:|']
-    for r in hist:
-        x = rt.get(r['bot'])
-        L.append(f"| {r['when_pdt']} | {r['bot']} | {r['change'] + (' on ' + r['base'] if r['base'] else '')} | "
-                 f"{('#' + r['submission']) if r['submission'] else ''} | "
-                 f"{f'{x.rating:.0f} +- {x.se:.0f}' if x else '-'} | {f'{x.games:.0f}' if x else '-'} |")
-    open(os.path.join(out, 'local-elo.md'), 'w').write('\n'.join(L) + '\n')
+    write_md(gs, rt, hist, now, out)
     print(f'local-elo.png: {len(hist)} champions, {len(cand)} candidates')
 
 
