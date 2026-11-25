@@ -24,6 +24,18 @@ public class World {
     List<MapLocation> splashed = new ArrayList<>();
     List<UnitType> completed = new ArrayList<>();
     List<String> builtUnits = new ArrayList<>();
+    List<MapLocation> srps = new ArrayList<>();
+
+    /** The SRP at c: 5x5 on the map, no walls or ruins, every tile our colour as the resource pattern says. */
+    boolean srpOk(MapLocation c) {
+        if (c.x < 2 || c.y < 2 || c.x > W - 3 || c.y > H - 3) return false;
+        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+            int i = (c.x + dx) + (c.y + dy) * W;
+            if (wall[i] || ruin[i]) return false;
+            if (paint[i] != (bit(GameConstants.RESOURCE_PATTERN, dx, dy) ? 2 : 1)) return false;
+        }
+        return true;
+    }
 
     World(int w, int h, UnitType t, MapLocation at) {
         W = w; H = h; wall = new boolean[w * h]; ruin = new boolean[w * h]; paint = new int[w * h]; mark = new int[w * h];
@@ -55,7 +67,7 @@ public class World {
     MapInfo info(MapLocation l) {
         int i = k(l);
         return new MapInfo(l, !wall[i] && !ruin[i], wall[i], pt(paint[i]), mark[i] == 0 ? PaintType.EMPTY : pt(mark[i]),
-                ruin[i], false);
+                ruin[i], srps.contains(l));
     }
 
     /** End of turn: cooldowns tick (as at the start of the next turn), round advances. */
@@ -248,6 +260,16 @@ public class World {
                 chips -= t.moneyCost; myPaint -= t.paintCost; actCd += 10;
                 put(20000 + builtUnits.size(), team, t, l.x, l.y, t.paintCapacity);
                 builtUnits.add(t + "@" + l);
+                return null;
+            }
+            case "canCompleteResourcePattern": {
+                MapLocation c = (MapLocation) a[0];
+                return me.distanceSquaredTo(c) <= 8 && chips >= 200 && !srps.contains(c) && srpOk(c);
+            }
+            case "completeResourcePattern": {
+                MapLocation c = (MapLocation) a[0];
+                if (me.distanceSquaredTo(c) > 8 || chips < 200 || srps.contains(c) || !srpOk(c)) throw new GameActionException(GameActionExceptionType.CANT_DO_THAT, "srp");
+                chips -= 200; srps.add(c); log.add("srp " + c);
                 return null;
             }
             case "canUpgradeTower": return false;

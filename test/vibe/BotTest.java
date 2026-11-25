@@ -16,7 +16,7 @@ public class BotTest {
     static World start(World w) throws GameActionException {
         World.clock(1 << 30);
         Nav.target = null; Nav.reset(); Nav.last1 = Nav.last2 = null;
-        Soldier.ruin = null; Soldier.ruinType = null; Soldier.nBad = 0;
+        Soldier.ruin = null; Soldier.ruinType = null; Soldier.nBad = 0; Soldier.srp = null;
         Unit.explore = null; Unit.refillAt = null; Unit.enemyTower = null;
         G.nTowers = 0; G.overruns = 0; G.exceptions = 0;
         Tower.built = 0;
@@ -212,6 +212,45 @@ public class BotTest {
         check(G.exceptions == 0, "no exceptions in tower attack");
     }
 
+    // ---------------------------------------------------------------- SRPs
+    static void testSrpColouringTiles() {
+        // every lattice centre's 5x5 under the global colouring is exactly the resource pattern
+        boolean ok = true;
+        for (int cx = 2; cx < 30; cx += 4) for (int cy = 2; cy < 30; cy += 4)
+            for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++)
+                if (Soldier.srpSec(cx + dx, cy + dy) != Soldier.bit(GameConstants.RESOURCE_PATTERN, dx, dy)) ok = false;
+        check(ok, "SRP colouring tiles the map with period 4");
+    }
+
+    static void testSoldierBuildsSrp() throws GameActionException {
+        // an open 14x14 field, chips enough and 4 towers: the soldier paints the colouring and completes SRPs
+        World w = new World(14, 14, UnitType.SOLDIER, new MapLocation(6, 6));
+        w.towers = 4; w.chips = 2000;
+        start(w);
+        for (int i = 0; i < 150 && w.srps.isEmpty(); i++) { Soldier.turn(); turn(w); w.myPaint = 200; }
+        check(!w.srps.isEmpty(), "soldier completes an SRP on open ground within 150 turns");
+        for (MapLocation c : w.srps) check((c.x - 2) % 4 == 0 && (c.y - 2) % 4 == 0, "SRP on the lattice: " + c);
+        check(G.exceptions == 0, "no exceptions while building SRPs");
+    }
+
+    static void testSoldierRepaintsWrongColour() throws GameActionException {
+        // our primary paint where the colouring wants secondary is repainted (no ruin nearby)
+        World w = new World(14, 14, UnitType.SOLDIER, new MapLocation(6, 6));
+        w.towers = 4;
+        for (int x = 0; x < 14; x++) for (int y = 0; y < 14; y++) w.paint(x, y, 1);
+        start(w);
+        Soldier.paintNear();
+        check(w.painted.size() == 1, "repaints one wrong-colour tile");
+        if (w.painted.size() == 1) { MapLocation l = w.painted.get(0); check(w.paintAt(l.x, l.y) == 2 && Soldier.srpSec(l.x, l.y), "to secondary where the colouring says so"); }
+    }
+
+    static void testSoldierKeepsRuinZonePrimary() throws GameActionException {
+        World w = new World(14, 14, UnitType.SOLDIER, new MapLocation(6, 6));
+        w.towers = 4; w.ruin(7, 7);
+        start(w);
+        check(!Soldier.colorAt(new MapLocation(6, 6)), "tile inside a ruin's 5x5 is painted primary");
+    }
+
     public static void main(String[] a) throws Exception {
         testPatternBits();
         testSymRot();
@@ -230,6 +269,10 @@ public class BotTest {
         testMopperMopsEnemyPaint();
         testTowerOpensWithSoldiers();
         testTowerAttacksWeakest();
+        testSrpColouringTiles();
+        testSoldierBuildsSrp();
+        testSoldierRepaintsWrongColour();
+        testSoldierKeepsRuinZonePrimary();
         System.out.println("BotTest: " + (checks - fails) + "/" + checks + " checks passed");
         System.exit(fails > 0 ? 1 : 0);
     }
