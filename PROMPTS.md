@@ -48,3 +48,7 @@ Can you add a panel to replica-elo.png to plot the current Elo minus the Elo for
 ## #8 (2026-11-25 15:40 PDT)
 
 Do not put a non-champion on the replica.  Instead, learn to employ the enemy's tactics
+
+## #9 (2026-11-25 15:41 PDT)
+
+If they're truly beating us, then it should win in our local tournament
