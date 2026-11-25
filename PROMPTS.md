@@ -44,3 +44,7 @@ New that we're above 1000 Elo on the replica, let's start a graph showing our re
 ## #7 (2026-11-25 12:19 PDT)
 
 Can you add a panel to replica-elo.png to plot the current Elo minus the Elo for #15, #10, #5 and #1?
+
+## #8 (2026-11-25 15:40 PDT)
+
+Do not put a non-champion on the replica.  Instead, learn to employ the enemy's tactics

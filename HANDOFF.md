@@ -10,6 +10,8 @@ season's tools. Times are the owner's zone: `TZ=America/Vancouver` (UTC-7, "PDT"
   (digests in `research/readings/`).
 - Competitor code is security-scanned only, never read. Benchmarks play only on the replica.
 - Nothing touches the official Battlecode infrastructure.
+- Only the local champion is ever submitted to the replica (owner prompt #8). To get past a plateau, learn the top
+  teams' tactics from replays (field studies in `research/field/`) and build them into candidates.
 
 ## Machines
 | machine | role | how |
