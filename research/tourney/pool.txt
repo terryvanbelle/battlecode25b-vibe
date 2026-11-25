@@ -48,9 +48,11 @@ y30
 # y31 (retired: -14 vs y25 after 134, -63 vs y28 parent; kiting matters)
 sw17
 # y32 (retired: -55 vs y25 after 107; splashers matter, soldier swap loses again)
-y33
-y34
-sw18
+# y33 (retired: -21 vs sw17 after 378; y30 params do not stack)
+# y34 (retired: -24 vs sw17 after 367; wide defence does not stack)
+# sw18 (retired: -41 vs sw17 after 331; over-eager splasher siege)
 sw19
 y35
 y36
+sw20
+y37
