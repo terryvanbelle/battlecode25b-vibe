@@ -46,6 +46,24 @@ def sample():
     print('replica-elo:', dict(zip(HEADER, row)))
 
 
+BIG_GAIN = 40   # local Elo a new champion must gain over the one it replaced to get a vertical line
+
+
+def big_crownings():
+    """(crowned at, bot, local gain) for each champion whose current local rating beats its predecessor's by
+    BIG_GAIN or more, from research/tourney/champions.csv and the tournament's present fit."""
+    sys.path.insert(0, os.path.join(REPO, 'tools'))
+    import tourney as T
+    import elolib
+    rt = elolib.fit(T.games())
+    out = []
+    for r in T.champ_history():
+        b, a = r['bot'], r['base']
+        if b in rt and a in rt and rt[b].rating - rt[a].rating >= BIG_GAIN:
+            out.append((r['when'], b, rt[b].rating - rt[a].rating))
+    return out
+
+
 def chart():
     import matplotlib
     matplotlib.use('Agg')
@@ -66,13 +84,12 @@ def chart():
     last = rows[-1]
     ax.annotate(f"#{last['our_rank']} of {last['teams']}", (t[-1], float(last['our_rating'])), textcoords='offset points',
                 xytext=(6, 6), fontsize=9, color='#2a6fdb')
-    # mark changes of the active local champion
-    prev = None
-    for ti, r in zip(t, rows):
-        if r['champion'] != prev and prev is not None:
-            ax.axvline(ti, color='#2a6fdb', alpha=0.25, lw=1)
-            ax.text(ti, ax.get_ylim()[1], f" {r['champion']}", fontsize=8, color='#2a6fdb', va='top', rotation=90)
-        prev = r['champion']
+    # mark the crownings with an especially large local gain over the champion they replaced (owner prompt #10)
+    for when, bot, gain in big_crownings():
+        if t[0] <= when <= t[-1] + (t[-1] - t[0]) * 0.05:
+            for a in (ax, gx):
+                a.axvline(when, color='#2a6fdb', alpha=0.35, lw=1.2)
+            ax.text(when, ax.get_ylim()[1], f" {bot} +{gain:.0f}", fontsize=8, color='#2a6fdb', va='top', rotation=90)
     # lower panel: our rating minus the rating at each place (owner prompt #7); above 0 means we are ahead of it
     gap_col = {1: '#c0392b', 5: '#e67e22', 10: '#27ae60', 15: '#8e44ad'}
     for p in PLACES:
