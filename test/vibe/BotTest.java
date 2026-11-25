@@ -215,6 +215,23 @@ public class BotTest {
         check(G.exceptions == 0, "no exceptions in tower attack");
     }
 
+    static void testTowerProductionMix() throws GameActionException {
+        // champion sw06: soldiers only before round 80, then soldiers/splashers/moppers 2:2:2 per six
+        World w = new World(20, 20, UnitType.LEVEL_TWO_PAINT_TOWER, new MapLocation(5, 5));
+        start(w);
+        boolean allSol = true;
+        for (int b = 0; b < 12; b++) { Tower.built = b; if (Tower.choose() != UnitType.SOLDIER) allSol = false; }
+        check(allSol, "soldiers only before round 80");
+        w.round = 100; G.startTurn();
+        int sol = 0, spl = 0, mop = 0;
+        for (int b = 6; b < 12; b++) {
+            Tower.built = b;
+            UnitType t = Tower.choose();
+            if (t == UnitType.SOLDIER) sol++; else if (t == UnitType.SPLASHER) spl++; else if (t == UnitType.MOPPER) mop++;
+        }
+        check(sol == 2 && spl == 2 && mop == 2, "after round 80: 2 soldiers, 2 splashers, 2 moppers per six: " + sol + "/" + spl + "/" + mop);
+    }
+
     public static void main(String[] a) throws Exception {
         testPatternBits();
         testSymRot();
@@ -233,6 +250,7 @@ public class BotTest {
         testMopperMopsEnemyPaint();
         testTowerOpensWithSoldiers();
         testTowerAttacksWeakest();
+        testTowerProductionMix();
         System.out.println("BotTest: " + (checks - fails) + "/" + checks + " checks passed");
         System.exit(fails > 0 ? 1 : 0);
     }

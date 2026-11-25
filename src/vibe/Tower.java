@@ -32,19 +32,20 @@ public strictfp class Tower {
 
     static UnitType choose() {
         int r = G.round;
-        if (built < 3) return UnitType.SOLDIER;
+        if (built < 2) return UnitType.SOLDIER;
         int enemyNear = G.enemies.length;
         for (RobotInfo e : G.enemies) if (e.type == UnitType.MOPPER) enemyNear--;
         int k = built % 6;
-        if (r < 80) return k == 2 ? UnitType.MOPPER : UnitType.SOLDIER;
+        if (r < 80) return UnitType.SOLDIER;
         // mid game: splashers do the bulk of the painting; soldiers keep building towers; moppers clean
+        // a third moppers: they drain enemy robots, clean ruins and feed allies
         switch (k) {
             case 0: return UnitType.SOLDIER;
             case 1: return UnitType.SPLASHER;
             case 2: return UnitType.MOPPER;
             case 3: return UnitType.SPLASHER;
-            case 4: return UnitType.SOLDIER;
-            default: return UnitType.SPLASHER;
+            case 4: return UnitType.MOPPER;
+            default: return UnitType.SOLDIER;
         }
     }
 
