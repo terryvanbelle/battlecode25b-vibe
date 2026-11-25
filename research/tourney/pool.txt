@@ -1,6 +1,9 @@
-v01
+# v01 (retired: -62 after 386 games)
 v02
-y01
+# y01 (retired: -54 vs v02 after 266 games; y02 carries its upgrade change)
 y02
 y03
 y04
+y05
+sw01
+sw02

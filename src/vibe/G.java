@@ -87,7 +87,7 @@ public strictfp class G {
                 m[k] = (old & 0xF) | (p << 4);
                 if (old == 1) {
                     int g = (l.y - oy) * 11 + l.x - ox;
-                    if (p == 0) { v1[g] = 1; v2[g] = 1; } else if (p >= 3) v2[g] = 2; else if (p == 2) { v1[g] = -20; v2[g] = -20; }
+                    if (p == 0) { v1[g] = 1; v2[g] = 1; } else if (p >= 3) v2[g] = 2;
                 }
             }
         } else {

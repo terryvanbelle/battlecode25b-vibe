@@ -108,7 +108,7 @@ replica. That build is the first champion.
 
 ### 2.5 Crowning
 In one cycle: submit the champion to the ladder; record it (time, bot, base, change, submission); make the working bot
-a copy of it; log it; refresh progress; commit. Expect ladder dips: the tournament, not the ladder, judges builds.
+a copy of it; log it; regenerate the champion Elo chart (wall-clock x axis, owner prompt #5); commit. Expect ladder dips: the tournament, not the ladder, judges builds.
 
 ### 2.6 Retiring
 Retire a bot far below the champion after about 200 games, or more than 2 SE below after about 50. A losing swing

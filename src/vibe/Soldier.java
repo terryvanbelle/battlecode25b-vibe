@@ -25,10 +25,7 @@ public strictfp class Soldier {
         if (ruin != null) {
             if (workRuin()) return;
         }
-        completeSrp();
         if (Unit.refill(40)) { paintHere(); return; }
-        if (srp == null && G.paint >= 60 && G.rc.getNumberTowers() >= SRP_MIN_TOWERS) pickSrp();
-        if (srp != null && workSrp()) return;
         // explore, painting as we go
         paintNear();
         Nav.moveTo(Unit.exploreTarget());
@@ -176,167 +173,25 @@ public strictfp class Soldier {
         return true;
     }
 
-    // ---- special resource patterns (SRPs). The SRP grid repeats with period 4 in both axes (its first and last
-    // rows and columns agree), so one fixed colouring of the whole map makes every lattice centre (x = y = 2 mod 4)
-    // a complete SRP wherever its 5x5 is ours and free of walls and ruins. Exploring soldiers paint that colouring
-    // (tiles near ruins keep the tower patterns), repaint our own tiles of the wrong colour, and complete any
-    // lattice centre in reach.
-    static final int SRP_MIN_TOWERS = 3, SRP_MIN_CHIPS = 300;
-
-    /** true = the SRP colouring wants secondary at (x, y). */
-    static boolean srpSec(int x, int y) {
-        int i = (x - 2) & 3, j = (y - 2) & 3;
-        return ((GameConstants.RESOURCE_PATTERN >> (5 * ((i == 3 ? -1 : i) + 2) + (j == 3 ? -1 : j) + 2)) & 1) != 0;
-    }
-
-    /** Within a tower pattern's 5x5 of a visible ruin. */
-    static boolean nearRuin(MapLocation l) {
-        MapLocation[] rs = G.ruins;
-        for (int i = rs.length; --i >= 0; ) {
-            MapLocation r = rs[i];
-            int dx = r.x - l.x, dy = r.y - l.y;
-            if (dx <= 2 && dx >= -2 && dy <= 2 && dy >= -2) return true;
-        }
-        return false;
-    }
-
-    /** A ruin's tower 5x5 overlaps the SRP 5x5 centred at c (the tower pattern would repaint it). */
-    static boolean ruinOverlaps(MapLocation c) {
-        MapLocation[] rs = G.ruins;
-        for (int i = rs.length; --i >= 0; ) {
-            MapLocation r = rs[i];
-            int dx = r.x - c.x, dy = r.y - c.y;
-            if (dx <= 4 && dx >= -4 && dy <= 4 && dy >= -4) return true;
-        }
-        return false;
-    }
-
-    /** The colour to paint at l: the SRP colouring, primary inside ruin patterns. */
-    static boolean colorAt(MapLocation l) { return !nearRuin(l) && srpSec(l.x, l.y); }
-
-    static void completeSrp() throws GameActionException {
-        RobotController rc = G.rc;
-        if (G.chips < SRP_MIN_CHIPS || rc.getNumberTowers() < SRP_MIN_TOWERS) return;
-        int x0 = G.here.x - ((G.here.x - 2) & 3), y0 = G.here.y - ((G.here.y - 2) & 3);
-        for (int cx = x0; cx <= x0 + 4; cx += 4) for (int cy = y0; cy <= y0 + 4; cy += 4) {
-            if (cx < 2 || cy < 2 || cx > G.W - 3 || cy > G.H - 3) continue;
-            MapLocation c = new MapLocation(cx, cy);
-            if (G.here.distanceSquaredTo(c) <= 8 && !ruinOverlaps(c) && rc.canCompleteResourcePattern(c)) {
-                rc.completeResourcePattern(c);
-                G.chips = rc.getChips();
-                srps++;
-                return;
-            }
-        }
-    }
-    static int srps;
-
-    /** The SRP this soldier is building, picked among the lattice centres in sight. */
-    static MapLocation srp;
-    static int srpSince;
-    static final int SRP_GIVE_UP = 40;
-
-    static void pickSrp() throws GameActionException {
-        RobotController rc = G.rc;
-        int x0 = G.here.x - ((G.here.x - 2) & 3), y0 = G.here.y - ((G.here.y - 2) & 3);
-        MapLocation best = null; int bestS = Integer.MAX_VALUE;
-        for (int cx = x0 - 4; cx <= x0 + 4; cx += 4) for (int cy = y0 - 4; cy <= y0 + 4; cy += 4) {
-            if (cx < 2 || cy < 2 || cx > G.W - 3 || cy > G.H - 3) continue;
-            MapLocation c = new MapLocation(cx, cy);
-            int d = G.here.distanceSquaredTo(c);
-            if (d > 20 || isBad(c)) continue;
-            if (ruinOverlaps(c)) { markBad(c, 1000); continue; }
-            if (rc.senseMapInfo(c).isResourcePatternCenter()) continue;
-            // known walls, ruins or enemy paint in the 5x5 rule it out; count our right tiles
-            int right = 0; boolean ok = true;
-            int[] m = G.mem;
-            for (int dx = -2; dx <= 2 && ok; dx++) for (int dy = -2; dy <= 2; dy++) {
-                int v = m[cx + dx + (cy + dy) * G.W];
-                if ((v & 6) != 0 || (v >> 4) >= 3) { ok = false; break; }
-                int p = v >> 4;
-                if (p != 0 && (p == 2) == srpSec(cx + dx, cy + dy)) right++;
-            }
-            if (!ok) { markBad(c, 300); continue; }
-            int sc = d - 3 * right;
-            if (sc < bestS) { bestS = sc; best = c; }
-        }
-        if (best != null) { srp = best; srpSince = G.round; }
-    }
-
-    /** Paint the SRP's wrong tiles and complete it; false when dropped. */
-    static boolean workSrp() throws GameActionException {
-        RobotController rc = G.rc;
-        MapLocation c = srp;
-        if (G.round - srpSince > SRP_GIVE_UP) { markBad(c, 200); srp = null; return false; }
-        if (G.paint < 10) { srp = null; return false; }
-        if (rc.canSenseLocation(c) && rc.senseMapInfo(c).isResourcePatternCenter()) { srp = null; return false; }
-        MapLocation paintL = null; boolean paintS = false; int paintD = Integer.MAX_VALUE;
-        MapLocation walkL = null; int walkD = Integer.MAX_VALUE;
-        int wrong = 0;
-        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
-            MapLocation l = c.translate(dx, dy);
-            if (!rc.canSenseLocation(l)) { wrong++; continue; }
-            MapInfo mi = rc.senseMapInfo(l);
-            PaintType p = mi.getPaint();
-            if (!mi.isPassable() || p.isEnemy()) { markBad(c, 300); srp = null; return false; }
-            boolean sec = bit(GameConstants.RESOURCE_PATTERN, dx, dy);
-            if (p != PaintType.EMPTY && p.isSecondary() == sec) continue;
-            wrong++;
-            int dd = G.here.distanceSquaredTo(l);
-            if (dd <= 9 && dd < paintD) { paintD = dd; paintL = l; paintS = sec; }
-            if (dd < walkD) { walkD = dd; walkL = l; }
-        }
-        if (paintL != null && rc.isActionReady() && rc.canPaint(paintL) && G.paint >= 5) {
-            rc.attack(paintL, paintS);
-            G.paint = rc.getPaint();
-            wrong--;
-        }
-        if (wrong == 0) {
-            if (G.here.distanceSquaredTo(c) > 8) Nav.moveTo(c);
-            if (rc.canCompleteResourcePattern(c)) {
-                rc.completeResourcePattern(c);
-                G.chips = rc.getChips();
-                srps++;
-                srp = null;
-                return true;
-            }
-            if (G.chips < 200) { srp = null; return false; }   // painted; whoever passes with chips completes it
-            return true;
-        }
-        if (walkL != null && G.here.distanceSquaredTo(walkL) > 9) Nav.moveTo(walkL);
-        else if (G.here.distanceSquaredTo(c) > 2) Nav.moveTo(c);
-        G.ind += " srp" + c + " w" + wrong;
-        return true;
-    }
-
     static void paintHere() throws GameActionException {
         RobotController rc = G.rc;
         if (!rc.isActionReady() || G.paint < 25) return;
         MapInfo mi = rc.senseMapInfo(G.here);
-        if (mi.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, colorAt(G.here)); G.paint = rc.getPaint(); }
+        if (mi.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, false); G.paint = rc.getPaint(); }
     }
 
-    /** Paint one tile in range, keeping a reserve for ruins: the empty tile under us first, then the nearest empty
-     *  tile, then (once SRPs pay) the nearest own tile of the wrong SRP colour. */
+    /** Paint one unpainted tile in range (the one under us first, then the nearest), keeping a reserve for ruins. */
     static void paintNear() throws GameActionException {
         RobotController rc = G.rc;
         if (!rc.isActionReady() || G.paint < 50) return;
         MapInfo under = rc.senseMapInfo(G.here);
-        if (under.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, colorAt(G.here)); G.paint = rc.getPaint(); return; }
-        boolean fix = rc.getNumberTowers() >= SRP_MIN_TOWERS;
+        if (under.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, false); G.paint = rc.getPaint(); return; }
         MapLocation best = null; int bestD = Integer.MAX_VALUE;
         for (MapInfo mi : rc.senseNearbyMapInfos(G.here, 9)) {
-            if (!mi.isPassable()) continue;
-            PaintType p = mi.getPaint();
-            int d;
-            if (p == PaintType.EMPTY) d = G.here.distanceSquaredTo(mi.getMapLocation());
-            else if (fix && p.isAlly()) {
-                MapLocation l = mi.getMapLocation();
-                if (p.isSecondary() == colorAt(l)) continue;
-                d = 100 + G.here.distanceSquaredTo(l);
-            } else continue;
+            if (mi.getPaint() != PaintType.EMPTY || !mi.isPassable()) continue;
+            int d = G.here.distanceSquaredTo(mi.getMapLocation());
             if (d < bestD) { bestD = d; best = mi.getMapLocation(); }
         }
-        if (best != null && rc.canPaint(best)) { rc.attack(best, colorAt(best)); G.paint = rc.getPaint(); }
+        if (best != null && rc.canPaint(best)) { rc.attack(best, false); G.paint = rc.getPaint(); }
     }
 }

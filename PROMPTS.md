@@ -32,3 +32,7 @@ I'd like you to schedule a prod every 20 minutes that reports on the current sta
 ## #4 (2026-11-25 08:04 PDT)
 
 Clean out all VM disk under 2026b, bc26b, and bc26a0
+
+## #5 (2026-11-25 08:14 PDT)
+
+Please start a graph in progress/ to track the Elo ratings of the local tournament champions, using wallclock time on the x axis.  Keep it up to date as part of crowning a new champion
