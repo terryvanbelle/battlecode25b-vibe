@@ -7,16 +7,19 @@
 # y05 (retired: -21 vs y02 after 289; idle-at-ruin fix neutral on y02)
 # sw01 (retired: -75 vs y02 after 222; SRP v2 (idle chips) still loses; SRP v3 to come after the paint fix)
 # sw02 (retired: -65 vs y02 after 266; splasher army)
-y06
+# y06 (retired: former champion, -52 vs sw06 after 614)
 # y07 (retired: level with y02 after 237; re-test on y06 as y10)
 # y08 (retired: -89 vs y06 after 278; splash thresholds 7/5)
 # sw03 (retired: -120 vs y02 after 50, > 2 SE; greed is the losing side of the y02 trade)
-sw04
+# sw04 (retired: -21 vs sw06 after 431; paint reserve, y02 base; sw08 carries it on the mopper mix)
 # sw05 (retired: -92 vs y06 after 145, > 2 SE; early 1-in-3 soldier rush; v2 to be designed: paired rush or ruin-denial)
 sw06
-y10
-sw07
+# y10 (retired: -103 vs sw06 after 281; fewer upgrades fails again)
+# sw07 (retired: -93 vs sw06 after 294; paint reserve on y06)
 sw08
 y11
 y12
 sw09
+y13
+y14
+sw10
