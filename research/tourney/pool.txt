@@ -29,7 +29,7 @@ sw11
 sw12
 sw13
 y17
-y18
+# y18 (retired: -25 vs sw11 after 466; y15+y16 on sw11)
 y19
 y20
 sw14
