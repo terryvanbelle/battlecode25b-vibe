@@ -28,3 +28,7 @@ I like the local tournament configuration we used in battlecode26b-vibe.  I'd li
 ## #3 (2026-11-25 07:55 PDT)
 
 I'd like you to schedule a prod every 20 minutes that reports on the current state of the local tournament, replica, and things like disk usage
+
+## #4 (2026-11-25 08:04 PDT)
+
+Clean out all VM disk under 2026b, bc26b, and bc26a0
