@@ -7,3 +7,4 @@ when_pdt,bot,base,change,submission
 2026-11-25 11:04,y11,sw06,mid-game mix 3 moppers per 6 (soldier mopper splasher mopper soldier mopper),37
 2026-11-25 11:24,sw11,y11,at most 1 helper soldier per ruin (more ruins claimed in parallel),38
 2026-11-25 12:24,y17,sw11,sw11 + moppers prefer enemies within r2 25 of our towers (sw12),39
+2026-11-25 12:44,y19,y17,sw11 with soldiers joining an occupied ruin only when adjacent (r2<=2),40

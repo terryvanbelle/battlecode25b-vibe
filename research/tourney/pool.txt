@@ -26,9 +26,9 @@
 # y15 (retired: -46 vs sw11 after 488; generous mopper transfers)
 # y16 (retired: -34 vs sw11 after 482; earlier upgrades)
 # sw11 (retired: former champion)
-sw12
-sw13
-y17
+# sw12 (retired: -25 vs y17 after 1130; its defence lives on in y17)
+# sw13 (retired: -8 vs y17 after 919, -44 vs y19; combined tunings do not stack)
+# y17 (retired: former champion)
 # y18 (retired: -25 vs sw11 after 466; y15+y16 on sw11)
 y19
 y20
@@ -38,3 +38,6 @@ y22
 y23
 y24
 sw15
+y25
+y26
+sw16
