@@ -51,6 +51,9 @@ season's tools. Times are the owner's zone: `TZ=America/Vancouver` (UTC-7, "PDT"
   - `fetch --new` (replays go to `~/projects/vibe/bc25b-galaxy-replays/`).
 - Field bots: 27 teams, listed in `~/projects/vibe/bc25b-benchmarks/MANIFEST.tsv` and
   `tools/galaxy25/field-teams.tsv`.
+- Ranked-rate parity: field activity uses only field teams as challengers (`OUR_TEAMS` in `field.py`), so we get
+  matches only as an opponent, about half a field team's rate. Every prod tops us up with
+  `contest.py scrim --n K` until our ranked-match count matches the field median.
 - Timers: field activity is on, and so is autoscrim (8-hourly ranked round), since 2026-11-25 09:30 PDT.
 
 ## Prod
