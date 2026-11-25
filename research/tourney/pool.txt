@@ -38,13 +38,16 @@
 # y23 (retired: -16 vs y24 after 618; IDLE_CHIPS 5000)
 # y24 (retired: former champion; wide defence lives on in y27)
 # sw15 (retired: -28 vs y19 after 351; money:paint 1:1)
-y25
+# y25 (retired: former champion)
 # y26 (retired: -24 vs y25 after 407; never join occupied ruin)
 sw16
 y27
 y28
 y29
 y30
-y31
+# y31 (retired: -14 vs y25 after 134, -63 vs y28 parent; kiting matters)
 sw17
-y32
+# y32 (retired: -55 vs y25 after 107; splashers matter, soldier swap loses again)
+y33
+y34
+sw18

@@ -25,11 +25,33 @@ public strictfp class Soldier {
         if (ruin != null) {
             if (workRuin()) return;
         }
+        if (siege()) return;
         if (Unit.refill(40)) { paintHere(); return; }
         // explore, painting as we go
         paintNear();
         Nav.moveTo(Unit.exploreTarget());
         paintNear();
+    }
+
+    // ---- siege: a soldier with no ruin to build and paint to spare kites a known enemy tower nearby: step into
+    // range (r2 <= 9), hit it, step back out
+    static final int SIEGE_PAINT = 80, SIEGE_R2 = 64;
+    static boolean siege() throws GameActionException {
+        RobotController rc = G.rc;
+        MapLocation t = Unit.enemyTower;
+        if (t == null || G.paint < SIEGE_PAINT || G.here.distanceSquaredTo(t) > SIEGE_R2) return false;
+        if (rc.isActionReady()) {
+            if (G.here.distanceSquaredTo(t) > 9) Nav.moveTo(t);
+            G.here = rc.getLocation();
+            if (rc.canAttack(t)) { rc.attack(t); G.paint = rc.getPaint(); }
+        }
+        if (!rc.isActionReady() && rc.isMovementReady() && G.here.distanceSquaredTo(t) <= 9) {
+            Direction away = t.directionTo(G.here);
+            for (Direction d : new Direction[]{away, away.rotateLeft(), away.rotateRight()})
+                if (rc.canMove(d)) { rc.move(d); G.here = rc.getLocation(); break; }
+        }
+        G.ind += " siege" + t;
+        return true;
     }
 
     static boolean isBad(MapLocation r) {
