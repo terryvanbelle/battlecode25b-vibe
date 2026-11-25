@@ -17,9 +17,10 @@ public strictfp class Splasher {
         boolean done = false;
         if (G.paint >= 50 && rc.isActionReady()) done = splash(9);
         if (Unit.refill(50)) return;
-        MapLocation goal = frontier();
+        // guards: a unit's first turn on a big map spends most of its budget on the map memory
+        MapLocation goal = Clock.getBytecodesLeft() > 5000 ? frontier() : null;
         Nav.moveTo(goal != null ? goal : Unit.exploreTarget());
-        if (!done && G.paint >= 50 && rc.isActionReady()) {
+        if (!done && G.paint >= 50 && rc.isActionReady() && Clock.getBytecodesLeft() > 2500) {
             G.here = rc.getLocation();
             splash(6);
         }

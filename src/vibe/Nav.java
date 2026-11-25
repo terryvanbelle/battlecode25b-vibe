@@ -57,18 +57,22 @@ public strictfp class Nav {
         boolean robotBlock = rc.onTheMap(ahead) && rc.canSenseLocation(ahead) && rc.isLocationOccupied(ahead)
                 && rc.sensePassability(ahead);
         if (robotBlock && ++blockedTurns < 3) return false;
-        following = true; followTurns = 0; bestDist = d0; followDir = dir;
+        following = true; followTurns = 0; bestDist = d0;
         leftHand = chooseHand(here, dir);
+        // follow() sweeps from followDir turned 90 degrees toward the wall: set followDir so that sweep starts at
+        // the blocked goal direction and turns away from the wall (leftHand: wall on our left, sweep right)
+        followDir = leftHand ? dir.rotateRight().rotateRight() : dir.rotateLeft().rotateLeft();
         return follow(dir);
     }
 
-    /** Side to follow on: the side whose first open direction is closer to the goal direction (ties: by id bit). */
+    /** leftHand = keep the wall on our left (we go around it turning right). Picks the side whose first open
+     *  direction is closer to the goal direction (ties: by id bit). */
     static boolean chooseHand(MapLocation here, Direction dir) throws GameActionException {
         Direction l = dir, r = dir;
         for (int i = 0; i < 4; i++) {
             l = l.rotateLeft(); r = r.rotateRight();
             boolean cl = G.rc.canMove(l), cr = G.rc.canMove(r);
-            if (cl && !cr) return false;   // open on the left: keep the wall on the right
+            if (cl && !cr) return false;   // open on the left: go left, the wall ends up on our right
             if (cr && !cl) return true;
             if (cl) break;
         }
@@ -77,7 +81,7 @@ public strictfp class Nav {
 
     static boolean follow(Direction goal) throws GameActionException {
         RobotController rc = G.rc;
-        // start pointing back into the wall, then sweep away from it
+        // start 90 degrees toward the wall from the last heading, then sweep away from it
         Direction d = leftHand ? followDir.rotateLeft().rotateLeft() : followDir.rotateRight().rotateRight();
         for (int i = 0; i < 8; i++) {
             if (rc.canMove(d)) {
