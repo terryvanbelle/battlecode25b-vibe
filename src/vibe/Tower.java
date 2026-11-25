@@ -5,6 +5,7 @@ import battlecode.common.*;
 /** Towers: attack (single + area, both free each turn), build units, upgrade. */
 public strictfp class Tower {
     static int built;
+    static final int UPGRADE_SPARE = 800;
 
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
@@ -69,9 +70,9 @@ public strictfp class Tower {
         RobotController rc = G.rc;
         if (!rc.canUpgradeTower(G.here)) return;
         UnitType next = rc.getType().getNextLevel();
-        // upgrade only out of a surplus: money towers first (they pay back), paint towers later
-        int need = next.moneyCost + 1200;
-        if (G.kind(rc.getType()) == 2 && G.chips >= need) rc.upgradeTower(G.here);
-        else if (G.kind(rc.getType()) == 1 && G.chips >= need + 1500) rc.upgradeTower(G.here);
+        // upgrade out of a surplus: paint towers first (paint binds once the economy runs), money towers later
+        int need = next.moneyCost + UPGRADE_SPARE;
+        if (G.kind(rc.getType()) == 1 && G.chips >= need) rc.upgradeTower(G.here);
+        else if (G.kind(rc.getType()) == 2 && G.chips >= need + 1000) rc.upgradeTower(G.here);
     }
 }

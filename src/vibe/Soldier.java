@@ -60,8 +60,13 @@ public strictfp class Soldier {
         if (best != null) { ruin = best; ruinType = null; ruinSince = G.round; ruinBlocked = 0; }
     }
 
+    /** Tower type for a new ruin: money first (it funds everything), then paint whenever chips are piling up (paint
+     *  is the binding resource once a few money towers run), else alternate. */
+    static final int RICH_CHIPS = 1500;
     static UnitType wantType() {
         int n = G.rc.getNumberTowers();
+        if (n < 4) return UnitType.LEVEL_ONE_MONEY_TOWER;
+        if (G.rc.getChips() >= RICH_CHIPS + 1000) return UnitType.LEVEL_ONE_PAINT_TOWER;
         return (n & 1) == 0 ? UnitType.LEVEL_ONE_MONEY_TOWER : UnitType.LEVEL_ONE_PAINT_TOWER;
     }
 
