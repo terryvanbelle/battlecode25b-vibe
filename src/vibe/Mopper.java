@@ -5,7 +5,7 @@ import battlecode.common.*;
 /** Moppers: swing at enemy robots, mop enemy paint (ruin pattern areas and ground under enemies first), give paint
  *  to low allies, and hunt enemy paint near our territory. */
 public strictfp class Mopper {
-    static final int DEFEND_R2 = 36, DEFEND_BONUS = 80;
+    static final int DEFEND_R2 = 25, DEFEND_BONUS = 40;
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
         if (rc.isActionReady()) act();

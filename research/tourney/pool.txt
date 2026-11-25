@@ -34,12 +34,17 @@
 # y20 (retired: -55 vs y19 after 479; 3 soldiers per 6)
 # sw14 (retired: -322 vs sw11 after 78; paint towers first starves chips)
 # y21 (retired: -388 vs sw11 after 82; paint towers from 1500 chips starves chips)
-y22
-y23
-y24
+# y22 (retired: -21 vs y24 after 614; money while n<=3)
+# y23 (retired: -16 vs y24 after 618; IDLE_CHIPS 5000)
+# y24 (retired: former champion; wide defence lives on in y27)
 # sw15 (retired: -28 vs y19 after 351; money:paint 1:1)
 y25
-y26
+# y26 (retired: -24 vs y25 after 407; never join occupied ruin)
 sw16
 y27
 y28
+y29
+y30
+y31
+sw17
+y32

@@ -9,3 +9,4 @@ when_pdt,bot,base,change,submission
 2026-11-25 12:24,y17,sw11,sw11 + moppers prefer enemies within r2 25 of our towers (sw12),39
 2026-11-25 12:44,y19,y17,sw11 with soldiers joining an occupied ruin only when adjacent (r2<=2),40
 2026-11-25 13:04,y24,y19,y17 with mopper defence widened (DEFEND_R2 36 / bonus 80),41
+2026-11-25 13:24,y25,y24,y19 (adjacent-only ruin helping) + y17 tower-defending moppers,42
