@@ -1,0 +1,42 @@
+== lost games: them not rebuilt<=50: 30, them rebuilt<=50: 83, us not rebuilt<=50: 73, us rebuilt<=50: 36
+   them not rebuilt<=50  enemy tiles in 5x5 at +10              n= 30 med 0.0 p25 0 p75 2  zero 21
+   them not rebuilt<=50  enemy tiles in 5x5 at +30              n= 30 med 0.0 p25 0 p75 1  zero 20
+   them not rebuilt<=50  own chips at death                     n= 30 med 835.0 p25 230 p75 1150  zero 0
+   them not rebuilt<=50  own robots alive at death              n= 30 med 14.0 p25 9 p75 31  zero 0
+   them not rebuilt<=50  own soldier-turns within 4, next 50r   n= 30 med 23.5 p25 0 p75 57  zero 9
+   them rebuilt<=50      enemy tiles in 5x5 at +10              n= 83 med 0 p25 0 p75 0  zero 73
+   them rebuilt<=50      enemy tiles in 5x5 at +30              n= 83 med 0 p25 0 p75 0  zero 78
+   them rebuilt<=50      own chips at death                     n= 83 med 1072 p25 680 p75 2080  zero 0
+   them rebuilt<=50      own robots alive at death              n= 83 med 19 p25 10 p75 33  zero 0
+   them rebuilt<=50      own soldier-turns within 4, next 50r   n= 83 med 82 p25 47 p75 110  zero 0
+   us   not rebuilt<=50  enemy tiles in 5x5 at +10              n= 73 med 6 p25 2 p75 14  zero 10
+   us   not rebuilt<=50  enemy tiles in 5x5 at +30              n= 73 med 11 p25 3 p75 17  zero 8
+   us   not rebuilt<=50  own chips at death                     n= 73 med 2940 p25 1760 p75 4925  zero 0
+   us   not rebuilt<=50  own robots alive at death              n= 73 med 10 p25 6 p75 38  zero 0
+   us   not rebuilt<=50  own soldier-turns within 4, next 50r   n= 73 med 25 p25 1 p75 50  zero 17
+   us   rebuilt<=50      enemy tiles in 5x5 at +10              n= 35 med 0 p25 0 p75 0  zero 27
+   us   rebuilt<=50      enemy tiles in 5x5 at +30              n= 36 med 0.0 p25 0 p75 2  zero 26
+   us   rebuilt<=50      own chips at death                     n= 36 med 1503.5 p25 980 p75 2690  zero 0
+   us   rebuilt<=50      own robots alive at death              n= 36 med 12.0 p25 9 p75 17  zero 0
+   us   rebuilt<=50      own soldier-turns within 4, next 50r   n= 36 med 51.0 p25 29 p75 69  zero 0
+== won games: them not rebuilt<=50: 217, them rebuilt<=50: 182, us not rebuilt<=50: 77, us rebuilt<=50: 154
+   them not rebuilt<=50  enemy tiles in 5x5 at +10              n=216 med 2.5 p25 0 p75 10  zero 87
+   them not rebuilt<=50  enemy tiles in 5x5 at +30              n=217 med 3 p25 0 p75 12  zero 79
+   them not rebuilt<=50  own chips at death                     n=217 med 1170 p25 740 p75 2050  zero 0
+   them not rebuilt<=50  own robots alive at death              n=217 med 18 p25 10 p75 34  zero 0
+   them not rebuilt<=50  own soldier-turns within 4, next 50r   n=217 med 25 p25 2 p75 50  zero 49
+   them rebuilt<=50      enemy tiles in 5x5 at +10              n=182 med 0.0 p25 0 p75 0  zero 166
+   them rebuilt<=50      enemy tiles in 5x5 at +30              n=178 med 0.0 p25 0 p75 0  zero 158
+   them rebuilt<=50      own chips at death                     n=182 med 1093.0 p25 673 p75 1940  zero 0
+   them rebuilt<=50      own robots alive at death              n=182 med 17.5 p25 11 p75 29  zero 0
+   them rebuilt<=50      own soldier-turns within 4, next 50r   n=182 med 43.5 p25 28 p75 70  zero 2
+   us   not rebuilt<=50  enemy tiles in 5x5 at +10              n= 77 med 3 p25 1 p75 11  zero 18
+   us   not rebuilt<=50  enemy tiles in 5x5 at +30              n= 77 med 3 p25 1 p75 12  zero 17
+   us   not rebuilt<=50  own chips at death                     n= 77 med 1640 p25 1070 p75 2793  zero 0
+   us   not rebuilt<=50  own robots alive at death              n= 77 med 21 p25 13 p75 30  zero 0
+   us   not rebuilt<=50  own soldier-turns within 4, next 50r   n= 77 med 23 p25 4 p75 52  zero 11
+   us   rebuilt<=50      enemy tiles in 5x5 at +10              n=154 med 0.0 p25 0 p75 0  zero 131
+   us   rebuilt<=50      enemy tiles in 5x5 at +30              n=152 med 0.0 p25 0 p75 0  zero 128
+   us   rebuilt<=50      own chips at death                     n=154 med 1300.0 p25 962 p75 2339  zero 0
+   us   rebuilt<=50      own robots alive at death              n=154 med 23.0 p25 16 p75 31  zero 0
+   us   rebuilt<=50      own soldier-turns within 4, next 50r   n=154 med 63.0 p25 39 p75 98  zero 1

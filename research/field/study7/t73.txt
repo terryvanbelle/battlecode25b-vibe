@@ -1,0 +1,7 @@
+version side | mopper unpaints by nearest ruin (d2 <= 8 of the tile): no ruin / free ruin / own tower / enemy tower | mopper deaths per 100 mopper-turns (within an enemy tower's range)
+  t70   us   | n 11201: 62.0% / 28.9% /  6.8% /  2.2% | deaths 0.59 (0.08 near an enemy tower), mopper-turns 128166
+  t70   them | n 22889: 57.6% / 33.9% /  5.2% /  3.2% | deaths 0.68 (0.04 near an enemy tower), mopper-turns 202747
+  t74   us   | n  2104: 45.5% / 39.6% / 10.9% /  3.9% | deaths 0.62 (0.23 near an enemy tower), mopper-turns 18971
+  t74   them | n  4349: 67.1% / 26.2% /  4.1% /  2.6% | deaths 0.65 (0.11 near an enemy tower), mopper-turns 29086
+  y155  us   | n  4144: 56.3% / 34.1% /  6.7% /  2.9% | deaths 0.60 (0.13 near an enemy tower), mopper-turns 36186
+  y155  them | n  8480: 63.2% / 28.6% /  6.2% /  2.0% | deaths 0.78 (0.07 near an enemy tower), mopper-turns 58777

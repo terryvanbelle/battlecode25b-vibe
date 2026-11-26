@@ -1,0 +1,50 @@
+== lost games: free ruins at r100/150/200, by map half (ours = nearer our starting towers)
+  r100 ours   free 96: clean 55, 1-4 enemy 22, 5+ enemy 19
+      clean     we marked within 50: 5/55; built within 50 by us 8, by them 1; next built by us 28, them 17, never 10; our soldier-turns cheb<=4 (next 50) med 0
+      1-4 enemy we marked within 50: 4/22; built within 50 by us 4, by them 1; next built by us 5, them 6, never 11; our soldier-turns cheb<=4 (next 50) med 41.0
+      5+ enemy  we marked within 50: 0/19; built within 50 by us 0, by them 2; next built by us 3, them 15, never 1; our soldier-turns cheb<=4 (next 50) med 22
+  r100 theirs free 119: clean 40, 1-4 enemy 19, 5+ enemy 60
+      clean     we marked within 50: 3/40; built within 50 by us 2, by them 4; next built by us 7, them 29, never 4; our soldier-turns cheb<=4 (next 50) med 0.0
+      1-4 enemy we marked within 50: 0/19; built within 50 by us 1, by them 4; next built by us 1, them 12, never 6; our soldier-turns cheb<=4 (next 50) med 6
+      5+ enemy  we marked within 50: 0/60; built within 50 by us 0, by them 29; next built by us 0, them 56, never 4; our soldier-turns cheb<=4 (next 50) med 0.0
+  r150 ours   free 87: clean 43, 1-4 enemy 20, 5+ enemy 24
+      clean     we marked within 50: 5/43; built within 50 by us 5, by them 0; next built by us 22, them 11, never 10; our soldier-turns cheb<=4 (next 50) med 0
+      1-4 enemy we marked within 50: 1/20; built within 50 by us 2, by them 2; next built by us 3, them 7, never 10; our soldier-turns cheb<=4 (next 50) med 1.0
+      5+ enemy  we marked within 50: 0/24; built within 50 by us 0, by them 4; next built by us 1, them 18, never 5; our soldier-turns cheb<=4 (next 50) med 4.0
+  r150 theirs free 86: clean 26, 1-4 enemy 10, 5+ enemy 50
+      clean     we marked within 50: 1/26; built within 50 by us 1, by them 4; next built by us 4, them 17, never 5; our soldier-turns cheb<=4 (next 50) med 0.0
+      1-4 enemy we marked within 50: 0/10; built within 50 by us 0, by them 2; next built by us 0, them 7, never 3; our soldier-turns cheb<=4 (next 50) med 0.0
+      5+ enemy  we marked within 50: 0/50; built within 50 by us 0, by them 19; next built by us 1, them 43, never 6; our soldier-turns cheb<=4 (next 50) med 0.0
+  r200 ours   free 76: clean 34, 1-4 enemy 13, 5+ enemy 29
+      clean     we marked within 50: 4/34; built within 50 by us 6, by them 4; next built by us 18, them 10, never 6; our soldier-turns cheb<=4 (next 50) med 3.0
+      1-4 enemy we marked within 50: 0/13; built within 50 by us 1, by them 2; next built by us 2, them 5, never 6; our soldier-turns cheb<=4 (next 50) med 0
+      5+ enemy  we marked within 50: 0/29; built within 50 by us 0, by them 10; next built by us 2, them 20, never 7; our soldier-turns cheb<=4 (next 50) med 9
+  r200 theirs free 63: clean 15, 1-4 enemy 3, 5+ enemy 45
+      clean     we marked within 50: 1/15; built within 50 by us 1, by them 1; next built by us 3, them 10, never 2; our soldier-turns cheb<=4 (next 50) med 0
+      1-4 enemy we marked within 50: 0/3; built within 50 by us 0, by them 1; next built by us 0, them 2, never 1; our soldier-turns cheb<=4 (next 50) med 9
+      5+ enemy  we marked within 50: 1/45; built within 50 by us 0, by them 18; next built by us 1, them 36, never 8; our soldier-turns cheb<=4 (next 50) med 0
+== won games: free ruins at r100/150/200, by map half (ours = nearer our starting towers)
+  r100 ours   free 352: clean 244, 1-4 enemy 54, 5+ enemy 54
+      clean     we marked within 50: 52/244; built within 50 by us 72, by them 1; next built by us 208, them 11, never 25; our soldier-turns cheb<=4 (next 50) med 4.5
+      1-4 enemy we marked within 50: 4/54; built within 50 by us 5, by them 2; next built by us 36, them 10, never 8; our soldier-turns cheb<=4 (next 50) med 20.0
+      5+ enemy  we marked within 50: 1/54; built within 50 by us 0, by them 6; next built by us 31, them 13, never 10; our soldier-turns cheb<=4 (next 50) med 13.0
+  r100 theirs free 461: clean 189, 1-4 enemy 96, 5+ enemy 176
+      clean     we marked within 50: 31/189; built within 50 by us 17, by them 5; next built by us 77, them 55, never 57; our soldier-turns cheb<=4 (next 50) med 0
+      1-4 enemy we marked within 50: 2/96; built within 50 by us 0, by them 9; next built by us 27, them 43, never 26; our soldier-turns cheb<=4 (next 50) med 0.0
+      5+ enemy  we marked within 50: 3/176; built within 50 by us 0, by them 64; next built by us 28, them 116, never 32; our soldier-turns cheb<=4 (next 50) med 1.0
+  r150 ours   free 288: clean 173, 1-4 enemy 50, 5+ enemy 65
+      clean     we marked within 50: 45/173; built within 50 by us 50, by them 1; next built by us 142, them 8, never 23; our soldier-turns cheb<=4 (next 50) med 11
+      1-4 enemy we marked within 50: 7/50; built within 50 by us 8, by them 1; next built by us 34, them 8, never 8; our soldier-turns cheb<=4 (next 50) med 21.5
+      5+ enemy  we marked within 50: 7/65; built within 50 by us 1, by them 9; next built by us 36, them 17, never 12; our soldier-turns cheb<=4 (next 50) med 13
+  r150 theirs free 388: clean 160, 1-4 enemy 71, 5+ enemy 157
+      clean     we marked within 50: 18/160; built within 50 by us 25, by them 4; next built by us 65, them 40, never 55; our soldier-turns cheb<=4 (next 50) med 0.0
+      1-4 enemy we marked within 50: 4/71; built within 50 by us 2, by them 3; next built by us 23, them 23, never 25; our soldier-turns cheb<=4 (next 50) med 0
+      5+ enemy  we marked within 50: 4/157; built within 50 by us 1, by them 47; next built by us 36, them 82, never 39; our soldier-turns cheb<=4 (next 50) med 3
+  r200 ours   free 239: clean 137, 1-4 enemy 37, 5+ enemy 65
+      clean     we marked within 50: 44/137; built within 50 by us 58, by them 1; next built by us 108, them 7, never 22; our soldier-turns cheb<=4 (next 50) med 30
+      1-4 enemy we marked within 50: 6/37; built within 50 by us 8, by them 3; next built by us 23, them 5, never 9; our soldier-turns cheb<=4 (next 50) med 21
+      5+ enemy  we marked within 50: 7/65; built within 50 by us 7, by them 11; next built by us 35, them 18, never 12; our soldier-turns cheb<=4 (next 50) med 19
+  r200 theirs free 337: clean 112, 1-4 enemy 66, 5+ enemy 159
+      clean     we marked within 50: 16/112; built within 50 by us 16, by them 9; next built by us 45, them 26, never 41; our soldier-turns cheb<=4 (next 50) med 0.0
+      1-4 enemy we marked within 50: 12/66; built within 50 by us 7, by them 5; next built by us 24, them 15, never 27; our soldier-turns cheb<=4 (next 50) med 0.0
+      5+ enemy  we marked within 50: 10/159; built within 50 by us 3, by them 44; next built by us 37, them 70, never 52; our soldier-turns cheb<=4 (next 50) med 8

@@ -1,0 +1,50 @@
+== lost games: totals per 100 mopper-turns (sum over games)
+   gives                                us      0.7   them      1.3
+   mop-attack on robot                  us      4.3   them      3.6
+   paint given                          us     35.7   them     42.8
+   paint withdrawn                      us     63.0   them     46.0
+   robots hit by swings                 us      3.7   them      3.0
+   swing rows                           us      3.5   them      4.9
+   swing target MOP                     us      1.8   them      0.5
+   swing target SOL                     us      1.1   them      1.9
+   swing target SPL                     us      0.7   them      0.5
+   target MOP                           us      0.9   them      0.4
+   target SOL                           us      2.6   them      2.5
+   target SPL                           us      0.8   them      0.7
+   tiles mopped                         us     10.2   them      8.4
+   towers completed                     us      0.1   them      0.0
+   turns at an open ruin (cheb<=3)      us     12.3   them     16.2
+   turns near own tower (d2<=20)        us     52.6   them     47.8
+   turns with enemy robot d2<=8         us     28.3   them     22.3
+   turns without action                 us     82.3   them     84.5
+   mopper-turns                         us 43406  them 128911
+   swings: robots hit per swing         us 2.13  them 1.24
+   per game median swings/100t                  us 2.3  them 1.4
+   per game median mop-attacks on robots/100t   us 7.5  them 3.6
+   per game median tiles mopped/100t            us 17.0  them 11.7
+   first mopper spawn round: us med 89  them med 34.0;  moppers spawned by r100: us med 2 them med 2.5
+== won games: totals per 100 mopper-turns (sum over games)
+   gives                                us      0.9   them      0.4
+   mop-attack on robot                  us      5.5   them      5.6
+   paint given                          us     44.7   them     11.8
+   paint withdrawn                      us     74.8   them     26.0
+   robots hit by swings                 us      2.6   them      4.5
+   swing rows                           us      2.5   them      7.2
+   swing target MOP                     us      1.2   them      1.2
+   swing target SOL                     us      1.1   them      2.2
+   swing target SPL                     us      0.2   them      1.1
+   target MOP                           us      1.5   them      0.8
+   target SOL                           us      3.3   them      3.2
+   target SPL                           us      0.6   them      1.6
+   tiles mopped                         us      9.3   them     15.4
+   towers completed                     us      0.1   them      0.1
+   turns at an open ruin (cheb<=3)      us     18.6   them     35.9
+   turns near own tower (d2<=20)        us     54.3   them     37.6
+   turns with enemy robot d2<=8         us     28.9   them     37.6
+   turns without action                 us     82.0   them     77.8
+   mopper-turns                         us 139917  them 161699
+   swings: robots hit per swing         us 2.09  them 1.25
+   per game median swings/100t                  us 0.9  them 2.8
+   per game median mop-attacks on robots/100t   us 5.5  them 5.5
+   per game median tiles mopped/100t            us 10.9  them 15.8
+   first mopper spawn round: us med 93  them med 23;  moppers spawned by r100: us med 1 them med 4

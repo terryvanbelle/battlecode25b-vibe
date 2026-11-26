@@ -1,0 +1,14 @@
+== lost: new-ruin builds r101-250
+  us: enemy tiles 50 rounds before: 0 20, enemy tiles 50 rounds before: 1-4 3, enemy tiles 50 rounds before: 5+ 1, n 24, other half 4, own half 20, own mopper unpaints in 5x5 in the 50 rounds before: 0 20, own mopper unpaints in 5x5 in the 50 rounds before: 1-4 3, own mopper unpaints in 5x5 in the 50 rounds before: 5+ 1
+      first seen round: med 84.0 p25 46 p75 116
+      rounds from first seen to build: med 54.5 p25 44 p75 97
+  them: enemy tiles 50 rounds before: 0 57, enemy tiles 50 rounds before: 1-4 6, enemy tiles 50 rounds before: 5+ 8, middle 2, n 71, other half 15, own half 54, own mopper unpaints in 5x5 in the 50 rounds before: 0 57, own mopper unpaints in 5x5 in the 50 rounds before: 1-4 6, own mopper unpaints in 5x5 in the 50 rounds before: 5+ 8
+      first seen round: med 101 p25 33 p75 151
+      rounds from first seen to build: med 42 p25 23 p75 102
+== won: new-ruin builds r101-250
+  us: enemy tiles 50 rounds before: 0 198, enemy tiles 50 rounds before: 1-4 25, enemy tiles 50 rounds before: 5+ 21, middle 11, n 244, other half 47, own half 186, own mopper unpaints in 5x5 in the 50 rounds before: 0 198, own mopper unpaints in 5x5 in the 50 rounds before: 1-4 23, own mopper unpaints in 5x5 in the 50 rounds before: 5+ 23
+      first seen round: med 101.5 p25 61 p75 140
+      rounds from first seen to build: med 54.0 p25 32 p75 91
+  them: enemy tiles 50 rounds before: 0 128, enemy tiles 50 rounds before: 1-4 15, enemy tiles 50 rounds before: 5+ 23, middle 4, n 166, other half 21, own half 141, own mopper unpaints in 5x5 in the 50 rounds before: 0 126, own mopper unpaints in 5x5 in the 50 rounds before: 1-4 15, own mopper unpaints in 5x5 in the 50 rounds before: 5+ 25
+      first seen round: med 79.0 p25 42 p75 126
+      rounds from first seen to build: med 74.0 p25 42 p75 115

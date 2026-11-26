@@ -1,0 +1,4 @@
+US robot deaths by last paint {('SOL', 'paint>0'): 154, ('SOL', 'paint0'): 501, ('MOP', 'paint0'): 317, ('MOP', 'paint>0'): 33, ('SPL', 'paint0'): 315, ('SPL', 'paint>0'): 23}
+   robot turns ending on {'enemy': '11.1%', 'empty': '7.7%', 'own': '81.2%'}
+TH robot deaths by last paint {('SOL', 'paint0'): 401, ('MOP', 'paint0'): 745, ('SOL', 'paint>0'): 118, ('SPL', 'paint0'): 258, ('SPL', 'paint>0'): 45, ('MOP', 'paint>0'): 28}
+   robot turns ending on {'enemy': '4.9%', 'empty': '5.8%', 'own': '89.3%'}

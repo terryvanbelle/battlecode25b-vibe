@@ -1,0 +1,221 @@
+== m2641 g0 slifland giver
+  US ruin (3, 20) marked r8 (24 marks): peak correct 22/24 at r23 (enemy tiles then 2), enemy tiles at end 8, chips@peak 1940  -> NEVER
+  US ruin (2, 34) marked r51 (24 marks): peak correct 24/24 at r77 (enemy tiles then 0), enemy tiles at end 0, chips@peak 760  -> built r77 after 26
+  US ruin (7, 36) marked r81 (24 marks): peak correct 24/24 at r128 (enemy tiles then 0), enemy tiles at end 0, chips@peak 130  -> built r128 after 47
+  US ruin (4, 42) marked r195 (24 marks): peak correct 24/24 at r215 (enemy tiles then 0), enemy tiles at end 0, chips@peak 90  -> built r215 after 20
+  US ruin (4, 47) marked r218 (24 marks): peak correct 21/24 at r255 (enemy tiles then 0), enemy tiles at end 0, chips@peak 800  -> NEVER
+  US ruin (9, 43) marked r226 (24 marks): peak correct 13/24 at r251 (enemy tiles then 11), enemy tiles at end 10, chips@peak 1050  -> NEVER
+== m2641 g1 slifland mit
+  US ruin (50, 34) marked r17 (24 marks): peak correct 24/24 at r40 (enemy tiles then 0), enemy tiles at end 0, chips@peak 2200  -> built r41 after 24
+  US ruin (45, 3) marked r28 (24 marks): peak correct 24/24 at r55 (enemy tiles then 0), enemy tiles at end 0, chips@peak 430  -> built r55 after 27
+  US ruin (43, 39) marked r55 (24 marks): peak correct 24/24 at r82 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1220  -> built r83 after 28
+  US ruin (35, 2) marked r68 (24 marks): peak correct 24/24 at r93 (enemy tiles then 0), enemy tiles at end 0, chips@peak 190  -> built r93 after 25
+  US ruin (38, 39) marked r91 (24 marks): peak correct 24/24 at r114 (enemy tiles then 0), enemy tiles at end 0, chips@peak 150  -> built r114 after 23
+  US ruin (49, 46) marked r226 (24 marks): peak correct 20/24 at r249 (enemy tiles then 4), enemy tiles at end 24, chips@peak 1845  -> NEVER
+  US ruin (24, 2) marked r266 (24 marks): peak correct 24/24 at r286 (enemy tiles then 0), enemy tiles at end 0, chips@peak 3064  -> built r286 after 20
+== m2642 g0 podemice Bunny
+  US ruin (4, 18) marked r5 (24 marks): peak correct 24/24 at r29 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1120  -> built r29 after 24
+  US ruin (17, 6) marked r14 (24 marks): peak correct 19/24 at r32 (enemy tiles then 5), enemy tiles at end 24, chips@peak 770  -> NEVER
+  US ruin (12, 26) marked r20 (24 marks): peak correct 24/24 at r46 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1470  -> built r47 after 27
+  US ruin (26, 6) marked r21 (24 marks): peak correct 15/24 at r33 (enemy tiles then 7), enemy tiles at end 24, chips@peak 820  -> NEVER
+  US ruin (11, 20) marked r64 (24 marks): peak correct 24/24 at r185 (enemy tiles then 0), enemy tiles at end 0, chips@peak 3300  -> built r185 after 121
+  US ruin (31, 26) marked r97 (24 marks): peak correct 17/24 at r119 (enemy tiles then 6), enemy tiles at end 24, chips@peak 2710  -> NEVER
+  TH ruin (10, 13) marked r120 (4 marks): peak correct 0/24 at r120 (enemy tiles then 2), enemy tiles at end 15, chips@peak 880  -> NEVER
+  US ruin (18, 26) marked r159 (24 marks): peak correct 24/24 at r214 (enemy tiles then 0), enemy tiles at end 0, chips@peak 2920  -> built r215 after 56
+  US ruin (10, 13) marked r161 (24 marks): peak correct 24/24 at r216 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1080  -> built r216 after 55
+  US ruin (2, 27) marked r293 (24 marks): peak correct 24/24 at r323 (enemy tiles then 0), enemy tiles at end 0, chips@peak 4814  -> built r477 after 184
+  TH ruin (12, 26) marked r407 (4 marks): peak correct 0/24 at r407 (enemy tiles then 22), enemy tiles at end 2, chips@peak 4032  -> NEVER
+  TH ruin (11, 20) marked r433 (4 marks): peak correct 0/24 at r433 (enemy tiles then 17), enemy tiles at end 6, chips@peak 5112  -> NEVER
+== m2643 g0 geesegeesego Oasis
+  US ruin (22, 13) marked r6 (24 marks): peak correct 24/24 at r30 (enemy tiles then 0), enemy tiles at end 0, chips@peak 770  -> built r35 after 29
+  US ruin (34, 13) marked r8 (24 marks): peak correct 24/24 at r24 (enemy tiles then 0), enemy tiles at end 0, chips@peak 970  -> built r24 after 16
+  US ruin (45, 4) marked r11 (24 marks): peak correct 24/24 at r36 (enemy tiles then 0), enemy tiles at end 0, chips@peak 90  -> built r53 after 42
+  US ruin (13, 3) marked r14 (24 marks): peak correct 24/24 at r40 (enemy tiles then 0), enemy tiles at end 0, chips@peak 120  -> built r64 after 50
+  US ruin (33, 22) marked r31 (24 marks): peak correct 24/24 at r54 (enemy tiles then 0), enemy tiles at end 0, chips@peak 120  -> built r73 after 42
+  US ruin (22, 23) marked r47 (24 marks): peak correct 24/24 at r60 (enemy tiles then 0), enemy tiles at end 0, chips@peak 660  -> built r81 after 34
+  US ruin (54, 5) marked r60 (24 marks): peak correct 24/24 at r85 (enemy tiles then 0), enemy tiles at end 0, chips@peak 650  -> built r94 after 34
+  US ruin (46, 14) marked r64 (24 marks): peak correct 24/24 at r86 (enemy tiles then 0), enemy tiles at end 0, chips@peak 800  -> built r88 after 24
+  US ruin (55, 15) marked r115 (24 marks): peak correct 24/24 at r166 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1814  -> built r167 after 52
+  US ruin (13, 13) marked r234 (24 marks): peak correct 24/24 at r253 (enemy tiles then 0), enemy tiles at end 0, chips@peak 3271  -> built r253 after 19
+  US ruin (3, 2) marked r282 (24 marks): peak correct 24/24 at r294 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1984  -> built r295 after 13
+  US ruin (3, 14) marked r338 (24 marks): peak correct 24/24 at r346 (enemy tiles then 0), enemy tiles at end 0, chips@peak 3961  -> built r346 after 8
+== m2643 g1 geesegeesego leavemealone
+  US ruin (9, 25) marked r4 (24 marks): peak correct 24/24 at r28 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1090  -> built r28 after 24
+  US ruin (3, 22) marked r5 (24 marks): peak correct 24/24 at r29 (enemy tiles then 0), enemy tiles at end 0, chips@peak 140  -> built r29 after 24
+  US ruin (20, 4) marked r15 (24 marks): peak correct 24/24 at r39 (enemy tiles then 0), enemy tiles at end 0, chips@peak 90  -> built r64 after 49
+  US ruin (14, 4) marked r25 (24 marks): peak correct 24/24 at r49 (enemy tiles then 0), enemy tiles at end 0, chips@peak 790  -> built r52 after 27
+  US ruin (22, 17) marked r26 (24 marks): peak correct 24/24 at r54 (enemy tiles then 0), enemy tiles at end 0, chips@peak 180  -> built r87 after 61
+  US ruin (14, 27) marked r33 (24 marks): peak correct 24/24 at r45 (enemy tiles then 0), enemy tiles at end 0, chips@peak 510  -> built r73 after 40
+  US ruin (3, 17) marked r35 (24 marks): peak correct 24/24 at r59 (enemy tiles then 0), enemy tiles at end 0, chips@peak 630  -> built r81 after 46
+== m2645 g0 gone-whalin Filter
+  US ruin (7, 15) marked r4 (24 marks): peak correct 24/24 at r28 (enemy tiles then 0), enemy tiles at end 0, chips@peak 850  -> built r31 after 27
+  US ruin (13, 15) marked r4 (24 marks): peak correct 24/24 at r15 (enemy tiles then 0), enemy tiles at end 0, chips@peak 700  -> built r15 after 11
+  US ruin (10, 10) marked r17 (24 marks): peak correct 24/24 at r145 (enemy tiles then 0), enemy tiles at end 0, chips@peak 990  -> built r146 after 129
+== m2681 g0 geesegeesego DefaultMedium
+  US ruin (7, 22) marked r4 (24 marks): peak correct 24/24 at r19 (enemy tiles then 0), enemy tiles at end 0, chips@peak 400  -> built r36 after 32
+  US ruin (7, 12) marked r4 (24 marks): peak correct 24/24 at r15 (enemy tiles then 0), enemy tiles at end 0, chips@peak 700  -> built r15 after 11
+  US ruin (12, 20) marked r6 (24 marks): peak correct 24/24 at r30 (enemy tiles then 0), enemy tiles at end 0, chips@peak 700  -> built r71 after 65
+  US ruin (12, 14) marked r16 (24 marks): peak correct 24/24 at r44 (enemy tiles then 0), enemy tiles at end 0, chips@peak 560  -> built r51 after 35
+  US ruin (7, 17) marked r18 (24 marks): peak correct 24/24 at r30 (enemy tiles then 0), enemy tiles at end 0, chips@peak 700  -> built r62 after 44
+  US ruin (17, 5) marked r25 (24 marks): peak correct 24/24 at r50 (enemy tiles then 0), enemy tiles at end 0, chips@peak 980  -> built r86 after 61
+  US ruin (17, 11) marked r54 (24 marks): peak correct 24/24 at r72 (enemy tiles then 0), enemy tiles at end 0, chips@peak 160  -> built r79 after 25
+== m2683 g1 slifland Oasis
+  US ruin (24, 45) marked r8 (24 marks): peak correct 24/24 at r21 (enemy tiles then 0), enemy tiles at end 0, chips@peak 880  -> built r21 after 13
+  US ruin (36, 45) marked r8 (24 marks): peak correct 24/24 at r32 (enemy tiles then 0), enemy tiles at end 0, chips@peak 680  -> built r64 after 56
+  US ruin (12, 44) marked r10 (24 marks): peak correct 24/24 at r32 (enemy tiles then 0), enemy tiles at end 0, chips@peak 680  -> built r39 after 29
+  US ruin (25, 36) marked r28 (24 marks): peak correct 24/24 at r39 (enemy tiles then 0), enemy tiles at end 0, chips@peak 30  -> built r53 after 25
+  US ruin (36, 35) marked r29 (24 marks): peak correct 24/24 at r52 (enemy tiles then 0), enemy tiles at end 0, chips@peak 940  -> built r74 after 45
+  US ruin (45, 45) marked r103 (24 marks): peak correct 24/24 at r250 (enemy tiles then 0), enemy tiles at end 0, chips@peak 2448  -> built r251 after 148
+  US ruin (13, 54) marked r147 (24 marks): peak correct 24/24 at r184 (enemy tiles then 0), enemy tiles at end 0, chips@peak 815  -> built r185 after 38
+  US ruin (3, 43) marked r291 (24 marks): peak correct 18/24 at r302 (enemy tiles then 6), enemy tiles at end 12, chips@peak 3744  -> NEVER
+  US ruin (55, 44) marked r295 (24 marks): peak correct 24/24 at r304 (enemy tiles then 0), enemy tiles at end 0, chips@peak 3094  -> built r304 after 9
+  US ruin (45, 55) marked r350 (24 marks): peak correct 24/24 at r380 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1165  -> built r381 after 31
+== m2685 g0 gone-whalin Fossil
+  US ruin (26, 7) marked r3 (24 marks): peak correct 24/24 at r27 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1060  -> built r27 after 24
+  US ruin (4, 7) marked r4 (24 marks): peak correct 24/24 at r143 (enemy tiles then 0), enemy tiles at end 0, chips@peak 440  -> built r148 after 144
+  US ruin (7, 2) marked r6 (24 marks): peak correct 24/24 at r29 (enemy tiles then 0), enemy tiles at end 0, chips@peak 910  -> built r36 after 30
+  US ruin (19, 5) marked r7 (24 marks): peak correct 24/24 at r30 (enemy tiles then 0), enemy tiles at end 0, chips@peak 710  -> built r51 after 44
+  US ruin (11, 8) marked r17 (24 marks): peak correct 24/24 at r88 (enemy tiles then 0), enemy tiles at end 0, chips@peak 610  -> built r88 after 71
+  US ruin (12, 2) marked r39 (24 marks): peak correct 24/24 at r57 (enemy tiles then 0), enemy tiles at end 0, chips@peak 600  -> built r62 after 23
+  US ruin (17, 19) marked r40 (24 marks): peak correct 23/24 at r60 (enemy tiles then 1), enemy tiles at end 24, chips@peak 870  -> NEVER
+  US ruin (2, 2) marked r108 (24 marks): peak correct 23/24 at r123 (enemy tiles then 1), enemy tiles at end 3, chips@peak 1470  -> NEVER
+  US ruin (17, 10) marked r109 (24 marks): peak correct 24/24 at r119 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1400  -> built r119 after 10
+== m2685 g1 gone-whalin Paintball
+  US ruin (10, 12) marked r5 (24 marks): peak correct 22/24 at r24 (enemy tiles then 2), enemy tiles at end 21, chips@peak 780  -> NEVER
+  US ruin (4, 9) marked r5 (24 marks): peak correct 23/24 at r28 (enemy tiles then 1), enemy tiles at end 19, chips@peak 980  -> NEVER
+  US ruin (12, 17) marked r5 (24 marks): peak correct 24/24 at r21 (enemy tiles then 0), enemy tiles at end 0, chips@peak 880  -> built r21 after 16
+  US ruin (2, 4) marked r19 (24 marks): peak correct 22/24 at r41 (enemy tiles then 2), enemy tiles at end 24, chips@peak 1380  -> NEVER
+  US ruin (17, 15) marked r26 (24 marks): peak correct 22/24 at r92 (enemy tiles then 1), enemy tiles at end 17, chips@peak 2430  -> NEVER
+== m2685 g2 gone-whalin boxofchocolates
+  US ruin (31, 13) marked r36 (24 marks): peak correct 23/24 at r62 (enemy tiles then 1), enemy tiles at end 2, chips@peak 2610  -> NEVER
+  US ruin (38, 8) marked r48 (24 marks): peak correct 20/24 at r66 (enemy tiles then 4), enemy tiles at end 4, chips@peak 2730  -> NEVER
+  US ruin (37, 18) marked r120 (24 marks): peak correct 4/24 at r121 (enemy tiles then 1), enemy tiles at end 1, chips@peak 4010  -> NEVER
+== m2715 g1 angtn Gears
+  US ruin (21, 18) marked r9 (24 marks): peak correct 24/24 at r19 (enemy tiles then 0), enemy tiles at end 0, chips@peak 820  -> built r19 after 10
+  US ruin (35, 21) marked r31 (24 marks): peak correct 24/24 at r39 (enemy tiles then 0), enemy tiles at end 0, chips@peak 70  -> built r39 after 8
+  US ruin (28, 6) marked r39 (24 marks): peak correct 24/24 at r55 (enemy tiles then 0), enemy tiles at end 0, chips@peak 190  -> built r55 after 16
+  US ruin (42, 11) marked r231 (24 marks): peak correct 24/24 at r308 (enemy tiles then 0), enemy tiles at end 0, chips@peak 2815  -> built r309 after 78
+  US ruin (3, 21) marked r365 (24 marks): peak correct 23/24 at r372 (enemy tiles then 0), enemy tiles at end 0, chips@peak 3859  -> built r373 after 8
+  US ruin (51, 3) marked r541 (24 marks): peak correct 24/24 at r550 (enemy tiles then 0), enemy tiles at end 0, chips@peak 8311  -> built r551 after 10
+== m2715 g2 angtn Money
+  US ruin (9, 25) marked r3 (24 marks): peak correct 24/24 at r14 (enemy tiles then 0), enemy tiles at end 0, chips@peak 670  -> built r14 after 11
+  US ruin (15, 32) marked r9 (24 marks): peak correct 24/24 at r30 (enemy tiles then 0), enemy tiles at end 0, chips@peak 720  -> built r36 after 27
+  US ruin (15, 26) marked r17 (24 marks): peak correct 24/24 at r32 (enemy tiles then 0), enemy tiles at end 0, chips@peak 820  -> built r50 after 33
+  US ruin (15, 13) marked r21 (24 marks): peak correct 17/24 at r37 (enemy tiles then 1), enemy tiles at end 24, chips@peak 90  -> NEVER
+  US ruin (19, 21) marked r22 (24 marks): peak correct 24/24 at r42 (enemy tiles then 0), enemy tiles at end 24, chips@peak 440  -> NEVER
+  US ruin (24, 32) marked r44 (24 marks): peak correct 24/24 at r67 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1030  -> built r68 after 24
+  US ruin (2, 20) marked r51 (24 marks): peak correct 24/24 at r76 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1000  -> built r77 after 26
+  US ruin (28, 27) marked r73 (24 marks): peak correct 22/24 at r90 (enemy tiles then 2), enemy tiles at end 7, chips@peak 1000  -> NEVER
+  US ruin (3, 13) marked r83 (24 marks): peak correct 24/24 at r108 (enemy tiles then 0), enemy tiles at end 0, chips@peak 890  -> built r108 after 25
+  US ruin (23, 27) marked r101 (24 marks): peak correct 21/24 at r124 (enemy tiles then 0), enemy tiles at end 24, chips@peak 1250  -> NEVER
+  TH ruin (23, 27) marked r235 (1 marks): peak correct 0/24 at r235 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1246  -> NEVER
+== m2716 g0 slifland Crab
+  US ruin (12, 10) marked r7 (24 marks): peak correct 24/24 at r27 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1060  -> built r27 after 20
+  US ruin (9, 19) marked r13 (24 marks): peak correct 24/24 at r38 (enemy tiles then 0), enemy tiles at end 0, chips@peak 110  -> built r38 after 25
+  US ruin (10, 2) marked r14 (24 marks): peak correct 24/24 at r39 (enemy tiles then 0), enemy tiles at end 0, chips@peak 180  -> built r62 after 48
+  US ruin (14, 16) marked r31 (24 marks): peak correct 24/24 at r55 (enemy tiles then 0), enemy tiles at end 0, chips@peak 380  -> built r79 after 48
+  US ruin (17, 5) marked r33 (24 marks): peak correct 24/24 at r45 (enemy tiles then 0), enemy tiles at end 0, chips@peak 600  -> built r51 after 18
+  US ruin (17, 25) marked r49 (24 marks): peak correct 24/24 at r81 (enemy tiles then 0), enemy tiles at end 0, chips@peak 40  -> built r131 after 82
+  US ruin (22, 5) marked r54 (24 marks): peak correct 24/24 at r65 (enemy tiles then 0), enemy tiles at end 0, chips@peak 340  -> built r71 after 17
+  US ruin (3, 26) marked r75 (24 marks): peak correct 24/24 at r94 (enemy tiles then 0), enemy tiles at end 0, chips@peak 190  -> built r94 after 19
+== m2749 g0 slifland Barcode
+  US ruin (3, 10) marked r7 (24 marks): peak correct 24/24 at r26 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1030  -> built r26 after 19
+  US ruin (34, 13) marked r33 (24 marks): peak correct 20/24 at r49 (enemy tiles then 4), enemy tiles at end 24, chips@peak 1680  -> NEVER
+  US ruin (15, 2) marked r269 (24 marks): peak correct 24/24 at r531 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1081  -> built r531 after 262
+  US ruin (15, 7) marked r346 (24 marks): peak correct 23/24 at r415 (enemy tiles then 0), enemy tiles at end 0, chips@peak 6128  -> built r420 after 74
+== m2749 g1 slifland MoneyTower
+  US ruin (25, 12) marked r3 (24 marks): peak correct 24/24 at r27 (enemy tiles then 0), enemy tiles at end 0, chips@peak 60  -> built r27 after 24
+  US ruin (26, 19) marked r12 (24 marks): peak correct 24/24 at r27 (enemy tiles then 0), enemy tiles at end 0, chips@peak 60  -> built r27 after 15
+  US ruin (17, 32) marked r15 (24 marks): peak correct 20/24 at r284 (enemy tiles then 4), enemy tiles at end 6, chips@peak 3240  -> NEVER
+  US ruin (28, 25) marked r27 (24 marks): peak correct 24/24 at r40 (enemy tiles then 0), enemy tiles at end 0, chips@peak 220  -> built r52 after 25
+== m2753 g0 placeholder-name-2 Piglets2
+  US ruin (32, 24) marked r4 (24 marks): peak correct 22/24 at r15 (enemy tiles then 2), enemy tiles at end 24, chips@peak 1700  -> NEVER
+  US ruin (43, 11) marked r8 (24 marks): peak correct 24/24 at r33 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1990  -> built r34 after 26
+  US ruin (43, 29) marked r15 (24 marks): peak correct 24/24 at r40 (enemy tiles then 0), enemy tiles at end 0, chips@peak 70  -> built r40 after 25
+  US ruin (51, 29) marked r48 (24 marks): peak correct 24/24 at r67 (enemy tiles then 0), enemy tiles at end 0, chips@peak 460  -> built r67 after 19
+  US ruin (56, 18) marked r55 (24 marks): peak correct 24/24 at r81 (enemy tiles then 0), enemy tiles at end 0, chips@peak 220  -> built r81 after 26
+  US ruin (41, 36) marked r85 (24 marks): peak correct 24/24 at r115 (enemy tiles then 0), enemy tiles at end 0, chips@peak 750  -> built r115 after 30
+  US ruin (51, 36) marked r96 (24 marks): peak correct 24/24 at r267 (enemy tiles then 0), enemy tiles at end 0, chips@peak 2781  -> built r267 after 171
+  US ruin (32, 4) marked r99 (24 marks): peak correct 13/24 at r116 (enemy tiles then 5), enemy tiles at end 24, chips@peak 830  -> NEVER
+  US ruin (27, 4) marked r137 (24 marks): peak correct 0/24 at r137 (enemy tiles then 0), enemy tiles at end 24, chips@peak 1860  -> NEVER
+  US ruin (37, 20) marked r158 (24 marks): peak correct 24/24 at r174 (enemy tiles then 0), enemy tiles at end 0, chips@peak 772  -> built r174 after 16
+== m2753 g1 placeholder-name-2 lighthouse
+  US ruin (2, 10) marked r14 (24 marks): peak correct 20/24 at r34 (enemy tiles then 4), enemy tiles at end 24, chips@peak 2020  -> NEVER
+  US ruin (28, 10) marked r18 (24 marks): peak correct 24/24 at r44 (enemy tiles then 0), enemy tiles at end 0, chips@peak 2320  -> built r45 after 27
+  US ruin (2, 16) marked r62 (24 marks): peak correct 5/24 at r65 (enemy tiles then 0), enemy tiles at end 24, chips@peak 1580  -> NEVER
+  US ruin (15, 19) marked r63 (24 marks): peak correct 23/24 at r89 (enemy tiles then 1), enemy tiles at end 24, chips@peak 1810  -> NEVER
+  US ruin (28, 22) marked r107 (24 marks): peak correct 18/24 at r247 (enemy tiles then 4), enemy tiles at end 2, chips@peak 3370  -> NEVER
+== m2768 g1 lobster-roll Justice
+  US ruin (7, 7) marked r3 (24 marks): peak correct 24/24 at r93 (enemy tiles then 0), enemy tiles at end 0, chips@peak 460  -> built r93 after 90
+  US ruin (2, 7) marked r4 (24 marks): peak correct 24/24 at r15 (enemy tiles then 0), enemy tiles at end 0, chips@peak 700  -> built r15 after 11
+  US ruin (2, 12) marked r17 (24 marks): peak correct 24/24 at r25 (enemy tiles then 0), enemy tiles at end 0, chips@peak 700  -> built r36 after 19
+  TH ruin (7, 7) marked r36 (1 marks): peak correct 1/24 at r166 (enemy tiles then 13), enemy tiles at end 1, chips@peak 360  -> NEVER
+  US ruin (2, 17) marked r39 (24 marks): peak correct 24/24 at r49 (enemy tiles then 0), enemy tiles at end 0, chips@peak 910  -> built r51 after 12
+  TH ruin (13, 2) marked r240 (1 marks): peak correct 0/24 at r240 (enemy tiles then 0), enemy tiles at end 0, chips@peak 2170  -> NEVER
+  TH ruin (7, 2) marked r375 (1 marks): peak correct 1/24 at r375 (enemy tiles then 8), enemy tiles at end 6, chips@peak 4620  -> NEVER
+  TH ruin (2, 12) marked r393 (1 marks): peak correct 1/24 at r393 (enemy tiles then 14), enemy tiles at end 14, chips@peak 380  -> NEVER
+== m2768 g2 lobster-roll maze
+  TH ruin (2, 3) marked r3 (1 marks): peak correct 0/24 at r3 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1590  -> NEVER
+  US ruin (42, 6) marked r11 (24 marks): peak correct 24/24 at r19 (enemy tiles then 0), enemy tiles at end 0, chips@peak 820  -> built r19 after 8
+  US ruin (39, 32) marked r47 (24 marks): peak correct 24/24 at r65 (enemy tiles then 0), enemy tiles at end 0, chips@peak 2120  -> built r66 after 19
+  US ruin (57, 26) marked r53 (24 marks): peak correct 24/24 at r79 (enemy tiles then 0), enemy tiles at end 0, chips@peak 830  -> built r79 after 26
+  US ruin (39, 37) marked r70 (24 marks): peak correct 24/24 at r81 (enemy tiles then 0), enemy tiles at end 0, chips@peak 10  -> built r81 after 11
+  US ruin (32, 31) marked r80 (24 marks): peak correct 24/24 at r105 (enemy tiles then 0), enemy tiles at end 0, chips@peak 450  -> built r105 after 25
+  US ruin (46, 37) marked r88 (24 marks): peak correct 24/24 at r133 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1500  -> built r134 after 46
+  US ruin (32, 36) marked r111 (24 marks): peak correct 24/24 at r136 (enemy tiles then 0), enemy tiles at end 0, chips@peak 830  -> built r138 after 27
+  US ruin (27, 31) marked r114 (24 marks): peak correct 24/24 at r139 (enemy tiles then 0), enemy tiles at end 0, chips@peak 160  -> built r147 after 33
+  US ruin (52, 37) marked r139 (24 marks): peak correct 24/24 at r164 (enemy tiles then 0), enemy tiles at end 0, chips@peak 450  -> built r169 after 30
+  US ruin (27, 36) marked r143 (24 marks): peak correct 24/24 at r167 (enemy tiles then 0), enemy tiles at end 0, chips@peak 840  -> built r176 after 33
+  US ruin (53, 11) marked r163 (24 marks): peak correct 24/24 at r186 (enemy tiles then 0), enemy tiles at end 0, chips@peak 310  -> built r186 after 23
+  US ruin (39, 55) marked r177 (24 marks): peak correct 24/24 at r499 (enemy tiles then 0), enemy tiles at end 0, chips@peak 381  -> built r499 after 322
+  US ruin (53, 16) marked r192 (24 marks): peak correct 24/24 at r212 (enemy tiles then 0), enemy tiles at end 0, chips@peak 190  -> built r212 after 20
+  US ruin (46, 44) marked r194 (24 marks): peak correct 24/24 at r224 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1250  -> built r227 after 33
+  US ruin (40, 44) marked r233 (24 marks): peak correct 24/24 at r248 (enemy tiles then 0), enemy tiles at end 0, chips@peak 270  -> built r248 after 15
+  TH ruin (27, 54) marked r496 (1 marks): peak correct 1/24 at r496 (enemy tiles then 0), enemy tiles at end 7, chips@peak 4807  -> NEVER
+  US ruin (32, 54) marked r511 (24 marks): peak correct 24/24 at r627 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1471  -> built r627 after 116
+  US ruin (27, 54) marked r655 (24 marks): peak correct 24/24 at r673 (enemy tiles then 0), enemy tiles at end 0, chips@peak 701  -> built r673 after 18
+  US ruin (20, 55) marked r682 (24 marks): peak correct 24/24 at r701 (enemy tiles then 0), enemy tiles at end 0, chips@peak 171  -> built r701 after 19
+  US ruin (19, 44) marked r802 (24 marks): peak correct 20/24 at r849 (enemy tiles then 3), enemy tiles at end 24, chips@peak 1382  -> NEVER
+  US ruin (33, 8) marked r1550 (24 marks): peak correct 24/24 at r1679 (enemy tiles then 0), enemy tiles at end 0, chips@peak 922  -> built r1716 after 166
+  TH ruin (33, 8) marked r1658 (1 marks): peak correct 0/24 at r1658 (enemy tiles then 19), enemy tiles at end 24, chips@peak 937  -> NEVER
+== m2873 g1 placeholder-name-2 rain
+  US ruin (21, 14) marked r4 (24 marks): peak correct 24/24 at r21 (enemy tiles then 0), enemy tiles at end 0, chips@peak 880  -> built r21 after 17
+  US ruin (21, 6) marked r6 (24 marks): peak correct 24/24 at r30 (enemy tiles then 0), enemy tiles at end 0, chips@peak 830  -> built r34 after 28
+  US ruin (27, 27) marked r7 (24 marks): peak correct 24/24 at r31 (enemy tiles then 0), enemy tiles at end 0, chips@peak 880  -> built r52 after 45
+  US ruin (16, 26) marked r32 (24 marks): peak correct 23/24 at r56 (enemy tiles then 1), enemy tiles at end 24, chips@peak 400  -> NEVER
+  US ruin (27, 2) marked r73 (24 marks): peak correct 24/24 at r95 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1560  -> built r95 after 22
+  TH ruin (21, 14) marked r157 (1 marks): peak correct 1/24 at r179 (enemy tiles then 12), enemy tiles at end 7, chips@peak 1424  -> NEVER
+  TH ruin (21, 6) marked r330 (1 marks): peak correct 0/24 at r330 (enemy tiles then 21), enemy tiles at end 12, chips@peak 3584  -> NEVER
+  US ruin (27, 10) marked r390 (24 marks): peak correct 18/24 at r404 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1590  -> NEVER
+== m2897 g0 immutable Crab
+  US ruin (12, 10) marked r7 (24 marks): peak correct 24/24 at r20 (enemy tiles then 0), enemy tiles at end 0, chips@peak 850  -> built r20 after 13
+  US ruin (9, 19) marked r13 (24 marks): peak correct 24/24 at r38 (enemy tiles then 0), enemy tiles at end 0, chips@peak 250  -> built r38 after 25
+  US ruin (17, 5) marked r31 (24 marks): peak correct 24/24 at r40 (enemy tiles then 0), enemy tiles at end 0, chips@peak 140  -> built r53 after 22
+  US ruin (10, 2) marked r36 (24 marks): peak correct 24/24 at r61 (enemy tiles then 0), enemy tiles at end 0, chips@peak 770  -> built r64 after 28
+  US ruin (14, 16) marked r40 (24 marks): peak correct 24/24 at r150 (enemy tiles then 0), enemy tiles at end 0, chips@peak 1860  -> built r150 after 110
+  US ruin (17, 25) marked r49 (24 marks): peak correct 24/24 at r69 (enemy tiles then 0), enemy tiles at end 0, chips@peak 550  -> built r86 after 37
+  US ruin (3, 26) marked r75 (24 marks): peak correct 24/24 at r101 (enemy tiles then 0), enemy tiles at end 0, chips@peak 170  -> built r101 after 26
+
+== summary
+  US
+     never: peak correct            n=33 med 20 p25 18 p75 22
+     never: enemy tiles at end      n=33 med 24 p25 7 p75 24
+     never: enemy tiles at peak     n=33 med 2 p25 1 p75 4
+     never: chips at peak           n=33 med 1580 p25 870 p75 2020
+     never: own mops in 5x5         n=33 med 0 p25 0 p75 8
+     never: max enemy tiles         n=33 med 24 p25 8 p75 24
+     built: rounds mark->build      n=129 med 26 p25 19 p75 44
+     built: max enemy tiles during  n=129 med 0 p25 0 p75 0
+     built: own mops in 5x5 during  n=129 med 0 p25 0 p75 0
+     built with enemy>0: mops       n=129 med 1.0 p25 1 p75 4
+  TH
+     built: rounds mark->build      n=100 med 22.0 p25 11 p75 44
+     built: max enemy tiles during  n=100 med 0.0 p25 0 p75 2
+     built: own mops in 5x5 during  n=100 med 0.0 p25 0 p75 3
+     built with enemy>0: mops       n=100 med 10.0 p25 3 p75 16
+     never: peak correct            n=13 med 0 p25 0 p75 1
+     never: enemy tiles at end      n=13 med 6 p25 1 p75 12
+     never: enemy tiles at peak     n=13 med 12 p25 0 p75 17
+     never: chips at peak           n=13 med 1590 p25 937 p75 4032
+     never: own mops in 5x5         n=13 med 2 p25 0 p75 12
+     never: max enemy tiles         n=13 med 22 p25 8 p75 24

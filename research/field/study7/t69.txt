@@ -1,0 +1,50 @@
+== lost games: free ruins in the side's own half with the other side's paint in the 5x5
+  r100 us    1-4  enemy tiles:  22 ruins; first built by own 5, by other 6
+        own tiles in 5x5 med 19.5; rounds until clean (999 never) med 999.0; rounds until built by own (999) med 999.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 19.0
+  r100 us    5-12 enemy tiles:  12 ruins; first built by own 2, by other 10
+        own tiles in 5x5 med 3.5; rounds until clean (999 never) med 999.0; rounds until built by own (999) med 999.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 0.5
+  r100 us   13-24 enemy tiles:   7 ruins; first built by own 1, by other 5
+        own tiles in 5x5 med 0; rounds until clean (999 never) med 999; rounds until built by own (999) med 999; own mop actions in 5x5, next 50 med 0; own soldier-turns cheb<=2, next 50 med 2
+  r100 them  1-4  enemy tiles:  10 ruins; first built by own 7, by other 0
+        own tiles in 5x5 med 14.5; rounds until clean (999 never) med 83.5; rounds until built by own (999) med 170.5; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 17.0
+  r100 them  5-12 enemy tiles:   4 ruins; first built by own 4, by other 0
+        own tiles in 5x5 med 14.0; rounds until clean (999 never) med 144.5; rounds until built by own (999) med 178.5; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 7.5
+  r100 them 13-24 enemy tiles:  10 ruins; first built by own 5, by other 0
+        own tiles in 5x5 med 3.5; rounds until clean (999 never) med 174.0; rounds until built by own (999) med 638.0; own mop actions in 5x5, next 50 med 1.0; own soldier-turns cheb<=2, next 50 med 7.0
+  r150 us    1-4  enemy tiles:  14 ruins; first built by own 3, by other 7
+        own tiles in 5x5 med 18.0; rounds until clean (999 never) med 999.0; rounds until built by own (999) med 999.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 2.0
+  r150 us    5-12 enemy tiles:  12 ruins; first built by own 1, by other 8
+        own tiles in 5x5 med 13.5; rounds until clean (999 never) med 999.0; rounds until built by own (999) med 999.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 0.0
+  r150 us   13-24 enemy tiles:  11 ruins; first built by own 0, by other 10
+        own tiles in 5x5 med 5; rounds until clean (999 never) med 999; rounds until built by own (999) med 999; own mop actions in 5x5, next 50 med 0; own soldier-turns cheb<=2, next 50 med 4
+  r150 them  1-4  enemy tiles:   8 ruins; first built by own 6, by other 1
+        own tiles in 5x5 med 16.0; rounds until clean (999 never) med 79.5; rounds until built by own (999) med 195.5; own mop actions in 5x5, next 50 med 0.5; own soldier-turns cheb<=2, next 50 med 9.0
+  r150 them  5-12 enemy tiles:   5 ruins; first built by own 4, by other 1
+        own tiles in 5x5 med 16; rounds until clean (999 never) med 84; rounds until built by own (999) med 108; own mop actions in 5x5, next 50 med 0; own soldier-turns cheb<=2, next 50 med 15
+  r150 them 13-24 enemy tiles:   7 ruins; first built by own 3, by other 0
+        own tiles in 5x5 med 4; rounds until clean (999 never) med 125; rounds until built by own (999) med 999; own mop actions in 5x5, next 50 med 11; own soldier-turns cheb<=2, next 50 med 22
+== won games: free ruins in the side's own half with the other side's paint in the 5x5
+  r100 us    1-4  enemy tiles:  54 ruins; first built by own 36, by other 10
+        own tiles in 5x5 med 11.5; rounds until clean (999 never) med 123.0; rounds until built by own (999) med 165.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 5.5
+  r100 us    5-12 enemy tiles:  28 ruins; first built by own 17, by other 3
+        own tiles in 5x5 med 4.0; rounds until clean (999 never) med 154.0; rounds until built by own (999) med 207.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 5.0
+  r100 us   13-24 enemy tiles:  26 ruins; first built by own 14, by other 10
+        own tiles in 5x5 med 0.0; rounds until clean (999 never) med 172.5; rounds until built by own (999) med 217.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 0.5
+  r100 them  1-4  enemy tiles:  44 ruins; first built by own 10, by other 17
+        own tiles in 5x5 med 5.0; rounds until clean (999 never) med 138.0; rounds until built by own (999) med 999.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 0.0
+  r100 them  5-12 enemy tiles:  31 ruins; first built by own 11, by other 11
+        own tiles in 5x5 med 2; rounds until clean (999 never) med 999; rounds until built by own (999) med 999; own mop actions in 5x5, next 50 med 0; own soldier-turns cheb<=2, next 50 med 2
+  r100 them 13-24 enemy tiles:  28 ruins; first built by own 10, by other 13
+        own tiles in 5x5 med 1.5; rounds until clean (999 never) med 999.0; rounds until built by own (999) med 999.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 1.0
+  r150 us    1-4  enemy tiles:  50 ruins; first built by own 34, by other 8
+        own tiles in 5x5 med 14.5; rounds until clean (999 never) med 77.5; rounds until built by own (999) med 125.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 5.0
+  r150 us    5-12 enemy tiles:  40 ruins; first built by own 23, by other 8
+        own tiles in 5x5 med 6.5; rounds until clean (999 never) med 125.0; rounds until built by own (999) med 208.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 5.0
+  r150 us   13-24 enemy tiles:  25 ruins; first built by own 13, by other 9
+        own tiles in 5x5 med 0; rounds until clean (999 never) med 146; rounds until built by own (999) med 190; own mop actions in 5x5, next 50 med 0; own soldier-turns cheb<=2, next 50 med 1
+  r150 them  1-4  enemy tiles:  40 ruins; first built by own 9, by other 19
+        own tiles in 5x5 med 6.5; rounds until clean (999 never) med 73.0; rounds until built by own (999) med 999.0; own mop actions in 5x5, next 50 med 0.0; own soldier-turns cheb<=2, next 50 med 0.0
+  r150 them  5-12 enemy tiles:  45 ruins; first built by own 16, by other 19
+        own tiles in 5x5 med 6; rounds until clean (999 never) med 999; rounds until built by own (999) med 999; own mop actions in 5x5, next 50 med 4; own soldier-turns cheb<=2, next 50 med 0
+  r150 them 13-24 enemy tiles:  41 ruins; first built by own 9, by other 19
+        own tiles in 5x5 med 0; rounds until clean (999 never) med 999; rounds until built by own (999) med 999; own mop actions in 5x5, next 50 med 0; own soldier-turns cheb<=2, next 50 med 0

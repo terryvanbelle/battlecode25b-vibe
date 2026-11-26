@@ -1,0 +1,77 @@
+== lost: 22 games
+   ruins per map: med 18.5; in our half 9.0, theirs 9.0
+   round  n | towers us/them | free ruins (in our half / their half) | our towers in their half, theirs in ours
+   r50   22 | 4.0/4.0 | 11.5 (5.5 / 4.5) | 0.0, 0.0
+   r100  22 | 6.0/5.0 | 9.5 (4.0 / 4.0) | 0.0, 0.0
+   r150  22 | 6.0/6.5 | 7.5 (4.0 / 3.0) | 0.0, 0.0
+   r200  21 | 6/7 | 6 (3 / 2) | 0, 0
+   r300  17 | 5/9 | 5 (3 / 1) | 0, 1
+   new-ruin build #1: us med r24 (reached in 21), them r20.5 (in 22)
+   new-ruin build #2: us med r38 (reached in 19), them r33.5 (in 22)
+   new-ruin build #3: us med r53 (reached in 19), them r55.5 (in 22)
+   new-ruin build #4: us med r68 (reached in 15), them r94 (in 21)
+   new-ruin build #5: us med r86 (reached in 13), them r127.5 (in 18)
+   new-ruin build #6: us med r119 (reached in 13), them r160.5 (in 18)
+   new-ruin build #7: us med r116.0 (reached in 8), them r214.0 (in 18)
+   new-ruin build #8: us med r139.0 (reached in 4), them r223 (in 17)
+   paint towers >= 2: us in 7 games, med r167; them in 18, med r121.0
+   paint towers >= 3: us in 4 games, med r278.5; them in 16, med r168.0
+   per game: map, end, r150 towers us/them, free ruins r150 (ours/theirs), our 2nd paint tower round, theirs
+      m2641g0 giver           261  3/9  free 18 (10/8)  2nd PT us rNone them r120
+      m2641g1 mit             411  7/9  free 12 (7/5)  2nd PT us rNone them r90
+      m2642g0 Bunny           499  4/6  free 10 (6/4)  2nd PT us rNone them r101
+      m2643g0 Oasis           397  10/7  free 11 (4/7)  2nd PT us r167 them r128
+      m2643g1 leavemealone    318  9/7  free 2 (0/2)  2nd PT us rNone them r71
+      m2645g0 Filter          242  4/4  free 1 (1/0)  2nd PT us rNone them rNone
+      m2681g0 DefaultMedium   345  9/6  free 8 (2/4)  2nd PT us rNone them r51
+      m2683g1 Oasis           394  7/6  free 15 (7/8)  2nd PT us r251 them r82
+      m2685g0 Fossil          360  8/8  free 2 (1/1)  2nd PT us rNone them rNone
+      m2685g1 Paintball       245  2/3  free 7 (4/3)  2nd PT us rNone them rNone
+      m2685g2 boxofchocolate  161  0/6  free 13 (8/4)  2nd PT us rNone them rNone
+      m2715g1 Gears           668  5/7  free 6 (4/2)  2nd PT us r373 them r127
+      m2715g2 Money           247  8/10  free 6 (3/3)  2nd PT us r108 them r112
+      m2716g0 Crab            716  8/7  free 3 (2/1)  2nd PT us rNone them r355
+      m2749g0 Barcode         660  3/4  free 15 (7/8)  2nd PT us r420 them r127
+      m2749g1 MoneyTower      444  5/6  free 3 (0/0)  2nd PT us rNone them r122
+      m2753g0 Piglets2        368  6/7  free 11 (6/5)  2nd PT us r115 them r116
+      m2753g1 lighthouse      405  2/5  free 8 (4/1)  2nd PT us rNone them r129
+      m2768g1 Justice         395  6/6  free 0 (0/0)  2nd PT us rNone them r85
+      m2768g2 maze           2000  9/8  free 15 (8/7)  2nd PT us r134 them r168
+      m2873g1 rain            412  5/6  free 5 (3/2)  2nd PT us rNone them r241
+      m2897g0 Crab            431  9/7  free 2 (0/2)  2nd PT us rNone them r142
+== won: 59 games
+   ruins per map: med 24; in our half 11, theirs 11
+   round  n | towers us/them | free ruins (in our half / their half) | our towers in their half, theirs in ours
+   r50   59 | 4/4 | 15 (8 / 7) | 0, 0
+   r100  59 | 7/5 | 12 (5 / 6) | 0, 0
+   r150  59 | 8/6 | 9 (4 / 5) | 0, 0
+   r200  58 | 9.0/6.0 | 9.0 (4.0 / 5.0) | 1.0, 0.0
+   r300  50 | 10.0/7.0 | 7.0 (2.0 / 4.0) | 1.0, 0.0
+   new-ruin build #1: us med r20 (reached in 59), them r20.0 (in 58)
+   new-ruin build #2: us med r37 (reached in 59), them r36.5 (in 54)
+   new-ruin build #3: us med r53 (reached in 59), them r56 (in 51)
+   new-ruin build #4: us med r65.5 (reached in 58), them r76.5 (in 46)
+   new-ruin build #5: us med r92 (reached in 57), them r103 (in 43)
+   new-ruin build #6: us med r115 (reached in 55), them r145 (in 37)
+   new-ruin build #7: us med r131.0 (reached in 52), them r164.5 (in 32)
+   new-ruin build #8: us med r159 (reached in 49), them r193 (in 27)
+   paint towers >= 2: us in 55 games, med r146; them in 29, med r79
+   paint towers >= 3: us in 50 games, med r187.5; them in 25, med r140
+== top-5 reference (all games): 15 games
+   ruins per map: med 20; in our half 10, theirs 10
+   round  n | towers us/them | free ruins (in our half / their half) | our towers in their half, theirs in ours
+   r50   15 | 4/4 | 13 (6 / 6) | 0, 0
+   r100  15 | 5/5 | 11 (6 / 5) | 0, 0
+   r150  14 | 5.0/7.5 | 9.5 (5.0 / 4.0) | 0.0, 1.0
+   r200  12 | 6.0/8.0 | 8.5 (4.0 / 3.5) | 0.0, 1.0
+   r300   9 | 7/11 | 5 (4 / 1) | 0, 2
+   new-ruin build #1: us med r21 (reached in 13), them r17 (in 15)
+   new-ruin build #2: us med r38 (reached in 11), them r39 (in 15)
+   new-ruin build #3: us med r59 (reached in 9), them r66.0 (in 14)
+   new-ruin build #4: us med r75.5 (reached in 8), them r81.0 (in 14)
+   new-ruin build #5: us med r86.0 (reached in 8), them r111 (in 13)
+   new-ruin build #6: us med r115 (reached in 7), them r118.5 (in 12)
+   new-ruin build #7: us med r122 (reached in 5), them r145 (in 11)
+   new-ruin build #8: us med r155 (reached in 5), them r208 (in 11)
+   paint towers >= 2: us in 4 games, med r166.0; them in 13, med r158
+   paint towers >= 3: us in 4 games, med r209.0; them in 12, med r187.0

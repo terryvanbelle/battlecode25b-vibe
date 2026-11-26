@@ -1,0 +1,9 @@
+== lost: 18 games with min side >= 30; median % of the side's own half seen, by distance to the border; us | them
+  r100: border 0-4: tiles 64 | 63, ruins 87.5 | 58.3 (n 18)   border 5-9: tiles 99 | 94, ruins 100.0 | 100.0 (n 17)   border 10-+: tiles 100 | 98, ruins 100.0 | 100.0 (n 16)
+  r150: border 0-4: tiles 80 | 84, ruins 100.0 | 90.0 (n 18)   border 5-9: tiles 99 | 100, ruins 100.0 | 100.0 (n 17)   border 10-+: tiles 100 | 100, ruins 100.0 | 100.0 (n 16)
+== won: 53 games with min side >= 30; median % of the side's own half seen, by distance to the border; us | them
+  r100: border 0-4: tiles 68 | 56, ruins 66.7 | 60.0 (n 49)   border 5-9: tiles 94 | 81, ruins 100.0 | 100.0 (n 49)   border 10-+: tiles 100 | 98, ruins 100.0 | 100.0 (n 48)
+  r150: border 0-4: tiles 80 | 68, ruins 80.0 | 75.0 (n 49)   border 5-9: tiles 100 | 89, ruins 100.0 | 100.0 (n 49)   border 10-+: tiles 100 | 100, ruins 100.0 | 100.0 (n 48)
+== top-5 reference: 12 games with min side >= 30; median % of the side's own half seen, by distance to the border; us | them
+  r100: border 0-4: tiles 49 | 59, ruins 57.1 | 75.0 (n 11)   border 5-9: tiles 79 | 84, ruins 100.0 | 90.0 (n 12)   border 10-+: tiles 99 | 96, ruins 100.0 | 100.0 (n 12)
+  r150: border 0-4: tiles 63 | 75, ruins 75.0 | 100.0 (n 11)   border 5-9: tiles 95 | 94, ruins 100.0 | 100.0 (n 12)   border 10-+: tiles 100 | 100, ruins 100.0 | 100.0 (n 12)

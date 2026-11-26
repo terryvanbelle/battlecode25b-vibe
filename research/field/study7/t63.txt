@@ -1,0 +1,8 @@
+== lost games: soldier turns by class (% of soldier-turns, median over games), us | them
+  r1-100: soldier-turns/round 6.7 | 5.7  siege 12.8 | 9.2  ruin 44.2 | 33.4  refill 2.7 | 2.6  other 37.9 | 50.8  tower hits /100 turns 8.4 | 4.5
+  r101-200: soldier-turns/round 8.1 | 8.1  siege 12.5 | 8.4  ruin 11.9 | 19.5  refill 6.6 | 4.7  other 63.0 | 55.0  tower hits /100 turns 5.7 | 3.4
+  r201-300: soldier-turns/round 7.5 | 10.7  siege 13.7 | 9.2  ruin 8.2 | 15.9  refill 10.0 | 7.4  other 62.4 | 64.6  tower hits /100 turns 8.1 | 2.6
+== won games: soldier turns by class (% of soldier-turns, median over games), us | them
+  r1-100: soldier-turns/round 7.0 | 4.8  siege 8.7 | 6.8  ruin 43.4 | 40.9  refill 2.6 | 3.0  other 42.2 | 43.3  tower hits /100 turns 6.2 | 3.3
+  r101-200: soldier-turns/round 10.8 | 7.9  siege 5.5 | 15.0  ruin 15.1 | 21.6  refill 7.2 | 3.4  other 67.4 | 58.9  tower hits /100 turns 3.4 | 5.7
+  r201-300: soldier-turns/round 13.2 | 7.8  siege 7.7 | 11.2  ruin 10.8 | 22.2  refill 8.9 | 5.0  other 71.1 | 53.7  tower hits /100 turns 4.3 | 3.2

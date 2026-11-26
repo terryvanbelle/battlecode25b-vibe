@@ -1,0 +1,34 @@
+22 lost games: m2641g0 giver(slifla,MAJ261), m2641g1 mit(slifla,MAJ411), m2642g0 Bunny(podemi,MAJ499), m2643g0 Oasis(geeseg,MAJ397), m2643g1 leavemealone(geeseg,MAJ318), m2645g0 Filter(gone-w,MAJ242), m2681g0 DefaultMedium(geeseg,MAJ345), m2683g1 Oasis(slifla,MAJ394), m2685g0 Fossil(gone-w,MAJ360), m2685g1 Paintball(gone-w,MAJ245), m2685g2 boxofchocolates(gone-w,ALL161), m2715g1 Gears(angtn,MAJ668), m2715g2 Money(angtn,MAJ247), m2716g0 Crab(slifla,MAJ716), m2749g0 Barcode(slifla,MAJ660), m2749g1 MoneyTower(slifla,ALL444), m2753g0 Piglets2(placeh,MAJ368), m2753g1 lighthouse(placeh,MAJ405), m2768g1 Justice(lobste,MAJ395), m2768g2 maze(lobste,ARE2000), m2873g1 rain(placeh,MAJ412), m2897g0 Crab(immuta,MAJ431)
+wintypes: {'MAJORITY_PAINTED': 19, 'ALL_UNITS_DESTROYED': 2, 'AREA_PAINTED': 1}  median end round 396.0
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   22 |   11.1/12.2  150.5/165.5      2.5/3.0      1.0/1.0      1.5/2.0      0.0/0.0  1425.0/1120.0  1074.5/1304.5      0.0/0.0      5.5/6.0      5.5/5.0      0.0/0.0      0.0/0.5
+r50   22 |   13.6/16.2  187.0/216.5      4.0/4.0      1.0/1.0      3.0/3.0      0.0/0.0  935.0/650.0  1404.5/1770.0      0.0/0.0      7.5/7.0      7.5/5.0      0.0/0.0      0.0/1.0
+r75   22 |   16.4/20.4  202.0/265.5      5.0/4.0      1.0/1.0      4.0/3.0      0.0/0.0  1235.0/980.0  1779.5/1931.5      0.0/0.0      8.0/9.0      8.0/6.5      0.0/0.0      0.0/1.0
+r100  22 |   21.3/22.1  269.5/301.5      6.0/5.0      1.0/1.0      5.0/3.5      0.0/0.0  1155.0/560.5  1800.5/2103.5      0.0/0.0     9.5/10.0      8.0/7.0      0.0/0.0      1.5/2.5
+r150  22 |   31.4/28.3  393.5/354.5      6.0/6.5      1.0/2.0      4.5/4.0      0.0/0.0  1830.0/1059.0  1695.0/2902.0      0.0/0.0    12.5/16.0      7.5/8.0      1.0/0.5      3.0/6.0
+r200  21 |   31.4/35.5      420/407          6/7          1/2          5/5          0/0     2410/890    1594/2555          1/1        12/21         6/10          1/2          4/9
+r300  17 |   31.8/49.1      418/573          5/9          1/2          4/7          0/0    3525/1577    1367/4328          2/4        13/34         6/14          3/7         4/12
+r400  10 |   27.0/55.7  360.5/694.0     4.5/11.0      1.0/4.0      3.5/6.5      0.0/0.0  5670.5/1515.5  1027.5/4502.0      1.5/4.0    10.0/44.5     5.5/13.5     3.5/12.5     2.0/16.5
+
+m2641g0 giver          rounds r101-400 with chips>=3000: us   0 them   0; max srp us 2 them 9
+m2641g1 mit            rounds r101-400 with chips>=3000: us 196 them   0; max srp us 3 them 20
+m2642g0 Bunny          rounds r101-400 with chips>=3000: us 172 them  73; max srp us 4 them 8
+m2643g0 Oasis          rounds r101-400 with chips>=3000: us 130 them 124; max srp us 14 them 50
+m2643g1 leavemealone   rounds r101-400 with chips>=3000: us  89 them  31; max srp us 9 them 12
+m2645g0 Filter         rounds r101-400 with chips>=3000: us  57 them   0; max srp us 1 them 0
+m2681g0 DefaultMedium  rounds r101-400 with chips>=3000: us 176 them  20; max srp us 7 them 6
+m2683g1 Oasis          rounds r101-400 with chips>=3000: us  53 them   3; max srp us 13 them 33
+m2685g0 Fossil         rounds r101-400 with chips>=3000: us 103 them  53; max srp us 2 them 0
+m2685g1 Paintball      rounds r101-400 with chips>=3000: us  32 them   1; max srp us 0 them 0
+m2685g2 boxofchocolates rounds r101-400 with chips>=3000: us  61 them   0; max srp us 0 them 0
+m2715g1 Gears          rounds r101-400 with chips>=3000: us  46 them  52; max srp us 30 them 41
+m2715g2 Money          rounds r101-400 with chips>=3000: us  30 them   0; max srp us 2 them 8
+m2716g0 Crab           rounds r101-400 with chips>=3000: us 226 them  43; max srp us 3 them 4
+m2749g0 Barcode        rounds r101-400 with chips>=3000: us 252 them   0; max srp us 1 them 0
+m2749g1 MoneyTower     rounds r101-400 with chips>=3000: us 104 them   0; max srp us 0 them 3
+m2753g0 Piglets2       rounds r101-400 with chips>=3000: us  96 them   0; max srp us 2 them 15
+m2753g1 lighthouse     rounds r101-400 with chips>=3000: us 220 them   0; max srp us 0 them 8
+m2768g1 Justice        rounds r101-400 with chips>=3000: us 226 them  90; max srp us 0 them 0
+m2768g2 maze           rounds r101-400 with chips>=3000: us   4 them  91; max srp us 1 them 2
+m2873g1 rain           rounds r101-400 with chips>=3000: us 161 them  28; max srp us 0 them 4
+m2897g0 Crab           rounds r101-400 with chips>=3000: us  47 them   0; max srp us 3 them 7

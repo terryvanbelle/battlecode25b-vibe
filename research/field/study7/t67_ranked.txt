@@ -1,0 +1,46 @@
+== lost games
+  us: built while none: MONEY: 18, games: 20, games with a no-paint-tower spell: 10, lost games with spell: 10
+      first such round                                             n= 10 med 297.0 p25 89 p75 345
+      paint held during spells (mean)                              n= 10 med 582.3 p25 312.6 p75 651.2
+      robots alive during spells (mean)                            n= 10 med 5.1 p25 3.7 p75 6.0
+      rounds from first spell to the next paint tower (9999 never) n= 10 med 9999.0 p25 9999 p75 9999
+      rounds without a paint tower                                 n= 10 med 67.0 p25 24 p75 102
+  them: games: 20, games with a no-paint-tower spell: 1
+      first such round                                             n=  1 med 80 p25 80 p75 80
+      paint held during spells (mean)                              n=  1 med 1110.7 p25 1110.7 p75 1110.7
+      robots alive during spells (mean)                            n=  1 med 9.0 p25 9.0 p75 9.0
+      rounds from first spell to the next paint tower (9999 never) n=  1 med 14 p25 14 p75 14
+      rounds without a paint tower                                 n=  1 med 14 p25 14 p75 14
+== won games
+  us: built while none: MONEY: 2, games: 40, games with a no-paint-tower spell: 2, won games with spell: 2
+      first such round                                             n=  2 med 144.5 p25 58 p75 231
+      paint held during spells (mean)                              n=  2 med 1438.3 p25 961.8 p75 1914.8
+      robots alive during spells (mean)                            n=  2 med 11.9 p25 6.1 p75 17.7
+      rounds from first spell to the next paint tower (9999 never) n=  2 med 30.5 p25 13 p75 48
+      rounds without a paint tower                                 n=  2 med 30.5 p25 13 p75 48
+  them: built while none: MONEY: 86, games: 40, games with a no-paint-tower spell: 13
+      first such round                                             n= 13 med 306 p25 194 p75 435
+      paint held during spells (mean)                              n= 13 med 802.8 p25 637.3 p75 1640.2
+      robots alive during spells (mean)                            n= 13 med 11.1 p25 8.2 p75 15.9
+      rounds from first spell to the next paint tower (9999 never) n= 13 med 9999 p25 9999 p75 9999
+      rounds without a paint tower                                 n= 13 med 54 p25 14 p75 101
+== our towers completed while no paint tower of ours stood (lost games)
+   m2645g0 Filter       r31   MONEY on new ruin (7, 15), chips 950, towers 2
+   m2645g0 Filter       r52   MONEY on old money ruin (13, 15), chips 950, towers 2
+   m2645g0 Filter       r86   MONEY on old money ruin (7, 15), chips 1680, towers 2
+   m2645g0 Filter       r123  MONEY on old money ruin (13, 15), chips 2500, towers 3
+   m2645g0 Filter       r142  MONEY on old money ruin (13, 15), chips 2280, towers 3
+   m2645g0 Filter       r146  MONEY on new ruin (10, 10), chips 990, towers 3
+   m2685g0 Fossil       r36   MONEY on new ruin (7, 2), chips 960, towers 3
+   m2685g0 Fossil       r51   MONEY on new ruin (19, 5), chips 990, towers 3
+   m2685g0 Fossil       r62   MONEY on new ruin (12, 2), chips 960, towers 4
+   m2685g0 Fossil       r88   MONEY on new ruin (11, 8), chips 1520, towers 4
+   m2685g0 Fossil       r95   MONEY on old money ruin (19, 5), chips 1020, towers 5
+   m2685g0 Fossil       r224  MONEY on old money ruin (11, 8), chips 3689, towers 7
+   m2685g0 Fossil       r231  MONEY on old money ruin (11, 8), chips 3313, towers 7
+   m2685g0 Fossil       r239  MONEY on old money ruin (11, 8), chips 2908, towers 7
+   m2749g1 MoneyTower   r298  MONEY on old money ruin (28, 25), chips 3690, towers 1
+   m2749g1 MoneyTower   r347  MONEY on old money ruin (28, 25), chips 4570, towers 2
+   m2753g0 Piglets2     r288  MONEY on old money ruin (43, 29), chips 3671, towers 4
+   m2753g0 Piglets2     r361  MONEY on old money ruin (51, 36), chips 4733, towers 2
+   totals: MONEY on new ruin: 6, MONEY on old money ruin: 12

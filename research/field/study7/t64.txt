@@ -1,0 +1,50 @@
+== lost games: clean free ruins in the side's own half
+  r100 us    55 ruins: seen before 14; next built by own 28, enemy 17, never 10
+        cheb to nearest own tower        med 10 p25 8 p75 18
+        rounds to soldier within d2 20   med 172 p25 15 p75 999
+        rounds to our mark               med 999 p25 182 p75 999
+        rounds to next build (any side)  med 148 p25 69 p75 224
+        own paint tiles in 5x5           med 0 p25 0 p75 13
+  r100 them  84 ruins: seen before 35; next built by own 73, enemy 7, never 4
+        cheb to nearest own tower        med 10.0 p25 7 p75 18
+        rounds to soldier within d2 20   med 48.5 p25 1 p75 98
+        rounds to our mark               med 999.0 p25 227 p75 999
+        rounds to next build (any side)  med 74.0 p25 27 p75 143
+        own paint tiles in 5x5           med 2.5 p25 0 p75 24
+  r150 us    43 ruins: seen before 17; next built by own 22, enemy 11, never 10
+        cheb to nearest own tower        med 10.0 p25 8 p75 18
+        rounds to soldier within d2 20   med 138 p25 49 p75 999
+        rounds to our mark               med 999 p25 141 p75 999
+        rounds to next build (any side)  med 117 p25 77 p75 202
+        own paint tiles in 5x5           med 0 p25 0 p75 13
+  r150 them  55 ruins: seen before 26; next built by own 47, enemy 3, never 5
+        cheb to nearest own tower        med 9 p25 6 p75 11
+        rounds to soldier within d2 20   med 35 p25 1 p75 111
+        rounds to our mark               med 999 p25 346 p75 999
+        rounds to next build (any side)  med 63.5 p25 26 p75 118
+        own paint tiles in 5x5           med 3 p25 0 p75 20
+== won games: clean free ruins in the side's own half
+  r100 us   244 ruins: seen before 78; next built by own 208, enemy 11, never 25
+        cheb to nearest own tower        med 10.0 p25 7 p75 12
+        rounds to soldier within d2 20   med 44.5 p25 1 p75 104
+        rounds to our mark               med 132.0 p25 64 p75 999
+        rounds to next build (any side)  med 90 p25 30 p75 152
+        own paint tiles in 5x5           med 3.0 p25 0 p75 8
+  r100 them 331 ruins: seen before 149; next built by own 177, enemy 76, never 78
+        cheb to nearest own tower        med 11 p25 7 p75 16
+        rounds to soldier within d2 20   med 67 p25 4 p75 232
+        rounds to our mark               med 999 p25 999 p75 999
+        rounds to next build (any side)  med 94 p25 39 p75 177
+        own paint tiles in 5x5           med 3 p25 0 p75 9
+  r150 us   173 ruins: seen before 79; next built by own 142, enemy 8, never 23
+        cheb to nearest own tower        med 10 p25 8 p75 12
+        rounds to soldier within d2 20   med 32 p25 5 p75 75
+        rounds to our mark               med 104 p25 48 p75 999
+        rounds to next build (any side)  med 78.0 p25 34 p75 122
+        own paint tiles in 5x5           med 3 p25 0 p75 8
+  r150 them 237 ruins: seen before 116; next built by own 108, enemy 51, never 78
+        cheb to nearest own tower        med 11.0 p25 7 p75 16
+        rounds to soldier within d2 20   med 76 p25 8 p75 999
+        rounds to our mark               med 999 p25 999 p75 999
+        rounds to next build (any side)  med 94 p25 38 p75 160
+        own paint tiles in 5x5           med 3 p25 0 p75 13

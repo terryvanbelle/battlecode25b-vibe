@@ -1,0 +1,14 @@
+== small maps, lost
+   game           map            end  | US: contact dmg kill  towers r25/50/100  spawns<=r50 <=r100  1st mop  no-PT-from | THEM: same
+   m2645g0 gone-wha Filter         242 |   11   17   30M    3/2/3    S8M0X0   S10M1X0    98    27 |   17   12   27P    3/4/4    S5M0X0    S5M0X0   103  None
+   m2685g1 gone-wha Paintball      245 |   12   31   51M    3/3/3    S8M0X0   S10M1X0    99  None |   23   14  148M    4/4/4    S5M2X0    S7M5X0    43  None
+   m2749g0 slifland Barcode        660 |  137   44   61M    2/3/3    S8M0X0   S10M0X0   136  None |   43  183  373M    2/3/4    S7M1X0   S11M1X0    15    80
+   m2768g1 lobster- Justice        395 |    2   20   54M    3/4/6    S8M0X0   S11M2X0    80   372 |   20   38  176M    3/4/4    S6M3X0    S7M5X0    20  None
+== small maps, won
+   game           map            end  | US: contact dmg kill  towers r25/50/100  spawns<=r50 <=r100  1st mop  no-PT-from | THEM: same
+   m2681g1 geesegee Jail           687 |   28   22   36M    2/3/2    S7M0X0    S9M0X0   194  None |   18   31   43M    3/2/2    S4M6X0    S4M9X0    18   594
+   m2682g0 the-krag Barcode        393 |   58   44   62M    2/3/4    S8M0X0   S12M2X0    80  None |   42   60  139M    3/5/2    S4M0X0    S5M4X0    54  None
+   m2686g1 podemice Paintball      183 |   26   19   27M    3/4/4    S8M0X0   S10M0X0   106  None |   19   28     -    3/2/1    S4M2X0    S6M2X0     2    93
+   m2702g0 ryanaspe Circuit        400 |    6   30   45M    3/4/6    S8M0X0   S12M1X0    84  None |    4  144     -    3/3/6    S4M2X0    S5M4X0     3  None
+   m2712g0 ryanaspe Barcode        405 |  234   42   64M    2/2/3    S7M0X0    S9M1X0    80  None |   40  393     -    2/2/2    S5M3X0    S6M5X0     3  None
+   m2804g0 geesegee BatSignal      759 |   51   61   74M    2/5/6    S7M0X0   S12M3X0    80  None |   60   53   87M    4/5/4    S6M0X0    S6M9X0    60   757
