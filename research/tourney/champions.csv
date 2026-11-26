@@ -15,3 +15,4 @@ when_pdt,bot,base,change,submission
 2026-11-25 14:44,y30,sw17,y28 with soldier siege from 30 paint within r2 144 (no splasher siege),45
 2026-11-25 16:30,y44,y30,study 3 tactic 3 (enemy refill policy): return at 50% paint (soldier 100/splasher 100/mopper 40) + end-of-turn top-up from any adjacent ally tower,46
 2026-11-25 17:30,y56,y44,study 3 tactic 4 (tower churn): a drained L1 money tower with intact pattern and an ally adjacent disintegrates at >=2000 chips; adjacent robots re-complete it for a fresh 500 paint,47
+2026-11-25 18:50,y58,y56,study 3 tactic 2 (early soldiers paint patterns not coverage): exploring soldiers paint no coverage before r50,48
