@@ -132,12 +132,15 @@ y74
 # y75 (retired: y74 + soldier-for-splasher, worse)
 # y76 (retired: on y75; y78 carries it on y74)
 # t21 (retired: on y75; t22 carries it on y74)
-y77
+# y77 (retired: -12 vs y74 after 430)
 t22
-y78
+# y78 (retired: -18 vs y74 after 434)
 # y79 (retired: -158; soldiers exploring toward the enemy half die)
-t23
+# t23 (retired: -215 vs y74, 14-43; S-X-M cycle stalls money towers more)
 t24
 y80
 y81
 y82
+t25
+t26
+y83
