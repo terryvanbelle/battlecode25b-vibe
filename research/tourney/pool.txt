@@ -110,4 +110,6 @@ t05
 t06
 t07
 t08
-t09
+# t09 (retired: -348 vs t04, 3-22; t05+t06+t07 - the 40% ruin refill pulls builders off)
+t10
+t11
