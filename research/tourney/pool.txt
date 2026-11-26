@@ -168,10 +168,14 @@ y95
 # y98 (retired: -38; splash min 11)
 # y99 (retired: -36; siege range 16 on y95)
 # t34 (retired: -34; siege only at 100 paint on y95)
-t35
+# t35 (retired: +2 vs y95 after 516)
 # y100 (retired: -59; upgrade spare 1800)
 y101
-y102
-y103
-y104
+# y102 (retired: -25; soldier refill 120)
+# y103 (retired: -45; churn 3000)
+# y104 (retired: -54; churn 1500)
 t37
+y105
+y106
+y107
+y108
