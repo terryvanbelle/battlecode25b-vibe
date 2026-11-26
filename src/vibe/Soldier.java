@@ -54,6 +54,16 @@ public strictfp class Soldier {
         return true;
     }
 
+    /** Enemy paint on a visible tile of the ruin's 5x5. */
+    static boolean contested(MapLocation r) throws GameActionException {
+        RobotController rc = G.rc;
+        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+            MapLocation l = r.translate(dx, dy);
+            if (rc.canSenseLocation(l) && rc.senseMapInfo(l).getPaint().isEnemy()) return true;
+        }
+        return false;
+    }
+
     static boolean isBad(MapLocation r) {
         for (int i = nBad; --i >= 0; ) if (badRuin[i].equals(r) && G.round < badUntil[i]) return true;
         return false;
@@ -72,6 +82,7 @@ public strictfp class Soldier {
         for (MapLocation r : G.ruins) {
             if (rc.senseRobotAtLocation(r) != null) continue;       // a tower stands there
             if (isBad(r)) continue;
+            if (contested(r)) { markBad(r, 50); continue; }   // study 4 2.2: we finish 2 of 58 contested ruins
             // two soldiers per ruin at most
             int helpers = 0;
             for (RobotInfo a : G.allies) if (a.type == UnitType.SOLDIER && a.location.distanceSquaredTo(r) <= 8) helpers++;
