@@ -298,13 +298,18 @@ t85
 # y179 (retired: -359 vs y170 after 174; paint-tower rule from the 2nd tower starves money)
 # y180 (retired: on old champion y170, 0 games; ported as y185)
 # y181 (retired: on old champion y170, 0 games; ported as y186)
-y182
-y183
+# y182 (retired: -9 vs t85 after 518, flat; money-tower soldier fallback 150)
+# y183 (retired: -4 vs t85 after 517, flat; upgrade spare 800)
 # y184 (retired: -42 vs t85 after 185; splasher tower weight 15)
-y185
-y186
+# y185 (retired: -27 vs t85 after 531; paint tower at 1750)
+# y186 (retired: -10 vs t85 after 552, flat; churn at 1500)
 # y187 (retired: -45 vs t85 after 193; denial to 5 tiles)
 t86
 t87
 t88
 t89
+t90
+t91
+y188
+y189
+y190
