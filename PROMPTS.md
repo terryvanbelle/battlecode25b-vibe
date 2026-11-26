@@ -110,3 +110,6 @@ Let's remove any points from the early ramp-up phase, and lag the replica timest
 
 ## #28 (2026-11-26 09:43 PDT)
 Let's leave the overnight problem alone for now.  I like the simplicity of our current setup, and the counterintuitive motion in the scatterplot is an interesting artifact
+
+## #29 (2026-11-26 09:46 PDT)
+Also, please add the graph to the dashboard, right after the Local Elo chart
