@@ -95,3 +95,5 @@ y193	y189 on t91: money towers churn at 2500 chips
 y194	y190 on t91: paint tower from the 8th tower at 2000 idle chips
 y195	y191 on t93: up to 16 draws for an unseen explore target
 t96	study 7 2.4: with 3000+ chips and few paint towers, soldiers repaint a money tower to the paint pattern; it churns and is rebuilt as paint
+t97	t95 + y192 (explore unseen, mopper ruin memory, denial stops at 2 of our tiles)
+y196	denial only on ruins with none of our tiles (t91: under 3)
