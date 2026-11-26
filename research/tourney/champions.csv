@@ -27,3 +27,4 @@ when_pdt,bot,base,change,submission
 2026-11-26 02:01,t36,y95,late SRPs (study 4 2.6 / study 3 tactic 7): soldiers without a ruin build SRPs on the x%4==2 y%4==2 lattice from r100 with chips>=1000; splashers avoid repainting SRP secondary tiles,57
 2026-11-26 02:50,y110,t36,money towers upgrade only with 2500 chips beyond the cost+spare (was 1000): chips go to new towers and SRPs,58
 2026-11-26 03:30,t42,y110,study 4 3.1 recovery: with every tower known and no money tower left the next ruin is a money tower,59
+2026-11-26 04:10,t45,t42,study 3 tactic 1: after r40 towers spawn only with 1000 chips beyond the unit's cost (no 600-chip window),60

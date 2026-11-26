@@ -192,19 +192,27 @@
 # y116 (retired unplayed: ported to y110 as y117)
 # y118 (retired: -34)
 # t41 (retired: -6 vs y110 after 471; contested-ruin moppers)
-t42
+# t42 (retired at t45's crowning)
 # y117 (retired: -17)
 # t43 (retired: -34; t41+t42)
 # y119 (retired unplayed: on y110; y122 on t42)
 # y120 (retired unplayed: y123 on t42)
 # y121 (retired unplayed: y124 on t42)
 # t44 (retired unplayed: t45 on t42)
-y122
-y123
-y124
+# y122 (retired at t45's crowning)
+# y123 (retired at t45's crowning)
+# y124 (retired at t45's crowning)
 t45
-y125
-y126
-t46
-y127
-y128
+# y125 (retired at t45's crowning)
+# y126 (retired at t45's crowning)
+# t46 (retired at t45's crowning)
+# y127 (retired at t45's crowning)
+# y128 (retired at t45's crowning)
+y129
+y130
+y131
+y132
+y133
+y134
+t47
+t48
