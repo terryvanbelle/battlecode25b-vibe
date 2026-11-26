@@ -121,18 +121,23 @@
 # t17 (retired: +4 vs t08 after 241; t12 + contested bad 100)
 # t18 (retired: -248 vs t16 after 920)
 # t19 (retired: -278 vs t16 after 171; late SRPs still starve chips)
-t20
+# t20 (retired: former champion)
 # y68 (retired: +17 vs t16 after 333, short of t20)
 # y69 (retired: -31 vs t16 after 202)
 # y70 (retired: -26 vs t16 after 210)
 # y71 (retired: -32 vs t16 after 192)
-y72
+# y72 (retired: in y74)
 # y73 (retired: -41 vs t16; soldier in place of an unaffordable splasher)
 y74
-y75
-y76
-t21
+# y75 (retired: y74 + soldier-for-splasher, worse)
+# y76 (retired: on y75; y78 carries it on y74)
+# t21 (retired: on y75; t22 carries it on y74)
 y77
 t22
 y78
-y79
+# y79 (retired: -158; soldiers exploring toward the enemy half die)
+t23
+t24
+y80
+y81
+y82

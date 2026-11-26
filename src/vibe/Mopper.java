@@ -11,6 +11,9 @@ public strictfp class Mopper {
         if (rc.isActionReady()) act();
         if (G.paint < 40 && Unit.refill(40)) return;
         MapLocation goal = target();
+        // unit audit (owner prompt #15): moppers chasing enemy paint ended 44% of those turns on it (double drain for
+        // moppers); mop reaches r2 2, so stop once in reach
+        if (goal != null && G.here.distanceSquaredTo(goal) <= 2) goal = G.here;
         Nav.moveTo(goal != null ? goal : Unit.exploreTarget());
         if (rc.isActionReady()) act();
     }
