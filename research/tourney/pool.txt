@@ -235,15 +235,22 @@
 # t55 (retired at t58: -2)
 # t56 (retired at t58: -71)
 # t57 (retired at t58: +5; rebuilt as t59)
-t58
-t59
+# t58 (retired at t61's crowning)
+# t59 (retired at t61's crowning)
 # t60 (retired: -92; no money upgrades)
 t61
-t62
-y146
-y147
-y148
-t63
-t64
-y149
-y150
+# t62 (retired at t61's crowning)
+# y146 (retired at t61's crowning)
+# y147 (retired at t61's crowning)
+# y148 (retired at t61's crowning)
+# t63 (retired at t61's crowning)
+# t64 (retired at t61's crowning)
+# y149 (retired at t61's crowning)
+# y150 (retired at t61's crowning)
+t66
+y152
+t67
+y153
+y154
+y155
+y151

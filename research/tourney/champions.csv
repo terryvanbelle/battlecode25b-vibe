@@ -30,3 +30,4 @@ when_pdt,bot,base,change,submission
 2026-11-26 04:10,t45,t42,study 3 tactic 1: after r40 towers spawn only with 1000 chips beyond the unit's cost (no 600-chip window),60
 2026-11-26 04:50,t47,t45,study 3 tactic 5: a mopper due in the cycle spawns even below the 1000 reserve when an enemy robot is within d2 20 of the tower,61
 2026-11-26 06:30,t58,t47,study 5 2.3: a splasher that has not splashed for 8 rounds (while able to) explores instead of chasing the nearest non-ally tile,62
+2026-11-26 07:10,t61,t58,study 5 2.1 (softened): money towers for builds 1-5; then one more paint tower per 4 towers,63

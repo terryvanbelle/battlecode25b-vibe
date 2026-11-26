@@ -17,3 +17,10 @@ t63	from 3 towers, 2000+ chips makes the next tower a paint tower (study 5 2.1)
 t64	late (r300+) paint towers cycle S X M M: more moppers (study 5 2.6)
 y149	splashers refill below 60 paint (was 100)
 y150	y148 + t63 (splasher refill 75, paint tower at 2000+ chips)
+y151	t61 + t63 (2000+ chips: next tower paints)
+t66	t61 + t62 (splashers weight enemy towers 30)
+y152	t61 + y148 (splasher refill 75)
+t67	t61 + t64 (late S X M M)
+y153	one more paint tower per 3 towers after 5 (t61: per 4)
+y154	money until 4 towers, then a paint tower per 4
+y155	money until 6 towers, then a paint tower per 4

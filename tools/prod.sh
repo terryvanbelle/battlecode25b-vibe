@@ -22,7 +22,7 @@ case "${1:-}" in
     $PY tools/tourney.py rank ;;
   queue)
     want=${2:-5}
-    have=$(timeout 120 tools/box.sh sh "cat $BOXQ/screenq.txt 2>/dev/null | wc -l")
+    have=$(timeout 120 tools/box.sh sh "cd $BOXQ && awk '!s[\$0]++' screenq.txt > q.tmp && mv q.tmp screenq.txt; wc -l < screenq.txt")
     last=$(ls -d runs/tr* 2>/dev/null | sed 's/.*tr//' | sort -n | tail -1)
     first=""
     while [ "${have:-0}" -lt "$want" ]; do
