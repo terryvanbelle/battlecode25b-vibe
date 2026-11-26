@@ -24,6 +24,7 @@ covers every field except profiler data:
 | `MatchFooter.timelineMarkers` | dropped | in the summary JSON |
 | `GameHeader.specVersion`, `robotTypeMetadata` (per-type cooldowns, hp, paint, radii, bytecode limit) | dropped | in `meta.json` |
 | `MatchFooter.profilerFiles` | dropped | count in the summary |
+| summary `towersLost` | included disintegrations (our churn showed up as tower losses) | `towersLost` is destroyed towers only; `towersRemoved` counts disintegrations |
 
 Already complete before the fix:
 - every `Turn` field;

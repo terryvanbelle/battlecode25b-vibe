@@ -54,7 +54,8 @@ import java.util.zip.GZIPInputStream;
  * meta.json also has specVersion and the per-type metadata (robotTypes); timelineMarkers go to g<i>.summary.json.
  * Summary JSON keys: file, game, map, width, height, paintable, teamA, teamB, winner, winType, rounds, covA, covB,
  *   covPctA, covPctB, moneyA, moneyB, srpA, srpB, towersA, towersB, unitsA, unitsB, spawnedA/B {type: n},
- *   diedA/B {type: n}, towersBuiltA/B, towersLostA/B, exceptionsA/B, maxBcRobotA/B, maxBcTowerA/B,
+ *   diedA/B {type: n}, towersBuiltA/B, towersLostA/B (destroyed), towersRemovedA/B (disintegrated; before v3 these
+ *   were inside towersLost), exceptionsA/B, maxBcRobotA/B, maxBcTowerA/B,
  *   atLimitA/B (turns whose bytecodesUsed >= the type's limit: overrun candidates), r50A/B and r70A/B (first round
  *   coverage reached 50%/70% of paintable, or -1), dumpVersion.
  */
@@ -117,6 +118,7 @@ public class ReplayDump {
     byte[] paint;                       // 0 empty, 1/2 A primary/secondary, 3/4 B
     Map<Integer, Bot> bots;
     int[][] spawned, died, towersBuilt, towersLost;
+    int[] towersRemoved;   // towers removed without damage (disintegrated): not in towersLost
     int[] exceptions, maxBcRobot, maxBcTower, atLimit, r50, r70, lastCov, lastMoney, lastSrp;
     PrintWriter rounds, turns, actions;
     String specVersion = "", typeMeta = "[]";
@@ -172,7 +174,7 @@ public class ReplayDump {
         paintable = 0;
         for (int i = 0; i < w * h; i++) if (!wall[i]) paintable++;
         bots = new HashMap<>();
-        spawned = new int[3][7]; died = new int[3][7]; towersBuilt = new int[3][4]; towersLost = new int[3][4];
+        spawned = new int[3][7]; died = new int[3][7]; towersBuilt = new int[3][4]; towersLost = new int[3][4]; towersRemoved = new int[3];
         exceptions = new int[3]; maxBcRobot = new int[3]; maxBcTower = new int[3]; atLimit = new int[3];
         r50 = new int[]{-1, -1, -1}; r70 = new int[]{-1, -1, -1};
         lastCov = new int[3]; lastMoney = new int[3]; lastSrp = new int[3];
@@ -314,7 +316,7 @@ public class ReplayDump {
             Bot v = bots.get(r.diedIds(i));
             if (v != null && v.alive) {
                 v.alive = false;
-                if (v.team > 0) { died[v.team][v.type]++; if (isTower(v.type)) towersLost[v.team][v.type]++; }
+                if (v.team > 0) { died[v.team][v.type]++; if (isTower(v.type)) towersRemoved[v.team]++; }
                 act(rn, v, "died", v.id, "removed", TYPE[v.type]);
             }
         }
@@ -373,6 +375,7 @@ public class ReplayDump {
              .append(",\"died").append(T).append("\":").append(typeMap(died[tm]))
              .append(",\"towersBuilt").append(T).append("\":").append(towersBuilt[tm][1] + towersBuilt[tm][2] + towersBuilt[tm][3])
              .append(",\"towersLost").append(T).append("\":").append(towersLost[tm][1] + towersLost[tm][2] + towersLost[tm][3])
+             .append(",\"towersRemoved").append(T).append("\":").append(towersRemoved[tm])
              .append(",\"exceptions").append(T).append("\":").append(exceptions[tm])
              .append(",\"maxBcRobot").append(T).append("\":").append(maxBcRobot[tm])
              .append(",\"maxBcTower").append(T).append("\":").append(maxBcTower[tm])
