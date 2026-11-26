@@ -106,3 +106,10 @@ y200	up to 32 draws for an unseen explore target (y195: 16)
 y201	explore target renewed after 40 rounds (y195: 60)
 y202	y200 + y197 (32 explore draws; denial stops at 2 of our tiles)
 y203	up to 64 draws for an unseen explore target (y195: 16)
+t100	t98 on y197: idle moppers walk to remembered contested ruins (study 7 2.3)
+y204	y200 on y197: up to 32 explore draws
+y205	y203 on y197: up to 64 explore draws
+y206	denial from 25 paint (y197: 40)
+y207	moppers defend within r2 36 (y197: 25)
+y208	SRPs from 5 towers (y197: 6)
+y209	siege only enemy towers within r2 100 (y197: 144)

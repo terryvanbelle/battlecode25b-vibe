@@ -321,16 +321,23 @@
 # y192 (retired: built on t91, champion now y195)
 # y193 (retired: built on t91, champion now y195)
 # y194 (retired: built on t91, champion now y195)
-y195
+# y195 (retired at y197's crowning)
 # t96 (retired: -69 vs t91 after 101; study 7 2.4 money-to-paint conversion)
 # t97 (retired: built on t91, champion now y195)
 # y196 (retired: built on t91, champion now y195)
-t98
+# t98 (retired: built on y195, champion now y197)
 y197
-t99
-y198
-y199
-y200
-y201
-y202
-y203
+# t99 (retired: built on y195, champion now y197)
+# y198 (retired: built on y195, champion now y197)
+# y199 (retired: built on y195, champion now y197)
+# y200 (retired: built on y195, champion now y197)
+# y201 (retired: built on y195, champion now y197)
+# y202 (retired: built on y195, champion now y197)
+# y203 (retired: built on y195, champion now y197)
+t100
+y204
+y205
+y206
+y207
+y208
+y209

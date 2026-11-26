@@ -71,7 +71,7 @@ public strictfp class Soldier {
                 MapLocation l = r.translate(dx, dy);
                 if (rc.canSenseLocation(l) && rc.senseMapInfo(l).getPaint().isAlly()) ours++;
             }
-            if (ours >= 3) continue;
+            if (ours >= 2) continue;   // (t85: 3)
             int d = G.here.distanceSquaredTo(r);
             if (d < bestD) { bestD = d; best = r; }
         }
