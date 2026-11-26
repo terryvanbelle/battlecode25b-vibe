@@ -12,7 +12,32 @@ public strictfp class Tower {
         attack();
         if (rc.isActionReady()) build();
         upgrade();
+        if (churn()) return;
         G.ind = "b" + built + " sym" + Sym.live;
+    }
+
+    static final int CHURN_CHIPS = 2000;
+
+    /** study 3 tactic 4: a drained L1 money tower with its pattern intact and an ally robot adjacent (who can rebuild it
+     *  at once: completing needs no cooldown or paint) disintegrates, so the rebuilt tower brings a fresh 500 paint. */
+    static boolean churn() throws GameActionException {
+        RobotController rc = G.rc;
+        if (rc.getType() != UnitType.LEVEL_ONE_MONEY_TOWER || rc.getPaint() >= 10 || G.chips < CHURN_CHIPS) return false;
+        if (G.enemies.length > 0) return false;
+        boolean helper = false;
+        for (RobotInfo a : rc.senseNearbyRobots(2, G.me)) if (a.type.isRobotType()) { helper = true; break; }
+        if (!helper) return false;
+        int pat = Soldier.patternOf(UnitType.LEVEL_ONE_MONEY_TOWER);
+        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+            if (dx == 0 && dy == 0) continue;
+            MapLocation l = G.here.translate(dx, dy);
+            if (!rc.canSenseLocation(l)) return false;
+            PaintType p = rc.senseMapInfo(l).getPaint();
+            if (!p.isAlly() || p.isSecondary() != Soldier.bit(pat, dx, dy)) return false;
+        }
+        G.forgetTower(G.here);
+        rc.disintegrate();
+        return true;
     }
 
     static void attack() throws GameActionException {

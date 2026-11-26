@@ -16,7 +16,7 @@ public strictfp class RobotPlayer {
                     case SPLASHER: Splasher.turn(); break;
                     case MOPPER: Mopper.turn(); break;
                 }
-                if (G.type.isRobotType()) Unit.topUp();
+                if (G.type.isRobotType()) { Unit.rebuild(); Unit.topUp(); }
                 switch (G.type) {
                     case SOLDIER: case SPLASHER: case MOPPER: break;
                     default: Tower.turn(); break;

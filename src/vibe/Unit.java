@@ -64,6 +64,19 @@ public strictfp class Unit {
         }
     }
 
+    /** study 3 tactic 4: re-complete a money tower on an adjacent empty ruin whose pattern is intact (a churned tower). */
+    static void rebuild() throws GameActionException {
+        RobotController rc = G.rc;
+        if (rc.getChips() < 1000) return;
+        for (MapLocation r : rc.senseNearbyRuins(2)) {
+            if (rc.canCompleteTowerPattern(UnitType.LEVEL_ONE_MONEY_TOWER, r)) {
+                rc.completeTowerPattern(UnitType.LEVEL_ONE_MONEY_TOWER, r);
+                G.noteTower(r, 2);
+                return;
+            }
+        }
+    }
+
     static void markDry(MapLocation l) {
         for (int i = G.nTowers; --i >= 0; ) if (G.towerLoc[i].equals(l)) towerDry[i] = G.round;
     }

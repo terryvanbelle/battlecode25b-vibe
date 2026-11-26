@@ -77,12 +77,15 @@ y44
 # y47 (retired: -577 vs y44, 2-57; sw25 SRP code at study-3 params starves chips - 20 SRPs by r200)
 # y48 (retired: -86 vs y44 after 387; 2 helpers per ruin)
 # y49 (retired: -355 vs y44, 9-53; y47 from r80 + 1200-chip guard)
-sw30
-y50
+# sw30 (retired: +2 vs y44 after 269; churn at 3000 rarely fires - y56 at 2000 won)
+# y50 (retired: -28 vs y44 after 273; splasher refill 150)
 y51
 y52
-y53
+# y53 (retired: -34 vs y44 after 264; siege from 100 paint)
 y55
 sw31
 sw32
 y56
+sw33
+sw34
+sw35
