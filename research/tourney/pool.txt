@@ -237,10 +237,13 @@
 # t57 (retired at t58: +5; rebuilt as t59)
 t58
 t59
-t60
+# t60 (retired: -92; no money upgrades)
 t61
 t62
 y146
 y147
 y148
 t63
+t64
+y149
+y150
