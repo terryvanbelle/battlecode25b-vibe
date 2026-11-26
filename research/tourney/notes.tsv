@@ -116,3 +116,9 @@ y209	siege only enemy towers within r2 100 (y197: 144)
 y210	y205 + y208 (64 explore draws; SRPs from 5 towers)
 y211	up to 128 draws for an unseen explore target (y197: 16)
 y212	SRPs from 4 towers (y197: 6)
+y213	y208 on y211: SRPs from 5 towers
+y214	y212 on y211: SRPs from 4 towers
+y215	explore target: nearest unseen of 24 draws (y211: first unseen of 128)
+y216	explore target renewed after 90 rounds (y211: 60)
+t101	explore target renewed as soon as it has been seen (study 7 2.1a follow-up)
+y217	up to 192 draws for an unseen explore target (y211: 128)

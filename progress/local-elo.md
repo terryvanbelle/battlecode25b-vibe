@@ -1,6 +1,6 @@
 # Local tournament Elo
 
-Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 90850 games in one fit as of 2026-11-26 15:18 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
+Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 91824 games in one fit as of 2026-11-26 15:36 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
 
 ![local elo](local-elo.png)
 
@@ -24,11 +24,11 @@ Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py
 | 2026-11-25 17:30 | y56 | study 3 tactic 4 (tower churn): a drained L1 money tower with intact pattern and an ally adjacent disintegrates at >=2000 chips; adjacent robots re-complete it for a fresh 500 paint on y44 | #47 | 1510 +- 10 | +65 | 1320 |
 | 2026-11-25 18:50 | y58 | study 3 tactic 2 (early soldiers paint patterns not coverage): exploring soldiers paint no coverage before r50 on y56 | #48 | 1529 +- 11 | +19 | 997 |
 | 2026-11-25 19:30 | t04 | t02 (no coverage painting before r80) + t03 (units wait beside drained money towers and repair their pattern so churn fires; study 3 tactics 2 and 4) on y58 | #49 | 1485 +- 11 | -44 | 1065 |
-| 2026-11-25 20:30 | t08 | study 4 2.2 (contested ruins): soldiers skip a ruin with enemy paint in its visible 5x5 (bad for 50 rounds) on t04 | #50 | 1502 +- 13 | +17 | 775 |
+| 2026-11-25 20:30 | t08 | study 4 2.2 (contested ruins): soldiers skip a ruin with enemy paint in its visible 5x5 (bad for 50 rounds) on t04 | #50 | 1503 +- 13 | +17 | 775 |
 | 2026-11-25 20:50 | t16 | t12 (t08 + study 4 2.1 spawn freeze 8 rounds in 20 below 1000+cost) + study 4 2.4 money-first: builds money until 8 towers then paint while paint towers < n/5; paint first only if none (all towers known) on t08 | #51 | 1670 +- 11 | +168 | 1213 |
 | 2026-11-25 21:50 | t20 | study 4 2.3: splashers weight enemy towers 30 (was 12) in the splash score on t16 | #52 | 1663 +- 15 | -7 | 587 |
 | 2026-11-25 22:10 | y74 | unit audit (owner prompt #15): splash-grid bug fix (enemy tiles never scored) + moppers stop once enemy paint is in mop reach; built on t16 on t20 | #53 | 1730 +- 10 | +67 | 1255 |
-| 2026-11-25 23:10 | t25 | unit audit + top teams' unit mix (616 S / 662 X / 701 M): after r80 paint towers cycle soldier-splasher-mopper; money towers keep S M X M S M on y74 | #54 | 1728 +- 13 | -1 | 680 |
+| 2026-11-25 23:10 | t25 | unit audit + top teams' unit mix (616 S / 662 X / 701 M): after r80 paint towers cycle soldier-splasher-mopper; money towers keep S M X M S M on y74 | #54 | 1729 +- 13 | -1 | 680 |
 | 2026-11-25 23:30 | t27 | top teams' splasher-heavy late mix pushed further: paint towers cycle soldier-splasher-splasher-mopper after r80 on t25 | #55 | 1695 +- 9 | -33 | 1554 |
 | 2026-11-26 00:30 | y95 | upgrade spare 1200 (was 800): chips stay for new towers longer on t27 | #56 | 1670 +- 9 | -25 | 1822 |
 | 2026-11-26 02:01 | t36 | late SRPs (study 4 2.6 / study 3 tactic 7): soldiers without a ruin build SRPs on the x%4==2 y%4==2 lattice from r100 with chips>=1000; splashers avoid repainting SRP secondary tiles on y95 | #57 | 1630 +- 11 | -40 | 977 |
@@ -41,8 +41,9 @@ Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py
 | 2026-11-26 07:30 | y155 | study 5 2.1 tuned: money towers for builds 1-6; then one more paint tower per 4 towers on t61 | #64 | 1563 +- 9 | -14 | 1615 |
 | 2026-11-26 08:27 | t70 | y155 + splashers weight enemy towers 30 (t68) + 2000+ chips makes the next tower a paint tower (y159) on y155 | #65 | 1552 +- 7 | -11 | 2530 |
 | 2026-11-26 09:47 | t74 | moppers weight enemy paint near ruins 40 (study 6 2.1c) on t70 | #66 | 1552 +- 8 | +0 | 1768 |
-| 2026-11-26 10:47 | y170 | soldiers make the next tower a paint tower at 1500+ chips (t63 tuning; was 2000) on t74 | #67 | 1553 +- 10 | +0 | 1262 |
+| 2026-11-26 10:47 | y170 | soldiers make the next tower a paint tower at 1500+ chips (t63 tuning; was 2000) on t74 | #67 | 1552 +- 10 | +0 | 1262 |
 | 2026-11-26 11:27 | t85 | study 6 2.2 ruin denial from where the soldier stands: a soldier with no ruin paints empty tiles of a ruin the enemy is building; without walking to it on y170 | #68 | 1590 +- 7 | +37 | 2556 |
-| 2026-11-26 12:47 | t91 | study 7 2.5: moppers ignore ruins under enemy towers when weighting ruin paint on t85 | #69 | 1592 +- 9 | +2 | 1510 |
+| 2026-11-26 12:47 | t91 | study 7 2.5: moppers ignore ruins under enemy towers when weighting ruin paint on t85 | #69 | 1591 +- 9 | +2 | 1510 |
 | 2026-11-26 13:27 | y195 | study 7 2.1a: explore unseen tiles first; up to 16 random draws on t91 | #70 | 1613 +- 9 | +22 | 1349 |
-| 2026-11-26 14:12 | y197 | ruin denial stops at 2 of our tiles (tuning of study 6 2.2) on y195 | #71 | 1640 +- 9 | +27 | 1662 |
+| 2026-11-26 14:12 | y197 | ruin denial stops at 2 of our tiles (tuning of study 6 2.2) on y195 | #71 | 1640 +- 8 | +26 | 2069 |
+| 2026-11-26 15:27 | y211 | study 7 2.1a tuned: up to 128 random draws for an unseen explore target (was 16) on y197 | #72 | 1672 +- 24 | +33 | 219 |
