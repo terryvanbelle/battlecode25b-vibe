@@ -140,14 +140,19 @@
 # t24 (retired: +5 vs y74 after 452; in y84)
 # y80 (retired: -65 vs y74 after 223)
 # y81 (retired: -61 vs y74 after 253)
-y82
-t25
+# y82 (retired: -4 vs t25 after 636)
+# t25 (retired: former champion)
 # t26 (retired: -10 vs y74 after 341; spoiling enemy ruins)
 # y83 (retired: +19 vs y74 after 355, below t25)
-y84
+# y84 (retired: +9 vs t25 after 352, below t27)
 t27
-y85
+# y85 (retired: -9 vs t25; y87 carries it on t25)
 y86
 y87
 y88
-y89
+# y89 (retired: -110; soldier-only churn helper)
+t28
+t29
+t30
+y90
+y91

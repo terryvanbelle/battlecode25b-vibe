@@ -63,7 +63,7 @@ public strictfp class Tower {
         if (r < 80) return UnitType.SOLDIER;
         // unit audit: the top teams field about one splasher per soldier; paint towers (the only ones with paint for
         // splashers) alternate soldier and splasher with a mopper every third
-        if (rc_isPaintTower()) return k % 3 == 2 ? UnitType.MOPPER : (k % 3 == 0 ? UnitType.SOLDIER : UnitType.SPLASHER);
+        if (rc_isPaintTower()) return k % 4 == 3 ? UnitType.MOPPER : (k % 4 == 0 ? UnitType.SOLDIER : UnitType.SPLASHER);   // S X X M
         // mid game: splashers do the bulk of the painting; soldiers keep building towers; moppers clean
         // a third moppers: they drain enemy robots, clean ruins and feed allies
         switch (k) {
