@@ -1,0 +1,6 @@
+us {'builds': 561, 'churn rebuilds': 173, 'money builds': 197, 'money builds with chips>=2000': 54, 'money builds with <=1 paint tower': 126, 'paint builds': 191}
+   non-churn build k: type mix {1: {'M': 16}, 2: {'M': 16}, 3: {'M': 15}, 4: {'M': 15}, 5: {'M': 15}, 6: {'M': 12}, 7: {'P': 1, 'M': 9}, 8: {'M': 8}, 9: {'P': 1, 'M': 7}, 10: {'M': 5, 'P': 3}}
+   round of the first paint tower built while one already stands (9999 = never): [101, 110, 116, 173, 175, 190, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999, 9999] med 9999.0
+them {'builds': 567, 'churn rebuilds': 55, 'money builds': 341, 'money builds with <=1 paint tower': 98, 'paint builds': 167, 'money builds with chips>=2000': 106}
+   non-churn build k: type mix {1: {'M': 16}, 2: {'M': 16}, 3: {'M': 13, 'P': 3}, 4: {'M': 11, 'P': 5}, 5: {'P': 9, 'M': 7}, 6: {'P': 7, 'M': 8}, 7: {'P': 4, 'M': 11}, 8: {'P': 2, 'M': 13}, 9: {'M': 10, 'P': 5}, 10: {'M': 8, 'P': 6}}
+   round of the first paint tower built while one already stands (9999 = never): [40, 48, 51, 64, 65, 71, 73, 77, 113, 120, 176, 199, 351, 546, 9999, 9999] med 95.0

@@ -1,0 +1,23 @@
+m2120 g1 angtn                     Oasis         our failed ruins 1: enemy paint at first mark 0, later built by enemy 1; soldier-turns within 3 of them 87 = 2% of soldier turns; paints into them 23
+m2150 g1 placeholder-name-2        Snowman       our failed ruins 3: enemy paint at first mark 2, later built by enemy 0; soldier-turns within 3 of them 300 = 30% of soldier turns; paints into them 74
+m2150 g2 placeholder-name-2        sayhi         our failed ruins 3: enemy paint at first mark 2, later built by enemy 3; soldier-turns within 3 of them 276 = 5% of soldier turns; paints into them 73
+m2169 g0 angtn                     Flower        our failed ruins 0: enemy paint at first mark 0, later built by enemy 0; soldier-turns within 3 of them 0 = 0% of soldier turns; paints into them 0
+m2176 g0 geesegeesego              Bunny         our failed ruins 5: enemy paint at first mark 4, later built by enemy 3; soldier-turns within 3 of them 461 = 15% of soldier turns; paints into them 139
+m2176 g1 geesegeesego              Castle        our failed ruins 2: enemy paint at first mark 1, later built by enemy 2; soldier-turns within 3 of them 381 = 22% of soldier turns; paints into them 85
+m2178 g0 lobster-roll              Snowman       our failed ruins 0: enemy paint at first mark 0, later built by enemy 0; soldier-turns within 3 of them 0 = 0% of soldier turns; paints into them 0
+m2178 g1 lobster-roll              defensetower  our failed ruins 1: enemy paint at first mark 1, later built by enemy 1; soldier-turns within 3 of them 85 = 3% of soldier turns; paints into them 56
+m2254 g0 placeholder-name-2        Crab          our failed ruins 2: enemy paint at first mark 0, later built by enemy 2; soldier-turns within 3 of them 702 = 16% of soldier turns; paints into them 198
+m2254 g1 placeholder-name-2        SMILE         our failed ruins 4: enemy paint at first mark 2, later built by enemy 4; soldier-turns within 3 of them 5468 = 3% of soldier turns; paints into them 2579
+m2256 g2 varunvejalla              gardenworld   our failed ruins 0: enemy paint at first mark 0, later built by enemy 0; soldier-turns within 3 of them 0 = 0% of soldier turns; paints into them 0
+m2292 g0 placeholder-name-2        DefaultHuge   our failed ruins 6: enemy paint at first mark 2, later built by enemy 6; soldier-turns within 3 of them 1314 = 8% of soldier turns; paints into them 513
+m2292 g1 placeholder-name-2        Leaf          our failed ruins 6: enemy paint at first mark 2, later built by enemy 5; soldier-turns within 3 of them 4806 = 5% of soldier turns; paints into them 2570
+m2292 g2 placeholder-name-2        windmill      our failed ruins 0: enemy paint at first mark 0, later built by enemy 0; soldier-turns within 3 of them 0 = 0% of soldier turns; paints into them 0
+m2298 g0 geesegeesego              Bread         our failed ruins 1: enemy paint at first mark 0, later built by enemy 1; soldier-turns within 3 of them 121 = 3% of soldier turns; paints into them 51
+m2298 g1 geesegeesego              Leaf          our failed ruins 2: enemy paint at first mark 0, later built by enemy 1; soldier-turns within 3 of them 154 = 3% of soldier turns; paints into them 72
+failed [1, 3, 3, 0, 5, 2, 0, 1, 2, 4, 0, 6, 6, 0, 1, 2] sum 36
+contested at mark [0, 2, 2, 0, 4, 1, 0, 1, 0, 2, 0, 2, 2, 0, 0, 0] sum 16
+taken by enemy [1, 0, 3, 0, 3, 2, 0, 1, 2, 4, 0, 6, 5, 0, 1, 1] sum 29
+wasted % [2, 30, 5, 0, 15, 22, 0, 3, 16, 3, 0, 8, 5, 0, 3, 3] sum 115
+paints [23, 74, 73, 0, 139, 85, 0, 56, 198, 2579, 0, 513, 2570, 0, 51, 72] sum 6433
+US ruins marked with enemy paint: built/total ['0/0', '0/2', '1/3', '0/0', '1/5', '0/1', '0/0', '0/1', '0/0', '1/3', '0/0', '2/4', '3/5', '0/0', '3/3', '0/0'] sum 
+TH ruins marked with enemy paint: built/total ['0/0', '0/2', '8/9', '0/0', '0/0', '0/0', '2/2', '7/8', '1/4', '6/6', '0/0', '4/8', '9/13', '0/2', '0/0', '0/0'] sum 

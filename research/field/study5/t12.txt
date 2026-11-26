@@ -1,0 +1,62 @@
+== m2120 g1 angtn Oasis
+  TH paints into opponent-marked ruins: 0 paints on 0/11 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/14 of their marked ruins; those later built by them: 0  types []
+== m2150 g1 placeholder-name-2 Snowman
+  TH paints into opponent-marked ruins: 1 paints on 1/4 of their marked ruins; those later built by them: 0  types ['SOL']
+  US paints into opponent-marked ruins: 0 paints on 0/4 of their marked ruins; those later built by them: 0  types []
+== m2150 g2 placeholder-name-2 sayhi
+  TH paints into opponent-marked ruins: 5 paints on 1/15 of their marked ruins; those later built by them: 1  types ['SOL']
+  US paints into opponent-marked ruins: 4 paints on 1/19 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+== m2169 g0 angtn Flower
+  TH paints into opponent-marked ruins: 0 paints on 0/6 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 11 paints on 1/9 of their marked ruins; those later built by them: 1  types ['SOL']
+== m2176 g0 geesegeesego Bunny
+  TH paints into opponent-marked ruins: 237 paints on 6/10 of their marked ruins; those later built by them: 1  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/0 of their marked ruins; those later built by them: 0  types []
+== m2176 g1 geesegeesego Castle
+  TH paints into opponent-marked ruins: 76 paints on 2/6 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/0 of their marked ruins; those later built by them: 0  types []
+== m2178 g0 lobster-roll Snowman
+  TH paints into opponent-marked ruins: 0 paints on 0/3 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/6 of their marked ruins; those later built by them: 0  types []
+== m2178 g1 lobster-roll defensetower
+  TH paints into opponent-marked ruins: 0 paints on 0/6 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 3 paints on 1/17 of their marked ruins; those later built by them: 1  types ['SOL']
+== m2254 g0 placeholder-name-2 Crab
+  TH paints into opponent-marked ruins: 0 paints on 0/7 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 13 paints on 1/12 of their marked ruins; those later built by them: 1  types ['SOL']
+== m2254 g1 placeholder-name-2 SMILE
+  TH paints into opponent-marked ruins: 0 paints on 0/23 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/21 of their marked ruins; those later built by them: 0  types []
+== m2256 g2 varunvejalla gardenworld
+  TH paints into opponent-marked ruins: 0 paints on 0/8 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 4 paints on 1/8 of their marked ruins; those later built by them: 1  types ['SOL']
+== m2292 g0 placeholder-name-2 DefaultHuge
+  TH paints into opponent-marked ruins: 0 paints on 0/29 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/33 of their marked ruins; those later built by them: 0  types []
+== m2292 g1 placeholder-name-2 Leaf
+  TH paints into opponent-marked ruins: 115 paints on 2/35 of their marked ruins; those later built by them: 1  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 3 paints on 1/36 of their marked ruins; those later built by them: 1  types ['SOL']
+== m2292 g2 placeholder-name-2 windmill
+  TH paints into opponent-marked ruins: 0 paints on 0/4 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/9 of their marked ruins; those later built by them: 0  types []
+== m2298 g0 geesegeesego Bread
+  TH paints into opponent-marked ruins: 202 paints on 5/8 of their marked ruins; those later built by them: 4  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/0 of their marked ruins; those later built by them: 0  types []
+== m2298 g1 geesegeesego Leaf
+  TH paints into opponent-marked ruins: 153 paints on 2/29 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/0 of their marked ruins; those later built by them: 0  types []
+
+== summary
+  TH
+     opp marked ruins hit by our paint %          [0, 25, 7, 0, 60, 33, 0, 0, 0, 0, 0, 0, 6, 0, 62, 7]  med 0.0
+     denial paints                                [0, 1, 5, 0, 237, 76, 0, 0, 0, 0, 0, 0, 115, 0, 202, 153]  med 0.0
+     opp ruins hit later built                    ['0/0', '0/1', '1/1', '0/0', '1/6', '0/2', '0/0', '0/0', '0/0', '0/0', '0/0', '0/0', '1/2', '0/0', '4/5', '0/2']  med 
+     own marked ruins with own unpaint (mop) %    [7, 25, 63, 33, 0, 0, 50, 53, 42, 48, 12, 42, 61, 22, 0, 0]  med 29.0
+     own-ruin mops                                [2, 12, 118, 39, 0, 0, 69, 62, 73, 1237, 4, 358, 948, 15, 0, 0]  med 27.0
+  US
+     opp marked ruins hit by our paint %          [0, 0, 5, 11, 0, 0, 0, 6, 8, 0, 12, 0, 3, 0, 0, 0]  med 0.0
+     denial paints                                [0, 0, 4, 11, 0, 0, 0, 3, 13, 0, 4, 0, 3, 0, 0, 0]  med 0.0
+     opp ruins hit later built                    ['0/0', '0/0', '0/1', '1/1', '0/0', '0/0', '0/0', '1/1', '1/1', '0/0', '1/1', '0/0', '1/1', '0/0', '0/0', '0/0']  med 
+     own marked ruins with own unpaint (mop) %    [55, 0, 67, 50, 60, 0, 33, 33, 86, 52, 50, 72, 63, 75, 88, 45]  med 53.5
+     own-ruin mops                                [58, 0, 115, 36, 40, 0, 6, 12, 83, 147, 15, 228, 293, 36, 96, 96]  med 49.0

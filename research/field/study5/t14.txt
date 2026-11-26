@@ -1,0 +1,22 @@
+US attacks TH
+   episodes 690
+   kill                                 med 0.0 mean 0.43 n=690
+   attackers                            med 2.0 mean 2.27 n=690
+   defenders within d2<=20 (max)        med 13.0 mean 13.96 n=690
+   defending moppers (max)              med 4.0 mean 4.56 n=690
+   attackers killed in episode          med 0.0 mean 0.72 n=690
+   episode start round                  med 519.0 mean 683.63 n=690
+   defenders when tower survived        med 11 mean 12.69 n=393
+   defenders when tower killed          med 16 mean 15.63 n=297
+   round of kill                        med 626 mean 730.66 n=297
+TH attacks US
+   episodes 703
+   kill                                 med 0 mean 0.45 n=703
+   attackers                            med 2 mean 2.43 n=703
+   defenders within d2<=20 (max)        med 7 mean 10.72 n=703
+   defending moppers (max)              med 1 mean 1.93 n=703
+   attackers killed in episode          med 0 mean 0.56 n=703
+   episode start round                  med 439 mean 600.93 n=703
+   defenders when tower survived        med 5.0 mean 8.60 n=388
+   defenders when tower killed          med 11 mean 13.33 n=315
+   round of kill                        med 524 mean 651.56 n=315

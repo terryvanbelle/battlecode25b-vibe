@@ -227,7 +227,12 @@ y139
 t52
 y140
 y141
-y142
-y143
-y144
+# y142 (retired unplayed: room for study 5)
+# y143 (retired unplayed: room for study 5)
+# y144 (retired unplayed: room for study 5)
 t53
+t54
+t55
+t56
+t57
+t58

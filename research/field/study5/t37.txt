@@ -1,0 +1,10 @@
+== won: 11 games: m2120g0 DonkeyKong, m2120g2 catface, m2150g0 Dominoes, m2169g1 boxofchocolates, m2169g2 gridworld, m2176g2 Parking_lot, m2178g2 fix, m2254g2 shell, m2256g0 Circuit, m2256g1 Portal, m2298g2 Rose
+  r100 n=11 cov% 16.3/17.2  tow 6/5  pt 1/1  money 930/1090  paint 1865/2120  units 13/10  srp 0/0
+  r150 n=11 cov% 26.5/22.8  tow 7/6  pt 1/2  money 1760/900  paint 1891/1877  units 15/13  srp 0/0
+  r200 n=11 cov% 34.2/24.4  tow 7/6  pt 1/2  money 1580/1082  paint 2449/2124  units 18/11  srp 0/0
+  r300 n=10 cov% 47.9/25.2  tow 11.5/7.0  pt 2.5/1.5  money 1524.0/1912.5  paint 4296.5/2109.0  units 28.0/13.5  srp 0.5/0.0
+== lost: 16 games: m2120g1 Oasis, m2150g1 Snowman, m2150g2 sayhi, m2169g0 Flower, m2176g0 Bunny, m2176g1 Castle, m2178g0 Snowman, m2178g1 defensetower, m2254g0 Crab, m2254g1 SMILE, m2256g2 gardenworld, m2292g0 DefaultHuge, m2292g1 Leaf, m2292g2 windmill, m2298g0 Bread, m2298g1 Leaf
+  r100 n=16 cov% 16.7/20.6  tow 6.0/5.0  pt 1.0/1.0  money 885.0/1025.0  paint 1763.0/2285.0  units 10.0/9.0  srp 0.0/0.0
+  r150 n=16 cov% 23.9/23.8  tow 6.0/6.0  pt 1.0/2.0  money 1450.0/1015.5  paint 1607.0/2845.0  units 13.5/12.0  srp 0.0/1.0
+  r200 n=16 cov% 30.3/33.4  tow 6.5/7.0  pt 1.0/2.0  money 1615.0/1163.5  paint 2097.5/3318.5  units 16.0/22.0  srp 1.0/3.0
+  r300 n=14 cov% 36.1/43.5  tow 7.5/10.5  pt 1.0/4.0  money 1847.0/1057.0  paint 2846.5/5081.0  units 24.5/38.0  srp 4.0/5.5
