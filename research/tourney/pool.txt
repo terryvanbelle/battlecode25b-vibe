@@ -218,12 +218,16 @@ t47
 # t48 (retired at t47's crowning)
 # t49 (retired at t47's crowning)
 # y135 (retired: -79; reserve from r60)
-y136
-y137
+# y136 (retired: -21)
+# y137 (retired: -30)
 t50
-y138
+# y138 (retired: -26)
 # t51 (retired: -131; mopper on every nearby enemy)
 y139
 t52
 y140
 y141
+y142
+y143
+y144
+t53
