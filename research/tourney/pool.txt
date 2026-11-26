@@ -147,12 +147,18 @@
 # y84 (retired: +9 vs t25 after 352, below t27)
 t27
 # y85 (retired: -9 vs t25; y87 carries it on t25)
-y86
-y87
-y88
+# y86 (retired: -31 vs t27 after 387)
+# y87 (retired: -35 vs t27; y90 carries it)
+# y88 (retired: -48 vs t27 after 400)
 # y89 (retired: -110; soldier-only churn helper)
-t28
+# t28 (retired: -101; S X X X M too few soldiers)
 t29
-t30
+# t30 (retired: -94; paint-tower mix from r60 starves the opening)
 y90
-y91
+# y91 (retired: -79; exact S X X M is worse than t27 2:3:1)
+t31
+t32
+y92
+y93
+y94
+y95
