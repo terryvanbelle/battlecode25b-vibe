@@ -106,6 +106,8 @@ public strictfp class Soldier {
         int pt = 0, mt = 0;
         for (int i = G.nTowers; --i >= 0; ) { if (G.towerKind[i] == 1) pt++; else if (G.towerKind[i] == 2) mt++; }
         if (pt + mt >= n && pt == 0) return UnitType.LEVEL_ONE_PAINT_TOWER;   // every tower known and none paints
+        // study 4 3.1: with 0 money towers we sat at 10 chips for 158 rounds; rebuild money first
+        if (pt + mt >= n && mt == 0 && n > 0) return UnitType.LEVEL_ONE_MONEY_TOWER;
         if (n < 8) return UnitType.LEVEL_ONE_MONEY_TOWER;
         if (G.rc.getChips() >= IDLE_CHIPS) return UnitType.LEVEL_ONE_PAINT_TOWER;
         return pt * 5 < n ? UnitType.LEVEL_ONE_PAINT_TOWER : UnitType.LEVEL_ONE_MONEY_TOWER;

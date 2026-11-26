@@ -181,7 +181,7 @@
 # y108 (retired: -22)
 # t36 (retired: former champion)
 # y109 (retired: on y95; y111 carries it on t36)
-y110
+# y110 (retired: former champion)
 # y111 (retired: +6 vs y110 after 610)
 # y112 (retired: +6 vs t36)
 # y113 (retired: -1 vs t36)
@@ -190,12 +190,19 @@ y110
 # t39 (retired: +13 vs t36 after 259; t41 carries it on y110)
 # t40 (retired unplayed: ported to y110 as t42)
 # y116 (retired unplayed: ported to y110 as y117)
-y118
-t41
+# y118 (retired: -34)
+# t41 (retired: -6 vs y110 after 471; contested-ruin moppers)
 t42
-y117
-t43
-y119
-y120
-y121
-t44
+# y117 (retired: -17)
+# t43 (retired: -34; t41+t42)
+# y119 (retired unplayed: on y110; y122 on t42)
+# y120 (retired unplayed: y123 on t42)
+# y121 (retired unplayed: y124 on t42)
+# t44 (retired unplayed: t45 on t42)
+y122
+y123
+y124
+t45
+y125
+y126
+t46

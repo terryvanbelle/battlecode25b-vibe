@@ -1,6 +1,6 @@
 # Local tournament Elo
 
-Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 52971 games in one fit as of 2026-11-26 03:11 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
+Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 53904 games in one fit as of 2026-11-26 03:32 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
 
 ![local elo](local-elo.png)
 
@@ -25,11 +25,12 @@ Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py
 | 2026-11-25 18:50 | y58 | study 3 tactic 2 (early soldiers paint patterns not coverage): exploring soldiers paint no coverage before r50 on y56 | #48 | 1544 +- 11 | +20 | 997 |
 | 2026-11-25 19:30 | t04 | t02 (no coverage painting before r80) + t03 (units wait beside drained money towers and repair their pattern so churn fires; study 3 tactics 2 and 4) on y58 | #49 | 1507 +- 11 | -37 | 1065 |
 | 2026-11-25 20:30 | t08 | study 4 2.2 (contested ruins): soldiers skip a ruin with enemy paint in its visible 5x5 (bad for 50 rounds) on t04 | #50 | 1530 +- 13 | +23 | 738 |
-| 2026-11-25 20:50 | t16 | t12 (t08 + study 4 2.1 spawn freeze 8 rounds in 20 below 1000+cost) + study 4 2.4 money-first: builds money until 8 towers then paint while paint towers < n/5; paint first only if none (all towers known) on t08 | #51 | 1708 +- 11 | +177 | 1169 |
+| 2026-11-25 20:50 | t16 | t12 (t08 + study 4 2.1 spawn freeze 8 rounds in 20 below 1000+cost) + study 4 2.4 money-first: builds money until 8 towers then paint while paint towers < n/5; paint first only if none (all towers known) on t08 | #51 | 1707 +- 11 | +177 | 1169 |
 | 2026-11-25 21:50 | t20 | study 4 2.3: splashers weight enemy towers 30 (was 12) in the splash score on t16 | #52 | 1706 +- 15 | -2 | 587 |
 | 2026-11-25 22:10 | y74 | unit audit (owner prompt #15): splash-grid bug fix (enemy tiles never scored) + moppers stop once enemy paint is in mop reach; built on t16 on t20 | #53 | 1785 +- 10 | +79 | 1255 |
 | 2026-11-25 23:10 | t25 | unit audit + top teams' unit mix (616 S / 662 X / 701 M): after r80 paint towers cycle soldier-splasher-mopper; money towers keep S M X M S M on y74 | #54 | 1790 +- 13 | +6 | 680 |
 | 2026-11-25 23:30 | t27 | top teams' splasher-heavy late mix pushed further: paint towers cycle soldier-splasher-splasher-mopper after r80 on t25 | #55 | 1771 +- 9 | -19 | 1554 |
 | 2026-11-26 00:30 | y95 | upgrade spare 1200 (was 800): chips stay for new towers longer on t27 | #56 | 1769 +- 9 | -2 | 1822 |
-| 2026-11-26 02:01 | t36 | late SRPs (study 4 2.6 / study 3 tactic 7): soldiers without a ruin build SRPs on the x%4==2 y%4==2 lattice from r100 with chips>=1000; splashers avoid repainting SRP secondary tiles on y95 | #57 | 1776 +- 11 | +7 | 977 |
-| 2026-11-26 02:50 | y110 | money towers upgrade only with 2500 chips beyond the cost+spare (was 1000): chips go to new towers and SRPs on t36 | #58 | 1790 +- 12 | +14 | 877 |
+| 2026-11-26 02:01 | t36 | late SRPs (study 4 2.6 / study 3 tactic 7): soldiers without a ruin build SRPs on the x%4==2 y%4==2 lattice from r100 with chips>=1000; splashers avoid repainting SRP secondary tiles on y95 | #57 | 1775 +- 11 | +7 | 977 |
+| 2026-11-26 02:50 | y110 | money towers upgrade only with 2500 chips beyond the cost+spare (was 1000): chips go to new towers and SRPs on t36 | #58 | 1790 +- 10 | +15 | 1194 |
+| 2026-11-26 03:30 | t42 | study 4 3.1 recovery: with every tower known and no money tower left the next ruin is a money tower on y110 | #59 | 1814 +- 16 | +24 | 462 |
