@@ -279,11 +279,14 @@ t74
 # t79 (retired: -44 vs t74 after 246; t74 + t72 rebuild any type)
 # y167 (retired: -38 vs t74 after 221; mopper ruin weight 80)
 # y168 (retired: -24 vs t74 after 219; mopper ruin weight 20)
-t80
+# t80 (retired: -39 vs t74 after 374; ruin denial 2.2)
 t81
-y169
+# y169 (retired: -67 vs t74 after 344; splasher tower weight 50)
 y170
 t82
 y171
 y172
 t83
+t84
+y173
+y174
