@@ -263,15 +263,19 @@
 t70
 # y160 (retired at t70's crowning)
 # y161 (retired at t70's crowning)
-y162
+# y162 (retired: -2 after 736; splasher refill 75)
 # y163 (retired: -40 after 290; paint tower per 3 after 6)
 # y164 (retired: -22 after 259; paint tower at 1500 chips)
 # y165 (retired: -3 after 647; paint tower at 3000 chips)
 # y166 (retired: 0 after 592; splasher tower weight 50)
-t71
+# t71 (retired: -317 after 193; tower spawn fallback)
 t75
 t72
 t73
 t74
-t76
+# t76 (retired: -295 after 200; t71 + money S M M)
 t77
+t78
+t79
+y167
+y168
