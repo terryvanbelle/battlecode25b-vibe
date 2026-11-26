@@ -149,6 +149,15 @@ def cmd_plan(run, n):
             b = random.choices(new, nw)[0]
             opp = [t for t in top if t != b] or [x for x, _ in lad if x != b]
             pairs.append((b, ch if ch in rate and ch != b and random.random() < 0.5 else random.choice(opp)))
+    # a quarter of the run: the champion against the rated bots, weighted by their SE. Pair weights below decay with
+    # the rating gap, and bots whose games are all planned among themselves sit at the 1500 prior, far from the
+    # champion, so they never met it (11-26 09:30: y110-y115 played t36 once in 1000+ planned games, rated -340)
+    if ch in rate:
+        others = [b for b in top if b != ch]
+        if others:
+            sw = [min(rate[b].se, 350 / math.sqrt(max(have[b], 1))) + 10 for b in others]
+            for k in range(n // 4):
+                pairs.append((random.choices(others, sw)[0], ch))
     cand = [(a, b) for i, a in enumerate(top) for b in top[i + 1:]]
     # SE expected once the planned games are in (~350/sqrt(games)): an unplayed bot's prior SE of 400 would otherwise
     # pull every top-pair game in each of several consecutive plans (11-22 11:20)
@@ -313,6 +322,8 @@ if __name__ == '__main__':
     if not a or a[0] == 'rank':
         cmd_rank(root)
     elif a[0] == 'plan':
+        if a[1].startswith('-'):
+            sys.exit('plan: RUN must be a run name, not an option')
         cmd_plan(a[1], int(a[a.index('--games') + 1]) if '--games' in a else 120)
     elif a[0] == 'add':
         cmd_add(a[1])
