@@ -300,10 +300,11 @@ t85
 # y181 (retired: on old champion y170, 0 games; ported as y186)
 y182
 y183
-y184
+# y184 (retired: -42 vs t85 after 185; splasher tower weight 15)
 y185
 y186
-y187
+# y187 (retired: -45 vs t85 after 193; denial to 5 tiles)
 t86
 t87
 t88
+t89

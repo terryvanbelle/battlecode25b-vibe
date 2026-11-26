@@ -79,3 +79,4 @@ y187	t85 denial puts 5 of our tiles on a ruin (t85: 3)
 t86	study 7 2.2 narrow: forget dead towers on sight; after seeing our paint tower die, the next tower is paint
 t87	study 7 2.2 broad: as t86, and with no paint tower known from r100 the next tower is paint
 t88	study 7 2.1a: explore targets prefer tiles never seen
+t89	study 7 2.1b: idle soldiers walk to the nearest remembered free, clean ruin out of view
