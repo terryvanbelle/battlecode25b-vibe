@@ -18,3 +18,4 @@ when_pdt,bot,base,change,submission
 2026-11-25 18:50,y58,y56,study 3 tactic 2 (early soldiers paint patterns not coverage): exploring soldiers paint no coverage before r50,48
 2026-11-25 19:30,t04,y58,t02 (no coverage painting before r80) + t03 (units wait beside drained money towers and repair their pattern so churn fires; study 3 tactics 2 and 4),49
 2026-11-25 20:30,t08,t04,study 4 2.2 (contested ruins): soldiers skip a ruin with enemy paint in its visible 5x5 (bad for 50 rounds),50
+2026-11-25 20:50,t16,t08,t12 (t08 + study 4 2.1 spawn freeze 8 rounds in 20 below 1000+cost) + study 4 2.4 money-first: builds money until 8 towers then paint while paint towers < n/5; paint first only if none (all towers known),51

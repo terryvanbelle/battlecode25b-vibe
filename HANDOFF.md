@@ -64,7 +64,7 @@ season's tools. Times are the owner's zone: `TZ=America/Vancouver` (UTC-7, "PDT"
 
 ## Replica progress chart
 `python3 tools/replica_elo.py sample`, run every prod, appends our rank and rating and the ratings at places 1, 5, 10
-and 15 to `progress/replica-elo.csv`. `~/.venv-bc25b/bin/python tools/replica_elo.py chart` redraws
+and 15 (and 20, plus our previous attempt bc25-vibe-orig, from owner prompt #13) to `progress/replica-elo.csv`. `~/.venv-bc25b/bin/python tools/replica_elo.py chart` redraws
 `progress/replica-elo.png` from it (owner prompt #6). The data starts at 2026-11-25 10:44 PDT. Vertical lines mark crownings whose
 champion beats the one it replaced by `BIG_GAIN` (40) or more local Elo in the present fit (owner prompt #10).
 

@@ -107,16 +107,22 @@
 # y66 (retired: -34 vs t04 after 235)
 # y67 (retired: -35 vs t04 after 199)
 # t05 (retired: -124 vs t04; 40% refill during ruin work)
-t06
+# t06 (retired: -72 vs t08 after 550; freeze alone, in t16)
 # t07 (retired: -228 vs t04; bug: counts only known towers, so builds paint towers forever)
-t08
+# t08 (retired: former champion)
 # t09 (retired: -348 vs t04, 3-22; t05+t06+t07 - the 40% ruin refill pulls builders off)
 # t10 (retired: -41 vs t04 after 242; siege only with a partner)
 # t11 (retired: -59 vs t04 after 307; early mopper)
 t12
-t13
-t14
-t15
+# t13 (retired: -28 vs t08 after 390; contested bad 100)
+# t14 (retired: -112 vs t08 after 315; new ruin only with >=80 paint)
+# t15 (retired: -102 vs t08 after 357; recovery rule)
 t16
-t17
+# t17 (retired: +4 vs t08 after 241; t12 + contested bad 100)
 t18
+t19
+t20
+y68
+y69
+y70
+y71

@@ -61,3 +61,6 @@ Also, the table in local-elo.md is stale
 
 ## #12 (2026-11-25 18:15 PDT)
 From now on, let's use the t prefix to indicate a bot that arose from imitating an enemy tactic
+
+## #13 (2026-11-25 20:54 PDT)
+Please add a line for 20th place to replica-elo.png, and also one for our previous 2025 bot attempt

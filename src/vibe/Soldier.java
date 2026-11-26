@@ -98,10 +98,15 @@ public strictfp class Soldier {
      *  money; always paint while chips sit idle. */
     static final int IDLE_CHIPS = 3000;
     static UnitType wantType() {
+        // study 4 2.4: money first (their builds 1-8 are nearly all money, one paint tower past r100), now that
+        // patterns no longer wait for chips (2.1) and contested ruins are skipped (2.2)
         int n = G.rc.getNumberTowers();
+        int pt = 0, mt = 0;
+        for (int i = G.nTowers; --i >= 0; ) { if (G.towerKind[i] == 1) pt++; else if (G.towerKind[i] == 2) mt++; }
+        if (pt + mt >= n && pt == 0) return UnitType.LEVEL_ONE_PAINT_TOWER;   // every tower known and none paints
+        if (n < 8) return UnitType.LEVEL_ONE_MONEY_TOWER;
         if (G.rc.getChips() >= IDLE_CHIPS) return UnitType.LEVEL_ONE_PAINT_TOWER;
-        if (n <= 2) return UnitType.LEVEL_ONE_MONEY_TOWER;
-        return n % 3 == 2 ? UnitType.LEVEL_ONE_MONEY_TOWER : UnitType.LEVEL_ONE_PAINT_TOWER;
+        return pt * 5 < n ? UnitType.LEVEL_ONE_PAINT_TOWER : UnitType.LEVEL_ONE_MONEY_TOWER;
     }
 
     static int patternOf(UnitType t) {

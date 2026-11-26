@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Our replica (galaxy) rating against wall-clock time, with the ratings at places 1, 5, 10 and 15 (owner prompt #6).
-There is no data before the first sample, taken 2026-11-25 ~10:30 PDT.
+"""Our replica (galaxy) rating against wall-clock time, with the ratings at places 1, 5, 10, 15 and 20 (owner
+prompts #6, #13) and the rating of our previous 2025 attempt, team bc25-vibe-orig (owner prompt #13).
+There is no data before the first sample, taken 2026-11-25 ~10:30 PDT; p20 and orig start 2026-11-25 ~20:55 PDT.
 
   python3 tools/replica_elo.py sample     append one row to progress/replica-elo.csv (the prod runs this every cycle)
   ~/.venv-bc25b/bin/python tools/replica_elo.py chart   progress/replica-elo.png from that file
 
 The CSV columns are when_pdt, our_rank, our_rating, teams, p1, p5, p10, p15 (galaxy's displayed rating at those
-places; empty if the ladder is shorter), and champion (our active local champion, from research/tourney/champion.txt).
+places; empty if the ladder is shorter), champion (our active local champion, from research/tourney/champion.txt),
+then p20 and orig (bc25-vibe-orig's rating), appended later and so empty in older rows.
 """
 import csv
 import os
@@ -19,8 +21,9 @@ sys.path.insert(0, os.path.join(REPO, 'tools', 'galaxy25'))
 CSV = os.path.join(REPO, 'progress', 'replica-elo.csv')
 PNG = os.path.join(REPO, 'progress', 'replica-elo.png')
 PDT = ZoneInfo('America/Vancouver')
-PLACES = (1, 5, 10, 15)
-HEADER = ['when_pdt', 'our_rank', 'our_rating', 'teams'] + [f'p{p}' for p in PLACES] + ['champion']
+PLACES = (1, 5, 10, 15, 20)
+HEADER = ['when_pdt', 'our_rank', 'our_rating', 'teams', 'p1', 'p5', 'p10', 'p15', 'champion', 'p20', 'orig']
+ORIG = 'bc25-vibe-orig'   # our previous 2025 bot (owner prompt #13)
 TEAM = 'vibe25b'
 
 
@@ -36,8 +39,15 @@ def sample():
         sys.exit('replica_elo: vibe25b not on the ladder')
     champ = open(os.path.join(REPO, 'research', 'tourney', 'champion.txt')).read().strip()
     row = [datetime.now(PDT).strftime('%Y-%m-%d %H:%M'), rank, f'{ladder[rank - 1]["rating"]:.0f}', len(ladder)]
-    row += [f'{ladder[p - 1]["rating"]:.0f}' if len(ladder) >= p else '' for p in PLACES] + [champ]
+    at = {p: f'{ladder[p - 1]["rating"]:.0f}' if len(ladder) >= p else '' for p in PLACES}
+    orig = next((f'{t["rating"]:.0f}' for t in ladder if t['name'] == ORIG), '')
+    row += [at[1], at[5], at[10], at[15], champ, at[20], orig]
     new = not os.path.exists(CSV)
+    if not new:   # widen an old header in place (rows written before a column existed stay short)
+        lines = open(CSV).read().splitlines(True)
+        if lines and lines[0].strip() != ','.join(HEADER):
+            lines[0] = ','.join(HEADER) + '\n'
+            open(CSV, 'w').writelines(lines)
     with open(CSV, 'a', newline='') as f:
         w = csv.writer(f)
         if new:
@@ -74,12 +84,16 @@ def chart():
         sys.exit('replica_elo: no samples yet')
     t = [datetime.strptime(r['when_pdt'], '%Y-%m-%d %H:%M').replace(tzinfo=PDT) for r in rows]
     fig, (ax, gx) = plt.subplots(2, 1, figsize=(11, 8.5), sharex=True, gridspec_kw={'height_ratios': [3, 2]})
-    greys = {1: '#444444', 5: '#777777', 10: '#9a9a9a', 15: '#bdbdbd'}
+    greys = {1: '#444444', 5: '#777777', 10: '#9a9a9a', 15: '#bdbdbd', 20: '#d6d6d6'}
     for p in PLACES:
-        pts = [(ti, float(r[f'p{p}'])) for ti, r in zip(t, rows) if r[f'p{p}']]
+        pts = [(ti, float(r[f'p{p}'])) for ti, r in zip(t, rows) if r.get(f'p{p}')]
         if pts:
             ax.plot([a for a, _ in pts], [b for _, b in pts], color=greys[p], lw=1.3, ls='--', marker='.', ms=3,
                     label=f'#{p} place')
+    pts = [(ti, float(r['orig'])) for ti, r in zip(t, rows) if r.get('orig')]
+    if pts:
+        ax.plot([a for a, _ in pts], [b for _, b in pts], color='#d35400', lw=1.8, marker='s', ms=3,
+                label='bc25-vibe-orig (previous attempt)')
     ax.plot(t, [float(r['our_rating']) for r in rows], color='#2a6fdb', lw=2.4, marker='o', ms=4, label='vibe25b (us)')
     last = rows[-1]
     ax.annotate(f"#{last['our_rank']} of {last['teams']}", (t[-1], float(last['our_rating'])), textcoords='offset points',
@@ -91,9 +105,9 @@ def chart():
                 a.axvline(when, color='#2a6fdb', alpha=0.35, lw=1.2)
             ax.text(when, ax.get_ylim()[1], f" {bot} +{gain:.0f}", fontsize=8, color='#2a6fdb', va='top', rotation=90)
     # lower panel: our rating minus the rating at each place (owner prompt #7); above 0 means we are ahead of it
-    gap_col = {1: '#c0392b', 5: '#e67e22', 10: '#27ae60', 15: '#8e44ad'}
+    gap_col = {1: '#c0392b', 5: '#e67e22', 10: '#27ae60', 15: '#8e44ad', 20: '#7f8c8d'}
     for p in PLACES:
-        pts = [(ti, float(r['our_rating']) - float(r[f'p{p}'])) for ti, r in zip(t, rows) if r[f'p{p}']]
+        pts = [(ti, float(r['our_rating']) - float(r[f'p{p}'])) for ti, r in zip(t, rows) if r.get(f'p{p}')]
         if pts:
             gx.plot([a for a, _ in pts], [b for _, b in pts], color=gap_col[p], lw=1.8, marker='o', ms=3,
                     label=f'us - #{p}')
@@ -107,7 +121,7 @@ def chart():
     fig.autofmt_xdate()
     gx.set_xlabel('time (PDT)')
     ax.set_ylabel('replica rating (galaxy Elo)')
-    ax.set_title(f'Replica ladder: vibe25b vs places 1/5/10/15 ({len(rows)} samples, last {last["when_pdt"]} PDT)')
+    ax.set_title(f'Replica ladder: vibe25b vs places 1/5/10/15/20 and bc25-vibe-orig ({len(rows)} samples, last {last["when_pdt"]} PDT)')
     ax.grid(alpha=0.3)
     ax.legend(loc='best', fontsize=9)
     fig.tight_layout()

@@ -77,7 +77,8 @@ public strictfp class Tower {
         RobotController rc = G.rc;
         UnitType t = choose();
         // keep a reserve for towers once the opening is done, so soldiers at ruins can complete them
-        int reserve = G.round < 40 ? 0 : (rc.getNumberTowers() < 25 ? 600 : 0);
+        // study 4 2.1: freeze spawns 8 rounds in 20 below 1000 + cost, so chips reach 1000 for finished patterns
+        int reserve = G.round < 40 ? 0 : (rc.getNumberTowers() < 25 ? (G.round % 20 >= 8 ? 600 : 1000) : 0);
         if (G.chips < t.moneyCost + reserve && !(G.chips >= 1000 + t.moneyCost)) return;
         if (G.paint < t.paintCost) return;
         MapLocation here = G.here;
