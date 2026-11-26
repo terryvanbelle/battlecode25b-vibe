@@ -21,11 +21,13 @@ public strictfp class Soldier {
             rc.attack(Unit.enemyTower);
             G.paint = rc.getPaint();
         }
-        if (ruin == null) pickRuin();
+        // t36: with >= 6 towers a soldier mid-SRP finishes it before taking up a new ruin
+        if (ruin == null && !(srp != null && rc.getNumberTowers() >= SRP_TOWERS)) pickRuin();
         if (ruin != null) {
             if (workRuin()) return;
         }
         if (siege()) return;
+        if (srpTurn()) return;
         if (Unit.refill(100)) { paintHere(); return; }
         // explore, painting as we go; study 3 tactic 2: before r80 save paint for tower patterns (no coverage)
         if (G.round >= 80) paintNear();
@@ -208,6 +210,193 @@ public strictfp class Soldier {
             G.noteTower(r, G.kind(ruinType));
             ruin = null;
         }
+        return true;
+    }
+
+    // ---- t36: late special resource patterns (study 4 2.6, study 3 tactic 7). Centres on the lattice x = y = 2
+    // (mod 4); RESOURCE_PATTERN repeats with period 4 (its outer rows and columns agree), so neighbouring lattice SRPs
+    // share their edge tiles consistently. Started only from r100 with 1000+ chips by a soldier with no ruin to work
+    // (or, with 6+ towers, kept over a new ruin). The 5x5 must hold no walls, no enemy paint, and no ruin; and must
+    // not overlap an unbuilt ruin's 5x5 (a ruin within Chebyshev 4 must carry our tower). Centres 3-4 tiles from one
+    // of our towers are preferred.
+    static final int SRP_ROUND = 100, SRP_CHIPS = 1000, SRP_TOWERS = 6, SRP_GIVE_UP = 60;
+    static MapLocation srp;
+    static int srpSince, srps;
+    static int[] srpSkip;          // per lattice centre: skip it until this round (Integer.MAX_VALUE = done or never)
+    static int srpLW;
+
+    /** true = the SRP lattice colouring wants secondary at (x, y). */
+    static boolean srpSec(int x, int y) { return ((G.SRP_MASK >> (((x - 2) & 3) | (((y - 2) & 3) << 2))) & 1) != 0; }
+
+    static int srpIdx(MapLocation c) { return (c.x >> 2) + (c.y >> 2) * srpLW; }
+
+    static void srpSkipFor(MapLocation c, int rounds) {
+        srpSkip[srpIdx(c)] = rounds == Integer.MAX_VALUE ? rounds : G.round + rounds;
+    }
+
+    /** Kind of our known tower at l (1 paint, 2 money, 3 defense), 0 when none. */
+    static int allyTowerKind(MapLocation l) {
+        for (int i = G.nTowers; --i >= 0; ) if (G.towerLoc[i].equals(l)) return G.towerKind[i];
+        return 0;
+    }
+
+    /** The SRP at c and the money-tower pattern around t agree on every shared tile (so churn repairs and the
+     *  SRP never repaint each other). */
+    static boolean agreesWithMoney(int cx, int cy, MapLocation t) {
+        int mp = GameConstants.MONEY_TOWER_PATTERN, rp = GameConstants.RESOURCE_PATTERN;
+        for (int x = Math.max(cx, t.x) - 2; x <= Math.min(cx, t.x) + 2; x++)
+            for (int y = Math.max(cy, t.y) - 2; y <= Math.min(cy, t.y) + 2; y++)
+                if (bit(mp, x - t.x, y - t.y) != bit(rp, x - cx, y - cy)) return false;
+        return true;
+    }
+
+    static boolean srpTurn() throws GameActionException {
+        if (srp == null) {
+            if (G.round < SRP_ROUND || G.chips < SRP_CHIPS || G.paint < 60 || Clock.getBytecodesLeft() < 6000) return false;
+            pickSrp();
+            if (srp == null) return false;
+        }
+        return workSrp();
+    }
+
+    /** Choose the best lattice centre within d2 50: valid by the map memory, scored by distance, our tower 3-4
+     *  tiles away, and tiles already right. */
+    static void pickSrp() throws GameActionException {
+        RobotController rc = G.rc;
+        if (srpSkip == null) { srpLW = G.W / 4 + 1; srpSkip = new int[srpLW * (G.H / 4 + 1)]; }
+        int W = G.W, H = G.H, hx = G.here.x, hy = G.here.y;
+        int[] m = G.mem;
+        int x0 = hx - 7 + ((2 - (hx - 7)) & 3), y0 = hy - 7 + ((2 - (hy - 7)) & 3);
+        MapLocation best = null; int bestS = Integer.MAX_VALUE;
+        for (int cx = x0; cx <= hx + 7; cx += 4) {
+            if (cx < 2 || cx > W - 3) continue;
+            for (int cy = y0; cy <= hy + 7; cy += 4) {
+                if (cy < 2 || cy > H - 3) continue;
+                if (Clock.getBytecodesLeft() < 3000) break;
+                MapLocation c = new MapLocation(cx, cy);
+                int d = G.here.distanceSquaredTo(c);
+                if (d > 50) continue;
+                int k = srpIdx(c);
+                if (srpSkip[k] > G.round) continue;
+                // ruins: none in the 5x5, and any within Chebyshev 4 must be our tower
+                int towerCheb = 99; boolean ok = true;
+                for (int i = G.nRuins; --i >= 0; ) {
+                    MapLocation r = G.ruinList[i];
+                    int ax = Math.abs(r.x - cx), ay = Math.abs(r.y - cy);
+                    int ch = ax > ay ? ax : ay;
+                    if (ch <= 2) { ok = false; srpSkip[k] = Integer.MAX_VALUE; break; }
+                    if (ch > 6) continue;
+                    int kind = allyTowerKind(r);
+                    if (kind == 0) {
+                        if (ch <= 4) { ok = false; srpSkip[k] = G.round + 100; break; }
+                        continue;
+                    }
+                    if (ch <= 4 && kind == 2 && !agreesWithMoney(cx, cy, r)) { ok = false; srpSkip[k] = G.round + 300; break; }
+                    if (ch < towerCheb) towerCheb = ch;
+                }
+                if (!ok) continue;
+                if (rc.canSenseLocation(c) && rc.senseMapInfo(c).isResourcePatternCenter()) { srpSkip[k] = Integer.MAX_VALUE; continue; }
+                int right = 0;
+                for (int dx = -2; dx <= 2 && ok; dx++) for (int dy = -2; dy <= 2; dy++) {
+                    int v = m[cx + dx + (cy + dy) * W];
+                    if ((v & 6) != 0) { ok = false; srpSkip[k] = Integer.MAX_VALUE; break; }
+                    int p = v >> 4;
+                    if (p >= 3) { ok = false; srpSkip[k] = G.round + 60; break; }
+                    if (p != 0 && (p == 2) == srpSec(cx + dx, cy + dy)) right++;
+                }
+                if (!ok) continue;
+                int sc = d - 3 * right - (towerCheb <= 4 ? 40 : towerCheb <= 6 ? 15 : 0);
+                if (sc < bestS) { bestS = sc; best = c; }
+            }
+        }
+        if (best != null) { srp = best; srpSince = G.round; }
+    }
+
+    static MapLocation srpPaintL;
+    static boolean srpPaintS;
+    static int srpWrong;
+
+    /** Scan the SRP's 25 tiles: count the wrong ones and pick the nearest wrong one we can paint now.
+     *  False when the centre turned invalid (wall, ruin, enemy paint) and was dropped. */
+    static boolean srpScan(MapLocation c) throws GameActionException {
+        RobotController rc = G.rc;
+        srpPaintL = null; srpWrong = 0;
+        int paintD = Integer.MAX_VALUE;
+        int pat = GameConstants.RESOURCE_PATTERN;
+        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+            MapLocation l = c.translate(dx, dy);
+            if (!rc.canSenseLocation(l)) { srpWrong++; continue; }
+            MapInfo mi = rc.senseMapInfo(l);
+            if (!mi.isPassable()) { srpSkipFor(c, Integer.MAX_VALUE); srp = null; return false; }
+            PaintType p = mi.getPaint();
+            if (p.isEnemy()) { srpSkipFor(c, 80); srp = null; return false; }
+            boolean sec = bit(pat, dx, dy);
+            if (p != PaintType.EMPTY && p.isSecondary() == sec) continue;
+            srpWrong++;
+            int dd = G.here.distanceSquaredTo(l);
+            if (dd <= 9 && dd < paintD) { paintD = dd; srpPaintL = l; srpPaintS = sec; }
+        }
+        return true;
+    }
+
+    static boolean srpPaint() throws GameActionException {
+        RobotController rc = G.rc;
+        if (srpPaintL != null && rc.isActionReady() && G.paint >= 5 && rc.canPaint(srpPaintL)) {
+            rc.attack(srpPaintL, srpPaintS);
+            G.paint = rc.getPaint();
+            srpWrong--;
+            return true;
+        }
+        return false;
+    }
+
+    static boolean srpComplete(MapLocation c) throws GameActionException {
+        RobotController rc = G.rc;
+        if (rc.canCompleteResourcePattern(c)) {
+            rc.completeResourcePattern(c);
+            G.chips = rc.getChips();
+            srps++;
+            srpSkipFor(c, Integer.MAX_VALUE);
+            srp = null;
+            G.ind += " SRPDONE" + c + "#" + srps;
+            return true;
+        }
+        return false;
+    }
+
+    /** Stand on the centre (every tile of the 5x5 is then in paint range), paint wrong tiles, complete. False when
+     *  the SRP was dropped (the turn goes on with other work). */
+    static boolean workSrp() throws GameActionException {
+        RobotController rc = G.rc;
+        MapLocation c = srp;
+        if (G.round - srpSince > SRP_GIVE_UP) { srpSkipFor(c, 150); srp = null; return false; }
+        if (rc.canSenseLocation(c) && rc.senseMapInfo(c).isResourcePatternCenter()) { srpSkipFor(c, Integer.MAX_VALUE); srp = null; return false; }
+        // a newly seen ruin in or near the 5x5 (unbuilt, or an enemy tower) rules the centre out
+        for (MapLocation r : G.ruins) {
+            int ax = Math.abs(r.x - c.x), ay = Math.abs(r.y - c.y);
+            int ch = ax > ay ? ax : ay;
+            if (ch <= 2) { srpSkipFor(c, Integer.MAX_VALUE); srp = null; return false; }
+            if (ch <= 4) {
+                RobotInfo t = rc.senseRobotAtLocation(r);
+                if (t == null || t.team != G.me) { srpSkipFor(c, 100); srp = null; return false; }
+            }
+        }
+        if (Unit.enemyTower != null && Unit.enemyTower.distanceSquaredTo(c) <= 25) { srpSkipFor(c, 100); srp = null; return false; }
+        if (G.paint < 15 && Unit.refill(10000)) { G.ind += " srp-refill"; return true; }
+        if (Clock.getBytecodesLeft() < 2500) return true;
+        if (!srpScan(c)) return false;
+        srpPaint();
+        if (srpWrong == 0 && srpComplete(c)) return true;
+        if (!G.here.equals(c)) {
+            Nav.moveTo(c);
+            G.here = rc.getLocation();
+            if (rc.isActionReady() && Clock.getBytecodesLeft() > 4000) {
+                if (!srpScan(c)) return false;
+                srpPaint();
+            }
+        }
+        if (srpWrong == 0 && srpComplete(c)) return true;
+        G.ind += " srp" + c + " w" + srpWrong;
         return true;
     }
 

@@ -31,6 +31,13 @@ public strictfp class G {
     static int[] towerKind = new int[32];       // 1 paint, 2 money, 3 defense
     static int nTowers;
 
+    // ---- every ruin seen (for the SRP placement check, Soldier.pickSrp)
+    static MapLocation[] ruinList = new MapLocation[64];
+    static int nRuins;
+    /** t36: the SRP lattice colouring, bit ((x-2)&3) | ((y-2)&3)<<2 set = secondary; GameConstants.RESOURCE_PATTERN
+     *  (28873275) folded with period 4 (its outer rows and columns agree; checked against the 3.1.0 engine). */
+    static final int SRP_MASK = 20033;
+
     static long rng;
 
     static void init(RobotController r) {
@@ -74,6 +81,7 @@ public strictfp class G {
             System.arraycopy(Splasher.ZERO, 0, v1, 0, 121);
             System.arraycopy(Splasher.ZERO, 0, v2, 0, 121);
             int ox = here.x - 5, oy = here.y - 5;
+            int srpMask = rc.isActionReady() ? SRP_MASK : 0;   // only a splasher that can splash this turn needs the SRP guard
             for (int i = infos.length; --i >= 0; ) {
                 MapInfo mi = infos[i];
                 MapLocation l = mi.getMapLocation();
@@ -88,6 +96,9 @@ public strictfp class G {
                 if ((old & 0xF) == SEEN) {     // passable (not wall or ruin); the remembered paint bits are stale (was old == 1: enemy tiles never scored)
                     int g = (l.y - oy) * 11 + l.x - ox;
                     if (p == 0) { v1[g] = 1; v2[g] = 1; } else if (p >= 3) v2[g] = 2;
+                    // t36: our secondary paint where the SRP lattice wants secondary: a splash would repaint it
+                    // primary and break the SRP, so splashes covering it are ruled out
+                    else if (p == 2 && ((srpMask >> (((l.x - 2) & 3) | (((l.y - 2) & 3) << 2))) & 1) != 0) { v1[g] = -50; v2[g] = -50; }
                 }
             }
         } else {
@@ -99,6 +110,7 @@ public strictfp class G {
                 if (old == 0) {
                     old = SEEN | (mi.isWall() ? WALL : 0) | (mi.hasRuin() ? RUIN : 0);
                     Sym.observe(l.x, l.y, old);
+                    if ((old & RUIN) != 0 && nRuins < ruinList.length) ruinList[nRuins++] = l;
                 }
                 m[k] = (old & 0xF) | (mi.getPaint().ordinal() << 4);
             }

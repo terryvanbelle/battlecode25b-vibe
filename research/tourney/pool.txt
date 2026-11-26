@@ -161,7 +161,7 @@
 # y92 (retired: -3 vs t27 after 304)
 # y93 (retired: -5 vs y95 after 528)
 # y94 (retired: +8 vs t27 after 321, below y95)
-y95
+# y95 (retired: former champion)
 # t33 (retired: -22 vs y95; splashers spoiling ruins)
 # y96 (retired: -43; siege range 20 overshoots)
 # y97 (retired: -38; splashers chasing enemy paint)
@@ -170,14 +170,20 @@ y95
 # t34 (retired: -34; siege only at 100 paint on y95)
 # t35 (retired: +2 vs y95 after 516)
 # y100 (retired: -59; upgrade spare 1800)
-y101
+# y101 (retired: +6 vs y95; y110 carries it on t36)
 # y102 (retired: -25; soldier refill 120)
 # y103 (retired: -45; churn 3000)
 # y104 (retired: -54; churn 1500)
-t37
-y105
-y106
+# t37 (retired: -9 vs y95 after 894)
+# y105 (retired: -29)
+# y106 (retired: -23)
 # y107 (retired: -146; refill to full)
-y108
+# y108 (retired: -22)
 t36
-y109
+# y109 (retired: on y95; y111 carries it on t36)
+y110
+y111
+y112
+y113
+y114
+y115
