@@ -305,11 +305,13 @@ t85
 # y186 (retired: -10 vs t85 after 552, flat; churn at 1500)
 # y187 (retired: -45 vs t85 after 193; denial to 5 tiles)
 t86
-t87
+# t87 (retired: -26 vs t85 after 198; paint-tower rebuild, broad, study 7 2.2)
 t88
-t89
+# t89 (retired: -88 vs t85 after 131; walk to remembered free ruins, study 7 2.1b)
 t90
 t91
 y188
 y189
 y190
+t92
+y191

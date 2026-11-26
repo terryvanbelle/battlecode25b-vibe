@@ -85,3 +85,5 @@ t91	study 7 2.5: moppers ignore ruins under enemy towers when weighting ruin pai
 y188	t85 denial stops at 2 of our tiles (t85: 3)
 y189	money towers churn at 2500 chips (was 2000)
 y190	paint tower from the 8th tower on at 2000 idle chips (was 3000)
+t92	t88 + t90 (explore unseen tiles; idle moppers walk to remembered contested ruins)
+y191	t88 with up to 16 draws for an unseen explore target (t88: 8)
