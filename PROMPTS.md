@@ -143,3 +143,6 @@ Can we do a statistical test of the hypothesis that positive, but not too positi
 
 ## #39 (2026-11-26 16:12 PDT)
 Agreed on your caveat.  Maybe we can pre-register a hypothesis and see if it holds out for future champions in a few days from now
+
+## #40 (2026-11-26 16:17 PDT)
+Instead of marking t91 as Behind on the dashboard, let's just keep the status as "Best Replica"

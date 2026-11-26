@@ -54,6 +54,11 @@ def main(out):
         if r['games'] == 0:
             r['rating'] = r['se'] = r['vs_champion'] = None
         pool.append(r)
+    # owner #35/#40: the pool line marked 'replica record' holds the permanent slot; the dashboard shows it as Best Replica
+    record = {l.split('#')[0].strip() for l in open('research/tourney/pool.txt')
+              if l.split('#')[0].strip() and 'replica record' in l.split('#', 1)[-1]}
+    for r in pool:
+        r['replica_record'] = r['bot'] in record
     champ = open('research/tourney/champion.txt').read().strip()
     status['champion'] = champ
     status['updated_pdt'] = datetime.now(ZoneInfo('America/Vancouver')).strftime('%Y-%m-%d %H:%M')
