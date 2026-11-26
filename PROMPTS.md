@@ -149,3 +149,6 @@ Instead of marking t91 as Behind on the dashboard, let's just keep the status as
 
 ## #41 (2026-11-26 16:21 PDT)
 Let's put "Best Replica" in blue to make it stand out
+
+## #42 (2026-11-26 16:28 PDT)
+Best Replica looks good now.  That was a good idea of yours, to keep the institutional knowledge in the local tournament at all times

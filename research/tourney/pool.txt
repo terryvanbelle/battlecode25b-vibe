@@ -355,6 +355,8 @@ y218
 # y220 (retired unplayed: slot for study 8 candidates)
 t102
 t105
-t104
-t103
+# t104 (retired: -62 vs y211 after 337; study 8 2.3b+c)
+# t103 (retired: -72 vs y211 after 335; study 8 2.1 narrow defense rebuild)
 t106
+t107
+y221
