@@ -21,3 +21,4 @@ when_pdt,bot,base,change,submission
 2026-11-25 20:50,t16,t08,t12 (t08 + study 4 2.1 spawn freeze 8 rounds in 20 below 1000+cost) + study 4 2.4 money-first: builds money until 8 towers then paint while paint towers < n/5; paint first only if none (all towers known),51
 2026-11-25 21:50,t20,t16,study 4 2.3: splashers weight enemy towers 30 (was 12) in the splash score,52
 2026-11-25 22:10,y74,t20,unit audit (owner prompt #15): splash-grid bug fix (enemy tiles never scored) + moppers stop once enemy paint is in mop reach; built on t16,53
+2026-11-25 23:10,t25,y74,unit audit + top teams' unit mix (616 S / 662 X / 701 M): after r80 paint towers cycle soldier-splasher-mopper; money towers keep S M X M S M,54

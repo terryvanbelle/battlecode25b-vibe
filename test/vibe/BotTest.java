@@ -216,7 +216,7 @@ public class BotTest {
     }
 
     static void testTowerProductionMix() throws GameActionException {
-        // champion y11: soldiers only before round 80, then soldiers/splashers/moppers 2:1:3 per six
+        // soldiers only before round 80
         World w = new World(20, 20, UnitType.LEVEL_TWO_PAINT_TOWER, new MapLocation(5, 5));
         start(w);
         boolean allSol = true;
@@ -229,7 +229,8 @@ public class BotTest {
             UnitType t = Tower.choose();
             if (t == UnitType.SOLDIER) sol++; else if (t == UnitType.SPLASHER) spl++; else if (t == UnitType.MOPPER) mop++;
         }
-        check(sol == 2 && spl == 1 && mop == 3, "after round 80 (y11): 2 soldiers, 1 splasher, 3 moppers per six: " + sol + "/" + spl + "/" + mop);
+        // champion t25: paint towers alternate soldier, splasher, mopper (2:2:2 per six); money towers keep 2:1:3
+        check(sol == 2 && spl == 2 && mop == 2, "after round 80, paint tower (t25): 2 soldiers, 2 splashers, 2 moppers per six: " + sol + "/" + spl + "/" + mop);
     }
 
     public static void main(String[] a) throws Exception {

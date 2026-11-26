@@ -61,6 +61,9 @@ public strictfp class Tower {
         for (RobotInfo e : G.enemies) if (e.type == UnitType.MOPPER) enemyNear--;
         int k = built % 6;
         if (r < 80) return UnitType.SOLDIER;
+        // unit audit: the top teams field about one splasher per soldier; paint towers (the only ones with paint for
+        // splashers) alternate soldier and splasher with a mopper every third
+        if (rc_isPaintTower()) return k % 3 == 2 ? UnitType.MOPPER : (k % 3 == 0 ? UnitType.SOLDIER : UnitType.SPLASHER);
         // mid game: splashers do the bulk of the painting; soldiers keep building towers; moppers clean
         // a third moppers: they drain enemy robots, clean ruins and feed allies
         switch (k) {
@@ -72,6 +75,8 @@ public strictfp class Tower {
             default: return UnitType.MOPPER;
         }
     }
+
+    static boolean rc_isPaintTower() { return G.kind(G.rc.getType()) == 1; }
 
     static void build() throws GameActionException {
         RobotController rc = G.rc;

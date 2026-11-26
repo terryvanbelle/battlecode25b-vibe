@@ -128,7 +128,7 @@
 # y71 (retired: -32 vs t16 after 192)
 # y72 (retired: in y74)
 # y73 (retired: -41 vs t16; soldier in place of an unaffordable splasher)
-y74
+# y74 (retired: former champion)
 # y75 (retired: y74 + soldier-for-splasher, worse)
 # y76 (retired: on y75; y78 carries it on y74)
 # t21 (retired: on y75; t22 carries it on y74)
@@ -137,13 +137,17 @@ y74
 # y78 (retired: -18 vs y74 after 434)
 # y79 (retired: -158; soldiers exploring toward the enemy half die)
 # t23 (retired: -215 vs y74, 14-43; S-X-M cycle stalls money towers more)
-t24
+# t24 (retired: +5 vs y74 after 452; in y84)
 # y80 (retired: -65 vs y74 after 223)
 # y81 (retired: -61 vs y74 after 253)
 y82
 t25
-t26
-y83
+# t26 (retired: -10 vs y74 after 341; spoiling enemy ruins)
+# y83 (retired: +19 vs y74 after 355, below t25)
 y84
 t27
 y85
+y86
+y87
+y88
+y89
