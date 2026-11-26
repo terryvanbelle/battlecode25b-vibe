@@ -146,3 +146,6 @@ Agreed on your caveat.  Maybe we can pre-register a hypothesis and see if it hol
 
 ## #40 (2026-11-26 16:17 PDT)
 Instead of marking t91 as Behind on the dashboard, let's just keep the status as "Best Replica"
+
+## #41 (2026-11-26 16:21 PDT)
+Let's put "Best Replica" in blue to make it stand out
