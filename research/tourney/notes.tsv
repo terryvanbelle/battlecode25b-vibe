@@ -51,3 +51,7 @@ t78	study 6 2.3, money towers only: a money tower short of paint for its splashe
 t79	t74 + t72 (moppers prefer ruin paint; rebuild any tower type)
 y167	moppers weight ruin paint 80 (t74: 40)
 y168	moppers weight ruin paint 20 (t74: 40)
+t80	study 6 2.2: a soldier with no ruin paints 3 empty tiles of a ruin the enemy is building
+t81	t78 on t74: money towers short of paint for a splasher build a soldier
+y169	splasher enemy-tower weight 50 (t70: 30)
+y170	paint tower at 1500+ chips (t70: 2000)

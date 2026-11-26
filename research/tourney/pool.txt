@@ -260,7 +260,7 @@
 # y158 (retired: -30 after 507; money until 7 towers)
 # y159 (retired at t70's crowning)
 # t69 (retired: 0 after 529; y156 + t68)
-t70
+# t70 (retired at t74's crowning)
 # y160 (retired at t70's crowning)
 # y161 (retired at t70's crowning)
 # y162 (retired: -2 after 736; splasher refill 75)
@@ -269,13 +269,17 @@ t70
 # y165 (retired: -3 after 647; paint tower at 3000 chips)
 # y166 (retired: 0 after 592; splasher tower weight 50)
 # t71 (retired: -317 after 193; tower spawn fallback)
-t75
-t72
-t73
+# t75 (retired: -21 vs t70 after 341)
+# t72 (retired: on old champion t70, -4 vs t70 after 355; ported as t79)
+# t73 (retired: -32 vs t70 after 364)
 t74
 # t76 (retired: -295 after 200; t71 + money S M M)
-t77
-t78
+# t77 (retired: -51 vs t70 after 383)
+# t78 (retired: on old champion t70, 0 games; ported as t81)
 t79
 y167
 y168
+t80
+t81
+y169
+y170

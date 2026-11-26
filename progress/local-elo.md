@@ -1,6 +1,6 @@
 # Local tournament Elo
 
-Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 72027 games in one fit as of 2026-11-26 09:29 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
+Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 73127 games in one fit as of 2026-11-26 09:51 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
 
 ![local elo](local-elo.png)
 
@@ -32,11 +32,12 @@ Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py
 | 2026-11-25 23:30 | t27 | top teams' splasher-heavy late mix pushed further: paint towers cycle soldier-splasher-splasher-mopper after r80 on t25 | #55 | 1703 +- 9 | -32 | 1554 |
 | 2026-11-26 00:30 | y95 | upgrade spare 1200 (was 800): chips stay for new towers longer on t27 | #56 | 1680 +- 9 | -23 | 1822 |
 | 2026-11-26 02:01 | t36 | late SRPs (study 4 2.6 / study 3 tactic 7): soldiers without a ruin build SRPs on the x%4==2 y%4==2 lattice from r100 with chips>=1000; splashers avoid repainting SRP secondary tiles on y95 | #57 | 1645 +- 11 | -35 | 977 |
-| 2026-11-26 02:50 | y110 | money towers upgrade only with 2500 chips beyond the cost+spare (was 1000): chips go to new towers and SRPs on t36 | #58 | 1610 +- 10 | -36 | 1260 |
-| 2026-11-26 03:30 | t42 | study 4 3.1 recovery: with every tower known and no money tower left the next ruin is a money tower on y110 | #59 | 1594 +- 10 | -16 | 1332 |
+| 2026-11-26 02:50 | y110 | money towers upgrade only with 2500 chips beyond the cost+spare (was 1000): chips go to new towers and SRPs on t36 | #58 | 1609 +- 10 | -36 | 1260 |
+| 2026-11-26 03:30 | t42 | study 4 3.1 recovery: with every tower known and no money tower left the next ruin is a money tower on y110 | #59 | 1593 +- 10 | -16 | 1332 |
 | 2026-11-26 04:10 | t45 | study 3 tactic 1: after r40 towers spawn only with 1000 chips beyond the unit's cost (no 600-chip window) on t42 | #60 | 1605 +- 10 | +12 | 1226 |
-| 2026-11-26 04:50 | t47 | study 3 tactic 5: a mopper due in the cycle spawns even below the 1000 reserve when an enemy robot is within d2 20 of the tower on t45 | #61 | 1595 +- 7 | -10 | 2398 |
-| 2026-11-26 06:30 | t58 | study 5 2.3: a splasher that has not splashed for 8 rounds (while able to) explores instead of chasing the nearest non-ally tile on t47 | #62 | 1631 +- 11 | +36 | 1087 |
-| 2026-11-26 07:10 | t61 | study 5 2.1 (softened): money towers for builds 1-5; then one more paint tower per 4 towers on t58 | #63 | 1646 +- 11 | +14 | 938 |
-| 2026-11-26 07:30 | y155 | study 5 2.1 tuned: money towers for builds 1-6; then one more paint tower per 4 towers on t61 | #64 | 1657 +- 9 | +12 | 1615 |
-| 2026-11-26 08:27 | t70 | y155 + splashers weight enemy towers 30 (t68) + 2000+ chips makes the next tower a paint tower (y159) on y155 | #65 | 1676 +- 9 | +19 | 1745 |
+| 2026-11-26 04:50 | t47 | study 3 tactic 5: a mopper due in the cycle spawns even below the 1000 reserve when an enemy robot is within d2 20 of the tower on t45 | #61 | 1594 +- 7 | -10 | 2398 |
+| 2026-11-26 06:30 | t58 | study 5 2.3: a splasher that has not splashed for 8 rounds (while able to) explores instead of chasing the nearest non-ally tile on t47 | #62 | 1630 +- 11 | +36 | 1087 |
+| 2026-11-26 07:10 | t61 | study 5 2.1 (softened): money towers for builds 1-5; then one more paint tower per 4 towers on t58 | #63 | 1644 +- 11 | +14 | 938 |
+| 2026-11-26 07:30 | y155 | study 5 2.1 tuned: money towers for builds 1-6; then one more paint tower per 4 towers on t61 | #64 | 1655 +- 9 | +11 | 1615 |
+| 2026-11-26 08:27 | t70 | y155 + splashers weight enemy towers 30 (t68) + 2000+ chips makes the next tower a paint tower (y159) on y155 | #65 | 1674 +- 8 | +19 | 2270 |
+| 2026-11-26 09:47 | t74 | moppers weight enemy paint near ruins 40 (study 6 2.1c) on t70 | #66 | 1702 +- 19 | +29 | 355 |

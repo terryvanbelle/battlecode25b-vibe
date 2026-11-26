@@ -113,3 +113,6 @@ Let's leave the overnight problem alone for now.  I like the simplicity of our c
 
 ## #29 (2026-11-26 09:46 PDT)
 Also, please add the graph to the dashboard, right after the Local Elo chart
+
+## #30 (2026-11-26 09:52 PDT)
+Can you get the aspect ratio of the scatterplot in the dashboard to be more square?

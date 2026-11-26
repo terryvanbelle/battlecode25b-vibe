@@ -43,7 +43,7 @@ public strictfp class Mopper {
             if (mi.getPaint().isEnemy()) s += 10;
             RobotInfo r = rc.canSenseRobotAtLocation(l) ? rc.senseRobotAtLocation(l) : null;
             if (r != null && r.team == G.them && r.type.isRobotType()) s += 15;
-            if (s > 0 && nearRuin(l)) s += 10;
+            if (s > 0 && nearRuin(l)) s += 40;   // study 6 2.1: their moppers clean ruins 14x to our 0 (was 10)
             if (s > bestS && rc.canAttack(l)) { bestS = s; best = l; }
         }
         if (best != null) { rc.attack(best); G.paint = rc.getPaint(); return; }
@@ -82,7 +82,7 @@ public strictfp class Mopper {
             if (!mi.getPaint().isEnemy()) continue;
             MapLocation l = mi.getMapLocation();
             int d = G.here.distanceSquaredTo(l) + 2;
-            if (nearRuin(l)) d -= 6;
+            if (nearRuin(l)) d -= 40;   // study 6 2.1 (was 6)
             if (d < bestD) { bestD = d; best = l; }
         }
         return best;
