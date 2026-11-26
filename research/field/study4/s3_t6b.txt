@@ -1,0 +1,15 @@
+old-but-gold {'Ain': 0.45, 'Aout': 0.37, '-out': 0.18} n 431
+    pairs [('Ain>Aout', 160), ('Aout>Ain', 104), ('-out>Ain', 41), ('Aout>-out', 40), ('-out>-out', 36), ('Ain>Ain', 5)]
+    soldier HP at last hit med 130.0
+confused {'Ain': 0.48, 'Aout': 0.37, '-out': 0.14, '-in': 0.02} n 601
+    pairs [('Ain>Aout', 211), ('Aout>Ain', 140), ('-out>Ain', 49), ('Aout>-out', 42), ('Ain>Ain', 34), ('-out>-out', 32)]
+    soldier HP at last hit med 100
+just-woke-up {'Ain': 0.51, 'Aout': 0.44, '-out': 0.05, '-in': 0.01} n 307
+    pairs [('Ain>Aout', 132), ('Aout>Ain', 109), ('Aout>-out', 12), ('-out>Ain', 12), ('Ain>-in', 2), ('-in>Aout', 2)]
+    soldier HP at last hit med 100
+om-nom {'Ain': 0.51, 'Aout': 0.38, '-out': 0.1, '-in': 0.02} n 598
+    pairs [('Ain>Aout', 214), ('Aout>Ain', 170), ('-out>Ain', 44), ('Aout>-out', 33), ('Ain>Ain', 19), ('-out>-out', 15)]
+    soldier HP at last hit med 130.0
+subscribe-to-caterpillow {'Ain': 0.5, 'Aout': 0.39, '-out': 0.1, '-in': 0.01} n 326
+    pairs [('Ain>Aout', 123), ('Aout>Ain', 99), ('-out>Ain', 22), ('Aout>-out', 18), ('-out>-out', 11), ('Ain>Ain', 10)]
+    soldier HP at last hit med 70

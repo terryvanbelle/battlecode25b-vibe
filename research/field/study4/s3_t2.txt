@@ -1,0 +1,95 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 43, in <module>
+IndexError: list index out of range
+== m1178 g0 old-but-gold DefaultHuge 59x59 ruins=53  first builds per ruin (round type distFromStart chipsBefore):
+    10M(7,1770) 24M(12,1200) 40M(8,1050) 50M(8,930) 59M(19,900) 67M(19,920) 74M(6,950) 81M(6,1120) 92M(12,1140) 96M(38,960) 134P(14,4180) 148P(26,2850) 150P(11,2159) 158P(26,2609) 176P(23,2348) 178P(31,2152)
+    upgrades (round type level chipsBefore): [(135, 'PA', 'L2', 3410), (168, 'PA', 'L2', 3077)] total 2
+== m1178 g1 old-but-gold Justice 21x20 ruins=12  first builds per ruin (round type distFromStart chipsBefore):
+    11M(5,1550) 38M(5,980) 139P(10,4630)
+    upgrades (round type level chipsBefore): [(140, 'PA', 'L2', 3700)] total 1
+== m1178 g2 old-but-gold box 31x31 ruins=12  first builds per ruin (round type distFromStart chipsBefore):
+    13M(6,1610) 36M(7,1240) 200P(26,4889) 256P(23,2571)
+    upgrades (round type level chipsBefore): [(147, 'PA', 'L3', 5948), (201, 'PA', 'L2', 3986)] total 2
+== m1179 g0 confused AlarmClock 35x35 ruins=20  first builds per ruin (round type distFromStart chipsBefore):
+    15M(6,1670) 21M(11,950) 68M(22,1970) 71M(30,1220) 81M(7,930) 90M(7,900) 104M(27,1150) 113M(32,880) 119M(11,880) 155M(30,1510) 171M(10,1550) 186M(20,2170) 226M(9,2980)
+    upgrades (round type level chipsBefore): [] total 0
+== m1179 g1 confused Leaf 60x60 ruins=56  first builds per ruin (round type distFromStart chipsBefore):
+    17M(5,1730) 32M(7,1210) 47M(14,990) 58M(12,960) 67M(10,930) 75M(6,950) 82M(15,980) 88M(17,980) 93M(22,910) 98M(13,940) 118M(22,1070) 127M(49,1000) 144M(25,820) 158M(30,1410) 159M(57,700) 167M(34,1270)
+    upgrades (round type level chipsBefore): [] total 0
+== m1179 g2 confused Snowman 25x25 ruins=10  first builds per ruin (round type distFromStart chipsBefore):
+    19M(7,2040) 28M(5,1070) 78M(20,990) 110M(13,1000) 234P(13,3770)
+    upgrades (round type level chipsBefore): [] total 0
+== m1180 g0 just-woke-up mit 60x60 ruins=28  first builds per ruin (round type distFromStart chipsBefore):
+    39M(12,2240) 62M(20,1870) 77P(23,1400) 91M(27,1380) 176M(24,2418) 180M(20,995) 207M(33,1842) 227P(31,2539) 253P(10,1806) 261M(37,1470) 279P(40,2621) 289P(33,1977) 297P(44,2253) 318P(50,1517) 336P(50,1135) 341P(38,1013)
+    upgrades (round type level chipsBefore): [(156, 'PA', 'L2', 3428), (245, 'PA', 'L2', 3339)] total 2
+== m1180 g1 just-woke-up shell 40x40 ruins=24  first builds per ruin (round type distFromStart chipsBefore):
+    21M(7,2100) 38M(10,1530) 49M(12,980) 83M(13,1520) 94P(19,960) 138M(7,2555) 171M(15,2585) 176P(15,2371) 186P(16,2214) 212P(6,818) 226P(17,844) 242M(28,828) 247P(21,826) 268P(13,798)
+    upgrades (round type level chipsBefore): [(156, 'PA', 'L2', 3325), (197, 'PA', 'L2', 2496)] total 2
+== m1180 g2 just-woke-up sunrise 45x55 ruins=21  first builds per ruin (round type distFromStart chipsBefore):
+    34M(11,2090) 35M(15,1120) 50M(21,950) 88M(23,1700) 118M(9,1100) 137M(43,2389) 220P(16,2402) 237P(12,716) 246P(13,948) 259P(16,956) 298P(9,892) 304P(20,1100)
+    upgrades (round type level chipsBefore): [(201, 'PA', 'L2', 2478), (225, 'PA', 'L2', 2346)] total 2
+== m1181 g0 om-nom Justice 21x20 ruins=12  first builds per ruin (round type distFromStart chipsBefore):
+    14M(5,1640) 55M(10,970) 78M(5,960) 494M(8,950) 509M(15,980) 520M(6,950) 555M(12,1730) 565M(11,1510)
+    upgrades (round type level chipsBefore): [(434, 'PA', 'L3', 14210)] total 1
+== m1181 g1 om-nom PlumberGame 60x30 ruins=22  first builds per ruin (round type distFromStart chipsBefore):
+    19M(6,1790) 29M(7,970) 44M(14,1000) 55M(19,970) 83M(16,1230) 90M(24,920) 108M(20,950) 152M(23,1350) 241P(24,2190) 252P(30,2816) 268P(29,1372) 272P(31,1036) 278P(34,1082) 284M(39,996) 320M(37,3198) 325M(46,1057)
+    upgrades (round type level chipsBefore): [(148, 'PA', 'L3', 5782), (237, 'PA', 'L2', 4026), (265, 'PA', 'L2', 3324)] total 3
+== m1181 g2 om-nom walalilongla 45x45 ruins=22  first builds per ruin (round type distFromStart chipsBefore):
+    29M(6,2090) 34M(9,1070) 47M(11,960) 171M(12,2800) 193P(24,950) 220M(11,1080) 228M(27,940) 244M(17,1200) 349P(22,4107) 359P(10,2529) 362M(16,1607) 372P(19,1553) 380P(21,1057) 386M(24,885) 389M(12,981) 399P(15,1240)
+    upgrades (round type level chipsBefore): [(295, 'PA', 'L2', 3360), (327, 'PA', 'L2', 3320)] total 2
+== m1182 g0 subscribe-to-caterpillow Barcode 50x21 ruins=22  first builds per ruin (round type distFromStart chipsBefore):
+    17M(7,1730) 183P(19,6410) 205P(19,5960) 209P(24,4910) 225P(12,3360) 230P(24,1960) 256D(19,1010) 275M(24,960) 290M(13,990) 304M(31,980) 313M(31,950)
+    upgrades (round type level chipsBefore): [] total 0
+== m1182 g1 subscribe-to-caterpillow DefaultLarge 50x30 ruins=24  first builds per ruin (round type distFromStart chipsBefore):
+    16M(5,1700) 38M(5,980) 52P(10,940) 70M(7,950) 82M(5,1010) 92M(16,1090) 101P(12,990) 116M(14,1090) 276M(11,1558) 280P(20,1759) 298P(16,2215) 308D(40,1570)
+    upgrades (round type level chipsBefore): [(185, 'MO', 'L2', 3640), (205, 'MO', 'L2', 3574), (239, 'MO', 'L2', 4328), (254, 'MO', 'L2', 3538), (274, 'PA', 'L2', 3730)] total 5
+== m1182 g2 subscribe-to-caterpillow SandyBeach 30x30 ruins=20  first builds per ruin (round type distFromStart chipsBefore):
+    34M(14,1990) 45M(14,970) 65M(19,1050) 78P(19,950) 92P(21,960) 144M(12,1740)
+    upgrades (round type level chipsBefore): [] total 0
+
+== per team
+  old-but-gold
+     build#1 round            med 11  all [10, 11, 13]
+     build#2 round            med 36  all [24, 38, 36]
+     build#3 round            med 139  all [40, 139, 200]
+     build#4 round            med 153.0  all [50, 256]
+     build#5 round            med 59  all [59]
+     build#6 round            med 67  all [67]
+     build#7 round            med 74  all [74]
+     build#8 round            med 81  all [81]
+     type of build#1          ['M', 'M', 'M']
+     type of build#2          ['M', 'M', 'M']
+     type of build#3          ['M', 'P', 'P']
+     type of build#4          ['M', None, 'P']
+     type of build#5          ['M', None, None]
+     alive r50 P/M/D          ['1/5/0', '1/3/0', '1/3/0']
+     alive r100 P/M/D         ['1/11/0', '1/3/0', '1/3/0']
+     alive r150 P/M/D         ['4/11/0', '2/3/0', '1/3/0']
+     alive r200 P/M/D         ['7/14/0', '2/3/0']
+     first upgrade round      med 140  all [135, 140, 147]
+     first upgrade type       ['PA', 'PA', 'PA']
+     chips before upgrade     med 3700  all [3410, 3077, 3700, 5948, 3986]
+     upgrades per game        med 2  all [2, 1, 2]
+     upgrades <= r200         med 1  all [2, 1, 1]
+     upgrade type mix         [{'PAL2': 2}, {'PAL2': 1}, {'PAL3': 1, 'PAL2': 1}]
+  confused
+     build#1 round            med 17  all [15, 17, 19]
+     build#2 round            med 28  all [21, 32, 28]
+     build#3 round            med 68  all [68, 47, 78]
+     build#4 round            med 71  all [71, 58, 110]
+     build#5 round            med 81  all [81, 67, 234]
+     build#6 round            med 82.5  all [90, 75]
+     build#7 round            med 93.0  all [104, 82]
+     build#8 round            med 100.5  all [113, 88]
+     type of build#1          ['M', 'M', 'M']
+     type of build#2          ['M', 'M', 'M']
+     type of build#3          ['M', 'M', 'M']
+     type of build#4          ['M', 'M', 'M']
+     type of build#5          ['M', 'M', 'P']
+     alive r50 P/M/D          ['1/3/0', '1/4/0', '1/3/0']
+     alive r100 P/M/D         ['1/6/0', '1/11/0', '1/4/0']
+     alive r150 P/M/D         ['1/10/0', '1/14/0', '1/5/0']
+     alive r200 P/M/D         ['1/13/0', '1/24/0', '1/5/0']
+     first upgrade round      [None, None, None]
+     first upgrade type       [None, None, None]

@@ -1,0 +1,4 @@
+TH attacker stands on {'empty': '28%', 'defender': '44%', 'own': '28%'} n 2173
+US attacker stands on {'defender': '58%', 'own': '21%', 'empty': '21%'} n 939
+US towers ring d3-4 at r100 {'own': '49%', 'empty': '47%', 'enemy': '4%'} n 2767
+TH towers ring d3-4 at r100 {'empty': '58%', 'own': '36%', 'enemy': '5%'} n 4388

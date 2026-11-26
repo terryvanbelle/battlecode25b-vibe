@@ -1,0 +1,25 @@
+old-but-gold  per-tower transitions {'SOL>MOP': 61, 'MOP>SPL': 55, 'SPL>SOL': 50, 'MOP>MOP': 5}
+    team transitions {'SOL>MOP': 31, 'SOL>SOL': 30, 'MOP>SPL': 27, 'SPL>SOL': 24, 'MOP>SOL': 22, 'MOP>MOP': 21, 'SPL>MOP': 16, 'SOL>SPL': 14, 'SPL>SPL': 14}
+    no enemy within 80   n=152  {'MOP': 0.3, 'SOL': 0.39, 'SPL': 0.3}
+    enemy d2 21-80       n=39   {'SOL': 0.38, 'MOP': 0.44, 'SPL': 0.18}
+    enemy within d2<=20  n=11   {'MOP': 0.64, 'SPL': 0.18, 'SOL': 0.18}
+confused  per-tower transitions {'SOL>MOP': 29, 'SOL>SOL': 17, 'MOP>SOL': 15, 'SPL>SOL': 10, 'MOP>MOP': 5, 'SPL>MOP': 5, 'SOL>SPL': 2, 'MOP>SPL': 2}
+    team transitions {'SOL>SOL': 37, 'SOL>MOP': 30, 'MOP>SOL': 26, 'MOP>MOP': 20, 'SPL>SOL': 15, 'SOL>SPL': 13, 'MOP>SPL': 10, 'SPL>MOP': 7, 'SPL>SPL': 4}
+    enemy d2 21-80       n=27   {'SOL': 0.59, 'SPL': 0.26, 'MOP': 0.15}
+    no enemy within 80   n=109  {'MOP': 0.37, 'SOL': 0.48, 'SPL': 0.16}
+    enemy within d2<=20  n=29   {'MOP': 0.48, 'SOL': 0.41, 'SPL': 0.1}
+just-woke-up  per-tower transitions {'SOL>MOP': 27, 'MOP>SPL': 18, 'SPL>SOL': 17, 'SOL>SOL': 7, 'MOP>SOL': 6, 'SPL>MOP': 3, 'MOP>MOP': 3}
+    team transitions {'SOL>MOP': 25, 'SOL>SOL': 21, 'MOP>SOL': 15, 'SPL>SOL': 14, 'MOP>MOP': 13, 'MOP>SPL': 11, 'SOL>SPL': 7, 'SPL>MOP': 3, 'SPL>SPL': 3}
+    no enemy within 80   n=74   {'SOL': 0.46, 'MOP': 0.31, 'SPL': 0.23}
+    enemy d2 21-80       n=21   {'MOP': 0.43, 'SPL': 0.19, 'SOL': 0.38}
+    enemy within d2<=20  n=20   {'MOP': 0.45, 'SOL': 0.55}
+om-nom  per-tower transitions {'SOL>MOP': 13, 'MOP>SPL': 8, 'SPL>MOP': 8, 'MOP>SOL': 7, 'SOL>SOL': 7, 'SPL>SPL': 6, 'SPL>SOL': 6, 'MOP>MOP': 5, 'SOL>SPL': 1}
+    team transitions {'SOL>MOP': 14, 'MOP>SPL': 14, 'MOP>MOP': 12, 'MOP>SOL': 10, 'SPL>SOL': 10, 'SOL>SOL': 10, 'SPL>MOP': 10, 'SOL>SPL': 6, 'SPL>SPL': 6}
+    enemy within d2<=20  n=22   {'SOL': 0.18, 'MOP': 0.73, 'SPL': 0.09}
+    enemy d2 21-80       n=19   {'MOP': 0.32, 'SOL': 0.32, 'SPL': 0.37}
+    no enemy within 80   n=54   {'SOL': 0.41, 'MOP': 0.28, 'SPL': 0.31}
+subscribe-to-caterpillow  per-tower transitions {'SPL>MOP': 19, 'MOP>SPL': 13, 'SOL>SPL': 7, 'SOL>SOL': 3, 'SOL>MOP': 2}
+    team transitions {'SPL>MOP': 14, 'MOP>SPL': 11, 'SOL>SOL': 8, 'SOL>SPL': 8, 'MOP>SOL': 7, 'SPL>SOL': 5, 'SOL>MOP': 5, 'MOP>MOP': 4, 'SPL>SPL': 3}
+    no enemy within 80   n=49   {'SPL': 0.39, 'MOP': 0.35, 'SOL': 0.27}
+    enemy d2 21-80       n=10   {'SOL': 0.4, 'SPL': 0.4, 'MOP': 0.2}
+    enemy within d2<=20  n=9    {'SOL': 0.44, 'MOP': 0.56}

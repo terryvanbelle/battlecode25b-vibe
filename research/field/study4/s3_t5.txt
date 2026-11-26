@@ -1,0 +1,283 @@
+
+  old-but-gold   transfer kinds (actor, target, dir): {('SOL', 'MON', 'take'): 94, ('MOP', 'MON', 'take'): 9, ('SOL', 'PAI', 'take'): 68, ('MOP', 'SOL', 'give'): 22, ('MOP', 'PAI', 'take'): 33, ('MOP', 'SPL', 'give'): 10, ('SPL', 'PAI', 'take'): 11, ('SPL', 'MON', 'take'): 7, ('MOP', 'MOP', 'give'): 1}
+     BIG MOP dist at turn-around                   med 5.6 p10 2.2 p25 2.8 p75 9.4 p90 15.0 n=32
+     BIG MOP paint at turn-around (% cap)          med 49.0 p10 47 p25 49 p75 54 p90 96 n=32
+     BIG SOL dist at turn-around                   med 6.8 p10 1.4 p25 2.0 p75 11.0 p90 15.3 n=82
+     BIG SOL paint at turn-around (% cap)          med 82.5 p10 18 p25 32 p75 99 p90 100 n=82
+     BIG SPL dist at turn-around                   med 17.1 p10 10.2 p25 13.6 p75 19.8 p90 22.8 n=6
+     BIG SPL paint at turn-around (% cap)          med 12.5 p10 9 p25 10 p75 27 p90 45 n=6
+     BIG(>=25%cap) MOP amount                      med 51.0 p10 51 p25 51 p75 56 p90 63 n=32
+     BIG(>=25%cap) MOP paint before (% cap)        med 49.0 p10 37 p25 45 p75 49 p90 49 n=32
+     BIG(>=25%cap) SOL amount                      med 103.0 p10 57 p25 67 p75 138 p90 169 n=82
+     BIG(>=25%cap) SOL paint before (% cap)        med 46.0 p10 13 p25 28 p75 66 p90 72 n=82
+     BIG(>=25%cap) SPL amount                      med 186.0 p10 147 p25 181 p75 192 p90 232 n=6
+     BIG(>=25%cap) SPL paint before (% cap)        med 37.0 p10 22 p25 23 p75 40 p90 43 n=6
+     MO tower paint at r100                        med 151 p10 0 p25 56 p75 336 p90 369 n=17
+     MO tower paint at r150                        med 74 p10 0 p25 0 p75 148 p90 152 n=17
+     MO tower paint at r200                        med 108 p10 0 p25 0 p75 148 p90 156 n=17
+     MO tower paint at r50                         med 212.0 p10 100 p25 100 p75 349 p90 356 n=10
+     MOP after (% cap)                             med 100.0 p10 100 p25 100 p75 100 p90 100 n=42
+     MOP amount taken                              med 51.0 p10 8 p25 31 p75 54 p90 61 n=42
+     MOP dist at turn-around                       med 6.3 p10 2.2 p25 2.8 p75 10.8 p90 23.4 n=42
+     MOP paint at turn-around                      med 49.0 p10 47 p25 49 p75 91 p90 99 n=42
+     MOP paint before withdraw                     med 49.0 p10 37 p25 45 p75 59 p90 92 n=42
+     MOP paint before withdraw (% cap)             med 49.0 p10 37 p25 45 p75 59 p90 92 n=42
+     MOP rounds turn-around->withdraw              med 5.0 p10 1 p25 2 p75 10 p90 19 n=42
+     MOP share of withdrawals that are top-ups (<10% cap) med 0.0 p10 0 p25 0 p75 0 p90 1 n=42
+     MOP->MOP give amount                          med 49 p10 49 p25 49 p75 49 p90 49 n=1
+     MOP->MOP recipient paint after (% cap)        med 24 p10 24 p25 24 p75 24 p90 24 n=1
+     MOP->SOL give amount                          med 46.5 p10 16 p25 40 p75 48 p90 49 n=22
+     MOP->SOL recipient paint after (% cap)        med 16.0 p10 9 p25 10 p75 17 p90 23 n=22
+     MOP->SPL give amount                          med 48.0 p10 46 p25 47 p75 49 p90 49 n=10
+     MOP->SPL recipient paint after (% cap)        med 9.0 p10 7 p25 7 p75 23 p90 99 n=10
+     PA tower paint at r100                        med 109 p10 92 p25 92 p75 600 p90 600 n=3
+     PA tower paint at r150                        med 91.5 p10 29 p25 33 p75 162 p90 200 n=6
+     PA tower paint at r200                        med 150.0 p10 2 p25 130 p75 202 p90 247 n=8
+     PA tower paint at r50                         med 200 p10 200 p25 200 p75 393 p90 393 n=3
+     SOL after (% cap)                             med 100.0 p10 100 p25 100 p75 100 p90 100 n=162
+     SOL amount taken                              med 51.0 p10 7 p25 11 p75 105 p90 145 n=162
+     SOL dist at turn-around                       med 4.0 p10 1.4 p25 2.0 p75 8.6 p90 12.6 n=162
+     SOL paint at turn-around                      med 195.5 p10 44 p25 149 p75 199 p90 200 n=162
+     SOL paint before withdraw                     med 147.5 p10 47 p25 86 p75 188 p90 193 n=162
+     SOL paint before withdraw (% cap)             med 74.0 p10 24 p25 43 p75 94 p90 96 n=162
+     SOL rounds turn-around->withdraw              med 4.5 p10 0 p25 0 p75 16 p90 30 n=162
+     SOL share of withdrawals that are top-ups (<10% cap) med 0.0 p10 0 p25 0 p75 1 p90 1 n=162
+     SPL after (% cap)                             med 100.0 p10 92 p25 100 p75 100 p90 100 n=18
+     SPL amount taken                              med 7.0 p10 6 p25 6 p75 181 p90 192 n=18
+     SPL dist at turn-around                       med 17.0 p10 10.2 p25 11.4 p75 22.8 p90 24.8 n=18
+     SPL paint at turn-around                      med 295.0 p10 31 p25 81 p75 300 p90 300 n=18
+     SPL paint before withdraw                     med 293.0 p10 68 p25 119 p75 294 p90 294 n=18
+     SPL paint before withdraw (% cap)             med 98.0 p10 23 p25 40 p75 98 p90 98 n=18
+     SPL rounds turn-around->withdraw              med 17.0 p10 8 p25 11 p75 27 p90 36 n=18
+     SPL share of withdrawals that are top-ups (<10% cap) med 1.0 p10 0 p25 0 p75 1 p90 1 n=18
+     robot->robot gives per game                   med 6 p10 5 p25 5 p75 22 p90 22 n=3
+     tower paint before withdraw (MO)              med 105 p10 10 p25 29 p75 159 p90 324 n=71
+     tower paint before withdraw (PA)              med 147 p10 49 p25 90 p75 194 p90 264 n=97
+     withdrawals per game MOP                      med 6 p10 6 p25 6 p75 30 p90 30 n=3
+     withdrawals per game SOL                      med 25 p10 16 p25 16 p75 121 p90 121 n=3
+     withdrawals per game SPL                      med 9.0 p10 3 p25 3 p75 15 p90 15 n=2
+  confused   transfer kinds (actor, target, dir): {('SOL', 'MON', 'take'): 156, ('MOP', 'MON', 'take'): 48, ('MOP', 'SOL', 'give'): 17, ('MOP', 'PAI', 'take'): 8, ('SOL', 'PAI', 'take'): 23, ('SPL', 'MON', 'take'): 8, ('SPL', 'PAI', 'take'): 3}
+     BIG MOP dist at turn-around                   med 3.5 p10 2.0 p25 2.2 p75 10.4 p90 15.1 n=28
+     BIG MOP paint at turn-around (% cap)          med 78.0 p10 12 p25 31 p75 99 p90 100 n=28
+     BIG SOL dist at turn-around                   med 3.2 p10 2.0 p25 2.2 p75 8.5 p90 13.0 n=133
+     BIG SOL paint at turn-around (% cap)          med 76 p10 27 p25 50 p75 100 p90 100 n=133
+     BIG SPL dist at turn-around                   med 7.0 p10 6.0 p25 6.0 p75 8.1 p90 8.1 n=2
+     BIG SPL paint at turn-around (% cap)          med 38.0 p10 34 p25 34 p75 42 p90 42 n=2
+     BIG(>=25%cap) MOP amount                      med 59.0 p10 27 p25 36 p75 76 p90 89 n=28
+     BIG(>=25%cap) MOP paint before (% cap)        med 34.5 p10 8 p25 18 p75 61 p90 69 n=28
+     BIG(>=25%cap) SOL amount                      med 89 p10 54 p25 62 p75 133 p90 160 n=133
+     BIG(>=25%cap) SOL paint before (% cap)        med 50 p10 16 p25 32 p75 66 p90 72 n=133
+     BIG(>=25%cap) SPL amount                      med 145.0 p10 114 p25 114 p75 176 p90 176 n=2
+     BIG(>=25%cap) SPL paint before (% cap)        med 27.0 p10 13 p25 13 p75 41 p90 41 n=2
+     MO tower paint at r100                        med 366 p10 42 p25 100 p75 373 p90 400 n=21
+     MO tower paint at r150                        med 59 p10 0 p25 1 p75 71 p90 200 n=29
+     MO tower paint at r200                        med 3.5 p10 0 p25 0 p75 63 p90 88 n=42
+     MO tower paint at r300                        med 0 p10 0 p25 0 p75 0 p90 33 n=23
+     MO tower paint at r50                         med 213.5 p10 100 p25 100 p75 366 p90 383 n=10
+     MOP after (% cap)                             med 100.0 p10 70 p25 100 p75 100 p90 100 n=56
+     MOP amount taken                              med 24.5 p10 11 p25 14 p75 61 p90 80 n=56
+     MOP dist at turn-around                       med 2.2 p10 1.4 p25 2.0 p75 7.0 p90 12.0 n=56
+     MOP paint at turn-around                      med 98.0 p10 24 p25 65 p75 99 p90 100 n=56
+     MOP paint before withdraw                     med 70.5 p10 14 p25 33 p75 85 p90 89 n=56
+     MOP paint before withdraw (% cap)             med 70.5 p10 14 p25 33 p75 85 p90 89 n=56
+     MOP rounds turn-around->withdraw              med 0.0 p10 0 p25 0 p75 9 p90 17 n=56
+     MOP share of withdrawals that are top-ups (<10% cap) med 0.0 p10 0 p25 0 p75 0 p90 0 n=56
+     MOP->SOL give amount                          med 49 p10 31 p25 41 p75 52 p90 59 n=17
+     MOP->SOL recipient paint after (% cap)        med 34 p10 16 p25 29 p75 37 p90 58 n=17
+     PA tower paint at r100                        med 300 p10 0 p25 0 p75 700 p90 700 n=3
+     PA tower paint at r150                        med 100 p10 90 p25 90 p75 100 p90 100 n=3
+     PA tower paint at r200                        med 105 p10 0 p25 0 p75 156 p90 156 n=3
+     PA tower paint at r300                        med 164 p10 164 p25 164 p75 164 p90 164 n=1
+     PA tower paint at r50                         med 100 p10 0 p25 0 p75 200 p90 200 n=3
+     SOL after (% cap)                             med 100 p10 58 p25 96 p75 100 p90 100 n=179
+     SOL amount taken                              med 71 p10 18 p25 47 p75 118 p90 153 n=179
+     SOL dist at turn-around                       med 3.6 p10 2.0 p25 2.2 p75 7.8 p90 13.0 n=179
+     SOL paint at turn-around                      med 151 p10 51 p25 99 p75 198 p90 200 n=179
+     SOL paint before withdraw                     med 105 p10 39 p25 67 p75 142 p90 150 n=179
+     SOL paint before withdraw (% cap)             med 52 p10 20 p25 34 p75 71 p90 75 n=179
+     SOL rounds turn-around->withdraw              med 4 p10 0 p25 0 p75 12 p90 21 n=179
+     SOL share of withdrawals that are top-ups (<10% cap) med 0 p10 0 p25 0 p75 0 p90 1 n=179
+     SPL after (% cap)                             med 100 p10 42 p25 44 p75 100 p90 100 n=11
+     SPL amount taken                              med 56 p10 35 p25 37 p75 64 p90 114 n=11
+     SPL dist at turn-around                       med 6.0 p10 2.0 p25 2.0 p75 20.6 p90 20.9 n=11
+     SPL paint at turn-around                      med 256 p10 125 p25 125 p75 298 p90 299 n=11
+     SPL paint before withdraw                     med 239 p10 45 p25 62 p75 253 p90 263 n=11
+     SPL paint before withdraw (% cap)             med 80 p10 15 p25 21 p75 84 p90 88 n=11
+     SPL rounds turn-around->withdraw              med 9 p10 0 p25 0 p75 20 p90 28 n=11
+     SPL share of withdrawals that are top-ups (<10% cap) med 0 p10 0 p25 0 p75 0 p90 0 n=11
+     robot->robot gives per game                   med 5 p10 4 p25 4 p75 8 p90 8 n=3
+     tower paint before withdraw (MO)              med 66.5 p10 0 p25 1 p75 286 p90 369 n=162
+     tower paint before withdraw (PA)              med 51.0 p10 10 p25 20 p75 87 p90 164 n=34
+     withdrawals per game MOP                      med 17 p10 3 p25 3 p75 36 p90 36 n=3
+     withdrawals per game SOL                      med 47 p10 24 p25 24 p75 108 p90 108 n=3
+     withdrawals per game SPL                      med 11 p10 11 p25 11 p75 11 p90 11 n=1
+  just-woke-up   transfer kinds (actor, target, dir): {('SOL', 'MON', 'take'): 52, ('SOL', 'PAI', 'take'): 111, ('SPL', 'PAI', 'take'): 34, ('SPL', 'MON', 'take'): 5, ('MOP', 'SOL', 'give'): 102, ('MOP', 'PAI', 'take'): 44, ('MOP', 'SPL', 'give'): 59, ('MOP', 'MON', 'take'): 5}
+     BIG MOP dist at turn-around                   med 5.8 p10 2.8 p25 4.1 p75 8.1 p90 17.0 n=48
+     BIG MOP paint at turn-around (% cap)          med 26.0 p10 13 p25 24 p75 29 p90 36 n=48
+     BIG SOL dist at turn-around                   med 4.2 p10 1.4 p25 2.0 p75 9.1 p90 15.7 n=149
+     BIG SOL paint at turn-around (% cap)          med 30 p10 20 p25 24 p75 51 p90 68 n=149
+     BIG SPL dist at turn-around                   med 6.2 p10 2.2 p25 4.0 p75 10.6 p90 16.3 n=24
+     BIG SPL paint at turn-around (% cap)          med 21.5 p10 11 p25 14 p75 36 p90 62 n=24
+     BIG(>=25%cap) MOP amount                      med 79.5 p10 61 p25 76 p75 85 p90 91 n=48
+     BIG(>=25%cap) MOP paint before (% cap)        med 19.5 p10 8 p25 15 p75 23 p90 25 n=48
+     BIG(>=25%cap) SOL amount                      med 115 p10 61 p25 73 p75 152 p90 162 n=149
+     BIG(>=25%cap) SOL paint before (% cap)        med 24 p10 14 p25 22 p75 49 p90 64 n=149
+     BIG(>=25%cap) SPL amount                      med 194.0 p10 85 p25 113 p75 252 p90 275 n=24
+     BIG(>=25%cap) SPL paint before (% cap)        med 19.0 p10 8 p25 12 p75 41 p90 62 n=24
+     MO tower paint at r100                        med 100 p10 0 p25 0 p75 153 p90 248 n=13
+     MO tower paint at r150                        med 0 p10 0 p25 0 p75 64 p90 160 n=17
+     MO tower paint at r200                        med 8.0 p10 0 p25 0 p75 64 p90 136 n=18
+     MO tower paint at r300                        med 0.0 p10 0 p25 0 p75 0 p90 0 n=14
+     MO tower paint at r50                         med 360 p10 100 p25 100 p75 366 p90 461 n=9
+     MOP after (% cap)                             med 100 p10 87 p25 100 p75 100 p90 100 n=49
+     MOP amount taken                              med 79 p10 52 p25 76 p75 83 p90 91 n=49
+     MOP dist at turn-around                       med 5.8 p10 2.8 p25 4.1 p75 8.1 p90 17.0 n=49
+     MOP paint at turn-around                      med 26 p10 13 p25 24 p75 29 p90 40 n=49
+     MOP paint before withdraw                     med 20 p10 8 p25 15 p75 23 p90 25 n=49
+     MOP paint before withdraw (% cap)             med 20 p10 8 p25 15 p75 23 p90 25 n=49
+     MOP rounds turn-around->withdraw              med 9 p10 3 p25 5 p75 12 p90 22 n=49
+     MOP share of withdrawals that are top-ups (<10% cap) med 0 p10 0 p25 0 p75 0 p90 0 n=49
+     MOP->SOL give amount                          med 6.0 p10 1 p25 2 p75 33 p90 67 n=102
+     MOP->SOL recipient paint after (% cap)        med 97.0 p10 33 p25 70 p75 99 p90 100 n=102
+     MOP->SPL give amount                          med 7 p10 1 p25 2 p75 59 p90 68 n=59
+     MOP->SPL recipient paint after (% cap)        med 98 p10 15 p25 40 p75 99 p90 100 n=59
+     PA tower paint at r100                        med 398 p10 159 p25 392 p75 400 p90 800 n=5
+     PA tower paint at r150                        med 80 p10 13 p25 16 p75 133 p90 142 n=5
+     PA tower paint at r200                        med 217.0 p10 32 p25 151 p75 286 p90 330 n=8
+     PA tower paint at r300                        med 219.5 p10 30 p25 37 p75 462 p90 931 n=14
+     PA tower paint at r50                         med 300 p10 200 p25 200 p75 300 p90 300 n=3
+     SOL after (% cap)                             med 100 p10 56 p25 81 p75 100 p90 100 n=163
+     SOL amount taken                              med 102 p10 52 p25 66 p75 152 p90 160 n=163
+     SOL dist at turn-around                       med 4.5 p10 1.4 p25 2.0 p75 9.1 p90 15.5 n=163
+     SOL paint at turn-around                      med 59 p10 43 p25 49 p75 103 p90 139 n=163
+     SOL paint before withdraw                     med 49 p10 29 p25 44 p75 103 p90 132 n=163
+     SOL paint before withdraw (% cap)             med 24 p10 14 p25 22 p75 52 p90 66 n=163
+     SOL rounds turn-around->withdraw              med 6 p10 2 p25 3 p75 13 p90 26 n=163
+     SOL share of withdrawals that are top-ups (<10% cap) med 0 p10 0 p25 0 p75 0 p90 0 n=163
+     SPL after (% cap)                             med 87 p10 36 p25 57 p75 100 p90 100 n=39
+     SPL amount taken                              med 94 p10 52 p25 64 p75 215 p90 272 n=39
+     SPL dist at turn-around                       med 5.8 p10 2.0 p25 3.0 p75 11.0 p90 21.5 n=39
+     SPL paint at turn-around                      med 74 p10 33 p25 42 p75 109 p90 186 n=39
+     SPL paint before withdraw                     med 70 p10 23 p25 40 p75 140 p90 188 n=39
+     SPL paint before withdraw (% cap)             med 23 p10 8 p25 13 p75 47 p90 63 n=39
+     SPL rounds turn-around->withdraw              med 8 p10 2 p25 3 p75 15 p90 31 n=39
+     SPL share of withdrawals that are top-ups (<10% cap) med 0 p10 0 p25 0 p75 0 p90 0 n=39
+     robot->robot gives per game                   med 30 p10 9 p25 9 p75 122 p90 122 n=3
+     tower paint before withdraw (MO)              med 189 p10 0 p25 0 p75 353 p90 420 n=61
+     tower paint before withdraw (PA)              med 119 p10 0 p25 64 p75 302 p90 501 n=187
+     withdrawals per game MOP                      med 18 p10 9 p25 9 p75 22 p90 22 n=3
+     withdrawals per game SOL                      med 51 p10 40 p25 40 p75 72 p90 72 n=3
+     withdrawals per game SPL                      med 15 p10 5 p25 5 p75 19 p90 19 n=3
+  om-nom   transfer kinds (actor, target, dir): {('SOL', 'MON', 'take'): 412, ('MOP', 'PAI', 'take'): 91, ('SOL', 'PAI', 'take'): 151, ('MOP', 'MON', 'take'): 124, ('SPL', 'MON', 'take'): 11, ('SPL', 'PAI', 'take'): 16}
+     BIG MOP dist at turn-around                   med 4.5 p10 2.8 p25 2.8 p75 7.3 p90 10.0 n=111
+     BIG MOP paint at turn-around (% cap)          med 51 p10 43 p25 49 p75 62 p90 73 n=111
+     BIG SOL dist at turn-around                   med 2.8 p10 2.0 p25 2.2 p75 8.2 p90 18.9 n=80
+     BIG SOL paint at turn-around (% cap)          med 44.0 p10 15 p25 25 p75 86 p90 100 n=80
+     BIG SPL dist at turn-around                   med 10.0 p10 2.0 p25 4.5 p75 12.8 p90 16.5 n=23
+     BIG SPL paint at turn-around (% cap)          med 11 p10 5 p25 7 p75 17 p90 29 n=23
+     BIG(>=25%cap) MOP amount                      med 52 p10 40 p25 50 p75 56 p90 68 n=111
+     BIG(>=25%cap) MOP paint before (% cap)        med 47 p10 32 p25 42 p75 49 p90 50 n=111
+     BIG(>=25%cap) SOL amount                      med 113.5 p10 64 p25 77 p75 154 p90 161 n=80
+     BIG(>=25%cap) SOL paint before (% cap)        med 29.0 p10 15 p25 22 p75 54 p90 68 n=80
+     BIG(>=25%cap) SPL amount                      med 250 p10 95 p25 136 p75 266 p90 276 n=23
+     BIG(>=25%cap) SPL paint before (% cap)        med 8 p10 3 p25 4 p75 13 p90 16 n=23
+     MO tower paint at r100                        med 35 p10 0 p25 0 p75 114 p90 309 n=15
+     MO tower paint at r150                        med 8.0 p10 0 p25 0 p75 70 p90 92 n=14
+     MO tower paint at r200                        med 0 p10 0 p25 0 p75 17 p90 92 n=15
+     MO tower paint at r300                        med 0.0 p10 0 p25 0 p75 18 p90 92 n=20
+     MO tower paint at r50                         med 281.0 p10 0 p25 70 p75 352 p90 454 n=10
+     MOP after (% cap)                             med 100 p10 62 p25 99 p75 100 p90 100 n=215
+     MOP amount taken                              med 30 p10 1 p25 2 p75 52 p90 58 n=215
+     MOP dist at turn-around                       med 4.1 p10 2.2 p25 2.2 p75 7.2 p90 9.2 n=215
+     MOP paint at turn-around                      med 61 p10 47 p25 50 p75 83 p90 99 n=215
+     MOP paint before withdraw                     med 49 p10 37 p25 45 p75 98 p90 99 n=215
+     MOP paint before withdraw (% cap)             med 49 p10 37 p25 45 p75 98 p90 99 n=215
+     MOP rounds turn-around->withdraw              med 11 p10 3 p25 5 p75 18 p90 28 n=215
+     MOP share of withdrawals that are top-ups (<10% cap) med 0 p10 0 p25 0 p75 1 p90 1 n=215
+     PA tower paint at r100                        med 291 p10 173 p25 173 p75 299 p90 299 n=3
+     PA tower paint at r150                        med 61 p10 20 p25 20 p75 99 p90 99 n=3
+     PA tower paint at r200                        med 80 p10 26 p25 54 p75 356 p90 525 n=5
+     PA tower paint at r300                        med 115 p10 27 p25 40 p75 158 p90 171 n=11
+     PA tower paint at r50                         med 199 p10 0 p25 0 p75 392 p90 392 n=3
+     SOL after (% cap)                             med 100 p10 100 p25 100 p75 100 p90 100 n=563
+     SOL amount taken                              med 2 p10 1 p25 1 p75 4 p90 85 n=563
+     SOL dist at turn-around                       med 2.2 p10 1.0 p25 2.0 p75 5.1 p90 6.1 n=563
+     SOL paint at turn-around                      med 198 p10 60 p25 162 p75 200 p90 200 n=563
+     SOL paint before withdraw                     med 198 p10 100 p25 195 p75 199 p90 199 n=563
+     SOL paint before withdraw (% cap)             med 99 p10 50 p25 98 p75 100 p90 100 n=563
+     SOL rounds turn-around->withdraw              med 11 p10 0 p25 0 p75 35 p90 40 n=563
+     SOL share of withdrawals that are top-ups (<10% cap) med 1 p10 0 p25 1 p75 1 p90 1 n=563
+     SPL after (% cap)                             med 73 p10 22 p25 38 p75 100 p90 100 n=27
+     SPL amount taken                              med 193 p10 43 p25 95 p75 266 p90 276 n=27
+     SPL dist at turn-around                       med 9.0 p10 2.0 p25 4.5 p75 12.0 p90 16.5 n=27
+     SPL paint at turn-around                      med 33 p10 14 p25 21 p75 50 p90 86 n=27
+     SPL paint before withdraw                     med 25 p10 9 p25 13 p75 40 p90 49 n=27
+     SPL paint before withdraw (% cap)             med 8 p10 3 p25 4 p75 13 p90 16 n=27
+     SPL rounds turn-around->withdraw              med 12 p10 2 p25 7 p75 20 p90 30 n=27
+     SPL share of withdrawals that are top-ups (<10% cap) med 0 p10 0 p25 0 p75 0 p90 0 n=27
+     robot->robot gives per game                   med 0 p10 0 p25 0 p75 0 p90 0 n=3
+     tower paint before withdraw (MO)              med 73 p10 1 p25 20 p75 185 p90 280 n=527
+     tower paint before withdraw (PA)              med 106 p10 10 p25 43 p75 209 p90 371 n=257
+     withdrawals per game MOP                      med 67 p10 17 p25 17 p75 131 p90 131 n=3
+     withdrawals per game SOL                      med 186 p10 158 p25 158 p75 219 p90 219 n=3
+     withdrawals per game SPL                      med 9 p10 3 p25 3 p75 15 p90 15 n=3
+  subscribe-to-caterpillow   transfer kinds (actor, target, dir): {('SOL', 'MON', 'take'): 33, ('SOL', 'PAI', 'take'): 35, ('MOP', 'SOL', 'give'): 12, ('MOP', 'MON', 'take'): 2, ('SOL', 'DEF', 'take'): 4, ('MOP', 'DEF', 'take'): 1, ('MOP', 'SPL', 'give'): 12, ('SPL', 'MON', 'take'): 1, ('MOP', 'PAI', 'take'): 1}
+     BIG MOP dist at turn-around                   med 6.2 p10 3.2 p25 6.1 p75 7.3 p90 7.3 n=4
+     BIG MOP paint at turn-around (% cap)          med 38.0 p10 8 p25 36 p75 100 p90 100 n=4
+     BIG SOL dist at turn-around                   med 5.0 p10 2.0 p25 2.2 p75 8.6 p90 22.0 n=64
+     BIG SOL paint at turn-around (% cap)          med 51.0 p10 11 p25 30 p75 100 p90 100 n=64
+     BIG SPL dist at turn-around                   med 13.4 p10 13.4 p25 13.4 p75 13.4 p90 13.4 n=1
+     BIG SPL paint at turn-around (% cap)          med 43 p10 43 p25 43 p75 43 p90 43 n=1
+     BIG(>=25%cap) MOP amount                      med 81.0 p10 60 p25 70 p75 97 p90 97 n=4
+     BIG(>=25%cap) MOP paint before (% cap)        med 19.0 p10 3 p25 8 p75 40 p90 40 n=4
+     BIG(>=25%cap) SOL amount                      med 109.0 p10 65 p25 74 p75 131 p90 157 n=64
+     BIG(>=25%cap) SOL paint before (% cap)        med 41.0 p10 14 p25 24 p75 56 p90 65 n=64
+     BIG(>=25%cap) SPL amount                      med 226 p10 226 p25 226 p75 226 p90 226 n=1
+     BIG(>=25%cap) SPL paint before (% cap)        med 25 p10 25 p25 25 p75 25 p90 25 n=1
+     DE tower paint at r200                        med 0 p10 0 p25 0 p75 0 p90 0 n=1
+     DE tower paint at r300                        med 166.5 p10 0 p25 0 p75 333 p90 333 n=2
+     MO tower paint at r100                        med 157.0 p10 0 p25 0 p75 298 p90 397 n=12
+     MO tower paint at r150                        med 49.5 p10 0 p25 0 p75 178 p90 198 n=14
+     MO tower paint at r200                        med 0.0 p10 0 p25 0 p75 149 p90 197 n=8
+     MO tower paint at r300                        med 0 p10 0 p25 0 p75 112 p90 172 n=11
+     MO tower paint at r50                         med 155.0 p10 0 p25 0 p75 347 p90 368 n=8
+     MOP after (% cap)                             med 100.0 p10 100 p25 100 p75 100 p90 100 n=4
+     MOP amount taken                              med 81.0 p10 60 p25 70 p75 97 p90 97 n=4
+     MOP dist at turn-around                       med 6.2 p10 3.2 p25 6.1 p75 7.3 p90 7.3 n=4
+     MOP paint at turn-around                      med 38.0 p10 8 p25 36 p75 100 p90 100 n=4
+     MOP paint before withdraw                     med 19.0 p10 3 p25 8 p75 40 p90 40 n=4
+     MOP paint before withdraw (% cap)             med 19.0 p10 3 p25 8 p75 40 p90 40 n=4
+     MOP rounds turn-around->withdraw              med 8.0 p10 2 p25 7 p75 15 p90 15 n=4
+     MOP share of withdrawals that are top-ups (<10% cap) med 0.0 p10 0 p25 0 p75 0 p90 0 n=4
+     MOP->SOL give amount                          med 17.0 p10 2 p25 6 p75 52 p90 78 n=12
+     MOP->SOL recipient paint after (% cap)        med 87.5 p10 46 p25 78 p75 99 p90 100 n=12
+     MOP->SPL give amount                          med 61.0 p10 47 p25 50 p75 73 p90 75 n=12
+     MOP->SPL recipient paint after (% cap)        med 10.0 p10 0 p25 2 p75 64 p90 79 n=12
+     PA tower paint at r100                        med 253 p10 168 p25 177 p75 584 p90 639 n=5
+     PA tower paint at r150                        med 137.0 p10 70 p25 103 p75 189 p90 284 n=6
+     PA tower paint at r200                        med 180.0 p10 95 p25 160 p75 210 p90 210 n=4
+     PA tower paint at r300                        med 280 p10 45 p25 187 p75 522 p90 556 n=11
+     PA tower paint at r50                         med 200 p10 200 p25 200 p75 200 p90 200 n=3
+     SOL after (% cap)                             med 100.0 p10 60 p25 100 p75 100 p90 100 n=72
+     SOL amount taken                              med 98.5 p10 47 p25 70 p75 128 p90 153 n=72
+     SOL dist at turn-around                       med 5.0 p10 2.0 p25 2.2 p75 8.6 p90 22.0 n=72
+     SOL paint at turn-around                      med 109.0 p10 28 p25 71 p75 199 p90 200 n=72
+     SOL paint before withdraw                     med 85.5 p10 27 p25 50 p75 120 p90 139 n=72
+     SOL paint before withdraw (% cap)             med 42.5 p10 14 p25 25 p75 60 p90 70 n=72
+     SOL rounds turn-around->withdraw              med 9.0 p10 0 p25 3 p75 22 p90 40 n=72
+     SOL share of withdrawals that are top-ups (<10% cap) med 0.0 p10 0 p25 0 p75 0 p90 0 n=72
+     SPL after (% cap)                             med 100 p10 100 p25 100 p75 100 p90 100 n=1
+     SPL amount taken                              med 226 p10 226 p25 226 p75 226 p90 226 n=1
+     SPL dist at turn-around                       med 13.4 p10 13.4 p25 13.4 p75 13.4 p90 13.4 n=1
+     SPL paint at turn-around                      med 128 p10 128 p25 128 p75 128 p90 128 n=1
+     SPL paint before withdraw                     med 74 p10 74 p25 74 p75 74 p90 74 n=1
+     SPL paint before withdraw (% cap)             med 25 p10 25 p25 25 p75 25 p90 25 n=1
+     SPL rounds turn-around->withdraw              med 19 p10 19 p25 19 p75 19 p90 19 n=1
+     SPL share of withdrawals that are top-ups (<10% cap) med 0 p10 0 p25 0 p75 0 p90 0 n=1
+     robot->robot gives per game                   med 6 p10 5 p25 5 p75 13 p90 13 n=3
+     tower paint before withdraw (DE)              med 228 p10 0 p25 55 p75 333 p90 430 n=5
+     tower paint before withdraw (MO)              med 178.0 p10 68 p25 116 p75 298 p90 372 n=34
+     tower paint before withdraw (PA)              med 191.0 p10 69 p25 124 p75 237 p90 380 n=36
+     withdrawals per game MOP                      med 1 p10 1 p25 1 p75 2 p90 2 n=3
+     withdrawals per game SOL                      med 20 p10 16 p25 16 p75 36 p90 36 n=3
+     withdrawals per game SPL                      med 1 p10 1 p25 1 p75 1 p90 1 n=1

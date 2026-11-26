@@ -1,0 +1,59 @@
+== m1178 g0 old-but-gold DefaultHuge
+  TH paints into opponent-marked ruins: 192 paints on 6/14 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/0 of their marked ruins; those later built by them: 0  types []
+== m1178 g1 old-but-gold Justice
+  TH paints into opponent-marked ruins: 60 paints on 5/8 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/0 of their marked ruins; those later built by them: 0  types []
+== m1178 g2 old-but-gold box
+  TH paints into opponent-marked ruins: 44 paints on 2/7 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/0 of their marked ruins; those later built by them: 0  types []
+== m1179 g0 confused AlarmClock
+  TH paints into opponent-marked ruins: 9 paints on 1/9 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/14 of their marked ruins; those later built by them: 0  types []
+== m1179 g1 confused Leaf
+  TH paints into opponent-marked ruins: 19 paints on 1/18 of their marked ruins; those later built by them: 0  types ['SPL']
+  US paints into opponent-marked ruins: 1 paints on 1/44 of their marked ruins; those later built by them: 0  types ['SOL']
+== m1179 g2 confused Snowman
+  TH paints into opponent-marked ruins: 0 paints on 0/6 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/6 of their marked ruins; those later built by them: 0  types []
+== m1180 g0 just-woke-up mit
+  TH paints into opponent-marked ruins: 0 paints on 0/12 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/21 of their marked ruins; those later built by them: 0  types []
+== m1180 g1 just-woke-up shell
+  TH paints into opponent-marked ruins: 1 paints on 1/11 of their marked ruins; those later built by them: 0  types ['SOL']
+  US paints into opponent-marked ruins: 0 paints on 0/15 of their marked ruins; those later built by them: 0  types []
+== m1180 g2 just-woke-up sunrise
+  TH paints into opponent-marked ruins: 0 paints on 0/9 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 9 paints on 1/14 of their marked ruins; those later built by them: 0  types ['SPL']
+== m1181 g0 om-nom Justice
+  TH paints into opponent-marked ruins: 0 paints on 0/8 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/10 of their marked ruins; those later built by them: 0  types []
+== m1181 g1 om-nom PlumberGame
+  TH paints into opponent-marked ruins: 0 paints on 0/12 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/18 of their marked ruins; those later built by them: 0  types []
+== m1181 g2 om-nom walalilongla
+  TH paints into opponent-marked ruins: 0 paints on 0/9 of their marked ruins; those later built by them: 0  types []
+  US paints into opponent-marked ruins: 0 paints on 0/20 of their marked ruins; those later built by them: 0  types []
+== m1182 g0 subscribe-to-caterpillow Barcode
+  TH paints into opponent-marked ruins: 74 paints on 4/8 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/13 of their marked ruins; those later built by them: 0  types []
+== m1182 g1 subscribe-to-caterpillow DefaultLarge
+  TH paints into opponent-marked ruins: 25 paints on 3/14 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/13 of their marked ruins; those later built by them: 0  types []
+== m1182 g2 subscribe-to-caterpillow SandyBeach
+  TH paints into opponent-marked ruins: 61 paints on 6/12 of their marked ruins; those later built by them: 0  types ['SOL', 'SPL']
+  US paints into opponent-marked ruins: 0 paints on 0/6 of their marked ruins; those later built by them: 0  types []
+
+== summary
+  TH
+     opp marked ruins hit by our paint %          [43, 62, 29, 11, 6, 0, 0, 9, 0, 0, 0, 0, 50, 21, 50]  med 9
+     denial paints                                [192, 60, 44, 9, 19, 0, 0, 1, 0, 0, 0, 0, 74, 25, 61]  med 9
+     opp ruins hit later built                    ['0/6', '0/5', '0/2', '0/1', '0/1', '0/0', '0/0', '0/1', '0/0', '0/0', '0/0', '0/0', '0/4', '0/3', '0/6']  med 
+     own marked ruins with own unpaint (mop) %    [0, 0, 0, 29, 11, 33, 33, 33, 21, 80, 61, 45, 0, 8, 0]  med 21
+     own-ruin mops                                [0, 0, 0, 27, 36, 2, 27, 122, 19, 118, 117, 101, 0, 2, 0]  med 19
+  US
+     opp marked ruins hit by our paint %          [0, 0, 0, 0, 2, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0]  med 0
+     denial paints                                [0, 0, 0, 0, 1, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0]  med 0
+     opp ruins hit later built                    ['0/0', '0/0', '0/0', '0/0', '0/1', '0/0', '0/0', '0/0', '0/1', '0/0', '0/0', '0/0', '0/0', '0/0', '0/0']  med 
+     own marked ruins with own unpaint (mop) %    [43, 38, 29, 11, 50, 67, 58, 45, 33, 75, 67, 11, 25, 36, 0]  med 38
+     own-ruin mops                                [28, 7, 9, 3, 45, 17, 81, 40, 37, 66, 32, 30, 15, 28, 0]  med 28

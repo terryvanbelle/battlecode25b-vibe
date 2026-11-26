@@ -1,0 +1,85 @@
+  old-but-gold
+     marked before build (frac)                                                  med 0  p10 0 p90 0 n=31
+     rounds start->build                                                         med 25  p10 9 p90 56 n=31
+     workers (distinct units painting pattern)                                   med 3  p10 1 p90 4 n=31
+     soldier workers                                                             med 3  p10 1 p90 4 n=31
+     splasher paints in pattern window                                           med 0  p10 0 p90 0 n=31
+     correct-colour frac of pattern paints                                       med 1.0  p10 0.7 p90 1.0 n=31
+     pattern paints per completed ruin                                           med 24  p10 22 p90 41 n=31
+     rounds last pattern paint -> build (waiting for chips)                      med 1  p10 0 p90 9 n=31
+     chips before build                                                          med 1477  p10 920 p90 3188 n=31
+     rounds first mark -> 12th pattern paint                                     med 9  p10 5 p90 25 n=31
+     our paints on the pattern during window                                     med 0  p10 0 p90 0 n=31
+     op mopper unpaints on pattern during window                                 med 0  p10 0 p90 0 n=31
+     builder soldier paints (within Cheb3 of ruin) that are on pattern tiles     med 1.0  p10 0.9 p90 1.0 n=31
+     max op robots within Cheb3 during build                                     med 3  p10 1 p90 5 n=31
+     unfinished: (first, last op work, we built it at, our paints on it, op mopper unpaints): [(102, 217, None, 0, 0), (52, 224, None, 0, 0), (137, 240, None, 0, 0), (153, 216, None, 0, 0), (178, 238, None, 0, 0), (221, 235, None, 0, 0), (64, 231, None, 5, 11), (70, 225, None, 24, 11), (209, 241, None, 0, 0), (213, 245, 202, 24, 7), (188, 244, None, 41, 27), (204, 235, None, 24, 0), (220, 233, None, 0, 0), (208, 238, 121, 34, 1)]
+     unfinished ruins per game                                                   med 7  p10 5 p90 21 n=3
+  confused
+     marked before build (frac)                                                  med 1  p10 1 p90 1 n=43
+     rounds start->build                                                         med 25  p10 14 p90 57 n=43
+     workers (distinct units painting pattern)                                   med 2  p10 1 p90 4 n=43
+     soldier workers                                                             med 2  p10 1 p90 4 n=43
+     splasher paints in pattern window                                           med 0  p10 0 p90 0 n=43
+     correct-colour frac of pattern paints                                       med 1.0  p10 0.9 p90 1.0 n=43
+     pattern paints per completed ruin                                           med 23  p10 20 p90 25 n=43
+     rounds last pattern paint -> build (waiting for chips)                      med 1  p10 0 p90 12 n=43
+     chips before build                                                          med 1070  p10 880 p90 2170 n=43
+     rounds first mark -> 12th pattern paint                                     med 11.0  p10 6 p90 20 n=43
+     our paints on the pattern during window                                     med 0  p10 0 p90 0 n=43
+     op mopper unpaints on pattern during window                                 med 0  p10 0 p90 1 n=43
+     builder soldier paints (within Cheb3 of ruin) that are on pattern tiles     med 1.0  p10 0.9 p90 1.0 n=43
+     max op robots within Cheb3 during build                                     med 2  p10 1 p90 5 n=43
+     unfinished: (first, last op work, we built it at, our paints on it, op mopper unpaints): [(86, 173, 0, 10, 0), (138, 233, 15, 45, 45), (202, 234, 86, 42, 24), (176, 219, 145, 27, 15), (177, 230, None, 0, 0), (153, 219, None, 0, 0), (294, 341, 203, 31, 9), (357, 357, 0, 3, 0), (290, 352, 0, 6, 0), (242, 344, None, 0, 0), (253, 346, None, 0, 0), (260, 357, 16, 64, 17), (324, 352, None, 24, 0), (214, 324, 50, 28, 9)]
+     unfinished ruins per game                                                   med 6  p10 5 p90 30 n=3
+  just-woke-up
+     unfinished: (first, last op work, we built it at, our paints on it, op mopper unpaints): [(261, 369, 240, 35, 1), (371, 371, 117, 25, 0), (2, 309, None, 0, 0), (2, 365, None, 0, 0), (271, 371, 26, 24, 0), (328, 371, 79, 27, 0), (349, 361, None, 27, 11), (59, 260, None, 70, 52), (2, 268, None, 0, 0), (204, 257, 38, 27, 0), (2, 239, None, 0, 1), (173, 273, 31, 26, 1), (2, 289, None, 0, 0), (227, 304, 40, 35, 6)]
+     marked before build (frac)                                                  med 1  p10 1 p90 1 n=43
+     rounds start->build                                                         med 19  p10 10 p90 37 n=43
+     workers (distinct units painting pattern)                                   med 2  p10 1 p90 4 n=43
+     soldier workers                                                             med 2  p10 1 p90 3 n=43
+     splasher paints in pattern window                                           med 0  p10 0 p90 10 n=43
+     correct-colour frac of pattern paints                                       med 1.0  p10 0.8 p90 1.0 n=43
+     pattern paints per completed ruin                                           med 21  p10 17 p90 31 n=43
+     rounds last pattern paint -> build (waiting for chips)                      med 0  p10 0 p90 2 n=43
+     chips before build                                                          med 1470  p10 826 p90 2418 n=43
+     rounds first mark -> 12th pattern paint                                     med 11.0  p10 5 p90 17 n=43
+     our paints on the pattern during window                                     med 0  p10 0 p90 4 n=43
+     op mopper unpaints on pattern during window                                 med 0  p10 0 p90 7 n=43
+     builder soldier paints (within Cheb3 of ruin) that are on pattern tiles     med 1.0  p10 0.9 p90 1.0 n=43
+     max op robots within Cheb3 during build                                     med 3  p10 1 p90 7 n=43
+     unfinished ruins per game                                                   med 5  p10 5 p90 7 n=3
+  om-nom
+     marked before build (frac)                                                  med 1  p10 1 p90 1 n=41
+     rounds start->build                                                         med 33  p10 15 p90 185 n=41
+     workers (distinct units painting pattern)                                   med 2  p10 1 p90 5 n=41
+     soldier workers                                                             med 2  p10 1 p90 3 n=41
+     splasher paints in pattern window                                           med 0  p10 0 p90 23 n=41
+     correct-colour frac of pattern paints                                       med 1.0  p10 0.7 p90 1.0 n=41
+     pattern paints per completed ruin                                           med 21  p10 19 p90 35 n=41
+     rounds last pattern paint -> build (waiting for chips)                      med 2  p10 0 p90 8 n=41
+     chips before build                                                          med 1080  p10 950 p90 2529 n=41
+     rounds first mark -> 12th pattern paint                                     med 12.5  p10 6 p90 165 n=41
+     our paints on the pattern during window                                     med 0  p10 0 p90 12 n=41
+     op mopper unpaints on pattern during window                                 med 0  p10 0 p90 15 n=41
+     builder soldier paints (within Cheb3 of ruin) that are on pattern tiles     med 1.0  p10 0.9 p90 1.0 n=41
+     max op robots within Cheb3 during build                                     med 3  p10 1 p90 9 n=41
+     unfinished: (first, last op work, we built it at, our paints on it, op mopper unpaints): [(3, 478, None, 17, 17), (438, 567, 36, 40, 29), (32, 525, 392, 31, 7), (227, 327, 136, 24, 7), (2, 144, None, 0, 0), (299, 309, 0, 8, 0), (212, 310, 18, 24, 9), (214, 291, 0, 18, 0), (328, 441, 0, 3, 3), (249, 436, None, 0, 0), (240, 441, None, 9, 9), (398, 412, 174, 29, 9), (2, 409, None, 0, 0)]
+     unfinished ruins per game                                                   med 5  p10 3 p90 5 n=3
+  subscribe-to-caterpillow
+     unfinished: (first, last op work, we built it at, our paints on it, op mopper unpaints): [(19, 83, None, 0, 0), (24, 316, None, 3, 6), (154, 281, None, 10, 1), (55, 282, None, 13, 10), (41, 298, None, 23, 2), (9, 294, None, 0, 11), (198, 239, None, 10, 0), (222, 302, 209, 16, 4), (134, 297, None, 7, 1), (167, 295, 0, 26, 4), (138, 307, 71, 44, 18), (3, 262, None, 0, 0), (284, 308, 0, 19, 1), (2, 271, None, 0, 0)]
+     marked before build (frac)                                                  med 1.0  p10 1 p90 1 n=28
+     rounds start->build                                                         med 21.5  p10 11 p90 60 n=28
+     workers (distinct units painting pattern)                                   med 2.0  p10 1 p90 3 n=28
+     soldier workers                                                             med 2.0  p10 1 p90 3 n=28
+     splasher paints in pattern window                                           med 0.0  p10 0 p90 0 n=28
+     correct-colour frac of pattern paints                                       med 1.0  p10 0.9 p90 1.0 n=28
+     pattern paints per completed ruin                                           med 19.5  p10 14 p90 25 n=28
+     rounds last pattern paint -> build (waiting for chips)                      med 2.0  p10 1 p90 36 n=28
+     chips before build                                                          med 1070.0  p10 950 p90 4910 n=28
+     rounds first mark -> 12th pattern paint                                     med 11.0  p10 6 p90 14 n=28
+     our paints on the pattern during window                                     med 0.0  p10 0 p90 0 n=28
+     op mopper unpaints on pattern during window                                 med 0.0  p10 0 p90 0 n=28
+     builder soldier paints (within Cheb3 of ruin) that are on pattern tiles     med 1.0  p10 0.9 p90 1.0 n=28
+     max op robots within Cheb3 during build                                     med 2.0  p10 2 p90 4 n=28
+     unfinished ruins per game                                                   med 7  p10 4 p90 10 n=3

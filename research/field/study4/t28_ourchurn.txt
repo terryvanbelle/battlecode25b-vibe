@@ -1,0 +1,4 @@
+1180 0 mit [(203, 'M', 'rebuilt', 2190), (319, 'M', 'rebuilt', 2710), (356, 'M', 'rebuilt', 2880)]
+1180 1 shell [(118, 'M', 'LOST', 3310), (170, 'M', 'rebuilt', 1700), (198, 'M', 'rebuilt', 4110), (201, 'M', 'LOST', 2900), (207, 'M', 'LOST', 3200), (239, 'M', 'rebuilt', 1950), (259, 'M', 'rebuilt', 2800), (260, 'M', 'rebuilt', 1670), (272, 'M', 'rebuilt', 2170)]
+1180 2 sunrise [(132, 'M', 'rebuilt', 2360), (159, 'M', 'rebuilt', 3270), (160, 'M', 'rebuilt', 1380), (186, 'M', 'rebuilt', 1860), (194, 'M', 'rebuilt', 2050), (253, 'M', 'rebuilt', 3560), (263, 'M', 'rebuilt', 2640)]
+1181 0 Justice [(301, 'M', 'rebuilt', 2790), (327, 'M', 'rebuilt', 3760), (382, 'M', 'rebuilt', 3080)]

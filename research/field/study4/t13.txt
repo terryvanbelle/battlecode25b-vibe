@@ -1,0 +1,22 @@
+m1178 g0 old-but-gold              DefaultHuge   our failed ruins 6: enemy paint at first mark 3, later built by enemy 0; soldier-turns within 3 of them 1123 = 42% of soldier turns; paints into them 146
+m1178 g1 old-but-gold              Justice       our failed ruins 5: enemy paint at first mark 4, later built by enemy 1; soldier-turns within 3 of them 568 = 52% of soldier turns; paints into them 143
+m1178 g2 old-but-gold              box           our failed ruins 3: enemy paint at first mark 0, later built by enemy 0; soldier-turns within 3 of them 307 = 19% of soldier turns; paints into them 80
+m1179 g0 confused                  AlarmClock    our failed ruins 5: enemy paint at first mark 3, later built by enemy 4; soldier-turns within 3 of them 280 = 19% of soldier turns; paints into them 54
+m1179 g1 confused                  Leaf          our failed ruins 8: enemy paint at first mark 4, later built by enemy 4; soldier-turns within 3 of them 524 = 17% of soldier turns; paints into them 183
+m1179 g2 confused                  Snowman       our failed ruins 4: enemy paint at first mark 3, later built by enemy 3; soldier-turns within 3 of them 430 = 44% of soldier turns; paints into them 85
+m1180 g0 just-woke-up              mit           our failed ruins 5: enemy paint at first mark 2, later built by enemy 4; soldier-turns within 3 of them 216 = 6% of soldier turns; paints into them 91
+m1180 g1 just-woke-up              shell         our failed ruins 7: enemy paint at first mark 5, later built by enemy 5; soldier-turns within 3 of them 724 = 38% of soldier turns; paints into them 185
+m1180 g2 just-woke-up              sunrise       our failed ruins 2: enemy paint at first mark 2, later built by enemy 2; soldier-turns within 3 of them 3 = 0% of soldier turns; paints into them 0
+m1181 g0 om-nom                    Justice       our failed ruins 4: enemy paint at first mark 4, later built by enemy 4; soldier-turns within 3 of them 372 = 11% of soldier turns; paints into them 83
+m1181 g1 om-nom                    PlumberGame   our failed ruins 5: enemy paint at first mark 1, later built by enemy 5; soldier-turns within 3 of them 896 = 37% of soldier turns; paints into them 144
+m1181 g2 om-nom                    walalilongla  our failed ruins 6: enemy paint at first mark 4, later built by enemy 6; soldier-turns within 3 of them 246 = 15% of soldier turns; paints into them 76
+m1182 g0 subscribe-to-caterpillow  Barcode       our failed ruins 8: enemy paint at first mark 7, later built by enemy 3; soldier-turns within 3 of them 254 = 21% of soldier turns; paints into them 101
+m1182 g1 subscribe-to-caterpillow  DefaultLarge  our failed ruins 7: enemy paint at first mark 5, later built by enemy 3; soldier-turns within 3 of them 376 = 17% of soldier turns; paints into them 101
+m1182 g2 subscribe-to-caterpillow  SandyBeach    our failed ruins 11: enemy paint at first mark 9, later built by enemy 2; soldier-turns within 3 of them 368 = 41% of soldier turns; paints into them 133
+failed [6, 5, 3, 5, 8, 4, 5, 7, 2, 4, 5, 6, 8, 7, 11] sum 86
+contested at mark [3, 4, 0, 3, 4, 3, 2, 5, 2, 4, 1, 4, 7, 5, 9] sum 56
+taken by enemy [0, 1, 0, 4, 4, 3, 4, 5, 2, 4, 5, 6, 3, 3, 2] sum 46
+wasted % [42, 52, 19, 19, 17, 44, 6, 38, 0, 11, 37, 15, 21, 17, 41] sum 379
+paints [146, 143, 80, 54, 183, 85, 91, 185, 0, 83, 144, 76, 101, 101, 133] sum 1605
+US ruins marked with enemy paint: built/total ['1/4', '0/4', '0/0', '0/3', '0/4', '0/3', '0/2', '0/5', '0/2', '1/5', '0/1', '0/4', '0/7', '0/5', '0/9'] sum 
+TH ruins marked with enemy paint: built/total ['0/0', '0/0', '0/0', '1/1', '1/2', '1/1', '4/7', '2/3', '2/4', '4/6', '9/11', '5/8', '0/0', '0/0', '0/0'] sum 

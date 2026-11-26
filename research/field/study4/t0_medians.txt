@@ -1,0 +1,5 @@
+r50 (n=15) US: cov 211 towers 4 chips 700 paint 1406 units 8 | TH: cov 219 towers 4 chips 770 paint 1667 units 7
+r100 (n=15) US: cov 294 towers 3 chips 800 paint 1422 units 11 | TH: cov 306 towers 6 chips 1040 paint 2625 units 11
+r150 (n=15) US: cov 303 towers 3 chips 890 paint 1254 units 10 | TH: cov 399 towers 7 chips 2050 paint 2125 units 19
+r200 (n=13) US: cov 361 towers 5 chips 850 paint 1499 units 10 | TH: cov 566 towers 8 chips 2080 paint 3232 units 20
+r300 (n=8) US: cov 239.0 towers 2.5 chips 1865.0 paint 710.0 units 7.0 | TH: cov 1016.5 towers 13.0 chips 1435.0 paint 6743.0 units 50.5

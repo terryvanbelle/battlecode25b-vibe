@@ -1,0 +1,2 @@
+TH->US damage by type {'SOL': 98550, 'SPL': 21600} hits {'SOL': 1971, 'SPL': 216} kills by attacker mix (last 15 rounds) {'SO': 67, 'SOSP': 18, 'SP': 13}
+US->TH damage by type {'SOL': 46600, 'SPL': 700} hits {'SOL': 932, 'SPL': 7} kills by attacker mix (last 15 rounds) {'SO': 37}

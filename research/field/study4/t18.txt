@@ -1,0 +1,12 @@
+US
+   ready never built                  n=38 med 165.0 mean 128.3 p75 178 p90 191 sum 4875
+   wait rounds ready->build           n=70 med 17.0 mean 33.1 p75 44 p90 83 sum 2319
+   chips spent on units during wait   n=70 med 500.0 mean 929.3 p75 1250 p90 2650 sum 65050
+   chips at ready                     n=70 med 735.0 mean 704.7 p75 830 p90 990 sum 49330
+   waits >= 10 rounds                 n=70 med 1.0 mean 0.7 p75 1 p90 1 sum 46
+TH
+   wait rounds ready->build           n=142 med 3.0 mean 7.9 p75 8 p90 26 sum 1127
+   chips spent on units during wait   n=142 med 125.0 mean 606.0 p75 400 p90 800 sum 86050
+   chips at ready                     n=142 med 1059.0 mean 1303.3 p75 1660 p90 2575 sum 185075
+   waits >= 10 rounds                 n=142 med 0.0 mean 0.2 p75 0 p90 1 sum 33
+   ready never built                  n=15 med 307 mean 290.9 p75 330 p90 340 sum 4364

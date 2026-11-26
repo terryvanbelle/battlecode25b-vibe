@@ -1,0 +1,3 @@
+US defends {'mops on attackers': 'n=191 mean 0.26', 'kill rate when mops<3': 'n=184 mean 0.50', 'kill rate when mops>=3': 'n=7 mean 0.71'}
+TH defends {'mops on attackers': 'n=110 mean 2.30', 'kill rate when mops<3': 'n=74 mean 0.31', 'kill rate when mops>=3': 'n=36 mean 0.33'}
+mop targets {'TH': Counter({'robot': 1757, 'tile': 1755}), 'US': Counter({'robot': 212, 'tile': 212})}

@@ -1,0 +1,105 @@
+  old-but-gold
+     attackers per episode                                          med 1.5 mean 1.84 p10 1 p90 3 n=32
+     episode kills                                                  med 0.0 mean 0.44 p10 0 p90 1 n=32
+     episode length (rounds)                                        med 10.0 mean 10.12 p10 1 p90 19 n=32
+     attackers in KILLING episodes                                  med 2.5 mean 2.5 p10 1 p90 4 n=14
+     length of killing episodes                                     med 14.0 mean 14.64 p10 8 p90 28 n=14
+     arrival spread (first hits, rounds)                            med 4.5 mean 7.44 p10 1 p90 19 n=16
+     attacker types                                                 {'SOL': 45, 'SPL': 14}
+     SOL paint at first hit                                         med 124 mean 125.76 p10 54 p90 193 n=45
+     SOL rounds staged outside range (of 12 before 1st hit)         med 2 mean 2.42 p10 1 p90 4 n=45
+     op robots within d2<=25 at first hit                           med 1.0 mean 1.84 p10 1 p90 3 n=32
+     max op moppers within d2<=20 during episode                    med 0.0 mean 0.81 p10 0 p90 2 n=32
+     soldier attack turns ending OUTSIDE range (frac)               med 0.5 mean 0.4 p10 0.0 p90 0.5 n=25
+     soldier end-of-turn inside range during episode (frac)         med 0.5 mean 0.52 p10 0.3 p90 1.0 n=25
+     splasher hits share of episode damage events                   med 0.0 mean 0.24 p10 0.0 p90 1.0 n=32
+     target tower type                                              {'MO': 11, 'PA': 21}
+     SPL paint at first hit                                         med 142.5 mean 151.79 p10 83 p90 240 n=14
+     SPL rounds staged outside range (of 12 before 1st hit)         med 4.5 mean 4.79 p10 3 p90 7 n=14
+     first attack round on our towers                               med 33 mean 55.33 p10 31 p90 102 n=3
+     our towers killed per game                                     med 5 mean 4.67 p10 4 p90 5 n=3
+     episodes per game                                              med 11 mean 10.67 p10 7 p90 14 n=3
+  confused
+     attackers per episode                                          med 2 mean 2.07 p10 1 p90 4 n=41
+     episode kills                                                  med 1 mean 0.66 p10 0 p90 1 n=41
+     episode length (rounds)                                        med 16 mean 16.1 p10 3 p90 32 n=41
+     attackers in KILLING episodes                                  med 2 mean 2.41 p10 1 p90 4 n=27
+     length of killing episodes                                     med 18 mean 18.07 p10 4 p90 35 n=27
+     arrival spread (first hits, rounds)                            med 13 mean 14.28 p10 5 p90 25 n=25
+     attacker types                                                 {'SOL': 63, 'SPL': 22}
+     SOL paint at first hit                                         med 139 mean 133.44 p10 57 p90 191 n=63
+     SOL rounds staged outside range (of 12 before 1st hit)         med 2 mean 2.33 p10 1 p90 4 n=63
+     op robots within d2<=25 at first hit                           med 1 mean 1.56 p10 1 p90 3 n=41
+     max op moppers within d2<=20 during episode                    med 0 mean 0.24 p10 0 p90 1 n=41
+     soldier attack turns ending OUTSIDE range (frac)               med 0.4 mean 0.4 p10 0.2 p90 0.5 n=38
+     soldier end-of-turn inside range during episode (frac)         med 0.5 mean 0.51 p10 0.3 p90 0.8 n=38
+     splasher hits share of episode damage events                   med 0.0 mean 0.14 p10 0.0 p90 0.4 n=41
+     target tower type                                              {'MO': 25, 'PA': 16}
+     SPL paint at first hit                                         med 212.0 mean 189.86 p10 102 p90 258 n=22
+     SPL rounds staged outside range (of 12 before 1st hit)         med 4.0 mean 3.59 p10 1 p90 5 n=22
+     first attack round on our towers                               med 34 mean 39.67 p10 21 p90 64 n=3
+     our towers killed per game                                     med 8 mean 9.0 p10 6 p90 13 n=3
+     episodes per game                                              med 11 mean 13.67 p10 10 p90 20 n=3
+  just-woke-up
+     attackers per episode                                          med 1.0 mean 1.58 p10 1 p90 3 n=38
+     episode kills                                                  med 0.0 mean 0.34 p10 0 p90 1 n=38
+     episode length (rounds)                                        med 11.5 mean 10.42 p10 1 p90 24 n=38
+     arrival spread (first hits, rounds)                            med 10 mean 11.54 p10 4 p90 25 n=13
+     attacker types                                                 {'SOL': 35, 'SPL': 25}
+     SOL paint at first hit                                         med 158 mean 150.8 p10 107 p90 184 n=35
+     SOL rounds staged outside range (of 12 before 1st hit)         med 2 mean 2.8 p10 1 p90 5 n=35
+     op robots within d2<=25 at first hit                           med 1.0 mean 1.63 p10 1 p90 3 n=38
+     max op moppers within d2<=20 during episode                    med 0.0 mean 0.66 p10 0 p90 2 n=38
+     soldier attack turns ending OUTSIDE range (frac)               med 0.5 mean 0.44 p10 0.3 p90 0.5 n=26
+     soldier end-of-turn inside range during episode (frac)         med 0.5 mean 0.54 p10 0.5 p90 0.7 n=26
+     splasher hits share of episode damage events                   med 0.1 mean 0.36 p10 0.0 p90 1.0 n=38
+     target tower type                                              {'MO': 24, 'PA': 14}
+     SPL paint at first hit                                         med 191 mean 179.08 p10 85 p90 248 n=25
+     SPL rounds staged outside range (of 12 before 1st hit)         med 3 mean 3.28 p10 1 p90 5 n=25
+     attackers in KILLING episodes                                  med 2 mean 2.23 p10 1 p90 3 n=13
+     length of killing episodes                                     med 12 mean 13.0 p10 3 p90 28 n=13
+     first attack round on our towers                               med 78 mean 64.0 p10 11 p90 103 n=3
+     our towers killed per game                                     med 12 mean 10.67 p10 7 p90 13 n=3
+     episodes per game                                              med 13 mean 12.67 p10 10 p90 15 n=3
+  om-nom
+     attackers per episode                                          med 1.5 mean 1.91 p10 1 p90 4 n=56
+     episode kills                                                  med 0.5 mean 0.5 p10 0 p90 1 n=56
+     episode length (rounds)                                        med 11.5 mean 12.95 p10 1 p90 26 n=56
+     attackers in KILLING episodes                                  med 2.0 mean 2.5 p10 1 p90 4 n=28
+     length of killing episodes                                     med 11.5 mean 14.43 p10 1 p90 27 n=28
+     arrival spread (first hits, rounds)                            med 8.0 mean 10.93 p10 2 p90 26 n=28
+     attacker types                                                 {'SOL': 70, 'SPL': 37}
+     SOL paint at first hit                                         med 136.5 mean 128.17 p10 57 p90 191 n=70
+     SOL rounds staged outside range (of 12 before 1st hit)         med 2.0 mean 2.77 p10 1 p90 5 n=70
+     op robots within d2<=25 at first hit                           med 1.0 mean 1.84 p10 1 p90 4 n=56
+     max op moppers within d2<=20 during episode                    med 0.0 mean 0.62 p10 0 p90 2 n=56
+     soldier attack turns ending OUTSIDE range (frac)               med 0.4 mean 0.39 p10 0.2 p90 0.5 n=42
+     soldier end-of-turn inside range during episode (frac)         med 0.5 mean 0.54 p10 0.4 p90 0.7 n=42
+     splasher hits share of episode damage events                   med 0.0 mean 0.29 p10 0.0 p90 1.0 n=56
+     target tower type                                              {'PA': 31, 'MO': 25}
+     SPL paint at first hit                                         med 195 mean 193.0 p10 102 p90 289 n=37
+     SPL rounds staged outside range (of 12 before 1st hit)         med 4 mean 4.05 p10 1 p90 10 n=37
+     first attack round on our towers                               med 49 mean 64.0 p10 36 p90 107 n=3
+     our towers killed per game                                     med 11 mean 10.33 p10 8 p90 12 n=3
+     episodes per game                                              med 19 mean 18.67 p10 13 p90 24 n=3
+  subscribe-to-caterpillow
+     attackers per episode                                          med 2.0 mean 2.17 p10 1 p90 4 n=24
+     episode kills                                                  med 1.0 mean 0.62 p10 0 p90 1 n=24
+     episode length (rounds)                                        med 15.5 mean 15.96 p10 4 p90 30 n=24
+     attackers in KILLING episodes                                  med 3 mean 2.8 p10 1 p90 5 n=15
+     length of killing episodes                                     med 18 mean 18.13 p10 6 p90 30 n=15
+     arrival spread (first hits, rounds)                            med 18 mean 17.38 p10 6 p90 27 n=13
+     attacker types                                                 {'SOL': 33, 'SPL': 19}
+     SOL paint at first hit                                         med 147 mean 147.45 p10 103 p90 188 n=33
+     SOL rounds staged outside range (of 12 before 1st hit)         med 2 mean 2.64 p10 1 p90 3 n=33
+     op robots within d2<=25 at first hit                           med 2.0 mean 2.0 p10 1 p90 4 n=24
+     max op moppers within d2<=20 during episode                    med 0.0 mean 0.83 p10 0 p90 2 n=24
+     soldier attack turns ending OUTSIDE range (frac)               med 0.5 mean 0.42 p10 0.3 p90 0.5 n=21
+     soldier end-of-turn inside range during episode (frac)         med 0.5 mean 0.51 p10 0.3 p90 0.7 n=21
+     splasher hits share of episode damage events                   med 0.0 mean 0.17 p10 0.0 p90 1.0 n=24
+     target tower type                                              {'MO': 11, 'PA': 13}
+     first attack round on our towers                               med 42 mean 41.33 p10 22 p90 60 n=3
+     our towers killed per game                                     med 4 mean 5.0 p10 2 p90 9 n=3
+     episodes per game                                              med 5 mean 8.0 p10 3 p90 16 n=3
+     SPL paint at first hit                                         med 241 mean 192.05 p10 5 p90 297 n=19
+     SPL rounds staged outside range (of 12 before 1st hit)         med 5 mean 5.95 p10 1 p90 12 n=19

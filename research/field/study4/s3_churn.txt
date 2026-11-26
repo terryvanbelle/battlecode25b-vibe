@@ -1,0 +1,9 @@
+old-but-gold games (m,g,map,builds,self-destroyed,first round): [(1178, 0, 'DefaultHuge', 24, 0, None), (1178, 1, 'Justice', 3, 0, None), (1178, 2, 'box', 4, 0, None)]
+confused games (m,g,map,builds,self-destroyed,first round): [(1179, 0, 'AlarmClock', 23, 7, 169), (1179, 1, 'Leaf', 108, 80, 204), (1179, 2, 'Snowman', 11, 2, 184)]
+   lifetime med 20 p10/p90 6 141 | paint at last turn med 0 | max paint ever med 349 | paint withdrawn from it med 52 | withdrawals 1 | chips at death med 2076
+   rebuilt on same ruin: 78 / 89 as Counter({'MO': 78}) delay med 0.0 | first examples [(169, 101, 0, 200, 2080, (57, 'MO')), (194, 90, 0, 200, 1110, (24, 'MO')), (206, 125, 0, 200, 1350, None), (206, 191, 0, 100, 1350, None), (218, 25, 0, 100, 3090, (0, 'MO')), (227, 56, 0, 300, 1050, (0, 'MO')), (227, 59, 0, 0, 1050, None), (204, 14, 88, 312, 3520, (0, 'MO'))]
+just-woke-up games (m,g,map,builds,self-destroyed,first round): [(1180, 0, 'mit', 20, 0, None), (1180, 1, 'shell', 16, 0, None), (1180, 2, 'sunrise', 19, 0, None)]
+om-nom games (m,g,map,builds,self-destroyed,first round): [(1181, 0, 'Justice', 21, 11, 328), (1181, 1, 'PlumberGame', 28, 9, 169), (1181, 2, 'walalilongla', 24, 5, 127)]
+   lifetime med 11 p10/p90 5 143 | paint at last turn med 0 | max paint ever med 194 | paint withdrawn from it med 100 | withdrawals 9 | chips at death med 4150
+   rebuilt on same ruin: 23 / 25 as Counter({'MO': 23}) delay med 0 | first examples [(328, 314, 0, 200, 18190, (0, 'MO')), (365, 37, 0, 100, 19060, (0, 'MO')), (375, 10, 0, 100, 17740, (0, 'MO')), (382, 7, 0, 200, 16810, (0, 'MO')), (392, 10, 0, 100, 15790, (0, 'MO')), (408, 16, 0, 100, 14630, (0, 'MO')), (434, 26, 0, 100, 14210, (0, 'MO')), (439, 5, 0, 200, 8040, (0, 'MO'))]
+subscribe-to-caterpillow games (m,g,map,builds,self-destroyed,first round): [(1182, 0, 'Barcode', 11, 0, None), (1182, 1, 'DefaultLarge', 14, 0, None), (1182, 2, 'SandyBeach', 8, 0, None)]

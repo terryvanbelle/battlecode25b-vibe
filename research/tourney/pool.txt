@@ -68,7 +68,7 @@
 # y42 (retired: -1 vs y30 after 714)
 # y43 (retired: +6 vs y30 after 710)
 # sw26 (retired: -29 vs y30 after 305; money-first + 1000 reserve alone)
-y44
+# y44 (retired: control; -153 vs t04)
 # sw27 (retired: -72 vs y30 after 304; S-M-X cycle as built)
 # sw28 (retired: -115 vs y44 after 512)
 # sw29 (retired: -108 vs y44 after 551; money-first economy hurts)
@@ -96,13 +96,18 @@ y44
 # y59 (retired: -14 vs y56 after 297; upgrade at cost)
 # t01 (retired: -101 vs y58 after 315; splasher-heavy late mix)
 # t02 (retired: -8 vs y58 after 531; in t04)
-t03
+# t03 (retired: -36 vs t04 after 428; in t04)
 # y60 (retired: -4 vs y58 after 436; no coverage to r35)
 # y61 (retired: -26 vs y58 after 396; churn 1500)
 t04
-y62
+# y62 (retired: -49 vs t04 after 207)
 y63
 y64
 y65
 y66
 y67
+t05
+t06
+t07
+t08
+t09
