@@ -140,3 +140,6 @@ Actually, let's get rid of the heatmap, and just have the graph of average delta
 
 ## #38 (2026-11-26 16:09 PDT)
 Can we do a statistical test of the hypothesis that positive, but not too positive, local Elo gains lead to replica Elo losses?
+
+## #39 (2026-11-26 16:12 PDT)
+Agreed on your caveat.  Maybe we can pre-register a hypothesis and see if it holds out for future champions in a few days from now

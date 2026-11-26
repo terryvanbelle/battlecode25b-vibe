@@ -4,8 +4,8 @@ Windows as on the dashboard: dL = local champion change over [t-120, t-60], dR =
 Usage: python3 research/replica/deltatest.py BOARD.json [SINCE]   (BOARD from `tools/prod.sh board`)
 
 The hypothesis and its cutoff (U = 44) were chosen on 2026-11-26 after looking at the windows up to 16:07 PDT, so
-p-values on those windows are optimistic. Confirmatory run, fixed in advance: pass SINCE = '2026-11-26 16:07' to use
-only later windows, and read the primary line (G = +1..+44; relative test, rotation p; absolute test, NW p)."""
+p-values on those windows are optimistic. The confirmatory test is pre-registered in research/replica/PREREG.md:
+SINCE = '2026-11-26 18:07', evaluated from 2026-11-29 16:07 PDT; read the primary lines (rotation p, absolute p)."""
 import json, math, sys
 from datetime import datetime, timedelta
 

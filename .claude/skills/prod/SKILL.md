@@ -37,6 +37,8 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
 5. `tools/prod.sh replica` - replica Elo sample and chart, local chart, parity top-up, fetch, recent matches.
    Its `tools/record.py` line names the replica record holder (owner #35: a permanent pool slot unless it is the
    champion or already active). Act on an `ADD` or retire line it prints.
+   At the first prod on or after 2026-11-29 16:07 PDT, run the pre-registered test once (`research/replica/PREREG.md`,
+   owner #39) and report it; never look at it earlier.
 6. `tools/prod.sh disk`.
 6b. Dashboard (https://claude.ai/artifact/DstLySDMnQvBtaAszuM2nB, a Data-type artifact): `tools/prod.sh board
    SCRATCH/board.json`, upload it with the Artifact tool (`url` above, `asset: true`), then one ArtifactData batch
