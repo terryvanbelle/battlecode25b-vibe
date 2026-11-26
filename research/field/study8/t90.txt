@@ -1,0 +1,39 @@
+== lost (41): medians per game, us / them
+   r1-50: away % 18/23  hits 9/8  tower kills 0/0  robots lost to towers 0/0
+   r51-100: away % 33/34  hits 34/17  tower kills 1/0  robots lost to towers 1/0
+   first mopper: us med r92 (none in 4), them med r44 (none in 0)
+== won (51): medians per game, us / them
+   r1-50: away % 14/14  hits 2/0  tower kills 0/0  robots lost to towers 0/0
+   r51-100: away % 28/26  hits 20/10  tower kills 1/0  robots lost to towers 1/0
+   first mopper: us med r92 (none in 0), them med r42 (none in 0)
+
+== result by the starting paint towers: (our start PT killed by rN?, theirs killed by rN?) -> won / lost
+   by r100: ours killed False theirs killed False: won 40 lost 28
+   by r100: ours killed True  theirs killed False: won  2 lost  8
+   by r100: ours killed False theirs killed True : won  7 lost  3
+   by r100: ours killed True  theirs killed True : won  2 lost  2
+   by r150: ours killed False theirs killed False: won 34 lost 26
+   by r150: ours killed True  theirs killed False: won  4 lost 10
+   by r150: ours killed False theirs killed True : won 10 lost  3
+   by r150: ours killed True  theirs killed True : won  3 lost  2
+
+== games where our starting paint tower fell by r150: round, map, opponent, result, their start PT fell
+   m2888g2   r58   rain          gone-whalin  won   theirs: r447
+   m2920g1   r34   SandyBeach    gone-whalin  won   theirs: rNone
+   m2921g1   r138  Paintball     spaark       LOST  theirs: rNone
+   m2922g0   r59   Portal        scienceqiu   LOST  theirs: rNone
+   m2970g0   r47   Bunny         gone-whalin  LOST  theirs: r86
+   m2973g0   r40   SandyBeach    subscribe-to LOST  theirs: rNone
+   m2979g0   r64   Bunny         scienceqiu   LOST  theirs: rNone
+   m2979g1   r100  BunnyGame     scienceqiu   LOST  theirs: rNone
+   m2990g0   r44   Bunny         gone-whalin  LOST  theirs: rNone
+   m3067g0   r107  Flower        gone-whalin  LOST  theirs: r461
+   m3067g1   r42   rain          gone-whalin  LOST  theirs: rNone
+   m3111g1   r130  MoneyTower    varunvejalla won   theirs: r422
+   m3111g2   r120  starburst     varunvejalla won   theirs: rNone
+   m3185g1   r68   defensetower  immutable    won   theirs: r88
+   m3187g2   r38   memstore      spaark       won   theirs: r39
+   m3188g0   r49   Filter        scienceqiu   LOST  theirs: r69
+   m3188g2   r106  leavemealone  scienceqiu   won   theirs: r91
+   m3190g1   r51   FourCorners   slifland     LOST  theirs: rNone
+   m3190g2   r90   Paintball     slifland     LOST  theirs: rNone

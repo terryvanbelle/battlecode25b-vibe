@@ -1,0 +1,42 @@
+== lost: 41 games
+   mean robots per round by phase (median over games), us | them:  S / M / X
+   r1-50 (n=41): alive      5.5/0.0/0.0 | 5.1/0.1/0.0        spawned      8/0/0 | 6/1/0
+   r51-100 (n=41): alive      7.3/0.2/0.0 | 5.9/1.7/0.0        spawned      3/1/0 | 1/2/0
+   r101-200 (n=39): alive      7.0/2.4/0.7 | 7.6/5.4/0.6        spawned      5/4/2 | 6/5/1
+   r201-300 (n=30): alive      7.4/4.3/2.7 | 10.1/11.5/4.2      spawned 6.0/4.0/3.0 | 9.0/11.0/5.0
+== won: 51 games
+   mean robots per round by phase (median over games), us | them:  S / M / X
+   r1-50 (n=51): alive      5.7/0.0/0.0 | 4.7/0.2/0.0        spawned      8/0/0 | 6/1/0
+   r51-100 (n=51): alive      7.8/0.2/0.0 | 6.1/1.5/0.0        spawned      3/1/0 | 2/2/0
+   r101-200 (n=51): alive     10.2/3.4/1.0 | 6.7/5.3/0.3        spawned      8/5/2 | 4/5/1
+   r201-300 (n=46): alive     13.6/7.1/5.3 | 7.7/8.4/1.3        spawned 12.0/7.0/8.0 | 5.5/6.0/2.0
+== lost-small: 7 games
+   mean robots per round by phase (median over games), us | them:  S / M / X
+   r1-50 (n= 7): alive      5.1/0.0/0.0 | 4.8/0.6/0.0        spawned      8/0/0 | 7/1/0
+   r51-100 (n= 7): alive      4.6/0.0/0.0 | 4.7/1.6/0.5        spawned      1/0/0 | 1/2/1
+   r101-200 (n= 5): alive      1.6/0.2/0.3 | 3.4/2.6/1.0        spawned      1/1/1 | 3/1/0
+   r201-300 (n= 2): alive      4.1/2.8/0.8 | 5.8/2.7/3.4        spawned 3.5/3.5/0.5 | 2.0/2.0/1.5
+== lost-medium: 16 games
+   mean robots per round by phase (median over games), us | them:  S / M / X
+   r1-50 (n=16): alive      5.5/0.0/0.0 | 5.2/0.1/0.0        spawned 7.0/0.0/0.0 | 7.0/1.0/0.0
+   r51-100 (n=16): alive      7.3/0.4/0.0 | 6.2/2.0/0.0        spawned 3.0/1.0/0.0 | 1.0/2.0/0.0
+   r101-200 (n=16): alive      5.1/2.3/0.5 | 7.3/4.9/0.5        spawned 3.5/2.5/0.5 | 5.5/4.0/0.5
+   r201-300 (n=10): alive      4.6/3.4/1.6 | 8.7/8.7/2.9        spawned 4.0/2.5/1.5 | 6.5/9.0/3.5
+== lost-large: 18 games
+   mean robots per round by phase (median over games), us | them:  S / M / X
+   r1-50 (n=18): alive      5.7/0.0/0.0 | 4.9/0.1/0.0        spawned 8.0/0.0/0.0 | 6.0/1.0/0.0
+   r51-100 (n=18): alive      7.4/0.2/0.0 | 6.3/1.5/0.0        spawned 3.5/1.5/0.0 | 1.5/3.0/0.0
+   r101-200 (n=18): alive      9.6/2.9/0.8 | 9.0/6.5/0.5        spawned 6.5/5.5/2.0 | 7.0/11.0/2.5
+   r201-300 (n=18): alive      9.2/4.4/3.4 | 14.0/17.1/4.7      spawned 8.0/5.0/5.0 | 9.5/14.0/7.0
+== won-medium: 19 games
+   mean robots per round by phase (median over games), us | them:  S / M / X
+   r1-50 (n=19): alive      5.8/0.0/0.0 | 4.7/0.1/0.0        spawned      8/0/0 | 6/1/0
+   r51-100 (n=19): alive      7.8/0.2/0.0 | 6.3/2.0/0.0        spawned      3/1/0 | 2/2/0
+   r101-200 (n=19): alive      8.9/3.0/0.7 | 5.9/5.4/0.0        spawned      7/5/2 | 4/5/0
+   r201-300 (n=15): alive      8.8/5.4/2.0 | 4.5/6.6/0.4        spawned      8/6/3 | 2/6/1
+== won-large: 30 games
+   mean robots per round by phase (median over games), us | them:  S / M / X
+   r1-50 (n=30): alive      5.5/0.0/0.0 | 4.7/0.2/0.0        spawned 8.0/0.0/0.0 | 6.0/1.0/0.0
+   r51-100 (n=30): alive      7.6/0.1/0.0 | 6.1/1.3/0.0        spawned 3.0/1.0/0.0 | 2.0/2.0/0.0
+   r101-200 (n=30): alive     11.6/3.5/1.3 | 7.9/5.3/1.1        spawned 8.5/6.0/3.0 | 4.0/6.0/1.0
+   r201-300 (n=29): alive     16.9/8.2/7.7 | 9.9/8.6/1.5        spawned    15/8/11 | 7/6/3

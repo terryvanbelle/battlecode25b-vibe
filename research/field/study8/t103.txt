@@ -1,0 +1,12 @@
+== lost games
+   us: turns beside a drained money tower 11397, no action, other paint change 8830, with an action of its own 1781, no action, paint -5..-7 (a blank attack) 435, no action, enemy mopper near 351
+        (soldier, tower) pairs with a blank attack: 260 in 24 games
+   them: turns beside a drained money tower 8370, no action, other paint change 5909, with an action of its own 2241, no action, paint -5..-7 (a blank attack) 220
+        (soldier, tower) pairs with a blank attack: 181 in 14 games
+
+== won games
+   us: turns beside a drained money tower 13743, no action, other paint change 10739, with an action of its own 2389, no action, paint -5..-7 (a blank attack) 343, no action, enemy mopper near 272
+        (soldier, tower) pairs with a blank attack: 196 in 29 games
+   them: turns beside a drained money tower 1802, no action, other paint change 1209, with an action of its own 536, no action, paint -5..-7 (a blank attack) 45, no action, enemy mopper near 12
+        (soldier, tower) pairs with a blank attack: 38 in 13 games
+

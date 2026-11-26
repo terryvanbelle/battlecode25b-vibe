@@ -1,0 +1,18 @@
+== lost games: splasher damage on towers (HP) by the splasher's distance from the tower (attacker side)
+   us   total 12800: d2 <= 9: 6800 (53%), d2 10-16: 3400 (27%), d2 > 16: 2600 (20%)
+        on P towers 4600: from outside d2 9: 2000 (43%)
+        on M towers 7000: from outside d2 9: 3100 (44%)
+        on D towers 1200: from outside d2 9: 900 (75%)
+   them total 53000: d2 <= 9: 17400 (33%), d2 10-16: 31500 (59%), d2 > 16: 4100 (8%)
+        on P towers 13300: from outside d2 9: 9200 (69%)
+        on M towers 39700: from outside d2 9: 26400 (66%)
+
+== won games: splasher damage on towers (HP) by the splasher's distance from the tower (attacker side)
+   us   total 45600: d2 <= 9: 25000 (55%), d2 10-16: 14500 (32%), d2 > 16: 6100 (13%)
+        on P towers 8100: from outside d2 9: 3700 (46%)
+        on M towers 26900: from outside d2 9: 11700 (43%)
+        on D towers 10600: from outside d2 9: 5200 (49%)
+   them total 31400: d2 <= 9: 9400 (30%), d2 10-16: 20000 (64%), d2 > 16: 2000 (6%)
+        on P towers 12900: from outside d2 9: 9600 (74%)
+        on M towers 18500: from outside d2 9: 12400 (67%)
+

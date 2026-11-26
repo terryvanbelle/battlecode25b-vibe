@@ -1,0 +1,12 @@
+== lost games (41)
+   us  : single-target hits 7595: SO 6494 (86%), SP 824 (11%), MO 277 (4%) | kills SO 394 SP 115 MO 118 | turns with a mopper and a soldier/splasher in range: 48, mopper hit on 56%
+         victim HP at the hit, median: SO 160.0, SP 120.0, MO 50.0
+   them: single-target hits 5583: SO 5056 (91%), SP 400 (7%), MO 127 (2%) | kills SO 468 SP 81 MO 73 | turns with a mopper and a soldier/splasher in range: 41, mopper hit on 59%
+         victim HP at the hit, median: SO 180.0, SP 120.0, MO 50
+
+== won games (51)
+   us  : single-target hits 6049: SO 5334 (88%), SP 521 (9%), MO 194 (3%) | kills SO 276 SP 83 MO 80 | turns with a mopper and a soldier/splasher in range: 31, mopper hit on 45%
+         victim HP at the hit, median: SO 160.0, SP 120, MO 50.0
+   them: single-target hits 7183: SO 5852 (81%), SP 1055 (15%), MO 276 (4%) | kills SO 561 SP 264 MO 162 | turns with a mopper and a soldier/splasher in range: 51, mopper hit on 67%
+         victim HP at the hit, median: SO 180, SP 120, MO 50
+

@@ -39,6 +39,7 @@ case "${1:-}" in
   replica)
     $PY tools/tourney.py rank >/dev/null
     $PY tools/replica_elo.py sample
+    $PY tools/record.py
     $VPY tools/replica_elo.py chart
     $VPY tools/tourney.py chart | tail -1
     $PY tools/parity.py --topup

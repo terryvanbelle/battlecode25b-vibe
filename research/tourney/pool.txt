@@ -309,7 +309,7 @@
 # t88 (retired: built on t85, champion now t91)
 # t89 (retired: -88 vs t85 after 131; walk to remembered free ruins, study 7 2.1b)
 # t90 (retired: built on t85, champion now t91)
-# t91 (retired at y195's crowning)
+t91  # replica record: 1667 at #7 on 11-26 13:07 PDT; permanent slot (owner #35), retired at y195's crowning before that
 # y188 (retired: built on t85, champion now t91)
 # y189 (retired: built on t85, champion now t91)
 # y190 (retired: built on t85, champion now t91)
@@ -345,8 +345,15 @@
 y211
 # y212 (retired: built on y197, champion now y211)
 y213
-y214
-y215
+# y214 (retired: -85 vs y211 after 125; SRPs from 4 towers)
+# y215 (retired: -122 vs y211 after 131; nearest unseen of 24 draws)
 y216
 t101
 y217
+y218
+# y219 (retired unplayed: slot for study 8 candidates)
+# y220 (retired unplayed: slot for study 8 candidates)
+t102
+t105
+t104
+t103

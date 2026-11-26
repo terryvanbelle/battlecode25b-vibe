@@ -1,0 +1,510 @@
+== m2873g1 rain (30x30, 850 paintable) vs placeholder-name-2, t74, LOST MAJORITY_PAINTED r412
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  900 cov 12.2 p 1720 srp 0 | them T 5(P1M4D0) S 5 X 0 M 0 $ 1070 cov 18.4 p 2078 srp 0
+   r100  us T 6(P1M5D0) S 7 X 0 M 2 $ 1860 cov 23.1 p 1278 srp 0 | them T 6(P1M5D0) S 4 X 1 M 2 $  390 cov 29.5 p 2614 srp 0
+   r150  us T 5(P1M4D0) S 4 X 0 M 1 $ 1550 cov 23.3 p  546 srp 0 | them T 6(P1M5D0) S 8 X 1 M 6 $  366 cov 42.6 p 1754 srp 1
+   r200  us T 4(P1M3D0) S 2 X 1 M 1 $ 3840 cov 23.3 p  454 srp 0 | them T 8(P1M7D0) S10 X 0 M 6 $  977 cov 47.9 p 2280 srp 1
+   r250  us T 3(P1M2D0) S 2 X 2 M 0 $ 3810 cov 20.2 p  711 srp 0 | them T10(P2M8D0) S10 X 0 M12 $ 1183 cov 53.5 p 2306 srp 3
+   r300  us T 1(P1M0D0) S 1 X 2 M 1 $ 3900 cov 20.6 p  455 srp 0 | them T 9(P2M7D0) S14 X 0 M11 $ 1564 cov 53.4 p 2278 srp 4
+   r350  us T 2(P1M1D0) S 3 X 2 M 2 $ 1040 cov 20.1 p 1108 srp 0 | them T 9(P2M7D0) S11 X 1 M 9 $ 2999 cov 60.9 p 2407 srp 3
+   r400  us T 2(P0M2D0) S 2 X 1 M 3 $ 1430 cov 15.9 p  400 srp 0 | them T11(P2M9D0) S11 X 2 M12 $ 1147 cov 66.9 p 3293 srp 3
+   r412  us T 2(P0M2D0) S 2 X 0 M 2 $ 1910 cov 13.1 p  322 srp 0 | them T11(P2M9D0) S11 X 2 M13 $ 4576 cov 70.5 p 3009 srp 4
+   ours killed (8): r122 M(SO800,SP100) r157 M r221 M r227 M r271 M r281 M r337 M r365 P(SO350,SP100)
+   theirs killed (6): r56 M r64 M r112 M r126 M r251 M(SO900,SP100) r338 M
+
+== m2897g0 Crab (40x30, 1046 paintable) vs immutable, t74, LOST MAJORITY_PAINTED r431
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  840 cov 12.9 p 1493 srp 0 | them T 5(P1M4D0) S 7 X 0 M 0 $  250 cov 15.5 p 2096 srp 0
+   r100  us T 7(P1M6D0) S 8 X 0 M 2 $ 1040 cov 21.2 p 2484 srp 0 | them T 5(P1M4D0) S 9 X 2 M 3 $  270 cov 33.8 p 2039 srp 0
+   r150  us T 9(P1M8D0) S 7 X 2 M 3 $ 1860 cov 36.0 p 1642 srp 0 | them T 7(P2M5D0) S11 X 2 M 4 $  970 cov 39.6 p 3075 srp 0
+   r200  us T 8(P1M7D0) S12 X 3 M 9 $ 1817 cov 41.7 p 2707 srp 2 | them T 7(P2M5D0) S10 X 7 M 6 $ 1325 cov 45.3 p 2444 srp 2
+   r250  us T 7(P1M6D0) S11 X 4 M 9 $ 2317 cov 44.2 p 3214 srp 2 | them T 7(P3M4D0) S10 X11 M 8 $ 1863 cov 45.2 p 3675 srp 3
+   r300  us T 7(P1M6D0) S14 X 5 M 9 $ 1120 cov 42.4 p 3276 srp 2 | them T 6(P2M3D1) S13 X10 M12 $  903 cov 49.1 p 4328 srp 4
+   r350  us T 7(P1M6D0) S 6 X 2 M 6 $ 2288 cov 38.0 p 1499 srp 3 | them T 7(P3M3D1) S12 X15 M14 $ 1430 cov 54.8 p 5327 srp 3
+   r400  us T 5(P1M4D0) S 8 X 3 M 3 $ 5311 cov 31.9 p 1409 srp 3 | them T10(P4M5D1) S16 X22 M16 $ 1889 cov 64.7 p 8364 srp 6
+   r431  us T 5(P1M4D0) S 4 X 4 M 1 $ 5817 cov 25.9 p 1034 srp 3 | them T11(P5M5D1) S19 X28 M16 $  934 cov 70.1 p10542 srp 7
+   ours killed (5): r67 M r105 M r189 M(SP400) r230 M r382 M(SO150,SP200)
+   theirs killed (8): r82 M r97 M r123 M r202 M r204 M r262 P r263 M r297 M
+
+== m2919g1 gridworld (31x31, 769 paintable) vs immutable, t74, LOST MAJORITY_PAINTED r427
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  860 cov 17.3 p 1524 srp 0 | them T 5(P1M4D0) S 6 X 0 M 0 $  600 cov 21.5 p 2100 srp 0
+   r100  us T10(P2M8D0) S 8 X 0 M 0 $  920 cov 30.2 p 4220 srp 0 | them T 9(P4M5D0) S 7 X 0 M 2 $  750 cov 41.2 p 3695 srp 0
+   r150  us T10(P2M8D0) S13 X 3 M 4 $  860 cov 40.7 p 3344 srp 0 | them T 9(P3M5D1) S 6 X 2 M 8 $  810 cov 39.9 p 4881 srp 0
+   r200  us T10(P2M8D0) S 1 X 3 M 6 $ 2640 cov 41.7 p 1458 srp 0 | them T11(P3M5D3) S 8 X 5 M12 $ 1110 cov 39.4 p 5280 srp 0
+   r250  us T10(P2M8D0) S 3 X 3 M 4 $ 5740 cov 36.2 p 1797 srp 0 | them T13(P4M5D4) S10 X 7 M19 $ 1190 cov 48.2 p 5100 srp 0
+   r300  us T 9(P2M7D0) S 3 X 3 M 1 $ 4400 cov 31.5 p 1211 srp 0 | them T15(P5M6D4) S 9 X 8 M23 $  830 cov 54.7 p 5186 srp 0
+   r350  us T 6(P2M4D0) S 2 X 1 M 2 $ 1280 cov 21.2 p  848 srp 0 | them T17(P7M6D4) S 7 X12 M21 $ 1120 cov 64.0 p 5200 srp 0
+   r400  us T 4(P2M2D0) S 2 X 3 M 0 $ 3050 cov 17.3 p  796 srp 0 | them T15(P7M6D2) S 5 X15 M18 $  910 cov 65.7 p 5017 srp 0
+   r427  us T 4(P2M2D0) S 3 X 3 M 1 $ 3850 cov 13.7 p  809 srp 0 | them T17(P9M6D2) S 4 X18 M17 $  970 cov 71.0 p 6303 srp 0
+   ours killed (7): r117 M r279 M r304 M r313 M(SP300,SO800) r332 M(SP100,SO100) r357 M r388 M(SO350,SP100)
+   theirs killed (4): r121 P r123 P r138 P r169 P(SO800,SP100)
+
+== m2919g2 windmill (30x30, 780 paintable) vs immutable, t74, LOST MAJORITY_PAINTED r220
+   r50   us T 3(P1M2D0) S 8 X 0 M 0 $  840 cov 11.9 p 1470 srp 0 | them T 5(P1M4D0) S 7 X 0 M 0 $  290 cov 21.7 p 2006 srp 0
+   r100  us T 4(P1M3D0) S 8 X 0 M 0 $ 1240 cov 16.7 p 1287 srp 0 | them T 5(P1M4D0) S 8 X 0 M 2 $  720 cov 43.8 p 2596 srp 0
+   r150  us T 3(P1M2D0) S 6 X 1 M 1 $ 1020 cov 23.7 p 1176 srp 0 | them T 5(P1M4D0) S12 X 0 M 4 $  991 cov 56.0 p 2873 srp 2
+   r200  us T 1(P1M0D0) S 2 X 1 M 2 $ 2310 cov 26.0 p  548 srp 0 | them T 6(P1M5D0) S16 X 2 M 6 $  299 cov 59.6 p 3944 srp 2
+   r220  us T 1(P1M0D0) S 1 X 2 M 3 $ 1610 cov 24.1 p  283 srp 0 | them T 6(P1M5D0) S17 X 3 M 8 $ 1199 cov 69.1 p 3362 srp 2
+   ours killed (5): r45 M r126 M r176 M r197 M r199 M
+   theirs killed (8): r54 M r88 M r98 M r107 M r118 M r140 M r153 M r197 M
+
+== m2920g2 fix (40x50, 1856 paintable) vs gone-whalin, t74, LOST MAJORITY_PAINTED r482
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  800 cov  7.6 p 1431 srp 0 | them T 5(P1M4D0) S 5 X 0 M 0 $  690 cov  8.0 p 2146 srp 0
+   r100  us T 8(P1M7D0) S10 X 0 M 2 $ 1010 cov 14.7 p 2182 srp 0 | them T10(P1M9D0) S 5 X 0 M 4 $  610 cov 10.8 p 4370 srp 0
+   r150  us T 8(P1M7D0) S10 X 1 M 1 $ 2810 cov 25.5 p 1532 srp 0 | them T10(P1M9D0) S 3 X 0 M 9 $ 3150 cov 11.7 p 4892 srp 0
+   r200  us T 8(P2M6D0) S 8 X 2 M 0 $  180 cov 32.3 p 2686 srp 0 | them T11(P1M10D0) S14 X 0 M14 $ 3920 cov 14.8 p 4890 srp 0
+   r250  us T 7(P3M4D0) S 5 X 2 M 0 $ 1118 cov 30.9 p 2383 srp 0 | them T10(P1M9D0) S19 X 0 M19 $ 3160 cov 24.8 p 3581 srp 0
+   r300  us T 7(P3M4D0) S 4 X 6 M 3 $ 1448 cov 30.8 p 2212 srp 0 | them T12(P1M11D0) S15 X 1 M13 $ 3110 cov 30.9 p 4868 srp 0
+   r350  us T 8(P3M5D0) S 5 X 7 M 2 $ 1598 cov 32.9 p 2065 srp 0 | them T16(P1M15D0) S14 X 6 M14 $ 4480 cov 39.1 p 5700 srp 0
+   r400  us T 7(P3M4D0) S 4 X 6 M 2 $ 2398 cov 26.2 p 1643 srp 0 | them T17(P1M16D0) S17 X10 M20 $ 3560 cov 51.3 p 7269 srp 0
+   r450  us T 9(P5M4D0) S 4 X 5 M 0 $ 2448 cov 19.7 p 1921 srp 0 | them T18(P1M17D0) S19 X12 M14 $  800 cov 65.1 p 9740 srp 0
+   r482  us T 6(P4M2D0) S 3 X 3 M 0 $ 3278 cov 15.9 p 1265 srp 0 | them T18(P1M17D0) S19 X15 M15 $ 5400 cov 70.5 p 8221 srp 0
+   ours killed (15): r122 M r174 M r187 M r191 M r197 M r203 M r220 M r229 M r240 M r243 M r277 M r393 M r453 M r457 M r467 P
+   theirs killed (13): r88 M r106 M r113 M r116 M r159 M r174 M r209 M r211 M r328 M r396 M(SP200,SO350) r415 M(SO900,SP100) r468 M r481 M
+
+== m2922g0 Portal (35x35, 1129 paintable) vs scienceqiu, t74, LOST MAJORITY_PAINTED r362
+   r50   us T 4(P1M3D0) S 7 X 0 M 0 $  950 cov 14.3 p 1622 srp 0 | them T 4(P1M3D0) S 5 X 0 M 1 $  850 cov 19.6 p 1391 srp 0
+   r100  us T 4(P0M4D0) S 7 X 0 M 2 $ 1030 cov 23.6 p 1056 srp 0 | them T 6(P2M4D0) S 7 X 0 M 2 $  940 cov 32.7 p 2146 srp 0
+   r150  us T 4(P0M4D0) S 8 X 0 M 5 $ 1200 cov 30.7 p 1333 srp 0 | them T 8(P4M4D0) S 8 X 0 M 3 $  490 cov 38.9 p 2893 srp 0
+   r200  us T 3(P0M3D0) S 7 X 0 M 3 $  880 cov 32.8 p 1485 srp 0 | them T 9(P5M4D0) S 7 X 0 M 9 $ 1216 cov 42.2 p 3899 srp 2
+   r250  us T 4(P0M4D0) S 4 X 0 M 3 $ 1150 cov 26.8 p 1549 srp 0 | them T10(P5M4D1) S 9 X 2 M16 $ 1146 cov 49.4 p 5712 srp 3
+   r300  us T 4(P0M4D0) S 4 X 0 M 3 $ 1240 cov 21.9 p  692 srp 0 | them T13(P5M6D2) S12 X 2 M19 $  687 cov 58.6 p 7409 srp 3
+   r350  us T 2(P0M2D0) S 2 X 0 M 1 $ 3050 cov 15.6 p  397 srp 0 | them T15(P6M7D2) S15 X 7 M20 $  485 cov 67.9 p 9065 srp 3
+   r362  us T 2(P0M2D0) S 1 X 0 M 1 $ 3530 cov 13.6 p  183 srp 0 | them T17(P7M8D2) S15 X 7 M19 $ 1052 cov 70.1 p10436 srp 3
+   ours killed (11): r59 P r125 M r138 M r177 M r214 M r231 M r264 M r283 M r309 M(SP100,SO550) r327 M r347 M
+   theirs killed (4): r88 M r137 P r256 P r290 P
+
+== m2922g1 UnderTheSea (45x45, 1847 paintable) vs scienceqiu, t74, LOST MAJORITY_PAINTED r341
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  920 cov 20.0 p 1477 srp 0 | them T 4(P1M3D0) S 8 X 0 M 0 $  980 cov 22.9 p 1401 srp 0
+   r100  us T 7(P1M6D0) S14 X 0 M 2 $ 1150 cov 27.7 p 2138 srp 0 | them T 7(P2M5D0) S11 X 0 M 1 $  325 cov 31.0 p 2819 srp 1
+   r150  us T 8(P1M7D0) S14 X 0 M 5 $ 1210 cov 34.7 p 1919 srp 0 | them T12(P4M8D0) S13 X 0 M 3 $  129 cov 36.9 p 4461 srp 2
+   r200  us T 8(P1M7D0) S14 X 1 M10 $ 1980 cov 38.7 p 2945 srp 6 | them T11(P4M7D0) S20 X 3 M16 $ 2196 cov 42.7 p 5562 srp 5
+   r250  us T 8(P1M7D0) S12 X 3 M 7 $ 1313 cov 33.7 p 2277 srp 8 | them T12(P6M6D0) S19 X 4 M36 $ 1090 cov 49.4 p 9061 srp 9
+   r300  us T 6(P1M5D0) S 7 X 6 M 3 $ 5092 cov 27.4 p 1830 srp 7 | them T17(P7M8D2) S31 X 8 M49 $  932 cov 58.9 p13321 srp13
+   r341  us T 5(P1M4D0) S 7 X 6 M 3 $ 5825 cov 21.5 p 1317 srp 6 | them T17(P7M8D2) S46 X15 M86 $ 1198 cov 70.2 p19642 srp24
+   ours killed (12): r194 M r194 M r198 M r205 M(SO900,SP100) r249 M r255 M r273 M r279 M r287 M r301 M r310 M r331 M
+   theirs killed (4): r83 M r180 P r197 M(SP100,SO500) r218 M
+
+== m2922g2 box (31x31, 829 paintable) vs scienceqiu, t74, LOST MAJORITY_PAINTED r931
+   r50   us T 3(P1M2D0) S 9 X 0 M 0 $ 1430 cov 10.7 p  911 srp 0 | them T 4(P1M3D0) S 8 X 0 M 1 $  720 cov 23.6 p 1353 srp 0
+   r100  us T 3(P1M2D0) S 9 X 0 M 1 $ 2150 cov 21.8 p  980 srp 0 | them T 4(P1M3D0) S 6 X 1 M 3 $ 2290 cov 37.9 p 1161 srp 0
+   r150  us T 3(P1M2D0) S 8 X 0 M 3 $ 1010 cov 27.4 p 1267 srp 0 | them T 5(P1M4D0) S 4 X 1 M 6 $ 2147 cov 43.8 p 1706 srp 2
+   r200  us T 3(P1M2D0) S 4 X 2 M 3 $ 1190 cov 27.9 p 1224 srp 0 | them T 5(P1M4D0) S 5 X 1 M 8 $  631 cov 43.9 p 1868 srp 2
+   r250  us T 3(P1M2D0) S 5 X 2 M 5 $ 1090 cov 29.3 p 1206 srp 0 | them T 6(P2M4D0) S12 X 2 M 8 $ 1979 cov 47.8 p 2397 srp 3
+   r300  us T 4(P1M3D0) S 5 X 1 M 5 $  520 cov 29.0 p 1760 srp 0 | them T 6(P2M4D0) S10 X 2 M13 $ 4679 cov 52.6 p 2762 srp 3
+   r350  us T 4(P1M3D0) S 6 X 2 M 6 $  297 cov 30.0 p 2092 srp 1 | them T 7(P3M4D0) S 9 X 2 M20 $ 2225 cov 52.2 p 3127 srp 2
+   r400  us T 4(P1M3D0) S 6 X 3 M 3 $  774 cov 29.2 p 2069 srp 1 | them T 8(P3M5D0) S15 X 2 M18 $ 2301 cov 54.8 p 3533 srp 2
+   r450  us T 3(P1M2D0) S 7 X 1 M 5 $  595 cov 29.1 p 1757 srp 1 | them T 8(P3M5D0) S12 X 1 M17 $ 4721 cov 55.0 p 3233 srp 2
+   r500  us T 4(P1M3D0) S 4 X 1 M 5 $  220 cov 25.9 p 2112 srp 1 | them T 8(P3M5D0) S11 X 1 M16 $ 1061 cov 57.2 p 3172 srp 2
+   r550  us T 3(P1M2D0) S 4 X 1 M 5 $ 1293 cov 25.5 p 1874 srp 1 | them T 8(P3M5D0) S11 X 2 M17 $ 3961 cov 58.9 p 3445 srp 2
+   r600  us T 2(P1M1D0) S 4 X 3 M 4 $ 1109 cov 24.2 p 1644 srp 1 | them T 8(P3M5D0) S13 X 3 M18 $  461 cov 60.3 p 3385 srp 2
+   r650  us T 2(P0M2D0) S 4 X 2 M 3 $  776 cov 24.6 p  707 srp 0 | them T 8(P3M5D0) S12 X 1 M26 $ 1861 cov 59.6 p 3405 srp 2
+   r700  us T 3(P0M3D0) S 5 X 1 M 3 $  286 cov 24.4 p 1278 srp 0 | them T 8(P3M5D0) S11 X 1 M28 $ 3541 cov 59.5 p 3371 srp 2
+   r750  us T 3(P0M3D0) S 3 X 1 M 1 $ 2156 cov 24.6 p  479 srp 0 | them T 8(P3M5D0) S11 X 2 M25 $ 6241 cov 59.0 p 3487 srp 2
+   r800  us T 2(P0M2D0) S 2 X 0 M 1 $ 4536 cov 16.4 p   20 srp 0 | them T 8(P3M5D0) S11 X 2 M30 $12391 cov 64.3 p 3797 srp 2
+   r850  us T 3(P0M3D0) S 3 X 0 M 3 $  726 cov 17.2 p 1208 srp 0 | them T 8(P3M5D0) S12 X 1 M35 $17881 cov 66.2 p 3778 srp 3
+   r900  us T 3(P0M3D0) S 4 X 0 M 5 $  286 cov 15.7 p 1348 srp 0 | them T 9(P4M5D0) S19 X 1 M33 $15031 cov 69.1 p 4793 srp 3
+   r931  us T 2(P0M2D0) S 1 X 0 M 5 $  846 cov 13.5 p  780 srp 0 | them T 9(P4M5D0) S17 X 2 M36 $17726 cov 70.2 p 4388 srp 3
+   ours killed (21): r83 M r102 M r253 M r331 M r392 M r428 M r441 M r481 M r503 M r524 M r593 M r603 P r627 M r692 M r738 M r779 M r824 M r855 M r892 M r903 M r930 M
+   theirs killed (3): r93 M r188 M r457 P
+
+== m2969g0 Mirage (40x40, 1480 paintable) vs spaark, y170, LOST MAJORITY_PAINTED r800
+   r50   us T 4(P1M3D0) S 6 X 0 M 0 $  910 cov 11.0 p 1454 srp 0 | them T 5(P1M4D0) S 6 X 0 M 0 $  740 cov 10.8 p 2159 srp 0
+   r100  us T 7(P1M6D0) S 6 X 0 M 0 $ 1090 cov 16.1 p 3123 srp 0 | them T 6(P1M5D0) S11 X 1 M 3 $ 1140 cov 17.8 p 2271 srp 0
+   r150  us T 7(P1M6D0) S11 X 2 M 6 $ 1540 cov 29.2 p 2190 srp 0 | them T 9(P1M8D0) S11 X 2 M 4 $ 2124 cov 27.8 p 3074 srp 1
+   r200  us T 7(P3M4D0) S13 X 2 M 5 $ 1218 cov 37.3 p 2657 srp 0 | them T10(P3M7D0) S14 X 4 M 6 $ 1357 cov 33.0 p 3055 srp 1
+   r250  us T 8(P3M5D0) S 9 X 3 M 3 $ 1173 cov 35.2 p 2840 srp 2 | them T 9(P2M7D0) S10 X 4 M11 $ 2702 cov 39.1 p 2978 srp 3
+   r300  us T 7(P3M4D0) S 7 X 8 M 6 $ 1616 cov 33.0 p 2942 srp 3 | them T11(P5M6D0) S13 X 7 M13 $ 2669 cov 44.1 p 4358 srp 3
+   r350  us T 7(P3M4D0) S 6 X 8 M 4 $ 1334 cov 32.3 p 2507 srp 3 | them T11(P6M5D0) S13 X10 M15 $ 2335 cov 44.7 p 5009 srp 3
+   r400  us T 7(P3M4D0) S 8 X 9 M 6 $ 1842 cov 29.7 p 3334 srp 5 | them T11(P5M6D0) S16 X12 M16 $ 2477 cov 48.4 p 6120 srp 4
+   r450  us T 6(P2M4D0) S 5 X11 M 4 $ 2862 cov 32.8 p 2158 srp 6 | them T10(P4M6D0) S15 X16 M15 $ 2917 cov 48.8 p 8525 srp 9
+   r500  us T 7(P3M4D0) S11 X10 M 3 $ 1180 cov 34.5 p 3879 srp 6 | them T13(P4M9D0) S24 X26 M13 $ 3476 cov 50.7 p12727 srp 8
+   r550  us T 7(P3M4D0) S 7 X11 M 4 $ 2980 cov 34.3 p 2678 srp 6 | them T11(P4M7D0) S26 X31 M12 $ 3878 cov 52.8 p12694 srp 8
+   r600  us T 7(P3M4D0) S 8 X14 M 7 $ 1192 cov 34.5 p 3902 srp 6 | them T10(P4M6D0) S17 X34 M12 $ 3544 cov 52.8 p13353 srp 9
+   r650  us T 7(P3M4D0) S13 X12 M 6 $ 1266 cov 31.4 p 3598 srp 6 | them T10(P5M5D0) S16 X44 M14 $ 5494 cov 57.2 p14486 srp 9
+   r700  us T 7(P3M4D0) S13 X 9 M 8 $ 1684 cov 32.1 p 3854 srp 5 | them T10(P5M5D0) S17 X49 M15 $ 4384 cov 58.0 p16855 srp10
+   r750  us T 5(P2M3D0) S 6 X 8 M 2 $ 2894 cov 25.8 p 1683 srp 5 | them T13(P7M6D0) S21 X58 M19 $ 1851 cov 64.6 p19849 srp11
+   r800  us T 3(P1M2D0) S 3 X 4 M 2 $ 3859 cov 18.8 p  969 srp 3 | them T14(P8M6D0) S20 X72 M20 $ 4681 cov 70.5 p27296 srp14
+   ours killed (19): r64 M r97 M r175 M r185 M r222 M r239 M r253 M r276 M r285 M r302 M(SO700,SP100) r368 M(SP200,SO600) r434 P r472 M r621 M r664 P(SP200,SO100) r713 P r720 M r751 M(SP100,SO800) r772 P
+   theirs killed (17): r86 M r143 M r162 M r210 P r224 P(SO400,SP100) r246 M r273 M r304 M r362 P r368 P r407 P(SO1150,SP100) r512 P r523 M r535 M(SP500) r560 M(SO800,SP100) r650 M r774 P
+
+== m2970g2 sierpinski (39x50, 1620 paintable) vs gone-whalin, y170, LOST MAJORITY_PAINTED r502
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  940 cov 12.7 p 1593 srp 0 | them T 5(P1M4D0) S 5 X 0 M 0 $  790 cov 13.3 p 2290 srp 0
+   r100  us T 5(P1M4D0) S 9 X 0 M 2 $ 1570 cov 20.6 p 1434 srp 0 | them T 5(P0M5D0) S 5 X 0 M 6 $ 2270 cov 14.0 p 2235 srp 0
+   r150  us T 6(P1M5D0) S 8 X 1 M 4 $ 1230 cov 26.6 p 1980 srp 0 | them T 6(P0M6D0) S 4 X 0 M11 $ 2540 cov 16.4 p 2774 srp 0
+   r200  us T 6(P1M5D0) S 9 X 2 M 4 $ 1538 cov 31.1 p 2005 srp 2 | them T 6(P0M6D0) S 9 X 0 M16 $ 2100 cov 18.3 p 3222 srp 0
+   r250  us T 6(P1M5D0) S 5 X 3 M 4 $ 1821 cov 32.7 p 2091 srp 3 | them T11(P0M11D0) S 6 X 0 M18 $ 3660 cov 28.8 p 4322 srp 0
+   r300  us T 7(P2M5D0) S 7 X 5 M 5 $ 3163 cov 33.8 p 2045 srp 3 | them T12(P0M12D0) S 9 X 4 M19 $ 2500 cov 35.6 p 4116 srp 0
+   r350  us T 6(P2M4D0) S 4 X 5 M 4 $ 5685 cov 30.4 p 1374 srp 2 | them T10(P0M10D0) S14 X 6 M17 $ 2210 cov 43.4 p 3998 srp 0
+   r400  us T 4(P1M3D0) S 2 X 4 M 2 $ 4642 cov 25.1 p  788 srp 1 | them T10(P0M10D0) S14 X10 M14 $ 2690 cov 49.4 p 4975 srp 0
+   r450  us T 4(P1M3D0) S 1 X 1 M 1 $ 4054 cov 18.1 p  554 srp 0 | them T14(P0M14D0) S15 X11 M11 $ 1580 cov 61.1 p 7219 srp 0
+   r500  us T 2(P0M2D0) S 0 X 1 M 2 $ 6644 cov 11.7 p  197 srp 0 | them T14(P0M14D0) S15 X14 M13 $ 3990 cov 69.6 p 7921 srp 0
+   r502  us T 1(P0M1D0) S 0 X 1 M 2 $ 6734 cov 12.0 p  139 srp 0 | them T15(P0M15D0) S15 X14 M13 $ 3570 cov 69.9 p 8272 srp 0
+   ours killed (9): r111 M r170 M r210 P r332 M r367 M r370 P r473 M r499 P r501 M
+   theirs killed (4): r56 M r78 P r189 M r302 M
+
+== m2971g2 walalilongla (45x45, 1811 paintable) vs immutable, y170, LOST MAJORITY_PAINTED r1586
+   r50   us T 5(P1M4D0) S 8 X 0 M 0 $    0 cov 10.0 p 1810 srp 0 | them T 4(P1M3D0) S 6 X 0 M 1 $  740 cov 13.5 p 1622 srp 0
+   r100  us T 6(P1M5D0) S 9 X 0 M 3 $ 2050 cov 17.9 p 1332 srp 0 | them T 5(P1M4D0) S 7 X 0 M 4 $ 1010 cov 20.9 p 2198 srp 0
+   r150  us T 5(P1M4D0) S 9 X 1 M 4 $ 2170 cov 25.8 p 1570 srp 0 | them T 6(P1M5D0) S 9 X 1 M 5 $ 2730 cov 26.2 p 1539 srp 1
+   r200  us T 7(P2M5D0) S13 X 1 M 4 $ 1280 cov 33.5 p 3304 srp 3 | them T 7(P2M4D1) S 7 X 4 M 7 $ 1355 cov 29.8 p 1894 srp 2
+   r250  us T 7(P2M5D0) S12 X 5 M 8 $ 1672 cov 39.8 p 2994 srp 3 | them T 7(P2M4D1) S 9 X 6 M 6 $ 1449 cov 32.2 p 2647 srp 5
+   r300  us T 7(P2M5D0) S12 X 7 M 7 $ 1925 cov 39.9 p 3558 srp 6 | them T 9(P3M5D1) S12 X11 M 7 $ 1048 cov 39.7 p 3776 srp 5
+   r350  us T 8(P3M5D0) S14 X11 M10 $ 1557 cov 43.1 p 4604 srp 6 | them T 7(P3M3D1) S16 X13 M 8 $ 1061 cov 43.3 p 5314 srp 5
+   r400  us T11(P5M6D0) S20 X13 M 8 $  238 cov 48.5 p 6878 srp 7 | them T 7(P3M3D1) S18 X22 M11 $ 1601 cov 41.8 p 8048 srp12
+   r450  us T11(P5M6D0) S20 X22 M13 $ 1138 cov 50.9 p 7449 srp 7 | them T 7(P4M2D1) S20 X30 M16 $ 1037 cov 43.7 p11233 srp12
+   r500  us T11(P5M6D0) S26 X33 M13 $ 1300 cov 51.1 p 9353 srp11 | them T 9(P6M2D1) S20 X34 M16 $  935 cov 46.6 p14148 srp11
+   r550  us T11(P5M6D0) S27 X34 M 9 $ 2582 cov 50.4 p10607 srp11 | them T 9(P5M2D2) S23 X35 M19 $ 1069 cov 47.7 p14377 srp12
+   r600  us T10(P4M6D0) S22 X28 M 8 $  628 cov 47.7 p 9568 srp10 | them T 9(P5M2D2) S25 X43 M16 $  883 cov 50.7 p13713 srp11
+   r650  us T11(P4M7D0) S22 X34 M 7 $ 3492 cov 48.3 p 8484 srp 9 | them T10(P5M2D3) S22 X41 M16 $  583 cov 49.5 p14593 srp11
+   r700  us T11(P4M7D0) S28 X25 M 9 $ 5248 cov 47.9 p 8926 srp10 | them T 9(P5M2D2) S18 X47 M16 $ 1137 cov 50.1 p14138 srp12
+   r750  us T 9(P4M5D0) S22 X28 M 7 $ 4766 cov 48.0 p 8599 srp 9 | them T10(P5M2D3) S19 X49 M15 $ 1211 cov 50.5 p14947 srp11
+   r800  us T11(P4M7D0) S19 X28 M 8 $ 4344 cov 45.8 p 9173 srp11 | them T11(P5M2D4) S17 X51 M16 $ 1201 cov 52.7 p15940 srp12
+   r850  us T 8(P4M4D0) S19 X34 M 7 $ 1749 cov 43.7 p 8600 srp10 | them T10(P5M2D3) S17 X59 M20 $ 1035 cov 55.1 p15272 srp13
+   r900  us T 9(P4M5D0) S18 X36 M10 $ 2726 cov 44.9 p 8965 srp11 | them T10(P5M2D3) S15 X58 M20 $  769 cov 53.4 p16821 srp11
+   r950  us T 9(P4M5D0) S22 X30 M10 $ 2487 cov 44.7 p 9009 srp 9 | them T 9(P5M2D2) S21 X54 M21 $  927 cov 53.6 p16119 srp12
+   r1000 us T 7(P4M3D0) S16 X28 M 7 $ 3595 cov 42.1 p 7431 srp 9 | them T11(P5M2D4) S23 X56 M22 $  683 cov 55.9 p17027 srp12
+   r1050 us T 7(P4M3D0) S20 X30 M 8 $ 1220 cov 46.1 p 8438 srp 9 | them T11(P5M2D4) S25 X54 M21 $ 1221 cov 52.2 p17253 srp13
+   r1100 us T 9(P4M5D0) S18 X33 M12 $ 3059 cov 46.2 p 8725 srp 8 | them T10(P5M2D3) S28 X55 M22 $  943 cov 51.6 p17143 srp11
+   r1150 us T 7(P4M3D0) S20 X27 M11 $ 1167 cov 42.9 p 8032 srp 7 | them T10(P5M2D3) S33 X57 M22 $ 1085 cov 55.7 p17181 srp11
+   r1200 us T 8(P4M4D0) S16 X31 M10 $ 1295 cov 44.7 p 9164 srp 9 | them T10(P5M2D3) S29 X65 M24 $ 1209 cov 54.1 p18917 srp14
+   r1250 us T 9(P4M5D0) S15 X40 M 8 $ 2106 cov 45.4 p 8236 srp10 | them T11(P5M2D4) S28 X66 M23 $  881 cov 53.2 p20008 srp13
+   r1300 us T 7(P4M3D0) S15 X23 M10 $ 1343 cov 44.4 p 7700 srp 9 | them T11(P5M2D4) S30 X67 M22 $  769 cov 54.0 p19597 srp12
+   r1350 us T 6(P4M2D0) S11 X26 M10 $ 1007 cov 40.4 p 8019 srp 8 | them T11(P5M2D4) S35 X72 M21 $  881 cov 58.2 p19647 srp14
+   r1400 us T 6(P4M2D0) S 8 X24 M 9 $ 1273 cov 36.8 p 6713 srp 8 | them T12(P6M2D4) S34 X71 M22 $ 1155 cov 61.8 p20896 srp15
+   r1450 us T 6(P4M2D0) S 7 X25 M11 $ 1733 cov 36.8 p 5805 srp 7 | them T12(P6M2D4) S32 X71 M23 $  991 cov 61.6 p21051 srp12
+   r1500 us T 7(P4M3D0) S 5 X24 M10 $ 1855 cov 32.2 p 4934 srp 6 | them T12(P6M2D4) S27 X71 M27 $ 1035 cov 66.6 p21118 srp13
+   r1550 us T 7(P4M3D0) S 6 X19 M 9 $ 1230 cov 29.8 p 4601 srp 6 | them T12(P6M2D4) S26 X71 M29 $  891 cov 67.5 p23167 srp16
+   r1586 us T 7(P4M3D0) S 5 X21 M 6 $ 2818 cov 28.3 p 3908 srp 5 | them T12(P6M2D4) S30 X72 M32 $  967 cov 69.2 p23446 srp14
+   ours killed (24): r147 M r517 M(SO500,SP100) r567 P r581 M r633 M r727 M r740 M r802 M(SO850,SP100) r817 M(SP200,SO300) r834 M(SP100,SO50) r941 M r963 M(SP400,SO600) r986 M r998 M(SO750,SP300) r1002 M r1102 M r1118 M r1179 M r1201 M(SO850,SP100) r1267 M(SP100,SO700) r1281 M r1288 M r1320 M r1330 M(SP300)
+   theirs killed (31): r94 M r94 P r182 M r312 M r321 M r385 P r411 M r504 D r511 P r572 D r587 M r638 D r686 D r758 D r783 D(SO150,SP100) r822 D r869 P r879 D r883 D r891 D r949 D(SO1300,SP100) r984 D r1004 D r1087 D(SP100,SO500) r1203 D r1255 D r1365 D r1509 D r1511 D r1539 P r1562 P
+
+== m2972g1 DonkeyKong (60x60, 3232 paintable) vs scienceqiu, y170, LOST MAJORITY_PAINTED r494
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  940 cov  7.6 p 1543 srp 0 | them T 5(P1M4D0) S 8 X 0 M 0 $  240 cov 10.2 p 1792 srp 0
+   r100  us T10(P1M9D0) S 9 X 0 M 2 $  630 cov 13.6 p 3685 srp 0 | them T 9(P3M6D0) S13 X 0 M 0 $    0 cov 15.6 p 3171 srp 0
+   r150  us T12(P3M9D0) S16 X 2 M 5 $  750 cov 24.5 p 3723 srp 0 | them T14(P4M10D0) S16 X 0 M 1 $  480 cov 20.2 p 4992 srp 0
+   r200  us T12(P4M8D0) S13 X 3 M 4 $  684 cov 32.5 p 4135 srp 1 | them T20(P7M12D1) S21 X 0 M 4 $  110 cov 24.1 p 6485 srp 0
+   r250  us T13(P5M8D0) S11 X 4 M 3 $  590 cov 34.8 p 5344 srp 1 | them T22(P8M13D1) S20 X 2 M15 $ 2275 cov 31.9 p 6474 srp 2
+   r300  us T12(P7M5D0) S 4 X 3 M 5 $  928 cov 32.1 p 6687 srp 1 | them T23(P7M14D2) S19 X 3 M35 $ 1182 cov 36.1 p 8190 srp 5
+   r350  us T12(P6M6D0) S10 X 4 M 4 $ 1346 cov 27.2 p 7133 srp 2 | them T25(P7M16D2) S37 X 7 M58 $  917 cov 49.3 p10360 srp 8
+   r400  us T 7(P4M3D0) S 8 X 8 M 4 $  524 cov 28.0 p 4393 srp 3 | them T25(P8M16D1) S55 X12 M97 $ 1321 cov 54.1 p16911 srp16
+   r450  us T 3(P3M0D0) S 3 X 1 M 3 $  836 cov 20.9 p 2971 srp 3 | them T25(P8M16D1) S76 X30 M124 $ 1095 cov 63.5 p22717 srp19
+   r494  us T 1(P1M0D0) S 2 X 1 M 2 $  836 cov 15.3 p 1487 srp 2 | them T25(P8M16D1) S101 X43 M117 $ 1753 cov 70.0 p28010 srp20
+   ours killed (43): r107 M r114 M r116 M r156 P r161 M r164 P r173 P r189 M r195 M r204 M r206 M r220 P r222 M r231 P r232 P r240 P r262 P r267 M r271 M r275 M r279 P(SP300,SO600) r281 M r288 M r299 M r305 M r323 P r353 M r367 P r380 M r384 M r384 M(SP100,SO650) r392 M r393 M r397 P r403 P r407 M r414 M(SO250,SP200) r424 P r434 P r435 M(SO950,SP100) r447 M r471 P r472 P
+   theirs killed (8): r147 M r167 P r172 M r227 P r260 P r271 M r356 M r364 M
+
+== m2973g0 SandyBeach (30x30, 822 paintable) vs subscribe-to-caterpillow, y170, LOST MAJORITY_PAINTED r396
+   r50   us T 3(P0M3D0) S 7 X 0 M 0 $  670 cov 39.2 p 1517 srp 0 | them T 3(P1M2D0) S 7 X 0 M 2 $  990 cov 36.4 p 1223 srp 0
+   r100  us T 5(P0M5D0) S 5 X 0 M 0 $  270 cov 45.6 p 2008 srp 0 | them T 4(P1M3D0) S 8 X 1 M 2 $  800 cov 38.9 p 2261 srp 0
+   r150  us T 4(P0M4D0) S 6 X 0 M 3 $ 3340 cov 42.5 p 1106 srp 0 | them T 5(P3M2D0) S 9 X 1 M 3 $  660 cov 42.5 p 2342 srp 0
+   r200  us T 5(P1M4D0) S 5 X 0 M 4 $ 4830 cov 38.3 p  927 srp 0 | them T 6(P2M4D0) S 7 X 3 M 5 $  310 cov 45.5 p 3097 srp 0
+   r250  us T 4(P1M3D0) S 5 X 1 M 1 $ 3120 cov 36.6 p 1053 srp 0 | them T 8(P3M5D0) S 8 X 5 M 8 $  920 cov 48.2 p 3290 srp 0
+   r300  us T 3(P1M2D0) S 2 X 0 M 1 $ 4990 cov 25.3 p  421 srp 0 | them T 8(P3M5D0) S 8 X 5 M13 $ 1930 cov 54.7 p 3787 srp 1
+   r350  us T 3(P1M2D0) S 1 X 0 M 1 $ 4680 cov 12.3 p  387 srp 0 | them T11(P3M7D1) S10 X 7 M 9 $ 1517 cov 64.7 p 4497 srp 1
+   r396  us T 2(P1M1D0) S 1 X 1 M 0 $ 6150 cov  8.8 p  271 srp 0 | them T11(P3M7D1) S10 X10 M 7 $ 5660 cov 70.9 p 4555 srp 2
+   ours killed (11): r40 P r72 M r86 M r98 M r139 M(SO800,SP200) r144 M r151 M r242 M(SP100) r244 M r291 M(SP400) r390 M(SP400)
+   theirs killed (6): r81 M r88 M r123 M r198 P r253 M r271 M
+
+== m2973g1 shell (40x40, 1418 paintable) vs subscribe-to-caterpillow, y170, LOST MAJORITY_PAINTED r541
+   r50   us T 4(P1M3D0) S 6 X 0 M 0 $  770 cov  6.0 p 1566 srp 0 | them T 3(P1M2D0) S 8 X 0 M 1 $    0 cov 11.2 p 1342 srp 0
+   r100  us T 7(P1M6D0) S 8 X 0 M 3 $ 1040 cov 16.3 p 2159 srp 0 | them T 5(P1M4D0) S 8 X 0 M 2 $  610 cov 17.1 p 2353 srp 0
+   r150  us T 8(P1M7D0) S11 X 1 M 5 $ 2010 cov 29.6 p 2075 srp 0 | them T 8(P2M6D0) S 8 X 0 M 2 $  980 cov 21.1 p 3513 srp 0
+   r200  us T 8(P1M7D0) S10 X 1 M 6 $ 4564 cov 34.9 p 2174 srp 1 | them T10(P4M6D0) S 9 X 3 M 6 $  930 cov 30.7 p 3750 srp 0
+   r250  us T 9(P2M7D0) S10 X 1 M 7 $ 3922 cov 35.3 p 2953 srp 1 | them T11(P4M7D0) S 9 X 7 M11 $  785 cov 38.2 p 4375 srp 3
+   r300  us T 7(P1M6D0) S 7 X 3 M 8 $ 4207 cov 30.3 p 2201 srp 1 | them T12(P7M5D0) S 9 X11 M16 $  589 cov 44.5 p 5870 srp 3
+   r350  us T 7(P3M4D0) S 9 X 5 M 6 $ 1256 cov 29.4 p 2382 srp 1 | them T14(P7M7D0) S 9 X15 M21 $ 1060 cov 49.4 p 7968 srp 3
+   r400  us T 8(P4M4D0) S10 X 4 M 5 $  998 cov 27.5 p 2796 srp 0 | them T14(P7M7D0) S 5 X22 M34 $ 1727 cov 52.1 p 9504 srp 5
+   r450  us T 5(P3M2D0) S 4 X 5 M 2 $ 2038 cov 16.9 p 1512 srp 0 | them T15(P7M8D0) S 5 X36 M31 $ 3447 cov 64.9 p11294 srp 6
+   r500  us T 5(P3M2D0) S 1 X 3 M 2 $ 2138 cov 13.8 p  983 srp 0 | them T15(P7M8D0) S 5 X48 M35 $  737 cov 66.6 p13829 srp 6
+   r541  us T 5(P3M2D0) S 1 X 2 M 1 $ 3078 cov 12.0 p  636 srp 0 | them T17(P9M8D0) S 8 X57 M32 $ 1091 cov 70.4 p19418 srp 6
+   ours killed (11): r116 M r127 M r203 M r262 P(SO1150,SP200) r296 M(SP600) r337 M(SP400,SO200) r366 P r384 M(SP200,SO800) r435 P(SP400) r437 M(SP300) r445 M(SP200)
+   theirs killed (11): r29 M r123 M r199 M(SO100,SP200) r209 P r237 P r260 M r280 M r383 M r486 M r514 M(SP100) r531 M
+
+== m2973g2 sierpinski (39x50, 1620 paintable) vs subscribe-to-caterpillow, y170, LOST MAJORITY_PAINTED r439
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  940 cov 13.0 p 1524 srp 0 | them T 4(P1M3D0) S 7 X 0 M 2 $   10 cov 15.8 p 1164 srp 0
+   r100  us T 7(P1M6D0) S 9 X 0 M 2 $  130 cov 20.0 p 1213 srp 0 | them T 4(P0M4D0) S 7 X 0 M 3 $  880 cov 20.4 p 1710 srp 0
+   r150  us T 7(P2M5D0) S10 X 1 M 3 $  840 cov 33.3 p 2483 srp 0 | them T 8(P3M5D0) S10 X 0 M 2 $  140 cov 27.3 p 2728 srp 0
+   r200  us T 7(P2M5D0) S11 X 3 M 4 $ 1080 cov 39.6 p 1932 srp 0 | them T 8(P2M6D0) S 9 X 0 M 3 $  720 cov 30.2 p 2952 srp 1
+   r250  us T 7(P2M5D0) S 8 X 4 M 3 $ 1860 cov 39.0 p 2133 srp 0 | them T 7(P2M5D0) S 8 X 4 M11 $ 2357 cov 33.1 p 2843 srp 4
+   r300  us T 8(P3M5D0) S 9 X 2 M 3 $ 3190 cov 40.3 p 1819 srp 0 | them T 8(P3M5D0) S 8 X 7 M 9 $ 1367 cov 39.1 p 3436 srp 6
+   r350  us T 7(P3M4D0) S 4 X 4 M 3 $ 2420 cov 31.0 p 1745 srp 1 | them T 9(P4M5D0) S 7 X13 M18 $ 1697 cov 50.7 p 4650 srp 9
+   r400  us T 4(P2M2D0) S 4 X 5 M 1 $ 1738 cov 24.8 p 1468 srp 1 | them T 9(P4M5D0) S 5 X25 M22 $  947 cov 58.8 p 7495 srp10
+   r439  us T 2(P1M1D0) S 2 X 0 M 1 $ 2960 cov 13.2 p  440 srp 1 | them T11(P5M6D0) S 7 X33 M24 $  645 cov 70.7 p11764 srp13
+   ours killed (12): r143 M r153 M r163 M r173 M r275 M(SO200,SP300) r313 M(SP400) r328 P r355 M(SO200,SP600) r384 M(SP600) r398 P(SP500) r401 P(SP800) r425 M(SP900)
+   theirs killed (8): r57 M r91 P r113 M r160 P r198 P r199 P r208 M r237 P
+
+== m2974g0 Parking_lot (45x45, 1795 paintable) vs lobster-roll, y170, LOST MAJORITY_PAINTED r357
+   r50   us T 2(P1M1D0) S 6 X 0 M 0 $ 2250 cov  3.0 p  704 srp 0 | them T 4(P1M3D0) S 4 X 0 M 2 $  930 cov 10.8 p 1487 srp 0
+   r100  us T 6(P1M5D0) S 9 X 0 M 1 $  610 cov 12.7 p 1959 srp 0 | them T 7(P2M5D0) S 8 X 0 M 5 $ 1166 cov 17.9 p 2908 srp 1
+   r150  us T 7(P2M5D0) S11 X 0 M 1 $ 2840 cov 23.4 p 1710 srp 0 | them T 9(P3M6D0) S10 X 2 M11 $ 1147 cov 28.2 p 4417 srp 2
+   r200  us T 7(P3M4D0) S10 X 3 M 1 $ 1134 cov 22.7 p 2039 srp 0 | them T13(P4M9D0) S14 X 3 M23 $ 1152 cov 42.0 p 5848 srp 3
+   r250  us T 6(P2M4D0) S 5 X 2 M 4 $ 1334 cov 21.8 p 1473 srp 0 | them T18(P4M14D0) S16 X 6 M29 $ 1367 cov 49.9 p 7538 srp 3
+   r300  us T 6(P2M4D0) S 6 X 2 M 3 $ 4810 cov 21.7 p 1307 srp 1 | them T17(P4M13D0) S20 X12 M28 $ 1011 cov 58.3 p 7755 srp 3
+   r350  us T 5(P2M3D0) S 4 X 4 M 3 $ 1606 cov 19.0 p 1218 srp 1 | them T17(P5M12D0) S25 X19 M32 $ 4890 cov 67.5 p 9881 srp 5
+   r357  us T 5(P2M3D0) S 5 X 4 M 3 $ 1639 cov 17.1 p 1241 srp 1 | them T17(P5M12D0) S25 X19 M35 $ 1680 cov 70.3 p 9985 srp 5
+   ours killed (4): r170 M r194 P(SP200,SO800) r234 P r303 M
+   theirs killed (3): r116 M r286 M(SP100,SO100) r319 M
+
+== m2974g1 TheBest (60x60, 3292 paintable) vs lobster-roll, y170, LOST MAJORITY_PAINTED r1179
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  920 cov  6.5 p 1600 srp 0 | them T 5(P1M4D0) S 5 X 0 M 1 $  230 cov  7.6 p 2109 srp 0
+   r100  us T 9(P1M8D0) S 8 X 1 M 2 $ 1090 cov 11.8 p 3128 srp 0 | them T 8(P2M6D0) S 8 X 0 M 4 $  982 cov 11.8 p 3605 srp 1
+   r150  us T10(P2M8D0) S14 X 1 M 5 $ 2890 cov 21.0 p 2000 srp 0 | them T10(P2M8D0) S10 X 3 M12 $ 1062 cov 18.2 p 4062 srp 3
+   r200  us T10(P2M8D0) S 8 X 3 M 2 $ 5588 cov 21.0 p 1878 srp 2 | them T13(P2M11D0) S11 X 6 M19 $ 3827 cov 25.2 p 5033 srp 6
+   r250  us T10(P4M6D0) S10 X 7 M 3 $ 1535 cov 25.2 p 2900 srp 2 | them T17(P5M12D0) S14 X14 M19 $ 1727 cov 30.5 p 7320 srp 5
+   r300  us T12(P5M7D0) S10 X14 M 8 $ 1726 cov 28.0 p 4390 srp 4 | them T24(P5M18D1) S19 X20 M32 $ 2539 cov 38.9 p11433 srp 4
+   r350  us T13(P6M7D0) S14 X23 M 9 $ 1666 cov 28.3 p 6901 srp 6 | them T24(P6M17D1) S26 X31 M38 $ 2823 cov 46.6 p14492 srp10
+   r400  us T13(P7M6D0) S20 X30 M13 $ 1281 cov 30.9 p10917 srp10 | them T25(P7M17D1) S43 X40 M54 $ 6530 cov 51.9 p19333 srp12
+   r450  us T14(P7M7D0) S27 X37 M18 $ 1125 cov 32.3 p12288 srp10 | them T25(P7M17D1) S57 X56 M70 $ 5325 cov 52.8 p23837 srp13
+   r500  us T14(P8M6D0) S34 X45 M16 $ 1821 cov 31.4 p15451 srp11 | them T25(P7M17D1) S73 X64 M68 $ 5330 cov 55.0 p26568 srp14
+   r550  us T13(P8M5D0) S36 X46 M16 $ 1127 cov 33.5 p15130 srp 9 | them T25(P7M17D1) S78 X74 M65 $ 6497 cov 56.7 p27933 srp14
+   r600  us T13(P8M5D0) S35 X50 M18 $ 1084 cov 34.4 p15872 srp11 | them T25(P7M17D1) S85 X77 M59 $48910 cov 56.3 p27490 srp14
+   r650  us T13(P8M5D0) S30 X44 M18 $   94 cov 34.8 p14382 srp 7 | them T25(P8M16D1) S69 X83 M58 $63216 cov 57.2 p29168 srp13
+   r700  us T15(P8M7D0) S29 X43 M15 $  772 cov 33.5 p15264 srp 9 | them T25(P9M15D1) S84 X90 M65 $87531 cov 59.5 p30916 srp12
+   r750  us T15(P8M7D0) S32 X50 M21 $  404 cov 36.2 p14514 srp10 | them T25(P10M14D1) S93 X97 M58 $108235 cov 57.8 p32751 srp12
+   r800  us T13(P7M6D0) S36 X46 M22 $  724 cov 34.1 p14051 srp10 | them T25(P10M14D1) S100 X104 M64 $125485 cov 59.7 p33030 srp12
+   r850  us T14(P8M6D0) S35 X45 M22 $ 1174 cov 31.6 p15517 srp10 | them T25(P10M14D1) S95 X121 M70 $142067 cov 62.4 p36001 srp14
+   r900  us T12(P7M5D0) S33 X39 M18 $ 1024 cov 31.7 p13493 srp10 | them T25(P10M14D1) S105 X118 M65 $161501 cov 63.1 p37136 srp14
+   r950  us T12(P7M5D0) S33 X36 M12 $ 1137 cov 30.3 p11387 srp 8 | them T25(P10M14D1) S106 X123 M56 $177039 cov 64.5 p36632 srp10
+   r1000 us T13(P7M6D0) S25 X33 M14 $ 1157 cov 28.5 p10436 srp 7 | them T25(P10M14D1) S99 X121 M54 $194913 cov 66.4 p34158 srp11
+   r1050 us T13(P7M6D0) S27 X29 M16 $ 1056 cov 29.2 p10337 srp 9 | them T25(P10M14D1) S94 X121 M56 $222263 cov 66.1 p34125 srp13
+   r1100 us T14(P7M7D0) S25 X35 M18 $ 1131 cov 29.3 p10196 srp 8 | them T25(P10M14D1) S99 X124 M63 $231847 cov 66.2 p36893 srp13
+   r1150 us T13(P7M6D0) S28 X36 M18 $ 1085 cov 30.3 p11172 srp 8 | them T25(P10M14D1) S104 X124 M57 $262859 cov 66.0 p39324 srp16
+   r1179 us T12(P7M5D0) S28 X35 M18 $ 1883 cov 26.3 p11423 srp 8 | them T25(P10M14D1) S108 X129 M65 $280341 cov 70.0 p42635 srp18
+   ours killed (39): r208 M r234 M r367 M(SO250,SP200) r418 M(SP200) r434 M(SP100,SO550) r468 M(SO750,SP100) r478 M r502 M(SO400,SP100) r514 P r558 P r598 M r608 M r623 M(SP100,SO550) r642 P r643 P r666 M r692 P r712 M(SO650,SP100) r742 M r794 P(SO450,SP100) r796 M r805 M(SO600,SP100) r822 M r829 M r864 P r876 M(SP100,SO450) r885 P(SP100) r887 M r931 P(SP300,SO600) r942 M r954 M r962 M r1022 M r1046 M(SP100) r1066 P r1121 M(SP200) r1134 M(SO350,SP100) r1153 M(SO250,SP200) r1156 M
+   theirs killed (14): r346 M(SP100,SO200) r442 P(SP100,SO550) r614 M r618 P(SP200,SO300) r625 P r668 M r709 M r756 P r823 P r877 P r928 P r963 P(SO1450,SP100) r1055 P r1089 P
+
+== m2979g2 TargetPractice (30x30, 816 paintable) vs scienceqiu, y170, LOST MAJORITY_PAINTED r299
+   r50   us T 3(P1M2D0) S 7 X 0 M 0 $ 1750 cov 16.5 p 1356 srp 0 | them T 4(P1M3D0) S 8 X 0 M 1 $  320 cov 28.6 p 1425 srp 0
+   r100  us T 3(P1M2D0) S 5 X 1 M 1 $ 3300 cov 24.1 p  829 srp 0 | them T 4(P1M3D0) S 6 X 0 M 3 $  590 cov 43.3 p 1139 srp 0
+   r150  us T 3(P1M2D0) S 5 X 1 M 2 $ 4250 cov 29.5 p  744 srp 0 | them T 5(P2M3D0) S 8 X 0 M 5 $ 2073 cov 46.3 p 1780 srp 1
+   r200  us T 3(P0M3D0) S 5 X 1 M 3 $ 3900 cov 27.8 p 1143 srp 0 | them T 5(P2M3D0) S 7 X 1 M 5 $  283 cov 51.1 p 1824 srp 1
+   r250  us T 3(P0M3D0) S 3 X 0 M 2 $ 3370 cov 26.0 p  705 srp 0 | them T 8(P3M5D0) S15 X 2 M 5 $  306 cov 60.4 p 3942 srp 3
+   r299  us T 1(P0M1D0) S 2 X 0 M 3 $ 6729 cov 21.1 p  319 srp 1 | them T 9(P4M5D0) S18 X 3 M18 $ 1586 cov 70.2 p 5031 srp 5
+   ours killed (4): r164 P r238 M r278 M r294 M
+   theirs killed (0): 
+
+== m3006g0 SandyBeach (30x30, 822 paintable) vs geesegeesego, y170, LOST MAJORITY_PAINTED r492
+   r50   us T 3(P1M2D0) S 6 X 0 M 0 $ 1140 cov 35.4 p  997 srp 0 | them T 3(P1M2D0) S 5 X 0 M 3 $ 1350 cov 38.6 p 1371 srp 0
+   r100  us T 5(P1M4D0) S 9 X 0 M 1 $ 1620 cov 39.8 p 1273 srp 0 | them T 3(P1M2D0) S 3 X 0 M 8 $  630 cov 41.8 p 1967 srp 0
+   r150  us T 5(P1M4D0) S 5 X 1 M 2 $ 1480 cov 41.0 p 1007 srp 0 | them T 2(P1M1D0) S 3 X 0 M10 $ 1300 cov 37.8 p 1767 srp 0
+   r200  us T 5(P1M4D0) S 7 X 2 M 2 $ 2190 cov 40.0 p  927 srp 0 | them T 2(P1M1D0) S 4 X 0 M10 $ 1400 cov 34.1 p 1684 srp 0
+   r250  us T 6(P2M4D0) S 5 X 3 M 4 $ 1060 cov 41.0 p 1340 srp 0 | them T 3(P1M2D0) S 3 X 2 M 9 $ 1160 cov 34.9 p 1352 srp 0
+   r300  us T 6(P2M4D0) S 3 X 0 M 2 $ 2310 cov 33.9 p  811 srp 0 | them T 4(P2M2D0) S 3 X 3 M 8 $ 1250 cov 43.7 p 1462 srp 0
+   r350  us T 6(P2M4D0) S 4 X 2 M 4 $ 3410 cov 32.6 p  795 srp 0 | them T 6(P3M3D0) S 2 X 4 M 8 $  384 cov 46.8 p 2210 srp 1
+   r400  us T 6(P2M4D0) S 0 X 2 M 1 $ 1310 cov 26.2 p  618 srp 0 | them T 7(P3M4D0) S 4 X 5 M 6 $ 1378 cov 50.4 p 2079 srp 0
+   r450  us T 5(P1M4D0) S 3 X 2 M 1 $ 4160 cov 25.9 p  663 srp 0 | them T10(P5M5D0) S 6 X 7 M 3 $  129 cov 60.0 p 3900 srp 2
+   r492  us T 4(P1M3D0) S 0 X 2 M 0 $ 4460 cov 15.9 p  351 srp 0 | them T11(P5M6D0) S11 X 9 M10 $ 1172 cov 70.1 p 5830 srp 3
+   ours killed (4): r148 M r201 M r440 P(SP200,SO350) r476 M
+   theirs killed (6): r59 M r84 M r127 M r147 M r294 M r446 M
+
+== m3067g0 Flower (45x41, 1623 paintable) vs gone-whalin, t85, LOST MAJORITY_PAINTED r1307
+   r50   us T 3(P1M2D0) S 8 X 0 M 0 $ 1640 cov  8.6 p 1296 srp 0 | them T 3(P1M2D0) S 7 X 0 M 2 $ 1370 cov  5.9 p 1486 srp 0
+   r100  us T 5(P1M4D0) S 7 X 0 M 0 $  780 cov 13.7 p 1836 srp 0 | them T 3(P1M2D0) S 6 X 0 M 7 $ 1350 cov  5.9 p 1554 srp 0
+   r150  us T 4(P0M4D0) S 5 X 0 M 3 $  810 cov 18.0 p 1387 srp 0 | them T 4(P1M3D0) S 6 X 0 M 6 $  540 cov  8.9 p 1858 srp 0
+   r200  us T 7(P0M7D0) S 7 X 0 M 5 $ 1050 cov 26.6 p 1786 srp 3 | them T 5(P1M4D0) S 8 X 0 M 5 $ 1830 cov 10.4 p 2304 srp 0
+   r250  us T 7(P1M6D0) S11 X 1 M 6 $ 1568 cov 38.9 p 2147 srp 4 | them T 6(P1M5D0) S 5 X 0 M 8 $ 2740 cov 17.7 p 1899 srp 0
+   r300  us T 8(P2M6D0) S14 X 5 M 7 $ 1704 cov 45.3 p 3853 srp 6 | them T 6(P1M5D0) S 5 X 5 M 8 $ 2940 cov 24.8 p 2100 srp 0
+   r350  us T 8(P2M6D0) S14 X10 M 7 $ 3717 cov 53.4 p 5031 srp 6 | them T 6(P1M5D0) S 5 X 5 M 9 $ 1580 cov 26.2 p 3247 srp 0
+   r400  us T 8(P2M6D0) S16 X14 M10 $ 3555 cov 54.6 p 5472 srp 7 | them T 5(P1M4D0) S 3 X 8 M10 $ 2270 cov 26.5 p 3741 srp 0
+   r450  us T 8(P2M6D0) S15 X15 M 8 $ 6002 cov 51.6 p 5136 srp 8 | them T 6(P1M5D0) S 4 X 8 M10 $ 2040 cov 29.2 p 3418 srp 0
+   r500  us T 8(P2M6D0) S12 X20 M 6 $ 5194 cov 50.5 p 5663 srp 9 | them T 6(P0M6D0) S 3 X 9 M12 $ 1030 cov 30.9 p 3673 srp 0
+   r550  us T 8(P2M6D0) S14 X20 M 6 $ 5428 cov 50.8 p 5695 srp10 | them T 6(P0M6D0) S 1 X 7 M12 $ 2650 cov 30.3 p 3439 srp 0
+   r600  us T 8(P2M6D0) S15 X19 M 7 $ 8152 cov 51.8 p 5197 srp 9 | them T 6(P0M6D0) S 1 X 9 M10 $ 1300 cov 30.0 p 2726 srp 0
+   r650  us T 8(P2M6D0) S15 X23 M 6 $ 7340 cov 51.1 p 5139 srp 7 | them T 6(P0M6D0) S 1 X 9 M10 $ 1660 cov 31.7 p 3487 srp 0
+   r700  us T 8(P2M6D0) S12 X18 M 4 $21640 cov 52.2 p 5211 srp 7 | them T 7(P0M7D0) S 2 X 9 M12 $  590 cov 29.8 p 4376 srp 0
+   r750  us T 8(P2M6D0) S11 X20 M 4 $35570 cov 52.4 p 4676 srp 7 | them T 7(P0M7D0) S 3 X 9 M 9 $ 1510 cov 30.3 p 4254 srp 0
+   r800  us T 8(P2M6D0) S11 X19 M 5 $49352 cov 49.2 p 4880 srp 8 | them T 7(P0M7D0) S 4 X10 M11 $ 1120 cov 34.7 p 3811 srp 0
+   r850  us T 7(P2M5D0) S12 X17 M 5 $63012 cov 46.6 p 4980 srp 8 | them T 8(P0M8D0) S 4 X 9 M10 $ 1880 cov 39.2 p 3800 srp 0
+   r900  us T 7(P2M5D0) S12 X19 M 4 $73762 cov 46.7 p 4832 srp 8 | them T 7(P0M7D0) S 3 X10 M10 $ 1400 cov 39.0 p 4368 srp 0
+   r950  us T 7(P2M5D0) S12 X18 M 7 $84607 cov 46.6 p 4756 srp 9 | them T 8(P0M8D0) S 3 X10 M11 $ 1300 cov 39.9 p 5467 srp 0
+   r1000 us T 7(P2M5D0) S15 X20 M 6 $97007 cov 42.6 p 5139 srp 9 | them T 8(P0M8D0) S 5 X13 M 9 $ 3110 cov 43.4 p 3723 srp 0
+   r1050 us T 7(P2M5D0) S16 X16 M 7 $108747 cov 39.5 p 5294 srp 7 | them T 9(P0M9D0) S 5 X11 M 8 $ 2110 cov 46.1 p 4567 srp 0
+   r1100 us T 5(P2M3D0) S15 X15 M 8 $117649 cov 41.6 p 4345 srp 6 | them T 9(P0M9D0) S 7 X11 M10 $ 2590 cov 46.7 p 4951 srp 0
+   r1150 us T 5(P2M3D0) S12 X10 M 9 $122754 cov 37.0 p 3748 srp 6 | them T10(P0M10D0) S 8 X12 M10 $ 2650 cov 49.8 p 4764 srp 0
+   r1200 us T 4(P2M2D0) S12 X 8 M 7 $126669 cov 33.8 p 3286 srp 3 | them T10(P0M10D0) S 9 X13 M10 $ 2480 cov 54.3 p 5806 srp 0
+   r1250 us T 4(P2M2D0) S11 X 7 M 4 $128369 cov 27.6 p 2683 srp 3 | them T10(P0M10D0) S10 X15 M 8 $ 2490 cov 62.7 p 6203 srp 0
+   r1300 us T 4(P2M2D0) S 7 X 6 M 5 $130655 cov 21.9 p 2023 srp 4 | them T12(P0M12D0) S 9 X13 M12 $ 2320 cov 68.2 p 6005 srp 0
+   r1307 us T 4(P2M2D0) S 6 X 6 M 4 $131383 cov 19.6 p 2159 srp 4 | them T12(P0M12D0) S 9 X13 M12 $ 1980 cov 70.1 p 6408 srp 0
+   ours killed (7): r51 M r107 P r365 M r840 M r1065 M r1093 M r1189 M
+   theirs killed (5): r398 M r461 P r606 M r855 M r1038 M
+
+== m3067g1 rain (30x30, 850 paintable) vs gone-whalin, t85, LOST MAJORITY_PAINTED r293
+   r50   us T 3(P0M3D0) S 7 X 0 M 0 $  910 cov 14.1 p 1488 srp 0 | them T 5(P1M4D0) S 5 X 0 M 0 $ 1010 cov 10.5 p 2352 srp 0
+   r100  us T 4(P0M4D0) S 7 X 0 M 2 $ 1960 cov 24.9 p  820 srp 0 | them T 5(P1M4D0) S 5 X 0 M 5 $  590 cov 10.9 p 3162 srp 0
+   r150  us T 4(P0M4D0) S 5 X 0 M 3 $ 3240 cov 24.2 p  823 srp 0 | them T 5(P1M4D0) S 5 X 0 M 6 $ 2380 cov 21.5 p 3118 srp 0
+   r200  us T 4(P0M4D0) S 1 X 0 M 1 $ 6170 cov 17.1 p  384 srp 0 | them T 7(P1M6D0) S 5 X 2 M 8 $ 2030 cov 39.8 p 3924 srp 0
+   r250  us T 3(P0M3D0) S 0 X 0 M 0 $ 6340 cov  7.9 p  189 srp 0 | them T 8(P1M7D0) S 8 X 4 M10 $ 2400 cov 53.3 p 4493 srp 0
+   r293  us T 2(P0M2D0) S 0 X 0 M 0 $ 4790 cov  3.4 p   53 srp 0 | them T11(P1M10D0) S13 X 5 M10 $  600 cov 70.7 p 5466 srp 0
+   ours killed (3): r42 P r247 M r274 M
+   theirs killed (4): r55 M r78 M r88 M r102 M
+
+== m3067g2 sayhi (40x50, 1734 paintable) vs gone-whalin, t85, LOST MAJORITY_PAINTED r545
+   r50   us T 2(P1M1D0) S 5 X 0 M 0 $  970 cov  8.6 p  885 srp 0 | them T 3(P1M2D0) S 5 X 0 M 3 $ 1330 cov  5.2 p 1448 srp 0
+   r100  us T 5(P1M4D0) S 5 X 0 M 1 $  110 cov 11.5 p 2170 srp 0 | them T 3(P1M2D0) S 6 X 0 M 7 $ 2130 cov  7.8 p 1148 srp 0
+   r150  us T 7(P1M6D0) S 8 X 0 M 1 $  990 cov 17.9 p 2571 srp 0 | them T 7(P1M6D0) S 4 X 0 M 5 $ 1450 cov 11.9 p 3037 srp 0
+   r200  us T 7(P2M5D0) S10 X 3 M 5 $ 1770 cov 31.1 p 1883 srp 1 | them T 7(P1M6D0) S11 X 0 M10 $ 2760 cov 15.7 p 2971 srp 0
+   r250  us T10(P3M7D0) S11 X 4 M 7 $ 1368 cov 38.0 p 3168 srp 1 | them T10(P1M9D0) S10 X 0 M14 $ 1830 cov 25.7 p 4070 srp 0
+   r300  us T11(P4M7D0) S14 X 5 M10 $ 2980 cov 42.4 p 3534 srp 1 | them T11(P1M10D0) S11 X 5 M12 $ 2840 cov 34.3 p 4746 srp 0
+   r350  us T11(P4M7D0) S11 X 3 M 9 $ 1384 cov 42.0 p 3492 srp 1 | them T12(P1M11D0) S13 X 6 M18 $ 3460 cov 36.9 p 5844 srp 0
+   r400  us T11(P4M7D0) S 7 X 3 M 3 $ 2842 cov 35.9 p 2177 srp 0 | them T12(P1M11D0) S13 X11 M18 $ 3030 cov 45.3 p 5538 srp 0
+   r450  us T10(P4M6D0) S 5 X 4 M 6 $ 3052 cov 31.5 p 1880 srp 0 | them T14(P1M13D0) S12 X13 M17 $ 3640 cov 50.2 p 6431 srp 0
+   r500  us T 8(P3M5D0) S 4 X 3 M 3 $ 2302 cov 21.9 p 1384 srp 0 | them T15(P0M15D0) S12 X15 M19 $ 4350 cov 58.1 p 7227 srp 0
+   r545  us T 7(P3M4D0) S 3 X 1 M 1 $ 4292 cov 11.8 p  982 srp 0 | them T17(P0M17D0) S12 X17 M16 $ 5310 cov 70.1 p 8416 srp 0
+   ours killed (10): r28 M r196 M r214 M r231 P r338 P r355 P(SO900,SP100) r408 M r465 M r500 P(SP200,SO200) r532 M
+   theirs killed (6): r178 M r190 M r232 M r297 M r395 M r484 P
+
+== m3080g0 DefaultSmall (20x20, 372 paintable) vs lobster-roll, t85, LOST MAJORITY_PAINTED r203
+   r50   us T 2(P1M1D0) S 4 X 0 M 0 $ 2500 cov 23.4 p  560 srp 0 | them T 4(P1M3D0) S 4 X 0 M 3 $  670 cov 27.4 p 1649 srp 0
+   r100  us T 2(P1M1D0) S 2 X 1 M 0 $ 3350 cov 18.8 p  304 srp 0 | them T 4(P2M2D0) S 3 X 0 M 6 $  910 cov 41.4 p 1958 srp 0
+   r150  us T 2(P1M1D0) S 0 X 1 M 0 $ 4200 cov 11.6 p  215 srp 0 | them T 6(P3M3D0) S 3 X 1 M 6 $  950 cov 49.2 p 3257 srp 0
+   r200  us T 1(P1M0D0) S 0 X 0 M 0 $ 4760 cov  3.0 p  160 srp 0 | them T10(P4M6D0) S 5 X 1 M 7 $  490 cov 66.9 p 4886 srp 0
+   r203  us T 1(P1M0D0) S 0 X 0 M 0 $ 4760 cov  2.7 p  190 srp 0 | them T10(P4M6D0) S 5 X 1 M 7 $  850 cov 70.2 p 4825 srp 0
+   ours killed (1): r192 M
+   theirs killed (1): r63 M
+
+== m3080g1 MoneyTower (35x50, 1501 paintable) vs lobster-roll, t85, LOST MAJORITY_PAINTED r615
+   r50   us T 4(P1M3D0) S 7 X 0 M 0 $  910 cov 13.9 p 1702 srp 0 | them T 4(P1M3D0) S 6 X 0 M 1 $  840 cov 19.2 p 1510 srp 0
+   r100  us T 5(P1M4D0) S11 X 0 M 2 $ 1210 cov 21.5 p 1575 srp 0 | them T 5(P2M3D0) S 4 X 0 M 4 $  545 cov 22.7 p 2564 srp 1
+   r150  us T 5(P1M4D0) S 8 X 1 M 3 $ 1210 cov 28.4 p 1447 srp 0 | them T 5(P2M3D0) S 4 X 3 M10 $ 1040 cov 24.2 p 2559 srp 2
+   r200  us T 5(P1M4D0) S 9 X 1 M 5 $ 2040 cov 31.4 p 1405 srp 0 | them T 5(P2M3D0) S 4 X 4 M11 $  890 cov 30.1 p 2129 srp 2
+   r250  us T 5(P1M4D0) S 8 X 2 M 5 $  660 cov 32.6 p 2052 srp 0 | them T 5(P2M3D0) S 6 X 5 M11 $ 2230 cov 34.4 p 2553 srp 4
+   r300  us T 5(P1M4D0) S 5 X 1 M 4 $ 4110 cov 31.8 p  835 srp 0 | them T 5(P2M3D0) S 8 X 7 M11 $ 1955 cov 39.3 p 3194 srp 3
+   r350  us T 6(P2M4D0) S 4 X 2 M 3 $ 2410 cov 27.7 p 1081 srp 0 | them T 6(P2M4D0) S 6 X 8 M13 $ 3465 cov 45.5 p 2604 srp 3
+   r400  us T 5(P2M3D0) S 5 X 2 M 2 $ 4750 cov 23.3 p  910 srp 0 | them T 6(P2M4D0) S 6 X 6 M14 $ 1102 cov 50.0 p 3220 srp 3
+   r450  us T 4(P2M2D0) S 3 X 3 M 2 $ 2130 cov 23.4 p  934 srp 0 | them T 8(P2M6D0) S 7 X 7 M18 $ 2179 cov 51.5 p 3963 srp 4
+   r500  us T 3(P1M2D0) S 1 X 2 M 2 $ 3680 cov 21.8 p  532 srp 0 | them T 8(P2M6D0) S10 X10 M17 $ 3279 cov 56.2 p 3780 srp 4
+   r550  us T 2(P1M1D0) S 2 X 2 M 2 $ 5050 cov 18.1 p  588 srp 0 | them T 8(P2M6D0) S12 X10 M19 $ 6729 cov 60.8 p 3726 srp 4
+   r600  us T 2(P1M1D0) S 1 X 1 M 1 $ 5900 cov 14.9 p  417 srp 0 | them T11(P4M7D0) S15 X15 M24 $   39 cov 66.7 p 6987 srp 3
+   r615  us T 2(P1M1D0) S 0 X 1 M 1 $ 6350 cov 12.1 p  338 srp 0 | them T11(P4M7D0) S18 X15 M26 $ 1634 cov 70.2 p 6942 srp 3
+   ours killed (6): r144 M r311 M r352 M r434 M(SO400,SP100) r485 P(SP100) r506 M(SO500,SP100)
+   theirs killed (3): r69 M r277 M r385 M
+
+== m3080g2 giver (50x50, 2344 paintable) vs lobster-roll, t85, LOST MAJORITY_PAINTED r418
+   r50   us T 3(P1M2D0) S 6 X 0 M 0 $ 1360 cov 16.3 p  898 srp 0 | them T 4(P1M3D0) S 5 X 0 M 3 $  150 cov 19.9 p 1564 srp 0
+   r100  us T 4(P2M2D0) S 6 X 0 M 1 $ 1040 cov 20.1 p 1484 srp 0 | them T 7(P3M4D0) S 4 X 0 M 2 $  950 cov 24.4 p 2839 srp 0
+   r150  us T 6(P2M4D0) S 7 X 1 M 0 $  300 cov 25.4 p 1337 srp 0 | them T 7(P3M4D0) S 6 X 1 M 8 $ 1078 cov 27.7 p 3724 srp 2
+   r200  us T 7(P2M5D0) S 5 X 4 M 1 $ 2170 cov 27.9 p 2058 srp 1 | them T 9(P3M6D0) S10 X 8 M13 $ 1144 cov 30.7 p 5161 srp 6
+   r250  us T 7(P2M5D0) S 6 X 5 M 5 $ 2216 cov 27.9 p 2304 srp 1 | them T10(P3M7D0) S14 X10 M26 $   84 cov 36.7 p 6365 srp 8
+   r300  us T 8(P4M4D0) S 4 X 5 M 3 $  866 cov 25.0 p 1897 srp 2 | them T15(P3M12D0) S21 X16 M37 $ 1034 cov 45.2 p 9856 srp12
+   r350  us T 8(P5M3D0) S 5 X 6 M 3 $ 1778 cov 24.6 p 2412 srp 1 | them T17(P4M13D0) S32 X32 M51 $  147 cov 53.9 p14046 srp17
+   r400  us T 6(P3M3D0) S 6 X 5 M 2 $ 1382 cov 20.2 p 1532 srp 0 | them T18(P5M13D0) S52 X52 M67 $ 6138 cov 63.6 p22867 srp28
+   r418  us T 6(P3M3D0) S 5 X 3 M 1 $ 2062 cov 16.5 p  571 srp 0 | them T18(P6M12D0) S65 X66 M69 $ 4799 cov 70.2 p27681 srp30
+   ours killed (7): r228 M(SO350,SP100) r246 M r276 M(SP100,SO250) r350 M r364 P(SO950,SP100) r382 P(SO250,SP100) r384 P
+   theirs killed (3): r104 M r328 M r416 M
+
+== m3103g2 walalilongla (45x45, 1811 paintable) vs placeholder-name-2, t85, LOST MAJORITY_PAINTED r458
+   r50   us T 4(P1M3D0) S 9 X 0 M 0 $  790 cov 10.2 p 1600 srp 0 | them T 5(P1M4D0) S 5 X 0 M 0 $  690 cov 13.8 p 1935 srp 0
+   r100  us T 6(P1M5D0) S 9 X 0 M 1 $ 1040 cov 17.3 p 1893 srp 0 | them T 7(P2M5D0) S 7 X 1 M 5 $ 1275 cov 21.2 p 2368 srp 2
+   r150  us T 9(P3M6D0) S 8 X 2 M 2 $ 1410 cov 28.7 p 2062 srp 0 | them T 9(P2M7D0) S15 X 1 M11 $  901 cov 29.0 p 3500 srp 3
+   r200  us T 8(P3M5D0) S 8 X 5 M 3 $ 1115 cov 34.6 p 1769 srp 1 | them T10(P3M7D0) S19 X 3 M15 $ 2849 cov 37.5 p 4128 srp 7
+   r250  us T 7(P4M3D0) S11 X 8 M 6 $ 1301 cov 37.2 p 3980 srp 7 | them T11(P3M8D0) S30 X 6 M20 $ 1620 cov 44.2 p 6675 srp11
+   r300  us T 5(P3M2D0) S13 X 8 M 5 $  571 cov 39.9 p 5775 srp 6 | them T12(P3M9D0) S39 X 7 M29 $  930 cov 47.5 p 8233 srp14
+   r350  us T 6(P4M2D0) S 9 X 5 M 4 $ 1349 cov 35.2 p 6239 srp 7 | them T12(P4M8D0) S44 X11 M33 $ 4510 cov 51.4 p 9994 srp12
+   r400  us T 3(P3M0D0) S 7 X 5 M 3 $  965 cov 31.4 p 4208 srp 5 | them T13(P4M9D0) S54 X17 M33 $ 4972 cov 58.3 p11518 srp14
+   r450  us T 1(P1M0D0) S 3 X 2 M 3 $  965 cov 22.6 p 1613 srp 4 | them T16(P4M12D0) S63 X22 M34 $  906 cov 67.9 p13261 srp14
+   r458  us T 1(P1M0D0) S 3 X 1 M 2 $  965 cov 20.7 p 1429 srp 3 | them T16(P4M12D0) S64 X25 M34 $ 1134 cov 70.0 p12848 srp15
+   ours killed (22): r76 M r94 M(SO900,SP100) r169 P r173 M(SO700,SP100) r189 M r205 M r215 M r243 M(SP100,SO700) r258 M r270 P r279 M(SO750,SP800) r282 M r293 M(SO300,SP300) r349 M r352 M r372 P r380 M r382 M(SO900,SP100) r383 M(SP100,SO600) r389 P r428 P(SO700,SP300) r442 P(SP100,SO900)
+   theirs killed (4): r139 M r308 M r387 M r394 M
+
+== m3127g0 Snowman (25x25, 553 paintable) vs scienceqiu, t85, LOST MAJORITY_PAINTED r387
+   r50   us T 2(P1M1D0) S 8 X 0 M 0 $ 1280 cov 17.9 p  899 srp 0 | them T 4(P1M3D0) S 7 X 0 M 1 $  780 cov 29.7 p 1297 srp 0
+   r100  us T 2(P1M1D0) S 3 X 1 M 0 $ 2090 cov 22.4 p  626 srp 0 | them T 4(P2M2D0) S 3 X 1 M 3 $ 1150 cov 39.4 p 1525 srp 0
+   r150  us T 3(P1M2D0) S 5 X 0 M 2 $ 1180 cov 25.5 p  721 srp 0 | them T 3(P1M2D0) S 2 X 1 M 6 $ 2050 cov 40.3 p 1231 srp 0
+   r200  us T 2(P1M1D0) S 2 X 1 M 1 $ 2040 cov 20.4 p  342 srp 0 | them T 4(P1M3D0) S 5 X 1 M 5 $ 1169 cov 43.6 p 1291 srp 1
+   r250  us T 0(P0M0D0) S 1 X 0 M 1 $ 2120 cov 22.1 p  208 srp 0 | them T 4(P1M3D0) S 7 X 0 M 4 $ 1799 cov 49.9 p 1003 srp 1
+   r300  us T 2(P1M1D0) S 2 X 0 M 2 $  270 cov 21.0 p  851 srp 0 | them T 4(P1M3D0) S 5 X 0 M 5 $  899 cov 55.5 p  962 srp 1
+   r350  us T 1(P1M0D0) S 0 X 0 M 1 $  910 cov 15.9 p  530 srp 0 | them T 5(P2M3D0) S 7 X 1 M 6 $  899 cov 62.6 p 2043 srp 1
+   r387  us T 0(P0M0D0) S 0 X 0 M 1 $  910 cov  8.1 p   42 srp 0 | them T 6(P3M3D0) S12 X 2 M 6 $ 1612 cov 70.2 p 3122 srp 1
+   ours killed (8): r43 M r100 M r114 M r158 M r221 M r248 P r332 M r386 P
+   theirs killed (2): r56 M r116 P(SP100,SO150)
+
+== m3185g2 giver (50x50, 2344 paintable) vs immutable, t91, LOST MAJORITY_PAINTED r425
+   r50   us T 2(P1M1D0) S 6 X 0 M 0 $  860 cov 18.5 p  927 srp 0 | them T 3(P1M2D0) S 8 X 0 M 1 $ 1000 cov 16.3 p 1144 srp 0
+   r100  us T 4(P2M2D0) S 5 X 0 M 0 $  720 cov 21.8 p 1630 srp 0 | them T 3(P1M2D0) S11 X 0 M 2 $  980 cov 22.1 p 1882 srp 0
+   r150  us T 7(P2M5D0) S 3 X 0 M 1 $ 1000 cov 23.1 p 3295 srp 0 | them T 7(P1M6D0) S 9 X 0 M 1 $  570 cov 29.5 p 3088 srp 0
+   r200  us T 8(P3M5D0) S 9 X 2 M 3 $  450 cov 30.2 p 2852 srp 0 | them T10(P4M6D0) S10 X 4 M 1 $  588 cov 34.9 p 4053 srp 1
+   r250  us T 9(P3M6D0) S14 X 6 M 4 $ 1420 cov 32.8 p 3373 srp 4 | them T12(P5M7D0) S17 X14 M 6 $  992 cov 43.9 p 7540 srp 8
+   r300  us T11(P4M7D0) S19 X13 M 6 $ 1163 cov 33.4 p 5753 srp 6 | them T14(P6M8D0) S18 X29 M 8 $ 1045 cov 55.3 p10944 srp 4
+   r350  us T11(P4M7D0) S21 X15 M 8 $ 3228 cov 30.7 p 5476 srp 5 | them T14(P8M5D1) S23 X36 M12 $  768 cov 61.1 p15242 srp 6
+   r400  us T11(P4M7D0) S18 X17 M10 $ 1177 cov 28.6 p 5013 srp 6 | them T15(P7M5D3) S24 X45 M16 $  758 cov 64.2 p18134 srp10
+   r425  us T11(P4M7D0) S15 X13 M 3 $ 2370 cov 24.6 p 3957 srp 4 | them T17(P9M5D3) S26 X53 M17 $ 1148 cov 70.1 p21111 srp13
+   ours killed (2): r29 M r259 M(SP100,SO100)
+   theirs killed (9): r76 M r89 M r242 M r262 M r312 M r323 M r334 M r376 P r376 P(SO900,SP100)
+
+== m3186g2 headphones (60x60, 3186 paintable) vs lobster-roll, t91, LOST MAJORITY_PAINTED r1908
+   r50   us T 2(P1M1D0) S 6 X 0 M 0 $ 2500 cov  6.2 p  907 srp 0 | them T 3(P1M2D0) S 6 X 0 M 3 $ 1080 cov  9.5 p 1037 srp 0
+   r100  us T 4(P2M2D0) S 7 X 0 M 1 $ 1770 cov  9.7 p 1210 srp 0 | them T 6(P2M4D0) S 6 X 0 M 4 $  590 cov 13.2 p 2131 srp 0
+   r150  us T 6(P3M3D0) S 5 X 1 M 1 $  140 cov 13.7 p 2417 srp 0 | them T 7(P2M5D0) S 7 X 2 M10 $ 1427 cov 17.1 p 2604 srp 3
+   r200  us T 6(P3M3D0) S 7 X 3 M 2 $  916 cov 18.0 p 2190 srp 1 | them T 9(P3M6D0) S 9 X 6 M13 $  860 cov 24.1 p 3934 srp 3
+   r250  us T 7(P4M3D0) S 8 X 5 M 2 $  492 cov 20.5 p 3241 srp 5 | them T11(P3M8D0) S12 X 9 M18 $ 1873 cov 29.7 p 4590 srp 2
+   r300  us T 9(P4M5D0) S10 X10 M 5 $  292 cov 24.3 p 5526 srp 5 | them T13(P4M9D0) S14 X16 M24 $ 2206 cov 34.6 p 7038 srp 7
+   r350  us T12(P6M6D0) S21 X17 M 8 $ 1182 cov 29.3 p 9455 srp 9 | them T15(P4M11D0) S17 X21 M29 $ 1442 cov 40.1 p 8703 srp 7
+   r400  us T12(P6M6D0) S30 X40 M13 $ 1758 cov 35.1 p13477 srp15 | them T18(P4M14D0) S26 X27 M35 $  597 cov 40.1 p 9351 srp 6
+   r450  us T13(P6M7D0) S45 X56 M14 $ 1071 cov 43.7 p18406 srp17 | them T17(P5M12D0) S27 X22 M33 $ 1294 cov 39.7 p 9767 srp 8
+   r500  us T13(P6M7D0) S56 X69 M19 $ 1399 cov 47.5 p21774 srp15 | them T14(P4M10D0) S28 X26 M32 $ 7186 cov 37.4 p 8973 srp 6
+   r550  us T16(P8M8D0) S64 X73 M14 $ 1083 cov 52.6 p22385 srp15 | them T14(P6M8D0) S33 X23 M34 $ 6207 cov 36.7 p10423 srp 9
+   r600  us T16(P8M8D0) S79 X86 M18 $ 1105 cov 51.3 p28571 srp19 | them T16(P6M10D0) S43 X35 M34 $ 1945 cov 41.1 p14703 srp12
+   r650  us T15(P7M8D0) S92 X108 M16 $  954 cov 51.0 p30259 srp21 | them T16(P7M9D0) S56 X48 M45 $ 3251 cov 42.2 p18905 srp13
+   r700  us T16(P7M9D0) S96 X111 M14 $ 1108 cov 51.1 p31386 srp20 | them T16(P7M9D0) S63 X48 M49 $ 2921 cov 42.1 p19006 srp 9
+   r750  us T16(P7M9D0) S101 X115 M16 $ 1974 cov 51.9 p33111 srp20 | them T17(P6M11D0) S60 X47 M39 $ 5297 cov 41.9 p17474 srp12
+   r800  us T16(P7M9D0) S99 X115 M10 $ 1326 cov 53.7 p30113 srp18 | them T17(P6M11D0) S62 X45 M40 $ 9141 cov 40.9 p17495 srp11
+   r850  us T16(P7M9D0) S105 X109 M14 $ 1151 cov 53.3 p29583 srp20 | them T18(P6M12D0) S61 X48 M43 $ 5314 cov 41.7 p18550 srp 9
+   r900  us T16(P7M9D0) S100 X101 M14 $ 1807 cov 53.1 p30303 srp21 | them T18(P6M12D0) S69 X46 M38 $ 5092 cov 42.4 p17907 srp17
+   r950  us T16(P7M9D0) S103 X103 M12 $ 1299 cov 52.5 p29378 srp19 | them T18(P6M12D0) S79 X53 M34 $11802 cov 44.4 p20887 srp14
+   r1000 us T16(P7M9D0) S103 X106 M14 $ 1283 cov 54.2 p29672 srp21 | them T16(P6M10D0) S85 X49 M36 $43188 cov 43.1 p19719 srp14
+   r1050 us T16(P7M9D0) S106 X102 M15 $  498 cov 52.8 p31019 srp22 | them T17(P7M10D0) S84 X56 M48 $42598 cov 44.4 p23221 srp16
+   r1100 us T16(P7M9D0) S106 X104 M11 $ 2163 cov 52.0 p28118 srp19 | them T17(P7M10D0) S93 X67 M49 $61788 cov 45.1 p24592 srp19
+   r1150 us T15(P7M8D0) S95 X95 M12 $ 1341 cov 49.3 p26826 srp18 | them T17(P7M10D0) S97 X71 M42 $84708 cov 47.7 p26388 srp16
+   r1200 us T15(P7M8D0) S87 X93 M13 $  700 cov 50.9 p26787 srp19 | them T18(P8M10D0) S104 X73 M51 $82518 cov 45.7 p28200 srp15
+   r1250 us T14(P7M7D0) S90 X93 M12 $  909 cov 52.6 p24812 srp17 | them T18(P8M10D0) S109 X69 M49 $90668 cov 44.6 p26608 srp15
+   r1300 us T14(P7M7D0) S82 X82 M11 $ 1431 cov 48.6 p23213 srp14 | them T18(P8M10D0) S104 X70 M41 $96548 cov 48.1 p24435 srp16
+   r1350 us T14(P7M7D0) S75 X77 M11 $ 1949 cov 46.0 p23070 srp18 | them T18(P9M9D0) S102 X83 M49 $98524 cov 50.0 p27329 srp15
+   r1400 us T14(P7M7D0) S84 X80 M14 $ 1005 cov 47.1 p26176 srp18 | them T18(P9M9D0) S111 X87 M44 $99650 cov 48.5 p31873 srp16
+   r1450 us T13(P7M6D0) S82 X90 M14 $  540 cov 44.5 p25841 srp19 | them T19(P10M9D0) S120 X99 M43 $97998 cov 52.3 p33509 srp17
+   r1500 us T12(P7M5D0) S83 X83 M14 $ 1641 cov 44.8 p23354 srp18 | them T20(P11M9D0) S128 X101 M50 $85732 cov 52.1 p34942 srp17
+   r1550 us T12(P7M5D0) S77 X69 M12 $ 2104 cov 43.4 p21015 srp14 | them T20(P11M9D0) S141 X111 M49 $87578 cov 53.9 p39246 srp20
+   r1600 us T13(P7M6D0) S72 X65 M17 $ 2274 cov 40.3 p19240 srp14 | them T20(P11M9D0) S148 X118 M57 $90727 cov 57.4 p42790 srp21
+   r1650 us T13(P7M6D0) S66 X64 M14 $ 1088 cov 40.0 p17141 srp14 | them T21(P12M9D0) S175 X138 M67 $74892 cov 57.3 p47919 srp24
+   r1700 us T10(P7M3D0) S51 X55 M14 $ 1514 cov 35.6 p15515 srp12 | them T21(P12M9D0) S177 X153 M61 $64205 cov 61.6 p51467 srp24
+   r1750 us T10(P7M3D0) S45 X42 M13 $  905 cov 33.5 p13649 srp12 | them T22(P13M9D0) S188 X168 M75 $41930 cov 64.1 p56806 srp27
+   r1800 us T 9(P7M2D0) S37 X32 M11 $ 1307 cov 31.5 p13314 srp12 | them T24(P15M9D0) S211 X197 M71 $19590 cov 66.3 p65476 srp28
+   r1850 us T 9(P7M2D0) S29 X29 M11 $ 1209 cov 30.5 p10435 srp 9 | them T24(P15M9D0) S222 X205 M66 $ 1190 cov 67.1 p69199 srp28
+   r1900 us T 9(P7M2D0) S22 X23 M13 $ 1030 cov 28.4 p 9551 srp 8 | them T24(P14M10D0) S205 X210 M54 $  391 cov 69.1 p67989 srp27
+   r1908 us T 9(P7M2D0) S20 X23 M13 $ 1128 cov 27.5 p 9712 srp 7 | them T24(P14M10D0) S209 X210 M56 $ 1111 cov 70.0 p67753 srp27
+   ours killed (40): r425 M(SO250,SP100) r633 P r642 M r771 M(SO450,SP100) r886 M(SP100,SO50) r903 M(SP100,SO400) r952 M r972 M(SP100,SO550) r986 M r1010 M(SO900,SP100) r1032 M r1036 M r1045 M r1052 M(SO800,SP200) r1101 M r1117 M(SO450,SP200) r1168 M r1173 M r1186 M r1218 M r1232 M(SP100,SO200) r1268 M r1274 P r1410 M r1424 M r1444 M r1458 M r1494 M(SO700,SP100) r1524 M r1538 M(SP200,SO800) r1576 M r1652 P r1656 M(SO900,SP100) r1666 P r1672 M(SO900,SP100) r1693 M(SO900,SP100) r1698 M(SP100,SO250) r1728 P r1792 M(SP200,SO200) r1852 M(SP100,SO400)
+   theirs killed (29): r299 M r401 M r420 M r463 M r486 M r488 P(SO950,SP100) r522 M r542 M r632 M r642 M r675 M r702 P r823 M r828 P r996 M r1000 M r1041 P(SP100,SO300) r1159 P(SP100,SO150) r1214 P(SO1450,SP300) r1268 P r1323 M r1392 P(SO450,SP100) r1480 P(SO250,SP100) r1610 P r1681 P r1725 P r1802 P r1836 P(SO750,SP100) r1878 P(SP300,SO100)
+
+== m3188g1 UnderTheSea (45x45, 1847 paintable) vs scienceqiu, t91, LOST MAJORITY_PAINTED r378
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $  920 cov 20.0 p 1477 srp 0 | them T 4(P1M3D0) S 8 X 0 M 0 $  980 cov 22.9 p 1401 srp 0
+   r100  us T 7(P1M6D0) S14 X 0 M 2 $ 1150 cov 28.2 p 2085 srp 0 | them T 7(P1M6D0) S11 X 0 M 1 $  417 cov 31.2 p 2733 srp 1
+   r150  us T 7(P1M6D0) S16 X 0 M 4 $ 1730 cov 35.8 p 2455 srp 0 | them T10(P3M7D0) S15 X 1 M 4 $ 1214 cov 37.1 p 3450 srp 2
+   r200  us T 7(P1M6D0) S20 X 1 M 9 $ 1360 cov 38.7 p 3808 srp 7 | them T11(P5M6D0) S18 X 1 M21 $ 1284 cov 42.4 p 6217 srp 7
+   r250  us T 7(P1M6D0) S16 X 4 M10 $ 2401 cov 38.0 p 3401 srp11 | them T12(P6M6D0) S21 X 1 M33 $ 1118 cov 46.9 p 9369 srp10
+   r300  us T 6(P1M5D0) S13 X 5 M 8 $ 4731 cov 33.4 p 3455 srp12 | them T15(P8M6D1) S32 X 6 M44 $  896 cov 56.4 p13386 srp13
+   r350  us T 4(P1M3D0) S11 X 7 M 7 $ 5958 cov 27.2 p 2857 srp11 | them T17(P7M8D2) S40 X19 M66 $ 1076 cov 64.5 p17883 srp21
+   r378  us T 5(P1M4D0) S10 X 5 M 6 $ 5421 cov 21.9 p 2442 srp 6 | them T19(P7M9D3) S46 X34 M87 $ 1177 cov 70.2 p21646 srp24
+   ours killed (18): r138 M r187 M r197 M r198 M r207 M r214 M r220 M r229 M r235 M r245 M r271 M r278 M r300 M r323 M r333 M r337 M r341 M r347 M
+   theirs killed (6): r83 M r179 P(SO900,SP100) r180 M r212 M r214 P r302 P
+
+== m3201g0 Barcode (50x21, 966 paintable) vs immutable, t91, LOST MAJORITY_PAINTED r409
+   r50   us T 2(P1M1D0) S 7 X 0 M 0 $ 2250 cov 21.2 p  592 srp 0 | them T 3(P1M2D0) S 6 X 1 M 0 $ 1300 cov 33.0 p  997 srp 0
+   r100  us T 3(P1M2D0) S 7 X 0 M 1 $ 2600 cov 26.3 p  827 srp 0 | them T 3(P1M2D0) S 4 X 2 M 1 $ 2796 cov 47.1 p  699 srp 1
+   r150  us T 3(P1M2D0) S 6 X 0 M 1 $ 3900 cov 34.6 p  916 srp 0 | them T 3(P1M2D0) S 4 X 4 M 1 $ 3004 cov 50.8 p 1140 srp 2
+   r200  us T 3(P1M2D0) S 6 X 1 M 2 $ 4430 cov 36.7 p 1292 srp 0 | them T 3(P1M2D0) S 5 X 5 M 1 $  954 cov 55.9 p 1049 srp 2
+   r250  us T 3(P1M2D0) S 7 X 1 M 5 $ 3090 cov 37.6 p 1438 srp 0 | them T 3(P1M2D0) S 5 X 7 M 1 $ 3754 cov 56.7 p 1636 srp 2
+   r300  us T 3(P1M2D0) S 9 X 1 M 7 $ 1980 cov 32.5 p 1816 srp 0 | them T 4(P2M2D0) S 5 X 8 M 1 $ 1154 cov 61.5 p 2291 srp 2
+   r350  us T 4(P2M2D0) S 8 X 1 M 6 $ 1510 cov 32.9 p 1565 srp 0 | them T 5(P2M2D1) S 7 X12 M 2 $  954 cov 61.4 p 3173 srp 2
+   r400  us T 4(P2M2D0) S 1 X 1 M 2 $ 3560 cov 25.7 p  606 srp 0 | them T 7(P2M3D2) S 6 X14 M 6 $  940 cov 69.0 p 4815 srp 2
+   r409  us T 4(P2M2D0) S 2 X 1 M 2 $ 1260 cov 24.8 p  601 srp 0 | them T 7(P2M3D2) S 6 X16 M 6 $ 1112 cov 70.3 p 4817 srp 2
+   ours killed (0): 
+   theirs killed (2): r321 P r373 P
+
+== m3201g1 Fossil (30x30, 868 paintable) vs immutable, t91, LOST MAJORITY_PAINTED r324
+   r50   us T 5(P1M4D0) S 7 X 0 M 0 $  100 cov 22.2 p 1768 srp 0 | them T 5(P1M4D0) S 7 X 0 M 0 $  370 cov 27.8 p 1967 srp 0
+   r100  us T 8(P2M6D0) S10 X 0 M 2 $ 1150 cov 32.8 p 2666 srp 0 | them T 6(P2M4D0) S 7 X 1 M 2 $  960 cov 40.3 p 2807 srp 0
+   r150  us T 8(P2M6D0) S 5 X 3 M 4 $ 1630 cov 45.6 p 1477 srp 0 | them T 7(P4M3D0) S 7 X 1 M 4 $  800 cov 39.4 p 4218 srp 0
+   r200  us T 9(P3M6D0) S 7 X 3 M 7 $ 1790 cov 43.7 p 1998 srp 0 | them T 8(P4M4D0) S 7 X 5 M 6 $ 1190 cov 45.7 p 4467 srp 0
+   r250  us T 8(P3M5D0) S 8 X 2 M 9 $  960 cov 34.8 p 2192 srp 0 | them T 8(P4M3D1) S 6 X 9 M 8 $ 1163 cov 54.5 p 4217 srp 2
+   r300  us T 6(P2M4D0) S 4 X 2 M 5 $ 2110 cov 26.6 p 1543 srp 0 | them T 8(P4M2D2) S 4 X13 M 9 $ 1195 cov 63.1 p 5400 srp 2
+   r324  us T 6(P2M4D0) S 4 X 1 M 6 $ 2030 cov 21.1 p 1377 srp 0 | them T10(P5M2D3) S 3 X13 M10 $  555 cov 70.0 p 6628 srp 1
+   ours killed (4): r207 M r251 P(SP100,SO1400) r286 M r295 M
+   theirs killed (7): r95 M r99 M r110 M r128 M r201 M r262 M r269 P
+

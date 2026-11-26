@@ -1,0 +1,12 @@
+== lost games (41)
+   us: {'completed r1-150': 61, 'completed r151-300': 122, 'completed r301+': 351, 'ended: own wrong colour': 174, 'reached 50 rounds': 218, 'total': 534, 'ended: enemy paint': 169, 'ended: mopped': 132, 'ended: intact at end': 59}
+      completed per game med 2; life med 33.0; Chebyshev from centre to nearest own tower med 4.0; active r150 med 0; active r200 med 0; active r300 med 1.0; active r400 med 1.0
+   them: {'completed r1-150': 85, 'completed r151-300': 215, 'completed r301+': 746, 'ended: own wrong colour': 557, 'reached 50 rounds': 423, 'total': 1046, 'ended: enemy paint': 132, 'ended: intact at end': 347, 'ended: mopped': 10}
+      completed per game med 7; life med 29.0; Chebyshev from centre to nearest own tower med 3.0; active r150 med 0; active r200 med 1; active r300 med 3.0; active r400 med 3.5
+
+== won games (51)
+   us: {'completed r1-150': 116, 'completed r151-300': 599, 'completed r301+': 544, 'ended: own wrong colour': 278, 'reached 50 rounds': 630, 'total': 1259, 'ended: enemy paint': 210, 'ended: mopped': 145, 'ended: intact at end': 626}
+      completed per game med 15; life med 50; Chebyshev from centre to nearest own tower med 4; active r150 med 0; active r200 med 1; active r300 med 4.0; active r400 med 8
+   them: {'completed r1-150': 114, 'completed r151-300': 189, 'completed r301+': 421, 'ended: enemy paint': 181, 'reached 50 rounds': 284, 'total': 724, 'ended: own wrong colour': 390, 'ended: mopped': 28, 'ended: intact at end': 125}
+      completed per game med 4; life med 28.0; Chebyshev from centre to nearest own tower med 3.0; active r150 med 0; active r200 med 1; active r300 med 0.5; active r400 med 1
+

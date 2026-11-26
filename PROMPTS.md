@@ -125,3 +125,12 @@ What was the bot name where you decided to start clearing out the tournament aft
 
 ## #33 (2026-11-26 13:48 PDT)
 Seems like a good idea, regardless
+
+## #34 (2026-11-26 15:50 PDT)
+Can you give me a heat map comparing local Elo delta versus replica Elo delta 1 hour later?
+
+## #35 (2026-11-26 15:55 PDT)
+Regarding your suggestion:  Yeah, let's keep a permanent slot open in the local tournament for whatever bot holds the replica record, providing it's not already there
+
+## #36 (2026-11-26 16:01 PDT)
+Is it possible, on top of the heatmap, to plot the average delta replica Elo per delta local Elo bucket?

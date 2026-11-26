@@ -1,0 +1,30 @@
+== lost games: medians per game, us | them
+                                                        r1-100            r101-200            r201-300
+in: mopper +5                                           0 | 45            40 | 190        92.5 | 320.0
+in: new towers x500                                2000 | 2000         2000 | 3000     2500.0 | 2500.0
+in: paint towers                                   1000 | 1000         1117 | 1582     2223.0 | 4359.5
+lost: drained by enemy moppers                         110 | 0           430 | 100       980.0 | 240.0
+lost: paint held at death                              111 | 0            123 | 49        169.5 | 62.5
+lost: passive (neutral 1, enemy 2)                   348 | 235           384 | 585       509.5 | 948.5
+spawned into robots                                2200 | 2000         1900 | 2200     2950.0 | 3950.0
+spent: pattern marks                                   150 | 0              25 | 0          25.0 | 0.0
+spent: soldier tiles                               1030 | 1240         1105 | 1050      827.5 | 1265.0
+spent: soldier tower hits                            250 | 140           140 | 135       187.5 | 207.5
+spent: splashes                                          0 | 0           300 | 150       950.0 | 975.0
+tiles painted                                        206 | 251           326 | 256       376.0 | 466.5
+tiles painted per 100 paint (S+X)                  20.0 | 20.0         20.0 | 20.0         20.2 | 20.1
+== won games: medians per game, us | them
+                                                        r1-100            r101-200            r201-300
+in: mopper +5                                           0 | 25            40 | 140       135.0 | 307.5
+in: new towers x500                                2500 | 2000         3500 | 1000     4000.0 | 1000.0
+in: paint towers                                   1000 | 1000         1612 | 1117     5230.5 | 1624.0
+lost: drained by enemy moppers                          65 | 0           370 | 110       780.0 | 317.5
+lost: paint held at death                               66 | 0            105 | 58        189.0 | 46.5
+lost: passive (neutral 1, enemy 2)                   333 | 185           458 | 536       449.0 | 740.0
+spawned into robots                                2300 | 2100         2800 | 1800     5600.0 | 2100.0
+spent: pattern marks                                   175 | 0              75 | 0          75.0 | 0.0
+spent: soldier tiles                               1305 | 1265          2100 | 635      1707.5 | 450.0
+spent: soldier tower hits                            200 | 100           170 | 170       240.0 | 140.0
+spent: splashes                                          0 | 0            500 | 50      1450.0 | 350.0
+tiles painted                                        261 | 253           480 | 162       703.0 | 162.0
+tiles painted per 100 paint (S+X)                  20.0 | 20.0         20.2 | 20.0         20.4 | 20.0

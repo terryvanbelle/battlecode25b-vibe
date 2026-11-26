@@ -1,0 +1,155 @@
+== lost games ending after r450, per 100 rounds: coverage % at the window end us/them; tiles from empty (S/X), flipped by splash, mopped (us | them); robots alive S/X/M at the window end
+-- m2920g2 fix (40x50, 1856) vs gone-whalin t74 end r482
+   r1   -100  cov  14.7/ 10.8 | new S 274 X   0 flip    0 mop    0 | new S 200 X   0 flip    0 mop    2 | alive 10/0/2 vs 5/0/4, towers 8/10
+   r101 -200  cov  32.3/ 14.8 | new S 390 X  91 flip    0 mop   17 | new S  92 X   0 flip    0 mop  153 | alive 8/2/0 vs 14/0/14, towers 8/11
+   r201 -300  cov  30.8/ 30.9 | new S 100 X  21 flip  131 mop   13 | new S 432 X  10 flip    1 mop  279 | alive 4/6/3 vs 15/1/13, towers 7/12
+   r301 -400  cov  26.2/ 51.3 | new S  32 X  78 flip  181 mop   35 | new S 393 X  45 flip  157 mop  219 | alive 4/6/2 vs 17/10/20, towers 7/16
+   r401 -482  cov  15.9/ 70.5 | new S  37 X  40 flip  187 mop    4 | new S 228 X  44 flip  274 mop  182 | alive 3/3/0 vs 19/15/15, towers 6/18
+-- m2922g2 box (31x31, 829) vs scienceqiu t74 end r931
+   r1   -100  cov  21.8/ 37.9 | new S 195 X   0 flip    0 mop    3 | new S 317 X   0 flip    0 mop   14 | alive 9/0/1 vs 6/1/3, towers 3/4
+   r101 -200  cov  27.9/ 43.9 | new S  95 X  10 flip   16 mop   24 | new S  80 X   0 flip   10 mop   61 | alive 4/2/3 vs 5/1/8, towers 3/5
+   r201 -300  cov  29.0/ 52.6 | new S  61 X  14 flip   36 mop   21 | new S 113 X   1 flip   15 mop   87 | alive 5/1/5 vs 10/2/13, towers 4/6
+   r301 -400  cov  29.2/ 54.8 | new S  64 X   4 flip   70 mop   36 | new S 105 X   0 flip   19 mop  117 | alive 6/3/3 vs 15/2/18, towers 4/8
+   r401 -500  cov  25.9/ 57.2 | new S  48 X   9 flip   73 mop   10 | new S  71 X   7 flip   25 mop  132 | alive 4/1/5 vs 11/1/16, towers 4/8
+   r501 -600  cov  24.2/ 60.3 | new S  53 X  10 flip   85 mop   27 | new S  62 X   7 flip   69 mop   93 | alive 4/3/4 vs 13/3/18, towers 2/8
+   r601 -700  cov  24.4/ 59.5 | new S  49 X   8 flip  100 mop   18 | new S  35 X   2 flip   74 mop   82 | alive 5/1/3 vs 11/1/28, towers 3/8
+   r701 -800  cov  16.4/ 64.3 | new S  39 X   6 flip   27 mop    7 | new S  56 X   3 flip   15 mop  123 | alive 2/0/1 vs 11/2/30, towers 2/8
+   r801 -900  cov  15.7/ 69.1 | new S  74 X   0 flip    0 mop   35 | new S  60 X   0 flip   15 mop   65 | alive 4/0/5 vs 19/1/33, towers 3/9
+   r901 -931  cov  13.5/ 70.2 | new S   9 X   0 flip    0 mop    7 | new S  16 X   0 flip    0 mop   27 | alive 1/0/5 vs 17/2/36, towers 2/9
+-- m2969g0 Mirage (40x40, 1480) vs spaark y170 end r800
+   r1   -100  cov  16.1/ 17.8 | new S 208 X   0 flip    0 mop    0 | new S 200 X  20 flip    3 mop    7 | alive 6/0/0 vs 11/1/3, towers 7/6
+   r101 -200  cov  37.3/ 33.0 | new S 402 X  65 flip   11 mop   75 | new S 236 X  20 flip   55 mop  109 | alive 13/2/5 vs 14/4/6, towers 7/10
+   r201 -300  cov  33.0/ 44.1 | new S 152 X  96 flip  137 mop   54 | new S  90 X  48 flip  217 mop  231 | alive 7/8/6 vs 13/7/13, towers 7/11
+   r301 -400  cov  29.7/ 48.4 | new S 106 X  96 flip  369 mop   78 | new S 149 X  57 flip  305 mop  315 | alive 8/9/6 vs 16/12/16, towers 7/11
+   r401 -500  cov  34.5/ 50.7 | new S 131 X 126 flip  323 mop   43 | new S 131 X  33 flip  237 mop  272 | alive 11/10/3 vs 24/26/13, towers 7/13
+   r501 -600  cov  34.5/ 52.8 | new S 123 X  88 flip  448 mop   48 | new S  54 X  37 flip  435 mop  224 | alive 8/14/7 vs 17/34/12, towers 7/10
+   r601 -700  cov  32.1/ 58.0 | new S 170 X  41 flip  563 mop   79 | new S  47 X  63 flip  610 mop  200 | alive 13/9/8 vs 17/49/15, towers 7/10
+   r701 -800  cov  18.8/ 70.5 | new S  81 X  34 flip  371 mop   28 | new S 101 X  45 flip  438 mop  245 | alive 3/4/2 vs 20/72/20, towers 3/14
+-- m2970g2 sierpinski (39x50, 1620) vs gone-whalin y170 end r502
+   r1   -100  cov  20.6/ 14.0 | new S 235 X   0 flip    0 mop    0 | new S 121 X   0 flip    0 mop    8 | alive 9/0/2 vs 5/0/6, towers 5/5
+   r101 -200  cov  31.1/ 18.3 | new S 282 X  39 flip    6 mop   18 | new S  93 X   0 flip    0 mop  156 | alive 9/2/4 vs 9/0/16, towers 6/6
+   r201 -300  cov  33.8/ 35.6 | new S 165 X  92 flip   47 mop   55 | new S 303 X  22 flip   58 mop  202 | alive 7/5/5 vs 9/4/19, towers 7/11
+   r301 -400  cov  25.1/ 49.4 | new S 105 X  25 flip  154 mop   75 | new S 205 X  38 flip  210 mop  216 | alive 2/4/2 vs 14/10/14, towers 4/10
+   r401 -500  cov  11.7/ 69.6 | new S  20 X  13 flip  105 mop   28 | new S 197 X  37 flip  226 mop  128 | alive 0/1/2 vs 15/14/13, towers 2/14
+   r501 -502  cov  12.0/ 69.9 | new S   0 X   1 flip    5 mop    1 | new S  11 X   0 flip    0 mop    1 | alive 0/1/2 vs 15/14/13, towers 1/14
+-- m2971g2 walalilongla (45x45, 1811) vs immutable y170 end r1586
+   r1   -100  cov  17.9/ 20.9 | new S 260 X   0 flip    0 mop   13 | new S 316 X   0 flip    0 mop   11 | alive 9/0/3 vs 7/0/4, towers 6/5
+   r101 -200  cov  33.5/ 29.8 | new S 327 X  51 flip   26 mop   93 | new S 225 X  12 flip   43 mop   79 | alive 13/1/4 vs 7/4/7, towers 7/7
+   r201 -300  cov  39.9/ 39.7 | new S 173 X 117 flip  149 mop  132 | new S 196 X  40 flip  225 mop   98 | alive 12/7/7 vs 12/11/7, towers 7/9
+   r301 -400  cov  48.5/ 41.8 | new S 138 X  69 flip  405 mop  100 | new S 147 X  30 flip  366 mop   90 | alive 20/13/8 vs 18/22/11, towers 11/7
+   r401 -500  cov  51.1/ 46.6 | new S 130 X  52 flip  712 mop  133 | new S 202 X  39 flip  691 mop  155 | alive 26/33/13 vs 20/34/16, towers 11/9
+   r501 -600  cov  47.7/ 50.7 | new S  79 X  29 flip 1003 mop   45 | new S 113 X  18 flip  992 mop  182 | alive 22/28/8 vs 25/43/16, towers 10/9
+   r601 -700  cov  47.9/ 50.1 | new S  68 X  32 flip  889 mop   62 | new S  80 X  18 flip  841 mop  144 | alive 28/25/9 vs 18/47/16, towers 11/9
+   r701 -800  cov  45.8/ 52.7 | new S  49 X  29 flip  867 mop   67 | new S  54 X  23 flip  904 mop   79 | alive 19/28/8 vs 17/51/16, towers 11/11
+   r801 -900  cov  44.9/ 53.4 | new S  37 X  15 flip 1047 mop   61 | new S  65 X  20 flip 1036 mop   78 | alive 18/36/10 vs 15/58/20, towers 9/10
+   r901 -1000 cov  42.1/ 55.9 | new S  47 X  23 flip 1067 mop   66 | new S  60 X  17 flip 1102 mop   87 | alive 16/28/7 vs 23/56/22, towers 7/11
+   r1001-1100 cov  46.2/ 51.6 | new S  53 X  35 flip  968 mop   79 | new S  87 X  26 flip  856 mop  125 | alive 18/33/12 vs 28/55/22, towers 9/10
+   r1101-1200 cov  44.7/ 54.1 | new S  48 X  25 flip  946 mop   98 | new S  93 X  12 flip  983 mop   64 | alive 16/31/10 vs 29/65/24, towers 8/10
+   r1201-1300 cov  44.4/ 54.0 | new S  42 X  26 flip 1106 mop   57 | new S  79 X  17 flip 1066 mop  113 | alive 15/23/10 vs 30/67/22, towers 7/11
+   r1301-1400 cov  36.8/ 61.8 | new S  43 X  25 flip 1071 mop   91 | new S  73 X  17 flip 1213 mop   63 | alive 8/24/9 vs 34/71/22, towers 6/12
+   r1401-1500 cov  32.2/ 66.6 | new S  40 X  30 flip 1124 mop   68 | new S  91 X  21 flip 1167 mop  111 | alive 5/24/10 vs 27/71/27, towers 7/12
+   r1501-1586 cov  28.3/ 69.2 | new S  33 X  49 flip  883 mop   92 | new S  65 X  42 flip  915 mop  120 | alive 5/21/6 vs 30/72/32, towers 7/12
+-- m2972g1 DonkeyKong (60x60, 3232) vs scienceqiu y170 end r494
+   r1   -100  cov  13.6/ 15.6 | new S 312 X   0 flip    0 mop    0 | new S 375 X   0 flip    0 mop    0 | alive 9/0/2 vs 13/0/0, towers 10/9
+   r101 -200  cov  32.5/ 24.1 | new S 498 X  95 flip   48 mop   61 | new S 383 X   0 flip    0 mop   32 | alive 13/3/4 vs 21/0/4, towers 12/20
+   r201 -300  cov  32.1/ 36.1 | new S 185 X 105 flip   39 mop   56 | new S 444 X   8 flip   33 mop  310 | alive 4/3/5 vs 19/3/35, towers 12/23
+   r301 -400  cov  28.0/ 54.1 | new S 147 X  89 flip  216 mop   31 | new S 616 X  28 flip  185 mop  399 | alive 8/8/4 vs 55/12/97, towers 7/25
+   r401 -494  cov  15.3/ 70.0 | new S  52 X  14 flip  121 mop   33 | new S 301 X  19 flip  347 mop  249 | alive 2/1/2 vs 101/43/117, towers 1/25
+-- m2973g1 shell (40x40, 1418) vs subscribe-to-caterpillow y170 end r541
+   r1   -100  cov  16.3/ 17.1 | new S 246 X   0 flip    0 mop    0 | new S 243 X   0 flip    0 mop   15 | alive 8/0/3 vs 8/0/2, towers 7/5
+   r101 -200  cov  34.9/ 30.7 | new S 235 X  59 flip   22 mop   46 | new S 218 X  25 flip   18 mop   34 | alive 10/1/6 vs 9/3/6, towers 8/10
+   r201 -300  cov  30.3/ 44.5 | new S 130 X  13 flip   30 mop   86 | new S  98 X  57 flip  156 mop   82 | alive 7/3/8 vs 9/11/16, towers 7/12
+   r301 -400  cov  27.5/ 52.1 | new S 166 X  33 flip  144 mop   54 | new S  15 X  29 flip  262 mop  121 | alive 10/4/5 vs 5/22/34, towers 8/14
+   r401 -500  cov  13.8/ 66.6 | new S  63 X  35 flip  235 mop   38 | new S  25 X  70 flip  383 mop  145 | alive 1/3/2 vs 5/48/35, towers 5/15
+   r501 -541  cov  12.0/ 70.4 | new S  11 X  14 flip   85 mop    9 | new S  18 X  29 flip  101 mop   34 | alive 1/2/1 vs 8/57/32, towers 5/17
+-- m2974g1 TheBest (60x60, 3292) vs lobster-roll y170 end r1179
+   r1   -100  cov  11.8/ 11.8 | new S 298 X   0 flip    0 mop    0 | new S 292 X   0 flip    0 mop    7 | alive 8/1/2 vs 8/0/4, towers 9/8
+   r101 -200  cov  21.0/ 25.2 | new S 472 X  48 flip    4 mop   53 | new S 328 X  79 flip   91 mop  128 | alive 8/3/2 vs 11/6/19, towers 10/13
+   r201 -300  cov  28.0/ 38.9 | new S 210 X 175 flip  165 mop   40 | new S 347 X 183 flip  127 mop  194 | alive 10/14/8 vs 19/20/32, towers 12/24
+   r301 -400  cov  30.9/ 51.9 | new S 205 X 140 flip  494 mop   78 | new S 254 X 236 flip  509 mop  234 | alive 20/30/13 vs 43/40/54, towers 13/25
+   r401 -500  cov  31.4/ 55.0 | new S 237 X 204 flip 1061 mop   87 | new S 124 X 165 flip  961 mop  524 | alive 34/45/16 vs 73/64/68, towers 14/25
+   r501 -600  cov  34.4/ 56.3 | new S 225 X 136 flip 1356 mop   70 | new S  88 X 136 flip 1247 mop  370 | alive 35/50/18 vs 85/77/59, towers 13/25
+   r601 -700  cov  33.5/ 59.5 | new S 166 X 108 flip 1423 mop   67 | new S  83 X 123 flip 1388 mop  339 | alive 29/43/15 vs 84/90/65, towers 15/25
+   r701 -800  cov  34.1/ 59.7 | new S 199 X 104 flip 1648 mop   85 | new S  41 X 128 flip 1569 mop  364 | alive 36/46/22 vs 100/104/64, towers 13/25
+   r801 -900  cov  31.7/ 63.1 | new S 195 X 126 flip 1339 mop   98 | new S  62 X 105 flip 1382 mop  356 | alive 33/39/18 vs 105/118/65, towers 12/25
+   r901 -1000 cov  28.5/ 66.4 | new S 149 X  85 flip 1329 mop   67 | new S  24 X  98 flip 1385 mop  283 | alive 25/33/14 vs 99/121/54, towers 13/25
+   r1001-1100 cov  29.3/ 66.2 | new S 133 X  83 flip 1290 mop   96 | new S  15 X  82 flip 1281 mop  198 | alive 25/35/18 vs 99/124/63, towers 14/25
+   r1101-1179 cov  26.3/ 70.0 | new S  76 X  45 flip  891 mop   67 | new S  22 X  57 flip 1003 mop  110 | alive 28/35/18 vs 108/129/65, towers 12/25
+-- m2990g2 UglySweater (50x50, 2340) vs gone-whalin y170 end r482
+   r1   -100  cov  13.7/ 11.2 | new S 214 X   0 flip    0 mop    0 | new S 150 X   0 flip    0 mop    6 | alive 7/0/1 vs 4/0/4, towers 5/7
+   r101 -200  cov  20.4/ 14.4 | new S 252 X  52 flip    1 mop   66 | new S 142 X   0 flip    0 mop  149 | alive 3/2/3 vs 13/0/14, towers 7/9
+   r201 -300  cov  19.1/ 23.6 | new S  95 X  86 flip   63 mop   33 | new S 188 X  60 flip   62 mop  212 | alive 8/2/7 vs 24/8/15, towers 5/16
+   r301 -400  cov   4.4/ 49.6 | new S 127 X  21 flip  157 mop  147 | new S 444 X  57 flip  412 mop  236 | alive 2/1/2 vs 22/13/15, towers 2/20
+   r401 -482  cov   0.9/ 62.4 | new S   7 X   0 flip   15 mop    6 | new S 257 X  19 flip   45 mop   59 | alive 0/0/0 vs 23/22/18, towers 0/25
+-- m3006g0 SandyBeach (30x30, 822) vs geesegeesego y170 end r492
+   r1   -100  cov  39.8/ 41.8 | new S 159 X   0 flip    0 mop    0 | new S 109 X   0 flip    0 mop   67 | alive 9/0/1 vs 3/0/8, towers 5/3
+   r101 -200  cov  40.0/ 34.1 | new S 144 X  14 flip   40 mop   36 | new S  12 X   0 flip    0 mop  196 | alive 7/2/2 vs 4/0/10, towers 5/2
+   r201 -300  cov  33.9/ 43.7 | new S  74 X  38 flip   91 mop   23 | new S  52 X  42 flip   99 mop  154 | alive 3/0/2 vs 3/3/8, towers 6/4
+   r301 -400  cov  26.2/ 50.4 | new S  53 X  37 flip  125 mop   42 | new S  38 X  26 flip  158 mop  121 | alive 0/2/1 vs 4/5/6, towers 6/7
+   r401 -492  cov  15.9/ 70.1 | new S  15 X  36 flip   98 mop   11 | new S  58 X  48 flip  165 mop   68 | alive 0/2/0 vs 11/9/10, towers 4/11
+-- m3067g0 Flower (45x41, 1623) vs gone-whalin t85 end r1307
+   r1   -100  cov  13.7/  5.9 | new S 186 X   0 flip    0 mop    0 | new S  25 X   0 flip    0 mop   34 | alive 7/0/0 vs 6/0/7, towers 5/3
+   r101 -200  cov  26.6/ 10.4 | new S 256 X   0 flip    0 mop   31 | new S 104 X   0 flip    0 mop   47 | alive 7/0/5 vs 8/0/5, towers 6/5
+   r201 -300  cov  45.3/ 24.8 | new S 354 X  36 flip    8 mop   68 | new S 246 X  24 flip   40 mop   55 | alive 14/5/7 vs 5/5/8, towers 8/6
+   r301 -400  cov  54.6/ 26.5 | new S 155 X 107 flip  189 mop   42 | new S  95 X  20 flip  143 mop  157 | alive 16/14/10 vs 3/8/10, towers 8/5
+   r401 -500  cov  50.5/ 30.9 | new S  62 X  44 flip  299 mop   48 | new S  74 X  21 flip  323 mop  149 | alive 12/20/6 vs 3/9/12, towers 8/6
+   r501 -600  cov  51.8/ 30.0 | new S 102 X  62 flip  393 mop   19 | new S  30 X  34 flip  334 mop  202 | alive 15/19/7 vs 1/9/10, towers 8/6
+   r601 -700  cov  52.2/ 29.8 | new S  75 X  66 flip  253 mop   38 | new S  27 X  34 flip  227 mop  160 | alive 12/18/4 vs 2/9/12, towers 8/7
+   r701 -800  cov  49.2/ 34.7 | new S  59 X  79 flip  406 mop   26 | new S  57 X  55 flip  399 mop  193 | alive 11/19/5 vs 4/10/11, towers 8/7
+   r801 -900  cov  46.7/ 39.0 | new S 102 X  30 flip  359 mop   15 | new S  57 X  17 flip  370 mop  162 | alive 12/19/4 vs 3/10/10, towers 7/7
+   r901 -1000 cov  42.6/ 43.4 | new S  69 X  31 flip  354 mop   22 | new S  54 X  37 flip  356 mop  164 | alive 15/20/6 vs 5/13/9, towers 7/8
+   r1001-1100 cov  41.6/ 46.7 | new S  62 X  41 flip  456 mop   41 | new S  69 X  40 flip  442 mop  134 | alive 15/15/8 vs 7/11/10, towers 5/9
+   r1101-1200 cov  33.8/ 54.3 | new S  81 X  41 flip  443 mop  122 | new S 137 X  26 flip  525 mop  166 | alive 12/8/7 vs 9/13/10, towers 4/10
+   r1201-1300 cov  21.9/ 68.2 | new S  45 X  39 flip  326 mop   58 | new S  92 X  18 flip  500 mop  104 | alive 7/6/5 vs 9/13/12, towers 4/11
+   r1301-1307 cov  19.6/ 70.1 | new S   4 X   1 flip   13 mop    5 | new S   5 X   1 flip   43 mop   12 | alive 6/6/4 vs 9/13/12, towers 4/12
+-- m3067g2 sayhi (40x50, 1734) vs gone-whalin t85 end r545
+   r1   -100  cov  11.5/  7.8 | new S 188 X   0 flip    0 mop    2 | new S  79 X   0 flip    0 mop   48 | alive 5/0/1 vs 6/0/7, towers 5/3
+   r101 -200  cov  31.1/ 15.7 | new S 326 X  74 flip    0 mop   34 | new S 170 X   0 flip    0 mop   59 | alive 10/3/5 vs 11/0/10, towers 7/7
+   r201 -300  cov  42.4/ 34.3 | new S 298 X  73 flip   75 mop  109 | new S 430 X   1 flip   76 mop  174 | alive 14/5/10 vs 11/5/12, towers 11/11
+   r301 -400  cov  35.9/ 45.3 | new S 231 X  62 flip  150 mop  136 | new S 242 X  15 flip  219 mop  337 | alive 7/3/3 vs 13/11/18, towers 11/12
+   r401 -500  cov  21.9/ 58.1 | new S 111 X  54 flip  224 mop   87 | new S 127 X  45 flip  361 mop  271 | alive 4/3/3 vs 12/15/19, towers 8/15
+   r501 -545  cov  11.8/ 70.1 | new S  40 X  12 flip   88 mop   24 | new S  79 X  51 flip  190 mop  126 | alive 3/1/1 vs 12/17/16, towers 7/17
+-- m3080g1 MoneyTower (35x50, 1501) vs lobster-roll t85 end r615
+   r1   -100  cov  21.5/ 22.7 | new S 196 X   0 flip    0 mop    6 | new S 209 X   0 flip    0 mop   11 | alive 11/0/2 vs 4/0/4, towers 5/5
+   r101 -200  cov  31.4/ 30.1 | new S 258 X  81 flip   18 mop   67 | new S  64 X  47 flip   85 mop  123 | alive 9/1/5 vs 4/4/11, towers 5/5
+   r201 -300  cov  31.8/ 39.3 | new S 165 X  22 flip   33 mop   75 | new S  85 X  54 flip  107 mop  107 | alive 5/1/4 vs 8/7/11, towers 5/5
+   r301 -400  cov  23.3/ 50.0 | new S 114 X  15 flip   78 mop   40 | new S  37 X  48 flip  194 mop  142 | alive 5/2/2 vs 6/6/14, towers 5/6
+   r401 -500  cov  21.8/ 56.2 | new S  35 X  53 flip  129 mop   44 | new S 112 X  30 flip  124 mop  115 | alive 1/2/2 vs 10/10/17, towers 3/8
+   r501 -600  cov  14.9/ 66.7 | new S   7 X  26 flip   79 mop   24 | new S  89 X  54 flip  117 mop   99 | alive 1/1/1 vs 15/15/24, towers 2/11
+   r601 -615  cov  12.1/ 70.2 | new S   0 X   5 flip    8 mop    2 | new S   6 X  10 flip   47 mop    8 | alive 0/1/1 vs 18/15/26, towers 2/11
+-- m3103g2 walalilongla (45x45, 1811) vs placeholder-name-2 t85 end r458
+   r1   -100  cov  17.3/ 21.2 | new S 260 X   0 flip    0 mop    2 | new S 285 X   9 flip   17 mop    5 | alive 9/0/1 vs 7/1/5, towers 6/7
+   r101 -200  cov  34.6/ 37.5 | new S 317 X 127 flip   37 mop   34 | new S 303 X  21 flip   43 mop  125 | alive 8/5/3 vs 19/3/15, towers 8/10
+   r201 -300  cov  39.9/ 47.5 | new S 162 X 119 flip  173 mop   57 | new S 246 X  52 flip  112 mop  246 | alive 13/8/5 vs 39/7/29, towers 5/12
+   r301 -400  cov  31.4/ 58.3 | new S  88 X  47 flip  258 mop   21 | new S 146 X  46 flip  282 mop  264 | alive 7/5/3 vs 54/17/33, towers 3/13
+   r401 -458  cov  20.7/ 70.0 | new S  20 X  21 flip  118 mop   16 | new S  99 X  20 flip  228 mop  125 | alive 3/1/2 vs 64/25/34, towers 1/16
+-- m3186g2 headphones (60x60, 3186) vs lobster-roll t91 end r1908
+   r1   -100  cov   9.7/ 13.2 | new S 172 X   0 flip    0 mop    0 | new S 270 X   0 flip    0 mop   13 | alive 7/0/1 vs 6/0/4, towers 4/6
+   r101 -200  cov  18.0/ 24.1 | new S 267 X  78 flip    2 mop   13 | new S 246 X 114 flip    2 mop   80 | alive 7/3/2 vs 9/6/13, towers 6/9
+   r201 -300  cov  24.3/ 34.6 | new S 194 X 141 flip  141 mop   32 | new S 221 X 141 flip  145 mop  131 | alive 10/10/5 vs 14/16/24, towers 9/13
+   r301 -400  cov  35.1/ 40.1 | new S 277 X  86 flip  514 mop   78 | new S 315 X  75 flip  379 mop  155 | alive 30/40/13 vs 26/27/35, towers 12/18
+   r401 -500  cov  47.5/ 37.4 | new S 241 X 193 flip  887 mop   70 | new S 139 X  56 flip  675 mop  251 | alive 56/69/19 vs 28/26/32, towers 13/14
+   r501 -600  cov  51.3/ 41.1 | new S 245 X 147 flip  901 mop   29 | new S 134 X  86 flip  827 mop  346 | alive 79/86/18 vs 43/35/34, towers 16/16
+   r601 -700  cov  51.1/ 42.1 | new S 187 X  63 flip 1274 mop   25 | new S  79 X  62 flip 1189 mop  341 | alive 96/111/14 vs 63/48/49, towers 16/16
+   r701 -800  cov  53.7/ 40.9 | new S 209 X  96 flip 1232 mop   13 | new S  70 X  40 flip 1097 mop  356 | alive 99/115/10 vs 62/45/40, towers 16/17
+   r801 -900  cov  53.1/ 42.4 | new S 173 X  70 flip 1037 mop    4 | new S  93 X  54 flip  942 mop  356 | alive 100/101/14 vs 69/46/38, towers 16/18
+   r901 -1000 cov  54.2/ 43.1 | new S 144 X  54 flip 1153 mop   10 | new S  52 X  84 flip 1050 mop  267 | alive 103/106/14 vs 85/49/36, towers 16/16
+   r1001-1100 cov  52.0/ 45.1 | new S 168 X  44 flip 1235 mop   13 | new S  40 X  49 flip 1224 mop  294 | alive 106/104/11 vs 93/67/49, towers 16/17
+   r1101-1200 cov  50.9/ 45.7 | new S 169 X  33 flip 1214 mop    7 | new S  59 X  45 flip 1135 mop  314 | alive 87/93/13 vs 104/73/51, towers 15/18
+   r1201-1300 cov  48.6/ 48.1 | new S 182 X  73 flip 1221 mop    7 | new S  52 X  63 flip 1190 mop  360 | alive 82/82/11 vs 104/70/41, towers 14/18
+   r1301-1400 cov  47.1/ 48.5 | new S 152 X  44 flip 1097 mop   17 | new S  43 X  29 flip 1055 mop  286 | alive 84/80/14 vs 111/87/44, towers 14/18
+   r1401-1500 cov  44.8/ 52.1 | new S 174 X  71 flip 1398 mop    7 | new S  49 X  75 flip 1396 mop  320 | alive 83/83/14 vs 128/101/50, towers 12/20
+   r1501-1600 cov  40.3/ 57.4 | new S 153 X  50 flip 1305 mop   30 | new S  37 X  39 flip 1426 mop  227 | alive 72/65/17 vs 148/118/57, towers 12/20
+   r1601-1700 cov  35.6/ 61.6 | new S 201 X  74 flip 1267 mop   36 | new S  58 X  82 flip 1296 mop  396 | alive 51/55/14 vs 177/153/61, towers 10/21
+   r1701-1800 cov  31.5/ 66.3 | new S 216 X  56 flip 1333 mop   75 | new S  71 X  69 flip 1420 mop  315 | alive 37/32/11 vs 211/197/71, towers 9/24
+   r1801-1900 cov  28.4/ 69.1 | new S 211 X  85 flip 1354 mop   94 | new S  29 X  75 flip 1434 mop  313 | alive 22/23/13 vs 205/210/54, towers 9/24
+   r1901-1908 cov  27.5/ 70.0 | new S  12 X   7 flip   79 mop    9 | new S   4 X   6 flip  106 mop   21 | alive 20/23/13 vs 209/210/56, towers 9/24
+
+== lost games (41), medians per game, us / them (games that reached the window end)
+   r101-200 (n=39): new SO 205/167  new SP 24/3  flip SP 16/9  mop MO 36/80  lost to flips+mops 116/62
+   r201-300 (n=30): new SO 143.5/190.0  new SP 42.5/28.5  flip SP 90.0/104.0  mop MO 54.5/146.0  lost to flips+mops 267.0/140.0
+   r301-400 (n=22): new SO 110.0/148.0  new SP 43.0/37.0  flip SP 169.0/240.5  mop MO 48.0/162.0  lost to flips+mops 441.0/232.0
+== won games (51), medians per game, us / them (games that reached the window end)
+   r101-200 (n=51): new SO 367/117  new SP 42/0  flip SP 23/0  mop MO 50/74  lost to flips+mops 111/81
+   r201-300 (n=46): new SO 266.0/87.0  new SP 90.0/9.5  flip SP 78.5/44.0  mop MO 80.0/95.5  lost to flips+mops 173.5/169.0
+   r301-400 (n=23): new SO 190/93  new SP 71/34  flip SP 262/179  mop MO 83/137  lost to flips+mops 275/382

@@ -1,0 +1,16 @@
+== lost games (41)
+   us   r1-150 : damage on P/M/D 29550/98550/3050 = 23% on paint towers; paint towers are 28% of them's standing tower-rounds (defense 1%)
+   us   r151+  : damage on P/M/D 123850/170950/50250 = 36% on paint towers; paint towers are 33% of them's standing tower-rounds (defense 4%)
+   us   first tower kill by type: {'M': 34, 'P': 3}
+   them r1-150 : damage on P/M/D 22400/91250/0 = 20% on paint towers; paint towers are 23% of us's standing tower-rounds (defense 0%)
+   them r151+  : damage on P/M/D 106200/354100/0 = 23% on paint towers; paint towers are 39% of us's standing tower-rounds (defense 0%)
+   them first tower kill by type: {'M': 31, 'P': 9}
+
+== won games (51)
+   us   r1-150 : damage on P/M/D 37300/115900/350 = 24% on paint towers; paint towers are 27% of them's standing tower-rounds (defense 0%)
+   us   r151+  : damage on P/M/D 98500/312500/87950 = 20% on paint towers; paint towers are 33% of them's standing tower-rounds (defense 6%)
+   us   first tower kill by type: {'P': 11, 'M': 40}
+   them r1-150 : damage on P/M/D 24450/101650/0 = 19% on paint towers; paint towers are 22% of us's standing tower-rounds (defense 0%)
+   them r151+  : damage on P/M/D 117700/234800/0 = 33% on paint towers; paint towers are 44% of us's standing tower-rounds (defense 0%)
+   them first tower kill by type: {'M': 40, 'P': 10}
+

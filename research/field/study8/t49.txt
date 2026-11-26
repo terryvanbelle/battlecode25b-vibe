@@ -1,0 +1,106 @@
+== lost games: share of tower-turns from r40 (median per game), us | them
+   spawned                1.9 | 2.4     us p75 2.1  them p75 3.5
+   chip-blocked           8.6 | 17.0     us p75 14.0  them p75 26.1
+   paint-blocked          59.2 | 32.3     us p75 74.7  them p75 55.1
+   both short             24.0 | 35.3     us p75 34.0  them p75 50.9
+   both ok, no spawn      3.4 | 3.4     us p75 4.6  them p75 9.0
+   paint tower at cap     0.0 | 0.0     us p75 0.0  them p75 4.5
+   m2873g1 rain            us {'spawned': 2, 'chip-blocked': 7, 'paint-blocked': 71, 'both short': 16, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m2897g0 Crab            us {'spawned': 2, 'chip-blocked': 8, 'paint-blocked': 61, 'both short': 27, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2919g1 gridworld       us {'spawned': 2, 'chip-blocked': 11, 'paint-blocked': 73, 'both short': 10, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m2919g2 windmill        us {'spawned': 2, 'chip-blocked': 9, 'paint-blocked': 44, 'both short': 41, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m2920g2 fix             us {'spawned': 2, 'chip-blocked': 15, 'paint-blocked': 45, 'both short': 34, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m2921g1 Paintball       us {'spawned': 0, 'chip-blocked': 68, 'paint-blocked': 0, 'both short': 32, 'both ok, no spawn': 0}  paint tower at cap 9%
+   m2922g0 Portal          us {'spawned': 2, 'chip-blocked': 17, 'paint-blocked': 39, 'both short': 42, 'both ok, no spawn': 0}  paint tower at cap 0%
+   m2922g1 UnderTheSea     us {'spawned': 3, 'chip-blocked': 8, 'paint-blocked': 68, 'both short': 19, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m2922g2 box             us {'spawned': 2, 'chip-blocked': 18, 'paint-blocked': 34, 'both short': 43, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2969g0 Mirage          us {'spawned': 3, 'chip-blocked': 12, 'paint-blocked': 54, 'both short': 27, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m2970g0 Bunny           us {'spawned': 1, 'chip-blocked': 3, 'paint-blocked': 84, 'both short': 12, 'both ok, no spawn': 0}  paint tower at cap 0%
+   m2970g2 sierpinski      us {'spawned': 2, 'chip-blocked': 3, 'paint-blocked': 75, 'both short': 18, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2971g2 walalilongla    us {'spawned': 5, 'chip-blocked': 8, 'paint-blocked': 58, 'both short': 23, 'both ok, no spawn': 6}  paint tower at cap 0%
+   m2972g1 DonkeyKong      us {'spawned': 2, 'chip-blocked': 44, 'paint-blocked': 4, 'both short': 50, 'both ok, no spawn': 1}  paint tower at cap 7%
+   m2973g0 SandyBeach      us {'spawned': 1, 'chip-blocked': 11, 'paint-blocked': 68, 'both short': 18, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m2973g1 shell           us {'spawned': 2, 'chip-blocked': 8, 'paint-blocked': 66, 'both short': 19, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m2973g2 sierpinski      us {'spawned': 2, 'chip-blocked': 10, 'paint-blocked': 54, 'both short': 29, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m2974g0 Parking_lot     us {'spawned': 2, 'chip-blocked': 6, 'paint-blocked': 65, 'both short': 23, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m2974g1 TheBest         us {'spawned': 4, 'chip-blocked': 15, 'paint-blocked': 32, 'both short': 43, 'both ok, no spawn': 5}  paint tower at cap 2%
+   m2979g0 Bunny           us {'spawned': 2, 'chip-blocked': 14, 'paint-blocked': 44, 'both short': 40, 'both ok, no spawn': 0}  paint tower at cap 0%
+   m2979g1 BunnyGame       us {'spawned': 0, 'chip-blocked': 0, 'paint-blocked': 100, 'both short': 0, 'both ok, no spawn': 0}  paint tower at cap 0%
+   m2979g2 TargetPractice  us {'spawned': 2, 'chip-blocked': 0, 'paint-blocked': 97, 'both short': 0, 'both ok, no spawn': 1}  paint tower at cap 0%
+   m2990g0 Bunny           us {'spawned': 1, 'chip-blocked': 2, 'paint-blocked': 88, 'both short': 10, 'both ok, no spawn': 0}  paint tower at cap 0%
+   m2990g2 UglySweater     us {'spawned': 2, 'chip-blocked': 10, 'paint-blocked': 55, 'both short': 27, 'both ok, no spawn': 6}  paint tower at cap 0%
+   m3006g0 SandyBeach      us {'spawned': 2, 'chip-blocked': 2, 'paint-blocked': 75, 'both short': 18, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3067g0 Flower          us {'spawned': 4, 'chip-blocked': 3, 'paint-blocked': 83, 'both short': 6, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m3067g1 rain            us {'spawned': 1, 'chip-blocked': 4, 'paint-blocked': 80, 'both short': 12, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3067g2 sayhi           us {'spawned': 2, 'chip-blocked': 12, 'paint-blocked': 59, 'both short': 23, 'both ok, no spawn': 4}  paint tower at cap 1%
+   m3080g0 DefaultSmall    us {'spawned': 2, 'chip-blocked': 0, 'paint-blocked': 89, 'both short': 0, 'both ok, no spawn': 9}  paint tower at cap 0%
+   m3080g1 MoneyTower      us {'spawned': 2, 'chip-blocked': 6, 'paint-blocked': 67, 'both short': 22, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3080g2 giver           us {'spawned': 2, 'chip-blocked': 12, 'paint-blocked': 51, 'both short': 32, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m3103g2 walalilongla    us {'spawned': 2, 'chip-blocked': 34, 'paint-blocked': 25, 'both short': 34, 'both ok, no spawn': 5}  paint tower at cap 26%
+   m3127g0 Snowman         us {'spawned': 2, 'chip-blocked': 25, 'paint-blocked': 35, 'both short': 33, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m3185g2 giver           us {'spawned': 3, 'chip-blocked': 20, 'paint-blocked': 45, 'both short': 29, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m3186g2 headphones      us {'spawned': 7, 'chip-blocked': 10, 'paint-blocked': 42, 'both short': 34, 'both ok, no spawn': 6}  paint tower at cap 1%
+   m3188g0 Filter          us {'spawned': 1, 'chip-blocked': 8, 'paint-blocked': 52, 'both short': 39, 'both ok, no spawn': 0}  paint tower at cap 0%
+   m3188g1 UnderTheSea     us {'spawned': 4, 'chip-blocked': 9, 'paint-blocked': 59, 'both short': 26, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m3190g1 FourCorners     us {'spawned': 0, 'chip-blocked': 0, 'paint-blocked': 100, 'both short': 0, 'both ok, no spawn': 0}  paint tower at cap 0%
+   m3190g2 Paintball       us {'spawned': 1, 'chip-blocked': 37, 'paint-blocked': 4, 'both short': 57, 'both ok, no spawn': 0}  paint tower at cap 0%
+   m3201g0 Barcode         us {'spawned': 2, 'chip-blocked': 4, 'paint-blocked': 80, 'both short': 11, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3201g1 Fossil          us {'spawned': 2, 'chip-blocked': 8, 'paint-blocked': 62, 'both short': 24, 'both ok, no spawn': 4}  paint tower at cap 0%
+== won games: share of tower-turns from r40 (median per game), us | them
+   spawned                2.7 | 2.2     us p75 4.0  them p75 2.8
+   chip-blocked           13.4 | 13.1     us p75 21.8  them p75 31.4
+   paint-blocked          44.4 | 46.3     us p75 60.9  them p75 62.7
+   both short             34.5 | 28.8     us p75 48.8  them p75 37.4
+   both ok, no spawn      2.9 | 1.9     us p75 3.7  them p75 5.2
+   paint tower at cap     0.0 | 0.0     us p75 1.8  them p75 1.5
+   m2873g0 PlumberGame     us {'spawned': 3, 'chip-blocked': 5, 'paint-blocked': 76, 'both short': 13, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2873g2 shell           us {'spawned': 2, 'chip-blocked': 9, 'paint-blocked': 60, 'both short': 25, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2888g0 TheBest         us {'spawned': 4, 'chip-blocked': 41, 'paint-blocked': 3, 'both short': 53, 'both ok, no spawn': 1}  paint tower at cap 22%
+   m2888g1 UnderTheSea     us {'spawned': 4, 'chip-blocked': 17, 'paint-blocked': 38, 'both short': 37, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2888g2 rain            us {'spawned': 2, 'chip-blocked': 7, 'paint-blocked': 67, 'both short': 22, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m2897g1 DefaultHuge     us {'spawned': 6, 'chip-blocked': 31, 'paint-blocked': 2, 'both short': 60, 'both ok, no spawn': 1}  paint tower at cap 10%
+   m2897g2 box             us {'spawned': 2, 'chip-blocked': 15, 'paint-blocked': 46, 'both short': 35, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2919g0 HungerGames     us {'spawned': 4, 'chip-blocked': 6, 'paint-blocked': 65, 'both short': 19, 'both ok, no spawn': 6}  paint tower at cap 0%
+   m2920g0 Crab            us {'spawned': 2, 'chip-blocked': 16, 'paint-blocked': 29, 'both short': 51, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m2920g1 SandyBeach      us {'spawned': 2, 'chip-blocked': 21, 'paint-blocked': 33, 'both short': 43, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m2921g0 Flower          us {'spawned': 3, 'chip-blocked': 4, 'paint-blocked': 61, 'both short': 29, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2921g2 defensetower    us {'spawned': 2, 'chip-blocked': 10, 'paint-blocked': 56, 'both short': 30, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m2969g1 Parking_lot     us {'spawned': 2, 'chip-blocked': 25, 'paint-blocked': 19, 'both short': 51, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2969g2 galaxy          us {'spawned': 2, 'chip-blocked': 7, 'paint-blocked': 65, 'both short': 22, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m2970g1 headphones      us {'spawned': 5, 'chip-blocked': 17, 'paint-blocked': 31, 'both short': 42, 'both ok, no spawn': 4}  paint tower at cap 5%
+   m2971g0 Bunny           us {'spawned': 3, 'chip-blocked': 10, 'paint-blocked': 44, 'both short': 41, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m2971g1 DonkeyKong      us {'spawned': 5, 'chip-blocked': 25, 'paint-blocked': 19, 'both short': 49, 'both ok, no spawn': 3}  paint tower at cap 14%
+   m2972g0 Bread           us {'spawned': 2, 'chip-blocked': 9, 'paint-blocked': 61, 'both short': 22, 'both ok, no spawn': 6}  paint tower at cap 0%
+   m2972g2 lighthouse      us {'spawned': 2, 'chip-blocked': 12, 'paint-blocked': 53, 'both short': 27, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m2974g2 Thirds          us {'spawned': 3, 'chip-blocked': 13, 'paint-blocked': 53, 'both short': 27, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2990g1 DefaultHuge     us {'spawned': 5, 'chip-blocked': 47, 'paint-blocked': 1, 'both short': 47, 'both ok, no spawn': 1}  paint tower at cap 25%
+   m2998g0 DefaultHuge     us {'spawned': 5, 'chip-blocked': 45, 'paint-blocked': 3, 'both short': 45, 'both ok, no spawn': 2}  paint tower at cap 24%
+   m2998g1 Terminal        us {'spawned': 2, 'chip-blocked': 5, 'paint-blocked': 66, 'both short': 23, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m2998g2 mit             us {'spawned': 4, 'chip-blocked': 18, 'paint-blocked': 28, 'both short': 46, 'both ok, no spawn': 4}  paint tower at cap 3%
+   m3004g0 AlarmClock      us {'spawned': 3, 'chip-blocked': 8, 'paint-blocked': 60, 'both short': 24, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m3004g1 DonkeyKong      us {'spawned': 4, 'chip-blocked': 22, 'paint-blocked': 15, 'both short': 56, 'both ok, no spawn': 3}  paint tower at cap 4%
+   m3004g2 Restart         us {'spawned': 3, 'chip-blocked': 18, 'paint-blocked': 25, 'both short': 52, 'both ok, no spawn': 1}  paint tower at cap 0%
+   m3006g1 TargetPractice  us {'spawned': 2, 'chip-blocked': 10, 'paint-blocked': 62, 'both short': 23, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3006g2 windmill        us {'spawned': 2, 'chip-blocked': 11, 'paint-blocked': 66, 'both short': 18, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3103g0 Circuit         us {'spawned': 4, 'chip-blocked': 2, 'paint-blocked': 71, 'both short': 18, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m3103g1 shell           us {'spawned': 2, 'chip-blocked': 3, 'paint-blocked': 80, 'both short': 10, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m3111g0 Barcode         us {'spawned': 1, 'chip-blocked': 50, 'paint-blocked': 24, 'both short': 24, 'both ok, no spawn': 2}  paint tower at cap 2%
+   m3111g1 MoneyTower      us {'spawned': 2, 'chip-blocked': 8, 'paint-blocked': 59, 'both short': 29, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3111g2 starburst       us {'spawned': 2, 'chip-blocked': 8, 'paint-blocked': 72, 'both short': 17, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m3127g1 mit             us {'spawned': 3, 'chip-blocked': 28, 'paint-blocked': 17, 'both short': 50, 'both ok, no spawn': 2}  paint tower at cap 11%
+   m3127g2 yearofthesnake  us {'spawned': 2, 'chip-blocked': 17, 'paint-blocked': 37, 'both short': 39, 'both ok, no spawn': 5}  paint tower at cap 0%
+   m3185g0 AlarmClock      us {'spawned': 3, 'chip-blocked': 8, 'paint-blocked': 59, 'both short': 27, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m3185g1 defensetower    us {'spawned': 3, 'chip-blocked': 10, 'paint-blocked': 44, 'both short': 41, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m3186g0 DonkeyKong      us {'spawned': 4, 'chip-blocked': 18, 'paint-blocked': 24, 'both short': 51, 'both ok, no spawn': 3}  paint tower at cap 2%
+   m3186g1 Rose            us {'spawned': 2, 'chip-blocked': 6, 'paint-blocked': 58, 'both short': 28, 'both ok, no spawn': 6}  paint tower at cap 0%
+   m3187g0 Oasis           us {'spawned': 8, 'chip-blocked': 10, 'paint-blocked': 46, 'both short': 32, 'both ok, no spawn': 4}  paint tower at cap 0%
+   m3187g1 fix             us {'spawned': 2, 'chip-blocked': 23, 'paint-blocked': 22, 'both short': 51, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m3187g2 memstore        us {'spawned': 3, 'chip-blocked': 8, 'paint-blocked': 57, 'both short': 29, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3188g2 leavemealone    us {'spawned': 3, 'chip-blocked': 8, 'paint-blocked': 63, 'both short': 23, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3189g0 DefaultLarge    us {'spawned': 4, 'chip-blocked': 18, 'paint-blocked': 45, 'both short': 31, 'both ok, no spawn': 3}  paint tower at cap 0%
+   m3189g2 HungerGames     us {'spawned': 3, 'chip-blocked': 16, 'paint-blocked': 24, 'both short': 55, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m3190g0 Dominoes        us {'spawned': 2, 'chip-blocked': 23, 'paint-blocked': 20, 'both short': 54, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m3195g0 DefaultMedium   us {'spawned': 2, 'chip-blocked': 14, 'paint-blocked': 43, 'both short': 38, 'both ok, no spawn': 2}  paint tower at cap 0%
+   m3195g1 Leaf            us {'spawned': 8, 'chip-blocked': 23, 'paint-blocked': 7, 'both short': 61, 'both ok, no spawn': 2}  paint tower at cap 6%
+   m3195g2 headphones      us {'spawned': 5, 'chip-blocked': 12, 'paint-blocked': 35, 'both short': 42, 'both ok, no spawn': 5}  paint tower at cap 1%
+   m3201g2 Restart         us {'spawned': 2, 'chip-blocked': 23, 'paint-blocked': 32, 'both short': 39, 'both ok, no spawn': 4}  paint tower at cap 3%

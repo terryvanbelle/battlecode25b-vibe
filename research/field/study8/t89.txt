@@ -1,0 +1,53 @@
+== lost games (41): sieges (>= 300 robot damage on one tower, gaps <= 10 rounds) by the DEFENDING side; medians
+   defender phase    sieges fell%  attackers  defenders(moppers)  drained-from-attackers  attackers killed/starved  tower spawned S/M/X during siege (sums)
+   us       r1-100       93    51%       2         2 (0)                 0                   53/5                    23/3/0
+   us       r101-200    118    55%     2.0       3.0 (1.0)              10.0                   68/42                   16/14/1
+   us       r201+       495    54%       2         5 (1)                 5                  318/228                  62/43/33
+      us: no mopper of the defender within d2 20: 286 sieges, fell 55%, drained med 0.0
+      us: 1+ defender moppers: 420 sieges, fell 52%, drained med 30.0
+      us: no defense tower near: 706 sieges, fell 53%, drained med 0.0
+   them     r1-100      127    38%       1         2 (1)                30                  103/38                   16/73/2
+   them     r101-200    101    43%       1         4 (2)                40                   56/42                   10/39/4
+   them     r201+       407    32%       2         9 (3)                50                  279/230                  56/135/49
+      them: no mopper of the defender within d2 20: 98 sieges, fell 34%, drained med 0.0
+      them: 1+ defender moppers: 537 sieges, fell 35%, drained med 55
+      them: no defense tower near: 635 sieges, fell 35%, drained med 45
+
+   our starting paint tower under siege in r1-100 (lost games): game, rounds, attackers by type, damage, fell, defenders (moppers), drained, our spawns S/M/X meanwhile
+      m2921g1 Paintball    spaark     r84-123 {'SO': 28} dmg 1400 held defenders 0 (0) drained 0 spawned 0/0/0
+      m2922g0 Portal       scienceqiu r20-59 {'SO': 30} dmg 1500 FELL defenders 4 (0) drained 0 spawned 2/0/0
+      m2969g0 Mirage       spaark     r66-76 {'SO': 8} dmg 400 held defenders 0 (0) drained 0 spawned 0/0/0
+      m2970g0 Bunny        gone-whali r32-47 {'SO': 30} dmg 1500 FELL defenders 3 (0) drained 0 spawned 0/0/0
+      m2970g2 sierpinski   gone-whali r81-96 {'SO': 16} dmg 800 held defenders 3 (0) drained 0 spawned 1/0/0
+      m2973g0 SandyBeach   subscribe- r22-40 {'SO': 30} dmg 1500 FELL defenders 1 (0) drained 0 spawned 1/0/0
+      m2979g0 Bunny        scienceqiu r30-64 {'SO': 30} dmg 1500 FELL defenders 5 (0) drained 0 spawned 2/0/0
+      m2979g1 BunnyGame    scienceqiu r26-55 {'SO': 29} dmg 1450 held defenders 3 (0) drained 0 spawned 1/0/0
+      m2979g2 TargetPracti scienceqiu r49-65 {'SO': 15} dmg 750 held defenders 4 (0) drained 0 spawned 1/0/0
+      m2990g0 Bunny        gone-whali r31-44 {'SO': 30} dmg 1500 FELL defenders 3 (0) drained 0 spawned 0/0/0
+      m3067g0 Flower       gone-whali r40-57 {'SO': 16} dmg 800 held defenders 1 (0) drained 0 spawned 1/0/0
+      m3067g0 Flower       gone-whali r92-107 {'SO': 14} dmg 700 FELL defenders 1 (0) drained 0 spawned 0/0/0
+      m3067g1 rain         gone-whali r26-42 {'SO': 30} dmg 1500 FELL defenders 1 (0) drained 0 spawned 1/0/0
+      m3067g2 sayhi        gone-whali r60-74 {'SO': 10} dmg 500 held defenders 0 (0) drained 0 spawned 0/0/0
+      m3080g0 DefaultSmall lobster-ro r64-71 {'SO': 7} dmg 350 held defenders 2 (0) drained 0 spawned 1/0/0
+      m3127g0 Snowman      scienceqiu r29-45 {'SO': 17} dmg 850 held defenders 2 (0) drained 0 spawned 1/0/0
+      m3188g0 Filter       scienceqiu r28-49 {'SO': 30} dmg 1500 FELL defenders 4 (0) drained 0 spawned 1/0/0
+      m3190g1 FourCorners  slifland   r24-51 {'SO': 30} dmg 1500 FELL defenders 4 (0) drained 0 spawned 2/0/0
+      m3190g2 Paintball    slifland   r43-59 {'SO': 14} dmg 700 held defenders 2 (0) drained 0 spawned 0/0/0
+      m3190g2 Paintball    slifland   r73-90 {'SO': 16} dmg 800 FELL defenders 1 (0) drained 0 spawned 0/0/0
+
+== won games (51): sieges (>= 300 robot damage on one tower, gaps <= 10 rounds) by the DEFENDING side; medians
+   defender phase    sieges fell%  attackers  defenders(moppers)  drained-from-attackers  attackers killed/starved  tower spawned S/M/X during siege (sums)
+   us       r1-100       83    39%       2         2 (0)                 0                   32/13                   28/6/2
+   us       r101-200    142    40%     2.0       3.0 (1.0)               0.0                   88/35                   29/26/3
+   us       r201+       378    43%     2.0       6.0 (1.0)              10.0                  170/150                  63/29/35
+      us: no mopper of the defender within d2 20: 230 sieges, fell 42%, drained med 0.0
+      us: 1+ defender moppers: 373 sieges, fell 41%, drained med 30
+      us: no defense tower near: 603 sieges, fell 41%, drained med 0
+   them     r1-100      121    49%       2         2 (1)                10                   78/23                   16/61/2
+   them     r101-200    144    40%     1.5       3.0 (1.0)              40.0                   71/57                   22/45/6
+   them     r201+       545    46%       2         6 (2)                40                  479/192                  43/123/34
+      them: no mopper of the defender within d2 20: 196 sieges, fell 43%, drained med 0.0
+      them: 1+ defender moppers: 614 sieges, fell 46%, drained med 55.0
+      them: a defense tower of the defender within d2 25: 2 sieges, fell 50%, drained med 70.0
+      them: no defense tower near: 808 sieges, fell 45%, drained med 35.0
+

@@ -1,0 +1,20 @@
+== lost games: spawns per tower that lived >= 100 rounds
+   them DEFEN built n= 27 spawns med 0 p75 1 max 3  >= 3 spawns: 1, spawned MO: 10, spawned SO: 6, spawned SP: 4, towers: 27
+   them MONEY built n=275 spawns med 1 p75 2 max 3  >= 3 spawns: 13, spawned MO: 182, spawned SO: 151, spawned SP: 38, towers: 275
+   them MONEY start n= 39 spawns med 3 p75 3 max 3  >= 3 spawns: 21, spawned MO: 21, spawned SO: 78, towers: 39
+   them PAINT built n=123 spawns med 24 p75 58 max 448  >= 3 spawns: 109, spawned MO: 2222, spawned SO: 1888, spawned SP: 1857, towers: 123
+   them PAINT start n= 36 spawns med 23.0 p75 55 max 309  >= 3 spawns: 36, spawned MO: 619, spawned SO: 632, spawned SP: 347, towers: 36
+   us   MONEY built n=201 spawns med 2 p75 2 max 2  >= 3 spawns: 0, spawned MO: 134, spawned SO: 175, towers: 201
+   us   MONEY start n= 35 spawns med 2 p75 2 max 2  >= 3 spawns: 0, spawned SO: 70, towers: 35
+   us   PAINT built n= 59 spawns med 11 p75 86 max 299  >= 3 spawns: 50, spawned MO: 522, spawned SO: 1071, spawned SP: 1558, towers: 59
+   us   PAINT start n= 32 spawns med 18.0 p75 25 max 89  >= 3 spawns: 32, spawned MO: 77, spawned SO: 342, spawned SP: 246, towers: 32
+== won games: spawns per tower that lived >= 100 rounds
+   them DEFEN built n= 25 spawns med 0 p75 0 max 3  >= 3 spawns: 1, spawned MO: 6, spawned SO: 1, spawned SP: 4, towers: 25
+   them MONEY built n=254 spawns med 2.0 p75 2 max 4  >= 3 spawns: 37, spawned MO: 213, spawned SO: 157, spawned SP: 31, towers: 254
+   them MONEY start n= 42 spawns med 2.0 p75 3 max 3  >= 3 spawns: 20, spawned MO: 20, spawned SO: 84, towers: 42
+   them PAINT built n= 79 spawns med 16 p75 30 max 391  >= 3 spawns: 62, spawned MO: 699, spawned SO: 793, spawned SP: 1112, towers: 79
+   them PAINT start n= 42 spawns med 23.0 p75 35 max 60  >= 3 spawns: 42, spawned MO: 363, spawned SO: 519, spawned SP: 206, towers: 42
+   us   MONEY built n=390 spawns med 2.0 p75 2 max 2  >= 3 spawns: 0, spawned MO: 264, spawned SO: 356, towers: 390
+   us   MONEY start n= 50 spawns med 2.0 p75 2 max 2  >= 3 spawns: 0, spawned SO: 100, towers: 50
+   us   PAINT built n=232 spawns med 13.0 p75 27 max 266  >= 3 spawns: 206, spawned MO: 881, spawned SO: 1851, spawned SP: 2646, towers: 232
+   us   PAINT start n= 47 spawns med 21 p75 37 max 96  >= 3 spawns: 47, spawned MO: 169, spawned SO: 608, spawned SP: 530, towers: 47

@@ -1,0 +1,86 @@
+== lost, behind at r100: 21 games; medians (sums for counts in brackets), us / them
+   towers r100                  3 / 5   [67 / 108]
+   built r50                    2 / 2   [28 / 45]
+   built r100                   3 / 4   [61 / 87]
+   killed r50                   0 / 0   [9 / 1]
+   killed r100                  1 / 1   [29 / 21]
+   start PT killed by r100      0 / 0   [9 / 2]
+   build #1 round               27.0 / 19   (reached in 18 / 21)
+   build #2 round               44.0 / 34   (reached in 18 / 21)
+   build #3 round               76 / 57   (reached in 17 / 21)
+   spawned S r100               10 / 8   [203 / 164]
+   spawned M r100               1 / 3   [17 / 76]
+   spawned X r100               0 / 0   [3 / 6]
+   soldier-turns r100           601 / 519   [12163 / 11176]
+   soldier dmg to towers r100   2150 / 2300   [52650 / 49300]
+
+== lost, level or ahead at r100: 20 games; medians (sums for counts in brackets), us / them
+   towers r100                  6.0 / 5.0   [127 / 106]
+   built r50                    2.0 / 2.0   [36 / 42]
+   built r100                   5.0 / 5.0   [101 / 90]
+   killed r50                   0.0 / 0.0   [3 / 1]
+   killed r100                  0.0 / 1.0   [10 / 23]
+   start PT killed by r100      0.0 / 0.0   [1 / 3]
+   build #1 round               20.5 / 21.0   (reached in 20 / 20)
+   build #2 round               37.5 / 36.5   (reached in 20 / 20)
+   build #3 round               52.0 / 54.5   (reached in 20 / 20)
+   spawned S r100               11.5 / 8.0   [217 / 169]
+   spawned M r100               2.0 / 3.0   [29 / 65]
+   spawned X r100               0.0 / 0.0   [1 / 9]
+   soldier-turns r100           676.0 / 598.0   [13319 / 12254]
+   soldier dmg to towers r100   2525.0 / 925.0   [44400 / 26650]
+
+== won, behind at r100: 4 games; medians (sums for counts in brackets), us / them
+   towers r100                  5.0 / 6.5   [19 / 24]
+   built r50                    1.5 / 2.0   [5 / 8]
+   built r100                   3.0 / 5.0   [12 / 20]
+   killed r50                   0.0 / 0.0   [0 / 1]
+   killed r100                  0.0 / 1.0   [1 / 4]
+   start PT killed by r100      0.0 / 0.0   [0 / 1]
+   build #1 round               39.5 / 33.0   (reached in 4 / 4)
+   build #2 round               50.0 / 37.5   (reached in 4 / 4)
+   build #3 round               82.0 / 58.0   (reached in 4 / 4)
+   spawned S r100               10.5 / 9.5   [43 / 35]
+   spawned M r100               2.0 / 2.5   [9 / 9]
+   spawned X r100               0.0 / 0.0   [1 / 1]
+   soldier-turns r100           599.5 / 513.5   [2414 / 2082]
+   soldier dmg to towers r100   2775.0 / 400.0   [10550 / 2300]
+
+== won, level or ahead at r100: 47 games; medians (sums for counts in brackets), us / them
+   towers r100                  7 / 5   [339 / 257]
+   built r50                    2 / 2   [92 / 106]
+   built r100                   6 / 4   [273 / 209]
+   killed r50                   0 / 0   [7 / 8]
+   killed r100                  0 / 1   [25 / 44]
+   start PT killed by r100      0 / 0   [4 / 8]
+   build #1 round               24 / 18   (reached in 47 / 47)
+   build #2 round               37 / 33   (reached in 47 / 47)
+   build #3 round               53 / 58.0   (reached in 47 / 46)
+   spawned S r100               10 / 8   [483 / 382]
+   spawned M r100               1 / 3   [51 / 138]
+   spawned X r100               0 / 0   [3 / 17]
+   soldier-turns r100           671 / 554   [31357 / 27164]
+   soldier dmg to towers r100   1600 / 1000   [85750 / 62250]
+
+== lost games behind at r100, one by one: our built/killed by r100, theirs; our starting paint tower death
+   m2919g2 windmill      immutable  MAJ r220  towers r100 4/5: us built 4 lost 1 | them built 6 lost 3 | our start PT died rNone, theirs rNone | spawns S/M/X 12/0/0 vs 8/2/0
+   m2920g2 fix           gone-whali MAJ r482  towers r100 8/10: us built 6 lost 0 | them built 9 lost 1 | our start PT died rNone, theirs rNone | spawns S/M/X 13/2/0 vs 5/4/0
+   m2921g1 Paintball     spaark     ALL r138  towers r100 1/6: us built 3 lost 4 | them built 4 lost 0 | our start PT died r138, theirs rNone | spawns S/M/X 8/0/0 vs 10/3/1
+   m2922g0 Portal        scienceqiu MAJ r362  towers r100 4/6: us built 4 lost 1 | them built 5 lost 1 | our start PT died r59, theirs rNone | spawns S/M/X 11/2/0 vs 12/2/0
+   m2922g2 box           scienceqiu MAJ r931  towers r100 3/4: us built 2 lost 1 | them built 3 lost 1 | our start PT died r603, theirs rNone | spawns S/M/X 12/1/0 vs 9/3/1
+   m2970g0 Bunny         gone-whali ALL r235  towers r100 2/4: us built 2 lost 2 | them built 3 lost 1 | our start PT died r47, theirs r86 | spawns S/M/X 8/2/0 vs 6/4/0
+   m2974g0 Parking_lot   lobster-ro MAJ r357  towers r100 6/7: us built 4 lost 0 | them built 5 lost 0 | our start PT died rNone, theirs rNone | spawns S/M/X 11/1/0 vs 9/5/0
+   m2979g0 Bunny         scienceqiu ALL r323  towers r100 3/4: us built 4 lost 1 | them built 4 lost 2 | our start PT died r64, theirs rNone | spawns S/M/X 11/1/0 vs 10/3/0
+   m2979g1 BunnyGame     scienceqiu ALL r229  towers r100 1/4: us built 0 lost 1 | them built 4 lost 2 | our start PT died r100, theirs rNone | spawns S/M/X 7/0/0 vs 10/4/0
+   m2979g2 TargetPractic scienceqiu MAJ r299  towers r100 3/4: us built 1 lost 0 | them built 2 lost 0 | our start PT died r164, theirs rNone | spawns S/M/X 8/1/1 vs 8/3/0
+   m2990g0 Bunny         gone-whali ALL r282  towers r100 2/5: us built 3 lost 2 | them built 3 lost 0 | our start PT died r44, theirs rNone | spawns S/M/X 9/1/0 vs 6/6/0
+   m2990g2 UglySweater   gone-whali ALL r482  towers r100 5/7: us built 5 lost 2 | them built 7 lost 2 | our start PT died r432, theirs rNone | spawns S/M/X 11/1/0 vs 5/4/0
+   m3067g1 rain          gone-whali MAJ r293  towers r100 4/5: us built 4 lost 1 | them built 6 lost 3 | our start PT died r42, theirs rNone | spawns S/M/X 10/2/0 vs 5/5/0
+   m3080g0 DefaultSmall  lobster-ro MAJ r203  towers r100 2/4: us built 0 lost 0 | them built 3 lost 1 | our start PT died rNone, theirs rNone | spawns S/M/X 7/0/1 vs 6/6/0
+   m3080g2 giver         lobster-ro MAJ r418  towers r100 4/7: us built 3 lost 0 | them built 5 lost 0 | our start PT died r382, theirs rNone | spawns S/M/X 10/1/0 vs 5/3/0
+   m3103g2 walalilongla  placeholde MAJ r458  towers r100 6/7: us built 6 lost 2 | them built 5 lost 0 | our start PT died r169, theirs rNone | spawns S/M/X 12/1/0 vs 8/5/1
+   m3127g0 Snowman       scienceqiu MAJ r387  towers r100 2/4: us built 2 lost 2 | them built 3 lost 1 | our start PT died r248, theirs rNone | spawns S/M/X 9/0/1 vs 9/3/1
+   m3186g2 headphones    lobster-ro MAJ r1908 towers r100 4/6: us built 2 lost 0 | them built 4 lost 0 | our start PT died r633, theirs rNone | spawns S/M/X 9/1/0 vs 7/5/0
+   m3188g0 Filter        scienceqiu ALL r230  towers r100 1/2: us built 3 lost 4 | them built 3 lost 3 | our start PT died r49, theirs r69 | spawns S/M/X 8/0/0 vs 9/2/0
+   m3190g1 FourCorners   slifland   ALL r285  towers r100 1/2: us built 0 lost 1 | them built 0 lost 0 | our start PT died r51, theirs rNone | spawns S/M/X 7/0/0 vs 7/1/1
+   m3190g2 Paintball     slifland   ALL r110  towers r100 1/5: us built 3 lost 4 | them built 3 lost 0 | our start PT died r90, theirs rNone | spawns S/M/X 10/0/0 vs 10/3/1

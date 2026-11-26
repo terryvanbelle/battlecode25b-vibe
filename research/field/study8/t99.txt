@@ -1,0 +1,42 @@
+== lost games (41): towers by the number of the same side's towers already killed on that ruin
+   side  prior kills  towers  killed%  life med  robots killed per tower  share of the side's tower kills
+   us    0             595      38%       86       0.55                     51%
+   us    1             181      54%       40       0.73                     22%
+   us    2+            164      75%     29.5       1.02                     28%
+      us: towers on repeat ruins by type {'M': 308, 'P': 37}
+         P on repeat ruins:   37 built, killed  78%, life med 66, robots killed per tower 1.00
+         P on all ruins   :  101 built, killed  58%, life med 158, robots killed per tower 0.84
+         M on repeat ruins:  308 built, killed  62%, life med 33.5, robots killed per tower 0.86
+         M on all ruins   :  757 built, killed  43%, life med 41, robots killed per tower 0.60
+   them  0             792      19%    100.5       0.37                     59%
+   them  1             208      30%     50.5       0.72                     24%
+   them  2+            143      29%       60       1.24                     16%
+      them: towers on repeat ruins by type {'M': 228, 'D': 40, 'P': 83}
+         D on repeat ruins:   40 built, killed  48%, life med 112.0, robots killed per tower 4.62
+         D on all ruins   :   53 built, killed  36%, life med 103, robots killed per tower 4.00
+         P on repeat ruins:   83 built, killed  43%, life med 123, robots killed per tower 0.84
+         P on all ruins   :  209 built, killed  31%, life med 130, robots killed per tower 0.59
+         M on repeat ruins:  228 built, killed  21%, life med 29.0, robots killed per tower 0.32
+         M on all ruins   :  799 built, killed  19%, life med 56, robots killed per tower 0.31
+
+== won games (51): towers by the number of the same side's towers already killed on that ruin
+   side  prior kills  towers  killed%  life med  robots killed per tower  share of the side's tower kills
+   us    0            1198      16%    111.0       0.24                     59%
+   us    1             200      34%     57.0       0.41                     21%
+   us    2+            176      35%     42.5       0.43                     19%
+      us: towers on repeat ruins by type {'M': 301, 'P': 75}
+         P on repeat ruins:   75 built, killed  44%, life med 68, robots killed per tower 0.41
+         P on all ruins   :  401 built, killed  19%, life med 121, robots killed per tower 0.23
+         M on repeat ruins:  301 built, killed  32%, life med 44, robots killed per tower 0.42
+         M on all ruins   : 1071 built, killed  20%, life med 64, robots killed per tower 0.29
+   them  0             721      40%      107       0.59                     66%
+   them  1             138      70%     59.0       2.28                     22%
+   them  2+             75      72%       75       3.32                     12%
+      them: towers on repeat ruins by type {'P': 35, 'M': 128, 'D': 50}
+         D on repeat ruins:   50 built, killed  72%, life med 93.0, robots killed per tower 8.30
+         D on all ruins   :   50 built, killed  72%, life med 93.0, robots killed per tower 8.30
+         P on repeat ruins:   35 built, killed  77%, life med 55, robots killed per tower 0.94
+         P on all ruins   :  128 built, killed  56%, life med 160.5, robots killed per tower 0.76
+         M on repeat ruins:  128 built, killed  68%, life med 59.5, robots killed per tower 0.91
+         M on all ruins   :  654 built, killed  43%, life med 71.0, robots killed per tower 0.60
+

@@ -1,0 +1,22 @@
+== lost games (41): THEIR towers built after r100, by type
+   D: 51 built; origin {'after a kill of its D': 19, 'after a kill of its P': 13, 'new ruin': 8, 'after a kill of its M': 8, 'taken from the other side': 2, 'after a churn of its M': 1}
+      our robots within d2 20 the round before: none 25, 1 21, 2+ 5 (soldiers among them in 24)
+      own towers killed within d2 100 in the 50 rounds before: med 1, 1+ in 40; own towers standing med 9; defense towers standing med 1
+   P: 190 built; origin {'new ruin': 81, 'after a kill of its M': 45, 'after a kill of its P': 34, 'taken from the other side': 27, 'after a churn of its D': 3}
+      our robots within d2 20 the round before: none 142, 1 30, 2+ 18 (soldiers among them in 38)
+      own towers killed within d2 100 in the 50 rounds before: med 0.0, 1+ in 70; own towers standing med 10.0; defense towers standing med 0.0
+   M: 643 built; origin {'after a churn of its M': 303, 'new ruin': 184, 'after a kill of its M': 76, 'taken from the other side': 65, 'after a kill of its P': 15}
+      our robots within d2 20 the round before: none 547, 1 71, 2+ 25 (soldiers among them in 81)
+      own towers killed within d2 100 in the 50 rounds before: med 0, 1+ in 120; own towers standing med 10; defense towers standing med 0
+
+== won games (51): THEIR towers built after r100, by type
+   D: 50 built; origin {'after a kill of its D': 22, 'after a kill of its P': 19, 'after a kill of its M': 9}
+      our robots within d2 20 the round before: none 21, 1 15, 2+ 14 (soldiers among them in 24)
+      own towers killed within d2 100 in the 50 rounds before: med 1.0, 1+ in 41; own towers standing med 14.0; defense towers standing med 2.0
+   P: 95 built; origin {'new ruin': 55, 'after a kill of its P': 15, 'after a kill of its M': 15, 'taken from the other side': 6, 'after a churn of its D': 4}
+      our robots within d2 20 the round before: none 75, 1 13, 2+ 7 (soldiers among them in 17)
+      own towers killed within d2 100 in the 50 rounds before: med 0, 1+ in 31; own towers standing med 10; defense towers standing med 0
+   M: 458 built; origin {'after a churn of its M': 191, 'new ruin': 169, 'after a kill of its M': 84, 'after a kill of its P': 7, 'taken from the other side': 7}
+      our robots within d2 20 the round before: none 375, 1 58, 2+ 25 (soldiers among them in 64)
+      own towers killed within d2 100 in the 50 rounds before: med 0.0, 1+ in 116; own towers standing med 11.0; defense towers standing med 0.0
+

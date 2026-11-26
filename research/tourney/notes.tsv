@@ -122,3 +122,10 @@ y215	explore target: nearest unseen of 24 draws (y211: first unseen of 128)
 y216	explore target renewed after 90 rounds (y211: 60)
 t101	explore target renewed as soon as it has been seen (study 7 2.1a follow-up)
 y217	up to 192 draws for an unseen explore target (y211: 128)
+y218	towers upgrade with 1600 spare chips (y211: 1200)
+y219	siege needs 50 paint (y211: 30)
+y220	mopper defend bonus 60 (y211: 40)
+t102	study 8 2.2a: paint the first towers pattern while walking up to mark it (towers <= 3)
+t103	study 8 2.1 narrow: a ruin where our tower stood, with an enemy soldier/splasher in view, is rebuilt as a defense tower (from 4 towers, up to 1+n/5)
+t104	study 8 2.3b+c: SRPs agree with the money pattern of every tower within Chebyshev 4; repairPattern skips enemy paint
+t105	study 8 2.2a+b: t102 + a second soldier joins the first ruin from d2 20 while we have 2 towers

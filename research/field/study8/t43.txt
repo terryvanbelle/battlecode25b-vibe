@@ -1,0 +1,13 @@
+== small maps, lost
+   game           map            end  | US: contact dmg kill  towers r25/50/100  spawns<=r50 <=r100  1st mop  no-PT-from | THEM: same
+   m2921g1 spaark   Paintball      138 |   20   32     -    3/3/1    S8M0X0    S8M0X0  None   138 |   17   24   32M    4/5/6    S5M0X0   S10M3X1    70  None
+   m3080g0 lobster- DefaultSmall   203 |   20   15   63M    2/2/2    S6M0X0    S7M0X1   184  None |   14   22  192M    3/4/4    S5M3X0    S6M6X0    15  None
+   m3127g0 scienceq Snowman        387 |   27   42   56M    2/2/2    S8M0X0    S9M0X1   105   248 |   39   29   43M    3/4/4    S8M1X0    S9M3X1    42  None
+   m3188g0 scienceq Filter         230 |   18   23   36M    3/2/1    S8M0X0    S8M0X0   114    49 |   21   19   38M    3/3/2    S8M1X0    S9M2X0    22    69
+   m3190g1 slifland FourCorners    285 |   23   29     -    2/2/1    S7M0X0    S7M0X0  None    51 |   28   24   51P    2/2/2    S7M1X0    S7M1X1    15  None
+   m3190g2 slifland Paintball      110 |   18   17     -    3/3/1    S8M0X0   S10M0X0  None    90 |   17   19   33M    4/5/5    S7M1X0   S10M3X1    15  None
+   m3201g0 immutabl Barcode        409 |  316   48  321P    2/2/3    S7M0X0   S10M1X0    80  None |   46  336     -    2/3/3    S6M0X1    S6M1X2    51  None
+== small maps, won
+   game           map            end  | US: contact dmg kill  towers r25/50/100  spawns<=r50 <=r100  1st mop  no-PT-from | THEM: same
+   m3103g0 placehol Circuit        361 |    4   25   41M    3/4/5    S8M0X0   S12M3X0    80  None |    4  183  235M    3/3/4    S6M1X0    S6M1X0    15  None
+   m3111g0 varunvej Barcode        576 |   43   48  294M    2/3/3    S8M0X0    S9M1X0    80  None |   46   46  104M    3/3/3    S6M1X0   S11M1X0    50  None

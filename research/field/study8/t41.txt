@@ -1,0 +1,16 @@
+== lost games
+side type  deaths /100 turns tower-killed  starved drained<=10r mean drain on enemy paint med age
+them MO      1614       0.48           7%      93%          12%        1.9            31%    91.0
+them SO      1933       0.45          20%      80%          28%       11.1            50%     125
+them SP      1323       0.36           9%      91%          12%        3.2            30%     129
+us   MO       886       0.95           8%      92%          25%        5.6            17%    66.0
+us   SO      1981       0.71          24%      76%          50%       17.9            50%     104
+us   SP      1680       0.71           5%      95%          37%        9.4            23%   100.0
+== won games
+side type  deaths /100 turns tower-killed  starved drained<=10r mean drain on enemy paint med age
+them MO      1134       0.45           7%      93%          22%        4.2            39%   114.0
+them SO      1436       0.52          19%      81%          35%       14.2            62%   121.0
+them SP       993       0.34           8%      92%          16%        5.1            41%     155
+us   MO       956       0.63          17%      83%          15%        3.0             8%    72.0
+us   SO      1784       0.41          31%      69%          47%       17.9            46%   107.0
+us   SP      1300       0.38          20%      80%          34%        9.5            24%    98.0

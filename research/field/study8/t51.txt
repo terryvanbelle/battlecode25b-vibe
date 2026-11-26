@@ -1,0 +1,42 @@
+== lost games
+  us   killed 445: intact at death 112 (25%), rebuilt by owner 247 (56%; same type 240), taken by the killer 91, never 107
+       rebuilt within 5: 91 (20%), 20: 175 (39%), 50: 214 (48%), 100: 230 (52%)
+       paint tower rebuilt as MONEY: 4, paint tower rebuilt as PAINT: 34
+       rebuild delay (owner)              n=247 med 10 p25 3 p75 23
+       rebuild delay, intact              n= 93 med 5 p25 1 p75 13
+       rebuild delay, broken              n=154 med 13.5 p25 5 p75 36
+       rebuild delay, paint tower         n= 38 med 17.0 p25 6 p75 39
+       delay to steal                     n= 91 med 80 p25 46 p75 129
+       enemy tiles in 5x5 at death        n=445 med 0 p25 0 p75 4
+       rounds left when never rebuilt     n=107 med 54 p25 21 p75 115
+  them killed 256: intact at death 78 (30%), rebuilt by owner 220 (86%; same type 138), taken by the killer 11, never 25
+       rebuilt within 5: 33 (13%), 20: 104 (41%), 50: 163 (64%), 100: 186 (73%)
+       paint tower rebuilt as DEFEN: 13, paint tower rebuilt as MONEY: 15, paint tower rebuilt as PAINT: 34
+       rebuild delay (owner)              n=220 med 23.5 p25 9 p75 58
+       rebuild delay, intact              n= 75 med 15 p25 6 p75 39
+       rebuild delay, broken              n=145 med 29 p25 10 p75 71
+       rebuild delay, paint tower         n= 62 med 26.5 p25 10 p75 71
+       delay to steal                     n= 11 med 77 p25 67 p75 137
+       enemy tiles in 5x5 at death        n=256 med 0.0 p25 0 p75 0
+       rounds left when never rebuilt     n= 25 med 90 p25 30 p75 183
+== won games
+  us   killed 318: intact at death 85 (27%), rebuilt by owner 267 (84%; same type 262), taken by the killer 14, never 37
+       rebuilt within 5: 91 (29%), 20: 173 (54%), 50: 216 (68%), 100: 237 (75%)
+       paint tower rebuilt as MONEY: 1, paint tower rebuilt as PAINT: 71
+       rebuild delay (owner)              n=267 med 12 p25 4 p75 34
+       rebuild delay, intact              n= 82 med 5.0 p25 1 p75 17
+       rebuild delay, broken              n=185 med 14 p25 5 p75 48
+       rebuild delay, paint tower         n= 72 med 11.5 p25 4 p75 35
+       delay to steal                     n= 14 med 44.5 p25 31 p75 139
+       enemy tiles in 5x5 at death        n=318 med 0.0 p25 0 p75 1
+       rounds left when never rebuilt     n= 37 med 83 p25 21 p75 207
+  them killed 441: intact at death 72 (16%), rebuilt by owner 183 (41%; same type 133), taken by the killer 63, never 195
+       rebuilt within 5: 26 (6%), 20: 101 (23%), 50: 144 (33%), 100: 167 (38%)
+       paint tower rebuilt as DEFEN: 19, paint tower rebuilt as MONEY: 7, paint tower rebuilt as PAINT: 16
+       rebuild delay (owner)              n=183 med 19 p25 8 p75 42
+       rebuild delay, intact              n= 51 med 19 p25 7 p75 36
+       rebuild delay, broken              n=132 med 18.5 p25 9 p75 47
+       rebuild delay, paint tower         n= 42 med 20.5 p25 13 p75 49
+       delay to steal                     n= 63 med 96 p25 53 p75 138
+       enemy tiles in 5x5 at death        n=441 med 0 p25 0 p75 6
+       rounds left when never rebuilt     n=195 med 58 p25 27 p75 127

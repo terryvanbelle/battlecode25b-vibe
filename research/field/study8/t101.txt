@@ -1,0 +1,35 @@
+== lost, behind at r100
+   us   new ruin, builds #1-3    builds   38, wait med 0.0, >2 rounds   7, wait rounds    84: chips 100%
+   us   new ruin, later builds   builds   37, wait med 1.0, >2 rounds  10, wait rounds   163: chips 87%, nobody 13%, adjacent MO 1%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 37, its paint < 10 in 10 of 21
+   us   rebuild                  builds   79, wait med 0.5, >2 rounds  27, wait rounds   864: nobody 69%, chips 27%, adjacent SO 3%, adjacent SP 0%, adjacent MO 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 26.0, its paint < 10 in 81 of 596
+   them new ruin, builds #1-3    builds   61, wait med 1.0, >2 rounds  16, wait rounds   133: chips 100%
+   them new ruin, later builds   builds  115, wait med 1.0, >2 rounds  24, wait rounds   523: chips 97%, adjacent SO 2%, adjacent MO 1%
+   them rebuild                  builds  102, wait med 1, >2 rounds  46, wait rounds  2618: nobody 68%, chips 27%, adjacent SO 3%, adjacent MO 2%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 37, its paint < 10 in 76 of 1773
+
+== lost, level or ahead at r100
+   us   new ruin, builds #1-3    builds   58, wait med 1.0, >2 rounds  23, wait rounds   239: chips 100%
+   us   new ruin, later builds   builds   87, wait med 1.0, >2 rounds  30, wait rounds   675: chips 97%, nobody 3%, adjacent SO 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 25.0, its paint < 10 in 5 of 18
+   us   rebuild                  builds  188, wait med 0.0, >2 rounds  58, wait rounds  3374: nobody 49%, chips 46%, adjacent SO 4%, adjacent MO 1%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 2, nearest soldier d2 med 26, its paint < 10 in 113 of 1647
+   them new ruin, builds #1-3    builds   56, wait med 1, >2 rounds  17, wait rounds   122: chips 100%
+   them new ruin, later builds   builds  144, wait med 2.0, >2 rounds  64, wait rounds  1222: chips 98%, adjacent SO 1%, nobody 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 5, its paint < 10 in 0 of 5
+   them rebuild                  builds   99, wait med 2, >2 rounds  39, wait rounds  1346: nobody 65%, chips 27%, adjacent SO 4%, adjacent MO 3%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 50, its paint < 10 in 34 of 881
+
+== won
+   us   new ruin, builds #1-3    builds  146, wait med 1.0, >2 rounds  40, wait rounds   403: chips 100%
+   us   new ruin, later builds   builds  452, wait med 1.0, >2 rounds 122, wait rounds  2048: chips 97%, nobody 3%, adjacent SO 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 26.0, its paint < 10 in 40 of 60
+   us   rebuild                  builds  433, wait med 0.5, >2 rounds 141, wait rounds  8055: nobody 54%, chips 40%, adjacent SO 4%, adjacent MO 1%, adjacent SP 1%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 29, its paint < 10 in 265 of 4341
+   them new ruin, builds #1-3    builds  143, wait med 1, >2 rounds  39, wait rounds   354: chips 100%
+   them new ruin, later builds   builds  247, wait med 1, >2 rounds  80, wait rounds  1662: chips 91%, adjacent SO 8%, nobody 1%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 25, its paint < 10 in 0 of 13
+   them rebuild                  builds  214, wait med 2.0, >2 rounds  99, wait rounds  5614: nobody 74%, chips 22%, adjacent SO 2%, adjacent MO 1%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 37.0, its paint < 10 in 214 of 4144
+

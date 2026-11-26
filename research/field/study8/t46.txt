@@ -1,0 +1,34 @@
+== lost games (41); "us" = our towers killed by them, "them" = theirs killed by us
+   us: towers killed by r100 per game med 1 mean 0.95; by r200 med 2 mean 2.63
+      r1-100    {'killed': 39, 'type M': 29, 'type P': 10, 'was the last paint tower': 10}
+                age 34  attackers 2  soldier attackers 2  splasher attackers 0  splasher dmg % 0  siege rounds 14  defenders d2<=20 0  defending moppers 0
+      r101-200  {'killed': 69, 'type M': 61, 'type P': 8, 'was the last paint tower': 3}
+                age 74  attackers 2  soldier attackers 2  splasher attackers 0  splasher dmg % 0  siege rounds 11  defenders d2<=20 1  defending moppers 0
+      r201+     {'killed': 337, 'type M': 270, 'type P': 67, 'was the last paint tower': 7}
+                age 76  attackers 2  soldier attackers 2  splasher attackers 0  splasher dmg % 0  siege rounds 12  defenders d2<=20 2  defending moppers 1
+      by map class: {'map medium': 108, 'map large': 310, 'map small': 27}
+   them: towers killed by r100 per game med 1 mean 1.07; by r200 med 2 mean 2.41
+      r1-100    {'killed': 44, 'type M': 39, 'type P': 5, 'was the last paint tower': 4}
+                age 34.0  attackers 2.0  soldier attackers 2.0  splasher attackers 0.0  splasher dmg % 0.0  siege rounds 14.0  defenders d2<=20 2.0  defending moppers 1.0
+      r101-200  {'killed': 55, 'type M': 41, 'type P': 14}
+                age 49  attackers 2  soldier attackers 2  splasher attackers 0  splasher dmg % 0  siege rounds 13  defenders d2<=20 2  defending moppers 1
+      r201+     {'killed': 157, 'type M': 83, 'type P': 55, 'type D': 19, 'was the last paint tower': 2}
+                age 112  attackers 2  soldier attackers 2  splasher attackers 0  splasher dmg % 0  siege rounds 10  defenders d2<=20 4  defending moppers 1
+      by map class: {'map medium': 67, 'map large': 180, 'map small': 9}
+== won games (51); "us" = our towers killed by them, "them" = theirs killed by us
+   us: towers killed by r100 per game med 0 mean 0.51; by r200 med 2 mean 1.98
+      r1-100    {'killed': 26, 'type M': 22, 'type P': 4, 'was the last paint tower': 4}
+                age 29.5  attackers 2.0  soldier attackers 2.0  splasher attackers 0.0  splasher dmg % 0.0  siege rounds 13.5  defenders d2<=20 0.5  defending moppers 0.0
+      r101-200  {'killed': 75, 'type M': 63, 'type P': 12, 'was the last paint tower': 2}
+                age 61  attackers 2  soldier attackers 2  splasher attackers 0  splasher dmg % 0  siege rounds 12  defenders d2<=20 2  defending moppers 0
+      r201+     {'killed': 217, 'type M': 144, 'type P': 73, 'was the last paint tower': 1}
+                age 70  attackers 2  soldier attackers 2  splasher attackers 0  splasher dmg % 0  siege rounds 12  defenders d2<=20 3  defending moppers 1
+      by map class: {'map medium': 96, 'map large': 208, 'map small': 14}
+   them: towers killed by r100 per game med 1 mean 0.94; by r200 med 2 mean 2.39
+      r1-100    {'killed': 48, 'type P': 11, 'type M': 37, 'was the last paint tower': 7}
+                age 45.0  attackers 2.0  soldier attackers 2.0  splasher attackers 0.0  splasher dmg % 0.0  siege rounds 16.0  defenders d2<=20 1.0  defending moppers 0.0
+      r101-200  {'killed': 74, 'type P': 15, 'type M': 59, 'was the last paint tower': 5}
+                age 57.5  attackers 2.0  soldier attackers 2.0  splasher attackers 0.0  splasher dmg % 0.0  siege rounds 12.5  defenders d2<=20 2.0  defending moppers 1.0
+      r201+     {'killed': 319, 'type P': 69, 'type M': 214, 'was the last paint tower': 6, 'type D': 36}
+                age 123  attackers 2  soldier attackers 2  splasher attackers 0  splasher dmg % 0  siege rounds 12  defenders d2<=20 4  defending moppers 1
+      by map class: {'map medium': 135, 'map large': 296, 'map small': 10}

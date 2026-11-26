@@ -1,0 +1,75 @@
+== lost games (41)
+   us: SRPs broken by own soldier tower-pattern paint: 175, SRP age at the break med 25
+      ruin at SRP completion | what happened to it before the break | built there next by the side
+         51  own M     | nothing                  | M
+         46  own M     | nothing                  | -
+         34  empty     | nothing                  | M
+         18  own M     | own tower killed         | M
+          8  own P     | own tower killed         | P
+          4  empty     | own tower killed         | M
+          4  empty     | nothing                  | -
+          2  own M     | own tower killed         | -
+          2  own P     | own tower killed         | M
+          2  own P     | own tower killed         | -
+   us: SRP completions 534 (42% reach 50 rounds), by ruins within Chebyshev 4 of the centre at completion:
+         no ruin within Chebyshev 4           194  active  33%
+         ruin within 4: empty                  90  active  34%
+         ruin within 4: own M                 213  active  43%
+         ruin within 4: own P                 104  active  61%
+   them: SRPs broken by own soldier tower-pattern paint: 268, SRP age at the break med 16.0
+      ruin at SRP completion | what happened to it before the break | built there next by the side
+         74  empty     | nothing                  | P
+         68  own P     | nothing                  | -
+         29  own P     | own tower killed         | P
+         23  own M     | own tower killed         | P
+         18  own M     | own tower killed         | M
+         11  own M     | nothing                  | -
+          9  empty     | nothing                  | M
+          6  empty     | nothing                  | D
+          6  own D     | own tower killed         | D
+          4  own D     | nothing                  | D
+   them: SRP completions 1046 (41% reach 50 rounds), by ruins within Chebyshev 4 of the centre at completion:
+         no ruin within Chebyshev 4           261  active  34%
+         ruin within 4: empty                 114  active  10%
+         ruin within 4: own D                  63  active  43%
+         ruin within 4: own M                 420  active  53%
+         ruin within 4: own P                 385  active  39%
+
+== won games (51)
+   us: SRPs broken by own soldier tower-pattern paint: 276, SRP age at the break med 19.0
+      ruin at SRP completion | what happened to it before the break | built there next by the side
+         77  empty     | nothing                  | -
+         59  own M     | nothing                  | M
+         40  empty     | nothing                  | M
+         37  own M     | nothing                  | -
+         26  own M     | own tower killed         | M
+         15  empty     | nothing                  | P
+         14  own P     | own tower killed         | P
+          2  own M     | own tower killed         | -
+          2  empty     | own tower killed         | M
+          1  own M     | own tower churned/gone   | M
+   us: SRP completions 1259 (51% reach 50 rounds), by ruins within Chebyshev 4 of the centre at completion:
+         no ruin within Chebyshev 4           402  active  47%
+         ruin within 4: empty                 240  active  32%
+         ruin within 4: enemy M                 3  active  33%
+         ruin within 4: own M                 386  active  54%
+         ruin within 4: own P                 423  active  63%
+   them: SRPs broken by own soldier tower-pattern paint: 270, SRP age at the break med 16.5
+      ruin at SRP completion | what happened to it before the break | built there next by the side
+         41  own M     | nothing                  | -
+         36  own D     | nothing                  | D
+         33  own P     | nothing                  | -
+         21  own D     | nothing                  | P
+         19  own M     | nothing                  | P
+         16  own M     | own tower killed         | M
+         12  own D     | own tower killed         | D
+         11  own D     | nothing                  | -
+          8  empty     | nothing                  | D
+          7  own P     | own tower killed         | P
+   them: SRP completions 724 (40% reach 50 rounds), by ruins within Chebyshev 4 of the centre at completion:
+         no ruin within Chebyshev 4           145  active  48%
+         ruin within 4: empty                  46  active  11%
+         ruin within 4: own D                 153  active  20%
+         ruin within 4: own M                 301  active  44%
+         ruin within 4: own P                 220  active  48%
+

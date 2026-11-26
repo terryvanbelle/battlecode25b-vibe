@@ -1,0 +1,10 @@
+medians for the first new-ruin tower; seen = round, mark/start = rounds after seen, paint = start -> ready rounds
+group      side  n      seen    mark   start   paint  paints  wasted    idle  second    near   built
+lost       us     38     3.0     3.0     3.0    17.0    24.0     0.0     0.0       3     1.0    25.0
+lost       them   40     3.0       3     1.0    14.0    24.0     0.0     0.0     3.0     2.0    19.5
+won        us     51       3       3       3      17      24       0       0       4       1      24
+won        them   51       4       3       1      13      24       0       0       2       2      18
+all        us     89       3       3       3      17      24       0       0     3.0       1      25
+all        them   91       3     3.0       1      13      24       0       0       2       2      19
+us: no second painter in 35 of 89; no mark in 0
+them: no second painter in 16 of 91; no mark in 43

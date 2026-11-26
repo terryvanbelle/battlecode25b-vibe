@@ -1,0 +1,135 @@
+match g ver   opponent        map              WxH    paintable res end  type  towers@r100 us/them
+2873 0 t74   placeholder-name-2 PlumberGame      60x30   1688     W   469 MAJ   10/8
+2873 1 t74   placeholder-name-2 rain             30x30    850     L   412 MAJ   6/6
+2873 2 t74   placeholder-name-2 shell            40x40   1418     W   597 MAJ   6/6
+2888 0 t74   gone-whalin     TheBest          60x60   3292     W   507 MAJ   8/7
+2888 1 t74   gone-whalin     UnderTheSea      45x45   1847     W   301 MAJ   9/8
+2888 2 t74   gone-whalin     rain             30x30    850     W   448 MAJ   3/2
+2897 0 t74   immutable       Crab             40x30   1046     L   431 MAJ   7/5
+2897 1 t74   immutable       DefaultHuge      59x59   3421     W   312 MAJ   11/9
+2897 2 t74   immutable       box              31x31    829     W   276 MAJ   7/4
+2919 0 t74   immutable       HungerGames      50x50   2258     W   616 MAJ   11/8
+2919 1 t74   immutable       gridworld        31x31    769     L   427 MAJ   10/9
+2919 2 t74   immutable       windmill         30x30    780     L   220 MAJ   4/5
+2920 0 t74   gone-whalin     Crab             40x30   1046     W   338 MAJ   7/5
+2920 1 t74   gone-whalin     SandyBeach       30x30    822     W   332 MAJ   5/4
+2920 2 t74   gone-whalin     fix              40x50   1856     L   482 MAJ   8/10
+2921 0 t74   spaark          Flower           45x41   1623     W   328 MAJ   6/3
+2921 1 t74   spaark          Paintball        20x20    354     L   138 ALL   1/6
+2921 2 t74   spaark          defensetower     40x59   2173     W   319 MAJ   5/4
+2922 0 t74   scienceqiu      Portal           35x35   1129     L   362 MAJ   4/6
+2922 1 t74   scienceqiu      UnderTheSea      45x45   1847     L   341 MAJ   7/7
+2922 2 t74   scienceqiu      box              31x31    829     L   931 MAJ   3/4
+2969 0 y170  spaark          Mirage           40x40   1480     L   800 MAJ   7/6
+2969 1 y170  spaark          Parking_lot      45x45   1795     W   296 MAJ   5/2
+2969 2 y170  spaark          galaxy           45x45   1834     W   400 MAJ   6/7
+2970 0 y170  gone-whalin     Bunny            44x30   1228     L   235 ALL   2/4
+2970 1 y170  gone-whalin     headphones       60x60   3186     W   673 MAJ   9/7
+2970 2 y170  gone-whalin     sierpinski       39x50   1620     L   502 MAJ   5/5
+2971 0 y170  immutable       Bunny            44x30   1228     W   377 MAJ   5/1
+2971 1 y170  immutable       DonkeyKong       60x60   3232     W   407 MAJ   11/9
+2971 2 y170  immutable       walalilongla     45x45   1811     L  1586 MAJ   6/5
+2972 0 y170  scienceqiu      Bread            35x29    914     W   455 MAJ   5/4
+2972 1 y170  scienceqiu      DonkeyKong       60x60   3232     L   494 MAJ   10/9
+2972 2 y170  scienceqiu      lighthouse       31x31    853     W   675 MAJ   2/3
+2973 0 y170  subscribe-to-caterpillow SandyBeach       30x30    822     L   396 MAJ   5/4
+2973 1 y170  subscribe-to-caterpillow shell            40x40   1418     L   541 MAJ   7/5
+2973 2 y170  subscribe-to-caterpillow sierpinski       39x50   1620     L   439 MAJ   6/4
+2974 0 y170  lobster-roll    Parking_lot      45x45   1795     L   357 MAJ   6/7
+2974 1 y170  lobster-roll    TheBest          60x60   3292     L  1179 MAJ   9/8
+2974 2 y170  lobster-roll    Thirds           55x40   1932     W   302 MAJ   8/4
+2979 0 y170  scienceqiu      Bunny            44x30   1228     L   323 ALL   3/4
+2979 1 y170  scienceqiu      BunnyGame        30x50   1286     L   229 ALL   1/4
+2979 2 y170  scienceqiu      TargetPractice   30x30    816     L   299 MAJ   3/4
+2990 0 y170  gone-whalin     Bunny            44x30   1228     L   282 ALL   2/5
+2990 1 y170  gone-whalin     DefaultHuge      59x59   3421     W   376 MAJ   11/11
+2990 2 y170  gone-whalin     UglySweater      50x50   2340     L   482 ALL   5/7
+2998 0 y170  lobster-roll    DefaultHuge      59x59   3421     W   432 MAJ   11/10
+2998 1 y170  lobster-roll    Terminal         40x30   1022     W   443 MAJ   6/5
+2998 2 y170  lobster-roll    mit              60x60   3012     W   440 MAJ   6/5
+3004 0 y170  lobster-roll    AlarmClock       35x35   1091     W   334 MAJ   7/4
+3004 1 y170  lobster-roll    DonkeyKong       60x60   3232     W   473 MAJ   11/9
+3004 2 y170  lobster-roll    Restart          55x55   2657     W   325 MAJ   5/2
+3006 0 y170  geesegeesego    SandyBeach       30x30    822     L   492 MAJ   5/3
+3006 1 y170  geesegeesego    TargetPractice   30x30    816     W   302 MAJ   7/5
+3006 2 y170  geesegeesego    windmill         30x30    780     W   304 MAJ   4/3
+3067 0 t85   gone-whalin     Flower           45x41   1623     L  1307 MAJ   5/3
+3067 1 t85   gone-whalin     rain             30x30    850     L   293 MAJ   4/5
+3067 2 t85   gone-whalin     sayhi            40x50   1734     L   545 MAJ   5/3
+3080 0 t85   lobster-roll    DefaultSmall     20x20    372     L   203 MAJ   2/4
+3080 1 t85   lobster-roll    MoneyTower       35x50   1501     L   615 MAJ   5/5
+3080 2 t85   lobster-roll    giver            50x50   2344     L   418 MAJ   4/7
+3103 0 t85   placeholder-name-2 Circuit          60x21   1096     W   361 MAJ   5/4
+3103 1 t85   placeholder-name-2 shell            40x40   1418     W   919 MAJ   6/5
+3103 2 t85   placeholder-name-2 walalilongla     45x45   1811     L   458 MAJ   6/7
+3111 0 t85   varunvejalla    Barcode          50x21    966     W   576 MAJ   3/3
+3111 1 t85   varunvejalla    MoneyTower       35x50   1501     W   502 MAJ   4/3
+3111 2 t85   varunvejalla    starburst        30x30    844     W   488 MAJ   6/3
+3127 0 t85   scienceqiu      Snowman          25x25    553     L   387 MAJ   2/4
+3127 1 t85   scienceqiu      mit              60x60   3012     W   369 MAJ   6/5
+3127 2 t85   scienceqiu      yearofthesnake   45x45   1653     W   335 MAJ   6/4
+3185 0 t91   immutable       AlarmClock       35x35   1091     W   493 MAJ   8/5
+3185 1 t91   immutable       defensetower     40x59   2173     W   351 MAJ   5/3
+3185 2 t91   immutable       giver            50x50   2344     L   425 MAJ   4/3
+3186 0 t91   lobster-roll    DonkeyKong       60x60   3232     W   401 MAJ   11/10
+3186 1 t91   lobster-roll    Rose             40x40   1512     W   398 MAJ   4/6
+3186 2 t91   lobster-roll    headphones       60x60   3186     L  1908 MAJ   4/6
+3187 0 t91   spaark          Oasis            59x59   3339     W   378 MAJ   7/8
+3187 1 t91   spaark          fix              40x50   1856     W   304 MAJ   8/7
+3187 2 t91   spaark          memstore         59x39   2081     W   328 MAJ   8/5
+3188 0 t91   scienceqiu      Filter           21x21    419     L   230 ALL   1/2
+3188 1 t91   scienceqiu      UnderTheSea      45x45   1847     L   378 MAJ   7/7
+3188 2 t91   scienceqiu      leavemealone     50x30   1364     W   349 MAJ   7/6
+3189 0 t91   gone-whalin     DefaultLarge     50x30   1476     W   271 MAJ   8/5
+3189 2 t91   gone-whalin     HungerGames      50x50   2258     W   366 MAJ   10/10
+3190 0 t91   slifland        Dominoes         44x30   1228     W   220 MAJ   7/2
+3190 1 t91   slifland        FourCorners      25x25    542     L   285 ALL   1/2
+3190 2 t91   slifland        Paintball        20x20    354     L   110 ALL   1/5
+3195 0 t91   immutable       DefaultMedium    35x35   1193     W   288 MAJ   7/7
+3195 1 t91   immutable       Leaf             60x60   3440     W   528 MAJ   11/9
+3195 2 t91   immutable       headphones       60x60   3186     W  2000 ARE   9/7
+3201 0 t91   immutable       Barcode          50x21    966     L   409 MAJ   3/3
+3201 1 t91   immutable       Fossil           30x30    868     L   324 MAJ   8/6
+3201 2 t91   immutable       Restart          55x55   2657     W   455 MAJ   5/5
+
+by opponent: (won, lost, loss%)
+   geesegeesego             2   1  33%
+   gone-whalin              9   8  47%
+   immutable               11   7  39%
+   lobster-roll             9   6  40%
+   placeholder-name-2       4   2  33%
+   scienceqiu               5  10  67%
+   slifland                 1   2  67%
+   spaark                   7   2  22%
+   subscribe-to-caterpillow   0   3  100%
+   varunvejalla             3   0  0%
+
+by our version: (won, lost, loss%)
+   t74                     12   9  43%
+   t85                      7   8  53%
+   t91                     15   8  35%
+   y170                    17  16  48%
+
+by paintable area: (won, lost, loss%)
+   1: <=500                 0   4  100%
+   2: 501-900               7  11  61%
+   3: 901-1600             16  10  38%
+   4: 1601-2500            13  13  50%
+   5: >2500                15   3  17%
+
+by min side: (won, lost, loss%)
+   26-35                   19  16  46%
+   <=25                     2   7  78%
+   >35                     30  18  38%
+
+towers at r100 (us - them) vs result:
+   diff -3: won  0 lost  5
+   diff -2: won  1 lost  7
+   diff -1: won  3 lost  9
+   diff +0: won  6 lost  6
+   diff +1: won 17 lost  7
+   diff +2: won 11 lost  7
+   diff +3: won 13 lost  0
+
+win types of losses: {'ARE': 0, 'ALL': 9, 'MAJ': 32}
+median end of losses on maps <= 900 paintable: 299  > 900: 448.5

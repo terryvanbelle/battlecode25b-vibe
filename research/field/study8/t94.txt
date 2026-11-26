@@ -1,0 +1,141 @@
+== lost games (41): per 100 tower-rounds
+   side type where   towers  tower-rounds  killed/100r  robots killed/100r  damage/100r
+   us    P   all       142         47427        0.18                0.27          112
+   us    P   home      122         39674        0.19                0.28          113
+   us    P   front      20          7753        0.14                0.22          106
+   us    M   all       798         82117        0.44                0.61          223
+   us    M   home      768         79383        0.44                0.61          224
+   us    M   front      30          2734        0.44                0.51          196
+   them  P   all       250         64525        0.11                0.22          101
+   them  P   home      168         53759        0.08                0.14           60
+   them  P   front      82         10766        0.30                0.63          303
+   them  M   all       840        126640        0.13                0.21           81
+   them  M   home      581        106099        0.11                0.18           68
+   them  M   front     259         20541        0.20                0.40          147
+   them  D   all        53          7723        0.25                2.75          741
+   them  D   home       45          7334        0.26                2.80          761
+   them  D   front       8           389        0.00                1.80          362
+   defense towers: 53; by opponent: {'immutable': 36, 'spaark': 3, 'scienceqiu': 11, 'subscribe-to-caterpillow': 1, 'lobster-roll': 1, 'slifland': 1}
+      m2897g0 Crab         immutable    them built r291  home  life  140        robots killed 2 damage 650
+      m2919g1 gridworld    immutable    them built r143  home  life  248        robots killed 4 damage 1335
+      m2919g1 gridworld    immutable    them built r152  home  life  246        robots killed 1 damage 320
+      m2919g1 gridworld    immutable    them built r159  home  life  268        robots killed 5 damage 1130
+      m2919g1 gridworld    immutable    them built r207  home  life  220        robots killed 2 damage 482
+      m2921g1 Paintball    spaark       them built r23   home  life  115        robots killed 7 damage 1680
+      m2921g1 Paintball    spaark       them built r115  front life   23        robots killed 0 damage 0
+      m2921g1 Paintball    spaark       them built r132  front life    6        robots killed 0 damage 0
+      m2922g0 Portal       scienceqiu   them built r238  home  life  124        robots killed 0 damage 0
+      m2922g0 Portal       scienceqiu   them built r297  front life   65        robots killed 1 damage 70
+      m2922g1 UnderTheSea  scienceqiu   them built r254  home  life   87        robots killed 0 damage 0
+      m2922g1 UnderTheSea  scienceqiu   them built r273  home  life   68        robots killed 3 damage 840
+      m2971g2 walalilongla immutable    them built r191  home  life  313 KILLED robots killed 16 damage 4700
+      m2971g2 walalilongla immutable    them built r512  home  life   60 KILLED robots killed 4 damage 1440
+      m2971g2 walalilongla immutable    them built r521  home  life  117 KILLED robots killed 3 damage 1280
+      m2971g2 walalilongla immutable    them built r577  home  life  109 KILLED robots killed 4 damage 1420
+      m2971g2 walalilongla immutable    them built r602  home  life  181 KILLED robots killed 6 damage 1490
+      m2971g2 walalilongla immutable    them built r644  home  life  235 KILLED robots killed 11 damage 3100
+      m2971g2 walalilongla immutable    them built r707  home  life   51 KILLED robots killed 4 damage 1160
+      m2971g2 walalilongla immutable    them built r759  home  life   63 KILLED robots killed 6 damage 1490
+      m2971g2 walalilongla immutable    them built r768  home  life  115 KILLED robots killed 2 damage 1140
+      m2971g2 walalilongla immutable    them built r787  home  life  104 KILLED robots killed 8 damage 2040
+      m2971g2 walalilongla immutable    them built r858  home  life   91 KILLED robots killed 3 damage 1180
+      m2971g2 walalilongla immutable    them built r887  home  life   97 KILLED robots killed 4 damage 940
+      m2971g2 walalilongla immutable    them built r895  home  life  109 KILLED robots killed 8 damage 2405
+      m2971g2 walalilongla immutable    them built r968  home  life  397 KILLED robots killed 11 damage 3175
+      m2971g2 walalilongla immutable    them built r986  home  life  217 KILLED robots killed 6 damage 1510
+      m2971g2 walalilongla immutable    them built r994  home  life   93 KILLED robots killed 4 damage 1440
+      m2971g2 walalilongla immutable    them built r1041 home  life  214 KILLED robots killed 8 damage 2365
+      m2971g2 walalilongla immutable    them built r1219 home  life  367        robots killed 19 damage 4185
+      m2971g2 walalilongla immutable    them built r1227 home  life  284 KILLED robots killed 4 damage 960
+      m2971g2 walalilongla immutable    them built r1267 home  life  242 KILLED robots killed 3 damage 1060
+      m2971g2 walalilongla immutable    them built r1372 home  life  214        robots killed 3 damage 620
+      m2971g2 walalilongla immutable    them built r1513 home  life   73        robots killed 1 damage 260
+      m2971g2 walalilongla immutable    them built r1525 home  life   61        robots killed 0 damage 0
+      m2972g1 DonkeyKong   scienceqiu   them built r186  home  life  175        robots killed 5 damage 1185
+      m2972g1 DonkeyKong   scienceqiu   them built r271  home  life  223        robots killed 4 damage 710
+      m2973g0 SandyBeach   subscribe-to them built r305  front life   91        robots killed 0 damage 0
+      m2974g1 TheBest      lobster-roll them built r273  home  life  906        robots killed 0 damage 0
+      m2979g0 Bunny        scienceqiu   them built r200  front life   73        robots killed 0 damage 0
+      m3185g2 giver        immutable    them built r330  front life   95        robots killed 6 damage 1340
+      m3185g2 giver        immutable    them built r383  home  life   42        robots killed 1 damage 140
+      m3185g2 giver        immutable    them built r395  home  life   30        robots killed 4 damage 1075
+      m3188g0 Filter       scienceqiu   them built r103  home  life  127        robots killed 3 damage 495
+      m3188g1 UnderTheSea  scienceqiu   them built r275  home  life  103        robots killed 3 damage 700
+      m3188g1 UnderTheSea  scienceqiu   them built r302  home  life   76        robots killed 5 damage 1200
+      m3188g1 UnderTheSea  scienceqiu   them built r361  front life   17        robots killed 0 damage 0
+      m3190g2 Paintball    slifland     them built r16   home  life   94        robots killed 8 damage 2005
+      m3201g0 Barcode      immutable    them built r341  home  life   68        robots killed 2 damage 680
+      m3201g0 Barcode      immutable    them built r390  front life   19        robots killed 0 damage 0
+      m3201g1 Fossil       immutable    them built r237  home  life   87        robots killed 5 damage 1340
+      m3201g1 Fossil       immutable    them built r266  home  life   58        robots killed 3 damage 480
+      m3201g1 Fossil       immutable    them built r302  home  life   22        robots killed 0 damage 0
+
+== won games (51): per 100 tower-rounds
+   side type where   towers  tower-rounds  killed/100r  robots killed/100r  damage/100r
+   us    P   all       452         90017        0.10                0.12           58
+   us    P   home      321         75828        0.07                0.09           47
+   us    P   front     131         14189        0.25                0.29          120
+   us    M   all      1122        135269        0.17                0.24           98
+   us    M   home      945        119677        0.16                0.22           92
+   us    M   front     177         15592        0.27                0.40          142
+   them  P   all       179         50200        0.19                0.26          107
+   them  P   home      162         43618        0.20                0.27          112
+   them  P   front      17          6582        0.12                0.21           74
+   them  M   all       705        100258        0.31                0.44          155
+   them  M   home      645         94134        0.30                0.41          148
+   them  M   front      60          6124        0.52                0.88          263
+   them  D   all        50          6913        0.52                6.00         1462
+   them  D   home       44          4767        0.67                8.14         1943
+   them  D   front       6          2146        0.19                1.26          394
+   defense towers: 50; by opponent: {'immutable': 49, 'scienceqiu': 1}
+      m2897g1 DefaultHuge  immutable    them built r201  home  life   58 KILLED robots killed 7 damage 1835
+      m2897g1 DefaultHuge  immutable    them built r254  home  life   58        robots killed 5 damage 1135
+      m2897g1 DefaultHuge  immutable    them built r262  home  life   50        robots killed 11 damage 2570
+      m2919g0 HungerGames  immutable    them built r265  home  life   35 KILLED robots killed 5 damage 1175
+      m2919g0 HungerGames  immutable    them built r305  home  life   83 KILLED robots killed 2 damage 1000
+      m2919g0 HungerGames  immutable    them built r319  home  life  109 KILLED robots killed 3 damage 1020
+      m2919g0 HungerGames  immutable    them built r328  home  life  103 KILLED robots killed 2 damage 860
+      m2919g0 HungerGames  immutable    them built r337  home  life  279        robots killed 19 damage 4334
+      m2919g0 HungerGames  immutable    them built r402  home  life   22 KILLED robots killed 3 damage 960
+      m2919g0 HungerGames  immutable    them built r425  home  life   78 KILLED robots killed 7 damage 1720
+      m2919g0 HungerGames  immutable    them built r441  home  life  107 KILLED robots killed 7 damage 1500
+      m2919g0 HungerGames  immutable    them built r456  home  life  160        robots killed 10 damage 2628
+      m2919g0 HungerGames  immutable    them built r509  home  life  107        robots killed 22 damage 4979
+      m2919g0 HungerGames  immutable    them built r571  home  life   45        robots killed 5 damage 840
+      m2971g1 DonkeyKong   immutable    them built r165  home  life  201 KILLED robots killed 10 damage 2505
+      m2971g1 DonkeyKong   immutable    them built r372  home  life   19 KILLED robots killed 8 damage 1735
+      m3188g2 leavemealone scienceqiu   them built r108  home  life  234 KILLED robots killed 23 damage 4512
+      m3195g1 Leaf         immutable    them built r240  home  life   80 KILLED robots killed 4 damage 1335
+      m3195g1 Leaf         immutable    them built r282  home  life   75 KILLED robots killed 2 damage 1220
+      m3195g1 Leaf         immutable    them built r295  home  life  114 KILLED robots killed 4 damage 1180
+      m3195g1 Leaf         immutable    them built r317  home  life   53 KILLED robots killed 12 damage 3115
+      m3195g1 Leaf         immutable    them built r326  home  life  159 KILLED robots killed 17 damage 4523
+      m3195g1 Leaf         immutable    them built r345  home  life   53 KILLED robots killed 3 damage 1175
+      m3195g1 Leaf         immutable    them built r353  home  life   19 KILLED robots killed 4 damage 1365
+      m3195g1 Leaf         immutable    them built r401  home  life   46 KILLED robots killed 11 damage 2400
+      m3195g1 Leaf         immutable    them built r409  home  life   50 KILLED robots killed 5 damage 1295
+      m3195g1 Leaf         immutable    them built r466  home  life   62        robots killed 2 damage 555
+      m3195g1 Leaf         immutable    them built r486  home  life   42        robots killed 6 damage 1763
+      m3195g1 Leaf         immutable    them built r527  home  life    1        robots killed 1 damage 99
+      m3195g2 headphones   immutable    them built r254  home  life  126 KILLED robots killed 5 damage 1820
+      m3195g2 headphones   immutable    them built r396  home  life  181 KILLED robots killed 16 damage 3525
+      m3195g2 headphones   immutable    them built r527  front life  474 KILLED robots killed 4 damage 1040
+      m3195g2 headphones   immutable    them built r613  home  life  438 KILLED robots killed 5 damage 1340
+      m3195g2 headphones   immutable    them built r632  home  life  581        robots killed 2 damage 680
+      m3195g2 headphones   immutable    them built r659  home  life   21 KILLED robots killed 2 damage 1340
+      m3195g2 headphones   immutable    them built r744  front life  216 KILLED robots killed 2 damage 820
+      m3195g2 headphones   immutable    them built r974  front life  626 KILLED robots killed 17 damage 4080
+      m3195g2 headphones   immutable    them built r1021 front life  288 KILLED robots killed 2 damage 1040
+      m3195g2 headphones   immutable    them built r1059 home  life  157        robots killed 0 damage 0
+      m3195g2 headphones   immutable    them built r1119 home  life  145 KILLED robots killed 29 damage 5230
+      m3195g2 headphones   immutable    them built r1304 home  life   61 KILLED robots killed 17 damage 3375
+      m3195g2 headphones   immutable    them built r1329 front life  304        robots killed 0 damage 920
+      m3195g2 headphones   immutable    them built r1420 home  life  118 KILLED robots killed 21 damage 4275
+      m3195g2 headphones   immutable    them built r1569 home  life   25 KILLED robots killed 4 damage 1150
+      m3195g2 headphones   immutable    them built r1584 home  life   63 KILLED robots killed 6 damage 1670
+      m3195g2 headphones   immutable    them built r1602 home  life   80 KILLED robots killed 13 damage 3215
+      m3195g2 headphones   immutable    them built r1658 home  life  149 KILLED robots killed 21 damage 3920
+      m3195g2 headphones   immutable    them built r1689 front life  238        robots killed 2 damage 560
+      m3195g2 headphones   immutable    them built r1821 home  life  105 KILLED robots killed 23 damage 4685
+      m3195g2 headphones   immutable    them built r1985 home  life   15        robots killed 4 damage 1065
+

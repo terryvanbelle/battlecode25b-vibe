@@ -1,0 +1,33 @@
+== lost: 41 games.  build #k: type counts (P/M/D), median round; us | them
+   #1  us    P0 M38 D0 r25.0  chips at our mark med 1650.0 (>= 2000 in 2/38)  | them P1 M39 D1 r20
+   #2  us      P3 M32 D0 r39  chips at our mark med 1700 (>= 2000 in 3/35)  | them P2 M38 D1 r34
+   #3  us    P2 M26 D0 r53.0  chips at our mark med 1135.0 (>= 2000 in 2/28)  | them P5 M36 D0 r57
+   #4  us      P1 M26 D0 r71  chips at our mark med 1040 (>= 2000 in 1/27)  | them P9 M29 D0 r87.5
+   #5  us      P6 M17 D0 r86  chips at our mark med 780 (>= 2000 in 3/23)  | them P11 M25 D1 r116
+   #6  us   P4 M16 D0 r136.5  chips at our mark med 780.0 (>= 2000 in 0/20)  | them P9 M25 D1 r132
+   #7  us    P9 M9 D0 r177.0  chips at our mark med 1105.0 (>= 2000 in 3/18)  | them P8 M25 D1 r175.0
+   #8  us      P9 M4 D0 r206  chips at our mark med 1210 (>= 2000 in 4/13)  | them P14 M16 D1 r197
+   #9  us      P7 M4 D0 r223  chips at our mark med 1190 (>= 2000 in 1/11)  | them P10 M19 D0 r235
+   #10 us    P6 M2 D0 r275.0  chips at our mark med 1512.0 (>= 2000 in 3/8)  | them P8 M14 D0 r234.0
+== won: 51 games.  build #k: type counts (P/M/D), median round; us | them
+   #1  us      P0 M51 D0 r24  chips at our mark med 1650 (>= 2000 in 1/51)  | them P0 M51 D0 r18
+   #2  us      P2 M49 D0 r37  chips at our mark med 1670 (>= 2000 in 1/51)  | them P0 M50 D0 r32.5
+   #3  us      P4 M47 D0 r53  chips at our mark med 950 (>= 2000 in 4/51)  | them P8 M39 D0 r57
+   #4  us      P4 M47 D0 r66  chips at our mark med 800 (>= 2000 in 1/51)  | them P8 M33 D0 r72
+   #5  us     P10 M41 D0 r98  chips at our mark med 790 (>= 2000 in 3/51)  | them P12 M20 D0 r84.0
+   #6  us  P17 M33 D0 r120.0  chips at our mark med 1025.0 (>= 2000 in 5/50)  | them P13 M17 D0 r107.5
+   #7  us  P19 M29 D0 r166.5  chips at our mark med 935.0 (>= 2000 in 2/48)  | them P6 M17 D0 r117
+   #8  us    P25 M22 D0 r213  chips at our mark med 1255.0 (>= 2000 in 12/46)  | them P5 M13 D0 r125.0
+   #9  us    P17 M22 D0 r199  chips at our mark med 1060.5 (>= 2000 in 2/38)  | them P5 M12 D0 r139
+   #10 us  P25 M11 D0 r201.0  chips at our mark med 1086.5 (>= 2000 in 2/36)  | them P6 M7 D0 r147
+== top-5 reference: 15 games.  build #k: type counts (P/M/D), median round; us | them
+   #1  us      P0 M13 D0 r21  chips at our mark med 1650 (>= 2000 in 0/13)  | them P0 M15 D0 r17
+   #2  us      P0 M11 D0 r38  chips at our mark med 1680 (>= 2000 in 0/11)  | them P0 M15 D0 r39
+   #3  us       P0 M9 D0 r59  chips at our mark med 630 (>= 2000 in 0/9)  | them P1 M13 D0 r66.0
+   #4  us     P0 M8 D0 r75.5  chips at our mark med 760.0 (>= 2000 in 0/8)  | them P0 M14 D0 r81.0
+   #5  us     P0 M8 D0 r86.0  chips at our mark med 635.0 (>= 2000 in 0/8)  | them P3 M10 D0 r111
+   #6  us      P0 M7 D0 r115  chips at our mark med 500 (>= 2000 in 0/7)  | them P4 M8 D0 r118.5
+   #7  us      P0 M5 D0 r122  chips at our mark med 660 (>= 2000 in 0/5)  | them P4 M6 D1 r145
+   #8  us      P3 M2 D0 r155  chips at our mark med 830 (>= 2000 in 0/5)  | them P4 M7 D0 r208
+   #9  us    P3 M1 D0 r209.0  chips at our mark med 895.0 (>= 2000 in 1/4)  | them P5 M3 D1 r231
+   #10 us    P1 M3 D0 r248.5  chips at our mark med 1035.0 (>= 2000 in 0/4)  | them P5 M4 D0 r261
