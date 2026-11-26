@@ -24,3 +24,10 @@ t67	t61 + t64 (late S X M M)
 y153	one more paint tower per 3 towers after 5 (t61: per 4)
 y154	money until 4 towers, then a paint tower per 4
 y155	money until 6 towers, then a paint tower per 4
+y155	money towers for builds 1-6, then one paint tower per 4 towers (study 5 2.1 tuned)
+y156	y155 + splasher refill 75 (y152)
+t68	y155 + splashers weight enemy towers 30 (t66)
+y157	after 6 towers, a paint tower per 3 (y155: per 4)
+y158	money until 7 towers, then a paint tower per 4
+y159	y155 + 2000+ chips makes the next tower paint (t63)
+t69	y155 + splasher refill 75 + splashers weight towers 30 (y156 + t68)
