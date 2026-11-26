@@ -179,14 +179,19 @@
 # y106 (retired: -23)
 # y107 (retired: -146; refill to full)
 # y108 (retired: -22)
-t36
+# t36 (retired: former champion)
 # y109 (retired: on y95; y111 carries it on t36)
 y110
 y111
-y112
-y113
-y114
-y115
-t39
-t40
-y116
+# y112 (retired: +6 vs t36)
+# y113 (retired: -1 vs t36)
+# y114 (retired: -4 vs t36)
+# y115 (retired: -17 vs t36)
+# t39 (retired: +13 vs t36 after 259; t41 carries it on y110)
+# t40 (retired unplayed: ported to y110 as t42)
+# y116 (retired unplayed: ported to y110 as y117)
+y118
+t41
+t42
+y117
+t43

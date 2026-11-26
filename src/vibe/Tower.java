@@ -104,6 +104,6 @@ public strictfp class Tower {
         // upgrade out of a surplus: paint towers first (paint binds once the economy runs), money towers later
         int need = next.moneyCost + UPGRADE_SPARE;
         if (G.kind(rc.getType()) == 1 && G.chips >= need) rc.upgradeTower(G.here);
-        else if (G.kind(rc.getType()) == 2 && G.chips >= need + 1000) rc.upgradeTower(G.here);
+        else if (G.kind(rc.getType()) == 2 && G.chips >= need + 2500) rc.upgradeTower(G.here);
     }
 }
