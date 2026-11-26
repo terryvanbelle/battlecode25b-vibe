@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Export the training dashboard's data (https://claude.ai/artifact/DstLySDMnQvBtaAszuM2nB) as one JSON file:
-{pool, status, replica, champions}, each a list of row objects. The prod uploads it and points the dashboard's four
-datasets at the new file.
+{pool, status, replica, champions, local}, each a list of row objects. The prod uploads it and points the dashboard's
+five datasets at the new file. `local` holds the points of progress/local-elo.png.
 
   python3 tools/board.py OUT.json
 Change descriptions for pool bots come from research/tourney/notes.tsv (bot<TAB>change).
@@ -77,8 +77,37 @@ def main(out):
                 continue
             champions.append(dict(when_pdt=p[0], bot=p[1], base=p[2], change=','.join(p[3:-1]),
                                   submission=num(p[-1])))
-    json.dump(dict(pool=pool, status=[status], replica=replica, champions=champions), open(out, 'w'))
-    print(f'board: {len(pool)} pool bots, {len(replica)} replica samples, {len(champions)} champions -> {out}')
+    local = local_chart(notes)
+    json.dump(dict(pool=pool, status=[status], replica=replica, champions=champions, local=local), open(out, 'w'))
+    print(f'board: {len(pool)} pool bots, {len(replica)} replica samples, {len(champions)} champions, '
+          f'{len(local)} local-chart points -> {out}')
+
+
+def local_chart(notes):
+    """The points of progress/local-elo.png (tourney.py chart) as rows: kind 'champion' (crowned at when_pdt, held
+    until the next champion's when_pdt) or 'candidate' (entered at when_pdt; 10+ games, never champion), each with its
+    current Bradley-Terry rating, SE and games."""
+    sys.path.insert(0, os.path.join(REPO, 'tools'))
+    import tourney
+    gs = tourney.games()
+    rt = tourney.elolib.fit(gs) if gs else {}
+    hist = tourney.champ_history()
+    if not hist:
+        return []
+    start, ent = hist[0]['when'], tourney.entry_times()
+    rows, champs = [], set()
+    for r in hist:
+        b = r['bot']
+        champs.add(b)
+        if b in rt:
+            rows.append(dict(kind='champion', bot=b, when_pdt=r['when_pdt'], rating=round(rt[b].rating),
+                             se=round(rt[b].se), games=int(rt[b].games), change=r.get('change') or notes.get(b, '')))
+    for b in sorted(set(tourney.pool()) | set(tourney.retired())):
+        if b in champs or b not in rt or b not in ent or ent[b] < start or rt[b].games < 10:
+            continue
+        rows.append(dict(kind='candidate', bot=b, when_pdt=f'{ent[b]:%Y-%m-%d %H:%M}', rating=round(rt[b].rating),
+                         se=round(rt[b].se), games=int(rt[b].games), change=notes.get(b, '')))
+    return rows
 
 
 if __name__ == '__main__':

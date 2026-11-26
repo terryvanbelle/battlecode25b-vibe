@@ -47,7 +47,7 @@ case "${1:-}" in
   board)
     out=${2:-/tmp/board.json}
     $PY tools/board.py "$out"
-    echo "now upload $out to https://claude.ai/artifact/DstLySDMnQvBtaAszuM2nB (Artifact publish asset:true) and point datasets pool/status/replica/champions at the new /_blob url (ArtifactData batch update: source.url and updated.at)" ;;
+    echo "now upload $out to https://claude.ai/artifact/DstLySDMnQvBtaAszuM2nB (Artifact publish asset:true) and point datasets pool/status/replica/champions/local at the new /_blob url (ArtifactData batch update: source.url and updated.at)" ;;
   disk)
     echo "driver: $(df -h ~ | tail -1)"
     echo "box:    $(tools/box.sh sh 'df -h ~ | tail -1')"
