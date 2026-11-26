@@ -116,3 +116,6 @@ Also, please add the graph to the dashboard, right after the Local Elo chart
 
 ## #30 (2026-11-26 09:52 PDT)
 Can you get the aspect ratio of the scatterplot in the dashboard to be more square?
+
+## #31 (2026-11-26 10:34 PDT)
+I don't think the shading of the dots in the scatterplot by recency is buying us much.  Let's just keep them all at max brightness.  And can you also increase the brightness of the edges, so that we can see the motion better?
