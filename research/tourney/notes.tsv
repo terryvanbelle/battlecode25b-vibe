@@ -68,3 +68,5 @@ y176	y173 on y170: towers upgrade with 800 spare chips
 y177	y174 on y170: splasher enemy-tower weight 15
 y178	paint tower at 1250+ chips (y170: 1500)
 y179	the 1500-chip paint-tower rule from the 2nd tower on (y170: 3rd)
+y180	paint tower at 1750+ chips (y170: 1500)
+y181	money towers churn at 1500 chips (was 2000)
