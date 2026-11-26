@@ -134,3 +134,6 @@ Regarding your suggestion:  Yeah, let's keep a permanent slot open in the local 
 
 ## #36 (2026-11-26 16:01 PDT)
 Is it possible, on top of the heatmap, to plot the average delta replica Elo per delta local Elo bucket?
+
+## #37 (2026-11-26 16:04 PDT)
+Actually, let's get rid of the heatmap, and just have the graph of average delta replica Elo, with vertical error bars.  Also an x-y axis
