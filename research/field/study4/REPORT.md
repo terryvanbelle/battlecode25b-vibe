@@ -11,7 +11,7 @@
 - Dumps live outside the repo. To rebuild one:
   `java -cp build/tools:engine/battlecode25-java-3.1.0.jar bc25tools.ReplayDump tsv ~/projects/vibe/bc25b-galaxy-replays/M/replay.bc25 DIR/mM`
 - Gotchas:
-  - A disintegrated tower is not logged as `die`.
+  - A disintegrated tower is not logged as `die`. (Fixed in dump version 3: it is now a `died` row.)
   - A rebuilt tower gets a new id.
   - The column after `die` is not the killer.
 

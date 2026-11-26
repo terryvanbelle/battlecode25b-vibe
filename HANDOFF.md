@@ -28,7 +28,9 @@ season's tools. Times are the owner's zone: `TZ=America/Vancouver` (UTC-7, "PDT"
   - `matrix CELLS --run DIR` plays a batch.
   - Results go to `runs/RUN/results.jsonl`.
 - `tools/java/bc25tools/ReplayDump.java`: `summary`, `tsv` (rounds/turns/actions) and `board FILE GAME ROUND`.
-  Units' indicator strings appear in `turns.tsv`.
+  Units' indicator strings appear in `turns.tsv`. Dump version 3 (audit, owner prompt #14, `research/replaydump-audit.md`)
+  reads every field the 3.1.0 replay schema holds except profiler data: disintegrations are `died` rows, mopper paint
+  drains are `drain` (not `damage`), and round-1 starting-tower levels are `startlevel`.
 - Unit tests: `tools/unit-tests.sh`, fake controller `test/vibe/World.java`, checks in `test/vibe/BotTest.java`.
   Run them after every change.
 - Bot names: `yNN` tunings, `swNN` swings, `tNN` bots that imitate an enemy tactic seen in replays (owner prompt

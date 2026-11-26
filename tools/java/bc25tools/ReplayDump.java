@@ -19,7 +19,16 @@ import java.util.zip.GZIPInputStream;
  *  - Round aggregates per team (after all turns): money (chips), paint coverage (tiles), resource patterns (SRPs).
  *  - Messages are NOT recorded (addMessageAction is commented out in RobotControllerImpl). Markers are recorded as
  *    MarkAction/UnmarkAction. completeResourcePattern is recorded as TransferAction(id = packed loc, amount = 0).
- *  - Indicator strings only when the engine ran with show-indicators (local games; never on the replica).
+ *  - Indicator strings/dots/lines and timeline markers only when the engine ran with show-indicators (local games;
+ *    never on the replica).
+ *  - Deaths: killed by damage or by an exception -> DieAction in the turn of whoever caused it (the killer for
+ *    attacks, the robot itself for 0-paint damage or an exception). Removed without damage (rc.disintegrate(), resign,
+ *    a terminated player) -> only Round.diedIds; dumped as "died" rows attributed to the removed robot itself.
+ *  - Moppers' paint drains are written as DamageAction (GameMaker.addRemovePaintAction); dumped as "drain".
+ *  - Round 1: the engine logs an UpgradeAction for each starting (level 2) tower before any turn runs, so it lands
+ *    in the first Turn of round 1; dumped as "startlevel" against the tower itself, without counting an upgrade.
+ *  - Not in a replay at all: messages, markers' sender-side reads, robots' internal state, anything between a robot's
+ *    end-of-turn records (paint/hp are end-of-turn values; robots move at most once per turn).
  *  - Teams: 1 = A, 2 = B. Locations packed x + y*width.
  *
  * Usage: java -cp build/tools:engine/battlecode25-java-3.1.0.jar bc25tools.ReplayDump MODE ...
@@ -35,7 +44,14 @@ import java.util.zip.GZIPInputStream;
  *   dtA (alive soldiers/splashers/moppers/paint/money/defense towers of A), same for B, paintA, paintB (paint held
  *   by A's/B's robots+towers, from each unit's latest record), died.
  * turns.tsv: round, id, team, type, x, y, hp, paint, mcd, acd, bc, ind.
- * actions.tsv: round, id, team, type (the record's robot), action, a, b, c (see ACTION docs in the code).
+ * actions.tsv: round, id, team, type (the record's robot), action, a, b, c, d. Actions (a, b, c, d):
+ *   damage (target id, hp, -, -), drain (target id, paint removed by a mopper), paint (x,y, secondary), unpaint (x,y),
+ *   mark (x,y, secondary), unmark (x,y), attack (target id), splash (x,y), mop (id0, id1, id2; 0 = none),
+ *   build (tower id, tower type), transfer (other id, amount: negative = withdrew from it), srp (centre x,y),
+ *   spawn (id, type, x,y), die (victim id, EXCEPTION or "", victim type), died (own id, "removed", own type),
+ *   upgrade (tower id, new level, new max hp, "hp/paint/maxPaint"), startlevel (tower id, 2, max hp),
+ *   dot (x,y, colour hex), line (x,y, x,y, colour hex), message (never written by engine 3.1.0).
+ * meta.json also has specVersion and the per-type metadata (robotTypes); timelineMarkers go to g<i>.summary.json.
  * Summary JSON keys: file, game, map, width, height, paintable, teamA, teamB, winner, winType, rounds, covA, covB,
  *   covPctA, covPctB, moneyA, moneyB, srpA, srpB, towersA, towersB, unitsA, unitsB, spawnedA/B {type: n},
  *   diedA/B {type: n}, towersBuiltA/B, towersLostA/B, exceptionsA/B, maxBcRobotA/B, maxBcTowerA/B,
@@ -43,7 +59,7 @@ import java.util.zip.GZIPInputStream;
  *   coverage reached 50%/70% of paintable, or -1), dumpVersion.
  */
 public class ReplayDump {
-    static final int DUMP_VERSION = 2;
+    static final int DUMP_VERSION = 3;
     static final String[] TYPE = {"NONE", "PAINT_TOWER", "MONEY_TOWER", "DEFENSE_TOWER", "SOLDIER", "SPLASHER", "MOPPER"};
     static final String[] WIN = {"RESIGNATION", "MAJORITY_PAINTED", "ALL_UNITS_DESTROYED", "AREA_PAINTED",
             "MORE_TOWERS", "MORE_MONEY", "MORE_STORED_PAINT", "MORE_ROBOTS", "COIN_FLIP"};
@@ -89,7 +105,7 @@ public class ReplayDump {
 
     // ---- per-game state ----
     static final class Bot {
-        int id, team, type, x, y, hp, paint, level = 1; boolean alive = true;
+        int id, team, type, x, y, hp, paint, level = 1; boolean alive = true, initial;
         Bot(int id, int team, int type, int x, int y) { this.id = id; this.team = team; this.type = type; this.x = x; this.y = y; }
     }
     int game, w, h, paintable;          // area minus walls: the engine's coverage denominator (ruins count)
@@ -103,6 +119,8 @@ public class ReplayDump {
     int[][] spawned, died, towersBuilt, towersLost;
     int[] exceptions, maxBcRobot, maxBcTower, atLimit, r50, r70, lastCov, lastMoney, lastSrp;
     PrintWriter rounds, turns, actions;
+    String specVersion = "", typeMeta = "[]";
+    StringBuilder markers;
     List<String> out = new ArrayList<>();
 
     List<String> run() throws IOException {
@@ -119,6 +137,15 @@ public class ReplayDump {
                         if (td.teamId() == 1) { teamA = td.name(); pkgA = td.packageName(); }
                         else if (td.teamId() == 2) { teamB = td.name(); pkgB = td.packageName(); }
                     }
+                    specVersion = gh.specVersion() == null ? "" : gh.specVersion();
+                    StringBuilder tm = new StringBuilder("[");
+                    for (int t = 0; t < gh.robotTypeMetadataLength(); t++) {
+                        RobotTypeMetadata m = gh.robotTypeMetadata(t);
+                        tm.append(t > 0 ? "," : "").append(String.format("{\"type\":\"%s\",\"actionCooldown\":%d,\"movementCooldown\":%d,\"baseHealth\":%d,\"basePaint\":%d,\"maxPaint\":%d,\"actionR2\":%d,\"visionR2\":%d,\"messageR2\":%d,\"bytecodeLimit\":%d}",
+                                m.type() >= 0 && m.type() < TYPE.length ? TYPE[m.type()] : "?" + m.type(), m.actionCooldown(), m.movementCooldown(), m.baseHealth(),
+                                m.basePaint(), m.maxPaint(), m.actionRadiusSquared(), m.visionRadiusSquared(), m.messageRadiusSquared(), m.bytecodeLimit()));
+                    }
+                    typeMeta = tm.append("]").toString();
                     break;
                 }
                 case Event.MatchHeader: startGame((MatchHeader) ew.e(new MatchHeader())); break;
@@ -155,7 +182,7 @@ public class ReplayDump {
         for (int i = 0; i < ib.spawnActionsLength(); i++) {
             ib.spawnActions(sa, i);
             Bot b = new Bot(sa.id(), sa.team(), sa.robotType(), sa.x(), sa.y());
-            b.level = 2;    // starting towers are level 2 (spec v3.0.0)
+            b.level = 2; b.initial = true;    // starting towers are level 2 (spec v3.0.0)
             bots.put(b.id, b);
             if (i > 0) bodies.append(',');
             bodies.append(String.format("{\"id\":%d,\"team\":%d,\"type\":\"%s\",\"x\":%d,\"y\":%d}", b.id, b.team, TYPE[b.type], b.x, b.y));
@@ -169,6 +196,7 @@ public class ReplayDump {
               .append(",\"symmetry\":").append(m.symmetry()).append(",\"seed\":").append(m.randomSeed())
               .append(",\"teamA\":").append(q(teamA)).append(",\"teamB\":").append(q(teamB))
               .append(",\"paintable\":").append(paintable).append(",\"maxRounds\":").append(mh.maxRounds())
+              .append(",\"specVersion\":").append(q(specVersion)).append(",\"robotTypes\":").append(typeMeta)
               .append(",\"walls\":\"");
             for (int i = 0; i < w * h; i++) sb.append(wall[i] ? '1' : '0');
             sb.append("\",\"paint\":\"");
@@ -184,7 +212,7 @@ public class ReplayDump {
             actions = new PrintWriter(new BufferedWriter(new FileWriter(p + ".actions.tsv")));
             rounds.println("round\tcovA\tcovB\tmoneyA\tmoneyB\tsrpA\tsrpB\tsolA\tsplA\tmopA\tptA\tmtA\tdtA\tsolB\tsplB\tmopB\tptB\tmtB\tdtB\tpaintA\tpaintB\tdied");
             turns.println("round\tid\tteam\ttype\tx\ty\thp\tpaint\tmcd\tacd\tbc\tind");
-            actions.println("round\tid\tteam\ttype\taction\ta\tb\tc");
+            actions.println("round\tid\tteam\ttype\taction\ta\tb\tc\td");
         }
     }
 
@@ -192,9 +220,11 @@ public class ReplayDump {
 
     String loc(int packed) { return (packed % w) + "," + (packed / w); }
 
-    void act(int round, Bot b, String kind, Object x, Object y, Object z) {
+    void act(int round, Bot b, String kind, Object x, Object y, Object z) { act(round, b, kind, x, y, z, ""); }
+
+    void act(int round, Bot b, String kind, Object x, Object y, Object z, Object d) {
         if (actions != null)
-            actions.println(round + "\t" + b.id + "\t" + b.team + "\t" + TYPE[b.type] + "\t" + kind + "\t" + x + "\t" + y + "\t" + z);
+            actions.println(round + "\t" + b.id + "\t" + b.team + "\t" + TYPE[b.type] + "\t" + kind + "\t" + x + "\t" + y + "\t" + z + "\t" + d);
     }
 
     void round(Round r) {
@@ -218,7 +248,7 @@ public class ReplayDump {
                 int pos = UnionStructs.pos(t, 22, j);
                 switch (at) {
                     case Action.DamageAction: { DamageAction d = new DamageAction(); d.__assign(pos, bb);
-                        act(rn, b, "damage", d.id(), d.damage(), ""); break; }
+                        act(rn, b, b.type == 6 ? "drain" : "damage", d.id(), d.damage(), ""); break; }
                     case Action.PaintAction: { PaintAction d = new PaintAction(); d.__assign(pos, bb);
                         int pv = b.team == 1 ? (d.isSecondary() != 0 ? 2 : 1) : (d.isSecondary() != 0 ? 4 : 3);
                         setPaint(d.loc(), pv);
@@ -261,13 +291,18 @@ public class ReplayDump {
                         }
                         act(rn, b, "die", d.id(), d.dieType() == DieType.EXCEPTION ? "EXCEPTION" : "", v == null ? "" : TYPE[v.type]); break; }
                     case Action.UpgradeAction: { UpgradeAction d = new UpgradeAction(); d.__assign(pos, bb);
-                        Bot tw = bots.get(d.id()); if (tw != null) tw.level++;
-                        act(rn, b, "upgrade", d.id(), tw == null ? "" : tw.level, d.newMaxHealth()); break; }
+                        Bot tw = bots.get(d.id());
+                        if (rn == 1 && tw != null && tw.initial) { act(rn, tw, "startlevel", d.id(), tw.level, d.newMaxHealth()); break; }
+                        if (tw != null) tw.level++;
+                        act(rn, b, "upgrade", d.id(), tw == null ? "" : tw.level, d.newMaxHealth(),
+                                d.newHealth() + "/" + d.newPaint() + "/" + d.newMaxPaint()); break; }
                     case Action.IndicatorStringAction: {
                         IndicatorStringAction d = new IndicatorStringAction(); d.__assign(pos, bb);
                         ind = d.value() == null ? "" : d.value().replaceAll("[\\t\\n\\r]", " "); break; }
-                    case Action.IndicatorDotAction: break;
-                    case Action.IndicatorLineAction: break;
+                    case Action.IndicatorDotAction: { IndicatorDotAction d = new IndicatorDotAction(); d.__assign(pos, bb);
+                        act(rn, b, "dot", loc(d.loc()), String.format("%06x", d.colorHex()), ""); break; }
+                    case Action.IndicatorLineAction: { IndicatorLineAction d = new IndicatorLineAction(); d.__assign(pos, bb);
+                        act(rn, b, "line", loc(d.startLoc()), loc(d.endLoc()), String.format("%06x", d.colorHex())); break; }
                     default: act(rn, b, "unknown" + at, "", "", "");
                 }
             }
@@ -280,6 +315,7 @@ public class ReplayDump {
             if (v != null && v.alive) {
                 v.alive = false;
                 if (v.team > 0) { died[v.team][v.type]++; if (isTower(v.type)) towersLost[v.team][v.type]++; }
+                act(rn, v, "died", v.id, "removed", TYPE[v.type]);
             }
         }
         for (int i = 0; i < r.teamIdsLength(); i++) {
@@ -345,6 +381,12 @@ public class ReplayDump {
              .append(",\"r70").append(T).append("\":").append(r70[tm]);
         }
         s.append(",\"covMismatch\":").append(covMismatch);
+        s.append(",\"timelineMarkers\":[");
+        for (int i = 0; i < mf.timelineMarkersLength(); i++) {
+            TimelineMarker m = mf.timelineMarkers(i);
+            s.append(i > 0 ? "," : "").append(String.format("{\"team\":%d,\"round\":%d,\"color\":\"%06x\",\"label\":%s}", m.team(), m.round(), m.colorHex(), q(m.label())));
+        }
+        s.append("],\"profilerFiles\":").append(mf.profilerFilesLength());
         s.append(",\"dumpVersion\":").append(DUMP_VERSION).append("}");
         out.add(s.toString());
         if (outDir != null) {
