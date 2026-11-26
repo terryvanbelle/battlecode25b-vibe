@@ -264,8 +264,8 @@ t70
 # y160 (retired at t70's crowning)
 # y161 (retired at t70's crowning)
 y162
-y163
-y164
+# y163 (retired: -40 after 290; paint tower per 3 after 6)
+# y164 (retired: -22 after 259; paint tower at 1500 chips)
 y165
 y166
 t71
@@ -273,3 +273,4 @@ t75
 t72
 t73
 t74
+t76
