@@ -26,6 +26,7 @@ public strictfp class Soldier {
         if (ruin != null) {
             if (workRuin()) return;
         }
+        if (deny()) return;   // study 6 2.2
         if (siege()) return;
         if (srpTurn()) return;
         if (Unit.refill(100)) { paintHere(); return; }
@@ -54,6 +55,36 @@ public strictfp class Soldier {
         }
         G.ind += " siege" + t;
         return true;
+    }
+
+    // study 6 2.2: they paint into 48 of our 188 ruins (we finish 15% of those) and we did it to 6 of their 159.
+    // A soldier with no ruin of its own and 40+ paint puts our paint on 3 empty tiles of a visible ruin the enemy is
+    // building (enemy paint in its 5x5, no tower yet); their pattern can't complete until they mop it.
+    static boolean deny() throws GameActionException {
+        RobotController rc = G.rc;
+        if (G.paint < 40) return false;
+        MapLocation best = null; int bestD = Integer.MAX_VALUE;
+        for (MapLocation r : G.ruins) {
+            if (rc.senseRobotAtLocation(r) != null || !contested(r)) continue;
+            int ours = 0;
+            for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+                MapLocation l = r.translate(dx, dy);
+                if (rc.canSenseLocation(l) && rc.senseMapInfo(l).getPaint().isAlly()) ours++;
+            }
+            if (ours >= 3) continue;
+            int d = G.here.distanceSquaredTo(r);
+            if (d < bestD) { bestD = d; best = r; }
+        }
+        if (best == null) return false;
+        if (rc.isActionReady()) {
+            for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+                MapLocation l = best.translate(dx, dy);
+                if ((dx != 0 || dy != 0) && rc.canSenseLocation(l) && rc.canAttack(l) && rc.senseMapInfo(l).getPaint() == PaintType.EMPTY) {
+                    rc.attack(l); G.paint = rc.getPaint(); G.ind += " deny" + best; return true;
+                }
+            }
+        }
+        return false;   // t84: deny only from where we stand (t80 also walked to the ruin and lost 39)
     }
 
     /** Enemy paint on a visible tile of the ruin's 5x5. */

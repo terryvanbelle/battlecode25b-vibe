@@ -35,3 +35,4 @@ when_pdt,bot,base,change,submission
 2026-11-26 08:27,t70,y155,y155 + splashers weight enemy towers 30 (t68) + 2000+ chips makes the next tower a paint tower (y159),65
 2026-11-26 09:47,t74,t70,moppers weight enemy paint near ruins 40 (study 6 2.1c),66
 2026-11-26 10:47,y170,t74,soldiers make the next tower a paint tower at 1500+ chips (t63 tuning; was 2000),67
+2026-11-26 11:27,t85,y170,study 6 2.2 ruin denial from where the soldier stands: a soldier with no ruin paints empty tiles of a ruin the enemy is building; without walking to it,68
