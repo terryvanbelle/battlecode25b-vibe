@@ -123,10 +123,12 @@ t16
 # t19 (retired: -278 vs t16 after 171; late SRPs still starve chips)
 t20
 y68
-y69
-y70
-y71
+# y69 (retired: -31 vs t16 after 202)
+# y70 (retired: -26 vs t16 after 210)
+# y71 (retired: -32 vs t16 after 192)
 y72
 y73
 y74
 y75
+y76
+t21
