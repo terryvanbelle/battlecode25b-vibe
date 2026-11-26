@@ -8,6 +8,8 @@ public strictfp class Splasher {
     static final int[] CX = {0, 1, -1, 0, 0, 1, 1, -1, -1, 2, -2, 0, 0};
     static final int[] CY = {0, 0, 0, 1, -1, 1, -1, 1, -1, 0, 0, 2, -2};
 
+    static int lastSplash;
+
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
         Unit.scanEnemyTowers();
@@ -18,7 +20,10 @@ public strictfp class Splasher {
         if (G.paint >= 50 && rc.isActionReady()) done = splash(9);
         if (Unit.refill(100)) return;
         // guards: a unit's first turn on a big map spends most of its budget on the map memory
-        MapLocation goal = Clock.getBytecodesLeft() > 5000 ? frontier() : null;
+        // study 5 2.3: 8.6% of our splasher turns sat by a lone empty tile with full paint; after 8 rounds without a
+        // splash (while able to splash), explore instead of chasing the nearest non-ally tile
+        if (lastSplash == 0 || G.paint < 50 || !rc.isActionReady()) lastSplash = Math.max(lastSplash, G.round - 4);
+        MapLocation goal = Clock.getBytecodesLeft() > 5000 && G.round - lastSplash <= 8 ? frontier() : null;
         Nav.moveTo(goal != null ? goal : Unit.exploreTarget());
         if (!done && G.paint >= 50 && rc.isActionReady() && Clock.getBytecodesLeft() > 2500) {
             G.here = rc.getLocation();
@@ -59,7 +64,7 @@ public strictfp class Splasher {
         if (best < 0) return false;
         MapLocation t = G.here.translate(CX[best], CY[best]);
         if (!rc.canAttack(t)) return false;
-        rc.attack(t);
+        rc.attack(t); lastSplash = G.round;
         G.paint = rc.getPaint();
         return true;
     }
