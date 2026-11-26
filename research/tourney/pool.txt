@@ -87,15 +87,17 @@ y44
 # sw32 (retired: -19 vs y56 after 488; churn 3000 + refill 80)
 # y56 (retired: former champion)
 # sw33 (retired: +10 vs y56 after 523; ~-28 vs y58)
-sw34
+# sw34 (retired: -11 vs y58 after 674; its churn wait+repair continues in t03)
 # sw35 (retired: +10 vs y56 after 526)
 # sw36 (retired: -127 vs y56 after 257; mopper garrison)
 # sw37 (retired: -103 vs y56 after 289; garrison + feed 30)
 # y57 (retired: +8 vs y56 after 469; churn 1500)
 y58
 # y59 (retired: -14 vs y56 after 297; upgrade at cost)
-t01
+# t01 (retired: -101 vs y58 after 315; splasher-heavy late mix)
 t02
 t03
 y60
 y61
+t04
+y62
