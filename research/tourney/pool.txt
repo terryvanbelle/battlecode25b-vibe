@@ -223,8 +223,8 @@ t47
 t50
 # y138 (retired: -26)
 # t51 (retired: -131; mopper on every nearby enemy)
-y139
-t52
+# y139 (retired: -1 after 505)
+# t52 (retired: -74; workRuin refill at 40)
 y140
 y141
 # y142 (retired unplayed: room for study 5)
