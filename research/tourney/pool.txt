@@ -79,13 +79,16 @@ y44
 # y49 (retired: -355 vs y44, 9-53; y47 from r80 + 1200-chip guard)
 # sw30 (retired: +2 vs y44 after 269; churn at 3000 rarely fires - y56 at 2000 won)
 # y50 (retired: -28 vs y44 after 273; splasher refill 150)
-y51
-y52
+# y51 (retired: -90 vs y56 after 405; soldier refill 80)
+# y52 (retired: -106 vs y56 after 436; mopper refill 60)
 # y53 (retired: -34 vs y44 after 264; siege from 100 paint)
-y55
-sw31
+# y55 (retired: -86 vs y56 after 332; wait until full)
+# sw31 (retired: -135 vs y56 after 316; defensive mopper spawn)
 sw32
 y56
 sw33
 sw34
 sw35
+sw36
+sw37
+y57
