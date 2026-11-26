@@ -70,3 +70,43 @@ I'd like you to do an audit of ReplayDump to verify that it's capable of extract
 
 ## #15 (2026-11-25 21:34 PDT)
 I'd also like you to make a pass over recent games to see if any of our units are not pulling their weight, and if so, track down why
+
+## #16 (2026-11-26 06:10 PDT)
+Good morning!  How was it overnight?
+
+## #17 (2026-11-26 06:15 PDT)
+Based on what I see in the replay-elo graph, y74 seems to be the pivot that moved us from tracking #20 to tracking #15
+
+## #18 (2026-11-26 06:20 PDT)
+No, that's fine, thanks.  By the way, are there any features of Claude Code that we aren't using that would make you more effective in doing Battlecode?
+
+## #19 (2026-11-26 06:22 PDT)
+Yes, please do.  5 also sounds like a cool feature, but only if you have the time
+
+## #20 (2026-11-26 06:46 PDT)
+Looks good!  Do we really have all-new challengers this round?
+
+## #21 (2026-11-26 07:41 PDT)
+Can you give me a sense for how the different Opus 5.5 effort levels (Low-Max, plus Ultracode) affects your effectiveness in building a world champion Battlecode bot?
+
+## #22 (2026-11-26 07:43 PDT)
+Is there any way to automatically adjust effort level to the task at hand?  It's not really practical for me to keep doing the adjustments manually
+
+## #23 (2026-11-26 07:48 PDT)
+Re #1:  Yes, please switch it over
+Re #2:  I've now run slash hooks in the CLI
+
+## #24 (2026-11-26 09:19 PDT)
+On the dashboard, right after the Replica Elo graph, can you insert a version of the second panel of replica-elo.png, and also a version of local-elo.png?
+
+## #25 (2026-11-26 09:27 PDT)
+Looks great!  Two requests:  First, can you make the zero line more prominent in the second graph?  I can barely see it, but it's an important reference.  Second, can you align the timestamps so that the local and replica tournament graphs are comparable, horizontally?
+
+## #26 (2026-11-26 09:36 PDT)
+Can you show me a scatterplot of local Elo vs. replica Elo at a set of timestamps?
+
+## #27 (2026-11-26 09:40 PDT)
+Let's remove any points from the early ramp-up phase, and lag the replica timestamp by an hour to allow for the champion's effect to be reflected in the replica Elo
+
+## #28 (2026-11-26 09:43 PDT)
+Let's leave the overnight problem alone for now.  I like the simplicity of our current setup, and the counterintuitive motion in the scatterplot is an interesting artifact
