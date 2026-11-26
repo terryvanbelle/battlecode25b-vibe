@@ -58,3 +58,6 @@ How about in replica-elo.png you use the vertical lines to mark the champions th
 
 ## #11 (2026-11-25 16:42 PDT)
 Also, the table in local-elo.md is stale
+
+## #12 (2026-11-25 18:15 PDT)
+From now on, let's use the t prefix to indicate a bot that arose from imitating an enemy tactic

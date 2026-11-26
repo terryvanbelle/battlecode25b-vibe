@@ -31,6 +31,10 @@ season's tools. Times are the owner's zone: `TZ=America/Vancouver` (UTC-7, "PDT"
   Units' indicator strings appear in `turns.tsv`.
 - Unit tests: `tools/unit-tests.sh`, fake controller `test/vibe/World.java`, checks in `test/vibe/BotTest.java`.
   Run them after every change.
+- Bot names: `yNN` tunings, `swNN` swings, `tNN` bots that imitate an enemy tactic seen in replays (owner prompt
+  #12, from 2026-11-25 18:15 PDT; numbered t01, t02, ...). Earlier tactic copies kept their y/sw names: y44 (refill,
+  champion), sw26-sw29 (economy, spawn cycle), y47/y49 (SRPs), y53, sw30-sw37 and y56-y59 (churn, moppers, opening,
+  upgrades); `champions.csv` and `pool.txt` say which study tactic each copies.
 - Snapshots: `tools/snapshot.sh NAME [SRCDIR]` (the source is the **second argument**). For a variant: copy
   `bots/CHAMP` to a scratch directory, edit it, then `snapshot.sh NEW scratch/CHAMP`.
 

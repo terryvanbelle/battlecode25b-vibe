@@ -78,8 +78,8 @@ replica. That build is the first champion.
 ### 2.1 Pool and names
 - About **10 bots**: the champion plus newcomers, half incremental and half swings. Refill whichever kind is short.
 - The pool file lists active bots. Retired bots stay as comments, unscheduled, but their games keep anchoring the fit.
-- Name prefixes tell the kinds apart (e.g. `yNN` tunings, `swNN` swings, `fxNN` audit fixes, `cpNN` copied field
-  tactics). A swing table records each strategy and its fate.
+- Name prefixes tell the kinds apart (e.g. `yNN` tunings, `swNN` swings, `fxNN` audit fixes, `tNN` tactics
+  imitated from enemy replays). A swing table records each strategy and its fate.
 
 ### 2.2 Ratings and the champion
 - **One Bradley-Terry fit over every local game** between pool or retired bots: any seat, any seed, the contest's map
