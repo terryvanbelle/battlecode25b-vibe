@@ -62,3 +62,9 @@ t83	t81 + money towers with 100-199 paint build a mopper
 t84	t80 ruin denial only from where the soldier stands (no walking to the ruin)
 y173	towers upgrade with 800 spare chips (was 1200)
 y174	splasher enemy-tower weight 15 (t70: 30)
+y175	y172 on y170: t81 money-tower soldier fallback at 150+ paint
+t85	t84 on y170: ruin denial only from where the soldier stands
+y176	y173 on y170: towers upgrade with 800 spare chips
+y177	y174 on y170: splasher enemy-tower weight 15
+y178	paint tower at 1250+ chips (y170: 1500)
+y179	the 1500-chip paint-tower rule from the 2nd tower on (y170: 3rd)

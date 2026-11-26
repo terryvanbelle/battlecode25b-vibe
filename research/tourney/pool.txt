@@ -272,7 +272,7 @@
 # t75 (retired: -21 vs t70 after 341)
 # t72 (retired: on old champion t70, -4 vs t70 after 355; ported as t79)
 # t73 (retired: -32 vs t70 after 364)
-t74
+# t74 (retired at y170's crowning)
 # t76 (retired: -295 after 200; t71 + money S M M)
 # t77 (retired: -51 vs t70 after 383)
 # t78 (retired: on old champion t70, 0 games; ported as t81)
@@ -280,13 +280,19 @@ t74
 # y167 (retired: -38 vs t74 after 221; mopper ruin weight 80)
 # y168 (retired: -24 vs t74 after 219; mopper ruin weight 20)
 # t80 (retired: -39 vs t74 after 374; ruin denial 2.2)
-t81
+# t81 (retired: +5 vs t74 after 558, flat; lives on as t82 on y170)
 # y169 (retired: -67 vs t74 after 344; splasher tower weight 50)
 y170
 t82
-y171
-y172
-t83
-t84
-y173
-y174
+# y171 (retired: -21 vs t74 after 140, -43 vs y170; paint tower at 1000 chips)
+# y172 (retired: on old champion t74, +7 after 128; ported as y175)
+# t83 (retired: -54 vs t74 after 148)
+# t84 (retired: on old champion t74, 0 games; ported as t85)
+# y173 (retired: on old champion t74, 0 games; ported as y176)
+# y174 (retired: on old champion t74, 0 games; ported as y177)
+y175
+t85
+y176
+y177
+y178
+y179
