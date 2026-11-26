@@ -22,7 +22,8 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
 1. `tools/prod.sh pull` - status, pulls every unfinished run, ranks.
 2. If rank prints `NEW CHAMPION X (was Y)`: `tools/crown.sh X Y "what X changes (study/tactic)"`. Check the audit
    diff is only the intended change. If the unit tests fail on a spawn-mix check, update `test/vibe/BotTest.java`.
-   Then retire bots built on the old champion (`# NAME (retired: reason)` in `research/tourney/pool.txt`) and
+   Then retire bots built on the old champion (`# NAME (retired: reason)` in `research/tourney/pool.txt`), never the
+   replica-record slot (a pool line whose comment says `replica record`, owner #35), and
    rebuild the promising ones on the new champion with `variant.py port`.
 3. Pool upkeep, about 10 active, half tunings (`yNN`) and half tactic copies (`tNN`, owner prompt #12):
    - retire bots clearly behind (about -20 or worse after 200+ games, or flat after 500);
@@ -34,6 +35,8 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
    A newly added bot only enters runs planned after it: if the queue holds only runs planned before it, that's fine;
    it gets games from the next ones.
 5. `tools/prod.sh replica` - replica Elo sample and chart, local chart, parity top-up, fetch, recent matches.
+   Its `tools/record.py` line names the replica record holder (owner #35: a permanent pool slot unless it is the
+   champion or already active). Act on an `ADD` or retire line it prints.
 6. `tools/prod.sh disk`.
 6b. Dashboard (https://claude.ai/artifact/DstLySDMnQvBtaAszuM2nB, a Data-type artifact): `tools/prod.sh board
    SCRATCH/board.json`, upload it with the Artifact tool (`url` above, `asset: true`), then one ArtifactData batch
