@@ -291,7 +291,7 @@
 # y173 (retired: on old champion t74, 0 games; ported as y176)
 # y174 (retired: on old champion t74, 0 games; ported as y177)
 # y175 (retired: on old champion y170, +37 after 448; ported as y182)
-t85
+# t85 (retired at t91's crowning)
 # y176 (retired: on old champion y170, +10 after 489; ported as y183)
 # y177 (retired: on old champion y170, +8 after 436; ported as y184)
 # y178 (retired: -24 vs y170 after 442; paint tower at 1250)
@@ -304,14 +304,22 @@ t85
 # y185 (retired: -27 vs t85 after 531; paint tower at 1750)
 # y186 (retired: -10 vs t85 after 552, flat; churn at 1500)
 # y187 (retired: -45 vs t85 after 193; denial to 5 tiles)
-t86
+# t86 (retired: built on t85, champion now t91)
 # t87 (retired: -26 vs t85 after 198; paint-tower rebuild, broad, study 7 2.2)
-t88
+# t88 (retired: built on t85, champion now t91)
 # t89 (retired: -88 vs t85 after 131; walk to remembered free ruins, study 7 2.1b)
-t90
+# t90 (retired: built on t85, champion now t91)
 t91
-y188
-y189
-y190
-t92
-y191
+# y188 (retired: built on t85, champion now t91)
+# y189 (retired: built on t85, champion now t91)
+# y190 (retired: built on t85, champion now t91)
+# t92 (retired: built on t85, champion now t91)
+# y191 (retired: built on t85, champion now t91)
+t93
+t94
+t95
+y192
+y193
+y194
+y195
+t96

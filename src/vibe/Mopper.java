@@ -64,7 +64,12 @@ public strictfp class Mopper {
     }
 
     static boolean nearRuin(MapLocation l) {
-        for (MapLocation r : G.ruins) if (r.distanceSquaredTo(l) <= 8) return true;
+        for (MapLocation r : G.ruins) if (r.distanceSquaredTo(l) <= 8) {
+            // study 7 2.5: skip ruins under an enemy tower (mopping beside enemy towers rose 2.2% -> 3.9% with t74)
+            boolean enemyTower = false;
+            for (RobotInfo e : G.enemies) if (e.location.equals(r)) { enemyTower = true; break; }
+            if (!enemyTower) return true;
+        }
         return false;
     }
 
