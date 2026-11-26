@@ -202,18 +202,25 @@
 # y122 (retired at t45's crowning)
 # y123 (retired at t45's crowning)
 # y124 (retired at t45's crowning)
-t45
+# t45 (retired at t47's crowning)
 # y125 (retired at t45's crowning)
 # y126 (retired at t45's crowning)
 # t46 (retired at t45's crowning)
 # y127 (retired at t45's crowning)
 # y128 (retired at t45's crowning)
-y129
-y130
-y131
-y132
-y133
-y134
+# y129 (retired at t47's crowning)
+# y130 (retired at t47's crowning)
+# y131 (retired at t47's crowning)
+# y132 (retired at t47's crowning)
+# y133 (retired at t47's crowning)
+# y134 (retired at t47's crowning)
 t47
-t48
-t49
+# t48 (retired at t47's crowning)
+# t49 (retired at t47's crowning)
+y135
+y136
+y137
+t50
+y138
+t51
+y139
