@@ -101,15 +101,19 @@
 # y61 (retired: -26 vs y58 after 396; churn 1500)
 t04
 # y62 (retired: -49 vs t04 after 207)
-y63
-y64
+# y63 (retired: -52 vs t04 after 221)
+# y64 (retired: -47 vs t04 after 212)
 y65
-y66
-y67
-t05
+# y66 (retired: -34 vs t04 after 235)
+# y67 (retired: -35 vs t04 after 199)
+# t05 (retired: -124 vs t04; 40% refill during ruin work)
 t06
-t07
+# t07 (retired: -228 vs t04; bug: counts only known towers, so builds paint towers forever)
 t08
 # t09 (retired: -348 vs t04, 3-22; t05+t06+t07 - the 40% ruin refill pulls builders off)
 t10
 t11
+t12
+t13
+t14
+t15
