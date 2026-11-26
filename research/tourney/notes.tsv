@@ -1,0 +1,12 @@
+bot	change
+t47	t45 + defensive moppers spawn below the chip reserve (study 3 tactic 5)
+t50	splashers weight enemy towers 30 (was 12) (study 4 2.3)
+t54	never upgrade money towers (study 5 2.2)
+t55	with 5000+ chips, drained money towers churn at any level (study 5 2.2)
+t56	money towers 1-3, then paint while paint towers < 1+(n-3)/3 or chips >= 2000 (study 5 2.1)
+t57	no trickle refills: skip a tower that can't give min(need, 50) (study 5 2.4)
+t58	a splasher that hasn't splashed for 8 rounds explores (study 5 2.3)
+t59	t58 + t57 (no trickle refills)
+t60	t58 + t54 (no money upgrades)
+t61	t58 + softer paint-tower rule: money 1-5, then one paint tower per 4 towers
+t62	t58 + t50 (splashers weight enemy towers 30)

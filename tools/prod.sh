@@ -3,6 +3,7 @@
 #   tools/prod.sh pull            box status, pull every local run without DONE, rank
 #   tools/prod.sh queue [N]       keep >= N (default 5) runs queued: plan and queue new run numbers, dedupe, md5 check
 #   tools/prod.sh replica         replica sample + chart, local chart, parity top-up, fetch --new, recent matches
+#   tools/prod.sh board [OUT]     export the training dashboard's data (tools/board.py)
 #   tools/prod.sh disk            df on the driver, the box and the replica VM
 #   tools/prod.sh commit MSG PATH...   git add PATH... plus the tourney/progress files, commit with trailers, push
 # Commit trailers: Co-Authored-By always; Claude-Session from $BC_SESSION when set.
@@ -43,6 +44,10 @@ case "${1:-}" in
     $PY tools/parity.py --topup
     timeout 240 $PY tools/galaxy25/contest.py fetch --new >/dev/null 2>&1; echo "fetch exit $?"
     timeout 120 $PY tools/galaxy25/contest.py matches 2>/dev/null | grep "OK!" | head -6 ;;
+  board)
+    out=${2:-/tmp/board.json}
+    $PY tools/board.py "$out"
+    echo "now upload $out to https://claude.ai/artifact/DstLySDMnQvBtaAszuM2nB (Artifact publish asset:true) and point datasets pool/status/replica/champions at the new /_blob url (ArtifactData batch update: source.url and updated.at)" ;;
   disk)
     echo "driver: $(df -h ~ | tail -1)"
     echo "box:    $(tools/box.sh sh 'df -h ~ | tail -1')"

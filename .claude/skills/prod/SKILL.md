@@ -34,6 +34,11 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
    it gets games from the next ones.
 5. `tools/prod.sh replica` - replica Elo sample and chart, local chart, parity top-up, fetch, recent matches.
 6. `tools/prod.sh disk`.
+6b. Dashboard (https://claude.ai/artifact/DstLySDMnQvBtaAszuM2nB, a Data-type artifact): `tools/prod.sh board
+   SCRATCH/board.json`, upload it with the Artifact tool (`url` above, `asset: true`), then one ArtifactData batch
+   `update` of `datasets/pool`, `status`, `replica`, `champions` setting `source.url` to the new `/_blob/<id>` and
+   `updated.at` (pin each with `if_version`). Delete the previous board asset once nothing names it. Keep
+   `research/tourney/notes.tsv` (bot<TAB>change) current for new bots: the pool table shows it.
 7. `BC_SESSION=<this session's URL> tools/prod.sh commit "prod: ..." bots/NEW1 bots/NEW2 ...` (src/vibe after a crowning).
 8. Report to the owner, concisely:
    - tournament size: games total and added since the last prod, active and retired bots, running/queued runs;
