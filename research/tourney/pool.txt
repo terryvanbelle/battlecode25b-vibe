@@ -117,18 +117,22 @@
 # t13 (retired: -28 vs t08 after 390; contested bad 100)
 # t14 (retired: -112 vs t08 after 315; new ruin only with >=80 paint)
 # t15 (retired: -102 vs t08 after 357; recovery rule)
-t16
+# t16 (retired: former champion)
 # t17 (retired: +4 vs t08 after 241; t12 + contested bad 100)
 # t18 (retired: -248 vs t16 after 920)
 # t19 (retired: -278 vs t16 after 171; late SRPs still starve chips)
 t20
-y68
+# y68 (retired: +17 vs t16 after 333, short of t20)
 # y69 (retired: -31 vs t16 after 202)
 # y70 (retired: -26 vs t16 after 210)
 # y71 (retired: -32 vs t16 after 192)
 y72
-y73
+# y73 (retired: -41 vs t16; soldier in place of an unaffordable splasher)
 y74
 y75
 y76
 t21
+y77
+t22
+y78
+y79
