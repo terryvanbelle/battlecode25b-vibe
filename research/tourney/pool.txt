@@ -182,7 +182,7 @@
 # t36 (retired: former champion)
 # y109 (retired: on y95; y111 carries it on t36)
 y110
-y111
+# y111 (retired: +6 vs y110 after 610)
 # y112 (retired: +6 vs t36)
 # y113 (retired: -1 vs t36)
 # y114 (retired: -4 vs t36)
@@ -195,3 +195,7 @@ t41
 t42
 y117
 t43
+y119
+y120
+y121
+t44
