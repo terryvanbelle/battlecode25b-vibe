@@ -67,3 +67,6 @@ Please add a line for 20th place to replica-elo.png, and also one for our previo
 
 ## #14 (2026-11-25 21:03 PDT)
 I'd like you to do an audit of ReplayDump to verify that it's capable of extracting all the information from a replay that is available
+
+## #15 (2026-11-25 21:34 PDT)
+I'd also like you to make a pass over recent games to see if any of our units are not pulling their weight, and if so, track down why
