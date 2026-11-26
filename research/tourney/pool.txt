@@ -334,10 +334,13 @@ y197
 # y201 (retired: built on y195, champion now y197)
 # y202 (retired: built on y195, champion now y197)
 # y203 (retired: built on y195, champion now y197)
-t100
+# t100 (retired: -35 vs y197 after 235; idle moppers walk to remembered contested ruins, study 7 2.3)
 y204
 y205
 y206
 y207
 y208
 y209
+y210
+y211
+y212
