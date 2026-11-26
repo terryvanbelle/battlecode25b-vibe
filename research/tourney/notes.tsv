@@ -46,3 +46,4 @@ t73	study 6 2.1b: soldiers keep ruins with up to 4 enemy tiles (was 0)
 t74	study 6 2.1c: moppers weight enemy paint near ruins 40 (was 6-10)
 t75	study 6 2.4: churn ignores enemy moppers and enemies beyond d2 20
 t76	t71 + money towers cycle S M M (study 6 2.3, full)
+t77	study 6 2.5: soldiers not working a ruin step away from enemy moppers within d2 8

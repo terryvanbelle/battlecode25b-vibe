@@ -266,11 +266,12 @@ t70
 y162
 # y163 (retired: -40 after 290; paint tower per 3 after 6)
 # y164 (retired: -22 after 259; paint tower at 1500 chips)
-y165
-y166
+# y165 (retired: -3 after 647; paint tower at 3000 chips)
+# y166 (retired: 0 after 592; splasher tower weight 50)
 t71
 t75
 t72
 t73
 t74
 t76
+t77
