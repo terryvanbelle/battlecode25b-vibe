@@ -104,3 +104,5 @@ y198	y193 on y195: money towers churn at 2500 chips
 y199	y196 on y195: denial only on ruins with none of our tiles
 y200	up to 32 draws for an unseen explore target (y195: 16)
 y201	explore target renewed after 40 rounds (y195: 60)
+y202	y200 + y197 (32 explore draws; denial stops at 2 of our tiles)
+y203	up to 64 draws for an unseen explore target (y195: 16)

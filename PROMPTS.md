@@ -119,3 +119,9 @@ Can you get the aspect ratio of the scatterplot in the dashboard to be more squa
 
 ## #31 (2026-11-26 10:34 PDT)
 I don't think the shading of the dots in the scatterplot by recency is buying us much.  Let's just keep them all at max brightness.  And can you also increase the brightness of the edges, so that we can see the motion better?
+
+## #32 (2026-11-26 13:42 PDT)
+What was the bot name where you decided to start clearing out the tournament after every coronation of a new champion?  We seem to be doing quite well on the replica recently, and I wonder if that decision is responsible
+
+## #33 (2026-11-26 13:48 PDT)
+Seems like a good idea, regardless
