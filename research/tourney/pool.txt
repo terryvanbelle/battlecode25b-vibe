@@ -92,12 +92,17 @@ y44
 # sw36 (retired: -127 vs y56 after 257; mopper garrison)
 # sw37 (retired: -103 vs y56 after 289; garrison + feed 30)
 # y57 (retired: +8 vs y56 after 469; churn 1500)
-y58
+# y58 (retired: former champion)
 # y59 (retired: -14 vs y56 after 297; upgrade at cost)
 # t01 (retired: -101 vs y58 after 315; splasher-heavy late mix)
-t02
+# t02 (retired: -8 vs y58 after 531; in t04)
 t03
-y60
-y61
+# y60 (retired: -4 vs y58 after 436; no coverage to r35)
+# y61 (retired: -26 vs y58 after 396; churn 1500)
 t04
 y62
+y63
+y64
+y65
+y66
+y67

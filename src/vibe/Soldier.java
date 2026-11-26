@@ -27,10 +27,10 @@ public strictfp class Soldier {
         }
         if (siege()) return;
         if (Unit.refill(100)) { paintHere(); return; }
-        // explore, painting as we go; study 3 tactic 2: before r50 save paint for tower patterns (no coverage)
-        if (G.round >= 50) paintNear();
+        // explore, painting as we go; study 3 tactic 2: before r80 save paint for tower patterns (no coverage)
+        if (G.round >= 80) paintNear();
         Nav.moveTo(Unit.exploreTarget());
-        if (G.round >= 50) paintNear();
+        if (G.round >= 80) paintNear();
     }
 
     // ---- siege: a soldier with no ruin to build and paint to spare kites a known enemy tower nearby: step into

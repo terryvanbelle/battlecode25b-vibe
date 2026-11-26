@@ -20,7 +20,7 @@ public strictfp class Unit {
         MapLocation best = null; int bestD = Integer.MAX_VALUE;
         for (int i = G.nTowers; --i >= 0; ) {
             MapLocation l = G.towerLoc[i];
-            if (towerDry[i] > 0 && G.round - towerDry[i] < 40) continue;
+            if (towerDry[i] > 0 && G.round - towerDry[i] < 40 && !(G.towerKind[i] == 2 && churnable())) continue;
             int d = G.here.distanceSquaredTo(l);
             if (G.towerKind[i] == 1) d = d * 7 / 10;
             if (d < bestD) { bestD = d; best = l; }
@@ -38,12 +38,18 @@ public strictfp class Unit {
                     if (G.paint >= cap * 3 / 4) refillAt = null;
                     return true;
                 }
+                // a drained money tower may churn (Tower.churn): wait beside it up to 3 rounds to rebuild it
+                if (t.paintAmount < 10 && t.type == UnitType.LEVEL_ONE_MONEY_TOWER && churnable()) {
+                    if (!best.equals(churnLoc) || G.round - churnAt > 50) { churnLoc = best; churnAt = G.round; }
+                    if (G.type == UnitType.SOLDIER && repairPattern(best)) churnAt = G.round;   // keep waiting while repairing
+                    if (G.round - churnAt < 3) { G.ind += " churnwait"; return true; }
+                }
                 if (t.paintAmount < 20) markDry(best);
                 if (!rc.isActionReady()) return true;   // wait for the cooldown next to the tower
                 refillAt = null;
                 return false;
             }
-            if (t.paintAmount < Math.min(40, cap - G.paint)) { markDry(best); }
+            if (t.paintAmount < Math.min(40, cap - G.paint) && !(t.type == UnitType.LEVEL_ONE_MONEY_TOWER && churnable())) { markDry(best); }
         }
         Nav.moveTo(best);
         G.ind += " refill" + best;
@@ -76,6 +82,28 @@ public strictfp class Unit {
             }
         }
     }
+
+    static MapLocation churnLoc;
+    static int churnAt = -100;
+
+    /** A soldier repaints one wrong tile of a standing money tower's pattern (enemy mops erase them), so it can churn. */
+    static boolean repairPattern(MapLocation tw) throws GameActionException {
+        RobotController rc = G.rc;
+        if (!rc.isActionReady() || rc.getPaint() < 5) return false;
+        int pat = Soldier.patternOf(UnitType.LEVEL_ONE_MONEY_TOWER);
+        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+            if (dx == 0 && dy == 0) continue;
+            MapLocation l = tw.translate(dx, dy);
+            if (!rc.canSenseLocation(l)) continue;
+            PaintType p = rc.senseMapInfo(l).getPaint();
+            boolean s = Soldier.bit(pat, dx, dy);
+            if (p.isAlly() && p.isSecondary() == s) continue;
+            if (rc.canAttack(l)) { rc.attack(l, s); G.paint = rc.getPaint(); G.ind += " repair" + l; return true; }
+        }
+        return false;
+    }
+
+    static boolean churnable() { return G.rc.getChips() >= Tower.CHURN_CHIPS; }
 
     static void markDry(MapLocation l) {
         for (int i = G.nTowers; --i >= 0; ) if (G.towerLoc[i].equals(l)) towerDry[i] = G.round;
