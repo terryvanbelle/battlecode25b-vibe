@@ -89,8 +89,10 @@ y56
 sw33
 sw34
 sw35
-sw36
-sw37
+# sw36 (retired: -127 vs y56 after 257; mopper garrison)
+# sw37 (retired: -103 vs y56 after 289; garrison + feed 30)
 y57
 y58
 y59
+t01
+t02
