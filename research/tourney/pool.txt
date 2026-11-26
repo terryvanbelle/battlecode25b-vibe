@@ -338,9 +338,9 @@ y197
 y204
 y205
 y206
-y207
+# y207 (retired: -24 vs y197 after 434; mopper defend r2 36)
 y208
-y209
+# y209 (retired: -23 vs y197 after 427; siege range r2 100)
 y210
 y211
 y212
