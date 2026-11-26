@@ -70,6 +70,18 @@ and 15 (and 20, plus our previous attempt bc25-vibe-orig, from owner prompt #13)
 `progress/replica-elo.png` from it (owner prompt #6). The data starts at 2026-11-25 10:44 PDT. Vertical lines mark crownings whose
 champion beats the one it replaced by `BIG_GAIN` (40) or more local Elo in the present fit (owner prompt #10).
 
+## Automation (2026-11-26)
+- `tools/prod.sh pull|queue [N]|replica|disk|commit MSG PATH...`: the mechanical prod steps.
+- `tools/crown.sh NEW OLD "desc"`: the whole crowning (champion.txt first, submit, champions.csv, src/vibe, retire OLD,
+  chart, audit diff, unit tests).
+- `tools/variant.py NEW BASE FILE OLD NEW ...` builds a candidate from exact single-occurrence edits;
+  `tools/variant.py port NEW BASE VAR VARBASE` re-applies a variant's change onto a new base.
+- `tools/parity.py [--topup]`: ranked-rate parity.
+- `.claude/skills/prod`: the prod procedure as a Claude Code skill. `.claude/agents/field-study.md`: a subagent with
+  the field-study ground rules built in (it can write its own REPORT.md).
+- `.claude/settings.json` runs `tools/hooks/guard.py` before every Bash command: it blocks git commands that touch the
+  replica secrets, `git add -A/./--all` and `commit -a`, and submitting any bot other than champion.txt's.
+
 ## Prod
 A session cron fires every 20 minutes (owner prompt #3). It follows TRAINING_ALGORITHM §7.1 and reports on the
 tournament, the replica and disk on the driver, the VM and the box.
