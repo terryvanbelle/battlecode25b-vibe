@@ -1,6 +1,7 @@
 ---
 name: prod
 description: Run one bc25b prod cycle (TRAINING_ALGORITHM.md §7.1) - pull and rank the local tournament, crown, keep runs queued, retire/build candidates, replica sample/parity/fetch, disk, commit, report. Use whenever the recurring PROD prompt fires or the owner asks for a prod.
+effort: high
 ---
 
 # Prod (bc25b)

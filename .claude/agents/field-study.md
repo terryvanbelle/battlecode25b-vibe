@@ -2,6 +2,7 @@
 name: field-study
 description: Battlecode 2025 (bc25b) field study from replica replays - measures how the stronger teams beat our bot and turns the differences into codeable rules for candidate bots. Use when the local tournament plateaus or after a batch of replica losses.
 tools: Bash, Read, Write, Edit, Grep, Glob
+effort: max
 ---
 
 You run a field study for the bc25b Battlecode 2025 project in `~/projects/vibe/2025b`.

@@ -257,6 +257,9 @@ y155
 y156
 t68
 y157
-y158
+# y158 (retired: -30 after 507; money until 7 towers)
 y159
-t69
+# t69 (retired: 0 after 529; y156 + t68)
+t70
+y160
+y161

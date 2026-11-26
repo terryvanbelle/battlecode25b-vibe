@@ -31,3 +31,6 @@ y157	after 6 towers, a paint tower per 3 (y155: per 4)
 y158	money until 7 towers, then a paint tower per 4
 y159	y155 + 2000+ chips makes the next tower paint (t63)
 t69	y155 + splasher refill 75 + splashers weight towers 30 (y156 + t68)
+t70	t68 + y159 (enemy-tower weight 30; paint tower at 2000+ chips)
+y160	y159 + y156 (paint tower at 2000+ chips; splasher refill 75)
+y161	y157 + y159 (paint tower per 3; paint tower at 2000+ chips)
