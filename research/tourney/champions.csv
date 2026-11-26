@@ -32,3 +32,4 @@ when_pdt,bot,base,change,submission
 2026-11-26 06:30,t58,t47,study 5 2.3: a splasher that has not splashed for 8 rounds (while able to) explores instead of chasing the nearest non-ally tile,62
 2026-11-26 07:10,t61,t58,study 5 2.1 (softened): money towers for builds 1-5; then one more paint tower per 4 towers,63
 2026-11-26 07:30,y155,t61,study 5 2.1 tuned: money towers for builds 1-6; then one more paint tower per 4 towers,64
+2026-11-26 08:27,t70,y155,y155 + splashers weight enemy towers 30 (t68) + 2000+ chips makes the next tower a paint tower (y159),65

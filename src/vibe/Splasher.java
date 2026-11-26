@@ -42,7 +42,7 @@ public strictfp class Splasher {
         for (RobotInfo e : G.enemies) {
             if (!e.type.isTowerType()) continue;
             int gx = e.location.x - gx0 + 5, gy = e.location.y - gy0 + 5;
-            if (gx >= 0 && gx < 11 && gy >= 0 && gy < 11) { V1[gy * 11 + gx] += 12; V2[gy * 11 + gx] += 12; }
+            if (gx >= 0 && gx < 11 && gy >= 0 && gy < 11) { V1[gy * 11 + gx] += 30; V2[gy * 11 + gx] += 30; }   // study 5 2.5 (as t50)
         }
     }
 

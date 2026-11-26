@@ -109,6 +109,7 @@ public strictfp class Soldier {
         // study 4 3.1: with 0 money towers we sat at 10 chips for 158 rounds; rebuild money first
         if (pt + mt >= n && mt == 0 && n > 0) return UnitType.LEVEL_ONE_MONEY_TOWER;
         // study 5 2.1, softened: money for towers 1-5, then one more paint tower per 4 towers
+        if (n >= 3 && G.rc.getChips() >= 2000) return UnitType.LEVEL_ONE_PAINT_TOWER;   // t63
         if (n < 6) return UnitType.LEVEL_ONE_MONEY_TOWER;
         if (pt < 1 + (n - 6) / 4) return UnitType.LEVEL_ONE_PAINT_TOWER;
         if (n < 8) return UnitType.LEVEL_ONE_MONEY_TOWER;
