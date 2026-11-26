@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Our replica (galaxy) rating against wall-clock time, with the ratings at places 1, 5, 10, 15 and 20 (owner
 prompts #6, #13) and the rating of our previous 2025 attempt, team bc25-vibe-orig (owner prompt #13).
-There is no data before the first sample, taken 2026-11-25 ~10:30 PDT; p20 and orig start 2026-11-25 ~20:55 PDT.
+There is no data before the first sample, taken 2026-11-25 ~10:30 PDT; p20 and orig were sampled from 2026-11-25 20:54 PDT and backfilled before that from each ranked match's post-match ratings (that rebuild matched the recorded p1/p5/p15 and our own rating to within a few points).
 
   python3 tools/replica_elo.py sample     append one row to progress/replica-elo.csv (the prod runs this every cycle)
   ~/.venv-bc25b/bin/python tools/replica_elo.py chart   progress/replica-elo.png from that file
