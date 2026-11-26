@@ -1,0 +1,10 @@
+== won: 34 games: m2323g0 DefaultSmall, m2323g1 Money, m2323g2 boxofchocolates, m2364g2 lighthouse, m2365g1 defensetower, m2365g2 gardenworld, m2366g1 starburst, m2367g0 Rose, m2367g1 SandyBeach, m2367g2 defensetower, m2397g1 giver, m2397g2 mit, m2418g1 UnderTheSea, m2418g2 boxofchocolates, m2439g0 Crab, m2439g2 roads, m2446g0 DefaultHuge, m2446g1 boxofchocolates, m2446g2 lighthouse, m2469g0 BunnyGame, m2469g2 sunrise, m2472g1 SMILE, m2472g2 memstore, m2476g1 Money, m2476g2 yearofthesnake, m2485g1 TheBest, m2485g2 lighthouse, m2529g0 Flower, m2529g1 Oasis, m2565g0 Crab, m2565g2 quack, m2567g1 Filter, m2599g1 DefaultLarge, m2599g2 Parking_lot
+  r100 n=34 cov% 18.5/17.6  tow 6.0/3.0  pt 1.0/1.0  money 1165.0/1090.0  paint 1861.5/1397.5  units 10.0/9.0  srp 0.0/0.0
+  r150 n=34 cov% 30.0/18.8  tow 8.0/4.0  pt 1.0/1.0  money 1345.0/1402.5  paint 2257.5/1384.5  units 15.5/12.0  srp 0.0/0.0
+  r200 n=33 cov% 37.4/19.4  tow 9/4  pt 1/1  money 2050/1800  paint 2777/1152  units 20/13  srp 1/0
+  r300 n=22 cov% 50.4/26.5  tow 10.0/4.0  pt 2.0/1.0  money 1410.5/2610.0  paint 5460.5/1451.5  units 38.5/15.5  srp 3.0/0.0
+== lost: 26 games: m2344g0 Bunny, m2344g1 CastleDefense, m2344g2 quack, m2364g0 DefaultSmall, m2364g1 Fossil, m2365g0 PlumberGame, m2366g0 Portal, m2366g2 yearofthesnake, m2397g0 Fossil, m2418g0 Mirage, m2439g1 DefaultSmall, m2469g1 Racetrack, m2471g0 Barcode, m2471g1 CastleDefense, m2471g2 Restart, m2472g0 Barcode, m2476g0 Brat, m2485g0 Fossil, m2508g0 Leaf, m2508g1 TargetPractice, m2508g2 Terminal, m2529g2 TargetPractice, m2565g1 Justice, m2567g0 CastleDefense, m2567g2 FourCorners, m2599g0 CastleDefense
+  r100 n=26 cov% 25.6/31.1  tow 4.0/4.0  pt 1.0/1.0  money 1365.0/885.0  paint 1445.5/1768.5  units 8.0/10.0  srp 0.0/0.0
+  r150 n=25 cov% 30.3/33.5  tow 5/5  pt 1/1  money 2390/940  paint 1583/1937  units 7/12  srp 0/0
+  r200 n=23 cov% 34.2/37.8  tow 5/6  pt 1/1  money 1750/820  paint 1983/2431  units 9/15  srp 0/0
+  r300 n=19 cov% 36.5/49.9  tow 5/8  pt 1/1  money 2160/1320  paint 1736/3097  units 9/24  srp 0/0

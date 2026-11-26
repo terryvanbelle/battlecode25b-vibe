@@ -1,0 +1,75 @@
+t47       all  games 30  lost 11 (37%)
+      splasher idle %                        med 9.6  mean 13.1
+      splashes/100 splasher turns            med 4.7  mean 5.2
+      paint-blocked %                        med 60.0  mean 58.1
+      paint towers r150                      med 1  mean 1.2
+      paint towers r300                      med 1  mean 2.4
+      2nd paint tower round (9999 never)     med 465.5  mean 4466.3
+      paint share of non-churn builds %      med 13.4  mean 17.1
+      splasher turns total 63034
+t47       lost games 11  median loss round 362
+      splasher idle %                        med 4.2  mean 8.7
+      splashes/100 splasher turns            med 8.3  mean 7.1
+      paint-blocked %                        med 77.6  mean 65.1
+      paint towers r150                      med 1.0  mean 1.0
+      paint towers r300                      med 2  mean 1.6
+      2nd paint tower round (9999 never)     med 9999  mean 6422.9
+      paint share of non-churn builds %      med 0.0  mean 5.9
+t47       won  games 19
+      splasher idle %                        med 11.5  mean 15.2
+      splashes/100 splasher turns            med 4.3  mean 4.4
+      paint-blocked %                        med 49.6  mean 53.9
+      paint towers r150                      med 1  mean 1.4
+      paint towers r300                      med 1.0  mean 2.9
+      2nd paint tower round (9999 never)     med 317  mean 3333.6
+      paint share of non-churn builds %      med 25.0  mean 23.6
+t58       all  games 21  lost 11 (52%)
+      splasher idle %                        med 0.0  mean 0.3
+      splashes/100 splasher turns            med 6.2  mean 7.1
+      paint-blocked %                        med 64.8  mean 62.5
+      paint towers r150                      med 1  mean 1.3
+      paint towers r300                      med 1.5  mean 2.5
+      2nd paint tower round (9999 never)     med 461  mean 4858.0
+      paint share of non-churn builds %      med 9.1  mean 13.4
+      splasher turns total 100877
+t58       lost games 11  median loss round 454
+      splasher idle %                        med 0.0  mean 0.1
+      splashes/100 splasher turns            med 8.1  mean 9.2
+      paint-blocked %                        med 76.6  mean 69.9
+      paint towers r150                      med 1  mean 1.0
+      paint towers r300                      med 1.0  mean 1.1
+      2nd paint tower round (9999 never)     med 9999  mean 8206.2
+      paint share of non-churn builds %      med 0.0  mean 3.2
+t58       won  games 10
+      splasher idle %                        med 0.0  mean 0.5
+      splashes/100 splasher turns            med 5.2  mean 5.1
+      paint-blocked %                        med 52.8  mean 54.2
+      paint towers r150                      med 1.0  mean 1.7
+      paint towers r300                      med 3.0  mean 4.2
+      2nd paint tower round (9999 never)     med 166.5  mean 1174.9
+      paint share of non-churn builds %      med 20.7  mean 24.6
+t61+y155  all  games  9  lost 4 (44%)
+      splasher idle %                        med 0.0  mean 2.2
+      splashes/100 splasher turns            med 8.8  mean 9.1
+      paint-blocked %                        med 64.9  mean 61.3
+      paint towers r150                      med 1  mean 1.4
+      paint towers r300                      med 1.0  mean 2.8
+      2nd paint tower round (9999 never)     med 9999  mean 5640.1
+      paint share of non-churn builds %      med 0.0  mean 13.7
+      splasher turns total 4146
+t61+y155  lost games  4  median loss round 309.0
+      splasher idle %                        med 0.0  mean 5.6
+      splashes/100 splasher turns            med 11.4  mean 11.7
+      paint-blocked %                        med 81.8  mean 83.2
+      paint towers r150                      med 1.0  mean 0.8
+      paint towers r300                      med 0.5  mean 0.5
+      2nd paint tower round (9999 never)     med 9999.0  mean 9999.0
+      paint share of non-churn builds %      med 0.0  mean 0.0
+t61+y155  won  games  5
+      splasher idle %                        med 0.0  mean 0.2
+      splashes/100 splasher turns            med 7.4  mean 7.5
+      paint-blocked %                        med 41.0  mean 43.9
+      paint towers r150                      med 2  mean 2.0
+      paint towers r300                      med 5.0  mean 5.0
+      2nd paint tower round (9999 never)     med 141  mean 2153.0
+      paint share of non-churn builds %      med 25.0  mean 24.7

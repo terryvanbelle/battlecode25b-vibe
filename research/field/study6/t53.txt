@@ -1,0 +1,10 @@
+== lost games: marked ruins completed by the marker, by whether the other side painted into the 5x5
+   us   clean   marked 140  completed 116 (83%)  within 50 rounds 100 (71%)
+   us   denied  marked  48  completed   7 (15%)  within 50 rounds   1 (2%)
+   them clean   marked 153  completed 136 (89%)  within 50 rounds 106 (69%)
+   them denied  marked   6  completed   4 (67%)  within 50 rounds   1 (17%)
+== won games: marked ruins completed by the marker, by whether the other side painted into the 5x5
+   us   clean   marked 456  completed 398 (87%)  within 50 rounds 338 (74%)
+   us   denied  marked  30  completed  12 (40%)  within 50 rounds   2 (7%)
+   them clean   marked 148  completed 105 (71%)  within 50 rounds  92 (62%)
+   them denied  marked  10  completed   4 (40%)  within 50 rounds   3 (30%)

@@ -1,0 +1,9 @@
+median per game; us | them   (new_ = painted on empty, flip_ = painted over enemy, mopclr = enemy tile mopped empty)
+metric              r1-100        r101-200        r201-300        r301-400       r401-9999
+games                   26              26              23              19              10
+new_SO       160.5 | 187.0   149.5 | 109.5        60 | 135         32 | 80   106.0 | 200.5
+new_SP           0.0 | 0.0       9.5 | 0.0         13 | 12          5 | 15     56.5 | 65.5
+new_MO           0.0 | 0.0       0.0 | 0.0           0 | 0           0 | 0       0.0 | 0.0
+flip_SO          0.0 | 0.0       0.0 | 0.0           0 | 0           0 | 0       0.0 | 0.0
+flip_SP          0.0 | 0.0       6.5 | 0.0         33 | 35         31 | 64   370.5 | 371.0
+mopclr          2.5 | 19.5     23.5 | 76.5        33 | 119         32 | 93    89.5 | 322.5

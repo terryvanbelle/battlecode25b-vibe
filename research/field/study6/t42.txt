@@ -1,0 +1,14 @@
+== lost games: churns per game (us, them): [('2344g0', 1, 4), ('2344g1', 0, 3), ('2344g2', 0, 12), ('2364g0', 0, 0), ('2364g1', 5, 0), ('2365g0', 4, 0), ('2366g0', 9, 0), ('2366g2', 58, 0), ('2397g0', 23, 0), ('2418g0', 0, 28), ('2439g1', 0, 0), ('2469g1', 10, 0), ('2471g0', 2, 6), ('2471g1', 0, 3), ('2471g2', 5, 37), ('2472g0', 2, 0), ('2476g0', 0, 14), ('2485g0', 10, 0), ('2508g0', 13, 70), ('2508g1', 28, 26), ('2508g2', 0, 17), ('2529g2', 15, 0), ('2565g1', 0, 0), ('2567g0', 1, 3), ('2567g2', 0, 11), ('2599g0', 2, 0)]
+   total churns us 188  them 234   games with >= 10 churns: us 7  them 8
+   us: paint at last turn med 0.0 p25 0 p75 0  chips med 2687.0 p25 2116 p75 3510  enemy robots d2<=20 med 0.0 p25 0 p75 0  own robots adjacent med 1.0 p25 1 p75 2  rebuild delay med 1.0 p25 0 p75 1
+        {'type M L1': 188, 'rebuilt as M': 186, 'rebuilt as never': 2}
+   them: paint at last turn med 0.0 p25 0 p75 46  chips med 2421.0 p25 2109 p75 2710  enemy robots d2<=20 med 0.0 p25 0 p75 0  own robots adjacent med 1.0 p25 1 p75 1  rebuild delay med 2.0 p25 0 p75 7
+        {'type M L1': 220, 'rebuilt as M': 205, 'rebuilt as never': 14, 'rebuilt as D': 15, 'type D L2': 8, 'type D L1': 4, 'type D L3': 2}
+   our churn blockers (tower-rounds): {'drained L1 money tower-rounds': 6688, 'no adjacent ally': 2681, 'enemy in view': 2077, 'other (pattern broken / churned)': 1930}
+== won games: churns per game (us, them): [('2323g0', 2, 0), ('2323g1', 5, 2), ('2323g2', 32, 19), ('2364g2', 5, 0), ('2365g1', 7, 0), ('2365g2', 18, 0), ('2366g1', 8, 0), ('2367g0', 5, 0), ('2367g1', 6, 3), ('2367g2', 20, 1), ('2397g1', 5, 0), ('2397g2', 18, 0), ('2418g1', 9, 11), ('2418g2', 19, 6), ('2439g0', 20, 0), ('2439g2', 11, 0), ('2446g0', 2, 0), ('2446g1', 19, 0), ('2446g2', 5, 0), ('2469g0', 6, 0), ('2469g2', 12, 0), ('2472g1', 2, 0), ('2472g2', 7, 0), ('2476g1', 19, 16), ('2476g2', 23, 10), ('2485g1', 2, 0), ('2485g2', 6, 0), ('2529g0', 8, 0), ('2529g1', 22, 0), ('2565g0', 26, 0), ('2565g2', 6, 0), ('2567g1', 3, 0), ('2599g1', 4, 0), ('2599g2', 0, 0)]
+   total churns us 362  them 68   games with >= 10 churns: us 13  them 4
+   us: paint at last turn med 0.0 p25 0 p75 0  chips med 2360.0 p25 1992 p75 3351  enemy robots d2<=20 med 0.0 p25 0 p75 0  own robots adjacent med 1.0 p25 1 p75 1  rebuild delay med 1.0 p25 0 p75 1
+        {'type M L1': 362, 'rebuilt as M': 360, 'rebuilt as never': 2}
+   them: paint at last turn med 24.0 p25 0 p75 59  chips med 2440.0 p25 2210 p75 2750  enemy robots d2<=20 med 0.0 p25 0 p75 0  own robots adjacent med 0.0 p25 0 p75 1  rebuild delay med 1.0 p25 1 p75 6
+        {'type M L1': 68, 'rebuilt as M': 63, 'rebuilt as never': 5}
+   our churn blockers (tower-rounds): {'drained L1 money tower-rounds': 9805, 'no adjacent ally': 5681, 'enemy in view': 1137, 'other (pattern broken / churned)': 2987}

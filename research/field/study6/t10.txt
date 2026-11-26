@@ -1,0 +1,374 @@
+== m2344 g0 varunvejalla Bunny end r291
+  US builds by r50/100/150/200: 1/3/5/6 total 6 types {'M': 6}
+     killed by enemy: 7 at [(67, 'M'), (92, 'P'), (94, 'M'), (103, 'M'), (115, 'M'), (200, 'M'), (223, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 154/1417  e.g. (id type round x y paint) [(12465, 'SOL', 45, 30, 27, 44), (10137, 'SOL', 122, 37, 13, 5), (12325, 'SOL', 30, 40, 18, 51), (13855, 'SOL', 47, 32, 27, 98), (13045, 'SOL', 73, 28, 7, 45)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:4/0/0 101-150:0/0/0 151-200:1/0/1 201-300:1/0/1
+     ruins marked 6, never built 5: [((31, 26), 20), ((26, 6), 48), ((18, 26), 52), ((38, 13), 100), ((11, 6), 129)]
+  TH builds by r50/100/150/200: 2/4/6/9 total 17 types {'M': 17}
+     killed by enemy: 4 at [(68, 'M'), (87, 'M'), (98, 'M'), (167, 'M')]
+     vanished w/o enemy damage (disintegrate): 4 at [(238, 'M'), (250, 'M'), (277, 'M'), (279, 'M')]
+     stuck robot-turns (25 turns within 5x5): 302/4131  e.g. (id type round x y paint) [(10704, 'SOL', 55, 33, 18, 196), (13870, 'SOL', 30, 5, 18, 199), (10568, 'MOP', 163, 23, 25, 65), (11221, 'SOL', 105, 33, 18, 23), (13886, 'MOP', 100, 9, 15, 97)]
+     spawns S/X/M by phase: 1-50:6/0/1 51-100:3/0/1 101-150:3/0/3 151-200:8/0/1 201-300:9/6/5
+     ruins marked 5, never built 0: []
+== m2344 g1 varunvejalla CastleDefense end r172
+  US builds by r50/100/150/200: 2/3/3/3 total 3 types {'M': 3}
+     killed by enemy: 5 at [(41, 'P'), (75, 'M'), (75, 'M'), (125, 'M'), (172, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 40/544  e.g. (id type round x y paint) [(11230, 'SOL', 33, 12, 10, 68), (10789, 'SOL', 40, 3, 16, 198), (11430, 'SOL', 116, 3, 15, 72)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:3/0/0 101-150:0/0/0 151-200:0/0/0
+     ruins marked 3, never built 1: [((12, 9), 8)]
+  TH builds by r50/100/150/200: 3/5/7/9 total 9 types {'M': 9}
+     killed by enemy: 4 at [(32, 'M'), (52, 'P'), (57, 'M'), (67, 'M')]
+     vanished w/o enemy damage (disintegrate): 3 at [(140, 'M'), (153, 'M'), (167, 'M')]
+     stuck robot-turns (25 turns within 5x5): 108/978  e.g. (id type round x y paint) [(13920, 'SOL', 34, 17, 3, 41), (12895, 'SOL', 54, 10, 11, 195), (10149, 'MOP', 107, 8, 13, 99), (13605, 'MOP', 117, 14, 4, 56), (11705, 'MOP', 123, 3, 13, 97)]
+     spawns S/X/M by phase: 1-50:5/0/0 51-100:2/0/3 101-150:4/0/0 151-200:4/0/0
+     ruins marked 3, never built 0: []
+== m2344 g2 varunvejalla quack end r362
+  US builds by r50/100/150/200: 2/4/7/9 total 14 types {'M': 14}
+     killed by enemy: 15 at [(29, 'M'), (52, 'M'), (132, 'M'), (133, 'M'), (145, 'M'), (159, 'M'), (215, 'M'), (232, 'P'), (232, 'M'), (236, 'M'), (245, 'M'), (247, 'M'), (298, 'M'), (318, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 213/1650  e.g. (id type round x y paint) [(10021, 'SOL', 63, 4, 10, 42), (13325, 'SOL', 47, 25, 23, 40), (11585, 'SOL', 67, 24, 4, 42), (13633, 'SOL', 72, 3, 6, 32), (12705, 'SOL', 205, 25, 3, 16)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:0/0/0 101-150:4/0/0 151-200:1/1/1 201-300:2/0/1 301-999:1/0/1
+     ruins marked 7, never built 0: []
+  TH builds by r50/100/150/200: 2/6/7/11 total 23 types {'M': 23}
+     killed by enemy: 7 at [(50, 'M'), (128, 'M'), (177, 'M'), (212, 'M'), (231, 'M'), (265, 'M'), (355, 'M')]
+     vanished w/o enemy damage (disintegrate): 9 at [(156, 'M'), (168, 'M'), (182, 'M'), (250, 'M'), (264, 'M'), (309, 'M'), (324, 'M'), (325, 'M'), (356, 'M')]
+     stuck robot-turns (25 turns within 5x5): 956/7122  e.g. (id type round x y paint) [(11604, 'SOL', 29, 4, 29, 199), (12344, 'SOL', 79, 18, 8, 199), (10562, 'MOP', 114, 21, 17, 41), (11944, 'SOL', 77, 12, 21, 185), (10305, 'SOL', 95, 19, 9, 198)]
+     spawns S/X/M by phase: 1-50:9/0/2 51-100:0/0/0 101-150:10/0/4 151-200:10/0/2 201-300:6/4/8 301-999:3/5/5
+     ruins marked 4, never built 0: []
+== m2364 g0 angtn DefaultSmall end r264
+  US builds by r50/100/150/200: 2/2/2/2 total 2 types {'M': 2}
+     killed by enemy: 2 at [(47, 'M'), (247, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 70/955  e.g. (id type round x y paint) [(13782, 'SOL', 28, 14, 13, 69), (12449, 'SOL', 34, 18, 13, 199), (13640, 'SOL', 34, 3, 12, 54), (13054, 'SOL', 48, 19, 8, 48), (10988, 'MOP', 106, 14, 13, 53)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:1/0/1 101-150:1/0/0 151-200:0/0/0 201-300:1/2/0
+     ruins marked 6, never built 4: [((12, 12), 3), ((2, 12), 9), ((7, 7), 10), ((9, 17), 47)]
+  TH builds by r50/100/150/200: 1/2/3/5 total 8 types {'M': 6, 'D': 1, 'P': 1}
+     killed by enemy: 4 at [(75, 'M'), (94, 'M'), (98, 'P'), (126, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 402/2539  e.g. (id type round x y paint) [(11577, 'SOL', 203, 11, 8, 110), (12772, 'SOL', 237, 10, 11, 135), (11897, 'SOL', 140, 4, 2, 144), (12049, 'SOL', 78, 9, 9, 115), (12788, 'SOL', 62, 10, 6, 132)]
+     spawns S/X/M by phase: 1-50:7/1/0 51-100:0/0/2 101-150:0/1/1 151-200:0/1/0 201-300:0/1/2
+     ruins marked 7, never built 1: [((12, 12), 182)]
+== m2364 g1 angtn Fossil end r395
+  US builds by r50/100/150/200: 3/5/7/10 total 10 types {'M': 10}
+     killed by enemy: 1 at [(358, 'M')]
+     vanished w/o enemy damage (disintegrate): 5 at [(116, 'M'), (119, 'M'), (159, 'M'), (166, 'M'), (199, 'M')]
+     stuck robot-turns (25 turns within 5x5): 240/2845  e.g. (id type round x y paint) [(10018, 'SOL', 81, 13, 22, 60), (12692, 'SOL', 29, 7, 28, 54), (12620, 'SOL', 48, 20, 24, 63), (12899, 'SOL', 58, 7, 26, 173), (11082, 'SOL', 104, 19, 18, 81)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:5/0/3 101-150:2/1/2 151-200:3/1/2 201-300:2/3/2 301-999:2/3/1
+     ruins marked 7, never built 2: [((11, 21), 56), ((17, 19), 79)]
+  TH builds by r50/100/150/200: 3/4/5/7 total 12 types {'M': 8, 'P': 3, 'D': 1}
+     killed by enemy: 7 at [(60, 'P'), (85, 'M'), (91, 'M'), (103, 'M'), (138, 'P'), (192, 'M'), (198, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 284/5155  e.g. (id type round x y paint) [(10010, 'SOL', 201, 11, 20, 46), (13060, 'SOL', 43, 11, 7, 32), (13744, 'SOL', 121, 16, 10, 53), (12184, 'SPL', 164, 18, 27, 6), (10402, 'SPL', 163, 10, 21, 119)]
+     spawns S/X/M by phase: 1-50:4/3/0 51-100:0/4/3 101-150:0/0/1 151-200:0/1/0 201-300:0/1/2 301-999:1/4/8
+     ruins marked 6, never built 0: []
+== m2365 g0 ryanaspen PlumberGame end r675
+  US builds by r50/100/150/200: 2/8/11/14 total 15 types {'M': 15}
+     killed by enemy: 10 at [(141, 'M'), (175, 'M'), (244, 'M'), (293, 'M'), (430, 'M'), (477, 'M'), (483, 'M'), (512, 'M'), (605, 'M'), (646, 'M')]
+     vanished w/o enemy damage (disintegrate): 4 at [(118, 'M'), (177, 'M'), (190, 'M'), (197, 'M')]
+     stuck robot-turns (25 turns within 5x5): 2327/10735  e.g. (id type round x y paint) [(12356, 'SOL', 177, 3, 5, 22), (13156, 'SOL', 30, 11, 15, 43), (11063, 'SOL', 47, 10, 15, 26), (10953, 'SOL', 69, 27, 18, 28), (11336, 'SOL', 47, 9, 14, 130)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:1/0/0 101-150:9/2/4 151-200:4/1/4 201-300:4/6/2 301-999:19/28/10
+     ruins marked 11, never built 2: [((26, 6), 67), ((39, 4), 152)]
+  TH builds by r50/100/150/200: 3/4/7/9 total 27 types {'M': 9, 'P': 17, 'D': 1}
+     killed by enemy: 11 at [(107, 'M'), (142, 'P'), (143, 'M'), (166, 'P'), (300, 'P'), (329, 'P'), (369, 'M'), (404, 'M'), (427, 'P'), (497, 'P'), (556, 'P')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 1341/17638  e.g. (id type round x y paint) [(13383, 'SOL', 109, 40, 23, 5), (11353, 'SOL', 124, 27, 10, 2), (10939, 'SOL', 147, 23, 10, 0), (13964, 'SOL', 89, 31, 17, 1), (12174, 'MOP', 121, 46, 27, 34)]
+     spawns S/X/M by phase: 1-50:4/0/2 51-100:6/0/3 101-150:2/1/3 151-200:2/1/6 201-300:7/2/9 301-999:48/14/55
+     ruins marked 17, never built 1: [((10, 14), 605)]
+== m2366 g0 geesegeesego Portal end r384
+  US builds by r50/100/150/200: 2/3/7/12 total 22 types {'M': 20, 'P': 2}
+     killed by enemy: 8 at [(139, 'M'), (161, 'M'), (249, 'M'), (271, 'M'), (323, 'M'), (325, 'M'), (350, 'P'), (367, 'M')]
+     vanished w/o enemy damage (disintegrate): 9 at [(131, 'M'), (166, 'M'), (172, 'M'), (194, 'M'), (209, 'M'), (215, 'M'), (300, 'M'), (325, 'M'), (326, 'M')]
+     stuck robot-turns (25 turns within 5x5): 297/5100  e.g. (id type round x y paint) [(13859, 'SOL', 42, 18, 13, 54), (11337, 'SOL', 81, 27, 27, 69), (13495, 'SOL', 158, 7, 5, 8), (12518, 'SOL', 71, 19, 12, 177), (13260, 'SOL', 85, 21, 12, 83)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:4/0/1 101-150:3/1/3 151-200:5/1/4 201-300:7/3/5 301-999:7/2/3
+     ruins marked 15, never built 4: [((20, 12), 17), ((14, 12), 226), ((20, 22), 226), ((10, 30), 372)]
+  TH builds by r50/100/150/200: 3/5/5/6 total 15 types {'M': 9, 'P': 6}
+     killed by enemy: 4 at [(62, 'M'), (149, 'M'), (319, 'M'), (373, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 550/7787  e.g. (id type round x y paint) [(13184, 'SOL', 82, 31, 32, 52), (10944, 'SOL', 32, 18, 1, 199), (11291, 'MOP', 78, 24, 9, 45), (10051, 'MOP', 79, 27, 26, 98), (10049, 'MOP', 86, 22, 12, 96)]
+     spawns S/X/M by phase: 1-50:5/0/2 51-100:0/0/8 101-150:0/3/5 151-200:1/1/2 201-300:9/2/10 301-999:12/16/14
+     ruins marked 0, never built 0: []
+== m2366 g2 geesegeesego yearofthesnake end r846
+  US builds by r50/100/150/200: 2/6/9/14 total 72 types {'M': 70, 'P': 2}
+     killed by enemy: 12 at [(125, 'M'), (172, 'M'), (311, 'M'), (331, 'M'), (457, 'M'), (544, 'M'), (555, 'M'), (586, 'M'), (712, 'M'), (776, 'M'), (796, 'M'), (821, 'M')]
+     vanished w/o enemy damage (disintegrate): 54 at [(117, 'M'), (156, 'M'), (156, 'M'), (192, 'M'), (203, 'M'), (215, 'M'), (226, 'M'), (249, 'M'), (258, 'M'), (273, 'M'), (308, 'M'), (310, 'M'), (319, 'M'), (323, 'M')]
+     stuck robot-turns (25 turns within 5x5): 2531/34670  e.g. (id type round x y paint) [(13504, 'SOL', 31, 10, 36, 51), (11228, 'SOL', 28, 17, 13, 52), (13889, 'SOL', 32, 10, 43, 51), (10305, 'SOL', 69, 3, 13, 28), (13521, 'SOL', 137, 0, 26, 10)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:5/0/2 101-150:5/1/4 151-200:5/2/4 201-300:11/10/6 301-999:87/70/47
+     ruins marked 9, never built 1: [((13, 9), 823)]
+  TH builds by r50/100/150/200: 2/5/7/10 total 25 types {'M': 21, 'P': 4}
+     killed by enemy: 17 at [(66, 'M'), (193, 'M'), (244, 'M'), (256, 'M'), (352, 'M'), (453, 'M'), (468, 'M'), (484, 'M'), (522, 'M'), (598, 'P'), (617, 'M'), (628, 'M'), (633, 'M'), (677, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 1838/32509  e.g. (id type round x y paint) [(10798, 'SOL', 33, 34, 1, 64), (12651, 'SOL', 32, 32, 39, 70), (10202, 'SOL', 425, 15, 22, 0), (11245, 'MOP', 86, 20, 39, 66), (13596, 'MOP', 172, 20, 31, 0)]
+     spawns S/X/M by phase: 1-50:6/0/4 51-100:2/0/0 101-150:7/0/1 151-200:7/1/2 201-300:18/11/10 301-999:64/83/93
+     ruins marked 0, never built 0: []
+== m2397 g0 ryanaspen Fossil end r623
+  US builds by r50/100/150/200: 3/6/9/15 total 29 types {'M': 28, 'P': 1}
+     killed by enemy: 3 at [(491, 'M'), (512, 'P'), (569, 'M')]
+     vanished w/o enemy damage (disintegrate): 23 at [(121, 'M'), (127, 'M'), (148, 'M'), (151, 'M'), (162, 'M'), (164, 'M'), (175, 'M'), (188, 'M'), (198, 'M'), (211, 'M'), (224, 'M'), (228, 'M'), (236, 'M'), (258, 'M')]
+     stuck robot-turns (25 turns within 5x5): 1995/8694  e.g. (id type round x y paint) [(13872, 'SOL', 29, 6, 21, 199), (10018, 'SOL', 173, 25, 7, 46), (12692, 'SOL', 29, 7, 28, 54), (13618, 'SOL', 56, 25, 7, 7), (10928, 'SOL', 42, 11, 22, 53)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:5/0/3 101-150:2/2/1 151-200:7/1/7 201-300:8/0/7 301-999:7/5/5
+     ruins marked 8, never built 1: [((26, 7), 31)]
+  TH builds by r50/100/150/200: 3/6/9/13 total 30 types {'M': 18, 'P': 12}
+     killed by enemy: 21 at [(93, 'P'), (108, 'M'), (115, 'M'), (129, 'M'), (153, 'P'), (174, 'P'), (177, 'M'), (188, 'P'), (220, 'P'), (220, 'M'), (234, 'M'), (250, 'M'), (257, 'M'), (285, 'P')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 944/8950  e.g. (id type round x y paint) [(10010, 'SOL', 79, 19, 19, 4), (10922, 'SOL', 96, 12, 16, 16), (13060, 'SOL', 30, 5, 2, 45), (11549, 'MOP', 110, 18, 13, 97), (12225, 'MOP', 57, 27, 8, 19)]
+     spawns S/X/M by phase: 1-50:4/0/2 51-100:2/0/2 101-150:2/0/5 151-200:1/0/1 201-300:2/1/4 301-999:21/5/26
+     ruins marked 11, never built 2: [((4, 22), 469), ((19, 24), 579)]
+== m2418 g0 the-kragle Mirage end r335
+  US builds by r50/100/150/200: 1/2/4/6 total 9 types {'M': 7, 'P': 2}
+     killed by enemy: 8 at [(18, 'M'), (152, 'M'), (223, 'M'), (261, 'P'), (261, 'M'), (279, 'M'), (297, 'M'), (333, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 622/2317  e.g. (id type round x y paint) [(11059, 'SOL', 44, 33, 35, 40), (12391, 'SOL', 29, 30, 13, 52), (12948, 'SOL', 28, 19, 37, 37), (11755, 'SOL', 52, 29, 4, 53), (10306, 'SOL', 57, 26, 14, 46)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:0/0/0 101-150:0/0/1 151-200:3/0/0 201-300:6/3/4 301-999:0/2/0
+     ruins marked 10, never built 5: [((30, 12), 4), ((17, 36), 18), ((25, 13), 32), ((22, 3), 199), ((26, 24), 200)]
+  TH builds by r50/100/150/200: 3/4/11/18 total 47 types {'M': 47}
+     killed by enemy: 7 at [(260, 'M'), (277, 'M'), (279, 'M'), (290, 'M'), (296, 'M'), (307, 'M'), (322, 'M')]
+     vanished w/o enemy damage (disintegrate): 24 at [(108, 'M'), (147, 'M'), (148, 'M'), (167, 'M'), (175, 'M'), (176, 'M'), (196, 'M'), (197, 'M'), (197, 'M'), (198, 'M'), (230, 'M'), (234, 'M'), (234, 'M'), (253, 'M')]
+     stuck robot-turns (25 turns within 5x5): 646/7125  e.g. (id type round x y paint) [(10220, 'SOL', 61, 22, 37, 70), (12669, 'SOL', 94, 26, 13, 26), (13405, 'SOL', 59, 20, 37, 5), (12826, 'SOL', 43, 7, 6, 187), (12293, 'SOL', 81, 3, 24, 14)]
+     spawns S/X/M by phase: 1-50:5/0/0 51-100:2/1/3 101-150:5/1/4 151-200:2/1/12 201-300:22/4/14 301-999:12/1/13
+     ruins marked 0, never built 0: []
+== m2439 g1 botpocalypse DefaultSmall end r121
+  US builds by r50/100/150/200: 0/0/0/0 total 0 types {}
+     killed by enemy: 2 at [(109, 'M'), (111, 'P')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 85/577  e.g. (id type round x y paint) [(11577, 'SOL', 28, 7, 6, 66), (11897, 'SOL', 81, 10, 4, 0), (12049, 'SOL', 30, 11, 7, 63), (13054, 'SOL', 37, 2, 8, 89), (11399, 'SOL', 56, 7, 6, 180)]
+     spawns S/X/M by phase: 1-50:6/0/0 51-100:1/1/0 101-150:0/0/0
+     ruins marked 4, never built 4: [((7, 7), 3), ((12, 7), 5), ((12, 12), 10), ((2, 7), 12)]
+  TH builds by r50/100/150/200: 2/3/4/4 total 4 types {'M': 3, 'P': 1}
+     killed by enemy: 2 at [(63, 'M'), (88, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 40/762  e.g. (id type round x y paint) [(13782, 'SOL', 36, 18, 12, 38), (13640, 'SOL', 37, 17, 9, 31), (10741, 'MOP', 85, 12, 14, 34)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:2/0/3 101-150:1/0/0
+     ruins marked 10, never built 7: [((7, 12), 5), ((12, 12), 7), ((2, 7), 19), ((2, 12), 29), ((7, 7), 43), ((12, 7), 44), ((5, 2), 113)]
+== m2469 g1 geesegeesego Racetrack end r1024
+  US builds by r50/100/150/200: 3/6/8/11 total 22 types {'M': 22}
+     killed by enemy: 15 at [(164, 'M'), (188, 'M'), (233, 'M'), (266, 'M'), (267, 'M'), (307, 'M'), (328, 'M'), (380, 'M'), (461, 'M'), (831, 'M'), (955, 'M'), (967, 'M'), (994, 'P'), (1003, 'M')]
+     vanished w/o enemy damage (disintegrate): 8 at [(99, 'M'), (117, 'M'), (137, 'M'), (163, 'M'), (212, 'M'), (342, 'M'), (347, 'M'), (387, 'M')]
+     stuck robot-turns (25 turns within 5x5): 1200/9343  e.g. (id type round x y paint) [(13956, 'SOL', 54, 7, 20, 83), (10914, 'SOL', 49, 2, 22, 198), (11353, 'SOL', 45, 6, 20, 27), (11979, 'SOL', 59, 22, 11, 46), (13017, 'SOL', 166, 11, 16, 186)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:4/1/2 101-150:3/1/3 151-200:3/1/3 201-300:5/4/3 301-999:27/29/17
+     ruins marked 7, never built 2: [((22, 3), 612), ((22, 20), 1013)]
+  TH builds by r50/100/150/200: 3/5/7/9 total 22 types {'M': 17, 'P': 5}
+     killed by enemy: 16 at [(75, 'M'), (127, 'M'), (143, 'M'), (146, 'P'), (155, 'M'), (230, 'M'), (233, 'P'), (278, 'M'), (305, 'M'), (332, 'M'), (407, 'M'), (447, 'M'), (616, 'M'), (747, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 1898/15567  e.g. (id type round x y paint) [(11849, 'SOL', 62, 21, 3, 77), (10140, 'SOL', 118, 6, 9, 184), (13337, 'SOL', 61, 2, 13, 17), (12039, 'SOL', 117, 8, 6, 184), (13515, 'SOL', 86, 2, 13, 190)]
+     spawns S/X/M by phase: 1-50:4/0/0 51-100:2/0/8 101-150:6/1/5 151-200:0/0/5 201-300:5/4/7 301-999:20/16/35
+     ruins marked 0, never built 0: []
+== m2471 g0 varunvejalla Barcode end r348
+  US builds by r50/100/150/200: 1/1/3/4 total 4 types {'M': 4}
+     killed by enemy: 3 at [(133, 'M'), (182, 'M'), (227, 'M')]
+     vanished w/o enemy damage (disintegrate): 2 at [(126, 'M'), (133, 'M')]
+     stuck robot-turns (25 turns within 5x5): 71/2251  e.g. (id type round x y paint) [(13060, 'SOL', 158, 34, 12, 0), (10730, 'MOP', 122, 37, 10, 37), (12393, 'MOP', 174, 35, 6, 70), (11976, 'MOP', 272, 38, 16, 48)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:1/0/1 101-150:3/0/1 151-200:1/1/1 201-300:0/0/0 301-999:0/0/0
+     ruins marked 2, never built 1: [((34, 7), 311)]
+  TH builds by r50/100/150/200: 1/2/3/7 total 21 types {'M': 21}
+     killed by enemy: 4 at [(149, 'M'), (175, 'M'), (199, 'M'), (227, 'M')]
+     vanished w/o enemy damage (disintegrate): 5 at [(122, 'M'), (320, 'M'), (326, 'M'), (333, 'M'), (334, 'M')]
+     stuck robot-turns (25 turns within 5x5): 411/5897  e.g. (id type round x y paint) [(13872, 'SOL', 78, 27, 15, 1), (13303, 'MOP', 133, 14, 10, 80), (12899, 'MOP', 115, 13, 16, 82), (11900, 'MOP', 174, 37, 9, 47), (11082, 'SOL', 281, 40, 3, 100)]
+     spawns S/X/M by phase: 1-50:5/0/2 51-100:7/0/1 101-150:5/0/0 151-200:5/0/3 201-300:4/5/10 301-999:5/6/5
+     ruins marked 5, never built 0: []
+== m2471 g1 varunvejalla CastleDefense end r172
+  US builds by r50/100/150/200: 2/3/3/3 total 3 types {'M': 3}
+     killed by enemy: 5 at [(41, 'P'), (75, 'M'), (75, 'M'), (125, 'M'), (172, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 40/544  e.g. (id type round x y paint) [(11230, 'SOL', 33, 12, 10, 68), (10789, 'SOL', 40, 3, 16, 198), (11430, 'SOL', 116, 3, 15, 72)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:3/0/0 101-150:0/0/0 151-200:0/0/0
+     ruins marked 3, never built 1: [((12, 9), 8)]
+  TH builds by r50/100/150/200: 3/5/7/9 total 9 types {'M': 9}
+     killed by enemy: 4 at [(32, 'M'), (52, 'P'), (57, 'M'), (67, 'M')]
+     vanished w/o enemy damage (disintegrate): 3 at [(140, 'M'), (153, 'M'), (167, 'M')]
+     stuck robot-turns (25 turns within 5x5): 108/978  e.g. (id type round x y paint) [(13920, 'SOL', 34, 17, 3, 41), (12895, 'SOL', 54, 10, 11, 195), (10149, 'MOP', 107, 8, 13, 99), (13605, 'MOP', 117, 14, 4, 56), (11705, 'MOP', 123, 3, 13, 97)]
+     spawns S/X/M by phase: 1-50:5/0/0 51-100:2/0/3 101-150:4/0/0 151-200:4/0/0
+     ruins marked 3, never built 0: []
+== m2471 g2 varunvejalla Restart end r458
+  US builds by r50/100/150/200: 2/6/9/12 total 22 types {'M': 20, 'P': 2}
+     killed by enemy: 16 at [(64, 'M'), (83, 'M'), (98, 'P'), (99, 'M'), (105, 'M'), (111, 'M'), (155, 'M'), (176, 'M'), (195, 'M'), (214, 'M'), (230, 'P'), (276, 'M'), (284, 'M'), (415, 'P')]
+     vanished w/o enemy damage (disintegrate): 5 at [(185, 'M'), (279, 'M'), (316, 'M'), (350, 'M'), (424, 'M')]
+     stuck robot-turns (25 turns within 5x5): 232/3769  e.g. (id type round x y paint) [(12265, 'SOL', 41, 31, 29, 43), (14048, 'SOL', 50, 32, 32, 76), (11115, 'SOL', 32, 29, 16, 49), (10568, 'SOL', 94, 25, 45, 187), (12258, 'SOL', 203, 45, 23, 22)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:2/0/0 101-150:1/0/2 151-200:4/0/3 201-300:4/0/4 301-999:4/2/4
+     ruins marked 10, never built 2: [((31, 30), 17), ((45, 51), 183)]
+  TH builds by r50/100/150/200: 3/6/10/17 total 59 types {'M': 56, 'D': 3}
+     killed by enemy: 8 at [(138, 'M'), (171, 'M'), (208, 'M'), (221, 'M'), (246, 'M'), (314, 'M'), (338, 'M'), (368, 'M')]
+     vanished w/o enemy damage (disintegrate): 34 at [(151, 'M'), (159, 'M'), (169, 'M'), (173, 'M'), (193, 'M'), (239, 'M'), (257, 'M'), (262, 'M'), (269, 'M'), (282, 'M'), (291, 'M'), (306, 'M'), (312, 'M'), (319, 'M')]
+     stuck robot-turns (25 turns within 5x5): 1205/15419  e.g. (id type round x y paint) [(13322, 'SOL', 29, 19, 28, 199), (11713, 'MOP', 152, 27, 29, 92), (13298, 'SOL', 121, 32, 24, 22), (11330, 'MOP', 187, 34, 24, 45), (13884, 'MOP', 142, 16, 42, 14)]
+     spawns S/X/M by phase: 1-50:5/0/0 51-100:10/0/3 101-150:8/0/2 151-200:13/0/1 201-300:11/7/19 301-999:25/12/29
+     ruins marked 9, never built 0: []
+== m2472 g0 podemice Barcode end r350
+  US builds by r50/100/150/200: 1/2/4/4 total 4 types {'M': 4}
+     killed by enemy: 1 at [(69, 'M')]
+     vanished w/o enemy damage (disintegrate): 2 at [(128, 'M'), (143, 'M')]
+     stuck robot-turns (25 turns within 5x5): 149/2369  e.g. (id type round x y paint) [(12899, 'SOL', 70, 22, 17, 42), (11721, 'SOL', 333, 45, 10, 17), (10561, 'SOL', 184, 46, 11, 34), (13333, 'MOP', 113, 34, 4, 66), (13619, 'SOL', 224, 46, 12, 34)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:3/0/1 101-150:2/0/1 151-200:0/0/0 201-300:1/2/1 301-999:1/2/0
+     ruins marked 6, never built 4: [((22, 2), 43), ((22, 18), 45), ((34, 2), 176), ((34, 7), 231)]
+  TH builds by r50/100/150/200: 0/2/3/7 total 15 types {'M': 9, 'D': 1, 'P': 5}
+     killed by enemy: 3 at [(75, 'M'), (186, 'M'), (194, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 346/5519  e.g. (id type round x y paint) [(13872, 'SOL', 77, 14, 6, 77), (10018, 'SOL', 39, 14, 11, 84), (12692, 'MOP', 148, 14, 18, 38), (13618, 'MOP', 42, 14, 11, 76), (11549, 'SOL', 46, 16, 2, 68)]
+     spawns S/X/M by phase: 1-50:6/0/2 51-100:2/0/1 101-150:3/0/1 151-200:2/0/0 201-300:10/2/11 301-999:6/4/3
+     ruins marked 17, never built 4: [((27, 7), 264), ((34, 2), 310), ((34, 18), 333), ((34, 7), 342)]
+== m2476 g0 the-kragle Brat end r318
+  US builds by r50/100/150/200: 1/1/1/1 total 1 types {'M': 1}
+     killed by enemy: 3 at [(158, 'M'), (288, 'P'), (297, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 60/1291  e.g. (id type round x y paint) [(11083, 'SOL', 56, 3, 25, 18), (13214, 'SOL', 56, 4, 4, 50), (11608, 'SOL', 64, 25, 4, 51), (14005, 'SOL', 141, 3, 4, 133), (10751, 'MOP', 108, 8, 5, 85)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:1/0/1 101-150:0/1/0 151-200:1/1/0 201-300:2/2/1 301-999:0/0/0
+     ruins marked 5, never built 4: [((2, 24), 31), ((2, 4), 31), ((26, 4), 39), ((8, 2), 161)]
+  TH builds by r50/100/150/200: 1/4/7/11 total 25 types {'M': 25}
+     killed by enemy: 4 at [(56, 'P'), (88, 'M'), (151, 'M'), (259, 'M')]
+     vanished w/o enemy damage (disintegrate): 13 at [(52, 'M'), (151, 'M'), (191, 'M'), (223, 'M'), (233, 'M'), (240, 'M'), (242, 'M'), (242, 'M'), (281, 'M'), (282, 'M'), (289, 'M'), (308, 'M'), (318, 'M')]
+     stuck robot-turns (25 turns within 5x5): 407/3950  e.g. (id type round x y paint) [(11628, 'SOL', 48, 27, 24, 25), (13920, 'SOL', 44, 19, 5, 89), (12984, 'SOL', 249, 25, 14, 199), (12512, 'SOL', 91, 19, 15, 67), (12619, 'MOP', 92, 1, 24, 36)]
+     spawns S/X/M by phase: 1-50:5/0/1 51-100:1/0/5 101-150:1/0/4 151-200:0/1/9 201-300:9/3/14 301-999:0/1/0
+     ruins marked 0, never built 0: []
+== m2485 g0 podemice Fossil end r926
+  US builds by r50/100/150/200: 3/6/10/15 total 18 types {'M': 17, 'P': 1}
+     killed by enemy: 5 at [(260, 'M'), (715, 'P'), (841, 'M'), (916, 'M'), (925, 'M')]
+     vanished w/o enemy damage (disintegrate): 10 at [(118, 'M'), (120, 'M'), (131, 'M'), (139, 'M'), (154, 'M'), (160, 'M'), (192, 'M'), (199, 'M'), (224, 'M'), (257, 'M')]
+     stuck robot-turns (25 turns within 5x5): 688/7706  e.g. (id type round x y paint) [(13872, 'SOL', 29, 6, 21, 199), (12692, 'SOL', 29, 7, 28, 54), (10928, 'SOL', 42, 11, 22, 53), (12620, 'SOL', 48, 20, 24, 58), (12899, 'SOL', 58, 7, 26, 168)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:4/1/3 101-150:4/1/3 151-200:5/1/3 201-300:5/3/5 301-999:20/30/10
+     ruins marked 8, never built 1: [((17, 10), 41)]
+  TH builds by r50/100/150/200: 2/5/9/10 total 20 types {'M': 14, 'P': 1, 'D': 5}
+     killed by enemy: 11 at [(98, 'M'), (102, 'M'), (137, 'M'), (155, 'M'), (164, 'M'), (187, 'M'), (219, 'M'), (258, 'M'), (291, 'M'), (488, 'D'), (916, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 517/11172  e.g. (id type round x y paint) [(10010, 'SOL', 143, 15, 9, 13), (10922, 'SOL', 48, 20, 5, 13), (13744, 'MOP', 82, 18, 8, 11), (11549, 'SOL', 32, 7, 0, 84), (12225, 'SOL', 36, 25, 7, 79)]
+     spawns S/X/M by phase: 1-50:5/0/2 51-100:5/0/3 101-150:0/0/2 151-200:3/0/5 201-300:5/4/3 301-999:19/17/19
+     ruins marked 11, never built 1: [((26, 22), 918)]
+== m2508 g0 varunvejalla Leaf end r377
+  US builds by r50/100/150/200: 3/9/17/19 total 35 types {'M': 32, 'P': 3}
+     killed by enemy: 11 at [(91, 'M'), (109, 'M'), (124, 'M'), (137, 'M'), (139, 'M'), (182, 'M'), (185, 'M'), (202, 'M'), (277, 'M'), (350, 'P'), (354, 'M')]
+     vanished w/o enemy damage (disintegrate): 13 at [(184, 'M'), (198, 'M'), (215, 'M'), (224, 'M'), (242, 'M'), (261, 'M'), (261, 'M'), (268, 'M'), (270, 'M'), (272, 'M'), (309, 'M'), (313, 'M'), (316, 'M')]
+     stuck robot-turns (25 turns within 5x5): 325/7321  e.g. (id type round x y paint) [(12362, 'SOL', 109, 13, 35, 36), (14075, 'SOL', 58, 5, 23, 35), (12870, 'SOL', 32, 5, 13, 52), (13014, 'SOL', 50, 22, 16, 198), (13849, 'SOL', 48, 14, 20, 50)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:0/0/0 101-150:3/2/2 151-200:10/3/7 201-300:14/6/9 301-999:12/8/7
+     ruins marked 17, never built 3: [((32, 21), 73), ((8, 41), 155), ((36, 15), 247)]
+  TH builds by r50/100/150/200: 3/9/16/28 total 102 types {'M': 102}
+     killed by enemy: 10 at [(115, 'M'), (126, 'M'), (191, 'M'), (219, 'M'), (221, 'M'), (234, 'M'), (256, 'M'), (285, 'M'), (291, 'M'), (329, 'M')]
+     vanished w/o enemy damage (disintegrate): 69 at [(181, 'M'), (196, 'M'), (199, 'M'), (211, 'M'), (214, 'M'), (218, 'M'), (225, 'M'), (233, 'M'), (233, 'M'), (234, 'M'), (250, 'M'), (255, 'M'), (259, 'M'), (263, 'M')]
+     stuck robot-turns (25 turns within 5x5): 919/18939  e.g. (id type round x y paint) [(14005, 'SOL', 197, 18, 54, 37), (10913, 'SOL', 138, 18, 39, 24), (11152, 'SOL', 32, 53, 14, 199), (12429, 'SOL', 127, 24, 32, 54), (12309, 'MOP', 145, 34, 20, 90)]
+     spawns S/X/M by phase: 1-50:6/0/0 51-100:5/0/1 101-150:12/0/8 151-200:13/6/7 201-300:19/16/28 301-999:31/31/48
+     ruins marked 25, never built 1: [((56, 38), 360)]
+== m2508 g1 varunvejalla TargetPractice end r759
+  US builds by r50/100/150/200: 2/3/5/7 total 38 types {'M': 38}
+     killed by enemy: 9 at [(100, 'M'), (160, 'M'), (217, 'M'), (263, 'M'), (312, 'M'), (366, 'M'), (457, 'M'), (458, 'M'), (470, 'P')]
+     vanished w/o enemy damage (disintegrate): 25 at [(105, 'M'), (133, 'M'), (179, 'M'), (219, 'M'), (241, 'M'), (252, 'M'), (328, 'M'), (342, 'M'), (363, 'M'), (398, 'M'), (406, 'M'), (435, 'M'), (465, 'M'), (465, 'M')]
+     stuck robot-turns (25 turns within 5x5): 424/10499  e.g. (id type round x y paint) [(10626, 'SOL', 179, 10, 21, 74), (12551, 'SOL', 35, 26, 14, 45), (11323, 'SOL', 184, 19, 6, 143), (12074, 'SOL', 41, 11, 20, 47), (12453, 'SOL', 140, 10, 21, 93)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:1/1/2 101-150:4/0/1 151-200:1/0/1 201-300:5/1/5 301-999:20/2/15
+     ruins marked 8, never built 2: [((9, 21), 16), ((22, 27), 599)]
+  TH builds by r50/100/150/200: 0/1/2/5 total 38 types {'M': 24, 'D': 14}
+     killed by enemy: 8 at [(208, 'M'), (271, 'M'), (297, 'M'), (328, 'M'), (359, 'M'), (373, 'P'), (421, 'M'), (440, 'M')]
+     vanished w/o enemy damage (disintegrate): 24 at [(173, 'M'), (204, 'M'), (242, 'M'), (301, 'M'), (304, 'M'), (371, 'M'), (374, 'M'), (393, 'M'), (460, 'D'), (471, 'D'), (496, 'M'), (508, 'D'), (513, 'D'), (535, 'D')]
+     stuck robot-turns (25 turns within 5x5): 1200/13439  e.g. (id type round x y paint) [(11516, 'SOL', 116, 3, 18, 1), (13357, 'MOP', 117, 11, 7, 67), (12970, 'MOP', 149, 22, 24, 96), (10730, 'MOP', 214, 23, 23, 78), (13426, 'MOP', 200, 7, 23, 63)]
+     spawns S/X/M by phase: 1-50:5/0/1 51-100:4/0/2 101-150:3/0/1 151-200:6/0/2 201-300:10/1/6 301-999:10/18/33
+     ruins marked 3, never built 0: []
+== m2508 g2 varunvejalla Terminal end r454
+  US builds by r50/100/150/200: 2/7/11/14 total 20 types {'M': 20}
+     killed by enemy: 21 at [(55, 'M'), (92, 'M'), (96, 'M'), (109, 'M'), (113, 'M'), (118, 'M'), (128, 'M'), (134, 'M'), (168, 'M'), (169, 'M'), (173, 'M'), (199, 'M'), (213, 'M'), (221, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 161/1750  e.g. (id type round x y paint) [(11724, 'SOL', 49, 18, 5, 43), (13939, 'SOL', 72, 23, 24, 44), (13984, 'SOL', 44, 36, 13, 47), (13287, 'SOL', 138, 35, 14, 164), (11129, 'MOP', 110, 19, 7, 100)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:0/0/1 101-150:0/0/0 151-200:2/0/1 201-300:1/0/0 301-999:2/0/3
+     ruins marked 10, never built 4: [((23, 14), 30), ((12, 5), 56), ((29, 5), 122), ((34, 5), 291)]
+  TH builds by r50/100/150/200: 4/6/7/10 total 28 types {'M': 28}
+     killed by enemy: 3 at [(49, 'M'), (73, 'M'), (175, 'M')]
+     vanished w/o enemy damage (disintegrate): 17 at [(137, 'M'), (153, 'M'), (170, 'M'), (209, 'M'), (226, 'M'), (246, 'M'), (265, 'M'), (281, 'M'), (322, 'M'), (326, 'M'), (370, 'M'), (371, 'M'), (385, 'M'), (426, 'M')]
+     stuck robot-turns (25 turns within 5x5): 617/7835  e.g. (id type round x y paint) [(13560, 'SOL', 33, 16, 23, 41), (11415, 'MOP', 235, 24, 15, 65), (10270, 'MOP', 170, 21, 16, 100), (12839, 'SOL', 327, 12, 17, 193), (10668, 'MOP', 184, 18, 21, 98)]
+     spawns S/X/M by phase: 1-50:5/0/0 51-100:7/0/1 101-150:7/0/1 151-200:7/0/3 201-300:10/2/5 301-999:9/8/11
+     ruins marked 2, never built 0: []
+== m2529 g2 ryanaspen TargetPractice end r895
+  US builds by r50/100/150/200: 2/5/7/12 total 22 types {'M': 22}
+     killed by enemy: 5 at [(153, 'M'), (156, 'M'), (523, 'M'), (652, 'M'), (741, 'M')]
+     vanished w/o enemy damage (disintegrate): 13 at [(118, 'M'), (135, 'M'), (156, 'M'), (190, 'M'), (214, 'M'), (219, 'M'), (232, 'M'), (276, 'M'), (286, 'M'), (288, 'M'), (302, 'M'), (333, 'M'), (335, 'M')]
+     stuck robot-turns (25 turns within 5x5): 741/9691  e.g. (id type round x y paint) [(12551, 'SOL', 35, 26, 14, 45), (11323, 'SOL', 156, 13, 25, 17), (12074, 'SOL', 134, 28, 24, 8), (12453, 'SOL', 120, 22, 10, 88), (13702, 'SOL', 228, 19, 4, 160)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:3/0/3 101-150:4/1/2 151-200:4/1/4 201-300:5/4/4 301-999:19/24/11
+     ruins marked 7, never built 1: [((9, 21), 16)]
+  TH builds by r50/100/150/200: 3/5/8/12 total 28 types {'M': 7, 'P': 21}
+     killed by enemy: 20 at [(67, 'P'), (91, 'M'), (142, 'M'), (150, 'P'), (177, 'P'), (187, 'P'), (214, 'P'), (230, 'P'), (246, 'P'), (251, 'P'), (253, 'M'), (300, 'P'), (310, 'P'), (348, 'P')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 882/17047  e.g. (id type round x y paint) [(11094, 'SOL', 75, 7, 20, 3), (13926, 'SOL', 72, 3, 24, 146), (11516, 'SOL', 83, 8, 11, 148), (10404, 'SOL', 164, 11, 13, 15), (11955, 'MOP', 51, 11, 19, 35)]
+     spawns S/X/M by phase: 1-50:4/0/3 51-100:3/0/2 101-150:1/0/4 151-200:3/0/0 201-300:6/2/6 301-999:36/7/50
+     ruins marked 9, never built 0: []
+== m2565 g1 ryanaspen Justice end r247
+  US builds by r50/100/150/200: 2/4/4/4 total 4 types {'M': 4}
+     killed by enemy: 2 at [(148, 'M'), (205, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 230/1802  e.g. (id type round x y paint) [(13544, 'SOL', 97, 11, 9, 37), (11487, 'SOL', 37, 7, 8, 58), (11584, 'SOL', 81, 18, 18, 53), (12849, 'SOL', 36, 8, 7, 122), (12026, 'SOL', 156, 4, 2, 146)]
+     spawns S/X/M by phase: 1-50:8/0/0 51-100:2/0/1 101-150:1/1/0 151-200:0/1/0 201-300:0/0/0
+     ruins marked 5, never built 1: [((18, 17), 56)]
+  TH builds by r50/100/150/200: 2/5/7/7 total 9 types {'M': 5, 'P': 4}
+     killed by enemy: 4 at [(79, 'M'), (89, 'M'), (99, 'M'), (244, 'P')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 270/2971  e.g. (id type round x y paint) [(12330, 'SOL', 206, 6, 16, 13), (13030, 'SOL', 36, 11, 0, 111), (12468, 'SOL', 165, 8, 9, 27), (11045, 'SOL', 69, 10, 10, 56), (13585, 'MOP', 68, 11, 9, 37)]
+     spawns S/X/M by phase: 1-50:4/0/2 51-100:2/0/2 101-150:1/0/2 151-200:5/1/5 201-300:3/2/3
+     ruins marked 6, never built 1: [((2, 17), 215)]
+== m2567 g0 the-kragle CastleDefense end r257
+  US builds by r50/100/150/200: 1/2/2/2 total 2 types {'M': 2}
+     killed by enemy: 3 at [(73, 'M'), (179, 'P'), (257, 'M')]
+     vanished w/o enemy damage (disintegrate): 1 at [(79, 'M')]
+     stuck robot-turns (25 turns within 5x5): 70/658  e.g. (id type round x y paint) [(12239, 'SOL', 36, 18, 5, 48), (11429, 'SOL', 29, 3, 7, 72), (13920, 'SOL', 31, 13, 9, 61), (12260, 'SOL', 36, 13, 10, 102), (13605, 'MOP', 106, 14, 7, 42)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:2/0/1 101-150:1/1/0 151-200:0/0/0 201-300:0/0/0
+     ruins marked 3, never built 2: [((2, 7), 4), ((12, 9), 7)]
+  TH builds by r50/100/150/200: 3/5/8/10 total 16 types {'M': 16}
+     killed by enemy: 6 at [(46, 'M'), (62, 'M'), (72, 'M'), (88, 'M'), (132, 'M'), (157, 'M')]
+     vanished w/o enemy damage (disintegrate): 3 at [(204, 'M'), (253, 'M'), (254, 'M')]
+     stuck robot-turns (25 turns within 5x5): 306/1908  e.g. (id type round x y paint) [(12136, 'SOL', 54, 3, 5, 33), (11901, 'SOL', 41, 11, 9, 103), (11230, 'SOL', 48, 1, 12, 177), (10789, 'SOL', 65, 11, 10, 65), (12895, 'MOP', 62, 13, 7, 74)]
+     spawns S/X/M by phase: 1-50:4/0/2 51-100:0/0/4 101-150:0/0/1 151-200:2/0/6 201-300:0/1/10
+     ruins marked 0, never built 0: []
+== m2567 g2 the-kragle FourCorners end r361
+  US builds by r50/100/150/200: 1/4/4/4 total 4 types {'M': 4}
+     killed by enemy: 6 at [(25, 'P'), (56, 'M'), (79, 'M'), (95, 'M'), (171, 'M'), (361, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 179/1078  e.g. (id type round x y paint) [(12994, 'SOL', 67, 23, 15, 77), (12029, 'SOL', 40, 9, 5, 61), (13415, 'SOL', 41, 3, 15, 58), (13158, 'SOL', 65, 16, 12, 67), (13626, 'SOL', 99, 14, 13, 195)]
+     spawns S/X/M by phase: 1-50:6/0/0 51-100:2/0/1 101-150:1/0/0 151-200:0/0/0 201-300:0/0/0 301-999:0/0/0
+     ruins marked 8, never built 7: [((8, 6), 16), ((2, 16), 35), ((14, 12), 40), ((22, 16), 42), ((21, 2), 82), ((8, 18), 117), ((22, 8), 151)]
+  TH builds by r50/100/150/200: 1/2/3/5 total 18 types {'M': 18}
+     killed by enemy: 3 at [(35, 'P'), (90, 'M'), (151, 'M')]
+     vanished w/o enemy damage (disintegrate): 9 at [(69, 'M'), (211, 'M'), (235, 'M'), (270, 'M'), (302, 'M'), (303, 'M'), (329, 'M'), (343, 'M'), (343, 'M')]
+     stuck robot-turns (25 turns within 5x5): 713/3053  e.g. (id type round x y paint) [(11640, 'SOL', 83, 17, 20, 0), (10127, 'SOL', 50, 2, 7, 6), (12629, 'SOL', 71, 17, 17, 54), (12308, 'SOL', 78, 15, 20, 71), (12270, 'MOP', 101, 22, 19, 82)]
+     spawns S/X/M by phase: 1-50:5/0/0 51-100:2/0/1 101-150:1/0/1 151-200:0/0/6 201-300:5/0/8 301-999:9/0/4
+     ruins marked 0, never built 0: []
+== m2599 g0 podemice CastleDefense end r533
+  US builds by r50/100/150/200: 2/3/4/4 total 4 types {'M': 4}
+     killed by enemy: 0 at []
+     vanished w/o enemy damage (disintegrate): 2 at [(89, 'M'), (120, 'M')]
+     stuck robot-turns (25 turns within 5x5): 130/1624  e.g. (id type round x y paint) [(12136, 'SOL', 46, 11, 10, 110), (11230, 'SOL', 33, 13, 8, 43), (10789, 'SOL', 40, 3, 16, 44), (13686, 'SOL', 48, 13, 9, 152), (12853, 'MOP', 106, 16, 12, 32)]
+     spawns S/X/M by phase: 1-50:7/0/0 51-100:3/0/2 101-150:1/0/1 151-200:1/1/0 201-300:2/3/1 301-999:4/8/3
+     ruins marked 3, never built 1: [((12, 9), 8)]
+  TH builds by r50/100/150/200: 2/3/5/6 total 12 types {'M': 7, 'P': 3, 'D': 2}
+     killed by enemy: 8 at [(41, 'M'), (57, 'M'), (71, 'P'), (106, 'P'), (116, 'M'), (170, 'M'), (397, 'M'), (472, 'M')]
+     vanished w/o enemy damage (disintegrate): 0 at []
+     stuck robot-turns (25 turns within 5x5): 586/4220  e.g. (id type round x y paint) [(12239, 'SOL', 63, 12, 6, 0), (11429, 'SOL', 30, 4, 8, 100), (13920, 'MOP', 40, 8, 10, 69), (12260, 'MOP', 136, 14, 10, 45), (12213, 'SOL', 92, 10, 4, 18)]
+     spawns S/X/M by phase: 1-50:5/0/2 51-100:1/1/0 101-150:1/0/0 151-200:0/1/0 201-300:2/0/1 301-999:7/3/0
+     ruins marked 6, never built 0: []
+
+== summary (med, all games)
+  US
+     first tower killed                   med 100  [67, 41, 29, 47, 358, 141, 139, 125, 491, 18, 109, 164, 133, 41, 64, 69, 158, 260, 91, 100, 55, 153, 148, 73, 25, None]
+     towers killed by r150                med 1.0  [5, 4, 5, 1, 0, 1, 1, 1, 0, 1, 2, 0, 1, 4, 6, 1, 0, 0, 5, 1, 8, 0, 1, 1, 4, 0]
+     builds by r100                       med 3.5  [3, 3, 4, 2, 5, 8, 3, 6, 6, 2, 0, 6, 1, 3, 6, 2, 1, 6, 9, 3, 7, 5, 4, 2, 4, 3]
+     builds by r200                       med 6.5  [6, 3, 9, 2, 10, 14, 12, 14, 15, 6, 0, 11, 4, 3, 12, 4, 1, 15, 19, 7, 14, 12, 4, 2, 4, 4]
+     disintegrations                      med 2.0  [0, 0, 0, 0, 5, 4, 9, 54, 23, 0, 0, 8, 2, 0, 5, 2, 0, 10, 13, 25, 0, 13, 0, 1, 0, 2]
+     soldier turns paint==0 %             med 4.0  [6, 3, 2, 2, 7, 8, 5, 5, 5, 3, 3, 5, 4, 3, 4, 3, 4, 1, 6, 4, 2, 6, 3, 0, 4, 2]
+     soldier turns paint<40 %             med 15.5  [32, 7, 19, 14, 14, 22, 13, 13, 16, 20, 29, 18, 18, 7, 22, 19, 17, 4, 15, 11, 7, 18, 6, 9, 23, 12]
+     soldier median paint                 med 132.8  [81, 140.0, 127.0, 122, 112.0, 117, 142.0, 136.0, 138.0, 100, 89.0, 142.0, 118, 140.0, 103, 111.0, 131.5, 161.0, 127, 134.0, 147, 143.0, 174.0, 137, 100.5, 134]
+     robot-turns in a 25-turn 5x5 box %   med 8.2  [10.9, 7.4, 12.9, 7.3, 8.4, 21.7, 5.8, 7.3, 22.9, 26.8, 14.7, 12.8, 3.2, 7.4, 6.2, 6.3, 4.6, 8.9, 4.4, 4.0, 9.2, 7.6, 12.8, 10.6, 16.6, 8.0]
+     soldiers spawned r1-100              med 9.5  [11, 10, 7, 8, 13, 9, 11, 12, 13, 7, 7, 12, 9, 10, 9, 11, 8, 12, 8, 9, 8, 11, 10, 9, 8, 10]
+     moppers spawned r1-100               med 1.0  [0, 0, 0, 1, 3, 0, 1, 2, 3, 0, 0, 2, 1, 0, 0, 1, 1, 3, 0, 2, 1, 3, 1, 1, 1, 2]
+     paint actions r1-100                 med 172.5  [168, 93, 156, 177, 269, 353, 205, 275, 268, 157, 107, 225, 106, 93, 230, 177, 150, 286, 345, 162, 209, 256, 154, 101, 125, 115]
+     paint actions r101-200               med 206.0  [81, 5, 217, 50, 312, 527, 481, 561, 281, 152, 26, 242, 195, 5, 257, 249, 170, 425, 749, 356, 146, 268, 109, 94, 137, 84]
+     paint withdrawn r1-200               med 2010.0  [1090, 524, 2035, 1876, 2737, 3702, 3329, 3844, 3579, 1086, 374, 2802, 1708, 524, 1985, 1979, 1070, 4043, 3974, 3028, 2242, 3142, 2247, 1183, 924, 1829]
+     ruins marked                         med 7.0  [6, 3, 7, 6, 7, 11, 15, 9, 8, 10, 4, 7, 2, 3, 10, 6, 5, 8, 17, 8, 10, 7, 5, 3, 8, 3]
+     marked never built                   med 2.0  [5, 1, 0, 4, 2, 2, 4, 1, 1, 5, 4, 2, 1, 1, 2, 4, 4, 1, 3, 2, 4, 1, 1, 2, 7, 1]
+  TH
+     first tower killed                   med 67.5  [68, 32, 50, 75, 60, 107, 62, 66, 93, 260, 63, 75, 149, 32, 138, 75, 56, 98, 115, 208, 49, 67, 79, 46, 35, 41]
+     towers killed by r150                med 2.5  [3, 4, 2, 4, 5, 3, 2, 1, 4, 0, 2, 4, 1, 4, 1, 1, 2, 3, 2, 0, 2, 4, 3, 5, 2, 5]
+     builds by r100                       med 5.0  [4, 5, 6, 2, 4, 4, 5, 5, 6, 4, 3, 5, 2, 5, 6, 2, 4, 5, 9, 1, 6, 5, 5, 5, 2, 3]
+     builds by r200                       med 9.0  [9, 9, 11, 5, 7, 9, 6, 10, 13, 18, 4, 9, 7, 9, 17, 7, 11, 10, 28, 5, 10, 12, 7, 10, 5, 6]
+     disintegrations                      med 1.5  [4, 3, 9, 0, 0, 0, 0, 0, 0, 24, 0, 0, 5, 3, 34, 0, 13, 0, 69, 24, 17, 0, 0, 3, 9, 0]
+     soldier turns paint==0 %             med 2.0  [2, 0, 1, 1, 0, 3, 1, 6, 4, 3, 2, 1, 5, 0, 3, 1, 2, 1, 3, 5, 1, 4, 2, 0, 3, 1]
+     soldier turns paint<40 %             med 16.0  [18, 1, 11, 7, 8, 18, 4, 14, 23, 23, 8, 4, 19, 1, 16, 27, 22, 41, 20, 15, 17, 16, 11, 15, 33, 34]
+     soldier median paint                 med 124.0  [122.0, 180.5, 147.0, 117.0, 103, 123.0, 168, 150, 106, 125.0, 139.0, 169, 125, 180.5, 147.0, 92, 102, 58, 118, 146, 141.0, 114.0, 119.5, 137, 97, 68.0]
+     robot-turns in a 25-turn 5x5 box %   med 8.4  [7.3, 11.0, 13.4, 15.8, 5.5, 7.6, 7.1, 5.7, 10.5, 9.1, 5.2, 12.2, 7.0, 11.0, 7.8, 6.3, 10.3, 4.6, 4.9, 8.9, 7.9, 5.2, 9.1, 16.0, 23.4, 13.9]
+     soldiers spawned r1-100              med 7.0  [9, 7, 9, 7, 4, 10, 5, 8, 6, 7, 9, 6, 12, 7, 15, 8, 6, 10, 11, 9, 12, 7, 6, 4, 7, 6]
+     moppers spawned r1-100               med 3.0  [2, 3, 2, 2, 3, 5, 10, 4, 4, 3, 3, 8, 3, 3, 3, 3, 6, 5, 1, 3, 1, 5, 4, 6, 1, 2]
+     paint actions r1-100                 med 216.5  [150, 106, 215, 180, 350, 304, 256, 275, 251, 252, 259, 212, 240, 106, 237, 163, 179, 271, 338, 184, 218, 248, 174, 127, 66, 202]
+     paint actions r101-200               med 171.5  [228, 20, 202, 192, 349, 246, 311, 341, 174, 509, 50, 147, 169, 20, 418, 178, 101, 157, 984, 140, 146, 177, 130, 53, 39, 72]
+     paint withdrawn r1-200               med 1486.5  [1517, 938, 1514, 1830, 2314, 1447, 2586, 2187, 948, 2929, 971, 2564, 403, 938, 1949, 299, 1384, 1032, 3910, 915, 1517, 1684, 1558, 1459, 758, 695]
+     ruins marked                         med 5.0  [5, 3, 4, 7, 6, 17, 0, 0, 11, 0, 10, 0, 5, 3, 9, 17, 0, 11, 25, 3, 2, 9, 6, 0, 0, 6]
+     marked never built                   med 0.0  [0, 0, 0, 1, 0, 1, 0, 0, 2, 0, 7, 0, 0, 0, 0, 4, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0]

@@ -40,3 +40,8 @@ y163	t70 + after 6 towers a paint tower per 3 (y157)
 y164	paint tower at 1500+ chips (t70: 2000)
 y165	paint tower at 3000+ chips (t70: 2000)
 y166	splashers weight enemy towers 50 (t70: 30)
+t71	study 6 2.3: a tower that cannot pay for its unit builds a soldier (splasher due, 200+ paint) or a mopper (100+)
+t72	study 6 2.1a: robots rebuild any tower type whose pattern is intact (was money only)
+t73	study 6 2.1b: soldiers keep ruins with up to 4 enemy tiles (was 0)
+t74	study 6 2.1c: moppers weight enemy paint near ruins 40 (was 6-10)
+t75	study 6 2.4: churn ignores enemy moppers and enemies beyond d2 20

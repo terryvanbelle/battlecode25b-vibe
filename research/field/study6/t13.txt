@@ -1,0 +1,33 @@
+m2344 g0 varunvejalla              Bunny         our failed ruins 5: enemy paint at first mark 3, later built by enemy 1; soldier-turns within 3 of them 220 = 16% of soldier turns; paints into them 81
+m2344 g1 varunvejalla              CastleDefense our failed ruins 1: enemy paint at first mark 1, later built by enemy 0; soldier-turns within 3 of them 143 = 26% of soldier turns; paints into them 19
+m2344 g2 varunvejalla              quack         our failed ruins 0: enemy paint at first mark 0, later built by enemy 0; soldier-turns within 3 of them 0 = 0% of soldier turns; paints into them 0
+m2364 g0 angtn                     DefaultSmall  our failed ruins 4: enemy paint at first mark 2, later built by enemy 1; soldier-turns within 3 of them 527 = 59% of soldier turns; paints into them 126
+m2364 g1 angtn                     Fossil        our failed ruins 2: enemy paint at first mark 2, later built by enemy 2; soldier-turns within 3 of them 162 = 9% of soldier turns; paints into them 72
+m2365 g0 ryanaspen                 PlumberGame   our failed ruins 2: enemy paint at first mark 0, later built by enemy 2; soldier-turns within 3 of them 279 = 6% of soldier turns; paints into them 63
+m2366 g0 geesegeesego              Portal        our failed ruins 4: enemy paint at first mark 3, later built by enemy 3; soldier-turns within 3 of them 361 = 12% of soldier turns; paints into them 124
+m2366 g2 geesegeesego              yearofthesnake our failed ruins 1: enemy paint at first mark 1, later built by enemy 0; soldier-turns within 3 of them 63 = 0% of soldier turns; paints into them 24
+m2397 g0 ryanaspen                 Fossil        our failed ruins 1: enemy paint at first mark 1, later built by enemy 1; soldier-turns within 3 of them 119 = 3% of soldier turns; paints into them 47
+m2418 g0 the-kragle                Mirage        our failed ruins 5: enemy paint at first mark 1, later built by enemy 4; soldier-turns within 3 of them 689 = 40% of soldier turns; paints into them 215
+m2439 g1 botpocalypse              DefaultSmall  our failed ruins 4: enemy paint at first mark 3, later built by enemy 0; soldier-turns within 3 of them 225 = 41% of soldier turns; paints into them 91
+m2469 g1 geesegeesego              Racetrack     our failed ruins 2: enemy paint at first mark 1, later built by enemy 1; soldier-turns within 3 of them 76 = 2% of soldier turns; paints into them 44
+m2471 g0 varunvejalla              Barcode       our failed ruins 1: enemy paint at first mark 0, later built by enemy 0; soldier-turns within 3 of them 1 = 0% of soldier turns; paints into them 0
+m2471 g1 varunvejalla              CastleDefense our failed ruins 1: enemy paint at first mark 1, later built by enemy 0; soldier-turns within 3 of them 143 = 26% of soldier turns; paints into them 19
+m2471 g2 varunvejalla              Restart       our failed ruins 2: enemy paint at first mark 0, later built by enemy 0; soldier-turns within 3 of them 166 = 7% of soldier turns; paints into them 43
+m2472 g0 podemice                  Barcode       our failed ruins 4: enemy paint at first mark 4, later built by enemy 2; soldier-turns within 3 of them 188 = 10% of soldier turns; paints into them 80
+m2476 g0 the-kragle                Brat          our failed ruins 4: enemy paint at first mark 3, later built by enemy 2; soldier-turns within 3 of them 236 = 26% of soldier turns; paints into them 154
+m2485 g0 podemice                  Fossil        our failed ruins 1: enemy paint at first mark 1, later built by enemy 1; soldier-turns within 3 of them 232 = 8% of soldier turns; paints into them 97
+m2508 g0 varunvejalla              Leaf          our failed ruins 3: enemy paint at first mark 2, later built by enemy 1; soldier-turns within 3 of them 398 = 10% of soldier turns; paints into them 168
+m2508 g1 varunvejalla              TargetPractice our failed ruins 2: enemy paint at first mark 2, later built by enemy 1; soldier-turns within 3 of them 331 = 6% of soldier turns; paints into them 68
+m2508 g2 varunvejalla              Terminal      our failed ruins 4: enemy paint at first mark 3, later built by enemy 2; soldier-turns within 3 of them 235 = 17% of soldier turns; paints into them 86
+m2529 g2 ryanaspen                 TargetPractice our failed ruins 1: enemy paint at first mark 1, later built by enemy 1; soldier-turns within 3 of them 365 = 8% of soldier turns; paints into them 106
+m2565 g1 ryanaspen                 Justice       our failed ruins 1: enemy paint at first mark 0, later built by enemy 1; soldier-turns within 3 of them 40 = 3% of soldier turns; paints into them 27
+m2567 g0 the-kragle                CastleDefense our failed ruins 2: enemy paint at first mark 0, later built by enemy 2; soldier-turns within 3 of them 293 = 52% of soldier turns; paints into them 85
+m2567 g2 the-kragle                FourCorners   our failed ruins 7: enemy paint at first mark 3, later built by enemy 3; soldier-turns within 3 of them 163 = 17% of soldier turns; paints into them 126
+m2599 g0 podemice                  CastleDefense our failed ruins 1: enemy paint at first mark 0, later built by enemy 1; soldier-turns within 3 of them 253 = 23% of soldier turns; paints into them 37
+failed [5, 1, 0, 4, 2, 2, 4, 1, 1, 5, 4, 2, 1, 1, 2, 4, 4, 1, 3, 2, 4, 1, 1, 2, 7, 1] sum 65
+contested at mark [3, 1, 0, 2, 2, 0, 3, 1, 1, 1, 3, 1, 0, 1, 0, 4, 3, 1, 2, 2, 3, 1, 0, 0, 3, 0] sum 38
+taken by enemy [1, 0, 0, 1, 2, 2, 3, 0, 1, 4, 0, 1, 0, 0, 0, 2, 2, 1, 1, 1, 2, 1, 1, 2, 3, 1] sum 32
+wasted % [16, 26, 0, 59, 9, 6, 12, 0, 3, 40, 41, 2, 0, 26, 7, 10, 26, 8, 10, 6, 17, 8, 3, 52, 17, 23] sum 427
+paints [81, 19, 0, 126, 72, 63, 124, 24, 47, 215, 91, 44, 0, 19, 43, 80, 154, 97, 168, 68, 86, 106, 27, 85, 126, 37] sum 2002
+US ruins marked with enemy paint: built/total ['0/3', '0/1', '0/0', '0/2', '0/2', '0/0', '2/5', '0/1', '0/1', '0/1', '0/3', '0/1', '0/0', '0/1', '1/1', '0/4', '0/3', '1/2', '1/3', '2/4', '0/3', '0/1', '0/0', '0/0', '0/3', '0/0'] sum 
+TH ruins marked with enemy paint: built/total ['0/0', '0/0', '0/0', '2/2', '0/0', '8/9', '0/0', '0/0', '4/6', '0/0', '0/7', '0/0', '0/0', '0/0', '0/0', '11/15', '0/0', '4/5', '0/0', '0/0', '0/0', '4/4', '2/3', '0/0', '0/0', '3/3'] sum 

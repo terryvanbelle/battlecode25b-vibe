@@ -1,0 +1,99 @@
+match g ver   opponent        map              WxH    paintable res end  type  towers@r100 us/them
+2323 0 t47   the-kragle      DefaultSmall     20x20    372     W   209 MAJ   4/3
+2323 1 t47   the-kragle      Money            35x35   1141     W   235 MAJ   10/7
+2323 2 t47   the-kragle      boxofchocolates  55x55   2435     W   676 MAJ   4/3
+2344 0 t47   varunvejalla    Bunny            44x30   1228     L   291 MAJ   2/3
+2344 1 t47   varunvejalla    CastleDefense    20x20    340     L   172 ALL   2/3
+2344 2 t47   varunvejalla    quack            30x35    932     L   362 MAJ   4/7
+2364 0 t47   angtn           DefaultSmall     20x20    372     L   264 MAJ   3/1
+2364 1 t47   angtn           Fossil           30x30    868     L   395 MAJ   7/3
+2364 2 t47   angtn           lighthouse       31x31    853     W  1121 MAJ   2/3
+2365 0 t47   ryanaspen       PlumberGame      60x30   1688     L   675 MAJ   10/6
+2365 1 t47   ryanaspen       defensetower     40x59   2173     W   287 MAJ   8/2
+2365 2 t47   ryanaspen       gardenworld      60x60   3180     W   329 MAJ   10/4
+2366 0 t47   geesegeesego    Portal           35x35   1129     L   384 MAJ   5/6
+2366 1 t47   geesegeesego    starburst        30x30    844     W   510 MAJ   7/2
+2366 2 t47   geesegeesego    yearofthesnake   45x45   1653     L   846 MAJ   8/6
+2367 0 t47   the-kragle      Rose             40x40   1512     W   262 ALL   4/2
+2367 1 t47   the-kragle      SandyBeach       30x30    822     W   225 MAJ   6/5
+2367 2 t47   the-kragle      defensetower     40x59   2173     W   321 MAJ   6/1
+2397 0 t47   ryanaspen       Fossil           30x30    868     L   623 MAJ   8/7
+2397 1 t47   ryanaspen       giver            50x50   2344     W   256 MAJ   6/1
+2397 2 t47   ryanaspen       mit              60x60   3012     W   429 MAJ   7/3
+2418 0 t47   the-kragle      Mirage           40x40   1480     L   335 MAJ   3/6
+2418 1 t47   the-kragle      UnderTheSea      45x45   1847     W   280 MAJ   9/5
+2418 2 t47   the-kragle      boxofchocolates  55x55   2435     W   460 MAJ   4/3
+2439 0 t47   botpocalypse    Crab             40x30   1046     W   432 MAJ   7/7
+2439 1 t47   botpocalypse    DefaultSmall     20x20    372     L   121 MAJ   2/3
+2439 2 t47   botpocalypse    roads            30x30    770     W   359 MAJ   6/4
+2446 0 t47   angtn           DefaultHuge      59x59   3421     W   360 MAJ   11/10
+2446 1 t47   angtn           boxofchocolates  55x55   2435     W   739 MAJ   4/4
+2446 2 t47   angtn           lighthouse       31x31    853     W  1121 MAJ   2/3
+2469 0 t58   geesegeesego    BunnyGame        30x50   1286     W   272 MAJ   7/3
+2469 1 t58   geesegeesego    Racetrack        25x25    562     L  1024 MAJ   7/6
+2469 2 t58   geesegeesego    sunrise          45x55   2208     W   420 MAJ   8/3
+2471 0 t58   varunvejalla    Barcode          50x21    966     L   348 MAJ   3/4
+2471 1 t58   varunvejalla    CastleDefense    20x20    340     L   172 ALL   2/3
+2471 2 t58   varunvejalla    Restart          55x55   2657     L   458 MAJ   4/8
+2472 0 t58   podemice        Barcode          50x21    966     L   350 MAJ   3/3
+2472 1 t58   podemice        SMILE            60x60   3482     W   655 MAJ   6/3
+2472 2 t58   podemice        memstore         59x39   2081     W   308 MAJ   10/6
+2476 0 t58   the-kragle      Brat             29x29    715     L   318 MAJ   3/3
+2476 1 t58   the-kragle      Money            35x35   1141     W   520 MAJ   5/5
+2476 2 t58   the-kragle      yearofthesnake   45x45   1653     W   388 MAJ   6/5
+2485 0 t58   podemice        Fossil           30x30    868     L   926 MAJ   8/6
+2485 1 t58   podemice        TheBest          60x60   3292     W   387 MAJ   9/4
+2485 2 t58   podemice        lighthouse       31x31    853     W   263 MAJ   5/1
+2508 0 t58   varunvejalla    Leaf             60x60   3440     L   377 MAJ   10/11
+2508 1 t58   varunvejalla    TargetPractice   30x30    816     L   759 MAJ   4/3
+2508 2 t58   varunvejalla    Terminal         40x30   1022     L   454 MAJ   6/6
+2529 0 t58   ryanaspen       Flower           45x41   1623     W   323 MAJ   4/2
+2529 1 t58   ryanaspen       Oasis            59x59   3339     W   357 MAJ   7/7
+2529 2 t58   ryanaspen       TargetPractice   30x30    816     L   895 MAJ   7/5
+2565 0 t61   ryanaspen       Crab             40x30   1046     W   403 MAJ   8/7
+2565 1 t61   ryanaspen       Justice          21x20    389     L   247 MAJ   6/4
+2565 2 t61   ryanaspen       quack            30x35    932     W   228 MAJ   7/3
+2567 0 t61   the-kragle      CastleDefense    20x20    340     L   257 ALL   2/3
+2567 1 t61   the-kragle      Filter           21x21    419     W   186 MAJ   4/3
+2567 2 t61   the-kragle      FourCorners      25x25    542     L   361 ALL   2/1
+2599 0 y155  podemice        CastleDefense    20x20    340     L   533 MAJ   4/2
+2599 1 y155  podemice        DefaultLarge     50x30   1476     W   275 MAJ   9/4
+2599 2 y155  podemice        Parking_lot      45x45   1795     W   303 MAJ   6/4
+
+by opponent: (won, lost, loss%)
+   angtn                    4   2  33%
+   botpocalypse             2   1  33%
+   geesegeesego             3   3  50%
+   podemice                 6   3  33%
+   ryanaspen                8   4  33%
+   the-kragle              11   4  27%
+   varunvejalla             0   9  100%
+
+by our version: (won, lost, loss%)
+   t47                     19  11  37%
+   t58                     10  11  52%
+   t61                      3   3  50%
+   y155                     2   1  33%
+
+by paintable area: (won, lost, loss%)
+   1: <=500                 2   7  78%
+   2: 501-900               6   8  57%
+   3: 901-1600              8   7  47%
+   4: 1601-2500            12   2  14%
+   5: >2500                 6   2  25%
+
+by min side: (won, lost, loss%)
+   26-35                   13  11  46%
+   <=25                     2  11  85%
+   >35                     19   4  17%
+
+towers at r100 (us - them) vs result:
+   diff -3: won  0 lost  3
+   diff -1: won  2 lost  8
+   diff +0: won  4 lost  3
+   diff +1: won  8 lost  4
+   diff +2: won  4 lost  6
+   diff +3: won 16 lost  2
+
+win types of losses: {'MAJ': 22, 'ALL': 4}
+median end of losses on maps <= 900 paintable: 361  > 900: 377

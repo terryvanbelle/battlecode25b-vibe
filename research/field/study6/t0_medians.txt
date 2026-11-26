@@ -1,0 +1,38 @@
+26 lost games: m2344g0 Bunny(varunv,MAJ291), m2344g1 CastleDefense(varunv,ALL172), m2344g2 quack(varunv,MAJ362), m2364g0 DefaultSmall(angtn,MAJ264), m2364g1 Fossil(angtn,MAJ395), m2365g0 PlumberGame(ryanas,MAJ675), m2366g0 Portal(geeseg,MAJ384), m2366g2 yearofthesnake(geeseg,MAJ846), m2397g0 Fossil(ryanas,MAJ623), m2418g0 Mirage(the-kr,MAJ335), m2439g1 DefaultSmall(botpoc,MAJ121), m2469g1 Racetrack(geeseg,MAJ1024), m2471g0 Barcode(varunv,MAJ348), m2471g1 CastleDefense(varunv,ALL172), m2471g2 Restart(varunv,MAJ458), m2472g0 Barcode(podemi,MAJ350), m2476g0 Brat(the-kr,MAJ318), m2485g0 Fossil(podemi,MAJ926), m2508g0 Leaf(varunv,MAJ377), m2508g1 TargetPractice(varunv,MAJ759), m2508g2 Terminal(varunv,MAJ454), m2529g2 TargetPractice(ryanas,MAJ895), m2565g1 Justice(ryanas,MAJ247), m2567g0 CastleDefense(the-kr,ALL257), m2567g2 FourCorners(the-kr,ALL361), m2599g0 CastleDefense(podemi,MAJ533)
+wintypes: {'ALL_UNITS_DESTROYED': 4, 'MAJORITY_PAINTED': 22}  median end round 369.5
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   26 |   14.0/14.7  102.0/114.0      3.0/3.0      1.0/1.0      2.0/2.0      0.0/0.0  920.0/780.0  1171.5/1239.0      0.0/0.0      6.0/5.0      6.0/4.0      0.0/0.0      0.0/0.0
+r50   26 |   17.3/21.0  144.0/168.0      4.0/4.0      1.0/1.0      3.0/3.0      0.0/0.0  915.0/915.0  1465.5/1807.5      0.0/0.0      7.0/6.0      7.0/5.0      0.0/0.0      0.0/1.0
+r75   26 |   18.0/26.7  160.0/213.5      4.0/4.5      1.0/1.0      3.0/3.0      0.0/0.0  1185.0/995.0  1735.0/1800.0      0.0/0.0      7.0/8.0      7.0/6.0      0.0/0.0      0.0/2.0
+r100  26 |   25.6/31.1  218.5/254.0      4.0/4.0      1.0/1.0      3.0/3.0      0.0/0.0  1365.0/885.0  1445.5/1768.5      0.0/0.0     8.0/10.0      7.0/6.0      0.0/0.0      1.0/3.0
+r150  25 |   30.3/33.5      280/312          5/5          1/1          3/4          0/0     2390/940    1583/1937          0/0         7/12          6/7          0/0          2/5
+r200  23 |   34.2/37.8      321/378          5/6          1/1          4/4          0/0     1750/820    1983/2431          0/0         9/15          6/8          1/0          3/7
+r300  19 |   36.5/49.9      353/514          5/8          1/1          4/6          0/0    2160/1320    1736/3097          0/0         9/24          4/9          2/4         3/11
+r400  10 |   41.2/50.0  430.5/385.0      7.0/7.5      1.0/1.5      5.0/5.0      0.0/0.0  3583.5/1150.0  1913.0/3372.5      1.0/0.5    12.5/19.5      4.0/6.0      2.0/2.5     4.5/11.5
+
+m2344g0 Bunny          rounds r101-400 with chips>=3000: us  52 them   1; max srp us 1 them 0
+m2344g1 CastleDefense  rounds r101-400 with chips>=3000: us  57 them   0; max srp us 0 them 0
+m2344g2 quack          rounds r101-400 with chips>=3000: us   0 them   0; max srp us 1 them 2
+m2364g0 DefaultSmall   rounds r101-400 with chips>=3000: us  90 them   0; max srp us 0 them 0
+m2364g1 Fossil         rounds r101-400 with chips>=3000: us 230 them   0; max srp us 0 them 0
+m2365g0 PlumberGame    rounds r101-400 with chips>=3000: us 214 them   7; max srp us 11 them 5
+m2366g0 Portal         rounds r101-400 with chips>=3000: us  96 them  25; max srp us 3 them 6
+m2366g2 yearofthesnake rounds r101-400 with chips>=3000: us  21 them  98; max srp us 6 them 6
+m2397g0 Fossil         rounds r101-400 with chips>=3000: us  67 them   0; max srp us 1 them 0
+m2418g0 Mirage         rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 5
+m2439g1 DefaultSmall   rounds r101-400 with chips>=3000: us  21 them   0; max srp us 0 them 0
+m2469g1 Racetrack      rounds r101-400 with chips>=3000: us 183 them  54; max srp us 2 them 4
+m2471g0 Barcode        rounds r101-400 with chips>=3000: us  29 them   1; max srp us 0 them 1
+m2471g1 CastleDefense  rounds r101-400 with chips>=3000: us  57 them   0; max srp us 0 them 0
+m2471g2 Restart        rounds r101-400 with chips>=3000: us  22 them  22; max srp us 0 them 10
+m2472g0 Barcode        rounds r101-400 with chips>=3000: us  90 them   0; max srp us 0 them 2
+m2476g0 Brat           rounds r101-400 with chips>=3000: us  52 them   2; max srp us 0 them 0
+m2485g0 Fossil         rounds r101-400 with chips>=3000: us 149 them   0; max srp us 1 them 3
+m2508g0 Leaf           rounds r101-400 with chips>=3000: us  78 them  29; max srp us 5 them 11
+m2508g1 TargetPractice rounds r101-400 with chips>=3000: us   9 them  49; max srp us 2 them 5
+m2508g2 Terminal       rounds r101-400 with chips>=3000: us   0 them   1; max srp us 0 them 2
+m2529g2 TargetPractice rounds r101-400 with chips>=3000: us 185 them   0; max srp us 3 them 1
+m2565g1 Justice        rounds r101-400 with chips>=3000: us 128 them   0; max srp us 0 them 0
+m2567g0 CastleDefense  rounds r101-400 with chips>=3000: us  46 them   0; max srp us 0 them 0
+m2567g2 FourCorners    rounds r101-400 with chips>=3000: us 198 them  13; max srp us 0 them 0
+m2599g0 CastleDefense  rounds r101-400 with chips>=3000: us 254 them   0; max srp us 0 them 0

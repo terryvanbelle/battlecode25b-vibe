@@ -1,0 +1,17 @@
+== small maps, lost
+   game           map            end  | US: contact dmg kill  towers r25/50/100  spawns<=r50 <=r100  1st mop  no-PT-from | THEM: same
+   m2344g1 varunvej CastleDefense  172 |   24   22   32M    3/3/2    S7M0X0   S10M0X0  None    41 |   22   26   41P    4/4/3    S5M0X0    S7M3X0    65    52
+   m2364g0 angtn    DefaultSmall   264 |   10   35   75M    2/3/3    S7M0X0    S8M1X0    80  None |   18   12   47M    3/3/1    S7M0X1    S7M2X1    57    98
+   m2439g1 botpocal DefaultSmall   121 |   31   11   63M    2/2/2    S6M0X0    S7M0X1  None   111 |   10   33  109M    2/4/3    S7M0X0    S9M3X0    58  None
+   m2469g1 geesegee Racetrack     1024 |   78   59   75M    3/5/7    S8M0X0   S12M2X1    81   994 |   57   80  164M    4/5/6    S4M0X0    S6M8X0    58  None
+   m2471g0 varunvej Barcode        348 |   94   42  149M    2/3/3    S8M0X0    S9M1X0    80  None |   40   97  133M    3/3/4    S5M2X0   S12M3X0    50  None
+   m2471g1 varunvej CastleDefense  172 |   24   22   32M    3/3/2    S7M0X0   S10M0X0  None    41 |   22   26   41P    4/4/3    S5M0X0    S7M3X0    65    52
+   m2472g0 podemice Barcode        350 |   43   53   75M    2/3/3    S8M0X0   S11M1X0    80  None |   51   44   69M    2/2/3    S6M2X0    S8M3X0     2  None
+   m2565g1 ryanaspe Justice        247 |    3   66   79M    3/4/6    S8M0X0   S10M1X0    80  None |   21  112  148M    3/4/4    S4M2X0    S6M4X0     3  None
+   m2567g0 the-krag CastleDefense  257 |   29   19   46M    2/3/2    S7M0X0    S9M1X0    80   179 |   16   30   73M    4/4/3    S4M2X0    S4M6X0    22  None
+   m2567g2 the-krag FourCorners    361 |    9   10   35P    1/2/2    S6M0X0    S8M1X0    93    25 |    9   10   25P    2/2/1    S5M0X0    S7M1X0    70    35
+   m2599g0 podemice CastleDefense  533 |   20   21   41M    3/4/4    S7M0X0   S10M2X0    80  None |   21   22     -    3/3/2    S5M2X0    S6M2X1     2    71
+== small maps, won
+   game           map            end  | US: contact dmg kill  towers r25/50/100  spawns<=r50 <=r100  1st mop  no-PT-from | THEM: same
+   m2323g0 the-krag DefaultSmall   209 |   10   11   57M    1/2/4    S8M0X0    S8M0X0   151  None |   10   12   23M    2/3/3    S4M3X0    S4M7X0    41   168
+   m2567g1 the-krag Filter         186 |   30   16   31M    3/3/4    S8M0X0   S12M1X0    85  None |   16   32   39M    4/4/3    S4M2X0    S4M5X0    24    87

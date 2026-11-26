@@ -1,0 +1,10 @@
+US
+   died within 60 rds | 0.4-0.5: 7/14
+   died within 60 rds | f<0.4: 33/99
+   died within 60 rds | f>=0.5: 5/13
+   f of builds r1-120: med 0.3 p75 0.4 share>=0.5 13/126
+TH
+   died within 60 rds | 0.4-0.5: 5/15
+   died within 60 rds | f<0.4: 25/91
+   died within 60 rds | f>=0.5: 19/28
+   f of builds r1-120: med 0.3 p75 0.5 share>=0.5 28/134
