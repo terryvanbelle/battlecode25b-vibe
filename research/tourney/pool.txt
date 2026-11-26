@@ -309,19 +309,26 @@
 # t88 (retired: built on t85, champion now t91)
 # t89 (retired: -88 vs t85 after 131; walk to remembered free ruins, study 7 2.1b)
 # t90 (retired: built on t85, champion now t91)
-t91
+# t91 (retired at y195's crowning)
 # y188 (retired: built on t85, champion now t91)
 # y189 (retired: built on t85, champion now t91)
 # y190 (retired: built on t85, champion now t91)
 # t92 (retired: built on t85, champion now t91)
 # y191 (retired: built on t85, champion now t91)
-t93
-t94
-t95
-y192
-y193
-y194
+# t93 (retired: built on t91, champion now y195)
+# t94 (retired: built on t91, champion now y195)
+# t95 (retired: built on t91, champion now y195)
+# y192 (retired: built on t91, champion now y195)
+# y193 (retired: built on t91, champion now y195)
+# y194 (retired: built on t91, champion now y195)
 y195
 # t96 (retired: -69 vs t91 after 101; study 7 2.4 money-to-paint conversion)
-t97
-y196
+# t97 (retired: built on t91, champion now y195)
+# y196 (retired: built on t91, champion now y195)
+t98
+y197
+t99
+y198
+y199
+y200
+y201

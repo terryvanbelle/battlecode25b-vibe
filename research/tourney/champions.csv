@@ -37,3 +37,4 @@ when_pdt,bot,base,change,submission
 2026-11-26 10:47,y170,t74,soldiers make the next tower a paint tower at 1500+ chips (t63 tuning; was 2000),67
 2026-11-26 11:27,t85,y170,study 6 2.2 ruin denial from where the soldier stands: a soldier with no ruin paints empty tiles of a ruin the enemy is building; without walking to it,68
 2026-11-26 12:47,t91,t85,study 7 2.5: moppers ignore ruins under enemy towers when weighting ruin paint,69
+2026-11-26 13:27,y195,t91,study 7 2.1a: explore unseen tiles first; up to 16 random draws,70

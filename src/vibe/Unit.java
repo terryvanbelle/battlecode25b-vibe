@@ -113,7 +113,14 @@ public strictfp class Unit {
     static MapLocation exploreTarget() {
         if (explore == null || G.here.distanceSquaredTo(explore) <= 8 || G.round - exploreSince > 60
                 || G.isWall(explore)) {
-            explore = new MapLocation(G.rand(G.W), G.rand(G.H));
+            // study 7 2.1 (a): 43 free ruins in our half were never seen by r100 (walled pockets, far corners of big
+            // maps); draw up to 8 tiles and take the first we have never seen
+            MapLocation t = null;
+            for (int i = 16; --i >= 0; ) {   // (t88: 8)
+                t = new MapLocation(G.rand(G.W), G.rand(G.H));
+                if ((G.mem[t.x + t.y * G.W] & G.SEEN) == 0) break;
+            }
+            explore = t;
             exploreSince = G.round;
         }
         return explore;

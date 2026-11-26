@@ -97,3 +97,10 @@ y195	y191 on t93: up to 16 draws for an unseen explore target
 t96	study 7 2.4: with 3000+ chips and few paint towers, soldiers repaint a money tower to the paint pattern; it churns and is rebuilt as paint
 t97	t95 + y192 (explore unseen, mopper ruin memory, denial stops at 2 of our tiles)
 y196	denial only on ruins with none of our tiles (t91: under 3)
+t98	t94 on y195: idle moppers walk to remembered contested ruins (study 7 2.3)
+y197	y192 on y195: denial stops at 2 of our tiles
+t99	t98 + y197
+y198	y193 on y195: money towers churn at 2500 chips
+y199	y196 on y195: denial only on ruins with none of our tiles
+y200	up to 32 draws for an unseen explore target (y195: 16)
+y201	explore target renewed after 40 rounds (y195: 60)
