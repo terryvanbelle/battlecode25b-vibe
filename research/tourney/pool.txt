@@ -72,13 +72,17 @@ y44
 # sw27 (retired: -72 vs y30 after 304; S-M-X cycle as built)
 # sw28 (retired: -115 vs y44 after 512)
 # sw29 (retired: -108 vs y44 after 551; money-first economy hurts)
-y45
-y46
+# y45 (retired: -70 vs y44 after 377; + S-M-X spawn cycle)
+# y46 (retired: -27 vs y44 after 391; soldier refill 120)
 # y47 (retired: -577 vs y44, 2-57; sw25 SRP code at study-3 params starves chips - 20 SRPs by r200)
-y48
+# y48 (retired: -86 vs y44 after 387; 2 helpers per ruin)
 # y49 (retired: -355 vs y44, 9-53; y47 from r80 + 1200-chip guard)
 sw30
 y50
 y51
 y52
 y53
+y55
+sw31
+sw32
+y56
