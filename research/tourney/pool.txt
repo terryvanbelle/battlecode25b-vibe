@@ -348,7 +348,7 @@ y213
 # y214 (retired: -85 vs y211 after 125; SRPs from 4 towers)
 # y215 (retired: -122 vs y211 after 131; nearest unseen of 24 draws)
 y216
-t101
+# t101 (retired: -20 vs y211 after 379; retarget once the target is seen)
 y217
 y218
 # y219 (retired unplayed: slot for study 8 candidates)
@@ -357,3 +357,4 @@ t102
 t105
 t104
 t103
+t106

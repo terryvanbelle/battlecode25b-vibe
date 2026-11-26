@@ -137,3 +137,6 @@ Is it possible, on top of the heatmap, to plot the average delta replica Elo per
 
 ## #37 (2026-11-26 16:04 PDT)
 Actually, let's get rid of the heatmap, and just have the graph of average delta replica Elo, with vertical error bars.  Also an x-y axis
+
+## #38 (2026-11-26 16:09 PDT)
+Can we do a statistical test of the hypothesis that positive, but not too positive, local Elo gains lead to replica Elo losses?

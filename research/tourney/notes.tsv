@@ -129,3 +129,4 @@ t102	study 8 2.2a: paint the first towers pattern while walking up to mark it (t
 t103	study 8 2.1 narrow: a ruin where our tower stood, with an enemy soldier/splasher in view, is rebuilt as a defense tower (from 4 towers, up to 1+n/5)
 t104	study 8 2.3b+c: SRPs agree with the money pattern of every tower within Chebyshev 4; repairPattern skips enemy paint
 t105	study 8 2.2a+b: t102 + a second soldier joins the first ruin from d2 20 while we have 2 towers
+t106	study 8 2.3a: skip SRP centres with enemy paint at Chebyshev 3-4
