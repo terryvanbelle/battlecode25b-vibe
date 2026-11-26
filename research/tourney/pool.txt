@@ -84,7 +84,7 @@ y44
 # y53 (retired: -34 vs y44 after 264; siege from 100 paint)
 # y55 (retired: -86 vs y56 after 332; wait until full)
 # sw31 (retired: -135 vs y56 after 316; defensive mopper spawn)
-sw32
+# sw32 (retired: -19 vs y56 after 488; churn 3000 + refill 80)
 y56
 sw33
 sw34
@@ -92,3 +92,5 @@ sw35
 sw36
 sw37
 y57
+y58
+y59
