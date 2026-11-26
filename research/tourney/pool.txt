@@ -145,7 +145,7 @@
 # t26 (retired: -10 vs y74 after 341; spoiling enemy ruins)
 # y83 (retired: +19 vs y74 after 355, below t25)
 # y84 (retired: +9 vs t25 after 352, below t27)
-t27
+# t27 (retired: former champion)
 # y85 (retired: -9 vs t25; y87 carries it on t25)
 # y86 (retired: -31 vs t27 after 387)
 # y87 (retired: -35 vs t27; y90 carries it)
@@ -158,11 +158,16 @@ t27
 # y91 (retired: -79; exact S X X M is worse than t27 2:3:1)
 # t31 (retired: -76; waiting for a siege partner)
 t32
-y92
+# y92 (retired: -3 vs t27 after 304)
 y93
-y94
+# y94 (retired: +8 vs t27 after 321, below y95)
 y95
 t33
-y96
-y97
-y98
+# y96 (retired: -43; siege range 20 overshoots)
+# y97 (retired: -38; splashers chasing enemy paint)
+# y98 (retired: -38; splash min 11)
+y99
+t34
+t35
+y100
+y101

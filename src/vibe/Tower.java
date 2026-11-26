@@ -5,7 +5,7 @@ import battlecode.common.*;
 /** Towers: attack (single + area, both free each turn), build units, upgrade. */
 public strictfp class Tower {
     static int built;
-    static final int UPGRADE_SPARE = 800;
+    static final int UPGRADE_SPARE = 1200;
 
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
