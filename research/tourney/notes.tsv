@@ -55,3 +55,7 @@ t80	study 6 2.2: a soldier with no ruin paints 3 empty tiles of a ruin the enemy
 t81	t78 on t74: money towers short of paint for a splasher build a soldier
 y169	splasher enemy-tower weight 50 (t70: 30)
 y170	paint tower at 1500+ chips (t70: 2000)
+t82	t81 + y170 (money-tower soldier fallback; paint tower at 1500+ chips)
+y171	paint tower at 1000+ chips (t74: 2000)
+y172	t81 with the soldier fallback at 150+ paint (t81: 200)
+t83	t81 + money towers with 100-199 paint build a mopper

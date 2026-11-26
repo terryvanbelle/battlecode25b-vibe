@@ -276,10 +276,14 @@ t74
 # t76 (retired: -295 after 200; t71 + money S M M)
 # t77 (retired: -51 vs t70 after 383)
 # t78 (retired: on old champion t70, 0 games; ported as t81)
-t79
-y167
-y168
+# t79 (retired: -44 vs t74 after 246; t74 + t72 rebuild any type)
+# y167 (retired: -38 vs t74 after 221; mopper ruin weight 80)
+# y168 (retired: -24 vs t74 after 219; mopper ruin weight 20)
 t80
 t81
 y169
 y170
+t82
+y171
+y172
+t83
