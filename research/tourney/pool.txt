@@ -368,7 +368,7 @@ t91  # replica reference: peak 1667 at #7 on 11-26 13:07 PDT (the record until y
 # y224 (retired at t111's crowning: +12 vs y221 after 746; in y229)
 # y225 (retired at t111's crowning: +23 vs y221 after 638, confirming; in y230)
 # y226 (retired: -23 after 580 games)
-t111  # replica record: 1682 at #7 on 11-26 23:08 PDT; permanent slot (owner #35), champion until t118
+# t111 (retired: t118, the champion, took the replica record with 1716 at #5 on 11-27 00:08 PDT; t111 is its direct parent, so no reference slot; -59 vs t118)
 # y228 (retired: -51 after 245 games)
 # y229 (retired: flat, +3 vs t111 after 1073 games)
 # y230 (retired: -31 vs t111 after 371 games)
@@ -376,7 +376,7 @@ t111  # replica record: 1682 at #7 on 11-26 23:08 PDT; permanent slot (owner #35
 # t113 (retired: -21 vs t111 after 285 games; t110 on t111)
 # y231 (retired: flat, -1 vs t111 after 772 games)
 # t114 (retired: flat, +2 vs t111 after 1208 games)
-# y221 (retired: t111, the champion, took the replica record with 1682 at #7 on 11-26 23:08 PDT; y221 is its direct parent, so no reference slot; -16 vs t111)
+y221  # replica reference: peak 1673 at #7 on 11-26 18:08 PDT; permanent slot with t91 (owner #45, record.py), back once t118 took the record
 # y232 (retired: -10 vs t111 after 719 games)
 # y233 (retired: -13 vs t111 after 706 games)
 # y234 (retired: -37 vs t111 after 240 games)
@@ -398,14 +398,17 @@ t111  # replica record: 1682 at #7 on 11-26 23:08 PDT; permanent slot (owner #35
 t118
 # y247 (retired before play: both parents y245 and y241 fell behind)
 # t119 (retired: built on t111, champion now t118)
-t120
+# t120 (retired: -12 vs t118 after 628 games; study 9 2.1a on t118)
 # t121 (retired: built on t111, champion now t118)
 t122
 y248
-y249
-y211  # replica reference: peak 1663 at #9 on 11-26 17:53 PDT; permanent slot with t91 (owner #45, record.py), back once t111 took the record
+# y249 (retired: -30 vs t118 after 427 games)
+# y211 (retired: its replica-reference slot passed to y221, peak 1673 > 1663, once t118 took the record; owner #45)
 t123
-t124
+# t124 (retired: -28 vs t118 after 209 games; study 9 2.2)
 y250
 y251
 t125
+y252
+y253
+t126
