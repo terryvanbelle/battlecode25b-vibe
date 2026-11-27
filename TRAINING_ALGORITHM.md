@@ -141,6 +141,17 @@ dips: the tournament, not the ladder, judges builds.
 replica slots. Port the promising changes onto the new champion as newcomers, and drop those the new champion already
 contains. Every rated difference then has one cause again, against the champion that matters.
 
+**A bot with verified identical behaviour may always substitute** (owner #57, #58). It takes a pool bot's place in
+the local tournament at any time without being crowned, the champion included. Verified means one of:
+- its compiled code is byte-identical (`tools/bytecode-diff.sh` shows no differing method);
+- for a refactor that changes the bytecode, twin games are identical: the same opponents, maps and seeds, and our
+  side's per-turn actions and moves identical in every game, with any divergence traced and removed.
+
+The substitute keeps the original's slot, record and role (champion, replica slot or candidate); the original's pool
+line is retired as "substituted by X". The substitute is the base for new candidates and for the crowning audit diff.
+It is not submitted to the ladder, which already plays the same behaviour. Use it for refactors that make the code
+cheaper to change. Bug fixes change behaviour and still enter as newcomers (2.7).
+
 ### 2.6 Retiring
 Retire a bot about 20 or more below the champion after about 200 games, more than 2 SE below after about 50, or flat
 (within a few points) after about 500. A losing swing first gets a second version that fixes its first visible failure.
@@ -155,7 +166,8 @@ Once the queue is full, audit the diff from the previous champion only:
 
 Bring the shared unit suite to passing, and add a test for every new mechanism and constant. **Fixes enter as
 newcomers and are never patched into the champion**: long-lived bugs can be load-bearing. One season's first fix
-bundle rated 118 below the champion it fixed. Behaviour-neutral cleanups ride along with the next newcomer.
+bundle rated 118 below the champion it fixed. Behaviour-neutral cleanups ride along with the next newcomer, or enter
+as a verified substitute (2.5).
 
 ## 3. Where candidates come from
 

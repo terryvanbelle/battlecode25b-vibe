@@ -197,3 +197,6 @@ That all sounds good to me
 
 ## #57 (2026-11-27 06:51 PDT)
 (answer to "may a verified behaviour-identical refactor become the base for new candidates without being crowned?") R1-R3 now
+
+## #58 (2026-11-27 06:52 PDT)
+Let's add that as a rule to TRAINING_ALGORITHM, i.e. a bot with verified identical behavior can always substitute in the local tournament without needing to be crowned
