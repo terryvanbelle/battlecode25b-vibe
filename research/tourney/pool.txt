@@ -344,13 +344,13 @@ t91  # replica record: 1667 at #7 on 11-26 13:07 PDT; permanent slot (owner #35)
 # y210 (retired: built on y197, champion now y211)
 y211
 # y212 (retired: built on y197, champion now y211)
-y213
+# y213 (retired: -3 vs y211 after 828, flat; SRPs from 5 towers)
 # y214 (retired: -85 vs y211 after 125; SRPs from 4 towers)
 # y215 (retired: -122 vs y211 after 131; nearest unseen of 24 draws)
 y216
 # t101 (retired: -20 vs y211 after 379; retarget once the target is seen)
-y217
-y218
+# y217 (retired: -16 vs y211 after 854; 192 explore draws)
+# y218 (retired: -22 vs y211 after 721; UPGRADE_SPARE 1600)
 # y219 (retired unplayed: slot for study 8 candidates)
 # y220 (retired unplayed: slot for study 8 candidates)
 t102
@@ -360,3 +360,6 @@ t105
 t106
 t107
 y221
+y222
+y223
+t108
