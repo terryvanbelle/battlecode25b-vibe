@@ -170,3 +170,6 @@ I'm having second thoughts on the amount of games you want to allocate to the "v
 
 ## #48 (2026-11-26 17:24 PDT)
 I'm good with your option 3, as stated.  If the anomalous dip in the delta Elo chart is truly caused by the winner's curse, this should alleviate that.  Let's see if it does
+
+## #49 (2026-11-26 17:29 PDT)
+There's an error in the Confirming status.  It's showing NaN/NaN instead of 0/150

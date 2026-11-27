@@ -68,11 +68,14 @@ def main(out):
     for r in pool:
         r['replica_ref'] = r['bot'] in refs and not r['replica_record']
         # owner #46: a qualifier in its confirmation window
-        r['confirm'] = None
-        if r['bot'] in confirm and champ_name:
+        # flat fields: the dashboard's datasets do not keep nested objects (owner 17:30: the pill read NaN/NaN)
+        r['confirm'] = r['bot'] in confirm and champ_name is not None
+        r['confirm_games'] = r['confirm_lead'] = r['confirm_se'] = r['confirm_since'] = None
+        r['confirm_need'] = tourney.CONFIRM_GAMES
+        if r['confirm']:
             lead, se, n = tourney.fresh(r['bot'], confirm[r['bot']], champ_name)
-            r['confirm'] = dict(fresh_games=n, need=tourney.CONFIRM_GAMES, fresh_lead=round(lead), fresh_se=round(se),
-                                since_run=confirm[r['bot']])
+            r['confirm_games'], r['confirm_lead'], r['confirm_se'] = n, round(lead), round(se)
+            r['confirm_since'] = confirm[r['bot']]
     status['refs'] = ', '.join(refs)
     status['confirm_games'] = tourney.CONFIRM_GAMES
     champ = open('research/tourney/champion.txt').read().strip()
