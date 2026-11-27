@@ -4,7 +4,12 @@ The record is the highest rating in progress/replica-elo.csv (the earliest sampl
 champion submitted 15 minutes before that sample, so a bot crowned just before a sample is not credited with its
 predecessor's matches. The holder keeps a permanent slot in the local pool: an active line in
 research/tourney/pool.txt whose comment says 'replica record'. No extra slot is needed when the holder is the
-champion or already active. Prints what to do, changes nothing."""
+champion or already active. Prints what to do, changes nothing.
+
+Owner #45: two more permanent slots, the 'replica reference' lines, go to the next best replica peaks (each champion's
+best sample while it held the replica), skipping the current champion and the record holder's direct parent and
+children (one change from the holder, so nearly the same bot; owner #45 worried about correlated references).
+The dashboard's vs refs column scores each candidate against the three."""
 import csv
 import os
 import sys
@@ -22,6 +27,28 @@ def holder():
     t = datetime.strptime(best['when_pdt'], '%Y-%m-%d %H:%M').replace(tzinfo=hist[0]['when'].tzinfo)
     before = [h['bot'] for h in hist if h['when'] <= t - timedelta(minutes=15)]
     return (before[-1] if before else best['champion']), best
+
+
+def peaks():
+    """bot -> (best our_rating, its rank, when) over the samples taken while the bot was the submitted champion."""
+    hist = tourney.champ_history()
+    out = {}
+    for r in csv.DictReader(open(os.path.join(REPO, 'progress/replica-elo.csv'))):
+        t = datetime.strptime(r['when_pdt'], '%Y-%m-%d %H:%M').replace(tzinfo=hist[0]['when'].tzinfo)
+        before = [h['bot'] for h in hist if h['when'] <= t - timedelta(minutes=15)]
+        bot, v = (before[-1] if before else r['champion']), int(r['our_rating'])
+        if bot not in out or v > out[bot][0]:
+            out[bot] = (v, r['our_rank'], r['when_pdt'])
+    return out
+
+
+def references(bot, champ):
+    hist = tourney.champ_history()
+    parent = {h['bot']: h.get('base', '') for h in hist}
+    near = {parent.get(bot)} | {b for b, p in parent.items() if p == bot}
+    pk = peaks()
+    ranked = sorted(pk, key=lambda b: (-pk[b][0], pk[b][2]))
+    return [b for b in ranked if b not in (bot, champ) and b not in near][:2], pk
 
 
 def main():
@@ -42,6 +69,16 @@ def main():
     for b in slots:
         if b != bot:
             print(f'  {b} has the replica-record slot but no longer holds the record: retire it unless it earns its place')
+    want, pk = references(bot, champ)
+    refs = [l.split('#')[0].strip() for l in open(tourney.POOL)
+            if l.split('#')[0].strip() and 'replica reference' in l.split('#', 1)[-1]]
+    print('replica references (owner #45): ' + ', '.join(f'{b} {pk[b][0]} at #{pk[b][1]}' for b in want))
+    for b in want:
+        if b not in refs:
+            print(f'  ADD {b} to research/tourney/pool.txt, its comment saying "replica reference" (owner #45)')
+    for b in refs:
+        if b not in want:
+            print(f'  {b} has a replica-reference slot but is no longer among the best peaks: retire it')
 
 
 if __name__ == '__main__':

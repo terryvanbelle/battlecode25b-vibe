@@ -20,12 +20,18 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
 
 ## Steps
 1. `tools/prod.sh pull` - status, pulls every unfinished run, ranks.
-2. If rank prints `NEW CHAMPION X (was Y)`: `tools/crown.sh X Y "what X changes (study/tactic)"`. Check the audit
+2. Confirmation stage (owner #46): a bot that clears the lead bar prints `CONFIRMING X` and is crowned only after 150
+   fresh games (runs after it qualified, `research/tourney/confirm.txt`) in which it still leads (> 0). `NOT CONFIRMED`
+   restarts its window; never retire a bot for failing it (owner: don't throw away possible improvements).
+   If rank prints `NEW CHAMPION X (was Y)`: `tools/crown.sh X Y "what X changes (study/tactic)"`. Check the audit
    diff is only the intended change. If the unit tests fail on a spawn-mix check, update `test/vibe/BotTest.java`.
    Then retire bots built on the old champion (`# NAME (retired: reason)` in `research/tourney/pool.txt`), never the
-   replica-record slot (a pool line whose comment says `replica record`, owner #35), and
+   replica slots (pool lines whose comment says `replica record`, owner #35, or `replica reference`, owner #45), and
    rebuild the promising ones on the new champion with `variant.py port`.
-3. Pool upkeep, about 10 active, half tunings (`yNN`) and half tactic copies (`tNN`, owner prompt #12):
+3. Pool upkeep, about 10 active besides the 3 replica slots, half tunings (`yNN`) and half tactic copies (`tNN`, #12).
+   The pool table's vs refs (dashboard) is each bot's score against the replica slots minus the champion's: a
+   candidate that gains on the champion but not on the references is the local-vs-replica warning sign (owner #45).
+   Upkeep:
    - retire bots clearly behind (about -20 or worse after 200+ games, or flat after 500);
    - build candidates: `python3 tools/variant.py NEW BASE FILE 'OLD' 'NEW' [...]` (exact, single-occurrence
      replacements; snapshots and adds) or `python3 tools/variant.py port NEW BASE VAR VARBASE`; then
@@ -36,7 +42,8 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
    it gets games from the next ones.
 5. `tools/prod.sh replica` - replica Elo sample and chart, local chart, parity top-up, fetch, recent matches.
    Its `tools/record.py` line names the replica record holder (owner #35: a permanent pool slot unless it is the
-   champion or already active). Act on an `ADD` or retire line it prints.
+   champion or already active) and the two replica references (owner #45: the next best replica peaks, skipping the
+   champion and the holder's direct parent and children). Act on an `ADD` or retire line it prints.
    At the first prod on or after 2026-11-29 16:07 PDT, run the pre-registered test once (`research/replica/PREREG.md`,
    owner #39) and report it; never look at it earlier.
 6. `tools/prod.sh disk`.

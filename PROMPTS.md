@@ -153,5 +153,14 @@ Let's put "Best Replica" in blue to make it stand out
 ## #42 (2026-11-26 16:28 PDT)
 Best Replica looks good now.  That was a good idea of yours, to keep the institutional knowledge in the local tournament at all times
 
-## #43 (2026-11-26 16:36 PDT)
+## #43 (2026-11-26 16:33 PDT)
 There must be a lot of literature comparing performance on self-play versus performance vs. a set benchmark.  Anything there that we can use?
+
+## #44 (2026-11-26 16:38 PDT)
+I like option #1, but I'm worried it won't give us much signal, since we'll generally trounce older versions of ourselves.  Best replica at least has the implicit knowledge of how to beat the field
+
+## #45 (2026-11-26 16:43 PDT)
+Yes, let's.  I have a mild worry that bots that close together in time will largely be correlated, but it's probably worth the extra work on the box
+
+## #46 (2026-11-26 16:45 PDT)
+I'm also open to option #3, as long as we don't get so strict that we start throwing away bots that might be improvements

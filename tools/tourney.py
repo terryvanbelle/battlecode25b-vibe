@@ -4,7 +4,7 @@
 The pool is research/tourney/pool.txt (one bot per line; '# NAME (why)' = retired: unscheduled and unlisted,
 but its games still count in the fit). Every local game in runs/*/results.jsonl between two pool
 bots on the local map set (tools/maps-local.txt) counts (any seat, any map seed), so earlier screens and calibration runs seed the ladder.
-The leader becomes the local champion once it has MIN_GAMES games and leads the champion by one combined SE; research/tourney/champion.txt holds the current one,
+The leader qualifies once it has MIN_GAMES games and leads the champion by one combined SE, and becomes the local champion after CONFIRM_GAMES fresh games in which it still leads (owner #46); research/tourney/champion.txt holds the current one,
 and a change is submitted to the replica without any gate (prod does the submit).
 
   tourney.py rank [--runs-root DIR]        ladder with SE, games; flags a new champion
@@ -21,7 +21,7 @@ against the champion and the rest against the current top TOP bots (TOP 20 cover
 goes to pairs among the top TOP, weighted toward close ratings and large standard errors (the places that decide
 first place). Each game: a random map of the local set, a random map seed in 0..SEEDS-1, random seats.
 """
-import json, os, random, sys, glob, math, collections
+import json, os, random, re, sys, glob, math, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import elolib
 
@@ -48,10 +48,31 @@ def retired():
     return out
 
 
-def games(root=R):
+def run_num(path):
+    """tr257 -> 257; study and calibration runs -> 0 (never fresh for the confirmation stage)."""
+    m = re.search(r'/tr(\d+)/', path)
+    return int(m[1]) if m else 0
+
+
+def refs():
+    """The replica reference bots (owner #35/#45): active pool lines whose comment says 'replica record' or
+    'replica reference'."""
+    return [l.split('#')[0].strip() for l in open(POOL)
+            if l.split('#')[0].strip() and re.search('replica (record|reference)', l.split('#', 1)[-1])]
+
+
+def last_run(root=R):
+    """The highest tr run with any results: games after it are fresh."""
+    fs = glob.glob(os.path.join(root, 'runs', 'tr*', 'results.jsonl'))
+    return max([run_num(f) for f in fs if os.path.getsize(f)] or [0])
+
+
+def games(root=R, runs=False):
+    """(a, b, a_won, b_won) per game; with runs=True, (run number, that tuple)."""
     P, ms = set(pool()) | set(retired()), set(MAPS)
     out = []
     for f in glob.glob(os.path.join(root, 'runs', '*', 'results.jsonl')):
+        rn = run_num(f)
         for line in open(f):
             if not line.startswith('{'):
                 continue
@@ -63,8 +84,44 @@ def games(root=R):
                 continue
             if g.get('winner') not in ('A', 'B'):
                 continue
-            out.append((g['a'], g['b'], g['winner'] == 'A', g['winner'] == 'B'))
+            t = (g['a'], g['b'], g['winner'] == 'A', g['winner'] == 'B')
+            out.append((rn, t) if runs else t)
     return out
+
+
+# Confirmation stage (owner #46, option 3 of the literature answer to #43): the bot that first clears the lead bar is
+# partly lucky (winner's curse: 16 of the first 40 champions later rated below the bot they replaced), so a qualifier
+# is crowned only after CONFIRM_GAMES fresh games (runs started after it qualified) in which it still leads the
+# champion (> 0, a deliberately mild bar). A bot that fails is not retired: its window restarts, and it keeps playing
+# under the usual pool rules. research/tourney/confirm.txt holds 'BOT RUN' per qualifier (fresh = runs after RUN).
+CONFIRM = os.path.join(R, 'research', 'tourney', 'confirm.txt')
+CONFIRM_GAMES = 150
+
+
+def read_confirm():
+    if not os.path.exists(CONFIRM):
+        return {}
+    return {p[0]: int(p[1]) for p in (l.split() for l in open(CONFIRM)) if len(p) >= 2 and not p[0].startswith('#')}
+
+
+def write_confirm(state):
+    with open(CONFIRM, 'w') as f:
+        f.write('# BOT RUN: qualified for the crown; games in runs after RUN confirm it (tourney.py, owner #46)\n')
+        for b, rn in sorted(state.items()):
+            f.write(f'{b} {rn}\n')
+
+
+def fresh(bot, since, ch, root=R):
+    """bot's lead over the champion counting only its games in runs after `since`: (lead, se, fresh games)."""
+    gr = games(root, runs=True)
+    keep = [g for rn, g in gr if not (bot in g[:2] and rn <= since)]
+    n = sum(1 for rn, g in gr if bot in g[:2] and rn > since)
+    if not n:
+        return 0.0, 400.0, 0
+    rt = elolib.fit(keep)
+    if bot not in rt or ch not in rt:
+        return 0.0, 400.0, n
+    return rt[bot].rating - rt[ch].rating, math.hypot(rt[bot].se, rt[ch].se), n
 
 
 def ladder(root=R):
@@ -98,13 +155,36 @@ def cmd_rank(root):
     elig = [(b, r) for b, r in lad if r.games >= MIN_GAMES]
     rc = dict(lad).get(ch)
     if elig and elig[0][0] != ch and rc is not None:
-        b, r = elig[0]
-        margin = math.hypot(r.se, rc.se)   # hysteresis (11-21 10:13): lead the champion by one combined SE
-        if r.rating - rc.rating > margin:
+        # hysteresis (11-21 10:13): lead the champion by one combined SE; then the confirmation stage (owner #46)
+        qual = [(b, r) for b, r in elig if b != ch and r.rating - rc.rating > math.hypot(r.se, rc.se)]
+        old, last, crown = read_confirm(), last_run(root), None
+        state = {b: old.get(b, last) for b, _ in qual}   # a new qualifier's window opens now; non-qualifiers drop out
+        for b, r in qual:
+            margin = math.hypot(r.se, rc.se)
+            lead, se, n = fresh(b, state[b], ch, root)
+            if n >= CONFIRM_GAMES and lead > 0:
+                print(f'confirmed {b}: leads {ch} by {r.rating - rc.rating:.0f} > {margin:.0f}, and by {lead:+.0f} '
+                      f'+-{se:.0f} in its {n} fresh games (runs after tr{state[b]})')
+                crown = crown or (b, r, margin)
+            elif n >= CONFIRM_GAMES:
+                print(f'NOT CONFIRMED {b}: {lead:+.0f} +-{se:.0f} vs {ch} in its {n} fresh games (runs after '
+                      f'tr{state[b]}); not retired, its window restarts after tr{last}')
+                state[b] = last
+            else:
+                print(f'CONFIRMING {b}: leads {ch} by {r.rating - rc.rating:.0f} > {margin:.0f}; fresh {lead:+.0f} '
+                      f'+-{se:.0f} in {n} of {CONFIRM_GAMES} games (runs after tr{state[b]})')
+        if root == R and state != old:
+            write_confirm(state)
+        if crown:
+            b, r, margin = crown
             print(f'NEW CHAMPION {b} (was {ch}): leads the bots with >= {MIN_GAMES} games by '
-                  f'{r.rating - rc.rating:.0f} > {margin:.0f}')
+                  f'{r.rating - rc.rating:.0f} > {margin:.0f}, confirmed on fresh games')
+        elif qual:
+            print(f'champion {ch} (held: {", ".join(b for b, _ in qual)} confirming)')
         else:
-            print(f'champion {ch} (held: {b} leads it by {r.rating - rc.rating:.0f}, needs > {margin:.0f})')
+            b, r = elig[0]
+            print(f'champion {ch} (held: {b} leads it by {r.rating - rc.rating:.0f}, '
+                  f'needs > {math.hypot(r.se, rc.se):.0f})')
     elif elig and elig[0][0] != ch:
         print(f'NEW CHAMPION {elig[0][0]} (was {ch}): leads the bots with >= {MIN_GAMES} games')
     else:
@@ -158,7 +238,19 @@ def cmd_plan(run, n):
             sw = [min(rate[b].se, 350 / math.sqrt(max(have[b], 1))) + 10 for b in others]
             for k in range(n // 4):
                 pairs.append((random.choices(others, sw)[0], ch))
-    cand = [(a, b) for i, a in enumerate(top) for b in top[i + 1:]]
+    # owner #45: a fifth of the run pairs the champion (a quarter of these) and the rated candidates with the replica
+    # references, so each candidate's score against the field-proven bots (the dashboard's vs refs) gets enough games
+    rf = [b for b in refs() if b in rate]
+    cands = [b for b in top if b not in rf and b != ch]
+    if rf and cands:
+        for k in range(n // 5):
+            x = ch if ch in rate and ch not in rf and random.random() < 0.25 else random.choice(cands)
+            pairs.append((x, random.choice(rf)))
+    # owner #46: a bot in its confirmation window plays the champion more, so confirming costs about one prod
+    for b in read_confirm():
+        if b in rate and ch in rate and b != ch:
+            pairs += [(b, ch)] * (n // 10)
+    cand = [(a, b) for i, a in enumerate(top) for b in top[i + 1:] if not (a in rf and b in rf)]   # no ref-vs-ref
     # SE expected once the planned games are in (~350/sqrt(games)): an unplayed bot's prior SE of 400 would otherwise
     # pull every top-pair game in each of several consecutive plans (11-22 11:20)
     se = {x: min(rate[x].se, 350 / math.sqrt(max(have[x], 1))) for x in top}
