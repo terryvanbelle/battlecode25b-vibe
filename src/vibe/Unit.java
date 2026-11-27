@@ -20,7 +20,14 @@ public strictfp class Unit {
         MapLocation best = null; int bestD = Integer.MAX_VALUE;
         for (int i = G.nTowers; --i >= 0; ) {
             MapLocation l = G.towerLoc[i];
-            if (towerDry[i] > 0 && G.round - towerDry[i] < 40 && !(G.towerKind[i] == 2 && churnable())) continue;
+            if (towerDry[i] > 0 && G.round - towerDry[i] < (G.towerKind[i] == 1 ? 10 : 40) && !(G.towerKind[i] == 2 && churnable())) {
+                // study 9 2.4: paint-tower flags expire after 10 rounds (was 40); a flagged tower in sight is re-sensed
+                // and its flag dropped if it holds 50+ paint again
+                if (!rc.canSenseLocation(l)) continue;
+                RobotInfo ft = rc.senseRobotAtLocation(l);
+                if (ft == null || ft.team != G.me || ft.paintAmount < 50) continue;
+                towerDry[i] = 0;
+            }
             int d = G.here.distanceSquaredTo(l);
             if (G.towerKind[i] == 1) d = d * 7 / 10;
             if (d < bestD) { bestD = d; best = l; }

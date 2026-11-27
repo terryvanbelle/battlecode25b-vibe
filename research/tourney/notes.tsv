@@ -185,3 +185,8 @@ t126	t118 + study 9 2.4 (L1 only): a drained money tower in sight that is L2+ ke
 t127	t122 (dry flags) + t123 (study 9 2.3, on one tower or none build)
 y254	t122 with paint-tower dry flags expiring after 5 rounds (was 10)
 y255	t118 with only a mopper in view counting as a cleaner (not splashers)
+y256	t122 + y255 (only moppers count as cleaners)
+y257	t122 + y253 (a lone give-up avoids the ruin 10 rounds)
+y258	t122 with the lone give-up after 8 blocked turns (was 5)
+y259	t122 with the give-up beside a cleaner after 35 blocked turns (was 25)
+y260	t122 dropping a dry flag in sight at 25+ paint (was 50)

@@ -395,7 +395,7 @@ y221  # replica reference: peak 1673 at #7 on 11-26 18:08 PDT; permanent slot wi
 # y246 (retired: -60 vs t111 after 274 games)
 # t116 (retired: built on t111, champion now t118)
 # t117 (retired: built on t111, champion now t118)
-t118
+t118  # replica record: 1716 at #5 on 11-27 00:08 PDT; permanent slot (owner #35), champion until t122
 # y247 (retired before play: both parents y245 and y241 fell behind)
 # t119 (retired: built on t111, champion now t118)
 # t120 (retired: -12 vs t118 after 628 games; study 9 2.1a on t118)
@@ -404,14 +404,19 @@ t122
 # y248 (retired: flat, +2 vs t118 after 591 games)
 # y249 (retired: -30 vs t118 after 427 games)
 # y211 (retired: its replica-reference slot passed to y221, peak 1673 > 1663, once t118 took the record; owner #45)
-t123
+# t123 (retired: built on t118, champion now t122)
 # t124 (retired: -28 vs t118 after 209 games; study 9 2.2)
 # y250 (retired: flat, -3 vs t118 after 707 games; failed confirmation once)
 y251
 # t125 (retired: -26 vs t118 after 326 games; study 9 2.1c)
 y252
-y253
-t126
+# y253 (retired: built on t118, champion now t122)
+# t126 (retired: built on t118, champion now t122)
 t127
-y254
-y255
+# y254 (retired: -42 vs t118 after 165 games)
+# y255 (retired: built on t118, champion now t122)
+y256
+y257
+y258
+y259
+y260
