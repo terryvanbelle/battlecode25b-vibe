@@ -202,3 +202,5 @@ y264	t122 with paint-tower dry flags lasting 20 rounds (was 10)
 t133	t128 without the idle fill (study 10 2.1a+b only: rebuild paint towers; paint near own towers in pattern colour)
 y265	t131 salting at 8+ enemy tiles with +6 per tile (was 12, +4)
 y266	y260 + t131 (dry flag drops at 25+ paint; splashers salt killed towers' ruins)
+t134	t122 + study 10 4.5: a soldier out of paint mid-pattern with no known paint tower explores instead of standing still
+t135	t122 + study 10 2.6d: a soldier with no other soldier in view skips the 25-paint pattern mark
