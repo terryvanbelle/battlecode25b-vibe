@@ -42,3 +42,4 @@ when_pdt,bot,base,change,submission
 2026-11-26 15:27,y211,y197,study 7 2.1a tuned: up to 128 random draws for an unseen explore target (was 16),72
 2026-11-26 17:47,y221,y211,study 8 2.2 (paint the first tower's pattern on the way in; a second soldier on the first ruin) + explore timeout 90; first champion through the confirmation stage (owner #46),73
 2026-11-26 19:34,t111,y221,splashers attack enemy paint/money towers from a stand-off tile outside their range (study 8 2.4),74
+2026-11-26 23:27,t118,t111,study 9 2.1b: a soldier on a blocked pattern with no own mopper or splasher in view gives up after 5 turns (was 25); confirmed +71 +-29 in 153 fresh games,75

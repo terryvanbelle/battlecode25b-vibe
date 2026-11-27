@@ -174,3 +174,7 @@ t121	study 9 2.3: on one tower or none with 1000+ chips, soldiers skip deny/sieg
 t122	t118 + t116 (study 9 2.4 dry flags)
 y248	t118 with the lone give-up at 3 blocked turns (was 5)
 y249	t118 with the give-up beside a cleaner at 15 blocked turns (was 25)
+t123	t118 + t121 (study 9 2.3: on one tower or none, build instead of painting)
+t124	t118 + t119 (study 9 2.2: no paint tower -> rebuild paint, not money)
+y250	t118 with a lone give-up marking the ruin bad for 20 rounds (was 40)
+y251	t122 (t118 + dry flags) + y248 (lone give-up after 3)

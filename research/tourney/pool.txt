@@ -368,7 +368,7 @@ t91  # replica reference: peak 1667 at #7 on 11-26 13:07 PDT (the record until y
 # y224 (retired at t111's crowning: +12 vs y221 after 746; in y229)
 # y225 (retired at t111's crowning: +23 vs y221 after 638, confirming; in y230)
 # y226 (retired: -23 after 580 games)
-t111
+t111  # replica record: 1682 at #7 on 11-26 23:08 PDT; permanent slot (owner #35), champion until t118
 # y228 (retired: -51 after 245 games)
 # y229 (retired: flat, +3 vs t111 after 1073 games)
 # y230 (retired: -31 vs t111 after 371 games)
@@ -393,14 +393,18 @@ t111
 # y244 (retired: -19 vs t111 after 443 games)
 # y245 (retired: -20 vs t111 after 315 games)
 # y246 (retired: -60 vs t111 after 274 games)
-t116
-t117
+# t116 (retired: built on t111, champion now t118)
+# t117 (retired: built on t111, champion now t118)
 t118
 # y247 (retired before play: both parents y245 and y241 fell behind)
-t119
+# t119 (retired: built on t111, champion now t118)
 t120
-t121
+# t121 (retired: built on t111, champion now t118)
 t122
 y248
 y249
 y211  # replica reference: peak 1663 at #9 on 11-26 17:53 PDT; permanent slot with t91 (owner #45, record.py), back once t111 took the record
+t123
+t124
+y250
+y251

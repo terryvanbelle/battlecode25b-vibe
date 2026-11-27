@@ -257,7 +257,10 @@ public strictfp class Soldier {
             return true;
         }
         if (enemyTiles > 0) {
-            if (++ruinBlocked > 25) { markBad(r, 100); ruin = null; return false; }
+            // study 9 2.1b: no blocked attempt completes without an own mopper or splasher in view: alone, give up after 5
+            boolean cleaner = false;
+            for (RobotInfo a : G.allies) if (a.type == UnitType.MOPPER || a.type == UnitType.SPLASHER) { cleaner = true; break; }
+            if (++ruinBlocked > (cleaner ? 25 : 5)) { markBad(r, cleaner ? 100 : 40); ruin = null; return false; }
         }
         // move: toward the nearest wrong tile, else stay adjacent to complete when the chips arrive
         if (wrong > 0 && walkL != null) {
