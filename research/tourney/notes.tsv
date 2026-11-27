@@ -218,3 +218,4 @@ y275	t136 with money upgrades at cost + spare + 3500 (t136: +5000)
 y276	t135 with lone soldiers skipping the mark only before r150
 t138	t135 + t136 (study 10 2.6c: money upgrades at +5000 spare)
 y277	t135 + y274 (money upgrades at +7500 spare)
+t139	t135 + study 10 2.5 alone (forgetTower moves the dry flag with its tower; untested apart from t132)
