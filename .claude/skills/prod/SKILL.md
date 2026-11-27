@@ -28,7 +28,7 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
    Then retire bots built on the old champion (`# NAME (retired: reason)` in `research/tourney/pool.txt`), never the
    replica slots (pool lines whose comment says `replica record`, owner #35, or `replica reference`, owner #45), and
    rebuild the promising ones on the new champion with `variant.py port`.
-3. Pool upkeep, about 10 active besides the 3 replica slots, half tunings (`yNN`) and half tactic copies (`tNN`, #12).
+3. Pool upkeep, about 10 active besides the 3 replica slots (about 13 in all, owner #52), half tunings (`yNN`) and half tactic copies (`tNN`, #12).
    The replica slots are regular entrants that are never retired; they get no extra games (owner #47). Upkeep:
    - retire bots clearly behind (about -20 or worse after 200+ games, or flat after 500);
    - build candidates: `python3 tools/variant.py NEW BASE FILE 'OLD' 'NEW' [...]` (exact, single-occurrence

@@ -179,3 +179,9 @@ Let's make sure that TRAINING_ALGORITHM is up to date with the new approach
 
 ## #51 (2026-11-26 19:12 PDT)
 Go ahead
+
+## #52 (2026-11-26 19:58 PDT)
+I'd like the 3 Best Replica bots to be in addition to the 10 bots normally in the tournament, so our new target size is ~13 bots
+
+## #53 (2026-11-26 20:05 PDT)
+You probably also want to rebucket the delta Elo graph now that the local Elo values are fixed

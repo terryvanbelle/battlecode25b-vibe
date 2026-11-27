@@ -78,7 +78,7 @@ replica. That build is the first champion.
 ## 2. The loop: a continuous local tournament
 
 ### 2.1 Pool and names
-- About **10 bots** besides the replica slots: the champion plus newcomers, half incremental tunings and half tactics
+- About **10 bots** besides the replica slots, so about 13 in all (owner #52): the champion plus newcomers, half incremental tunings and half tactics
   copied from the field or swings. Refill whichever kind is short.
 - **Replica slots** (owner prompts #35, #45, #47): the build with the best ladder rating ever, and the builds with the
   next two best ladder peaks, keep permanent places. A peak is a champion's best ladder sample while it was the
@@ -275,7 +275,7 @@ Records hold measurements, not stories, and nothing stale stays.
 
 | parameter | default |
 |---|---|
-| pool | about 10 bots: champion + newcomers, half incremental, half field tactics or swings; plus 3 replica slots |
+| pool | about 10 bots: champion + newcomers, half incremental, half field tactics or swings; plus 3 replica slots, ~13 in all |
 | replica slots | the best ladder rating ever + the next two best ladder peaks; not the champion, not the holder's parent or children |
 | qualify | ≥ MIN_GAMES = 200 games and a lead > √(SE₁² + SE₂²) over the champion |
 | confirm | CONFIRM_GAMES = 150 fresh games in which the lead is still > 0; failing restarts the window |

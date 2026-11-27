@@ -7,7 +7,8 @@ PRIOR was 1 until 2026-11-26 19:20 PDT (owner prompt #51). Far above the anchor,
 about PRIOR wins, whatever the distance. Each champion's era of ~10 bots is tied to the era before it by only a few
 hundred games, so with PRIOR = 1 every era sank 20-40 points against the one it beat, and the history showed champions
 declining where every head-to-head said they improved. The MM steps are accelerated with SQUAREM (Varadhan & Roland
-2008), since the weak prior leaves the chain of eras slow to converge.
+2008), since the weak prior leaves the chain of eras slow to converge; without keys the fit uses Newton steps with a
+conjugate-gradient solve instead (newton()), which settles the whole history in seconds.
 A pair's games are capped at PAIR_CAP (scaled down keeping its win share), so one heavily repeated pairing cannot
 dominate. Ratings are 400*log10(r), shifted so the mean over all players is 1500. se is the standard error from
 the diagonal of the information matrix (each other rating taken as known), so it is a little optimistic.
@@ -87,7 +88,7 @@ def fit_h(games, iters=2000, tol=1e-9, prior=PRIOR):
             raw[b][0] += wb; raw[b][1] += wa
     players = sorted(opp)
     keys = sorted(hn, key=str)
-    r = {p: 1.0 for p in players}
+    r = newton(t, players, prior, tol) if not hn else {p: 1.0 for p in players}
     h = {k: 1.0 for k in keys}
 
     def m(k):
@@ -133,7 +134,7 @@ def fit_h(games, iters=2000, tol=1e-9, prior=PRIOR):
 
     # SQUAREM: two MM steps, extrapolate along them, one more step; keep it only if the likelihood rose
     x0 = get()
-    for _ in range(max(1, iters // 3)):
+    for _ in range(max(1, iters // 3) if hn else 0):
         x1 = step(x0); x2 = step(x1)
         dr = [b - a for a, b in zip(x0, x1)]
         dv = [c - 2 * b + a for a, b, c in zip(x0, x1, x2)]
@@ -169,6 +170,64 @@ def fit_h(games, iters=2000, tol=1e-9, prior=PRIOR):
         w, l = raw[p]
         out[p] = Rating(1500 + SCALE * (logs[p] - mean), SCALE / math.sqrt(info), w + l, w, l)
     return out, {k: SCALE * math.log(h[k]) for k in keys}
+
+
+def newton(t, players, prior, tol=1e-9, steps=60):
+    """Strengths {player: r} maximizing the likelihood of the unkeyed table t with the anchor prior: Newton steps on
+    log strengths, each solved by Jacobi-preconditioned conjugate gradients, with a backtracking line search."""
+    idx = {p: i for i, p in enumerate(players)}
+    pairs = [(idx[i], idx[j], wi, wj) for (i, j, k), (wi, wj) in t.items()]
+    n = len(players)
+    x = [0.0] * n
+    sig = lambda z: 1.0 / (1.0 + math.exp(-z)) if z > -700 else 0.0
+
+    def ll(x):
+        v = 0.0
+        for i, j, wi, wj in pairs:
+            d = x[i] - x[j]
+            v -= wi * math.log1p(math.exp(-d)) if d > -700 else wi * -d
+            v -= wj * math.log1p(math.exp(d)) if d < 700 else wj * d
+        for z in x:
+            v -= prior * (math.log1p(math.exp(-z)) + math.log1p(math.exp(z)))
+        return v
+
+    cur = ll(x)
+    for _ in range(steps):
+        g = [prior * (1.0 - 2.0 * sig(z)) for z in x]
+        dg = [2.0 * prior * sig(z) * (1.0 - sig(z)) + 1e-12 for z in x]
+        hw = []
+        for i, j, wi, wj in pairs:
+            q = sig(x[i] - x[j]); m = wi + wj
+            g[i] += wi - m * q; g[j] += wj - m * (1.0 - q)
+            w = m * q * (1.0 - q); hw.append(w); dg[i] += w; dg[j] += w
+
+        def hv(v):
+            out = [a * b for a, b in zip(dg, v)]   # H = diag(dg) - offdiag(w): (Hv)_i = dg_i v_i - sum_j w_ij v_j
+            for (i, j, _, _), w in zip(pairs, hw):
+                out[i] -= w * v[j]; out[j] -= w * v[i]
+            return out
+
+        d = [0.0] * n; res = g[:]; z = [a / b for a, b in zip(res, dg)]; pv = z[:]
+        rz = sum(a * b for a, b in zip(res, z)); g0 = math.sqrt(sum(a * a for a in g))
+        for _ in range(4 * n):
+            hp = hv(pv); a = rz / max(1e-300, sum(u * v for u, v in zip(pv, hp)))
+            d = [u + a * v for u, v in zip(d, pv)]
+            res = [u - a * v for u, v in zip(res, hp)]
+            if math.sqrt(sum(u * u for u in res)) <= 1e-10 * max(g0, 1e-300):
+                break
+            z = [u / v for u, v in zip(res, dg)]; rz2 = sum(u * v for u, v in zip(res, z))
+            pv = [u + (rz2 / rz) * v for u, v in zip(z, pv)]; rz = rz2
+        step = 1.0
+        while step > 1e-6:
+            xn = [u + step * v for u, v in zip(x, d)]
+            new = ll(xn)
+            if new >= cur - 1e-12:
+                break
+            step /= 2
+        x, cur = xn, new
+        if max(abs(step * v) for v in d) < tol:
+            break
+    return {p: math.exp(x[idx[p]]) for p in players}
 
 
 def expected(ra, rb):
