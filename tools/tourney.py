@@ -48,6 +48,28 @@ def retired():
     return out
 
 
+def substitutes():
+    """Owner #57/#58 (TRAINING_ALGORITHM 2.5): a retired line '# OLD (retired: substituted by NEW ...)' hands OLD's
+    slot, record and role to NEW, a bot verified to behave identically. Returns {OLD: NEW}."""
+    out = {}
+    for l in open(POOL):
+        t = l.strip()
+        m = re.search(r'substituted by (\w+)', t)
+        if t.startswith('#') and len(t.split()) > 1 and m:
+            out[t.split()[1]] = m[1]
+    return out
+
+
+def canon(b, sub=None):
+    """The name b's games and role count under now: b itself, or the end of its chain of substitutes."""
+    sub = substitutes() if sub is None else sub
+    seen = set()
+    while b in sub and b not in seen:
+        seen.add(b)
+        b = sub[b]
+    return b
+
+
 def run_num(path):
     """tr257 -> 257; study and calibration runs -> 0 (never fresh for the confirmation stage)."""
     m = re.search(r'/tr(\d+)/', path)
@@ -68,8 +90,9 @@ def last_run(root=R):
 
 
 def games(root=R, runs=False):
-    """(a, b, a_won, b_won) per game; with runs=True, (run number, that tuple)."""
-    P, ms = set(pool()) | set(retired()), set(MAPS)
+    """(a, b, a_won, b_won) per game; with runs=True, (run number, that tuple). A substituted bot's games count
+    under its substitute's name (canon), so the substitute keeps its record."""
+    P, ms, sub = set(pool()) | set(retired()), set(MAPS), substitutes()
     out = []
     for f in glob.glob(os.path.join(root, 'runs', '*', 'results.jsonl')):
         rn = run_num(f)
@@ -84,7 +107,10 @@ def games(root=R, runs=False):
                 continue
             if g.get('winner') not in ('A', 'B'):
                 continue
-            t = (g['a'], g['b'], g['winner'] == 'A', g['winner'] == 'B')
+            a, b = canon(g['a'], sub), canon(g['b'], sub)
+            if a == b:
+                continue
+            t = (a, b, g['winner'] == 'A', g['winner'] == 'B')
             out.append((rn, t) if runs else t)
     return out
 
@@ -226,7 +252,7 @@ def guardrail(gs, ch):
 def pending():
     """bot -> games planned in runs/*/cells.tsv but not yet in their results (unfinished runs), so consecutive plans
     do not each give a newcomer its full NEW_MIN (11-22 11:15: sw15 got 60 games in each of five plans)."""
-    out = collections.Counter()
+    out, sub = collections.Counter(), substitutes()
     for c in glob.glob(os.path.join(R, 'runs', 'tr*', 'cells.tsv')):
         d = os.path.dirname(c)
         if os.path.exists(os.path.join(d, 'DONE')):
@@ -237,7 +263,7 @@ def pending():
         left = max(0.0, 1 - done / len(cells)) if cells else 0
         for a, b in cells:
             for x in (a, b):
-                out[x.split('/')[-1]] += left
+                out[canon(x.split('/')[-1], sub)] += left
     return out
 
 
@@ -297,7 +323,8 @@ def champ_history():
     pdt = ZoneInfo('America/Vancouver')
     rows = list(csv.DictReader(open(CHAMPS)))
     ch = champion()
-    if ch and (not rows or rows[-1]['bot'] != ch):   # a promotion not yet recorded: stamp it with champion.txt's mtime
+    # a promotion not yet recorded: stamp it with champion.txt's mtime (a substitute of the last champion is not one)
+    if ch and (not rows or canon(rows[-1]['bot']) != ch):
         when = dt.datetime.fromtimestamp(os.path.getmtime(CHAMP), pdt)
         rows.append({'when_pdt': f'{when:%Y-%m-%d %H:%M}', 'bot': ch, 'base': rows[-1]['bot'] if rows else '',
                      'change': '', 'submission': ''})
@@ -338,10 +365,13 @@ def write_md(gs, rt, hist, now, out=os.path.join(R, 'progress')):
          '![local elo](local-elo.png)', '',
          '| Champion from (PDT) | Bot | Change on base | Submission | Rating +- SE | Gain | Games |',
          '|---|---|---|---:|---:|---:|---:|']
+    sub = substitutes()
     for r in hist:
-        x, y = rt.get(r['bot']), rt.get(r['base'])
+        c = canon(r['bot'], sub)
+        x, y = rt.get(c), rt.get(canon(r['base'], sub))
         gain = f'{x.rating - y.rating:+.0f}' if x and y else ''
-        L.append(f"| {r['when_pdt']} | {r['bot']} | {r['change'] + (' on ' + r['base'] if r['base'] else '')} | "
+        name = r['bot'] + (f' (now {c}, verified identical)' if c != r['bot'] else '')
+        L.append(f"| {r['when_pdt']} | {name} | {r['change'] + (' on ' + r['base'] if r['base'] else '')} | "
                  f"{('#' + r['submission']) if r['submission'] else ''} | "
                  f"{f'{x.rating:.0f} +- {x.se:.0f}' if x else '-'} | {gain} | {f'{x.games:.0f}' if x else '-'} |")
     open(os.path.join(out, 'local-elo.md'), 'w').write('\n'.join(L) + '\n')
@@ -361,7 +391,8 @@ def cmd_chart(out=os.path.join(R, 'progress')):
     hist = champ_history()
     start, now = hist[0]['when'], dt.datetime.now(pdt)
     ent = entry_times()
-    champs = {r['bot'] for r in hist}
+    sub = substitutes()
+    champs = {r['bot'] for r in hist} | {canon(r['bot'], sub) for r in hist}   # a champion's substitute is no candidate
     cand = [(ent[b], rt[b]) for b in set(pool()) | set(retired())
             if b in rt and b in ent and b not in champs and ent[b] >= start and rt[b].games >= 10]
     fig, ax = plt.subplots(figsize=(10, 5))
@@ -369,14 +400,14 @@ def cmd_chart(out=os.path.join(R, 'progress')):
                color='#adb5bd', alpha=0.7, label='candidates (at entry; size = games)', zorder=2)
     xs, ys, labels = [], [], []
     for i, r in enumerate(hist):
-        b = r['bot']
-        if b not in rt:
+        b, c = r['bot'], canon(r['bot'], sub)   # plotted at its substitute's rating (the same behaviour's games)
+        if c not in rt:
             continue
         end = hist[i + 1]['when'] if i + 1 < len(hist) else now
         xs += [r['when'], end]
-        ys += [rt[b].rating, rt[b].rating]
-        ax.errorbar([r['when']], [rt[b].rating], yerr=[rt[b].se], fmt='o', color='#2a6fdb', ms=6, capsize=3, zorder=4)
-        labels.append((r['when'], rt[b].rating, rt[b].se, ys[-3] if len(ys) > 2 else rt[b].rating, b))
+        ys += [rt[c].rating, rt[c].rating]
+        ax.errorbar([r['when']], [rt[c].rating], yerr=[rt[c].se], fmt='o', color='#2a6fdb', ms=6, capsize=3, zorder=4)
+        labels.append((r['when'], rt[c].rating, rt[c].se, ys[-3] if len(ys) > 2 else rt[c].rating, b))
     ax.plot(xs, ys, color='#2a6fdb', lw=1.8, label='local champion (rating +- SE, current fit)', zorder=3)
     for i, (when, label) in enumerate(m for m in MS.read() if m[0] >= start - dt.timedelta(hours=1)):
         ax.axvline(when, color=MS.COLOR, ls='--', lw=1.3)

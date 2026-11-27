@@ -10,13 +10,16 @@ public strictfp class RobotPlayer {
         while (true) {
             int start = rc.getRoundNum();
             try {
-                G.startTurn();
-                switch (G.type) {
+                G.startTurn();                     // sensing; map, tower and (splasher) splash-grid memory
+                switch (G.type) {                  // the unit's decision list
                     case SOLDIER: Soldier.turn(); break;
                     case SPLASHER: Splasher.turn(); break;
                     case MOPPER: Mopper.turn(); break;
                 }
-                if (G.type.isRobotType()) { Unit.rebuild(); Unit.topUp(); }
+                // free actions after every robot's list, however it ended. Their gates stay inside (Churn.rebuild:
+                // REBUILD_CHIPS chips; Unit.topUp: action unused, paint below capacity) so that a robot's bytecode
+                // count, and with it the turns that overrun the limit, stays as in t135/t140.
+                if (G.type.isRobotType()) { Churn.rebuild(); Unit.topUp(); }
                 switch (G.type) {
                     case SOLDIER: case SPLASHER: case MOPPER: break;
                     default: Tower.turn(); break;

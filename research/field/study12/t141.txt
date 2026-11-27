@@ -1,0 +1,48 @@
+== lost games: 44; per 100 robot-turns (moves lost / acts lost = tax / 10)
+   type     phase     side  robot-turns  moves  rev siege/tower/free  could-move  stayed  idle (free, low paint)  stuck  below 50%  at 0   moves lost  taxed moves  acts lost
+   SOLDIER  r1-100    us         28449   65.6   3.7/ 0.1/ 0.7       96.6    31.0   11.2 (11.1,  8.2)            2.0      28.3    1.0        3.6    15.0% of moves     2.9  (per 100 actions   6.4)
+   SOLDIER  r1-100    them       25175   78.3   3.6/ 0.1/ 3.6       90.8    12.5    4.4 ( 4.2,  2.6)            3.9      37.9    0.9        9.7    28.5% of moves     4.5  (per 100 actions   9.1)
+   SOLDIER  r101-200  us         37050   71.3   2.2/ 0.3/ 1.8       87.3    16.0    3.5 ( 2.7,  2.9)            1.7      48.7    3.6       10.6    34.3% of moves     4.6  (per 100 actions  10.4)
+   SOLDIER  r101-200  them       35537   77.9   3.5/ 0.1/ 3.1       88.5    10.6    4.3 ( 4.2,  2.6)            3.3      42.2    1.2       11.3    31.4% of moves     4.1  (per 100 actions  11.2)
+   SOLDIER  r201+     us         90710   77.2   2.3/ 0.4/ 1.9       86.2     9.0    3.9 ( 3.3,  2.5)            2.1      40.5    5.9        8.9    26.3% of moves     2.3  (per 100 actions   9.2)
+   SOLDIER  r201+     them      283800   80.7   1.1/ 0.1/ 2.3       90.3     9.6    7.3 ( 7.0,  3.3)            1.2      34.4    2.1        8.6    23.6% of moves     1.7  (per 100 actions  11.7)
+   SPLASHER r1-100    us             9  100.0   0.0/44.4/ 0.0      100.0     0.0    0.0 ( 0.0,  0.0)            0.0       0.0    0.0        0.0     0.0% of moves     0.0  (per 100 actions   0.0)
+   SPLASHER r1-100    them         561   87.5   0.0/ 0.0/ 2.9       96.3     8.7    7.1 ( 7.1,  3.2)            0.4      24.1    0.0        4.8    17.3% of moves     0.4  (per 100 actions   5.0)
+   SPLASHER r101-200  us          4240   83.3   0.0/ 2.2/12.8       88.7     5.4    3.3 ( 1.0,  2.9)            3.8      45.4    1.4       11.3    33.3% of moves     0.5  (per 100 actions   5.2)
+   SPLASHER r101-200  them        7735   76.9   0.0/ 0.1/ 2.8       89.1    12.3   11.2 (11.2,  5.9)            0.7      39.9    0.9       10.8    27.1% of moves     0.5  (per 100 actions   8.1)
+   SPLASHER r201+     us         79765   74.9   0.0/ 0.5/ 5.9       79.6     4.7    3.0 ( 1.8,  2.2)            2.4      54.1    4.8       16.7    41.2% of moves     0.7  (per 100 actions   9.7)
+   SPLASHER r201+     them      271345   80.5   0.0/ 0.1/ 1.6       89.3     8.8    8.5 ( 8.2,  4.8)            0.3      39.8    1.4       10.5    28.2% of moves     0.2  (per 100 actions   8.9)
+   MOPPER   r1-100    us           544   57.2   0.0/ 0.2/ 1.3       99.8    42.6   27.0 (26.8,  0.7)            0.0       2.8    0.0        0.3     2.6% of moves     0.0  (per 100 actions   0.2)
+   MOPPER   r1-100    them        4673   87.3   0.0/ 0.4/18.1       98.1    10.8    8.3 ( 8.3,  1.6)            4.6      15.2    0.1        2.1    10.4% of moves     0.4  (per 100 actions   1.5)
+   MOPPER   r101-200  us         10392   47.6   0.0/ 0.4/ 1.4       93.8    46.2   29.1 (26.7,  5.9)            1.3      30.7    1.0        6.5    33.1% of moves     1.4  (per 100 actions   6.4)
+   MOPPER   r101-200  them       24656   81.6   0.0/ 0.2/13.3       94.6    13.0    9.8 ( 9.8,  2.3)            3.3      28.6    0.5        5.6    20.2% of moves     1.2  (per 100 actions   5.7)
+   MOPPER   r201+     us         55236   53.0   0.0/ 0.4/ 1.4       91.2    38.2   24.5 (21.9,  6.1)            0.9      39.2    1.2        9.0    42.2% of moves     1.6  (per 100 actions   8.1)
+   MOPPER   r201+     them      265643   79.5   0.0/ 0.3/ 6.9       89.0     9.5    7.1 ( 6.9,  3.1)            1.4      45.5    1.3       11.1    33.5% of moves     1.3  (per 100 actions  10.5)
+   free reversals per 100 moves (A-B-A, not siege, not beside an own tower):
+      SOLDIER  r1-100: us  1.1 them  4.5 | r101-200: us  2.5 them  4.0 | r201+: us  2.5 them  2.9
+      SPLASHER r1-100: us  0.0 them  3.3 | r101-200: us 15.4 them  3.6 | r201+: us  7.9 them  2.0
+      MOPPER   r1-100: us  2.3 them 20.7 | r101-200: us  2.9 them 16.3 | r201+: us  2.7 them  8.7
+== won games: 55; per 100 robot-turns (moves lost / acts lost = tax / 10)
+   type     phase     side  robot-turns  moves  rev siege/tower/free  could-move  stayed  idle (free, low paint)  stuck  below 50%  at 0   moves lost  taxed moves  acts lost
+   SOLDIER  r1-100    us         37069   71.6   3.7/ 0.1/ 0.8       96.0    24.4    7.0 ( 6.9,  4.9)            2.0      26.3    1.0        4.2    15.3% of moves     2.9  (per 100 actions   6.9)
+   SOLDIER  r1-100    them       30111   79.1   4.9/ 0.1/ 3.4       90.3    11.2    4.9 ( 4.8,  3.1)            5.0      39.5    1.3        9.9    28.6% of moves     4.1  (per 100 actions   9.7)
+   SOLDIER  r101-200  us         50886   74.5   1.9/ 0.3/ 1.8       87.6    13.1    2.7 ( 2.3,  2.3)            1.9      46.7    3.2       10.5    32.5% of moves     4.0  (per 100 actions   9.5)
+   SOLDIER  r101-200  them       36478   76.6   3.4/ 0.2/ 3.8       86.3     9.7    5.8 ( 5.6,  3.4)            3.6      45.6    2.5       12.3    33.0% of moves     3.3  (per 100 actions  12.8)
+   SOLDIER  r201+     us        265275   86.2   0.8/ 0.2/ 2.1       91.3     5.1    2.0 ( 1.8,  1.0)            0.6      29.6    2.9        6.5    19.3% of moves     1.1  (per 100 actions   7.5)
+   SOLDIER  r201+     them      155501   78.4   1.2/ 0.1/ 2.9       84.4     6.0    4.8 ( 4.7,  3.0)            1.4      46.3    5.1       11.5    32.4% of moves     1.6  (per 100 actions  13.1)
+   SPLASHER r1-100    us             9  100.0   0.0/ 0.0/22.2      100.0     0.0    0.0 ( 0.0,  0.0)            0.0       0.0    0.0        0.0     0.0% of moves     0.0  (per 100 actions   0.0)
+   SPLASHER r1-100    them         301   83.4   0.0/ 0.0/ 1.0       97.3    14.0   14.0 (10.6,  2.3)            0.0      20.6    0.0        3.9    13.9% of moves     0.2  (per 100 actions   2.4)
+   SPLASHER r101-200  us          5701   84.0   0.0/ 1.4/16.0       90.5     6.5    3.5 ( 1.7,  2.4)            4.7      41.8    0.7       10.0    30.6% of moves     0.5  (per 100 actions   4.4)
+   SPLASHER r101-200  them        3855   71.8   0.0/ 0.0/ 3.3       88.7    16.9   16.3 (16.0,  5.6)            2.4      39.8    1.1       11.2    29.5% of moves     0.4  (per 100 actions   7.0)
+   SPLASHER r201+     us        257305   85.2   0.0/ 0.2/ 3.4       88.8     3.6    2.9 ( 2.3,  1.4)            0.7      35.0    2.1        9.9    25.0% of moves     0.3  (per 100 actions   7.8)
+   SPLASHER r201+     them      118050   75.3   0.0/ 0.0/ 2.2       82.6     7.3    6.9 ( 6.6,  4.4)            0.9      47.8    4.0       14.5    33.4% of moves     0.5  (per 100 actions  10.8)
+   MOPPER   r1-100    us           582   59.3   0.0/ 0.2/ 0.7      100.0    40.7   24.2 (23.7,  0.3)            0.0       2.2    0.0        0.3     2.6% of moves     0.1  (per 100 actions   0.3)
+   MOPPER   r1-100    them        6609   79.6   0.0/ 0.2/14.2       98.3    18.7   13.7 (13.3,  2.3)            3.6      13.5    0.3        2.0     8.0% of moves     0.5  (per 100 actions   1.9)
+   MOPPER   r101-200  us         15304   51.1   0.0/ 0.2/ 1.4       95.2    44.1   27.2 (25.9,  4.4)            0.8      25.0    0.5        5.3    27.1% of moves     1.0  (per 100 actions   4.5)
+   MOPPER   r101-200  them       23836   78.8   0.0/ 0.1/14.8       93.9    15.1   11.3 (11.2,  2.1)            3.3      27.1    0.8        6.1    20.6% of moves     1.2  (per 100 actions   5.0)
+   MOPPER   r201+     us        114810   67.2   0.0/ 0.4/ 1.9       91.2    23.9   15.3 (14.1,  3.3)            0.8      35.5    1.0        9.2    34.0% of moves     0.7  (per 100 actions   5.7)
+   MOPPER   r201+     them      186192   79.0   0.0/ 0.1/ 9.4       88.5     9.5    7.2 ( 7.1,  3.0)            1.9      41.7    1.6       11.2    31.4% of moves     1.8  (per 100 actions  10.4)
+   free reversals per 100 moves (A-B-A, not siege, not beside an own tower):
+      SOLDIER  r1-100: us  1.2 them  4.3 | r101-200: us  2.4 them  4.9 | r201+: us  2.4 them  3.7
+      SPLASHER r1-100: us 22.2 them  1.2 | r101-200: us 19.1 them  4.6 | r201+: us  4.0 them  2.9
+      MOPPER   r1-100: us  1.2 them 17.8 | r101-200: us  2.7 them 18.8 | r201+: us  2.8 them 11.9

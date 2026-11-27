@@ -1,0 +1,56 @@
+44 lost games: m5202g1 SMILE(scienc,MAJ371), m5202g2 TargetPractice(scienc,MAJ322), m5203g2 sierpinski(lobste,MAJ682), m5204g0 DefaultLarge(gone-w,MAJ406), m5205g0 DefaultHuge(placeh,MAJ403), m5205g1 UglySweater(placeh,MAJ556), m5205g2 boxofchocolates(placeh,ALL498), m5216g1 Mirage(placeh,MAJ585), m5259g1 Barcode(gone-w,MAJ407), m5259g2 Racetrack(gone-w,MAJ250), m5277g0 HungerGames(spaark,MAJ426), m5277g1 Portal(spaark,MAJ471), m5278g0 Justice(gone-w,MAJ372), m5282g0 DonkeyKong(scienc,ALL970), m5283g1 defensetower(placeh,MAJ617), m5284g1 Rose(gone-w,MAJ411), m5356g2 yearofthesnake(immuta,MAJ710), m5366g0 Barcode(immuta,MAJ310), m5366g1 Brat(immuta,MAJ244), m5369g0 PlumberGame(immuta,MAJ371), m5369g1 memstore(immuta,MAJ1338), m5375g0 Castle(immuta,MAJ242), m5375g1 DefaultMedium(immuta,MAJ314), m5375g2 sierpinski(immuta,MAJ570), m5393g0 BatSignal(subscr,ALL442), m5393g1 Flower(subscr,MAJ390), m5393g2 mit(subscr,MAJ469), m5458g0 DefaultHuge(scienc,MAJ333), m5492g1 PlumberGame(immuta,MAJ517), m5492g2 memstore(immuta,MAJ465), m5493g0 Leaf(subscr,MAJ384), m5493g2 shell(subscr,MAJ452), m5494g0 DefaultLarge(confus,MAJ493), m5494g1 Oasis(confus,MAJ471), m5495g2 roads(gone-w,MAJ291), m5496g0 Oasis(om-nom,MAJ563), m5496g1 Terminal(om-nom,ALL478), m5496g2 gardenworld(om-nom,MAJ395), m5497g0 Filter(spaark,ARE2000), m5497g2 UnderTheSea(spaark,MAJ381), m5530g1 Snowglobe(spaark,ALL431), m5530g2 rain(spaark,MAJ835), m5537g0 DefaultSmall(subscr,ALL103), m5537g2 fix(subscr,MAJ451)
+wintypes: {'ALL_UNITS_DESTROYED': 6, 'AREA_PAINTED': 1, 'MAJORITY_PAINTED': 37}  median end round 436.5
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   44 |     9.4/9.9  147.0/146.0      3.0/3.0      1.0/1.0      2.0/2.0      0.0/0.0  750.0/1025.0  1201.0/1279.5      0.0/0.0      7.0/5.0      7.0/5.0      0.0/0.0      0.0/0.0
+r50   44 |   12.6/13.7  198.5/220.5      4.0/4.0      1.0/1.0      3.0/3.0      0.0/0.0  880.0/790.0  1461.5/1665.5      0.0/0.0      8.0/7.0      8.0/6.5      0.0/0.0      0.0/0.5
+r75   44 |   14.4/18.2  222.5/279.0      5.0/5.0      1.0/1.0      4.0/3.0      0.0/0.0  660.0/860.0  2179.5/1881.5      0.0/0.0      7.0/9.0      7.0/7.0      0.0/0.0      0.0/2.0
+r100  44 |   19.6/20.4  304.0/338.0      6.0/6.0      1.0/1.0      5.5/4.0      0.0/0.0  1140.0/1065.5  2122.0/1943.0      0.0/0.0     8.0/10.0      8.0/7.0      0.0/0.0      1.0/3.0
+r150  43 |   29.7/25.0      471/406          7/6          1/2          5/5          0/0    1540/1096    1694/2693          0/0        13/15          9/8          1/2          3/5
+r200  43 |   30.6/30.6      533/510          6/8          2/2          5/5          0/0    2294/1250    1498/3380          1/1        14/22          8/9          2/3          3/9
+r300  39 |   32.8/42.7      639/706         6/10          2/3          4/6          0/0    1602/1132    1865/5653          2/4        11/35         5/11         4/10         3/14
+r400  28 |   27.7/50.0  586.0/890.5     6.0/12.5      2.0/4.0      3.0/7.0      0.0/0.0  1439.0/1130.0  1511.5/8496.0      1.0/4.5    10.0/48.5     4.0/15.0     4.0/15.0     2.0/15.5
+
+m5202g1 SMILE          rounds r101-400 with chips>=3000: us 117 them   5; max srp us 8 them 51
+m5202g2 TargetPractice rounds r101-400 with chips>=3000: us 175 them  23; max srp us 1 them 4
+m5203g2 sierpinski     rounds r101-400 with chips>=3000: us  34 them  42; max srp us 3 them 7
+m5204g0 DefaultLarge   rounds r101-400 with chips>=3000: us  88 them 154; max srp us 4 them 0
+m5205g0 DefaultHuge    rounds r101-400 with chips>=3000: us   0 them   0; max srp us 7 them 37
+m5205g1 UglySweater    rounds r101-400 with chips>=3000: us  20 them   0; max srp us 9 them 23
+m5205g2 boxofchocolates rounds r101-400 with chips>=3000: us  88 them   0; max srp us 0 them 3
+m5216g1 Mirage         rounds r101-400 with chips>=3000: us  65 them   0; max srp us 4 them 13
+m5259g1 Barcode        rounds r101-400 with chips>=3000: us   0 them  95; max srp us 1 them 0
+m5259g2 Racetrack      rounds r101-400 with chips>=3000: us 117 them   1; max srp us 2 them 0
+m5277g0 HungerGames    rounds r101-400 with chips>=3000: us  24 them  24; max srp us 2 them 7
+m5277g1 Portal         rounds r101-400 with chips>=3000: us  41 them   0; max srp us 3 them 5
+m5278g0 Justice        rounds r101-400 with chips>=3000: us 174 them  27; max srp us 0 them 0
+m5282g0 DonkeyKong     rounds r101-400 with chips>=3000: us   0 them   0; max srp us 11 them 7
+m5283g1 defensetower   rounds r101-400 with chips>=3000: us  23 them  33; max srp us 3 them 28
+m5284g1 Rose           rounds r101-400 with chips>=3000: us   0 them 161; max srp us 0 them 0
+m5356g2 yearofthesnake rounds r101-400 with chips>=3000: us  13 them   0; max srp us 6 them 7
+m5366g0 Barcode        rounds r101-400 with chips>=3000: us 147 them  44; max srp us 1 them 2
+m5366g1 Brat           rounds r101-400 with chips>=3000: us  29 them   0; max srp us 0 them 0
+m5369g0 PlumberGame    rounds r101-400 with chips>=3000: us 145 them   0; max srp us 5 them 17
+m5369g1 memstore       rounds r101-400 with chips>=3000: us 102 them  22; max srp us 8 them 21
+m5375g0 Castle         rounds r101-400 with chips>=3000: us  74 them   0; max srp us 0 them 4
+m5375g1 DefaultMedium  rounds r101-400 with chips>=3000: us 121 them   0; max srp us 1 them 7
+m5375g2 sierpinski     rounds r101-400 with chips>=3000: us  19 them   0; max srp us 3 them 10
+m5393g0 BatSignal      rounds r101-400 with chips>=3000: us 121 them   0; max srp us 0 them 1
+m5393g1 Flower         rounds r101-400 with chips>=3000: us   3 them  35; max srp us 4 them 14
+m5393g2 mit            rounds r101-400 with chips>=3000: us  52 them   4; max srp us 6 them 24
+m5458g0 DefaultHuge    rounds r101-400 with chips>=3000: us   0 them   0; max srp us 3 them 33
+m5492g1 PlumberGame    rounds r101-400 with chips>=3000: us  62 them   0; max srp us 9 them 17
+m5492g2 memstore       rounds r101-400 with chips>=3000: us 180 them   1; max srp us 5 them 14
+m5493g0 Leaf           rounds r101-400 with chips>=3000: us   0 them   1; max srp us 8 them 34
+m5493g2 shell          rounds r101-400 with chips>=3000: us 196 them  11; max srp us 0 them 7
+m5494g0 DefaultLarge   rounds r101-400 with chips>=3000: us 170 them  60; max srp us 3 them 10
+m5494g1 Oasis          rounds r101-400 with chips>=3000: us   4 them  61; max srp us 16 them 25
+m5495g2 roads          rounds r101-400 with chips>=3000: us 161 them   0; max srp us 0 them 0
+m5496g0 Oasis          rounds r101-400 with chips>=3000: us  26 them  52; max srp us 20 them 34
+m5496g1 Terminal       rounds r101-400 with chips>=3000: us 113 them  33; max srp us 0 them 1
+m5496g2 gardenworld    rounds r101-400 with chips>=3000: us  62 them  31; max srp us 8 them 23
+m5497g0 Filter         rounds r101-400 with chips>=3000: us 113 them 104; max srp us 0 them 3
+m5497g2 UnderTheSea    rounds r101-400 with chips>=3000: us  40 them  25; max srp us 8 them 16
+m5530g1 Snowglobe      rounds r101-400 with chips>=3000: us 196 them  22; max srp us 8 them 7
+m5530g2 rain           rounds r101-400 with chips>=3000: us  10 them  12; max srp us 0 them 3
+m5537g0 DefaultSmall   rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m5537g2 fix            rounds r101-400 with chips>=3000: us  18 them   9; max srp us 4 them 11

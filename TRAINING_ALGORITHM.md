@@ -154,7 +154,10 @@ the local tournament at any time without being crowned, the champion included. V
 The substitute keeps the original's slot, record and role (champion, replica slot or candidate); the original's pool
 line is retired as "substituted by X". The substitute is the base for new candidates and for the crowning audit diff.
 It is not submitted to the ladder, which already plays the same behaviour. Use it for refactors that make the code
-cheaper to change. Bug fixes change behaviour and still enter as newcomers (2.7).
+cheaper to change. Mechanics: add the substitute's pool line with the original's comment, retire the original as
+`# OLD (retired: substituted by NEW ...)`, and for the champion also write NEW to `champion.txt` and copy it into
+`src/vibe`. `tools/tourney.py` reads the "substituted by" lines (`canon`): the original's games count under the
+substitute's name, `champions.csv` keeps the crowned name, and the charts and `record.py` resolve it. Bug fixes change behaviour and still enter as newcomers (2.7).
 
 ### 2.6 Retiring
 Retire a bot about 20 or more below the champion after about 200 games, more than 2 SE below after about 50, or flat

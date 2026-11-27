@@ -7,56 +7,55 @@ public strictfp class Unit {
     static MapLocation explore;
     static int exploreSince;
     static MapLocation refillAt;            // the tower being walked to for paint
-    static int[] towerDry = new int[32];    // round a known tower was seen without paint (index as G.towerLoc)
-    static MapLocation enemyTower;          // the nearest enemy tower seen (cleared when seen gone)
+    static MapLocation enemyTower;          // the nearest enemy tower seen (cleared when seen gone); soldiers and splashers only
 
     /** Refill from an ally tower when paint < threshold. True while busy with it (moving or withdrawing). */
     static boolean refill(int threshold) throws GameActionException {
         RobotController rc = G.rc;
         if (G.paint >= threshold && refillAt == null) return false;
         int cap = G.type.paintCapacity;
-        if (refillAt != null && G.paint >= cap * 3 / 4) { refillAt = null; return false; }
+        if (refillAt != null && G.paint >= cap * Tune.REFILL_STOP_NUM / Tune.REFILL_STOP_DEN) { refillAt = null; return false; }
         // choose the nearest known tower that is not known dry; paint towers count as 30% closer
         MapLocation best = null; int bestD = Integer.MAX_VALUE;
         for (int i = G.nTowers; --i >= 0; ) {
-            MapLocation l = G.towerLoc[i];
-            if (towerDry[i] > 0 && G.round - towerDry[i] < (G.towerKind[i] == 1 ? 10 : 40) && !(G.towerKind[i] == 2 && churnable())) {
+            MapLocation l = Towers.loc[i];
+            if (Towers.dry[i] > 0 && G.round - Towers.dry[i] < (Towers.kind[i] == Towers.PAINT ? Tune.DRY_PAINT_ROUNDS : Tune.DRY_ROUNDS) && !(Towers.kind[i] == Towers.MONEY && Churn.churnable())) {
                 // study 9 2.4: paint-tower flags expire after 10 rounds (was 40); a flagged tower in sight is re-sensed
                 // and its flag dropped if it holds 50+ paint again
                 if (!rc.canSenseLocation(l)) continue;
                 RobotInfo ft = rc.senseRobotAtLocation(l);
-                if (ft == null || ft.team != G.me || ft.paintAmount < 50) continue;
-                towerDry[i] = 0;
+                if (ft == null || ft.team != G.me || ft.paintAmount < Tune.DRY_CLEAR_PAINT) continue;
+                Towers.dry[i] = 0;
             }
             int d = G.here.distanceSquaredTo(l);
-            if (G.towerKind[i] == 1) d = d * 7 / 10;
+            if (Towers.kind[i] == Towers.PAINT) d = d * Tune.REFILL_PAINT_NUM / Tune.REFILL_PAINT_DEN;
             if (d < bestD) { bestD = d; best = l; }
         }
         if (best == null) { refillAt = null; return false; }
         refillAt = best;
         if (rc.canSenseLocation(best)) {
             RobotInfo t = rc.senseRobotAtLocation(best);
-            if (t == null || t.team != G.me || !t.type.isTowerType()) { G.forgetTower(best); refillAt = null; return false; }
+            if (t == null || t.team != G.me || !t.type.isTowerType()) { Towers.forget(best); refillAt = null; return false; }
             int take = Math.min(cap - G.paint, t.paintAmount);
             if (G.here.distanceSquaredTo(best) <= 2) {
                 if (take > 0 && rc.canTransferPaint(best, -take)) {
                     rc.transferPaint(best, -take);
                     G.paint = rc.getPaint();
-                    if (G.paint >= cap * 3 / 4) refillAt = null;
+                    if (G.paint >= cap * Tune.REFILL_STOP_NUM / Tune.REFILL_STOP_DEN) refillAt = null;
                     return true;
                 }
-                // a drained money tower may churn (Tower.churn): wait beside it up to 3 rounds to rebuild it
-                if (t.paintAmount < 10 && t.type == UnitType.LEVEL_ONE_MONEY_TOWER && churnable()) {
-                    if (!best.equals(churnLoc) || G.round - churnAt > 50) { churnLoc = best; churnAt = G.round; }
-                    if (G.type == UnitType.SOLDIER && repairPattern(best)) churnAt = G.round;   // keep waiting while repairing
-                    if (G.round - churnAt < 3) { G.ind += " churnwait"; return true; }
+                // a drained money tower may churn (Churn.towerTurn): wait beside it up to 3 rounds to rebuild it
+                if (t.paintAmount < Tune.CHURN_PAINT && t.type == UnitType.LEVEL_ONE_MONEY_TOWER && Churn.churnable()) {
+                    if (!best.equals(churnLoc) || G.round - churnAt > Tune.CHURN_WAIT_RESET) { churnLoc = best; churnAt = G.round; }
+                    if (G.type == UnitType.SOLDIER && Churn.repairPattern(best)) churnAt = G.round;   // keep waiting while repairing
+                    if (G.round - churnAt < Tune.CHURN_WAIT_ROUNDS) { G.ind += " churnwait"; return true; }
                 }
-                if (t.paintAmount < 20) markDry(best);
+                if (t.paintAmount < Tune.DRY_ADJ_PAINT) Towers.markDry(best);
                 if (!rc.isActionReady()) return true;   // wait for the cooldown next to the tower
                 refillAt = null;
                 return false;
             }
-            if (t.paintAmount < Math.min(40, cap - G.paint) && !(t.type == UnitType.LEVEL_ONE_MONEY_TOWER && churnable())) { markDry(best); }
+            if (t.paintAmount < Math.min(Tune.DRY_FAR_PAINT, cap - G.paint) && !(t.type == UnitType.LEVEL_ONE_MONEY_TOWER && Churn.churnable())) { Towers.markDry(best); }
         }
         Nav.moveTo(best);
         G.ind += " refill" + best;
@@ -77,53 +76,20 @@ public strictfp class Unit {
         }
     }
 
-    /** study 3 tactic 4: re-complete a money tower on an adjacent empty ruin whose pattern is intact (a churned tower). */
-    static void rebuild() throws GameActionException {
-        RobotController rc = G.rc;
-        if (rc.getChips() < 1000) return;
-        for (MapLocation r : rc.senseNearbyRuins(2)) {
-            if (rc.canCompleteTowerPattern(UnitType.LEVEL_ONE_MONEY_TOWER, r)) {
-                rc.completeTowerPattern(UnitType.LEVEL_ONE_MONEY_TOWER, r);
-                G.noteTower(r, 2);
-                return;
-            }
-        }
-    }
+    static { Towers.dry = new int[32]; }   // allocated here, as t135 allocated Unit.towerDry (see G.nTowers)
 
+    // the churn wait inside refill (see Churn): the drained money tower being waited at, and since when
     static MapLocation churnLoc;
     static int churnAt = -100;
 
-    /** A soldier repaints one wrong tile of a standing money tower's pattern (enemy mops erase them), so it can churn. */
-    static boolean repairPattern(MapLocation tw) throws GameActionException {
-        RobotController rc = G.rc;
-        if (!rc.isActionReady() || rc.getPaint() < 5) return false;
-        int pat = Soldier.patternOf(UnitType.LEVEL_ONE_MONEY_TOWER);
-        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
-            if (dx == 0 && dy == 0) continue;
-            MapLocation l = tw.translate(dx, dy);
-            if (!rc.canSenseLocation(l)) continue;
-            PaintType p = rc.senseMapInfo(l).getPaint();
-            boolean s = Soldier.bit(pat, dx, dy);
-            if (p.isAlly() && p.isSecondary() == s) continue;
-            if (rc.canAttack(l)) { rc.attack(l, s); G.paint = rc.getPaint(); G.ind += " repair" + l; return true; }
-        }
-        return false;
-    }
-
-    static boolean churnable() { return G.rc.getChips() >= Tower.CHURN_CHIPS; }
-
-    static void markDry(MapLocation l) {
-        for (int i = G.nTowers; --i >= 0; ) if (G.towerLoc[i].equals(l)) towerDry[i] = G.round;
-    }
-
     /** A wandering target: a random tile, renewed when reached, after a timeout, or when it is known terrain. */
     static MapLocation exploreTarget() {
-        if (explore == null || G.here.distanceSquaredTo(explore) <= 8 || G.round - exploreSince > 90   /* (y211: 60) */
+        if (explore == null || G.here.distanceSquaredTo(explore) <= Tune.EXPLORE_REACHED_R2 || G.round - exploreSince > Tune.EXPLORE_TIMEOUT
                 || G.isWall(explore)) {
             // study 7 2.1 (a): 43 free ruins in our half were never seen by r100 (walled pockets, far corners of big
-            // maps); draw up to 8 tiles and take the first we have never seen
+            // maps); draw up to EXPLORE_DRAWS (128) tiles and take the first we have never seen (else the last draw)
             MapLocation t = null;
-            for (int i = 128; --i >= 0; ) {   // (y197: 16)
+            for (int i = Tune.EXPLORE_DRAWS; --i >= 0; ) {
                 t = new MapLocation(G.rand(G.W), G.rand(G.H));
                 if ((G.mem[t.x + t.y * G.W] & G.SEEN) == 0) break;
             }

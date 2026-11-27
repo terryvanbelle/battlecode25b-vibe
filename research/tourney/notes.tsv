@@ -245,3 +245,14 @@ y291	t140 + refills: no paint-tower preference (was 30% closer)
 y292	t140 + refills: paint towers 15% closer (was 30%)
 y293	t140 + refills: paint towers 40% closer (was 30%)
 y294	t140 + refills: paint towers 50% closer (was 30%)
+r140	t140 refactored (R1-R3: Tune.java, Towers/Churn/Pattern, explicit decision lists); behaviour identical in 43 of 43 twin games; substitutes t140 as champion
+t149	r140 + study 12 2.1 c1: before r80 a walking soldier paints the empty tile under it from 150 paint
+t150	r140 + study 12 2.1 c2: before r80 a walking soldier paints the empty tile under it from 100 paint
+t151	r140 + study 12 2.1 c3: explore painting (paintNear) after the move from r1, not r80
+t152	r140 + study 12 2.2 m1: moppers swing at a single robot when no enemy robot is in mop reach
+t153	t152 + study 12 2.2 m2: an enemy robot in mop reach scores 55 (was 15), above ruin paint
+t154	r140 + study 12 2.3 s1: SRPs from round 60 (was 100), 1000-chip gate kept
+y295	r140 + study 12 2.4 n1: Nav tile cost includes adjacent allies and the mopper factor (the engine's drain)
+y296	r140, refills end full (REFILL_STOP 4/4, was 3/4)
+y297	r140, Nav paint weight 12 (was 6): steer onto own paint farther from the goal
+y298	r140, moppers give paint to soldiers/splashers below 60% (was 40%)

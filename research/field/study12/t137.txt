@@ -1,0 +1,246 @@
+144 games in the main set (48 matches)
+match g ver  rk opponent                 map              size   tiles res  end  how  cov% us/them   repeat of
+m5067 g0 t122  R  gone-whalin              AlarmClock       35x35  1091 W    296 MAJ   70.0/ 15.6   m4765g0 (t122)
+m5067 g1 t122  R  gone-whalin              Justice          21x20   389 L    357 MAJ   21.1/ 70.2   
+m5067 g2 t122  R  gone-whalin              memstore         59x39  2081 L    421 MAJ   15.9/ 70.1   m4726g2 (t122)
+m5068 g0 t122  u  lobster-roll             DonkeyKong       60x60  3232 W    400 MAJ   70.0/ 15.1   
+m5068 g1 t122  u  lobster-roll             Paintball        20x20   354 W    288 MAJ   70.1/ 19.5   
+m5068 g2 t122  u  lobster-roll             TargetPractice   30x30   816 W    342 MAJ   70.3/ 16.2   
+m5069 g0 t122  R  spaark                   Bunny            44x30  1228 W    243 ALL   54.9/ 13.0   
+m5069 g1 t122  R  spaark                   Piglets2         60x40  2032 L    364 ALL    5.5/ 42.3   
+m5069 g2 t122  R  spaark                   Terminal         40x30  1022 L    367 ALL    7.7/ 56.8   
+m5070 g0 t122  u  scienceqiu               Justice          21x20   389 L    396 MAJ    9.0/ 70.2   
+m5070 g1 t122  u  scienceqiu               Racetrack        25x25   562 L    580 ALL   24.7/ 53.7   
+m5070 g2 t122  u  scienceqiu               roads            30x30   770 W    484 MAJ   70.0/ 16.8   m4917g2 (t122)
+m5089 g0 t122  R  placeholder-name-2       DonkeyKong       60x60  3232 L    545 MAJ   20.1/ 70.0   
+m5089 g1 t122  R  placeholder-name-2       gardenworld      60x60  3180 L    393 MAJ    5.9/ 70.1   
+m5089 g2 t122  R  placeholder-name-2       walalilongla     45x45  1811 W    411 MAJ   70.7/ 19.1   
+m5124 g0 t122  R  lobster-roll             BatSignal        40x25   890 L    700 MAJ   11.1/ 70.0   
+m5124 g1 t122  R  lobster-roll             HungerGames      50x50  2258 W    357 MAJ   69.9/ 17.3   
+m5124 g2 t122  R  lobster-roll             memstore         59x39  2081 W    399 MAJ   69.8/  8.5   
+m5125 g0 t122  u  placeholder-name-2       Dominoes         44x30  1228 L    391 MAJ   12.7/ 69.8   
+m5125 g1 t122  u  placeholder-name-2       SMILE            60x60  3482 W    764 MAJ   69.4/ 27.2   
+m5125 g2 t122  u  placeholder-name-2       defensetower     40x59  2173 W    285 MAJ   70.2/  8.0   
+m5126 g0 t122  R  scienceqiu               DefaultMedium    35x35  1193 W    259 MAJ   69.3/ 12.3   
+m5126 g1 t122  R  scienceqiu               Paintball        20x20   354 L    234 ALL   22.3/ 63.3   
+m5126 g2 t122  R  scienceqiu               Snowglobe        40x40  1478 W    307 MAJ   70.1/ 15.2   
+m5127 g0 t122  u  angtn                    Fossil           30x30   868 W    413 MAJ   70.2/ 21.5   
+m5127 g1 t122  u  angtn                    Portal           35x35  1129 L    354 MAJ    6.5/ 70.1   
+m5127 g2 t122  u  angtn                    lighthouse       31x31   853 W    271 ALL   69.9/  6.3   
+m5128 g0 t122  R  spaark                   Bread            35x29   914 W    452 MAJ   70.0/ 10.1   
+m5128 g1 t122  R  spaark                   Leaf             60x60  3440 L    587 MAJ   18.4/ 69.8   
+m5128 g2 t122  R  spaark                   Rose             40x40  1512 L    464 ALL    2.2/ 66.3   
+m5129 g0 t122  u  slifland                 SandyBeach       30x30   822 W    332 MAJ   70.3/ 23.4   
+m5129 g1 t122  u  slifland                 galaxy           45x45  1834 W    327 MAJ   70.4/ 15.3   
+m5129 g2 t122  u  slifland                 memstore         59x39  2081 W    347 MAJ   70.2/ 10.7   
+m5156 g0 t122  R  lobster-roll             DefaultHuge      59x59  3421 W    387 MAJ   70.1/ 20.6   
+m5156 g1 t122  R  lobster-roll             Piglets2         60x40  2032 W    476 MAJ   70.5/  6.3   
+m5156 g2 t122  R  lobster-roll             windmill         30x30   780 W    239 MAJ   70.0/  9.9   m4725g2 (t122)
+m5164 g0 t122  R  immutable                BatSignal        40x25   890 L    272 MAJ   14.0/ 69.0   
+m5164 g1 t122  R  immutable                giver            50x50  2344 W    448 MAJ   70.5/ 23.4   
+m5164 g2 t122  R  immutable                starburst        30x30   844 W    470 MAJ   70.7/ 22.0   m4806g2 (t122)
+m5165 g0 t122  u  scienceqiu               FourCorners      25x25   542 L    160 ALL    7.8/ 56.5   
+m5165 g1 t122  u  scienceqiu               box              31x31   829 W    321 MAJ   70.2/ 17.6   
+m5165 g2 t122  u  scienceqiu               mit              60x60  3012 W    457 MAJ   70.0/ 16.3   
+m5202 g0 t135  R  scienceqiu               Piglets2         60x40  2032 W    344 MAJ   70.4/  4.0   
+m5202 g1 t135  R  scienceqiu               SMILE            60x60  3482 L    371 MAJ   15.1/ 70.0   
+m5202 g2 t135  R  scienceqiu               TargetPractice   30x30   816 L    322 MAJ   13.5/ 70.1   
+m5203 g0 t135  u  lobster-roll             catface          30x30   868 W    325 MAJ   70.5/  5.4   
+m5203 g1 t135  u  lobster-roll             defensetower     40x59  2173 W    313 MAJ   70.3/  2.6   
+m5203 g2 t135  u  lobster-roll             sierpinski       39x50  1620 L    682 MAJ   21.6/ 69.8   
+m5204 g0 t135  R  gone-whalin              DefaultLarge     50x30  1476 L    406 MAJ    3.2/ 70.0   
+m5204 g1 t135  R  gone-whalin              Filter           21x21   419 W    186 MAJ   70.4/  0.0   
+m5204 g2 t135  R  gone-whalin              Portal           35x35  1129 W    479 MAJ   70.3/ 17.5   
+m5205 g0 t135  u  placeholder-name-2       DefaultHuge      59x59  3421 L    403 MAJ   20.3/ 70.3   
+m5205 g1 t135  u  placeholder-name-2       UglySweater      50x50  2340 L    556 MAJ   21.5/ 70.1   
+m5205 g2 t135  u  placeholder-name-2       boxofchocolates  55x55  2435 L    498 ALL   24.0/ 46.8   
+m5216 g0 t135  R  placeholder-name-2       CastleDefense    20x20   340 W    174 MAJ   70.0/ 11.8   
+m5216 g1 t135  R  placeholder-name-2       Mirage           40x40  1480 L    585 MAJ   20.7/ 70.2   
+m5216 g2 t135  R  placeholder-name-2       mit              60x60  3012 W    720 MAJ   70.1/ 21.2   
+m5259 g0 t135  R  gone-whalin              AlarmClock       35x35  1091 W    375 MAJ   70.7/ 21.4   
+m5259 g1 t135  R  gone-whalin              Barcode          50x21   966 L    407 MAJ   15.8/ 70.8   
+m5259 g2 t135  R  gone-whalin              Racetrack        25x25   562 L    250 MAJ   13.5/ 70.3   
+m5277 g0 t135  R  spaark                   HungerGames      50x50  2258 L    426 MAJ    7.8/ 70.5   
+m5277 g1 t135  R  spaark                   Portal           35x35  1129 L    471 MAJ    3.4/ 70.7   
+m5277 g2 t135  R  spaark                   SMILE            60x60  3482 W    617 MAJ   69.7/ 22.0   
+m5278 g0 t135  u  gone-whalin              Justice          21x20   389 L    372 MAJ   18.2/ 71.2   m4957g0 (t122)
+m5278 g1 t135  u  gone-whalin              box              31x31   829 W    525 MAJ   71.2/ 24.7   
+m5278 g2 t135  u  gone-whalin              sunrise          45x55  2208 W    399 MAJ   70.4/ 14.0   
+m5279 g0 t135  R  immutable                Circuit          60x21  1096 W    320 MAJ   70.3/ 26.0   
+m5279 g1 t135  R  immutable                maze             60x60  2888 W    611 MAJ   69.9/ 21.9   
+m5279 g2 t135  R  immutable                mit              60x60  3012 W    395 MAJ   70.0/ 20.6   
+m5281 g0 t135  u  slifland                 Gears            55x55  2885 W    399 MAJ   70.0/ 18.8   
+m5281 g1 t135  u  slifland                 UglySweater      50x50  2340 W    363 MAJ   70.5/ 10.6   
+m5281 g2 t135  u  slifland                 rain             30x30   850 W    298 MAJ   70.1/ 22.0   
+m5282 g0 t135  R  scienceqiu               DonkeyKong       60x60  3232 L    970 ALL   17.9/ 68.1   
+m5282 g1 t135  R  scienceqiu               Flower           45x41  1623 W   1260 MAJ   70.0/ 20.3   
+m5282 g2 t135  R  scienceqiu               galaxy           45x45  1834 W    449 MAJ   70.3/ 12.8   
+m5283 g0 t135  u  placeholder-name-2       box              31x31   829 W    229 MAJ   70.8/ 14.7   
+m5283 g1 t135  u  placeholder-name-2       defensetower     40x59  2173 L    617 MAJ   14.5/ 70.4   
+m5283 g2 t135  u  placeholder-name-2       mit              60x60  3012 W    412 MAJ   70.4/ 17.3   
+m5284 g0 t135  R  gone-whalin              Bunny            44x30  1228 W    271 ALL   64.7/  0.5   
+m5284 g1 t135  R  gone-whalin              Rose             40x40  1512 L    411 MAJ    5.0/ 70.0   
+m5284 g2 t135  R  gone-whalin              leavemealone     50x30  1364 W    346 MAJ   70.1/ 21.9   
+m5287 g0 t135  R  slifland                 DefaultHuge      59x59  3421 W    397 MAJ   70.3/ 26.2   
+m5287 g1 t135  R  slifland                 DefaultMedium    35x35  1193 W    246 MAJ   70.5/ 11.4   
+m5287 g2 t135  R  slifland                 Fossil           30x30   868 W    267 MAJ   70.0/ 19.2   
+m5316 g0 t135  R  scienceqiu               Fossil           30x30   868 W    402 MAJ   70.0/ 23.4   
+m5316 g1 t135  R  scienceqiu               Money            35x35  1141 W    319 MAJ   70.1/ 20.9   
+m5316 g2 t135  R  scienceqiu               boxofchocolates  55x55  2435 W    497 MAJ   70.2/  7.6   
+m5356 g0 t135  R  immutable                Flower           45x41  1623 W    345 MAJ   70.2/ 13.6   
+m5356 g1 t135  R  immutable                headphones       60x60  3186 W    341 MAJ   69.8/ 18.4   
+m5356 g2 t135  R  immutable                yearofthesnake   45x45  1653 L    710 MAJ   28.2/ 70.0   
+m5366 g0 t135  R  immutable                Barcode          50x21   966 L    310 MAJ   22.5/ 70.5   
+m5366 g1 t135  R  immutable                Brat             29x29   715 L    244 MAJ   18.2/ 69.1   
+m5366 g2 t135  R  immutable                shell            40x40  1418 W    385 MAJ   70.0/ 17.2   
+m5368 g0 t135  R  subscribe-to-caterpillow Portal           35x35  1129 W    356 MAJ   70.4/ 19.4   
+m5368 g1 t135  R  subscribe-to-caterpillow catface          30x30   868 W    265 MAJ   70.0/  8.1   
+m5368 g2 t135  R  subscribe-to-caterpillow headphones       60x60  3186 W   1380 MAJ   70.4/ 25.2   
+m5369 g0 t135  u  immutable                PlumberGame      60x30  1688 L    371 MAJ   24.5/ 70.3   
+m5369 g1 t135  u  immutable                memstore         59x39  2081 L   1338 MAJ   27.9/ 70.2   
+m5369 g2 t135  u  immutable                yearofthesnake   45x45  1653 L    710 MAJ   28.2/ 70.0   m5356g2 (t135)
+m5375 g0 t135  R  immutable                Castle           27x27   636 L    242 MAJ   24.8/ 70.9   
+m5375 g1 t135  R  immutable                DefaultMedium    35x35  1193 L    314 MAJ   11.8/ 69.9   
+m5375 g2 t135  R  immutable                sierpinski       39x50  1620 L    570 MAJ   23.1/ 70.0   
+m5393 g0 t135  R  subscribe-to-caterpillow BatSignal        40x25   890 L    442 ALL   12.9/ 54.6   
+m5393 g1 t135  R  subscribe-to-caterpillow Flower           45x41  1623 L    390 MAJ    8.4/ 70.5   
+m5393 g2 t135  R  subscribe-to-caterpillow mit              60x60  3012 L    469 MAJ   10.1/ 70.2   
+m5450 g0 t140  R  gone-whalin              Mirage           40x40  1480 W    116 ALL   33.3/  2.3   
+m5450 g1 t140  R  gone-whalin              box              31x31   829 W    338 MAJ   70.1/ 26.2   
+m5450 g2 t140  R  gone-whalin              fix              40x50  1856 W    455 MAJ   70.1/ 13.4   
+m5458 g0 t140  R  scienceqiu               DefaultHuge      59x59  3421 L    333 MAJ   10.0/ 70.2   
+m5458 g1 t140  R  scienceqiu               SandyBeach       30x30   822 W    184 MAJ   70.4/ 22.4   
+m5458 g2 t140  R  scienceqiu               box              31x31   829 W    343 MAJ   70.1/ 19.8   
+m5467 g0 t140  R  gone-whalin              Bread            35x29   914 W    397 MAJ   70.2/ 14.0   
+m5467 g1 t140  R  gone-whalin              Gears            55x55  2885 W    401 MAJ   70.2/ 12.6   
+m5467 g2 t140  R  gone-whalin              SMILE            60x60  3482 W    812 MAJ   70.0/ 27.0   
+m5492 g0 t140  R  immutable                Paintball        20x20   354 W    311 MAJ   72.0/ 16.4   
+m5492 g1 t140  R  immutable                PlumberGame      60x30  1688 L    517 MAJ   27.2/ 70.4   
+m5492 g2 t140  R  immutable                memstore         59x39  2081 L    465 MAJ   22.6/ 69.5   
+m5493 g0 t140  u  subscribe-to-caterpillow Leaf             60x60  3440 L    384 MAJ   18.0/ 69.7   
+m5493 g1 t140  u  subscribe-to-caterpillow sayhi            40x50  1734 W    285 MAJ   70.0/ 17.2   
+m5493 g2 t140  u  subscribe-to-caterpillow shell            40x40  1418 L    452 MAJ    9.6/ 70.1   
+m5494 g0 t140  R  confused                 DefaultLarge     50x30  1476 L    493 MAJ   18.7/ 70.0   
+m5494 g1 t140  R  confused                 Oasis            59x59  3339 L    471 MAJ   18.6/ 70.3   
+m5494 g2 t140  R  confused                 Rose             40x40  1512 W    352 MAJ   70.0/  4.0   
+m5495 g0 t140  u  gone-whalin              Mirage           40x40  1480 W    116 ALL   33.3/  2.3   m5450g0 (t140)
+m5495 g1 t140  u  gone-whalin              UnderTheSea      45x45  1847 W    274 MAJ   69.4/ 19.0   
+m5495 g2 t140  u  gone-whalin              roads            30x30   770 L    291 MAJ    8.6/ 70.0   
+m5496 g0 t140  R  om-nom                   Oasis            59x59  3339 L    563 MAJ   19.6/ 70.2   
+m5496 g1 t140  R  om-nom                   Terminal         40x30  1022 L    478 ALL   11.4/ 64.3   
+m5496 g2 t140  R  om-nom                   gardenworld      60x60  3180 L    395 MAJ    8.9/ 70.4   
+m5497 g0 t140  u  spaark                   Filter           21x21   419 L   2000 ARE   24.3/ 45.8   
+m5497 g1 t140  u  spaark                   Snowman          25x25   553 W    368 MAJ   71.4/ 15.0   
+m5497 g2 t140  u  spaark                   UnderTheSea      45x45  1847 L    381 MAJ   16.6/ 70.4   
+m5530 g0 t140  R  spaark                   Money            35x35  1141 W    291 MAJ   70.4/ 18.2   
+m5530 g1 t140  R  spaark                   Snowglobe        40x40  1478 L    431 ALL    6.7/ 61.4   
+m5530 g2 t140  R  spaark                   rain             30x30   850 L    835 MAJ   12.5/ 70.0   
+m5537 g0 t140  R  subscribe-to-caterpillow DefaultSmall     20x20   372 L    103 ALL   13.2/ 41.7   
+m5537 g1 t140  R  subscribe-to-caterpillow Terminal         40x30  1022 W    345 MAJ   70.2/ 14.0   
+m5537 g2 t140  R  subscribe-to-caterpillow fix              40x50  1856 L    451 MAJ   11.5/ 70.0   
+m5553 g0 t140  R  om-nom                   Bread            35x29   914 W    286 MAJ   71.3/  7.3   
+m5553 g1 t140  R  om-nom                   Terminal         40x30  1022 L    478 ALL   11.4/ 64.3   m5496g1 (t140)
+m5553 g2 t140  R  om-nom                   defensetower     40x59  2173 W    307 MAJ   70.5/  3.3   
+m5557 g0 t140  R  placeholder-name-2       CastleDefense    20x20   340 W    247 MAJ   70.0/ 16.2   
+m5557 g1 t140  R  placeholder-name-2       gridworld        31x31   769 W    596 MAJ   70.7/ 17.4   
+m5557 g2 t140  R  placeholder-name-2       yearofthesnake   45x45  1653 W   1069 MAJ   70.4/ 22.9   
+
+exact repeats (9): m5067g0 (t122) = m4765g0 (t122), m5067g2 (t122) = m4726g2 (t122), m5070g2 (t122) = m4917g2 (t122), m5156g2 (t122) = m4725g2 (t122), m5164g2 (t122) = m4806g2 (t122), m5278g0 (t135) = m4957g0 (t122), m5369g2 (t135) = m5356g2 (t135), m5495g0 (t140) = m5450g0 (t140), m5553g1 (t140) = m5496g1 (t140)
+DUP set for lib.py: {(5067, 0), (5067, 2), (5070, 2), (5156, 2), (5164, 2), (5278, 0), (5369, 2), (5495, 0), (5553, 1)}
+
+per match (repeats left out): won-lost
+m5067 t122  R gone-whalin              0-1
+m5068 t122  u lobster-roll             3-0
+m5069 t122  R spaark                   1-2
+m5070 t122  u scienceqiu               0-2
+m5089 t122  R placeholder-name-2       1-2
+m5124 t122  R lobster-roll             2-1
+m5125 t122  u placeholder-name-2       2-1
+m5126 t122  R scienceqiu               2-1
+m5127 t122  u angtn                    2-1
+m5128 t122  R spaark                   1-2
+m5129 t122  u slifland                 3-0
+m5156 t122  R lobster-roll             2-0
+m5164 t122  R immutable                1-1
+m5165 t122  u scienceqiu               2-1
+m5202 t135  R scienceqiu               1-2
+m5203 t135  u lobster-roll             2-1
+m5204 t135  R gone-whalin              2-1
+m5205 t135  u placeholder-name-2       0-3
+m5216 t135  R placeholder-name-2       2-1
+m5259 t135  R gone-whalin              1-2
+m5277 t135  R spaark                   1-2
+m5278 t135  u gone-whalin              2-0
+m5279 t135  R immutable                3-0
+m5281 t135  u slifland                 3-0
+m5282 t135  R scienceqiu               2-1
+m5283 t135  u placeholder-name-2       2-1
+m5284 t135  R gone-whalin              2-1
+m5287 t135  R slifland                 3-0
+m5316 t135  R scienceqiu               3-0
+m5356 t135  R immutable                2-1
+m5366 t135  R immutable                1-2
+m5368 t135  R subscribe-to-caterpillow 3-0
+m5369 t135  u immutable                0-2
+m5375 t135  R immutable                0-3
+m5393 t135  R subscribe-to-caterpillow 0-3
+m5450 t140  R gone-whalin              3-0
+m5458 t140  R scienceqiu               2-1
+m5467 t140  R gone-whalin              3-0
+m5492 t140  R immutable                1-2
+m5493 t140  u subscribe-to-caterpillow 1-2
+m5494 t140  R confused                 1-2
+m5495 t140  u gone-whalin              1-1
+m5496 t140  R om-nom                   0-3
+m5497 t140  u spaark                   1-2
+m5530 t140  R spaark                   1-2
+m5537 t140  R subscribe-to-caterpillow 1-2
+m5553 t140  R om-nom                   2-0
+m5557 t140  R placeholder-name-2       3-0
+
+== t122
+   top 7: 14-11 (56%)
+   rest : 8-4 (67%)
+   all  : 22-15 (59%)
+   ranked: 10-10
+   unranked: 12-5
+
+== t135
+   top 7: 25-21 (54%)
+   rest : 10-5 (67%)
+   all  : 35-26 (57%)
+   ranked: 26-19
+   unranked: 9-7
+
+== t140
+   top 7: 16-15 (52%)
+   rest : 4-2 (67%)
+   all  : 20-17 (54%)
+   ranked: 17-12
+   unranked: 3-5
+
+== all versions
+   top 7: 55-47 (54%)
+   rest : 22-11 (67%)
+   all  : 77-58 (57%)
+   ranked: 53-41
+   unranked: 24-17
+
+per opponent (repeats left out): t122 | t135 | t140 | all
+   angtn                       2-1 |      - |      - |    2-1
+   confused                      - |      - |    1-2 |    1-2
+   gone-whalin                 0-1 |    7-4 |    7-1 |   14-6
+   immutable                   1-1 |    6-8 |    1-2 |   8-11
+   lobster-roll                7-1 |    2-1 |      - |    9-2
+   om-nom                        - |      - |    2-3 |    2-3
+   placeholder-name-2          3-3 |    4-5 |    3-0 |   10-8
+   scienceqiu                  4-4 |    6-3 |    2-1 |   12-8
+   slifland                    3-0 |    6-0 |      - |    9-0
+   spaark                      2-4 |    1-2 |    2-4 |   5-10
+   subscribe-to-caterpillow      - |    3-3 |    2-4 |    5-7
+
+win types (repeats left out): Counter({('W', 'MAJ'): 73, ('L', 'MAJ'): 45, ('L', 'ALL'): 12, ('W', 'ALL'): 4, ('L', 'ARE'): 1})
+loss end rounds by version:
+   t122: 15 losses, median end r391, eliminations 6
+   t135: 26 losses, median end r418.5, eliminations 3
+   t140: 17 losses, median end r452, eliminations 3

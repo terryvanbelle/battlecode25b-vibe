@@ -2,42 +2,22 @@ package vibe;
 
 import battlecode.common.*;
 
-/** Towers: attack (single + area, both free each turn), build units, upgrade. */
+/** Towers: attack (single + area, both free each turn), spawn units, upgrade, churn. Tower code reads no Clock, so
+ *  its bytecode count does not steer any decision (the tower limit, 20000, is far above what a turn uses). */
 public strictfp class Tower {
-    static int built;
-    static final int UPGRADE_SPARE = 1200;
+    static int built;   // units this tower has built, the opening's too; indexes the spawn cycles
 
+    /** A tower's turn, in order; each step runs when its gate holds. */
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
-        attack();
-        if (rc.isActionReady()) build();
-        upgrade();
-        if (churn()) return;
+        attack();                                                   // 1. shoot: single target, then the area attack
+        if (rc.isActionReady()) build();                            // 2. spawn (choose, reserve, can't pay -> wait)
+        if (rc.canUpgradeTower(G.here)) upgrade();                  // 3. upgrade out of a surplus
+        // 4. churn (Churn.towerTurn checks the adjacent helper and the pattern): an L1 money tower below
+        //    CHURN_PAINT paint, CHURN_CHIPS chips, no enemy in view
+        if (rc.getType() == UnitType.LEVEL_ONE_MONEY_TOWER && rc.getPaint() < Tune.CHURN_PAINT && G.chips >= Tune.CHURN_CHIPS
+                && G.enemies.length == 0 && Churn.towerTurn()) return;
         G.ind = "b" + built + " sym" + Sym.live;
-    }
-
-    static final int CHURN_CHIPS = 2000;
-
-    /** study 3 tactic 4: a drained L1 money tower with its pattern intact and an ally robot adjacent (who can rebuild it
-     *  at once: completing needs no cooldown or paint) disintegrates, so the rebuilt tower brings a fresh 500 paint. */
-    static boolean churn() throws GameActionException {
-        RobotController rc = G.rc;
-        if (rc.getType() != UnitType.LEVEL_ONE_MONEY_TOWER || rc.getPaint() >= 10 || G.chips < CHURN_CHIPS) return false;
-        if (G.enemies.length > 0) return false;
-        boolean helper = false;
-        for (RobotInfo a : rc.senseNearbyRobots(2, G.me)) if (a.type.isRobotType()) { helper = true; break; }
-        if (!helper) return false;
-        int pat = Soldier.patternOf(UnitType.LEVEL_ONE_MONEY_TOWER);
-        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
-            if (dx == 0 && dy == 0) continue;
-            MapLocation l = G.here.translate(dx, dy);
-            if (!rc.canSenseLocation(l)) return false;
-            PaintType p = rc.senseMapInfo(l).getPaint();
-            if (!p.isAlly() || p.isSecondary() != Soldier.bit(pat, dx, dy)) return false;
-        }
-        G.forgetTower(G.here);
-        rc.disintegrate();
-        return true;
     }
 
     static void attack() throws GameActionException {
@@ -48,46 +28,52 @@ public strictfp class Tower {
         for (RobotInfo e : en) {
             if (!rc.canAttack(e.location)) continue;
             // finish the weakest first; soldiers and splashers threaten towers more than moppers
-            int s = e.health - (e.type == UnitType.MOPPER ? 0 : 60) - (e.type.isTowerType() ? -10000 : 0);
+            int s = e.health - (e.type == UnitType.MOPPER ? 0 : Tune.TWR_SHOT_NONMOPPER) - (e.type.isTowerType() ? -Tune.TWR_SHOT_TOWER : 0);
             if (s < bestScore) { bestScore = s; best = e; }
         }
         if (best != null) rc.attack(best.location);
         if (rc.canAttack(null)) rc.attack(null);
     }
 
+    // ---- spawn policy: choose() picks the unit (overrides, then the cycle), reserve() the chips kept back for
+    // towers, build() pays or waits.
+    static final UnitType S = UnitType.SOLDIER, X = UnitType.SPLASHER, M = UnitType.MOPPER;
+    /** Spawn cycles per tower kind and phase, indexed by built % 6. */
+    static final UnitType[] OPENING = {S, S, S, S, S, S};       // round < OPENING_SOLDIERS_UNTIL, every tower
+    // paint towers, the only ones with paint for splashers: 2 soldiers, 3 splashers, 1 mopper per six (t27; the
+    // unit audit: the top teams field about one splasher per soldier)
+    static final UnitType[] PAINT_CYCLE = {S, X, X, M, S, X};
+    // money and defense towers: half moppers. A money tower never gains paint and build() waits without advancing
+    // `built`, so in practice it stalls for good at the first unit it cannot pay (slot 1 or 2).
+    static final UnitType[] OTHER_CYCLE = {S, M, X, M, S, M};
+
+    static boolean rc_isPaintTower() { return Towers.kindOf(G.rc.getType()) == Towers.PAINT; }
+
+    /** The unit to build next: the first override that fires, else the cycle entry. Overrides (first match wins):
+     *  none today; add them here as `if (condition) return TYPE;` above the cycle lookup. */
     static UnitType choose() {
-        int r = G.round;
-        int enemyNear = G.enemies.length;
-        for (RobotInfo e : G.enemies) if (e.type == UnitType.MOPPER) enemyNear--;
-        int k = built % 6;
-        if (r < 80) return UnitType.SOLDIER;
-        // unit audit: the top teams field about one splasher per soldier; paint towers (the only ones with paint for
-        // splashers) alternate soldier and splasher with a mopper every third
-        if (rc_isPaintTower()) return k % 4 == 3 ? UnitType.MOPPER : (k % 4 == 0 ? UnitType.SOLDIER : UnitType.SPLASHER);   // S X X M
-        // mid game: splashers do the bulk of the painting; soldiers keep building towers; moppers clean
-        // a third moppers: they drain enemy robots, clean ruins and feed allies
-        switch (k) {
-            case 0: return UnitType.SOLDIER;
-            case 1: return UnitType.MOPPER;
-            case 2: return UnitType.SPLASHER;
-            case 3: return UnitType.MOPPER;
-            case 4: return UnitType.SOLDIER;
-            default: return UnitType.MOPPER;
-        }
+        UnitType[] cycle = G.round < Tune.OPENING_SOLDIERS_UNTIL ? OPENING : rc_isPaintTower() ? PAINT_CYCLE : OTHER_CYCLE;
+        return cycle[built % 6];
     }
 
-    static boolean rc_isPaintTower() { return G.kind(G.rc.getType()) == 1; }
+    /** Chips kept back so soldiers at ruins can complete towers (study 3 tactic 1); the first rule that fires wins:
+     *  1. before round SPAWN_RESERVE_FROM: none;  2. at SPAWN_RESERVE_TOWERS towers or more: none;
+     *  3. a mopper is due and an enemy robot is within d2 DEFEND_MOPPER_R2 (study 3 tactic 5): none;
+     *  4. else SPAWN_RESERVE. */
+    static int reserve(UnitType t) {
+        if (G.round < Tune.SPAWN_RESERVE_FROM) return 0;
+        if (G.rc.getNumberTowers() >= Tune.SPAWN_RESERVE_TOWERS) return 0;
+        if (t == UnitType.MOPPER) for (RobotInfo e : G.enemies) if (!e.type.isTowerType() && G.here.distanceSquaredTo(e.location) <= Tune.DEFEND_MOPPER_R2) return 0;
+        return Tune.SPAWN_RESERVE;
+    }
 
+    /** Build choose()'s unit on the buildable tile nearest the map centre (G.rand breaks ties). Can't pay -> wait:
+     *  with chips below its cost + min(reserve, SPAWN_ANYWAY_CHIPS), or paint below its paint cost, return without
+     *  building and without advancing `built`, so the same unit is due next turn (the money-tower stall above). */
     static void build() throws GameActionException {
         RobotController rc = G.rc;
         UnitType t = choose();
-        // keep a reserve for towers once the opening is done, so soldiers at ruins can complete them
-        // study 4 2.1: freeze spawns 8 rounds in 20 below 1000 + cost, so chips reach 1000 for finished patterns
-        int reserve = G.round < 40 ? 0 : (rc.getNumberTowers() < 25 ? 1000 /* study 3 tactic 1: spawn only at 1000 + cost */ : 0);
-        // study 3 tactic 5: with an enemy robot within d2 20, a mopper spawns even below the reserve
-        if (t == UnitType.MOPPER) for (RobotInfo e : G.enemies) if (!e.type.isTowerType() && G.here.distanceSquaredTo(e.location) <= 20) { reserve = 0; break; }
-        if (G.chips < t.moneyCost + reserve && !(G.chips >= 1000 + t.moneyCost)) return;
-        if (G.paint < t.paintCost) return;
+        if (G.chips < t.moneyCost + Math.min(reserve(t), Tune.SPAWN_ANYWAY_CHIPS) || G.paint < t.paintCost) return;   // can't pay -> wait
         MapLocation here = G.here;
         MapLocation best = null; int bestD = Integer.MAX_VALUE;
         MapLocation goal = G.center;
@@ -99,13 +85,14 @@ public strictfp class Tower {
         if (best != null) { rc.buildRobot(t, best); built++; }
     }
 
+    /** Upgrade out of a surplus: paint towers at next cost + UPGRADE_SPARE, money towers at next cost + UPGRADE_SPARE
+     *  + MONEY_UPGRADE_EXTRA, defense towers never (paint binds once the economy runs). Gate at the call site:
+     *  rc.canUpgradeTower. G.chips is as at turn start (build() does not refresh it). */
     static void upgrade() throws GameActionException {
         RobotController rc = G.rc;
-        if (!rc.canUpgradeTower(G.here)) return;
-        UnitType next = rc.getType().getNextLevel();
-        // upgrade out of a surplus: paint towers first (paint binds once the economy runs), money towers later
-        int need = next.moneyCost + UPGRADE_SPARE;
-        if (G.kind(rc.getType()) == 1 && G.chips >= need) rc.upgradeTower(G.here);
-        else if (G.kind(rc.getType()) == 2 && G.chips >= need + 2500) rc.upgradeTower(G.here);
+        int need = rc.getType().getNextLevel().moneyCost + Tune.UPGRADE_SPARE;
+        int k = Towers.kindOf(rc.getType());
+        if (k == Towers.PAINT && G.chips >= need) rc.upgradeTower(G.here);
+        else if (k == Towers.MONEY && G.chips >= need + Tune.MONEY_UPGRADE_EXTRA) rc.upgradeTower(G.here);
     }
 }

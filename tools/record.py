@@ -48,7 +48,7 @@ def references(bot, champ):
     near = {parent.get(bot)} | {b for b, p in parent.items() if p == bot}
     pk = peaks()
     ranked = sorted(pk, key=lambda b: (-pk[b][0], pk[b][2]))
-    return [b for b in ranked if b not in (bot, champ) and b not in near][:2], pk
+    return [b for b in ranked if b not in (bot, champ) and tourney.canon(b) != champ and b not in near][:2], pk
 
 
 def main():
@@ -58,8 +58,8 @@ def main():
     slots = [l.split('#')[0].strip() for l in open(tourney.POOL)
              if l.split('#')[0].strip() and 'replica record' in l.split('#', 1)[-1]]
     print(f"replica record: {best['our_rating']} at #{best['our_rank']} on {best['when_pdt']} PDT, held by {bot}")
-    if bot == champ:
-        print('  the holder is the champion: no extra slot')
+    if tourney.canon(bot) == champ:   # owner #58: or the champion is its verified substitute
+        print('  the holder is the champion' + (f' (as its substitute {champ})' if bot != champ else '') + ': no extra slot')
     elif bot in slots:
         print('  the holder has its permanent slot')
     elif bot in active:

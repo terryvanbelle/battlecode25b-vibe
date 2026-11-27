@@ -1,0 +1,5 @@
+name=r135
+source=refactor of bots/t135 (R1-R3, owner #57; 26 of 43 twin games identical when stopped, not used, TRAINING_ALGORITHM 2.5)
+source_sha=f1252dcd5816
+commit=92f3cda
+created=2026-11-27 14:08 PDT

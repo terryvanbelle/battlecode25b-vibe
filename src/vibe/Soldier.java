@@ -2,7 +2,7 @@ package vibe;
 
 import battlecode.common.*;
 
-/** Soldiers: build towers on ruins (mark, paint the 24 pattern tiles, complete), otherwise paint and explore;
+/** Soldiers: build towers on ruins (signal the type with free marks, paint the 24 pattern tiles, complete), otherwise paint and explore;
  *  attack enemy towers in range. */
 public strictfp class Soldier {
     static MapLocation ruin;
@@ -12,37 +12,49 @@ public strictfp class Soldier {
     static int[] badUntil = new int[16];
     static int nBad;
 
+    /** A soldier's turn: the steps below in order; a step that returns true ends the turn. Each step's gate is
+     *  written next to it. A gate marked "in:" is the first test inside the step's method and stays there: moving it
+     *  here would change the bytecode count before the SRP's Clock reads (srpTurn, pickSrp, workSrp), and with it
+     *  what those reads decide on some turns. Free actions, which never end the turn: scanEnemyTowers and the free
+     *  shot here; Churn.rebuild and Unit.topUp in RobotPlayer after the list. */
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
-        Unit.scanEnemyTowers();
-        // a visible enemy tower in range: hit it (50 damage) when healthy enough to trade
-        if (Unit.enemyTower != null && rc.isActionReady() && G.paint >= 5 && rc.canAttack(Unit.enemyTower)
+        Unit.scanEnemyTowers();                                  // free: remember the nearest enemy tower
+        // free shot: the remembered enemy tower in attack range (r2 <= 9), before ruin painting can use the action
+        if (Unit.enemyTower != null && rc.isActionReady() && G.paint >= Tune.SOL_SHOT_PAINT && rc.canAttack(Unit.enemyTower)
                 && G.here.distanceSquaredTo(Unit.enemyTower) <= 9) {
             rc.attack(Unit.enemyTower);
             G.paint = rc.getPaint();
         }
-        // t36: with >= 6 towers a soldier mid-SRP finishes it before taking up a new ruin
-        if (ruin == null && !(srp != null && rc.getNumberTowers() >= SRP_TOWERS)) pickRuin();
-        if (ruin != null) {
-            if (workRuin()) return;
-        }
-        if (deny()) return;   // study 6 2.2
+        // 1. take a ruin: none held, and not mid-SRP with SRP_TOWERS+ towers (t36: finish the SRP first);
+        //    in: fewer than 25 towers. Skips contested and bad ruins, at most 2 soldiers per ruin.
+        if (ruin == null && !(srp != null && rc.getNumberTowers() >= Tune.SRP_TOWERS)) pickRuin();
+        // 2. work it (free marks, paint, complete); false = dropped, go on
+        if (ruin != null && workRuin()) return;
+        // 3. deny (study 6 2.2); in: paint >= SOL_DENY_PAINT. True only when it painted.
+        if (deny()) return;
+        // 4. siege; in: a remembered enemy tower within d2 SOL_SIEGE_R2 and paint >= SOL_SIEGE_PAINT. True whenever
+        //    it applies, even on a turn it could not attack.
         if (siege()) return;
+        // 5. SRP; in: one in progress, else start one (round >= SRP_ROUND, chips >= SRP_CHIPS, paint >= SRP_PAINT,
+        //    SRP_START_BC bytecodes left)
         if (srpTurn()) return;
-        if (Unit.refill(100)) { paintHere(); return; }
-        // explore, painting as we go; study 3 tactic 2: before r80 save paint for tower patterns (no coverage)
-        if (G.round >= 80) paintNear();
+        // 6. refill; in: paint < SOL_REFILL or a refill walk under way. Then paint the tile underfoot (in: action
+        //    ready, paint >= SOL_PAINT_HERE).
+        if (Unit.refill(Tune.SOL_REFILL)) { paintHere(); return; }
+        // 7. explore, painting as we go (in: action ready, paint >= SOL_PAINT_NEAR); study 3 tactic 2: before round
+        //    SOL_SAVE_PAINT_UNTIL save paint for tower patterns (no coverage)
+        if (G.round >= Tune.SOL_SAVE_PAINT_UNTIL) paintNear();
         Nav.moveTo(Unit.exploreTarget());
-        if (G.round >= 80) paintNear();
+        if (G.round >= Tune.SOL_SAVE_PAINT_UNTIL) paintNear();
     }
 
     // ---- siege: a soldier with no ruin to build and paint to spare kites a known enemy tower nearby: step into
-    // range (r2 <= 9), hit it, step back out
-    static final int SIEGE_PAINT = 30, SIEGE_R2 = 144;
+    // range (r2 <= 9), hit it, step back out. True whenever it applies, even on a turn it could not attack.
     static boolean siege() throws GameActionException {
         RobotController rc = G.rc;
         MapLocation t = Unit.enemyTower;
-        if (t == null || G.paint < SIEGE_PAINT || G.here.distanceSquaredTo(t) > SIEGE_R2) return false;
+        if (t == null || G.paint < Tune.SOL_SIEGE_PAINT || G.here.distanceSquaredTo(t) > Tune.SOL_SIEGE_R2) return false;
         if (rc.isActionReady()) {
             if (G.here.distanceSquaredTo(t) > 9) Nav.moveTo(t);
             G.here = rc.getLocation();
@@ -58,20 +70,21 @@ public strictfp class Soldier {
     }
 
     // study 6 2.2: they paint into 48 of our 188 ruins (we finish 15% of those) and we did it to 6 of their 159.
-    // A soldier with no ruin of its own and 40+ paint puts our paint on 3 empty tiles of a visible ruin the enemy is
-    // building (enemy paint in its 5x5, no tower yet); their pattern can't complete until they mop it.
+    // A soldier with no ruin to work and 40+ paint paints one empty tile a turn of the nearest visible ruin the
+    // enemy is building (enemy paint in its 5x5, no tower yet) that shows fewer than 2 of our tiles; their pattern
+    // can't complete until they mop it.
     static boolean deny() throws GameActionException {
         RobotController rc = G.rc;
-        if (G.paint < 40) return false;
+        if (G.paint < Tune.SOL_DENY_PAINT) return false;
         MapLocation best = null; int bestD = Integer.MAX_VALUE;
         for (MapLocation r : G.ruins) {
-            if (rc.senseRobotAtLocation(r) != null || !contested(r)) continue;
+            if (rc.senseRobotAtLocation(r) != null || !Pattern.contested(r)) continue;
             int ours = 0;
             for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
                 MapLocation l = r.translate(dx, dy);
                 if (rc.canSenseLocation(l) && rc.senseMapInfo(l).getPaint().isAlly()) ours++;
             }
-            if (ours >= 2) continue;   // (t85: 3)
+            if (ours >= Tune.SOL_DENY_OURS) continue;
             int d = G.here.distanceSquaredTo(r);
             if (d < bestD) { bestD = d; best = r; }
         }
@@ -85,16 +98,6 @@ public strictfp class Soldier {
             }
         }
         return false;   // t84: deny only from where we stand (t80 also walked to the ruin and lost 39)
-    }
-
-    /** Enemy paint on a visible tile of the ruin's 5x5. */
-    static boolean contested(MapLocation r) throws GameActionException {
-        RobotController rc = G.rc;
-        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
-            MapLocation l = r.translate(dx, dy);
-            if (rc.canSenseLocation(l) && rc.senseMapInfo(l).getPaint().isEnemy()) return true;
-        }
-        return false;
     }
 
     static boolean isBad(MapLocation r) {
@@ -115,12 +118,12 @@ public strictfp class Soldier {
         for (MapLocation r : G.ruins) {
             if (rc.senseRobotAtLocation(r) != null) continue;       // a tower stands there
             if (isBad(r)) continue;
-            if (contested(r)) { markBad(r, 50); continue; }   // study 4 2.2: we finish 2 of 58 contested ruins
+            if (Pattern.contested(r)) { markBad(r, Tune.SOL_CONTESTED_BAD); continue; }   // study 4 2.2: we finish 2 of 58 contested ruins
             // two soldiers per ruin at most
             int helpers = 0;
-            for (RobotInfo a : G.allies) if (a.type == UnitType.SOLDIER && a.location.distanceSquaredTo(r) <= 8) helpers++;
-            if (rc.getNumberTowers() == 2) {   // study 8 2.2 (b): no second painter on our first tower in 35 of 89 games
-                if (helpers >= 2 || (helpers == 1 && G.here.distanceSquaredTo(r) > 20)) continue;
+            for (RobotInfo a : G.allies) if (a.type == UnitType.SOLDIER && a.location.distanceSquaredTo(r) <= Tune.SOL_HELPER_R2) helpers++;
+            if (rc.getNumberTowers() == Tune.SOL_PAIR_TOWERS) {   // study 8 2.2 (b): no second painter on our first tower in 35 of 89 games
+                if (helpers >= 2 || (helpers == 1 && G.here.distanceSquaredTo(r) > Tune.SOL_PAIR_JOIN_R2)) continue;
             } else if (helpers >= 1 && G.here.distanceSquaredTo(r) > 2) continue;
             int d = G.here.distanceSquaredTo(r);
             if (d < bestD) { bestD = d; best = r; }
@@ -128,83 +131,53 @@ public strictfp class Soldier {
         if (best != null) { ruin = best; ruinType = null; ruinSince = G.round; ruinBlocked = 0; }
     }
 
-    /** Tower type for a new ruin. Paint binds: a paint tower yields 5 paint a round against a money tower's 20
-     *  chips, and units plus their refills spend far more paint than chips. Third tower money, then two paint per
-     *  money; always paint while chips sit idle. */
-    static final int IDLE_CHIPS = 3000;
+    /** Tower type for a new ruin; the first rule that fires wins:
+     *  1. every tower known and none paints: paint;  2. every tower known and none money: money;
+     *  3. from 3 towers with 1500+ chips: paint (t63, y170);  4. below 6 towers: money (y155);
+     *  5. one paint tower per 4 towers beyond 6: paint;  6. below 8 towers: money;
+     *  7. 3000+ idle chips: paint - unreachable, rule 3 already fired;  8. paint while paint towers < 1/5 of towers. */
     static UnitType wantType() {
         // study 4 2.4: money first (their builds 1-8 are nearly all money, one paint tower past r100), now that
         // patterns no longer wait for chips (2.1) and contested ruins are skipped (2.2)
         int n = G.rc.getNumberTowers();
         int pt = 0, mt = 0;
-        for (int i = G.nTowers; --i >= 0; ) { if (G.towerKind[i] == 1) pt++; else if (G.towerKind[i] == 2) mt++; }
+        for (int i = G.nTowers; --i >= 0; ) { if (Towers.kind[i] == Towers.PAINT) pt++; else if (Towers.kind[i] == Towers.MONEY) mt++; }
         if (pt + mt >= n && pt == 0) return UnitType.LEVEL_ONE_PAINT_TOWER;   // every tower known and none paints
         // study 4 3.1: with 0 money towers we sat at 10 chips for 158 rounds; rebuild money first
         if (pt + mt >= n && mt == 0 && n > 0) return UnitType.LEVEL_ONE_MONEY_TOWER;
-        // study 5 2.1, softened: money for towers 1-5, then one more paint tower per 4 towers
-        if (n >= 3 && G.rc.getChips() >= 1500) return UnitType.LEVEL_ONE_PAINT_TOWER;   // t63 (was 2000)
-        if (n < 6) return UnitType.LEVEL_ONE_MONEY_TOWER;
-        if (pt < 1 + (n - 6) / 4) return UnitType.LEVEL_ONE_PAINT_TOWER;
-        if (n < 8) return UnitType.LEVEL_ONE_MONEY_TOWER;
-        if (G.rc.getChips() >= IDLE_CHIPS) return UnitType.LEVEL_ONE_PAINT_TOWER;
-        return pt * 5 < n ? UnitType.LEVEL_ONE_PAINT_TOWER : UnitType.LEVEL_ONE_MONEY_TOWER;
+        // study 5 2.1 (y155: money for towers 1-6), but from 3 towers 1500+ chips make it paint first (t63, y170)
+        if (n >= Tune.WANT_PAINT_CHIPS_TOWERS && G.rc.getChips() >= Tune.WANT_PAINT_CHIPS) return UnitType.LEVEL_ONE_PAINT_TOWER;
+        if (n < Tune.WANT_MONEY_UNTIL) return UnitType.LEVEL_ONE_MONEY_TOWER;
+        if (pt < 1 + (n - Tune.WANT_MONEY_UNTIL) / Tune.WANT_PAINT_PER) return UnitType.LEVEL_ONE_PAINT_TOWER;
+        if (n < Tune.WANT_MONEY_UNTIL_LATE) return UnitType.LEVEL_ONE_MONEY_TOWER;
+        if (G.rc.getChips() >= Tune.IDLE_CHIPS) return UnitType.LEVEL_ONE_PAINT_TOWER;   // unreachable (rule 3)
+        return pt * Tune.WANT_PAINT_SHARE < n ? UnitType.LEVEL_ONE_PAINT_TOWER : UnitType.LEVEL_ONE_MONEY_TOWER;
     }
 
-    static int patternOf(UnitType t) {
-        switch (t) {
-            case LEVEL_ONE_PAINT_TOWER: return GameConstants.PAINT_TOWER_PATTERN;
-            case LEVEL_ONE_MONEY_TOWER: return GameConstants.MONEY_TOWER_PATTERN;
-            default: return GameConstants.DEFENSE_TOWER_PATTERN;
-        }
-    }
-
-    /** true = secondary color at offset (dx, dy) from the pattern center. */
-    static boolean bit(int pattern, int dx, int dy) { return ((pattern >> (5 * (dx + 2) + dy + 2)) & 1) != 0; }
-
-    /** The tower type a ruin's marks spell (null when nothing visible is marked). */
-    static UnitType readMarks(MapLocation r) throws GameActionException {
-        RobotController rc = G.rc;
-        int pp = GameConstants.PAINT_TOWER_PATTERN, mp = GameConstants.MONEY_TOWER_PATTERN, dp = GameConstants.DEFENSE_TOWER_PATTERN;
-        int ep = 0, em = 0, ed = 0, marked = 0;
-        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
-            if (dx == 0 && dy == 0) continue;
-            MapLocation l = r.translate(dx, dy);
-            if (!rc.canSenseLocation(l)) continue;
-            PaintType m = rc.senseMapInfo(l).getMark();
-            if (m == PaintType.EMPTY) continue;
-            marked++;
-            boolean s = m.isSecondary();
-            if (bit(pp, dx, dy) != s) ep++;
-            if (bit(mp, dx, dy) != s) em++;
-            if (bit(dp, dx, dy) != s) ed++;
-        }
-        if (marked == 0) return null;
-        if (ep <= em && ep <= ed) return UnitType.LEVEL_ONE_PAINT_TOWER;
-        if (em <= ed) return UnitType.LEVEL_ONE_MONEY_TOWER;
-        return UnitType.LEVEL_ONE_DEFENSE_TOWER;
-    }
+    /** Pattern.bit, kept for test/vibe/BotTest (testPatternBits); the bot itself calls Pattern.bit. */
+    static boolean bit(int pattern, int dx, int dy) { return Pattern.bit(pattern, dx, dy); }
 
     // study 11 2.1: the paint and money patterns differ on all 16 outer-ring tiles of the 5x5, so one ring mark spells
-    // the type (readMarks decodes partial marks); rc.mark is free, has no cooldown and reaches r2 2
+    // the type (Pattern.readMarks decodes partial marks); rc.mark is free, has no cooldown and reaches r2 2
     static void freeMarks(MapLocation r, UnitType t) throws GameActionException {
         RobotController rc = G.rc;
-        int pat = patternOf(t);
+        int pat = Pattern.of(t);
         MapLocation me = rc.getLocation();
         for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
             if (dx != -2 && dx != 2 && dy != -2 && dy != 2) continue;
             MapLocation l = r.translate(dx, dy);
             if (me.distanceSquaredTo(l) > 2 || !rc.canMark(l)) continue;
-            if (rc.senseMapInfo(l).getMark() == PaintType.EMPTY) rc.mark(l, bit(pat, dx, dy));
+            if (rc.senseMapInfo(l).getMark() == PaintType.EMPTY) rc.mark(l, Pattern.bit(pat, dx, dy));
         }
     }
 
     // study 8 2.2 (a): our first tower is built at a median r25 against their r19; we start painting 3 rounds after
-    // first sight (they 1) because we walk up and mark first. On the way in, paint the nearest wrong tile of the
-    // pattern we are about to mark.
+    // first sight (they 1) because we walked up and marked first (before study 11's free marks). On the way in, paint
+    // the nearest wrong tile of the pattern we are about to take (wantType).
     static void prePaint(MapLocation r) throws GameActionException {
         RobotController rc = G.rc;
         if (!rc.isActionReady() || G.paint < 5) return;
-        int pat = patternOf(wantType());
+        int pat = Pattern.of(wantType());
         MapLocation best = null; boolean bs = false; int bd = Integer.MAX_VALUE;
         for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
             if (dx == 0 && dy == 0) continue;
@@ -212,7 +185,7 @@ public strictfp class Soldier {
             int dd = G.here.distanceSquaredTo(l);
             if (dd > 9 || dd >= bd || !rc.canSenseLocation(l)) continue;
             PaintType p = rc.senseMapInfo(l).getPaint();
-            boolean s = bit(pat, dx, dy);
+            boolean s = Pattern.bit(pat, dx, dy);
             if (p.isEnemy() || (p != PaintType.EMPTY && p.isSecondary() == s)) continue;
             bd = dd; best = l; bs = s;
         }
@@ -224,27 +197,27 @@ public strictfp class Soldier {
         RobotController rc = G.rc;
         MapLocation r = ruin;
         if (rc.canSenseLocation(r) && rc.senseRobotAtLocation(r) != null) { ruin = null; return false; }
-        if (G.round - ruinSince > 150) { markBad(r, 150); ruin = null; return false; }
-        if (G.paint < 10 && !rc.canCompleteTowerPattern(ruinType == null ? wantType() : ruinType, r)) {
+        if (G.round - ruinSince > Tune.SOL_RUIN_GIVE_UP) { markBad(r, Tune.SOL_RUIN_GIVE_UP_BAD); ruin = null; return false; }
+        if (G.paint < Tune.SOL_RUIN_REFILL && !rc.canCompleteTowerPattern(ruinType == null ? wantType() : ruinType, r)) {
             // out of paint mid-pattern: refill and come back
             Unit.refill(10000);
             return true;
         }
-        if (ruinType == null) ruinType = readMarks(r);
+        if (ruinType == null) ruinType = Pattern.readMarks(r);
         int d = G.here.distanceSquaredTo(r);
         if (ruinType == null) {
             if (d > 2) { Nav.moveTo(r); d = G.here.distanceSquaredTo(r); }
-            if (d > 2 && rc.getNumberTowers() <= 3) prePaint(r);   // study 8 2.2 (a)
+            if (d > 2 && rc.getNumberTowers() <= Tune.SOL_PREPAINT_TOWERS) prePaint(r);   // study 8 2.2 (a)
             if (d <= 2) {
                 // study 11 2.1: from beside the ruin the whole 5x5 is in sight: read the marks again, else take our own
                 // type and signal it with free single marks (rc.mark costs no paint; markTowerPattern cost 25)
-                ruinType = readMarks(r);
+                ruinType = Pattern.readMarks(r);
                 if (ruinType == null && rc.onTheMap(r.translate(-2, -2)) && rc.onTheMap(r.translate(2, 2))) ruinType = wantType();
             }
             if (ruinType == null) return true;
         }
         freeMarks(r, ruinType);   // study 11 2.1: every turn, mark the outer-ring tiles in reach so helpers read the type
-        int pat = patternOf(ruinType);
+        int pat = Pattern.of(ruinType);
         // paint the nearest wrong tile in range; find the nearest wrong tile overall to walk toward
         MapLocation paintL = null; boolean paintS = false; int paintD = Integer.MAX_VALUE;
         MapLocation walkL = null; int walkD = Integer.MAX_VALUE;
@@ -254,7 +227,7 @@ public strictfp class Soldier {
             MapLocation l = r.translate(dx, dy);
             if (!rc.canSenseLocation(l)) { wrong++; continue; }
             PaintType p = rc.senseMapInfo(l).getPaint();
-            boolean s = bit(pat, dx, dy);
+            boolean s = Pattern.bit(pat, dx, dy);
             if (p.isEnemy()) { enemyTiles++; continue; }
             if (p != PaintType.EMPTY && p.isSecondary() == s) continue;
             wrong++;
@@ -269,7 +242,7 @@ public strictfp class Soldier {
         }
         if (rc.canCompleteTowerPattern(ruinType, r)) {
             rc.completeTowerPattern(ruinType, r);
-            G.noteTower(r, G.kind(ruinType));
+            Towers.note(r, Towers.kindOf(ruinType));
             ruin = null;
             return true;
         }
@@ -277,7 +250,7 @@ public strictfp class Soldier {
             // study 9 2.1b: no blocked attempt completes without an own mopper or splasher in view: alone, give up after 5
             boolean cleaner = false;
             for (RobotInfo a : G.allies) if (a.type == UnitType.MOPPER || a.type == UnitType.SPLASHER) { cleaner = true; break; }
-            if (++ruinBlocked > (cleaner ? 25 : 5)) { markBad(r, cleaner ? 100 : 40); ruin = null; return false; }
+            if (++ruinBlocked > (cleaner ? Tune.SOL_BLOCKED_CLEANER : Tune.SOL_BLOCKED_ALONE)) { markBad(r, cleaner ? Tune.SOL_BLOCKED_CLEANER_BAD : Tune.SOL_BLOCKED_ALONE_BAD); ruin = null; return false; }
         }
         // move: toward the nearest wrong tile, else stay adjacent to complete when the chips arrive
         if (wrong > 0 && walkL != null) {
@@ -288,7 +261,7 @@ public strictfp class Soldier {
         G.ind += " ruin" + r + " " + ruinType + " w" + wrong + " e" + enemyTiles;
         if (rc.canCompleteTowerPattern(ruinType, r)) {
             rc.completeTowerPattern(ruinType, r);
-            G.noteTower(r, G.kind(ruinType));
+            Towers.note(r, Towers.kindOf(ruinType));
             ruin = null;
         }
         return true;
@@ -296,18 +269,14 @@ public strictfp class Soldier {
 
     // ---- t36: late special resource patterns (study 4 2.6, study 3 tactic 7). Centres on the lattice x = y = 2
     // (mod 4); RESOURCE_PATTERN repeats with period 4 (its outer rows and columns agree), so neighbouring lattice SRPs
-    // share their edge tiles consistently. Started only from r100 with 1000+ chips by a soldier with no ruin to work
-    // (or, with 6+ towers, kept over a new ruin). The 5x5 must hold no walls, no enemy paint, and no ruin; and must
-    // not overlap an unbuilt ruin's 5x5 (a ruin within Chebyshev 4 must carry our tower). Centres 3-4 tiles from one
-    // of our towers are preferred.
-    static final int SRP_ROUND = 100, SRP_CHIPS = 1000, SRP_TOWERS = 6, SRP_GIVE_UP = 60;
+    // share their edge tiles consistently. Started only from r100 with 1000+ chips, 60+ paint and 6000+ bytecodes
+    // left by a soldier with no ruin to work (or, with 6+ towers, kept over a new ruin). The 5x5 must hold no walls,
+    // no enemy paint, and no ruin; and must not overlap an unbuilt ruin's 5x5 (a ruin within Chebyshev 4 must carry
+    // our tower). Centres 3-4 tiles from one of our towers are preferred.
     static MapLocation srp;
     static int srpSince, srps;
     static int[] srpSkip;          // per lattice centre: skip it until this round (Integer.MAX_VALUE = done or never)
     static int srpLW;
-
-    /** true = the SRP lattice colouring wants secondary at (x, y). */
-    static boolean srpSec(int x, int y) { return ((G.SRP_MASK >> (((x - 2) & 3) | (((y - 2) & 3) << 2))) & 1) != 0; }
 
     static int srpIdx(MapLocation c) { return (c.x >> 2) + (c.y >> 2) * srpLW; }
 
@@ -315,25 +284,9 @@ public strictfp class Soldier {
         srpSkip[srpIdx(c)] = rounds == Integer.MAX_VALUE ? rounds : G.round + rounds;
     }
 
-    /** Kind of our known tower at l (1 paint, 2 money, 3 defense), 0 when none. */
-    static int allyTowerKind(MapLocation l) {
-        for (int i = G.nTowers; --i >= 0; ) if (G.towerLoc[i].equals(l)) return G.towerKind[i];
-        return 0;
-    }
-
-    /** The SRP at c and the money-tower pattern around t agree on every shared tile (so churn repairs and the
-     *  SRP never repaint each other). */
-    static boolean agreesWithMoney(int cx, int cy, MapLocation t) {
-        int mp = GameConstants.MONEY_TOWER_PATTERN, rp = GameConstants.RESOURCE_PATTERN;
-        for (int x = Math.max(cx, t.x) - 2; x <= Math.min(cx, t.x) + 2; x++)
-            for (int y = Math.max(cy, t.y) - 2; y <= Math.min(cy, t.y) + 2; y++)
-                if (bit(mp, x - t.x, y - t.y) != bit(rp, x - cx, y - cy)) return false;
-        return true;
-    }
-
     static boolean srpTurn() throws GameActionException {
         if (srp == null) {
-            if (G.round < SRP_ROUND || G.chips < SRP_CHIPS || G.paint < 60 || Clock.getBytecodesLeft() < 6000) return false;
+            if (G.round < Tune.SRP_ROUND || G.chips < Tune.SRP_CHIPS || G.paint < Tune.SRP_PAINT || Clock.getBytecodesLeft() < Tune.SRP_START_BC) return false;
             pickSrp();
             if (srp == null) return false;
         }
@@ -347,16 +300,16 @@ public strictfp class Soldier {
         if (srpSkip == null) { srpLW = G.W / 4 + 1; srpSkip = new int[srpLW * (G.H / 4 + 1)]; }
         int W = G.W, H = G.H, hx = G.here.x, hy = G.here.y;
         int[] m = G.mem;
-        int x0 = hx - 7 + ((2 - (hx - 7)) & 3), y0 = hy - 7 + ((2 - (hy - 7)) & 3);
+        int x0 = hx - Tune.SRP_SEARCH + ((2 - (hx - Tune.SRP_SEARCH)) & 3), y0 = hy - Tune.SRP_SEARCH + ((2 - (hy - Tune.SRP_SEARCH)) & 3);
         MapLocation best = null; int bestS = Integer.MAX_VALUE;
-        for (int cx = x0; cx <= hx + 7; cx += 4) {
+        for (int cx = x0; cx <= hx + Tune.SRP_SEARCH; cx += 4) {
             if (cx < 2 || cx > W - 3) continue;
-            for (int cy = y0; cy <= hy + 7; cy += 4) {
+            for (int cy = y0; cy <= hy + Tune.SRP_SEARCH; cy += 4) {
                 if (cy < 2 || cy > H - 3) continue;
-                if (Clock.getBytecodesLeft() < 3000) break;
+                if (Clock.getBytecodesLeft() < Tune.SRP_PICK_BC) break;
                 MapLocation c = new MapLocation(cx, cy);
                 int d = G.here.distanceSquaredTo(c);
-                if (d > 50) continue;
+                if (d > Tune.SRP_PICK_R2) continue;
                 int k = srpIdx(c);
                 if (srpSkip[k] > G.round) continue;
                 // ruins: none in the 5x5, and any within Chebyshev 4 must be our tower
@@ -366,13 +319,13 @@ public strictfp class Soldier {
                     int ax = Math.abs(r.x - cx), ay = Math.abs(r.y - cy);
                     int ch = ax > ay ? ax : ay;
                     if (ch <= 2) { ok = false; srpSkip[k] = Integer.MAX_VALUE; break; }
-                    if (ch > 6) continue;
-                    int kind = allyTowerKind(r);
+                    if (ch > Tune.SRP_TOWER_FAR) continue;
+                    int kind = Towers.kindAt(r);
                     if (kind == 0) {
-                        if (ch <= 4) { ok = false; srpSkip[k] = G.round + 100; break; }
+                        if (ch <= 4) { ok = false; srpSkip[k] = G.round + Tune.SRP_SKIP_RUIN; break; }
                         continue;
                     }
-                    if (ch <= 4 && kind == 2 && !agreesWithMoney(cx, cy, r)) { ok = false; srpSkip[k] = G.round + 300; break; }
+                    if (ch <= 4 && kind == Towers.MONEY && !Pattern.agreesWithMoney(cx, cy, r)) { ok = false; srpSkip[k] = G.round + Tune.SRP_SKIP_MONEY; break; }
                     if (ch < towerCheb) towerCheb = ch;
                 }
                 if (!ok) continue;
@@ -380,13 +333,13 @@ public strictfp class Soldier {
                 int right = 0;
                 for (int dx = -2; dx <= 2 && ok; dx++) for (int dy = -2; dy <= 2; dy++) {
                     int v = m[cx + dx + (cy + dy) * W];
-                    if ((v & 6) != 0) { ok = false; srpSkip[k] = Integer.MAX_VALUE; break; }
+                    if ((v & (G.WALL | G.RUIN)) != 0) { ok = false; srpSkip[k] = Integer.MAX_VALUE; break; }
                     int p = v >> 4;
-                    if (p >= 3) { ok = false; srpSkip[k] = G.round + 60; break; }
-                    if (p != 0 && (p == 2) == srpSec(cx + dx, cy + dy)) right++;
+                    if (p >= 3) { ok = false; srpSkip[k] = G.round + Tune.SRP_SKIP_ENEMY_MEM; break; }
+                    if (p != 0 && (p == 2) == Pattern.srpSec(cx + dx, cy + dy)) right++;
                 }
                 if (!ok) continue;
-                int sc = d - 3 * right - (towerCheb <= 4 ? 40 : towerCheb <= 6 ? 15 : 0);
+                int sc = d - Tune.SRP_RIGHT_WEIGHT * right - (towerCheb <= 4 ? Tune.SRP_BONUS_NEAR : towerCheb <= Tune.SRP_TOWER_FAR ? Tune.SRP_BONUS_FAR : 0);
                 if (sc < bestS) { bestS = sc; best = c; }
             }
         }
@@ -410,8 +363,8 @@ public strictfp class Soldier {
             MapInfo mi = rc.senseMapInfo(l);
             if (!mi.isPassable()) { srpSkipFor(c, Integer.MAX_VALUE); srp = null; return false; }
             PaintType p = mi.getPaint();
-            if (p.isEnemy()) { srpSkipFor(c, 80); srp = null; return false; }
-            boolean sec = bit(pat, dx, dy);
+            if (p.isEnemy()) { srpSkipFor(c, Tune.SRP_SKIP_ENEMY); srp = null; return false; }
+            boolean sec = Pattern.bit(pat, dx, dy);
             if (p != PaintType.EMPTY && p.isSecondary() == sec) continue;
             srpWrong++;
             int dd = G.here.distanceSquaredTo(l);
@@ -450,7 +403,7 @@ public strictfp class Soldier {
     static boolean workSrp() throws GameActionException {
         RobotController rc = G.rc;
         MapLocation c = srp;
-        if (G.round - srpSince > SRP_GIVE_UP) { srpSkipFor(c, 150); srp = null; return false; }
+        if (G.round - srpSince > Tune.SRP_GIVE_UP) { srpSkipFor(c, Tune.SRP_SKIP_GIVE_UP); srp = null; return false; }
         if (rc.canSenseLocation(c) && rc.senseMapInfo(c).isResourcePatternCenter()) { srpSkipFor(c, Integer.MAX_VALUE); srp = null; return false; }
         // a newly seen ruin in or near the 5x5 (unbuilt, or an enemy tower) rules the centre out
         for (MapLocation r : G.ruins) {
@@ -459,19 +412,19 @@ public strictfp class Soldier {
             if (ch <= 2) { srpSkipFor(c, Integer.MAX_VALUE); srp = null; return false; }
             if (ch <= 4) {
                 RobotInfo t = rc.senseRobotAtLocation(r);
-                if (t == null || t.team != G.me) { srpSkipFor(c, 100); srp = null; return false; }
+                if (t == null || t.team != G.me) { srpSkipFor(c, Tune.SRP_SKIP_RUIN); srp = null; return false; }
             }
         }
-        if (Unit.enemyTower != null && Unit.enemyTower.distanceSquaredTo(c) <= 25) { srpSkipFor(c, 100); srp = null; return false; }
-        if (G.paint < 15 && Unit.refill(10000)) { G.ind += " srp-refill"; return true; }
-        if (Clock.getBytecodesLeft() < 2500) return true;
+        if (Unit.enemyTower != null && Unit.enemyTower.distanceSquaredTo(c) <= Tune.SRP_ENEMY_TOWER_R2) { srpSkipFor(c, Tune.SRP_SKIP_ENEMY_TOWER); srp = null; return false; }
+        if (G.paint < Tune.SRP_REFILL && Unit.refill(10000)) { G.ind += " srp-refill"; return true; }
+        if (Clock.getBytecodesLeft() < Tune.SRP_WORK_BC) return true;
         if (!srpScan(c)) return false;
         srpPaint();
         if (srpWrong == 0 && srpComplete(c)) return true;
         if (!G.here.equals(c)) {
             Nav.moveTo(c);
             G.here = rc.getLocation();
-            if (rc.isActionReady() && Clock.getBytecodesLeft() > 4000) {
+            if (rc.isActionReady() && Clock.getBytecodesLeft() > Tune.SRP_REPAINT_BC) {
                 if (!srpScan(c)) return false;
                 srpPaint();
             }
@@ -483,7 +436,7 @@ public strictfp class Soldier {
 
     static void paintHere() throws GameActionException {
         RobotController rc = G.rc;
-        if (!rc.isActionReady() || G.paint < 25) return;
+        if (!rc.isActionReady() || G.paint < Tune.SOL_PAINT_HERE) return;
         MapInfo mi = rc.senseMapInfo(G.here);
         if (mi.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, false); G.paint = rc.getPaint(); }
     }
@@ -491,7 +444,7 @@ public strictfp class Soldier {
     /** Paint one unpainted tile in range (the one under us first, then the nearest), keeping a reserve for ruins. */
     static void paintNear() throws GameActionException {
         RobotController rc = G.rc;
-        if (!rc.isActionReady() || G.paint < 50) return;
+        if (!rc.isActionReady() || G.paint < Tune.SOL_PAINT_NEAR) return;
         MapInfo under = rc.senseMapInfo(G.here);
         if (under.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, false); G.paint = rc.getPaint(); return; }
         MapLocation best = null; int bestD = Integer.MAX_VALUE;

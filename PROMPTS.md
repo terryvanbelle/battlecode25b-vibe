@@ -206,3 +206,12 @@ I'm curious whether the best replica bots ever rose above zero.  Their primary p
 
 ## #60 (2026-11-27 07:16 PDT)
 You can add it as long as it doesn't require more games on the box.  Since the slots are guardrails that haven't yet fired, I want to be conscious about not spending too many resources on them
+
+## #61 (2026-11-27 13:31 PDT)
+Can you check more closely on the r140 games?  It seems like they've been running for a long time
+
+## #62 (2026-11-27 13:43 PDT)
+Also stay on top of field study 12, and make sure it doesn't run stuck again
+
+## #63 (2026-11-27 14:11 PDT)
+I realize you're almost done the refactor, so this is a moot point, but you could always run the verification games on the box or larger VM if the driver is too slow

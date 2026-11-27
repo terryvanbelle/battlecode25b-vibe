@@ -449,7 +449,7 @@ t122  # replica reference: peak 1726 at #6 (record.py); permanent slot (owner #4
 # t138 (retired: built on t135, champion now t140)
 # y277 (retired: flat, -3 vs t135 after 857 games)
 # t139 (retired: -22 vs t135 after 208 games; dry-flag fix alone)
-t140
+# t140 (retired: substituted by r140, its R1-R3 refactor: 43 of 43 twin games identical, TRAINING_ALGORITHM 2.5, owner #57/#58; t140 stays the crowned, submitted name)
 # t141 (retired: -53 vs t135 after 193 games; siege HP exit at 70)
 # t142 (retired: -92 vs t135 after 211 games; siege HP exit at 100)
 # y278 (retired: built on t135, champion now t140)
@@ -475,3 +475,14 @@ t140
 # y292 (retired: -23 vs t140 after 636 games; refill paint towers 15% closer)
 # y293 (retired: -16 vs t140 after 756 games; refill paint towers 40% closer. The dial is flat from -40% to +50%)
 # y294 (retired: flat, -2 vs t140 after 765 games; refill paint towers 50% closer)
+r140  # champion (substitutes t140: verified identical refactor, owner #57/#58)
+t149
+t150
+t151
+t154
+t152
+t153
+y295
+y296
+y297
+y298

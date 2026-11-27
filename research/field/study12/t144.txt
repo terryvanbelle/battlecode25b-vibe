@@ -1,0 +1,22 @@
+== lost games: 44
+   part 1, upgrades per game:
+      us  :  2.68 per game; by the tower 118, by a robot 0; to L2 88, to L3 30; under fire (hit in the 10 rounds before) 11; damaged before (40 of 112, mean missing hp 183); destroyed later 57
+      them:  5.70 per game; by the tower 236, by a robot 15; to L2 197, to L3 54; under fire (hit in the 10 rounds before) 15; damaged before (73 of 246, mean missing hp 124); destroyed later 15
+   part 2, towers destroyed by damage:
+      us   towers: 515 (11.70 per game); level at death L1 409, L2 95, L3 11; types paint 168, money 347, defense 0
+            final siege: median 13 rounds, 950 damage, 2 attackers; owner chips at its start median 1214, max during it 1455
+            an upgrade was affordable during the siege for 122 of 515 (24%); +500 hp would have bought a median 10.0 rounds (p25 7.0, p75 12.1)
+      them towers: 270 (6.14 per game); level at death L1 237, L2 32, L3 1; types paint 74, money 183, defense 13
+            final siege: median 12.0 rounds, 875.0 damage, 2.0 attackers; owner chips at its start median 1059.5, max during it 1299.5
+            an upgrade was affordable during the siege for 57 of 270 (21%); +500 hp would have bought a median 10.0 rounds (p25 8.0, p75 13.0)
+== won games: 55
+   part 1, upgrades per game:
+      us  :  2.25 per game; by the tower 124, by a robot 0; to L2 97, to L3 27; under fire (hit in the 10 rounds before) 8; damaged before (40 of 115, mean missing hp 144); destroyed later 5
+      them:  3.80 per game; by the tower 209, by a robot 0; to L2 135, to L3 74; under fire (hit in the 10 rounds before) 24; damaged before (64 of 202, mean missing hp 148); destroyed later 91
+   part 2, towers destroyed by damage:
+      us   towers: 327 (5.95 per game); level at death L1 299, L2 28, L3 0; types paint 81, money 246, defense 0
+            final siege: median 13 rounds, 1000 damage, 2 attackers; owner chips at its start median 1102, max during it 1370
+            an upgrade was affordable during the siege for 50 of 327 (15%); +500 hp would have bought a median 10.0 rounds (p25 7.0, p75 11.4)
+      them towers: 366 (6.65 per game); level at death L1 232, L2 114, L3 20; types paint 83, money 277, defense 6
+            final siege: median 13.5 rounds, 950.0 damage, 2.0 attackers; owner chips at its start median 1295.0, max during it 1915.0
+            an upgrade was affordable during the siege for 69 of 366 (19%); +500 hp would have bought a median 9.5 rounds (p25 6.4, p75 11.0)

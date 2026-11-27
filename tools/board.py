@@ -119,13 +119,14 @@ def local_chart(notes):
     if not hist:
         return []
     start, ent = hist[0]['when'], tourney.entry_times()
-    rows, champs = [], set()
+    rows, champs, sub = [], set(), tourney.substitutes()
     for r in hist:
         b = r['bot']
-        champs.add(b)
-        if b in rt:
-            rows.append(dict(kind='champion', bot=b, when_pdt=r['when_pdt'], rating=round(rt[b].rating),
-                             se=round(rt[b].se), games=int(rt[b].games), change=r.get('change') or notes.get(b, '')))
+        c = tourney.canon(b, sub)   # owner #58: a verified substitute carries the champion's games under its name
+        champs |= {b, c}
+        if c in rt:
+            rows.append(dict(kind='champion', bot=b, when_pdt=r['when_pdt'], rating=round(rt[c].rating),
+                             se=round(rt[c].se), games=int(rt[c].games), change=r.get('change') or notes.get(b, '')))
     for b in sorted(set(tourney.pool()) | set(tourney.retired())):
         if b in champs or b not in rt or b not in ent or ent[b] < start or rt[b].games < 10:
             continue

@@ -1,0 +1,74 @@
+36 (opponent, map) pairings played by t140 or t135 and by at least one other version
+opponent                 map              t140          t135          t122          t118          t111          
+gone-whalin              AlarmClock       -             W             w             -             w             
+gone-whalin              Bread            W             -             w             L             -             
+gone-whalin              Filter           -             w             -             -             l             
+gone-whalin              Justice          -             l             ll            -             -             
+gone-whalin              Racetrack        -             L             l             -             l             
+gone-whalin              box              W             w             w             -             -             
+gone-whalin              sunrise          -             w             w             -             -             
+immutable                Circuit          -             W             -             -             w             
+immutable                Paintball        w             -             W             W             -             
+immutable                PlumberGame      l             L             L             -             -             
+immutable                headphones       -             W             W             W             -             
+immutable                memstore         l             L             -             -             -             
+immutable                shell            -             w             w             -             -             
+lobster-roll             catface          -             W             W             -             W             
+lobster-roll             sierpinski       -             L             -             -             L             
+om-nom                   Oasis            L             -             L             -             -             
+om-nom                   defensetower     W             -             -             w             -             
+placeholder-name-2       CastleDefense    W             W             -             -             -             
+placeholder-name-2       boxofchocolates  -             L             -             -             W             
+placeholder-name-2       defensetower     -             l             w             -             -             
+scienceqiu               DefaultHuge      L             -             -             -             l             
+scienceqiu               DonkeyKong       -             l             l             -             -             
+scienceqiu               Fossil           -             w             -             -             w             
+scienceqiu               Money            -             w             W             -             w             
+scienceqiu               box              W             -             w             -             -             
+slifland                 Fossil           -             W             -             -             w             
+spaark                   HungerGames      -             l             -             wW            -             
+spaark                   Money            w             -             l             L             -             
+spaark                   Portal           -             l             -             w             -             
+spaark                   SMILE            -             w             -             -             L             
+spaark                   Snowglobe        l             -             -             l             -             
+spaark                   UnderTheSea      l             -             LL            -             L             
+subscribe-to-caterpillow Portal           -             w             -             -             W             
+subscribe-to-caterpillow catface          -             w             -             -             W             
+subscribe-to-caterpillow fix              L             -             -             -             L             
+subscribe-to-caterpillow shell            L             -             -             L             -             
+
+version against version, over the pairings both played (all opponents | the seven top teams):
+   t140 vs t135:  4 pairings: t140 2-2, t135 2-2   | top:  3 pairings: t140 1-2, t135 1-2
+   t140 vs t122:  8 pairings: t140 5-3, t122 4-5   | top:  8 pairings: t140 5-3, t122 4-5
+   t135 vs t122: 12 pairings: t135 7-5, t122 8-5   | top: 11 pairings: t135 7-4, t122 7-5
+   t140 vs t111:  3 pairings: t140 0-3, t111 0-3   | top:  3 pairings: t140 0-3, t111 0-3
+   t140 vs t118:  6 pairings: t140 4-2, t118 2-4   | top:  6 pairings: t140 4-2, t118 2-4
+   t135 vs t118:  3 pairings: t135 1-2, t118 4-0   | top:  3 pairings: t135 1-2, t118 4-0
+   t135 vs t111: 13 pairings: t135 10-3, t111 9-4   | top: 11 pairings: t135 9-2, t111 7-4
+
+flips (every game of the first version lost / won while every game of the second won / lost):
+   t140 lost, t135 won: 0: 
+   t140 won, t135 lost: 0: 
+   t140 lost, t122 won: 0: 
+   t140 won, t122 lost: 1: spaark/Money
+   t135 lost, t122 won: 1: placeholde/defensetower
+   t135 won, t122 lost: 0: 
+
+whole sets, per opponent: t140 | t135 | t122 | t118 | t111
+   angtn                         - |      - |    2-1 |      - |    2-1
+   confused                    1-2 |      - |      - |    1-5 |      -
+   gone-whalin                 7-1 |    7-5 |  15-14 |    3-3 |    6-8
+   immutable                   1-2 |    6-8 |   9-11 |    6-0 |    3-3
+   just-woke-up                  - |      - |      - |    1-2 |      -
+   lobster-roll                  - |    2-1 |   11-9 |      - |   10-8
+   om-nom                      2-3 |      - |    0-3 |    3-3 |    1-2
+   placeholder-name-2          3-0 |    4-5 |    3-3 |      - |    7-2
+   podemice                      - |      - |      - |      - |    5-1
+   scienceqiu                  2-1 |    6-3 |  15-13 |      - |   12-8
+   slifland                      - |    6-0 |    3-0 |      - |    4-2
+   spaark                      2-4 |    1-2 |   8-16 |    7-8 |    8-9
+   subscribe-to-caterpillow    2-4 |    3-3 |    3-3 |    9-3 |    4-2
+   varunvejalla                  - |      - |    3-0 |      - |    8-5
+
+whole sets: t140 20-17, t135 35-27, t122 72-73, t118 30-24, t111 70-51
+top 7 only: t140 16-15, t135 25-22, t122 61-69, t118 28-17, t111 44-40

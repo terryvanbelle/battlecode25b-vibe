@@ -1,0 +1,26 @@
+== lost games: 44; soldier walk turns: % already own / painted under / neutral / enemy, % painting another tile, mean paint
+   walk r1-50    us     4316  own  22.5  under   0.8  neutral  67.5  enemy   9.2   elsewhere   0.6   paint 173.5
+   walk r1-50    them   4042  own  48.0  under  26.9  neutral  21.2  enemy   3.9   elsewhere  15.7   paint 150.6
+   walk r51-80   us     3885  own  24.8  under   2.7  neutral  59.7  enemy  12.9   elsewhere   3.0   paint 154.3
+   walk r51-80   them   3475  own  56.0  under  14.1  neutral  23.3  enemy   6.6   elsewhere  19.0   paint 115.6
+   walk r81-100  us     3389  own  45.6  under  10.4  neutral  31.2  enemy  12.7   elsewhere  52.4   paint 129.3
+   walk r81-100  them   2569  own  62.5  under  11.8  neutral  16.5  enemy   9.3   elsewhere  16.4   paint 123.9
+   ruin r1-50    us     3638  own  62.7  under   6.5  neutral  23.9  enemy   6.9   elsewhere  43.2   paint 147.9
+   ruin r1-50    them   5114  own  59.8  under  19.6  neutral  11.5  enemy   9.1   elsewhere  46.2   paint 131.4
+   ruin r51-80   us     2044  own  48.6  under   5.9  neutral  30.2  enemy  15.3   elsewhere  22.1   paint 132.3
+   ruin r51-80   them   2739  own  61.3  under  10.6  neutral  13.5  enemy  14.6   elsewhere  34.0   paint 110.4
+   ruin r81-100  us     1377  own  51.6  under  11.2  neutral  17.0  enemy  20.2   elsewhere  44.5   paint 111.4
+   ruin r81-100  them   1771  own  69.9  under   8.9  neutral  11.6  enemy   9.6   elsewhere  32.5   paint 115.8
+== won games: 55; soldier walk turns: % already own / painted under / neutral / enemy, % painting another tile, mean paint
+   walk r1-50    us     6675  own  22.4  under   1.7  neutral  65.3  enemy  10.5   elsewhere   0.7   paint 170.3
+   walk r1-50    them   6152  own  44.3  under  22.1  neutral  25.2  enemy   8.3   elsewhere  10.9   paint 148.3
+   walk r51-80   us     5803  own  27.4  under   3.3  neutral  56.8  enemy  12.5   elsewhere   2.9   paint 152.7
+   walk r51-80   them   4686  own  52.0  under  11.2  neutral  26.3  enemy  10.4   elsewhere  10.6   paint 116.2
+   walk r81-100  us     4599  own  45.6  under  12.2  neutral  28.2  enemy  14.0   elsewhere  50.7   paint 127.4
+   walk r81-100  them   3020  own  57.9  under   7.4  neutral  22.1  enemy  12.6   elsewhere   9.1   paint 114.0
+   ruin r1-50    us     4436  own  58.7  under   6.7  neutral  22.8  enemy  11.9   elsewhere  41.1   paint 146.9
+   ruin r1-50    them   5272  own  55.0  under  16.1  neutral  21.6  enemy   7.2   elsewhere  44.3   paint 133.8
+   ruin r51-80   us     2966  own  48.3  under   5.4  neutral  28.0  enemy  18.3   elsewhere  20.4   paint 131.9
+   ruin r51-80   them   2918  own  57.0  under   8.6  neutral  17.9  enemy  16.5   elsewhere  26.9   paint 107.1
+   ruin r81-100  us     2080  own  55.0  under   9.5  neutral  14.9  enemy  20.6   elsewhere  46.4   paint 116.1
+   ruin r81-100  them   1759  own  58.0  under   6.3  neutral  17.1  enemy  18.6   elsewhere  22.9   paint 105.4

@@ -1,0 +1,98 @@
+== lost games: 44
+   ledger check on untouched turns (exact / silent soldier attack / other):
+      us   SOLDIER    146319 turns: exact  99.7%  silent  0.17%  other  0.17%
+      us   SPLASHER    79391 turns: exact 100.0%  silent  0.00%  other  0.03%
+      us   MOPPER      64212 turns: exact  99.9%  silent  0.00%  other  0.10%
+      them SOLDIER    338918 turns: exact  98.3%  silent  1.33%  other  0.32%
+      them SPLASHER   272941 turns: exact  99.9%  silent  0.00%  other  0.08%
+      them MOPPER     290775 turns: exact 100.0%  silent  0.00%  other  0.04%
+      example (5203, 2, 104, 13354, 'us', 'SOLDIER', 85, -30, 1, 'own', 1, 55, ['mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'paint'])
+      example (5203, 2, 105, 13354, 'us', 'SOLDIER', 55, -5, 1, 'own', 1, 50, ['paint'])
+      example (5203, 2, 106, 13354, 'us', 'SOLDIER', 50, -5, 1, 'own', 1, 45, ['paint'])
+      example (5203, 2, 107, 13354, 'us', 'SOLDIER', 45, 0, 1, 'own', 1, 45, [])
+      example (5203, 2, 108, 13354, 'us', 'SOLDIER', 45, -5, 1, 'own', 1, 40, ['paint'])
+      example (5203, 2, 109, 13354, 'us', 'SOLDIER', 40, -5, 1, 'own', 1, 35, ['paint'])
+      example (5203, 2, 117, 13354, 'us', 'SOLDIER', 15, 0, 1, 'own', 1, 15, [])
+      example (5203, 2, 118, 13354, 'us', 'SOLDIER', 15, 0, 2, 'own', 2, 14, [])
+      example (5203, 2, 256, 11199, 'us', 'SOLDIER', 90, -5, 1, 'own', 1, 85, ['paint'])
+      example (5203, 2, 257, 11199, 'us', 'SOLDIER', 85, -5, 1, 'own', 1, 80, ['paint'])
+  SOLDIER
+     phase      side  robot-turns  lost/100t  tile  crowd (tower)  1+ allies  2+    3+    on own / neutral / enemy   spent/100t  withdrawn/100t  silent attacks/100t
+     r1-100     us          28891       70.0  47.1   22.9 ( 4.8)      19.6%   2.4%  0.3%    60.3 /  31.1 /   8.5       231.7      156.8     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r1-100     them        25540       43.4  30.0   13.4 ( 3.8)      11.8%   1.2%  0.0%    77.0 /  15.0 /   8.0       249.9      138.4     0.44 (on own 0.19, neutral 0.03, enemy 0.22)
+     r101-200   us          37335       60.1  30.2   29.9 (11.7)      24.7%   4.3%  0.7%    78.0 /  10.1 /  11.9       223.7      182.2     0.20 (on own 0.18, neutral 0.00, enemy 0.02)
+     r101-200   them        35841       54.8  30.4   24.5 ( 5.7)      19.2%   3.6%  0.7%    80.2 /   8.1 /  11.7       184.4      130.6     1.39 (on own 1.20, neutral 0.01, enemy 0.18)
+     r201+      us          91398       80.4  39.2   41.2 (10.3)      29.8%   7.9%  2.0%    74.7 /   3.8 /  21.6       128.1      109.7     0.19 (on own 0.16, neutral 0.00, enemy 0.03)
+     r201+      them       286010      103.1  20.8   82.3 (13.1)      45.3%  20.8%  9.8%    88.2 /   1.5 /  10.3        72.7       79.0     1.36 (on own 1.27, neutral 0.01, enemy 0.09)
+  SPLASHER
+     phase      side  robot-turns  lost/100t  tile  crowd (tower)  1+ allies  2+    3+    on own / neutral / enemy   spent/100t  withdrawn/100t  silent attacks/100t
+     r1-100     us             13      107.7  46.2   61.5 (61.5)      61.5%   0.0%  0.0%    53.8 /  46.2 /   0.0         0.0       46.2     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r1-100     them          586       37.5  30.5    7.0 ( 2.0)       6.0%   0.5%  0.2%    75.1 /  19.3 /   5.6       426.6       12.1     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r101-200   us           4340       47.6  14.8   32.7 (19.9)      27.6%   4.6%  0.7%    88.4 /   7.2 /   4.4       472.4      200.0     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r101-200   them         7887       45.6  26.3   19.3 ( 4.5)      16.0%   2.6%  0.5%    80.0 /  12.3 /   7.7       287.8       61.8     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r201+      us          80484       72.4  20.1   52.3 (14.9)      36.8%  11.6%  3.5%    85.8 /   3.5 /  10.7       360.8      199.5     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r201+      them       273679       87.8   9.9   78.0 (10.5)      44.3%  18.5%  8.6%    93.2 /   2.8 /   4.0       132.0       59.9     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+  MOPPER
+     phase      side  robot-turns  lost/100t  tile  crowd (tower)  1+ allies  2+    3+    on own / neutral / enemy   spent/100t  withdrawn/100t  silent attacks/100t
+     r1-100     us            591      137.2  114.4   22.8 ( 4.7)      17.9%   3.2%  0.8%    45.5 /  51.8 /   2.7         0.0       24.5     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r1-100     them         4808       95.2  79.7   15.5 ( 3.1)      13.9%   1.1%  0.0%    63.0 /  34.0 /   3.0         0.0       13.2     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r101-200   us          10554      122.3  81.8   40.5 (12.9)      30.4%   7.1%  1.1%    63.6 /  30.8 /   5.5         0.0       46.6     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r101-200   them        25023       93.9  67.0   26.9 ( 4.3)      22.1%   3.8%  0.5%    69.6 /  26.7 /   3.8         0.0       33.9     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r201+      us          55592      132.2  53.5   78.7 (18.3)      48.5%  19.0%  6.4%    80.3 /  11.3 /   8.4         0.0      120.7     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r201+      them       268565      119.2  32.0   87.2 (17.3)      46.6%  22.2% 11.1%    86.4 /  10.5 /   3.1         0.0       82.4     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+  ALL ROBOTS, per game (sums / games):
+     r1-100    us  : lost     478 (crowding    154, beside a tower     32); spent on actions    1521 (of it silent soldier attacks     0); withdrawn    1033; lost / spent  31.4%
+     r1-100    them: lost     361 (crowding     96, beside a tower     26); spent on actions    1507 (of it silent soldier attacks    13); withdrawn     820; lost / spent  23.9%
+     r101-200  us  : lost     850 (crowding    383, beside a tower    150); spent on actions    2364 (of it silent soldier attacks     9); withdrawn    1855; lost / spent  36.0%
+     r101-200  them: lost    1062 (crowding    387, beside a tower     78); spent on actions    2018 (of it silent soldier attacks    57); withdrawn    1367; lost / spent  52.6%
+     r201+     us  : lost    4665 (crowding   2806, beside a tower    718); spent on actions    9260 (of it silent soldier attacks    20); withdrawn    7454; lost / spent  50.4%
+     r201+     them: lost   19436 (crowding  15523, beside a tower   2555); spent on actions   12939 (of it silent soldier attacks   442); withdrawn   13888; lost / spent 150.2%
+== won games: 55
+   ledger check on untouched turns (exact / silent soldier attack / other):
+      us   SOLDIER    340839 turns: exact  99.8%  silent  0.05%  other  0.11%
+      us   SPLASHER   254491 turns: exact 100.0%  silent  0.00%  other  0.01%
+      us   MOPPER     128163 turns: exact 100.0%  silent  0.00%  other  0.01%
+      them SOLDIER    216289 turns: exact  97.2%  silent  2.78%  other  0.04%
+      them SPLASHER   119021 turns: exact  99.9%  silent  0.00%  other  0.05%
+      them MOPPER     213592 turns: exact  99.9%  silent  0.00%  other  0.11%
+      example (5202, 0, 150, 13016, 'us', 'SOLDIER', 97, -5, 1, 'own', 1, 92, ['paint'])
+      example (5202, 0, 151, 13016, 'us', 'SOLDIER', 92, -5, 1, 'own', 1, 87, ['paint'])
+      example (5202, 0, 151, 10186, 'us', 'SOLDIER', 130, -30, 1, 'own', 1, 100, ['mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'mark', 'paint'])
+      example (5202, 0, 152, 13016, 'us', 'SOLDIER', 87, -5, 1, 'own', 1, 82, ['paint'])
+      example (5202, 0, 152, 10186, 'us', 'SOLDIER', 100, -5, 1, 'own', 1, 95, ['paint'])
+      example (5202, 0, 153, 13016, 'us', 'SOLDIER', 82, -5, 1, 'own', 1, 77, ['paint'])
+      example (5202, 0, 153, 10186, 'us', 'SOLDIER', 95, -5, 1, 'own', 1, 90, ['paint'])
+      example (5202, 0, 154, 13016, 'us', 'SOLDIER', 77, -5, 1, 'own', 1, 72, ['paint'])
+      example (5202, 0, 154, 10186, 'us', 'SOLDIER', 90, -5, 1, 'own', 1, 85, ['paint'])
+      example (5202, 0, 155, 13016, 'us', 'SOLDIER', 72, -5, 1, 'own', 1, 67, ['paint'])
+  SOLDIER
+     phase      side  robot-turns  lost/100t  tile  crowd (tower)  1+ allies  2+    3+    on own / neutral / enemy   spent/100t  withdrawn/100t  silent attacks/100t
+     r1-100     us          37651       74.3  52.7   21.6 ( 5.1)      17.9%   2.0%  0.2%    56.7 /  32.7 /  10.6       221.7      147.3     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r1-100     them        30557       55.0  40.7   14.3 ( 3.3)      12.3%   1.1%  0.1%    68.1 /  21.5 /  10.3       209.5       84.5     0.63 (on own 0.30, neutral 0.04, enemy 0.30)
+     r101-200   us          51270       58.2  30.4   27.8 (10.4)      22.8%   4.0%  0.6%    77.7 /  10.8 /  11.5       214.0      180.4     0.13 (on own 0.13, neutral 0.00, enemy 0.00)
+     r101-200   them        36754       67.4  46.6   20.9 ( 5.1)      16.7%   2.7%  0.4%    68.7 /  13.2 /  18.1       129.8       93.0     2.53 (on own 2.01, neutral 0.06, enemy 0.46)
+     r201+      us         267345      100.7  16.3   84.4 (12.8)      46.7%  21.1% 10.0%    89.6 /   2.3 /   8.2        75.6      103.6     0.03 (on own 0.03, neutral 0.00, enemy 0.01)
+     r201+      them       156506      109.2  47.3   61.9 ( 6.5)      38.4%  14.3%  4.6%    71.3 /   3.2 /  25.5        61.1       68.3     3.12 (on own 2.74, neutral 0.02, enemy 0.36)
+  SPLASHER
+     phase      side  robot-turns  lost/100t  tile  crowd (tower)  1+ allies  2+    3+    on own / neutral / enemy   spent/100t  withdrawn/100t  silent attacks/100t
+     r1-100     us             13       30.8  23.1    7.7 ( 7.7)       7.7%   0.0%  0.0%    76.9 /  23.1 /   0.0       384.6        0.0     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r1-100     them          314       37.9  21.7   16.2 (11.1)      15.6%   0.6%  0.0%    81.8 /  14.6 /   3.5       334.4        0.0     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r101-200   us           5832       45.1  13.0   32.1 (17.1)      26.9%   4.5%  0.8%    89.5 /   7.4 /   3.1       494.7      252.9     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r101-200   them         3922       45.2  24.6   20.6 ( 3.6)      15.9%   3.0%  0.4%    81.8 /  10.2 /   8.0       275.4       42.3     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r201+      us         259774      121.7   7.5  114.2 (16.7)      56.3%  29.4% 15.6%    94.8 /   1.6 /   3.6       181.8      142.4     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r201+      them       118986       79.7  22.5   57.2 ( 5.2)      37.3%  12.7%  4.6%    83.5 /   5.4 /  11.1       215.6       54.8     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+  MOPPER
+     phase      side  robot-turns  lost/100t  tile  crowd (tower)  1+ allies  2+    3+    on own / neutral / enemy   spent/100t  withdrawn/100t  silent attacks/100t
+     r1-100     us            636      111.0  88.7   22.3 ( 6.9)      19.5%   2.2%  0.3%    58.3 /  39.0 /   2.7         0.0       14.9     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r1-100     them         6781      100.8  85.0   15.8 ( 3.6)      13.8%   1.6%  0.1%    60.5 /  36.1 /   3.4         0.0       12.3     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r101-200   us          15538       99.9  64.0   36.0 ( 8.8)      28.5%   6.0%  1.0%    70.0 /  27.6 /   2.4         0.0       64.1     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r101-200   them        24112       97.7  73.4   24.3 ( 3.6)      19.2%   4.0%  0.8%    66.6 /  29.0 /   4.4         0.0       27.4     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r201+      us         115881      117.3  21.4   95.8 (19.8)      53.4%  24.5% 11.1%    90.9 /   7.1 /   2.0         0.0      139.7     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+     r201+      them       187918      121.0  59.5   61.5 ( 6.1)      40.1%  14.6%  4.5%    76.5 /  15.4 /   8.1         0.0       30.0     0.00 (on own 0.00, neutral 0.00, enemy 0.00)
+  ALL ROBOTS, per game (sums / games):
+     r1-100    us  : lost     521 (crowding    150, beside a tower     36); spent on actions    1518 (of it silent soldier attacks     0); withdrawn    1010; lost / spent  34.3%
+     r1-100    them: lost     432 (crowding    100, beside a tower     23); spent on actions    1183 (of it silent soldier attacks    18); withdrawn     485; lost / spent  36.5%
+     r101-200  us  : lost     872 (crowding    394, beside a tower    140); spent on actions    2519 (of it silent soldier attacks     6); withdrawn    2131; lost / spent  34.6%
+     r101-200  them: lost     911 (crowding    261, beside a tower     52); spent on actions    1064 (of it silent soldier attacks    84); withdrawn     772; lost / spent  85.7%
+     r201+     us  : lost   13114 (crowding  11515, beside a tower   1830); spent on actions   12264 (of it silent soldier attacks     8); withdrawn   14704; lost / spent 106.9%
+     r201+     them: lost    8965 (crowding   5100, beside a tower    504); spent on actions    6403 (of it silent soldier attacks   444); withdrawn    4155; lost / spent 140.0%

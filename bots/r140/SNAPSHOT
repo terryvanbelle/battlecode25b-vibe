@@ -1,0 +1,5 @@
+name=r140
+source=bots/r135 + the t140 change: refactor of bots/t140 (R1-R3, owner #57; verified identical by twin games, TRAINING_ALGORITHM 2.5)
+source_sha=9e55c1e93d9f
+commit=92f3cda
+created=2026-11-27 14:08 PDT

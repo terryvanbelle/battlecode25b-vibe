@@ -10,7 +10,7 @@ public strictfp class Nav {
     static Direction followDir;
     static boolean leftHand;
     static int bestDist, followTurns, blockedTurns;
-    static MapLocation last1, last2;
+    static MapLocation last1, last2;   // written by step(), read only by test/vibe/BotTest
 
     static void reset() { following = false; followTurns = 0; blockedTurns = 0; }
 
@@ -26,7 +26,7 @@ public strictfp class Nav {
         MapLocation here = rc.getLocation();
         if (here.equals(t)) return false;
         if (target == null || !target.equals(t)) {
-            if (target == null || target.distanceSquaredTo(t) > 8) reset();
+            if (target == null || target.distanceSquaredTo(t) > Tune.NAV_RETARGET_R2) reset();
             target = t;
         }
         int d0 = here.distanceSquaredTo(t);
@@ -48,7 +48,7 @@ public strictfp class Nav {
             MapLocation n = here.add(d);
             int nd = n.distanceSquaredTo(t);
             if (nd >= d0) continue;
-            int s = nd + 6 * tileCost(n);
+            int s = nd + Tune.NAV_PAINT_WEIGHT * tileCost(n);
             if (s < bestScore) { bestScore = s; best = d; }
         }
         if (best != null) { blockedTurns = 0; return step(best); }
@@ -56,7 +56,7 @@ public strictfp class Nav {
         MapLocation ahead = here.add(dir);
         boolean robotBlock = rc.onTheMap(ahead) && rc.canSenseLocation(ahead) && rc.isLocationOccupied(ahead)
                 && rc.sensePassability(ahead);
-        if (robotBlock && ++blockedTurns < 3) return false;
+        if (robotBlock && ++blockedTurns < Tune.NAV_ROBOT_WAIT) return false;
         following = true; followTurns = 0; bestDist = d0;
         leftHand = chooseHand(here, dir);
         // follow() sweeps from followDir turned 90 degrees toward the wall: set followDir so that sweep starts at
@@ -89,7 +89,7 @@ public strictfp class Nav {
                 return step(d);
             }
             MapLocation n = rc.getLocation().add(d);
-            if (!rc.onTheMap(n)) { /* the map edge acts as a wall */ }
+            if (!rc.onTheMap(n)) { /* the map edge acts as a wall */ }   // no effect (still runs)
             d = leftHand ? d.rotateRight() : d.rotateLeft();
         }
         return false;
@@ -100,17 +100,5 @@ public strictfp class Nav {
         last2 = last1; last1 = G.here;
         G.here = G.rc.getLocation();
         return true;
-    }
-
-    /** One step that lowers the paint drain or keeps it, without a goal (used to get off enemy paint). */
-    static boolean stepRandom() throws GameActionException {
-        RobotController rc = G.rc;
-        if (!rc.isMovementReady()) return false;
-        int s = G.rand(8);
-        for (int i = 0; i < 8; i++) {
-            Direction d = G.DIRS[(s + i) & 7];
-            if (rc.canMove(d)) return step(d);
-        }
-        return false;
     }
 }
