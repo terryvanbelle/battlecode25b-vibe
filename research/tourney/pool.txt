@@ -407,7 +407,7 @@ t122
 # t123 (retired: built on t118, champion now t122)
 # t124 (retired: -28 vs t118 after 209 games; study 9 2.2)
 # y250 (retired: flat, -3 vs t118 after 707 games; failed confirmation once)
-y251
+# y251 (retired: flat, -1 vs t122 after 888 games)
 # t125 (retired: -26 vs t118 after 326 games; study 9 2.1c)
 y252
 # y253 (retired: built on t118, champion now t122)
