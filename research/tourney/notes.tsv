@@ -182,3 +182,5 @@ t125	t118 + study 9 2.1c: a paint tower that sees a blocked pattern builds a mop
 y252	y250 (lone give-up marks the ruin bad 20 rounds) + t122 (dry flags)
 y253	y250 with the lone give-up marking the ruin bad for 10 rounds
 t126	t118 + study 9 2.4 (L1 only): a drained money tower in sight that is L2+ keeps its dry flag (only L1 can churn)
+t127	t122 (dry flags) + t123 (study 9 2.3, on one tower or none build)
+y254	t122 with paint-tower dry flags expiring after 5 rounds (was 10)

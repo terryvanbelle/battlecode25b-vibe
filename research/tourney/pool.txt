@@ -401,14 +401,16 @@ t118
 # t120 (retired: -12 vs t118 after 628 games; study 9 2.1a on t118)
 # t121 (retired: built on t111, champion now t118)
 t122
-y248
+# y248 (retired: flat, +2 vs t118 after 591 games)
 # y249 (retired: -30 vs t118 after 427 games)
 # y211 (retired: its replica-reference slot passed to y221, peak 1673 > 1663, once t118 took the record; owner #45)
 t123
 # t124 (retired: -28 vs t118 after 209 games; study 9 2.2)
 y250
 y251
-t125
+# t125 (retired: -26 vs t118 after 326 games; study 9 2.1c)
 y252
 y253
 t126
+t127
+y254
