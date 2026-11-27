@@ -363,10 +363,13 @@ y221
 # y222 (retired at y221's crowning)
 # y223 (retired: -1 vs y221 after 538, flat; explore timeout 120)
 # t108 (retired at y221's crowning; ported as t109)
-t109
+# t109 (retired: -38 after 583 games)
 t110
 y224
 y225
-y226
+# y226 (retired: -23 after 580 games)
 t111
-y228
+# y228 (retired: -51 after 245 games)
+y229
+y230
+t112

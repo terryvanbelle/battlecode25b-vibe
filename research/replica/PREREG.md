@@ -55,3 +55,10 @@ Nothing above changes: same windows, groups, tests, code and dates. This adds ho
   - H1 holding means the dip persists despite confirmation: the winner's curse alone does not explain it.
 - Fewer crownings are expected under confirmation, so G may stay small; the extension rule above applies unchanged.
 - Report the difference next to the exploratory -13.8 (Newey-West SE included) so the change is visible.
+
+## Addendum, 2026-11-26 19:25 PDT, before the evaluation (owner prompt #51)
+The local rating fit changed at 19:20 PDT: the prior in tools/elolib.py went from 1 to 0.01 virtual wins and losses per
+bot, because the old prior made long runs of champions appear to decline (see TRAINING_ALGORITHM.md section 4). The
+champions' local ratings, and so dL, differ between the two fits. At evaluation: build the board with the registered
+fit, `BC_ELO_PRIOR=1 python3 tools/board.py old.json`, and run deltatest.py on it; that result is primary. Report the
+same test on a board from the current fit beside it. I have not looked at any window data under either fit.

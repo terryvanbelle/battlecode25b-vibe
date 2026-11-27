@@ -17,8 +17,7 @@ progress measure, never a verdict on a build.
 
 **Objective: strength against an unseen field, as the contest ladder measures it.** Beating our own past builds does
 not by itself mean beating anyone else. One season gained +311 Elo against its own lineage but only +12 on the
-ladder. In another, 14 hours of crownings added 8 points against the earliest champion of that stretch while the ladder
-rating rose about 100, and hour-to-hour local and ladder changes correlated at only r = 0.15. So the field study steers
+ladder. So the field study steers
 what we build, the tournament judges builds, and the ladder keeps score.
 
 | instrument | answers | blind to |
@@ -101,8 +100,9 @@ replica. That build is the first champion.
 - **A qualifier is crowned after confirmation** (owner #46): CONFIRM_GAMES fresh games, from runs that had not started
   when it qualified, in which it still leads the champion (> 0). The fit for this drops the bot's earlier games and
   keeps everything else.
-  - Why: of ten candidates, the first to clear a bar is partly lucky (winner's curse). In one season, 16 of the first 40
-    champions later rated below the bot they replaced. Fresh games are free of that selection.
+  - Why: of ten candidates, the first to clear a bar is partly lucky (winner's curse). In one season the lead of 16
+    consecutive champions shrank from +39 at crowning to +28 with later games, and a simulation of this rule
+    overstates the crowned lead by 20-30 points. Fresh games are free of that selection.
   - The bar is deliberately mild, so real gains are not thrown away: a bot that fails is not retired. Its window
     restarts and it keeps playing under the normal rules.
   - The champion keeps playing during the window, so the comparison stays defined. When several bots confirm, crown
@@ -191,6 +191,11 @@ production, movement, combat, defence, scouting), build in another area.
 - Self-play blind spots are accepted risk, corrected by the field study, the replica slots and the next champions.
 - The rated lead of the bot that first clears a bar is biased upward (winner's curse). Confirm on fresh games before
   acting on it.
+- Keep the rating prior weak. A prior of one virtual win and loss per bot against a fixed anchor pulls every bot far
+  above it down by about one win, however far. The eras of a long run of champions are linked by only a few hundred
+  games each, so that pull sank each era 20-40 points against the one it beat, and the history showed a decline that
+  every head-to-head contradicted. Use about 0.01 virtual games, and check long-range comparisons against
+  head-to-head and shared-opponent results.
 - Check transitivity now and then: a chi-square of the pairwise results against the single fit. In one season it was
   17.6 on 17 degrees of freedom, with no clear A > B > C > A cycles, so one rating per bot is enough. If cycles appear,
   compare bots against a set of opponents rather than by one rating.

@@ -1,8 +1,13 @@
 """Bradley-Terry ratings on the Elo scale from game counts (standard library only).
 
 fit(games) takes (playerA, playerB, winsA, winsB) tuples and returns {player: Rating}. The fit is the MM
-iteration of Hunter (2004) for P(i beats j) = r_i / (r_i + r_j), with a weak prior: every player gets one virtual
-win and one virtual loss against an anchor fixed at strength 1, so players with all wins or all losses stay finite.
+iteration of Hunter (2004) for P(i beats j) = r_i / (r_i + r_j), with a weak prior: every player gets PRIOR virtual
+wins and PRIOR virtual losses against an anchor fixed at strength 1, so players with all wins or all losses stay finite.
+PRIOR was 1 until 2026-11-26 19:20 PDT (owner prompt #51). Far above the anchor, the prior pulls each player down by
+about PRIOR wins, whatever the distance. Each champion's era of ~10 bots is tied to the era before it by only a few
+hundred games, so with PRIOR = 1 every era sank 20-40 points against the one it beat, and the history showed champions
+declining where every head-to-head said they improved. The MM steps are accelerated with SQUAREM (Varadhan & Roland
+2008), since the weak prior leaves the chain of eras slow to converge.
 A pair's games are capped at PAIR_CAP (scaled down keeping its win share), so one heavily repeated pairing cannot
 dominate. Ratings are 400*log10(r), shifted so the mean over all players is 1500. se is the standard error from
 the diagonal of the information matrix (each other rating taken as known), so it is a little optimistic.
@@ -13,9 +18,10 @@ fitted alongside the ratings (Hunter's home-advantage model, one advantage per k
 games, the h_k are normalized to a game-weighted mean of 0 by moving the keyed players' ratings the other way (the
 likelihood is unchanged), so a keyed player's rating is its strength on an average key of the mix it was fitted on.
 """
-import collections, math
+import collections, math, os
 
 PAIR_CAP = 200
+PRIOR = float(os.environ.get('BC_ELO_PRIOR', '0.01'))   # BC_ELO_PRIOR=1: the old fit (pre-registered test)
 SCALE = 400 / math.log(10)
 
 
@@ -57,11 +63,11 @@ def key_table(games):
     return dict(t)
 
 
-def fit(games, iters=2000, tol=1e-9):
-    return fit_h(games, iters, tol)[0]
+def fit(games, iters=2000, tol=1e-9, prior=PRIOR):
+    return fit_h(games, iters, tol, prior)[0]
 
 
-def fit_h(games, iters=2000, tol=1e-9):
+def fit_h(games, iters=2000, tol=1e-9, prior=PRIOR):
     t = key_table(games)
     opp = collections.defaultdict(list)     # player -> [(other, n_games, key, keyed side?)]
     wins = collections.defaultdict(float)
@@ -90,26 +96,61 @@ def fit_h(games, iters=2000, tol=1e-9):
     def p_win(p, q, k, keyed):   # (strength of p, strength of q) in a game keyed k, p on the keyed side or not
         return (r[p] * m(k), r[q]) if keyed else (r[p], r[q] * m(k))
 
-    for _ in range(iters):
-        delta = 0.0
+    def sweep():   # one MM step (Gauss-Seidel) over the ratings, then the key advantages
         for p in players:
-            # prior: 1 win + 1 loss vs the anchor (strength 1) -> +1 to wins, 2/(r+1) to the denominator
-            den = 2.0 / (r[p] + 1.0)
+            # prior: PRIOR wins + PRIOR losses vs the anchor (strength 1)
+            den = 2.0 * prior / (r[p] + 1.0)
             for q, n, k, keyed in opp[p]:
                 sp, sq = p_win(p, q, k, keyed)
                 den += n * (m(k) if keyed else 1.0) / (sp + sq)
-            new = (wins[p] + 1.0) / den
-            delta = max(delta, abs(math.log(new / r[p])))
-            r[p] = new
+            r[p] = (wins[p] + prior) / den
         for k in keys:
-            den = 2.0 / (h[k] + 1.0)
+            den = 2.0 * prior / (h[k] + 1.0)
             for i, j, n in by_key[k]:
                 den += n * r[i] / (r[i] * h[k] + r[j])
-            new = (hw[k] + 1.0) / den
-            delta = max(delta, abs(math.log(new / h[k])))
-            h[k] = new
+            h[k] = (hw[k] + prior) / den
+
+    def get():
+        return [math.log(r[p]) for p in players] + [math.log(h[k]) for k in keys]
+
+    def put(x):
+        for p, v in zip(players, x):
+            r[p] = math.exp(v)
+        for k, v in zip(keys, x[len(players):]):
+            h[k] = math.exp(v)
+
+    def step(x):
+        put(x); sweep(); return get()
+
+    def loglik():
+        ll = 0.0
+        for (i, j, k), (wi, wj) in t.items():
+            si, sj = (r[i] * m(k), r[j])
+            ll += wi * math.log(si / (si + sj)) + wj * math.log(sj / (si + sj))
+        for v in list(r.values()) + list(h.values()):
+            ll += prior * (math.log(v) - 2.0 * math.log(v + 1.0))
+        return ll
+
+    # SQUAREM: two MM steps, extrapolate along them, one more step; keep it only if the likelihood rose
+    x0 = get()
+    for _ in range(max(1, iters // 3)):
+        x1 = step(x0); x2 = step(x1)
+        dr = [b - a for a, b in zip(x0, x1)]
+        dv = [c - 2 * b + a for a, b, c in zip(x0, x1, x2)]
+        vv = sum(v * v for v in dv)
+        xn = x2
+        if vv > 0:
+            alpha = min(-1.0, -math.sqrt(sum(d * d for d in dr) / vv))
+            if alpha < -1.0:
+                xa = step([a - 2 * alpha * d + alpha * alpha * v for a, d, v in zip(x0, dr, dv)])
+                put(xa); la = loglik(); put(x2)
+                if la >= loglik():
+                    xn = xa
+        delta = max(abs(a - b) for a, b in zip(x0, xn)) if xn else 0.0
+        x0 = xn
         if delta < tol:
             break
+    put(x0)
     keyed = {i for (i, j, k) in t if k is not None}
     if keys and not any(k is None and ((i in keyed) != (j in keyed)) for (i, j, k) in t):
         mu = sum(hn[k] * math.log(h[k]) for k in keys) / sum(hn.values())
@@ -121,7 +162,7 @@ def fit_h(games, iters=2000, tol=1e-9):
     mean = sum(logs.values()) / max(1, len(logs))
     out = {}
     for p in players:
-        info = 2.0 * r[p] / (r[p] + 1.0) ** 2
+        info = 2.0 * prior * r[p] / (r[p] + 1.0) ** 2
         for q, n, k, kd in opp[p]:
             sp, sq = p_win(p, q, k, kd)
             info += n * sp * sq / (sp + sq) ** 2

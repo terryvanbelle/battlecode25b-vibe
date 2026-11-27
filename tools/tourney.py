@@ -90,7 +90,7 @@ def games(root=R, runs=False):
 
 
 # Confirmation stage (owner #46, option 3 of the literature answer to #43): the bot that first clears the lead bar is
-# partly lucky (winner's curse: 16 of the first 40 champions later rated below the bot they replaced), so a qualifier
+# partly lucky (winner's curse: over the 16 crownings before y221's, the lead shrank from +39 at crowning to +28), so a qualifier
 # is crowned only after CONFIRM_GAMES fresh games (runs started after it qualified) in which it still leads the
 # champion (> 0, a deliberately mild bar). A bot that fails is not retired: its window restarts, and it keeps playing
 # under the usual pool rules. research/tourney/confirm.txt holds 'BOT RUN' per qualifier (fresh = runs after RUN).

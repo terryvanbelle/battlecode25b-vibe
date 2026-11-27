@@ -142,3 +142,6 @@ y225	pre-paint the pattern while we have <= 5 towers (y221: 3)
 y226	second soldier joins the first ruin from d2 32 (y221: 20)
 t111	study 8 2.4: splashers with 50+ paint move to a firing tile at d2 10-16 from the nearest enemy paint/money tower
 y228	y225 + t110 (pre-paint up to 5 towers; skip a drained money tower 20 rounds after a failed churn wait)
+y229	t111 splasher stand-off + y224 explore 75
+y230	t111 splasher stand-off + y225 pre-paint while towers <= 5
+t112	t111 with the stand-off from 30 paint (was 50)
