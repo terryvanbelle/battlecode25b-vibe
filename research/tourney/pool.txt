@@ -386,13 +386,15 @@ y221  # replica record: 1673 at #7 on 11-26 18:08 PDT; permanent slot (owner #35
 # y237 (retired: -22 vs t111 after 310 games)
 # y238 (retired: -5 vs t111 after 443 games; y241/y246 cover the opening length)
 # y239 (retired: -7 vs t111 after 411 games; y241/y246 cover the opening length)
-y240
+# y240 (retired: flat, -1 vs t111 after 599 games)
 y241
 y242
-y243
+# y243 (retired: -25 vs t111 after 325 games)
 y244
 y245
 y246
 t116
 t117
 t118
+y247
+t119

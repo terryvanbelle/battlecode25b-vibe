@@ -167,3 +167,5 @@ y246	soldiers only for the first 150 rounds (was 80)
 t116	study 9 2.4: paint-tower dry flags expire after 10 rounds; a flagged tower in sight is re-sensed
 t117	study 9 2.1a: splashers value enemy tiles inside a free ruin pattern we are building (+6 each)
 t118	study 9 2.1b: a blocked soldier with no own mopper or splasher in view gives up after 5 turns (was 25)
+t119	study 9 2.2: with no paint tower standing, old money ruins are rebuilt as paint towers (no money rebuild)
+y247	y245 (no reserve before round 60) + y241 (soldier-only opening 120)
