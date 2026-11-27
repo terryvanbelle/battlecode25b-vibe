@@ -215,3 +215,9 @@ Also stay on top of field study 12, and make sure it doesn't run stuck again
 
 ## #63 (2026-11-27 14:11 PDT)
 I realize you're almost done the refactor, so this is a moot point, but you could always run the verification games on the box or larger VM if the driver is too slow
+
+## #64 (2026-11-27 14:48 PDT)
+I changed the page color on the dashboard to white, but it still renders in dark mode on my laptop.  Is that something you can fix?
+
+## #65 (2026-11-27 14:49 PDT)
+Never mind, figured itout
