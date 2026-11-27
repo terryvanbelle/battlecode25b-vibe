@@ -140,3 +140,5 @@ t110	study 8 2.5c: after a failed churn wait, honour that money tower's dry flag
 y224	explore timeout 75 (y221: 90)
 y225	pre-paint the pattern while we have <= 5 towers (y221: 3)
 y226	second soldier joins the first ruin from d2 32 (y221: 20)
+t111	study 8 2.4: splashers with 50+ paint move to a firing tile at d2 10-16 from the nearest enemy paint/money tower
+y228	y225 + t110 (pre-paint up to 5 towers; skip a drained money tower 20 rounds after a failed churn wait)

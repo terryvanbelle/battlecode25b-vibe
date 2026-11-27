@@ -173,3 +173,6 @@ I'm good with your option 3, as stated.  If the anomalous dip in the delta Elo c
 
 ## #49 (2026-11-26 17:29 PDT)
 There's an error in the Confirming status.  It's showing NaN/NaN instead of 0/150
+
+## #50 (2026-11-26 18:09 PDT)
+Let's make sure that TRAINING_ALGORITHM is up to date with the new approach

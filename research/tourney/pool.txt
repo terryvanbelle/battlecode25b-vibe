@@ -361,10 +361,12 @@ y211  # replica reference: peak 1663 at #9 on 11-26 17:53 PDT; permanent slot wi
 # t107 (retired at y221's crowning)
 y221
 # y222 (retired at y221's crowning)
-y223
+# y223 (retired: -1 vs y221 after 538, flat; explore timeout 120)
 # t108 (retired at y221's crowning; ported as t109)
 t109
 t110
 y224
 y225
 y226
+t111
+y228

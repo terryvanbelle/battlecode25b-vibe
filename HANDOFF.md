@@ -41,8 +41,16 @@ season's tools. Times are the owner's zone: `TZ=America/Vancouver` (UTC-7, "PDT"
   `bots/CHAMP` to a scratch directory, edit it, then `snapshot.sh NEW scratch/CHAMP`.
 
 ## Tournament (`tools/tourney.py`)
-- `rank`, `plan RUN --games 200`, `add BOT`, `chart` (the chart needs `~/.venv-bc25b/bin/python`).
-- State lives in `research/tourney/`: `pool.txt`, `champion.txt`, `champions.csv`.
+- `rank`, `plan RUN --games 400`, `add BOT`, `chart` (the chart needs `~/.venv-bc25b/bin/python`).
+- State lives in `research/tourney/`: `pool.txt`, `champion.txt`, `champions.csv`, `confirm.txt`.
+- Confirmation stage (owner prompt #46, from 2026-11-26 17:13 PDT): `rank` prints `CONFIRMING X` for a qualifier and
+  records `X RUN` in `confirm.txt`. X's fresh games are its games in runs after RUN (`tourney.fresh`). After
+  `CONFIRM_GAMES` (150) fresh games, a fresh lead > 0 prints `NEW CHAMPION`. Otherwise `NOT CONFIRMED` restarts the
+  window, and the bot is not retired. `plan` gives each confirming bot `n // 10` extra games against the champion.
+- Replica slots (owner prompts #35, #45, #47): `pool.txt` lines whose comment says `replica record` (the record
+  holder) or `replica reference` (the next two best replica peaks). `tools/record.py`, run in `prod.sh replica`,
+  names the three and prints `ADD` or retire lines. They are never retired and get no extra games; the dashboard shows
+  them as Best Replica and Replica Ref.
 - Queue a run with `tools/box.sh queue RUN`, collect it with `tools/box.sh pull RUN`. Before re-planning a queued
   run, check `tools/box.sh status`: never re-plan one that has started.
 - Crowning:
@@ -71,7 +79,11 @@ and 15 (and 20, plus our previous attempt bc25-vibe-orig, from owner prompt #13)
 champion beats the one it replaced by `BIG_GAIN` (40) or more local Elo in the present fit (owner prompt #10).
 
 ## Automation (2026-11-26)
-- `tools/prod.sh pull|queue [N]|replica|disk|commit MSG PATH...`: the mechanical prod steps.
+- `tools/prod.sh pull|queue [N]|replica|board OUT|disk|commit MSG PATH...`: the mechanical prod steps (`board` writes
+  the dashboard's JSON, `tools/board.py`).
+- Dashboard: https://claude.ai/artifact/DstLySDMnQvBtaAszuM2nB (pool, ladder and local charts, champion history).
+- Pre-registered test: `research/replica/PREREG.md` with `research/replica/deltatest.py`, evaluated once at the first
+  prod on or after 2026-11-29 16:07 PDT (owner prompts #39, #48).
 - `tools/crown.sh NEW OLD "desc"`: the whole crowning (champion.txt first, submit, champions.csv, src/vibe, retire OLD,
   chart, audit diff, unit tests).
 - `tools/variant.py NEW BASE FILE OLD NEW ...` builds a candidate from exact single-occurrence edits;

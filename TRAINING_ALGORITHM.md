@@ -8,15 +8,18 @@ earlier seasons' records (digests in `research/readings/`); where a rule carries
 **The method in one paragraph.** Build the instruments first, then a bot that clears a basics battery. From then on a
 continuous local tournament of our own builds, rated by Bradley-Terry, decides which build is champion. Every new
 build is one change on the champion. About half are small tunings, half are big strategy swings, and some copy field
-tactics that beat us. A build that clearly out-rates the champion replaces it and goes to the ladder at once. It is
-then audited, and its fixes compete as newcomers. Field bots play only on a private ladder replica. They supply ideas
-and the progress measure, never a verdict on a build.
+tactics that beat us. A build that clearly out-rates the champion, and still leads it in fresh games, replaces it and
+goes to the ladder at once. It is then audited, and its fixes compete as newcomers. The builds that did best on the
+ladder keep permanent places in the pool. Field bots play only on a private ladder replica. They supply ideas and the
+progress measure, never a verdict on a build.
 
 ## 0. Objective and instruments
 
 **Objective: strength against an unseen field, as the contest ladder measures it.** Beating our own past builds does
 not by itself mean beating anyone else. One season gained +311 Elo against its own lineage but only +12 on the
-ladder. So the field study steers what we build, the tournament judges builds, and the ladder keeps score.
+ladder. In another, 14 hours of crownings added 8 points against the earliest champion of that stretch while the ladder
+rating rose about 100, and hour-to-hour local and ladder changes correlated at only r = 0.15. So the field study steers
+what we build, the tournament judges builds, and the ladder keeps score.
 
 | instrument | answers | blind to |
 |---|---|---|
@@ -76,7 +79,16 @@ replica. That build is the first champion.
 ## 2. The loop: a continuous local tournament
 
 ### 2.1 Pool and names
-- About **10 bots**: the champion plus newcomers, half incremental and half swings. Refill whichever kind is short.
+- About **10 bots** besides the replica slots: the champion plus newcomers, half incremental tunings and half tactics
+  copied from the field or swings. Refill whichever kind is short.
+- **Replica slots** (owner prompts #35, #45, #47): the build with the best ladder rating ever, and the builds with the
+  next two best ladder peaks, keep permanent places. A peak is a champion's best ladder sample while it was the
+  submitted build; a sample counts for the champion submitted 15 minutes before it. Skip the current champion and the
+  record holder's direct parent and children: one change apart, they are nearly the same bot. The slots move when a
+  better peak appears.
+  - Why: the builds that beat the field best often rate well below newer champions locally (one season: 60-95
+    points), so a pool of recent builds alone loses what they know.
+  - They are regular entrants: never retired, no extra games and no separate score.
 - The pool file lists active bots. Retired bots stay as comments, unscheduled, but their games keep anchoring the fit.
 - Name prefixes tell the kinds apart (e.g. `yNN` tunings, `swNN` swings, `fxNN` audit fixes, `tNN` tactics
   imitated from enemy replays). A swing table records each strategy and its fate.
@@ -84,8 +96,17 @@ replica. That build is the first champion.
 ### 2.2 Ratings and the champion
 - **One Bradley-Terry fit over every local game** between pool or retired bots: any seat, any seed, the contest's map
   set. Each pair is capped at 200 games, and a weak prior keeps unplayed bots finite.
-- **A bot becomes champion when it has at least MIN_GAMES games and leads the champion by more than one combined SE**,
+- **A bot qualifies when it has at least MIN_GAMES games and leads the champion by more than one combined SE**,
   √(SE₁² + SE₂²). The margin is hysteresis, so near-equal bots do not trade the title on noise.
+- **A qualifier is crowned after confirmation** (owner #46): CONFIRM_GAMES fresh games, from runs that had not started
+  when it qualified, in which it still leads the champion (> 0). The fit for this drops the bot's earlier games and
+  keeps everything else.
+  - Why: of ten candidates, the first to clear a bar is partly lucky (winner's curse). In one season, 16 of the first 40
+    champions later rated below the bot they replaced. Fresh games are free of that selection.
+  - The bar is deliberately mild, so real gains are not thrown away: a bot that fails is not retired. Its window
+    restarts and it keeps playing under the normal rules.
+  - The champion keeps playing during the window, so the comparison stays defined. When several bots confirm, crown
+    the highest rated.
 - **Early ratings mean little**: swings of ±70 before about 50 games, and new champions usually settle downward. Never
   retire a bot or celebrate one before about 50 games.
 
@@ -102,17 +123,28 @@ replica. That build is the first champion.
 - A run is a fixed number of games, each on a random map from the contest set with a random seed and random seats.
 - Newcomers under NEW_MIN games get half of each run, weighted by the games they lack. Half of those are against the
   champion.
+- A quarter of each run: the champion against the rated bots, weighted by their SEs. Otherwise bots planned only among
+  themselves drift away from it.
+- Each bot in its confirmation window plays the champion in another tenth of each run, so confirming costs about one
+  cycle.
 - The rest goes to pairs among the top bots, weighted toward close ratings and large SEs.
 - Count planned-but-unplayed games so consecutive plans don't over-feed one newcomer. Take a queued run off the queue
-  before re-planning it.
+  before re-planning it, and check the copy the game machine holds against the plan.
+- After a crowning, re-plan every queued run that hasn't started, so retired bots don't take its games.
 
 ### 2.5 Crowning
 In one cycle: submit the champion to the ladder; record it (time, bot, base, change, submission); make the working bot
-a copy of it; log it; regenerate the champion Elo chart (wall-clock x axis, owner prompt #5); commit. Expect ladder dips: the tournament, not the ladder, judges builds.
+a copy of it; log it; regenerate the champion Elo chart (wall-clock x axis, owner prompt #5); commit. Expect ladder
+dips: the tournament, not the ladder, judges builds.
+
+**Clear the pool at each crowning** (owner #33). Retire the old champion and every bot built on it, except the
+replica slots. Port the promising changes onto the new champion as newcomers, and drop those the new champion already
+contains. Every rated difference then has one cause again, against the champion that matters.
 
 ### 2.6 Retiring
-Retire a bot far below the champion after about 200 games, or more than 2 SE below after about 50. A losing swing
-first gets a second version that fixes its first visible failure.
+Retire a bot about 20 or more below the champion after about 200 games, more than 2 SE below after about 50, or flat
+(within a few points) after about 500. A losing swing first gets a second version that fixes its first visible failure.
+Never retire a replica slot, or a bot because it failed confirmation.
 
 ### 2.7 Auditing a new champion
 Once the queue is full, audit the diff from the previous champion only:
@@ -156,7 +188,16 @@ production, movement, combat, defence, scouting), build in another area.
   champion.
 - Games are deterministic per (pair, map, seed, seats). Re-running a borderline result adds nothing; new seeds do.
 - One game filters an idea; it never decides one.
-- Self-play blind spots are accepted risk, corrected by the field study and by the next champions.
+- Self-play blind spots are accepted risk, corrected by the field study, the replica slots and the next champions.
+- The rated lead of the bot that first clears a bar is biased upward (winner's curse). Confirm on fresh games before
+  acting on it.
+- Check transitivity now and then: a chi-square of the pairwise results against the single fit. In one season it was
+  17.6 on 17 degrees of freedom, with no clear A > B > C > A cycles, so one rating per bot is enough. If cycles appear,
+  compare bots against a set of opponents rather than by one rating.
+- A pattern found by looking at the data is a hypothesis, not a result. Pre-register it: write down the definitions,
+  the test, the decision rule, the evaluation date and the code, and commit them. Then test it once, on data that came
+  later (owner #39). Note any later change to the process that bears on how to read the result, before that data
+  exists.
 - Ladder ratings drift upward over a season. Judge progress by rank and by the gap to reference places (#5, #10, #20).
 
 ## 5. The ladder replica
@@ -186,15 +227,16 @@ A failed build condemns one implementation, not the idea.
 **Prod cycle (about 20 minutes)**:
 1. Check the game machine.
 2. Pull and rank.
-3. Crown if a bot qualifies.
+3. Crown a confirmed bot; a qualifier enters its confirmation window.
 4. Keep at least 5 runs queued.
 5. Audit a new champion.
-6. Add and retire bots to hold about 10.
+6. Add and retire bots to hold about 10 besides the replica slots; keep the slots current.
 7. Check the champion's ladder matches.
 8. Log, commit and push.
-9. Refresh the charts.
+9. Refresh the charts and the owner's dashboard. Run any pre-registered test that is due, once.
 10. Report:
-    - tournament size and the pool table (rating ± SE, games, lead over the champion and the lead it needs);
+    - tournament size and the pool table (rating ± SE, games, lead over the champion and the lead it needs, bots
+      confirming);
     - changes since the last cycle;
     - audit outcome;
     - ladder rank;
@@ -218,7 +260,8 @@ A failed build condemns one implementation, not the idea.
 ## 8. Records
 - **Training log** (append-only): numbers each cycle, newcomers, retirements, directives.
 - **Attempts table**: one row per build with base, change, motivation and fate.
-- **Champion history**, pool file, swing table, audit reports and field-study write-ups.
+- **Champion history**, pool file (with the replica slots marked), confirmation state, swing table, audit reports,
+  field-study write-ups and pre-registrations.
 - **Progress charts on wall-clock axes**: local champion rating, ladder rank and rating, with milestones marked.
 
 Records hold measurements, not stories, and nothing stale stays.
@@ -227,12 +270,16 @@ Records hold measurements, not stories, and nothing stale stays.
 
 | parameter | default |
 |---|---|
-| pool | about 10 bots: champion + newcomers, half incremental, half swings |
-| champion rule | ≥ MIN_GAMES = 200 games and a lead > √(SE₁² + SE₂²) over the champion |
+| pool | about 10 bots: champion + newcomers, half incremental, half field tactics or swings; plus 3 replica slots |
+| replica slots | the best ladder rating ever + the next two best ladder peaks; not the champion, not the holder's parent or children |
+| qualify | ≥ MIN_GAMES = 200 games and a lead > √(SE₁² + SE₂²) over the champion |
+| confirm | CONFIRM_GAMES = 150 fresh games in which the lead is still > 0; failing restarts the window |
+| at a crowning | retire the bots built on the old champion (not the replica slots), port the promising ones, re-plan queued runs |
+| champion share | a quarter of each run vs the rated bots (by SE); another tenth vs each confirming bot |
 | newcomer share | bots under NEW_MIN = 40 games get half of each run, half of that vs the champion |
-| run | 120-200 games, random contest map, random seed in 0-9, random seats |
+| run | 400 games, random contest map, random seed in 0-9, random seats |
 | fit | Bradley-Terry, weak prior, ≤ 200 games per pair, retired bots' games kept |
-| retire | far below after ~200 games, or > 2 SE below after ~50; swings get a second version first |
+| retire | ~20 below after ~200 games, > 2 SE below after ~50, or flat after ~500; swings get a second version first; never a replica slot |
 | queue | ≥ 5 runs queued past the next cycle |
 | cycle | about every 20 minutes |
 | plateau | champion unchanged for 12 hours, or 10 straight newcomers below it |
