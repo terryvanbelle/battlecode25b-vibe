@@ -256,3 +256,6 @@ y295	r140 + study 12 2.4 n1: Nav tile cost includes adjacent allies and the mopp
 y296	r140, refills end full (REFILL_STOP 4/4, was 3/4)
 y297	r140, Nav paint weight 12 (was 6): steer onto own paint farther from the goal
 y298	r140, moppers give paint to soldiers/splashers below 60% (was 40%)
+t155	t150 + t152: opening cover from 100 paint + moppers swing at a single robot
+t156	y295 + t152: Nav ally term + moppers swing at a single robot
+y299	t150 with the opening-cover floor at 75 paint (t150 100, t149 150)

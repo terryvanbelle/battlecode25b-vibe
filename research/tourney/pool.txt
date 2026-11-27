@@ -479,10 +479,13 @@ r140  # champion (substitutes t140: verified identical refactor, owner #57/#58)
 t149
 t150
 t151
-t154
+# t154 (retired: -22 vs r140 after 306 games; SRPs from round 60)
 t152
-t153
+# t153 (retired: -24 vs r140 after 320 games; t152 + robots in reach score 55)
 y295
 y296
 y297
-y298
+# y298 (retired: -61 vs r140 after 337 games; moppers give below 60%)
+t155
+t156
+y299
