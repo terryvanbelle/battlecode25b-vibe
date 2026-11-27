@@ -171,3 +171,6 @@ t119	study 9 2.2: with no paint tower standing, old money ruins are rebuilt as p
 y247	y245 (no reserve before round 60) + y241 (soldier-only opening 120)
 t120	t118 (2.1b give up blocked ruins without a cleaner) + t117 (2.1a splashers clear blocked patterns)
 t121	study 9 2.3: on one tower or none with 1000+ chips, soldiers skip deny/siege/ground paint and walk to the nearest remembered clean ruin
+t122	t118 + t116 (study 9 2.4 dry flags)
+y248	t118 with the lone give-up at 3 blocked turns (was 5)
+y249	t118 with the give-up beside a cleaner at 15 blocked turns (was 25)
