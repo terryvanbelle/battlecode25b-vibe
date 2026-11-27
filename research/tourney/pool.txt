@@ -470,6 +470,8 @@ t140
 # t147 (retired: -36 vs t140 after 303 games; t145 + y284)
 # y289 (retired: -20 vs t140 after 280 games; siege exit at 50 paint)
 # y290 (retired: -26 vs t140 after 291 games; recheck completed SRPs)
-t148
-y291
-y292
+# t148 (retired: -25 vs t140 after 635 games; refills prefer money towers)
+# y291 (retired: flat, -2 vs t140 after 624 games; refills with no paint-tower preference)
+# y292 (retired: -23 vs t140 after 636 games; refill paint towers 15% closer)
+y293
+y294

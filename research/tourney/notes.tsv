@@ -243,3 +243,5 @@ y290	t140 + bug audit 8: completed SRPs are rechecked after 100 rounds (a broken
 t148	t140 + study 11 1.1: refills prefer money towers (paint towers count 40% farther; was 30% closer)
 y291	t140 + refills: no paint-tower preference (was 30% closer)
 y292	t140 + refills: paint towers 15% closer (was 30%)
+y293	t140 + refills: paint towers 40% closer (was 30%)
+y294	t140 + refills: paint towers 50% closer (was 30%)
