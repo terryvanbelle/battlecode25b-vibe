@@ -238,3 +238,5 @@ y287	t140 + bug audit 7: exploreTarget stops drawing below 2000 bytecodes
 y288	t140 + bug audit 8: a robot that sees its refill tower dry stops walking to it that turn
 t146	t140 + study 11 2.1 (b): free marks once on arrival, no per-turn top-up
 t147	t145 + y284 (money upgrades at +5000 spare; moppers finish a refill trip): the two confirming bots combined
+y289	t140 + bug audit S2: siege exit at 50 paint (was 30)
+y290	t140 + bug audit 8: completed SRPs are rechecked after 100 rounds (a broken SRP stops counting)
