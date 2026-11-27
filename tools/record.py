@@ -60,14 +60,14 @@ def main():
     print(f"replica record: {best['our_rating']} at #{best['our_rank']} on {best['when_pdt']} PDT, held by {bot}")
     if tourney.canon(bot) == champ:   # owner #58: or the champion is its verified substitute
         print('  the holder is the champion' + (f' (as its substitute {champ})' if bot != champ else '') + ': no extra slot')
-    elif bot in slots:
+    elif bot in slots or tourney.canon(bot) in slots:   # owner #58: or its verified substitute holds the slot
         print('  the holder has its permanent slot')
     elif bot in active:
         print('  the holder is already active; mark its pool.txt line "replica record" so no crowning retires it')
     else:
         print(f'  ADD {bot} to research/tourney/pool.txt, its comment saying "replica record" (owner #35)')
     for b in slots:
-        if b != bot:
+        if b != bot and b != tourney.canon(bot):
             print(f'  {b} has the replica-record slot but no longer holds the record: retire it unless it earns its place')
     want, pk = references(bot, champ)
     refs = [l.split('#')[0].strip() for l in open(tourney.POOL)

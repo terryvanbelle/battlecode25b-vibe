@@ -265,3 +265,11 @@ y300	explore painting from round 60 (was 80; study 12 2.1)
 y301	y295 with Nav paint weight 4 (was 6)
 y302	Nav paint weight 4 (was 6), without y295 ally term
 t159	t158 + t152: moppers hit and run + swing at a single robot
+t160	t158 + y295 + t152 (t156 ported): Nav ally term + single-robot swing
+y303	Nav paint weight 4 (was 6)
+y304	mixed spawn cycle from round 60 (was 80)
+y305	retreat from enemy moppers within d2 13 (was 8)
+y306	retreat ground weight 8 (was 20)
+y307	retreat ground weight 50 (was 20)
+t161	study 12 2.2: a mopper as the third unit of the opening cycle
+t162	study 12 2.2: paint towers spawn a second mopper per six

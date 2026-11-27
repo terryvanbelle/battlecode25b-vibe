@@ -9,12 +9,17 @@ public strictfp class Mopper {
      *  RobotPlayer runs the free actions Churn.rebuild and Unit.topUp. */
     static void turn() throws GameActionException {
         RobotController rc = G.rc;
-        if (rc.isActionReady()) act();                                            // 1. act (swing / mop / give)
+        boolean acted = false;
+        if (rc.isActionReady()) { act(); acted = !rc.isActionReady(); }           // 1. act (swing / mop / give)
         // 2. refill below MOP_REFILL paint. This gate is the whole gate for moppers (refill's own threshold test
         //    never fires below it); it also ends a refill walk once paint is back to MOP_REFILL.
         if (G.paint < Tune.MOP_REFILL && Unit.refill(Tune.MOP_REFILL)) return;
         // 3. move toward the target (else explore). Unit audit (owner prompt #15): moppers chasing enemy paint ended
         //    44% of those turns on it (double drain for moppers); mop reaches r2 2, so stop once in reach
+        // study 12 2.2 (t158): hit and run. Their moppers step back after a hit (A-B-A 8.7-20.7 per 100 moves, ours
+        // 1.2-2.9) and stand still on 10-13% of turns (ours 38-46%). After acting, step off non-ally paint and away
+        // from enemy moppers (d2 8) and towers (d2 9).
+        if (acted && rc.isMovementReady() && retreat()) return;
         MapLocation goal = target();
         if (goal != null && G.here.distanceSquaredTo(goal) <= 2) goal = G.here;
         Nav.moveTo(goal != null ? goal : Unit.exploreTarget());
@@ -73,6 +78,31 @@ public strictfp class Mopper {
                 if (amt > 0 && rc.canTransferPaint(need.location, amt)) { rc.transferPaint(need.location, amt); G.paint = rc.getPaint(); }
             }
         }
+    }
+
+    /** t158: the adjacent tile (or here) minimizing 20 * ground cost - d2 to the nearest threat; moves if not here. */
+    static boolean retreat() throws GameActionException {
+        RobotController rc = G.rc;
+        MapLocation threat = null; int td = Integer.MAX_VALUE;
+        for (RobotInfo e : G.enemies) {
+            int d2 = G.here.distanceSquaredTo(e.location);
+            if (e.type == UnitType.MOPPER ? d2 > 8 : e.type.isRobotType() || d2 > 9) continue;
+            if (d2 < td) { td = d2; threat = e.location; }
+        }
+        PaintType p0 = rc.senseMapInfo(G.here).getPaint();
+        if (threat == null && p0.isAlly()) return false;
+        int bestS = 20 * (p0.isAlly() ? 0 : p0.isEnemy() ? 2 : 1) - (threat != null ? td : 0);
+        Direction best = null;
+        for (Direction d : Direction.allDirections()) {
+            if (d == Direction.CENTER || !rc.canMove(d)) continue;
+            MapLocation l = G.here.add(d);
+            PaintType p = rc.senseMapInfo(l).getPaint();
+            int s = 20 * (p.isAlly() ? 0 : p.isEnemy() ? 2 : 1) - (threat != null ? l.distanceSquaredTo(threat) : 0);
+            if (s < bestS) { bestS = s; best = d; }
+        }
+        if (best == null) return false;
+        Nav.step(best);
+        return true;
     }
 
     static boolean nearRuin(MapLocation l) {

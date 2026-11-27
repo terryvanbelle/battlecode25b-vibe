@@ -475,23 +475,31 @@ t122  # replica reference: peak 1726 at #6 (record.py); permanent slot (owner #4
 # y292 (retired: -23 vs t140 after 636 games; refill paint towers 15% closer)
 # y293 (retired: -16 vs t140 after 756 games; refill paint towers 40% closer. The dial is flat from -40% to +50%)
 # y294 (retired: flat, -2 vs t140 after 765 games; refill paint towers 50% closer)
-r140  # champion (substitutes t140: verified identical refactor, owner #57/#58)
+r140  # replica record: 1782 at #5 on 2026-11-27 14:47 PDT as t140 (r140 substitutes t140, owner #57/#58); permanent slot (owner #35); champion until t158 (16:27)
 # t149 (retired: -27 vs r140 after 515 games; opening cover from 150 paint)
 # t150 (retired: -12 vs r140 after 695 games; opening cover from 100 paint)
 # t151 (retired: -79 vs r140 after 315 games; explore painting from r1)
 # t154 (retired: -22 vs r140 after 306 games; SRPs from round 60)
-t152
+# t152 (retired: built on r140, -0 after 763 games; moppers swing at a single robot (lives on in t159))
 # t153 (retired: -24 vs r140 after 320 games; t152 + robots in reach score 55)
 # y295 (retired: flat (-0) vs r140 after 786 games; Nav ally term)
 # y296 (retired: -16 vs r140 after 614 games; refills end full)
 # y297 (retired: -9 vs r140 after 611 games; Nav paint weight 12)
 # y298 (retired: -61 vs r140 after 337 games; moppers give below 60%)
-t155
-t156
-y299
-t157
-t158
-y300
-y301
-y302
+# t155 (retired: built on r140, -67 after 333 games; t150 + t152)
+# t156 (retired: built on r140, +12 after 311 games; y295 + t152 (ported as t160))
+# y299 (retired: built on r140, -36 after 328 games; cover from 75 paint)
+# t157 (retired: built on r140, -9 after 327 games; y295 + t150)
+t158  # champion (study 12 2.2 moppers hit and run; crowned 2026-11-27 16:27)
+# y300 (retired: built on r140, -16 after 211 games; explore painting from r60)
+# y301 (retired: built on r140, -10 after 222 games; y295 + Nav weight 4)
+# y302 (retired: built on r140, 0 games; Nav weight 4 (ported as y303))
 t159
+t160
+y303
+y304
+y305
+t161
+t162
+y306
+y307
