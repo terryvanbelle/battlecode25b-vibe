@@ -415,8 +415,11 @@ y252
 t127
 # y254 (retired: -42 vs t118 after 165 games)
 # y255 (retired: built on t118, champion now t122)
-y256
-y257
-y258
+# y256 (retired: -58 vs t122 after 198 games)
+# y257 (retired: -47 vs t122 after 183 games)
+# y258 (retired: -63 vs t122 after 197 games)
 y259
 y260
+y261
+y262
+y263
