@@ -225,3 +225,7 @@ t142	t141 with the siege HP exit at 100
 y278	t135 + bug audit 1: refill targets (L1-only churn exception, 150-round money flags, every robot flags dry towers it sees, flags move on forget, dead towers forgotten on sight)
 y279	t135 + bug audit 2 + 4: free hit needs siege paint (30, was 5); no repair shots at enemy paint
 y280	t135 + bug audit 3: splashers keep off our secondary tiles in the 5x5 of ruins and towers
+t143	t140 + y280 (free marks + splashers keep off our pattern tiles)
+t144	t135 + study 11 2.4: a soldier under 100 paint with an enemy mopper within r2 8 heads for a refill
+y281	t135 + bug audit S3: moppers finish a refill trip under way (was cancelled at 40 paint)
+y282	t135 + bug audit 8: towers re-read chips before upgrading and churning (build had spent them)

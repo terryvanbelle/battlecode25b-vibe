@@ -1,1 +1,4 @@
 # BOT RUN: qualified for the crown; games in runs after RUN confirm it (tourney.py, owner #46)
+t138 380
+t140 383
+y279 383
