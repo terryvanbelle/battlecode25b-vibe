@@ -119,7 +119,9 @@ public strictfp class Soldier {
             // two soldiers per ruin at most
             int helpers = 0;
             for (RobotInfo a : G.allies) if (a.type == UnitType.SOLDIER && a.location.distanceSquaredTo(r) <= 8) helpers++;
-            if (helpers >= 1 && G.here.distanceSquaredTo(r) > 2) continue;
+            if (rc.getNumberTowers() == 2) {   // study 8 2.2 (b): no second painter on our first tower in 35 of 89 games
+                if (helpers >= 2 || (helpers == 1 && G.here.distanceSquaredTo(r) > 20)) continue;
+            } else if (helpers >= 1 && G.here.distanceSquaredTo(r) > 2) continue;
             int d = G.here.distanceSquaredTo(r);
             if (d < bestD) { bestD = d; best = r; }
         }
@@ -182,6 +184,27 @@ public strictfp class Soldier {
         return UnitType.LEVEL_ONE_DEFENSE_TOWER;
     }
 
+    // study 8 2.2 (a): our first tower is built at a median r25 against their r19; we start painting 3 rounds after
+    // first sight (they 1) because we walk up and mark first. On the way in, paint the nearest wrong tile of the
+    // pattern we are about to mark.
+    static void prePaint(MapLocation r) throws GameActionException {
+        RobotController rc = G.rc;
+        if (!rc.isActionReady() || G.paint < 5) return;
+        int pat = patternOf(wantType());
+        MapLocation best = null; boolean bs = false; int bd = Integer.MAX_VALUE;
+        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+            if (dx == 0 && dy == 0) continue;
+            MapLocation l = r.translate(dx, dy);
+            int dd = G.here.distanceSquaredTo(l);
+            if (dd > 9 || dd >= bd || !rc.canSenseLocation(l)) continue;
+            PaintType p = rc.senseMapInfo(l).getPaint();
+            boolean s = bit(pat, dx, dy);
+            if (p.isEnemy() || (p != PaintType.EMPTY && p.isSecondary() == s)) continue;
+            bd = dd; best = l; bs = s;
+        }
+        if (best != null && rc.canPaint(best)) { rc.attack(best, bs); G.paint = rc.getPaint(); G.ind += " prepaint"; }
+    }
+
     /** Work the current ruin; false when it was dropped (the turn continues with other work). */
     static boolean workRuin() throws GameActionException {
         RobotController rc = G.rc;
@@ -197,6 +220,7 @@ public strictfp class Soldier {
         int d = G.here.distanceSquaredTo(r);
         if (ruinType == null) {
             if (d > 2) { Nav.moveTo(r); d = G.here.distanceSquaredTo(r); }
+            if (d > 2 && rc.getNumberTowers() <= 3) prePaint(r);   // study 8 2.2 (a)
             if (d <= 2) {
                 UnitType t = wantType();
                 if (rc.canMarkTowerPattern(t, r)) { rc.markTowerPattern(t, r); ruinType = t; G.paint = rc.getPaint(); }

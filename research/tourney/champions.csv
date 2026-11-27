@@ -40,3 +40,4 @@ when_pdt,bot,base,change,submission
 2026-11-26 13:27,y195,t91,study 7 2.1a: explore unseen tiles first; up to 16 random draws,70
 2026-11-26 14:12,y197,y195,ruin denial stops at 2 of our tiles (tuning of study 6 2.2),71
 2026-11-26 15:27,y211,y197,study 7 2.1a tuned: up to 128 random draws for an unseen explore target (was 16),72
+2026-11-26 17:47,y221,y211,study 8 2.2 (paint the first tower's pattern on the way in; a second soldier on the first ruin) + explore timeout 90; first champion through the confirmation stage (owner #46),73

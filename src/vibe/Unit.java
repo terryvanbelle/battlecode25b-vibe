@@ -111,7 +111,7 @@ public strictfp class Unit {
 
     /** A wandering target: a random tile, renewed when reached, after a timeout, or when it is known terrain. */
     static MapLocation exploreTarget() {
-        if (explore == null || G.here.distanceSquaredTo(explore) <= 8 || G.round - exploreSince > 60
+        if (explore == null || G.here.distanceSquaredTo(explore) <= 8 || G.round - exploreSince > 90   /* (y211: 60) */
                 || G.isWall(explore)) {
             // study 7 2.1 (a): 43 free ruins in our half were never seen by r100 (walled pockets, far corners of big
             // maps); draw up to 8 tiles and take the first we have never seen

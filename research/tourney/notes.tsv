@@ -135,3 +135,8 @@ y221	t105 + y216 (explore timeout 90)
 y222	t102 + y216 (explore timeout 90): y221 without the second first-ruin soldier
 y223	y221 with explore timeout 120
 t108	study 8 2.5b: a tower hit this round or last spawns a mopper (>=100 paint, once per 15 rounds, also before r80)
+t109	t108 on y221: a tower hit this round or last spawns a mopper (study 8 2.5b)
+t110	study 8 2.5c: after a failed churn wait, honour that money tower's dry flag for 20 rounds
+y224	explore timeout 75 (y221: 90)
+y225	pre-paint the pattern while we have <= 5 towers (y221: 3)
+y226	second soldier joins the first ruin from d2 32 (y221: 20)

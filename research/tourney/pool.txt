@@ -272,7 +272,7 @@
 # t75 (retired: -21 vs t70 after 341)
 # t72 (retired: on old champion t70, -4 vs t70 after 355; ported as t79)
 # t73 (retired: -32 vs t70 after 364)
-t74  # replica reference: peak 1649 at #8 on 11-26 10:54 PDT; permanent slot with t91 and y170 (owner #45)
+# t74 (retired: its replica-reference slot passed to y211, peak 1663 > 1649; owner #45 rule)
 # t76 (retired: -295 after 200; t71 + money S M M)
 # t77 (retired: -51 vs t70 after 383)
 # t78 (retired: on old champion t70, 0 games; ported as t81)
@@ -342,24 +342,29 @@ t91  # replica record: 1667 at #7 on 11-26 13:07 PDT; permanent slot (owner #35)
 # y208 (retired: built on y197, champion now y211)
 # y209 (retired: -23 vs y197 after 427; siege range r2 100)
 # y210 (retired: built on y197, champion now y211)
-y211
+y211  # replica reference: peak 1663 at #9 on 11-26 17:53 PDT; permanent slot with t91 and y170 (owner #45, record.py), champion until y221
 # y212 (retired: built on y197, champion now y211)
 # y213 (retired: -3 vs y211 after 828, flat; SRPs from 5 towers)
 # y214 (retired: -85 vs y211 after 125; SRPs from 4 towers)
 # y215 (retired: -122 vs y211 after 131; nearest unseen of 24 draws)
-y216
+# y216 (retired at y221's crowning)
 # t101 (retired: -20 vs y211 after 379; retarget once the target is seen)
 # y217 (retired: -16 vs y211 after 854; 192 explore draws)
 # y218 (retired: -22 vs y211 after 721; UPGRADE_SPARE 1600)
 # y219 (retired unplayed: slot for study 8 candidates)
 # y220 (retired unplayed: slot for study 8 candidates)
-t102
-t105
+# t102 (retired at y221's crowning)
+# t105 (retired at y221's crowning)
 # t104 (retired: -62 vs y211 after 337; study 8 2.3b+c)
 # t103 (retired: -72 vs y211 after 335; study 8 2.1 narrow defense rebuild)
-t106
-t107
+# t106 (retired at y221's crowning)
+# t107 (retired at y221's crowning)
 y221
-y222
+# y222 (retired at y221's crowning)
 y223
-t108
+# t108 (retired at y221's crowning; ported as t109)
+t109
+t110
+y224
+y225
+y226
