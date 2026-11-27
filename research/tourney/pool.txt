@@ -464,6 +464,7 @@ y283
 y284
 y285
 y286
-y287
-y288
+# y287 (retired: -29 vs t140 after 198 games; explore bytecode guard)
+# y288 (retired: -21 vs t140 after 232 games; stop walking to a dry tower)
 t146
+t147
