@@ -482,9 +482,9 @@ r140  # champion (substitutes t140: verified identical refactor, owner #57/#58)
 # t154 (retired: -22 vs r140 after 306 games; SRPs from round 60)
 t152
 # t153 (retired: -24 vs r140 after 320 games; t152 + robots in reach score 55)
-y295
+# y295 (retired: flat (-0) vs r140 after 786 games; Nav ally term)
 # y296 (retired: -16 vs r140 after 614 games; refills end full)
-y297
+# y297 (retired: -9 vs r140 after 611 games; Nav paint weight 12)
 # y298 (retired: -61 vs r140 after 337 games; moppers give below 60%)
 t155
 t156
@@ -493,3 +493,5 @@ t157
 t158
 y300
 y301
+y302
+t159
