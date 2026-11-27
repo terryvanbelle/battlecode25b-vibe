@@ -309,7 +309,7 @@ y170  # replica reference: peak 1654 at #8 on 11-26 11:31 PDT; permanent slot wi
 # t88 (retired: built on t85, champion now t91)
 # t89 (retired: -88 vs t85 after 131; walk to remembered free ruins, study 7 2.1b)
 # t90 (retired: built on t85, champion now t91)
-t91  # replica record: 1667 at #7 on 11-26 13:07 PDT; permanent slot (owner #35), retired at y195's crowning before that
+t91  # replica reference: peak 1667 at #7 on 11-26 13:07 PDT (the record until y221's 1673 at 18:08); permanent slot (owner #35, #45)
 # y188 (retired: built on t85, champion now t91)
 # y189 (retired: built on t85, champion now t91)
 # y190 (retired: built on t85, champion now t91)
@@ -342,7 +342,7 @@ t91  # replica record: 1667 at #7 on 11-26 13:07 PDT; permanent slot (owner #35)
 # y208 (retired: built on y197, champion now y211)
 # y209 (retired: -23 vs y197 after 427; siege range r2 100)
 # y210 (retired: built on y197, champion now y211)
-y211  # replica reference: peak 1663 at #9 on 11-26 17:53 PDT; permanent slot with t91 and y170 (owner #45, record.py), champion until y221
+# y211 (retired: y221's direct parent, so skipped as a reference once y221, the champion, took the record at 18:08)
 # y212 (retired: built on y197, champion now y211)
 # y213 (retired: -3 vs y211 after 828, flat; SRPs from 5 towers)
 # y214 (retired: -85 vs y211 after 125; SRPs from 4 towers)
