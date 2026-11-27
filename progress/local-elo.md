@@ -1,6 +1,6 @@
 # Local tournament Elo
 
-Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 173408 games in one fit as of 2026-11-27 15:49 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
+Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 174613 games in one fit as of 2026-11-27 15:56 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
 
 ![local elo](local-elo.png)
 
@@ -49,7 +49,7 @@ Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py
 | 2026-11-26 15:27 | y211 | study 7 2.1a tuned: up to 128 random draws for an unseen explore target (was 16) on y197 | #72 | 1963 +- 6 | +3 | 4141 |
 | 2026-11-26 17:47 | y221 | study 8 2.2 (paint the first tower's pattern on the way in; a second soldier on the first ruin) + explore timeout 90; first champion through the confirmation stage (owner #46) on y211 | #73 | 1998 +- 5 | +36 | 6990 |
 | 2026-11-26 19:34 | t111 | splashers attack enemy paint/money towers from a stand-off tile outside their range (study 8 2.4) on y221 | #74 | 2012 +- 4 | +14 | 7551 |
-| 2026-11-26 23:27 | t118 | study 9 2.1b: a soldier on a blocked pattern with no own mopper or splasher in view gives up after 5 turns (was 25); confirmed +71 +-29 in 153 fresh games on t111 | #75 | 2048 +- 5 | +36 | 14758 |
-| 2026-11-27 01:07 | t122 | study 9 2.4: paint-tower dry flags expire after 10 rounds (was 40) and a flagged tower in sight is re-sensed; confirmed +6 +-19 in 378 fresh games; +16 overall on t118 | #76 | 2059 +- 4 | +11 | 18115 |
-| 2026-11-27 06:10 | t135 | study 10 2.6d: a soldier with no other soldier in view skips the 25-paint pattern mark (the top teams never mark); confirmed +9 +-22 in 262 fresh games; +14 overall on t122 | #77 | 2058 +- 6 | -1 | 5817 |
-| 2026-11-27 08:28 | t140 (now r140, verified identical) | study 11 2.1: free single marks (rc.mark on the 5x5 outer ring) replace the 25-paint pattern mark; marks re-read beside the ruin; confirmed +40 +-23 in 251 fresh games; +30 overall on t135 | #78 | 2095 +- 5 | +36 | 14156 |
+| 2026-11-26 23:27 | t118 | study 9 2.1b: a soldier on a blocked pattern with no own mopper or splasher in view gives up after 5 turns (was 25); confirmed +71 +-29 in 153 fresh games on t111 | #75 | 2048 +- 4 | +36 | 14876 |
+| 2026-11-27 01:07 | t122 | study 9 2.4: paint-tower dry flags expire after 10 rounds (was 40) and a flagged tower in sight is re-sensed; confirmed +6 +-19 in 378 fresh games; +16 overall on t118 | #76 | 2060 +- 4 | +12 | 18241 |
+| 2026-11-27 06:10 | t135 | study 10 2.6d: a soldier with no other soldier in view skips the 25-paint pattern mark (the top teams never mark); confirmed +9 +-22 in 262 fresh games; +14 overall on t122 | #77 | 2058 +- 6 | -2 | 5817 |
+| 2026-11-27 08:28 | t140 (now r140, verified identical) | study 11 2.1: free single marks (rc.mark on the 5x5 outer ring) replace the 25-paint pattern mark; marks re-read beside the ruin; confirmed +40 +-23 in 251 fresh games; +30 overall on t135 | #78 | 2093 +- 5 | +35 | 14550 |

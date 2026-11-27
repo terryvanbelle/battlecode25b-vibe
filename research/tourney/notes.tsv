@@ -260,3 +260,6 @@ t155	t150 + t152: opening cover from 100 paint + moppers swing at a single robot
 t156	y295 + t152: Nav ally term + moppers swing at a single robot
 y299	t150 with the opening-cover floor at 75 paint (t150 100, t149 150)
 t157	y295 + t150: Nav ally term + opening cover from 100 paint
+t158	study 12 2.2: moppers hit and run (after acting, step off non-ally paint and away from enemy moppers/towers)
+y300	explore painting from round 60 (was 80; study 12 2.1)
+y301	y295 with Nav paint weight 4 (was 6)
