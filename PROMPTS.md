@@ -221,3 +221,6 @@ I changed the page color on the dashboard to white, but it still renders in dark
 
 ## #65 (2026-11-27 14:49 PDT)
 Never mind, figured itout
+
+## #66 (2026-11-27 15:29 PDT)
+I'm considering stopping using the 150 game check whenever we crown a new champion.  It might be coincidence that we started to level out when we instated that rule, but even if not, I suspect it's hindering our exploration of the search space by suppressing neutral changes.  Can you do an analysis for whether it's helping us?  If you can't find evidence, let's get rid of it

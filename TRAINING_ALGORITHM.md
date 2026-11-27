@@ -101,16 +101,10 @@ replica. That build is the first champion.
   set. Each pair is capped at 200 games, and a weak prior keeps unplayed bots finite.
 - **A bot qualifies when it has at least MIN_GAMES games and leads the champion by more than one combined SE**,
   √(SE₁² + SE₂²). The margin is hysteresis, so near-equal bots do not trade the title on noise.
-- **A qualifier is crowned after confirmation** (owner #46): CONFIRM_GAMES fresh games, from runs that had not started
-  when it qualified, in which it still leads the champion (> 0). The fit for this drops the bot's earlier games and
-  keeps everything else.
-  - Why: of ten candidates, the first to clear a bar is partly lucky (winner's curse). In one season the lead of 16
-    consecutive champions shrank from +39 at crowning to +28 with later games, and a simulation of this rule
-    overstates the crowned lead by 20-30 points. Fresh games are free of that selection.
-  - The bar is deliberately mild, so real gains are not thrown away: a bot that fails is not retired. Its window
-    restarts and it keeps playing under the normal rules.
-  - The champion keeps playing during the window, so the comparison stays defined. When several bots confirm, crown
-    the highest rated.
+- **The top qualifier is crowned at once.** Owner #46 added a confirmation stage: 150 fresh games still leading.
+  Owner #66 dropped it on 2026-11-27, when a review showed no measurable gain in crown quality.
+  - The review: 39 of 40 crownings before the stage rate above their base on all games. After it, the mean gain
+    per crowning was the same, and it cost 12 minutes to 4 hours per crowning (`research/tourney/CONFIRM_REVIEW.md`).
 - **Early ratings mean little**: swings of ±70 before about 50 games, and new champions usually settle downward. Never
   retire a bot or celebrate one before about 50 games.
 
@@ -129,8 +123,6 @@ replica. That build is the first champion.
   champion.
 - A quarter of each run: the champion against the rated bots, weighted by their SEs. Otherwise bots planned only among
   themselves drift away from it.
-- Each bot in its confirmation window plays the champion in another tenth of each run, so confirming costs about one
-  cycle.
 - The rest goes to pairs among the top bots, weighted toward close ratings and large SEs.
 - Count planned-but-unplayed games so consecutive plans don't over-feed one newcomer. Take a queued run off the queue
   before re-planning it, and check the copy the game machine holds against the plan.
@@ -162,7 +154,7 @@ substitute's name, `champions.csv` keeps the crowned name, and the charts and `r
 ### 2.6 Retiring
 Retire a bot about 20 or more below the champion after about 200 games, more than 2 SE below after about 50, or flat
 (within a few points) after about 500. A losing swing first gets a second version that fixes its first visible failure.
-Never retire a replica slot, or a bot because it failed confirmation.
+Never retire a replica slot.
 
 ### 2.7 Auditing a new champion
 Once the queue is full, audit the diff from the previous champion only:
@@ -208,8 +200,8 @@ production, movement, combat, defence, scouting), build in another area.
 - Games are deterministic per (pair, map, seed, seats). Re-running a borderline result adds nothing; new seeds do.
 - One game filters an idea; it never decides one.
 - Self-play blind spots are accepted risk, corrected by the field study, the replica slots and the next champions.
-- The rated lead of the bot that first clears a bar is biased upward (winner's curse). Confirm on fresh games before
-  acting on it.
+- The rated lead of the bot that first clears a bar is biased upward (winner's curse). Here the one-SE bar alone
+  kept crownings honest: 39 of 40 rate above their base on later games, so no fresh-game check is needed (owner #66).
 - Keep the rating prior weak. A prior of one virtual win and loss per bot against a fixed anchor pulls every bot far
   above it down by about one win, however far. The eras of a long run of champions are linked by only a few hundred
   games each, so that pull sank each era 20-40 points against the one it beat, and the history showed a decline that
@@ -251,7 +243,7 @@ A failed build condemns one implementation, not the idea.
 **Prod cycle (about 20 minutes)**:
 1. Check the game machine.
 2. Pull and rank.
-3. Crown a confirmed bot; a qualifier enters its confirmation window.
+3. Crown the top qualifier.
 4. Keep at least 5 runs queued.
 5. Audit a new champion.
 6. Add and retire bots to hold about 10 besides the replica slots; keep the slots current.
@@ -259,8 +251,7 @@ A failed build condemns one implementation, not the idea.
 8. Log, commit and push.
 9. Refresh the charts and the owner's dashboard. Run any pre-registered test that is due, once.
 10. Report:
-    - tournament size and the pool table (rating ± SE, games, lead over the champion and the lead it needs, bots
-      confirming);
+    - tournament size and the pool table (rating ± SE, games, lead over the champion and the lead it needs);
     - changes since the last cycle;
     - audit outcome;
     - ladder rank;
@@ -284,7 +275,7 @@ A failed build condemns one implementation, not the idea.
 ## 8. Records
 - **Training log** (append-only): numbers each cycle, newcomers, retirements, directives.
 - **Attempts table**: one row per build with base, change, motivation and fate.
-- **Champion history**, pool file (with the replica slots marked), confirmation state, swing table, audit reports,
+- **Champion history**, pool file (with the replica slots marked), swing table, audit reports,
   field-study write-ups and pre-registrations.
 - **Progress charts on wall-clock axes**: local champion rating, ladder rank and rating, with milestones marked.
 
@@ -297,9 +288,8 @@ Records hold measurements, not stories, and nothing stale stays.
 | pool | about 10 bots: champion + newcomers, half incremental, half field tactics or swings; plus 3 replica slots, ~13 in all |
 | replica slots | the best ladder rating ever + the next two best ladder peaks; not the champion, not the holder's parent or children |
 | qualify | ≥ MIN_GAMES = 200 games and a lead > √(SE₁² + SE₂²) over the champion |
-| confirm | CONFIRM_GAMES = 150 fresh games in which the lead is still > 0; failing restarts the window |
 | at a crowning | retire the bots built on the old champion (not the replica slots), port the promising ones, re-plan queued runs |
-| champion share | a quarter of each run vs the rated bots (by SE); another tenth vs each confirming bot |
+| champion share | a quarter of each run vs the rated bots (by SE) |
 | newcomer share | bots under NEW_MIN = 40 games get half of each run, half of that vs the champion |
 | run | 400 games, random contest map, random seed in 0-9, random seats |
 | fit | Bradley-Terry, weak prior, ≤ 200 games per pair, retired bots' games kept |

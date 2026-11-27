@@ -181,32 +181,15 @@ def cmd_rank(root):
     elig = [(b, r) for b, r in lad if r.games >= MIN_GAMES]
     rc = dict(lad).get(ch)
     if elig and elig[0][0] != ch and rc is not None:
-        # hysteresis (11-21 10:13): lead the champion by one combined SE; then the confirmation stage (owner #46)
+        # hysteresis (11-21 10:13): lead the champion by one combined SE. The confirmation stage (owner #46) was
+        # dropped by owner #66 (research/tourney/CONFIRM_REVIEW.md): it did not measurably improve crown quality.
         qual = [(b, r) for b, r in elig if b != ch and r.rating - rc.rating > math.hypot(r.se, rc.se)]
-        old, last, crown = read_confirm(), last_run(root), None
-        state = {b: old.get(b, last) for b, _ in qual}   # a new qualifier's window opens now; non-qualifiers drop out
-        for b, r in qual:
-            margin = math.hypot(r.se, rc.se)
-            lead, se, n = fresh(b, state[b], ch, root)
-            if n >= CONFIRM_GAMES and lead > 0:
-                print(f'confirmed {b}: leads {ch} by {r.rating - rc.rating:.0f} > {margin:.0f}, and by {lead:+.0f} '
-                      f'+-{se:.0f} in its {n} fresh games (runs after tr{state[b]})')
-                crown = crown or (b, r, margin)
-            elif n >= CONFIRM_GAMES:
-                print(f'NOT CONFIRMED {b}: {lead:+.0f} +-{se:.0f} vs {ch} in its {n} fresh games (runs after '
-                      f'tr{state[b]}); not retired, its window restarts after tr{last}')
-                state[b] = last
-            else:
-                print(f'CONFIRMING {b}: leads {ch} by {r.rating - rc.rating:.0f} > {margin:.0f}; fresh {lead:+.0f} '
-                      f'+-{se:.0f} in {n} of {CONFIRM_GAMES} games (runs after tr{state[b]})')
-        if root == R and state != old:
-            write_confirm(state)
-        if crown:
-            b, r, margin = crown
+        if root == R and read_confirm():
+            write_confirm({})
+        if qual:
+            b, r = qual[0]
             print(f'NEW CHAMPION {b} (was {ch}): leads the bots with >= {MIN_GAMES} games by '
-                  f'{r.rating - rc.rating:.0f} > {margin:.0f}, confirmed on fresh games')
-        elif qual:
-            print(f'champion {ch} (held: {", ".join(b for b, _ in qual)} confirming)')
+                  f'{r.rating - rc.rating:.0f} > {math.hypot(r.se, rc.se):.0f}')
         else:
             b, r = elig[0]
             print(f'champion {ch} (held: {b} leads it by {r.rating - rc.rating:.0f}, '
@@ -293,10 +276,6 @@ def cmd_plan(run, n):
                 pairs.append((random.choices(others, sw)[0], ch))
     # owner #47: the replica references are regular (permanent) entrants: no extra games for them (the fifth of each
     # run that owner #45's vs refs column took, tr261-tr264 as first planned, was dropped)
-    # owner #46: a bot in its confirmation window plays the champion more, so confirming costs about one prod
-    for b in read_confirm():
-        if b in rate and ch in rate and b != ch:
-            pairs += [(b, ch)] * (n // 10)
     cand = [(a, b) for i, a in enumerate(top) for b in top[i + 1:]]
     # SE expected once the planned games are in (~350/sqrt(games)): an unplayed bot's prior SE of 400 would otherwise
     # pull every top-pair game in each of several consecutive plans (11-22 11:20)

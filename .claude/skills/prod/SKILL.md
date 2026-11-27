@@ -22,9 +22,8 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
 1. `tools/prod.sh pull` - status, pulls every unfinished run, ranks. Its `guardrail` line gives each replica slot's
    head-to-head record against the champion (owner #59/#60; no extra games). On `GUARDRAIL ALARM`, report it and
    look for the behavioural regression since that slot before building more candidates.
-2. Confirmation stage (owner #46): a bot that clears the lead bar prints `CONFIRMING X` and is crowned only after 150
-   fresh games (runs after it qualified, `research/tourney/confirm.txt`) in which it still leads (> 0). `NOT CONFIRMED`
-   restarts its window; never retire a bot for failing it (owner: don't throw away possible improvements).
+2. Crowning: a bot with 200+ games that leads the champion by more than one combined SE is crowned at once.
+   Owner #66 dropped the confirmation stage (owner #46); `research/tourney/CONFIRM_REVIEW.md` has the review.
    If rank prints `NEW CHAMPION X (was Y)`: `tools/crown.sh X Y "what X changes (study/tactic)"`. Check the audit
    diff is only the intended change. If the unit tests fail on a spawn-mix check, update `test/vibe/BotTest.java`.
    Then retire bots built on the old champion (`# NAME (retired: reason)` in `research/tourney/pool.txt`), never the

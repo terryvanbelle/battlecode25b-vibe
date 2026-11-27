@@ -43,10 +43,8 @@ season's tools. Times are the owner's zone: `TZ=America/Vancouver` (UTC-7, "PDT"
 ## Tournament (`tools/tourney.py`)
 - `rank`, `plan RUN --games 400`, `add BOT`, `chart` (the chart needs `~/.venv-bc25b/bin/python`).
 - State lives in `research/tourney/`: `pool.txt`, `champion.txt`, `champions.csv`, `confirm.txt`.
-- Confirmation stage (owner prompt #46, from 2026-11-26 17:13 PDT): `rank` prints `CONFIRMING X` for a qualifier and
-  records `X RUN` in `confirm.txt`. X's fresh games are its games in runs after RUN (`tourney.fresh`). After
-  `CONFIRM_GAMES` (150) fresh games, a fresh lead > 0 prints `NEW CHAMPION`. Otherwise `NOT CONFIRMED` restarts the
-  window, and the bot is not retired. `plan` gives each confirming bot `n // 10` extra games against the champion.
+- The confirmation stage (owner #46) was dropped by owner #66 on 2026-11-27 (`research/tourney/CONFIRM_REVIEW.md`).
+  `rank` crowns the top qualifier at once; `confirm.txt` stays empty.
 - Replica slots (owner prompts #35, #45, #47): `pool.txt` lines whose comment says `replica record` (the record
   holder) or `replica reference` (the next two best replica peaks). `tools/record.py`, run in `prod.sh replica`,
   names the three and prints `ADD` or retire lines. They are never retired and get no extra games; the dashboard shows
