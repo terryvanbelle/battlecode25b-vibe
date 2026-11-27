@@ -1,0 +1,36 @@
+== lost, behind at r100
+   us   new ruin, builds #1-3    builds   23, wait med 0, >2 rounds   4, wait rounds    70: chips 100%
+   us   new ruin, later builds   builds   22, wait med 2, >2 rounds   9, wait rounds   231: chips 100%
+   us   rebuild                  builds   50, wait med 0.0, >2 rounds  16, wait rounds   767: nobody 61%, chips 33%, adjacent SO 5%, adjacent MO 1%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 34, its paint < 10 in 29 of 469
+   them new ruin, builds #1-3    builds   38, wait med 1.0, >2 rounds  11, wait rounds   115: chips 100%
+   them new ruin, later builds   builds   95, wait med 1, >2 rounds  29, wait rounds   248: chips 98%, adjacent SO 2%, nobody 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 8, its paint < 10 in 0 of 1
+   them rebuild                  builds   62, wait med 6.5, >2 rounds  35, wait rounds  1863: nobody 78%, chips 18%, adjacent SO 3%, adjacent MO 1%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 37, its paint < 10 in 24 of 1455
+
+== lost, level or ahead at r100
+   us   new ruin, builds #1-3    builds  116, wait med 1.0, >2 rounds  55, wait rounds   710: chips 100%
+   us   new ruin, later builds   builds  176, wait med 2.0, >2 rounds  76, wait rounds  1417: chips 98%, nobody 2%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 25.0, its paint < 10 in 15 of 30
+   us   rebuild                  builds  292, wait med 1, >2 rounds 106, wait rounds  5850: nobody 52%, chips 44%, adjacent SO 3%, adjacent MO 1%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 32, its paint < 10 in 107 of 3053
+   them new ruin, builds #1-3    builds  124, wait med 1, >2 rounds  39, wait rounds   350: chips 96%, nobody 3%, adjacent SO 1%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 4, its paint < 10 in 0 of 9
+   them new ruin, later builds   builds  263, wait med 1, >2 rounds  78, wait rounds  1079: chips 93%, nobody 4%, adjacent SO 3%, adjacent MO 0%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 50.0, its paint < 10 in 1 of 46
+   them rebuild                  builds  227, wait med 1.0, >2 rounds  82, wait rounds  3286: nobody 67%, chips 24%, adjacent SO 5%, adjacent MO 4%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 47, nearest soldier d2 med 41.0, its paint < 10 in 129 of 2144
+
+== won
+   us   new ruin, builds #1-3    builds  139, wait med 1, >2 rounds  52, wait rounds   601: chips 100%
+   us   new ruin, later builds   builds  353, wait med 1, >2 rounds 106, wait rounds  1694: chips 99%, nobody 1%, adjacent SO 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 28.5, its paint < 10 in 2 of 22
+   us   rebuild                  builds  413, wait med 1, >2 rounds 131, wait rounds  6740: nobody 57%, chips 38%, adjacent SO 3%, adjacent MO 1%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 32.0, its paint < 10 in 233 of 3854
+   them new ruin, builds #1-3    builds  127, wait med 1.0, >2 rounds  32, wait rounds   361: chips 100%
+   them new ruin, later builds   builds  165, wait med 1.0, >2 rounds  46, wait rounds   850: chips 95%, nobody 4%, adjacent SO 1%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 111.5, its paint < 10 in 0 of 36
+   them rebuild                  builds  229, wait med 2, >2 rounds 110, wait rounds  5434: nobody 70%, chips 22%, adjacent MO 4%, adjacent SO 4%, adjacent SP 0%
+                                 nobody rounds: no soldier of the side seen 0, nearest soldier d2 med 45.0, its paint < 10 in 177 of 3796
+

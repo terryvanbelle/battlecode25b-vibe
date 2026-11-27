@@ -194,3 +194,6 @@ OK, then yeah, I don't think we're going to tune our way to #1.  One of two thin
 
 ## #56 (2026-11-27 06:22 PDT)
 That all sounds good to me
+
+## #57 (2026-11-27 06:51 PDT)
+(answer to "may a verified behaviour-identical refactor become the base for new candidates without being crowned?") R1-R3 now

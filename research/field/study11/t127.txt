@@ -1,0 +1,59 @@
+34 (opponent, map) pairings played by t122 and by t111 / t118
+opponent                 map              t122            t111            t118
+gone-whalin              AlarmClock       W               W               -              
+gone-whalin              Bread            W               -               L              
+gone-whalin              BunnyGame        L               L               -              
+gone-whalin              Castle           L               L               L              
+gone-whalin              Circuit          W               -               W              
+gone-whalin              Flower           L               W               -              
+gone-whalin              Parking_lot      W               -               W              
+gone-whalin              Racetrack        L               L               -              
+gone-whalin              SaltyPepper      W               L               -              
+immutable                Paintball        W               -               W              
+immutable                gridworld        L               L               -              
+immutable                headphones       W               -               W              
+immutable                walalilongla     W               W               -              
+lobster-roll             BatSignal        L               L               -              
+lobster-roll             DefaultSmall     L               L               -              
+lobster-roll             catface          W               W               -              
+lobster-roll             sayhi            L               W               -              
+scienceqiu               AlarmClock       W               W               -              
+scienceqiu               BatSignal        L               W               -              
+scienceqiu               DefaultLarge     W               L               -              
+scienceqiu               Filter           L               L               -              
+scienceqiu               Money            W               W               -              
+scienceqiu               Parking_lot      W               W               -              
+scienceqiu               Snowman          L               L               -              
+scienceqiu               fix              L               W               -              
+scienceqiu               sayhi            W               W               -              
+spaark                   DefaultHuge      LL              L               -              
+spaark                   Money            L               -               L              
+spaark                   Terminal         L               -               L              
+spaark                   UnderTheSea      LL              L               -              
+subscribe-to-caterpillow DefaultMedium    W               -               W              
+subscribe-to-caterpillow Piglets2         L               -               W              
+subscribe-to-caterpillow giver            L               -               W              
+varunvejalla             DonkeyKong       W               L               -              
+
+common pairings, all: t122 16-20 (44%); t111 11-13 (46%); t118 7-4 (64%)
+
+common pairings, top teams: t122 14-17 (45%); t111 9-10 (47%); t118 7-4 (64%)
+
+pairings t122 lost that every older game won: 6: subscribe-/giver, gone-whali/Flower, scienceqiu/BatSignal, subscribe-/Piglets2, lobster-ro/sayhi, scienceqiu/fix
+pairings t122 won that every older game lost: 4: gone-whali/Bread, gone-whali/SaltyPepper, varunvejal/DonkeyKong, scienceqiu/DefaultLarge
+
+whole sets, per opponent: t122 | t111 | t118
+   angtn                          - |     2-1 |       -
+   confused                       - |       - |     1-5
+   gone-whalin                15-13 |     6-8 |     3-3
+   immutable                   8-10 |     3-3 |     6-0
+   just-woke-up                   - |       - |     1-2
+   lobster-roll                 4-8 |    10-8 |       -
+   om-nom                       0-3 |     1-2 |     3-3
+   placeholder-name-2             - |     7-2 |       -
+   podemice                       - |     5-1 |       -
+   scienceqiu                  11-9 |    12-8 |       -
+   slifland                       - |     4-2 |       -
+   spaark                      6-12 |     8-9 |     7-8
+   subscribe-to-caterpillow     3-3 |     4-2 |     9-3
+   varunvejalla                 3-0 |     8-5 |       -

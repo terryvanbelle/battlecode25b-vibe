@@ -1,0 +1,173 @@
+111 games in the main set (37 matches)
+match g ver  rk opponent                 map              size   tiles res  end  how  cov% us/them   repeat of
+m4661 g0 t122  R  subscribe-to-caterpillow Filter           21x21   419 W    232 MAJ   71.1/ 11.0   
+m4661 g1 t122  R  subscribe-to-caterpillow giver            50x50  2344 L    342 MAJ   17.1/ 70.3   
+m4661 g2 t122  R  subscribe-to-caterpillow sierpinski       39x50  1620 L    478 MAJ    9.5/ 70.1   
+m4662 g0 t122  u  immutable                Paintball        20x20   354 W    407 MAJ   71.8/ 15.5   
+m4662 g1 t122  u  immutable                Rose             40x40  1512 W    366 MAJ   70.1/ 17.1   
+m4662 g2 t122  u  immutable                walalilongla     45x45  1811 W    412 MAJ   70.3/ 23.3   
+m4663 g0 t122  R  om-nom                   Oasis            59x59  3339 L    445 MAJ   16.1/ 70.7   
+m4663 g1 t122  R  om-nom                   Thirds           55x40  1932 L    387 ALL    6.2/ 67.6   
+m4663 g2 t122  R  om-nom                   memstore         59x39  2081 L    410 MAJ    6.6/ 70.3   
+m4664 g0 t122  u  spaark                   Mirage           40x40  1480 W    336 MAJ   70.3/ 17.8   
+m4664 g1 t122  u  spaark                   Parking_lot      45x45  1795 W    394 MAJ   70.5/ 22.2   
+m4664 g2 t122  u  spaark                   Terminal         40x30  1022 L    422 ALL   12.6/ 58.9   
+m4682 g0 t122  R  gone-whalin              Bread            35x29   914 W    392 MAJ   70.8/  7.5   
+m4682 g1 t122  R  gone-whalin              maze             60x60  2888 L    764 MAJ   16.9/ 70.2   
+m4682 g2 t122  R  gone-whalin              walalilongla     45x45  1811 W    574 MAJ   70.3/ 12.4   
+m4692 g0 t122  R  spaark                   DefaultHuge      59x59  3421 L    506 MAJ   15.0/ 69.6   
+m4692 g1 t122  R  spaark                   Money            35x35  1141 L    362 MAJ    3.9/ 70.0   
+m4692 g2 t122  R  spaark                   lighthouse       31x31   853 L    783 MAJ   19.9/ 70.3   
+m4699 g0 t122  R  immutable                BatSignal        40x25   890 L    341 MAJ   13.2/ 70.6   
+m4699 g1 t122  R  immutable                Portal           35x35  1129 L    311 MAJ   23.5/ 70.5   
+m4699 g2 t122  R  immutable                gridworld        31x31   769 L    436 MAJ   23.9/ 70.6   
+m4716 g0 t122  R  lobster-roll             Barcode          50x21   966 L    409 MAJ   12.7/ 70.1   
+m4716 g1 t122  R  lobster-roll             Money            35x35  1141 L    400 MAJ   12.7/ 70.3   
+m4716 g2 t122  R  lobster-roll             quack            30x35   932 L    726 MAJ   16.2/ 70.3   
+m4725 g0 t122  R  lobster-roll             BatSignal        40x25   890 L    543 MAJ    8.8/ 70.9   
+m4725 g1 t122  R  lobster-roll             Bread            35x29   914 W    413 MAJ   70.5/ 13.9   
+m4725 g2 t122  R  lobster-roll             windmill         30x30   780 W    239 MAJ   70.0/  9.9   
+m4726 g0 t122  u  gone-whalin              Flower           45x41  1623 L    499 MAJ   16.5/ 70.1   
+m4726 g1 t122  u  gone-whalin              Jail             20x30   540 L     78 ALL    9.3/ 16.7   
+m4726 g2 t122  u  gone-whalin              memstore         59x39  2081 L    421 MAJ   15.9/ 70.1   
+m4765 g0 t122  R  gone-whalin              AlarmClock       35x35  1091 W    296 MAJ   70.0/ 15.6   
+m4765 g1 t122  R  gone-whalin              SaltyPepper      40x40  1484 W    440 MAJ   70.1/ 22.4   
+m4765 g2 t122  R  gone-whalin              shell            40x40  1418 W    599 MAJ   70.2/ 20.9   
+m4766 g0 t122  u  scienceqiu               Leaf             60x60  3440 W   2000 ARE   51.5/ 45.4   
+m4766 g1 t122  u  scienceqiu               Portal           35x35  1129 L    332 MAJ   10.0/ 71.0   
+m4766 g2 t122  u  scienceqiu               UglySweater      50x50  2340 W    330 MAJ   70.1/ 12.2   
+m4787 g0 t122  R  scienceqiu               BunnyGame        30x50  1286 L    233 ALL    8.6/ 55.1   
+m4787 g1 t122  R  scienceqiu               DonkeyKong       60x60  3232 L    465 MAJ   20.4/ 70.0   
+m4787 g2 t122  R  scienceqiu               Snowman          25x25   553 L    305 MAJ    0.7/ 70.2   
+m4800 g0 t122  R  varunvejalla             Circuit          60x21  1096 W    271 MAJ   70.1/ 14.8   
+m4800 g1 t122  R  varunvejalla             DonkeyKong       60x60  3232 W    372 MAJ   70.1/ 11.4   
+m4800 g2 t122  R  varunvejalla             SMILE            60x60  3482 W    319 MAJ   70.2/ 19.3   
+m4805 g0 t122  R  spaark                   DefaultHuge      59x59  3421 L    458 MAJ    3.5/ 70.1   
+m4805 g1 t122  R  spaark                   Thirds           55x40  1932 L    440 ALL    6.4/ 59.0   
+m4805 g2 t122  R  spaark                   UnderTheSea      45x45  1847 L    641 MAJ   19.4/ 69.7   
+m4806 g0 t122  u  immutable                UnderTheSea      45x45  1847 W    254 MAJ   70.1/ 26.1   
+m4806 g1 t122  u  immutable                lighthouse       31x31   853 L    465 MAJ   21.8/ 70.5   
+m4806 g2 t122  u  immutable                starburst        30x30   844 W    470 MAJ   70.7/ 22.0   
+m4841 g0 t122  R  scienceqiu               Crab             40x30  1046 L    527 MAJ    8.8/ 70.1   
+m4841 g1 t122  R  scienceqiu               quack            30x35   932 W    337 MAJ   70.8/ 10.9   
+m4841 g2 t122  R  scienceqiu               sayhi            40x50  1734 W    377 MAJ   70.0/ 17.6   
+m4842 g0 t122  u  gone-whalin              Castle           27x27   636 L    365 MAJ   17.8/ 71.2   
+m4842 g1 t122  u  gone-whalin              sunrise          45x55  2208 W    400 MAJ   70.2/ 15.9   
+m4842 g2 t122  u  gone-whalin              walalilongla     45x45  1811 W    574 MAJ   70.3/ 12.4   m4682g2
+m4878 g0 t122  R  immutable                PlumberGame      60x30  1688 L    377 MAJ   22.2/ 69.5   
+m4878 g1 t122  R  immutable                Terminal         40x30  1022 L    389 MAJ   19.7/ 70.1   
+m4878 g2 t122  R  immutable                headphones       60x60  3186 W    415 MAJ   70.7/ 14.3   
+m4879 g0 t122  u  scienceqiu               BatSignal        40x25   890 L    666 MAJ    3.8/ 70.0   
+m4879 g1 t122  u  scienceqiu               Brat             29x29   715 L    550 ALL    6.2/ 66.7   
+m4879 g2 t122  u  scienceqiu               Rose             40x40  1512 W    323 MAJ   70.2/  8.5   
+m4880 g0 t122  R  spaark                   Dominoes         44x30  1228 W    269 ALL   69.7/  5.2   
+m4880 g1 t122  R  spaark                   Flower           45x41  1623 W    332 ALL   69.8/  4.0   
+m4880 g2 t122  R  spaark                   maze             60x60  2888 L   1236 MAJ   23.1/ 69.9   
+m4881 g0 t122  u  gone-whalin              Circuit          60x21  1096 W    356 MAJ   70.1/ 15.3   
+m4881 g1 t122  u  gone-whalin              Jail             20x30   540 L    120 ALL    9.3/ 14.1   
+m4881 g2 t122  u  gone-whalin              quack            30x35   932 L    499 MAJ   19.6/ 70.4   
+m4916 g0 t122  R  spaark                   DonkeyKong       60x60  3232 W    460 MAJ   70.4/ 12.2   
+m4916 g1 t122  R  spaark                   Fossil           30x30   868 L    577 MAJ    4.0/ 69.8   
+m4916 g2 t122  R  spaark                   gridworld        31x31   769 L    320 MAJ    8.6/ 70.2   
+m4917 g0 t122  u  scienceqiu               Filter           21x21   419 L    129 ALL   11.2/ 41.3   
+m4917 g1 t122  u  scienceqiu               Money            35x35  1141 W    323 MAJ   70.1/ 19.0   
+m4917 g2 t122  u  scienceqiu               roads            30x30   770 W    484 MAJ   70.0/ 16.8   
+m4918 g0 t122  R  immutable                Crab             40x30  1046 L    293 MAJ   17.8/ 70.8   
+m4918 g1 t122  R  immutable                leavemealone     50x30  1364 L    373 MAJ   24.9/ 70.0   
+m4918 g2 t122  R  immutable                shell            40x40  1418 W    364 MAJ   69.8/ 19.6   
+m4919 g0 t122  u  gone-whalin              DefaultMedium    35x35  1193 W    287 MAJ   70.1/ 11.2   
+m4919 g1 t122  u  gone-whalin              PlumberGame      60x30  1688 W    356 MAJ   69.5/ 16.9   
+m4919 g2 t122  u  gone-whalin              TargetPractice   30x30   816 W    335 MAJ   70.1/ 15.2   
+m4920 g0 t122  R  subscribe-to-caterpillow DefaultMedium    35x35  1193 W    631 MAJ   70.2/ 13.7   
+m4920 g1 t122  R  subscribe-to-caterpillow Piglets2         60x40  2032 L    411 MAJ   11.2/ 70.0   
+m4920 g2 t122  R  subscribe-to-caterpillow yearofthesnake   45x45  1653 W    531 MAJ   69.7/ 25.1   
+m4921 g0 t122  u  lobster-roll             gridworld        31x31   769 L    648 MAJ   13.8/ 70.0   
+m4921 g1 t122  u  lobster-roll             rain             30x30   850 L    375 MAJ    8.8/ 70.0   
+m4921 g2 t122  u  lobster-roll             sayhi            40x50  1734 L    846 MAJ   18.3/ 69.7   
+m4954 g0 t122  R  spaark                   Bread            35x29   914 L    253 ALL   16.9/ 55.2   
+m4954 g1 t122  R  spaark                   UnderTheSea      45x45  1847 L    354 MAJ   15.3/ 70.0   
+m4954 g2 t122  R  spaark                   boxofchocolates  55x55  2435 W    538 MAJ   70.1/  9.7   
+m4955 g0 t122  u  scienceqiu               Crab             40x30  1046 L    527 MAJ    8.8/ 70.1   m4841g0
+m4955 g1 t122  u  scienceqiu               DefaultLarge     50x30  1476 W    327 MAJ   70.7/ 14.2   
+m4955 g2 t122  u  scienceqiu               fix              40x50  1856 L    417 ALL   12.0/ 59.0   
+m4956 g0 t122  R  immutable                CastleDefense    20x20   340 L    177 MAJ    9.4/ 71.8   
+m4956 g1 t122  R  immutable                Piglets2         60x40  2032 W    484 MAJ   70.1/ 21.2   
+m4956 g2 t122  R  immutable                galaxy           45x45  1834 L    675 MAJ   27.0/ 69.9   
+m4957 g0 t122  u  gone-whalin              Justice          21x20   389 L    372 MAJ   18.2/ 71.2   
+m4957 g1 t122  u  gone-whalin              giver            50x50  2344 L    548 MAJ   19.2/ 69.9   
+m4957 g2 t122  u  gone-whalin              maze             60x60  2888 W    645 MAJ   70.1/ 21.8   
+m4981 g0 t122  R  gone-whalin              Parking_lot      45x45  1795 W    673 MAJ   70.0/ 24.5   
+m4981 g1 t122  R  gone-whalin              catface          30x30   868 W    322 MAJ   70.8/  4.6   
+m4981 g2 t122  R  gone-whalin              quack            30x35   932 L    271 ALL    3.6/ 68.9   
+m4992 g0 t122  R  scienceqiu               AlarmClock       35x35  1091 W    260 MAJ   70.4/  8.1   
+m4992 g1 t122  R  scienceqiu               Parking_lot      45x45  1795 W    384 MAJ   70.5/ 15.7   
+m4992 g2 t122  R  scienceqiu               UnderTheSea      45x45  1847 W    351 MAJ   70.1/ 23.0   
+m4993 g0 t122  u  lobster-roll             DefaultSmall     20x20   372 L    305 ALL    5.4/ 68.0   
+m4993 g1 t122  u  lobster-roll             Filter           21x21   419 W    330 MAJ   70.2/  8.3   
+m4993 g2 t122  u  lobster-roll             catface          30x30   868 W    239 MAJ   70.4/ 12.0   
+m5010 g0 t122  R  gone-whalin              DefaultSmall     20x20   372 W    161 MAJ   70.7/ 12.4   
+m5010 g1 t122  R  gone-whalin              Racetrack        25x25   562 L    372 MAJ   22.2/ 68.9   
+m5010 g2 t122  R  gone-whalin              SandyBeach       30x30   822 L    320 MAJ   16.3/ 70.0   
+m5012 g0 t122  R  gone-whalin              BunnyGame        30x50  1286 L    425 MAJ    1.0/ 70.1   
+m5012 g1 t122  R  gone-whalin              Jail             20x30   540 L     78 ALL    9.3/ 16.7   m4726g1
+m5012 g2 t122  R  gone-whalin              box              31x31   829 W    268 MAJ   70.3/ 19.5   
+
+exact repeats (3): m4842g2 = m4682g2, m4955g0 = m4841g0, m5012g1 = m4726g1
+DUP set for lib.py: {(4842, 2), (4955, 0), (5012, 1)}
+
+per match (repeats left out): won-lost
+m4661 t122  R subscribe-to-caterpillow 1-2
+m4662 t122  u immutable                3-0
+m4663 t122  R om-nom                   0-3
+m4664 t122  u spaark                   2-1
+m4682 t122  R gone-whalin              2-1
+m4692 t122  R spaark                   0-3
+m4699 t122  R immutable                0-3
+m4716 t122  R lobster-roll             0-3
+m4725 t122  R lobster-roll             2-1
+m4726 t122  u gone-whalin              0-3
+m4765 t122  R gone-whalin              3-0
+m4766 t122  u scienceqiu               2-1
+m4787 t122  R scienceqiu               0-3
+m4800 t122  R varunvejalla             3-0
+m4805 t122  R spaark                   0-3
+m4806 t122  u immutable                2-1
+m4841 t122  R scienceqiu               2-1
+m4842 t122  u gone-whalin              1-1
+m4878 t122  R immutable                1-2
+m4879 t122  u scienceqiu               1-2
+m4880 t122  R spaark                   2-1
+m4881 t122  u gone-whalin              1-2
+m4916 t122  R spaark                   1-2
+m4917 t122  u scienceqiu               2-1
+m4918 t122  R immutable                1-2
+m4919 t122  u gone-whalin              3-0
+m4920 t122  R subscribe-to-caterpillow 2-1
+m4921 t122  u lobster-roll             0-3
+m4954 t122  R spaark                   1-2
+m4955 t122  u scienceqiu               1-1
+m4956 t122  R immutable                1-2
+m4957 t122  u gone-whalin              1-2
+m4981 t122  R gone-whalin              2-1
+m4992 t122  R scienceqiu               3-0
+m4993 t122  u lobster-roll             2-1
+m5010 t122  R gone-whalin              1-2
+m5012 t122  R gone-whalin              1-1
+top : 43-50 (46%)
+rest: 7-8 (47%)
+all : 50-58 (46%)
+ranked: 29-39
+unranked: 21-19
+listed 32 matches only: 42-51
+
+per opponent (repeats left out): t122 now | study 10 (t111 + t118, from its t119.txt)
+   gone-whalin              15-13
+   immutable                8-10
+   lobster-roll             4-8
+   om-nom                   0-3
+   scienceqiu               11-9
+   spaark                   6-12
+   subscribe-to-caterpillow 3-3
+   varunvejalla             3-0
+
+win types (repeats left out): Counter({('W', 'MAJ'): 47, ('L', 'MAJ'): 46, ('L', 'ALL'): 12, ('W', 'ALL'): 2, ('W', 'ARE'): 1})

@@ -1,0 +1,20 @@
+== lost (58 games): upgrades by side, type, new level: count, games, median first round
+   ('them', 'DEFEN', '2'): 19 in 13 games, first med r263
+   ('them', 'MONEY', '2'): 132 in 27 games, first med r228
+   ('them', 'MONEY', '3'): 46 in 8 games, first med r353.0
+   ('them', 'PAINT', '2'): 118 in 29 games, first med r242
+   ('them', 'PAINT', '3'): 59 in 15 games, first med r258
+   ('us', 'MONEY', '2'): 76 in 25 games, first med r292
+   ('us', 'MONEY', '3'): 35 in 13 games, first med r385
+   ('us', 'PAINT', '2'): 30 in 16 games, first med r212.5
+   ('us', 'PAINT', '3'): 37 in 29 games, first med r246
+== won (50 games): upgrades by side, type, new level: count, games, median first round
+   ('them', 'DEFEN', '2'): 22 in 4 games, first med r306.0
+   ('them', 'DEFEN', '3'): 19 in 1 games, first med r556
+   ('them', 'MONEY', '2'): 76 in 21 games, first med r203
+   ('them', 'MONEY', '3'): 21 in 5 games, first med r311
+   ('them', 'PAINT', '2'): 49 in 15 games, first med r236
+   ('them', 'PAINT', '3'): 30 in 6 games, first med r270.0
+   ('us', 'MONEY', '2'): 12 in 4 games, first med r312.0
+   ('us', 'PAINT', '2'): 90 in 27 games, first med r225
+   ('us', 'PAINT', '3'): 15 in 13 games, first med r253

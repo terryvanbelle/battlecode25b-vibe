@@ -1,0 +1,28 @@
+
+== lost games (58): paint withdrawn from towers by robots (sums)
+   r1-100 paint towers us  :   5482 paint in   114 withdrawals; by half+ robots 13.2% of the paint (70 withdrawals), 10 or less: 66;  by S/X/M 100/0/0%
+   r1-100 paint towers them:   8017 paint in   169 withdrawals; by half+ robots 17.9% of the paint (110 withdrawals), 10 or less: 86;  by S/X/M 90/0/10%
+   r1-100 money towers us  :  50763 paint in   834 withdrawals; by half+ robots 15.2% of the paint (507 withdrawals), 10 or less: 376;  by S/X/M 100/0/0%
+   r1-100 money towers them:  37108 paint in   847 withdrawals; by half+ robots 29.1% of the paint (666 withdrawals), 10 or less: 490;  by S/X/M 98/1/2%
+   r101-200 paint towers us  :  35560 paint in   737 withdrawals; by half+ robots 17.5% of the paint (422 withdrawals), 10 or less: 345;  by S/X/M 68/26/6%
+   r101-200 paint towers them:  23714 paint in   522 withdrawals; by half+ robots 17.3% of the paint (340 withdrawals), 10 or less: 268;  by S/X/M 69/11/19%
+   r101-200 money towers us  :  53722 paint in  1110 withdrawals; by half+ robots 16.2% of the paint (629 withdrawals), 10 or less: 471;  by S/X/M 78/9/13%
+   r101-200 money towers them:  43349 paint in  1197 withdrawals; by half+ robots 24.1% of the paint (892 withdrawals), 10 or less: 710;  by S/X/M 80/6/14%
+   r201-400 paint towers us  : 106789 paint in  2275 withdrawals; by half+ robots 19.8% of the paint (1317 withdrawals), 10 or less: 752;  by S/X/M 37/51/12%
+   r201-400 paint towers them: 137775 paint in  4758 withdrawals; by half+ robots 24.4% of the paint (3732 withdrawals), 10 or less: 3079;  by S/X/M 37/33/30%
+   r201-400 money towers us  :  55319 paint in  1213 withdrawals; by half+ robots 14.9% of the paint (716 withdrawals), 10 or less: 558;  by S/X/M 53/21/25%
+   r201-400 money towers them: 117521 paint in  2637 withdrawals; by half+ robots 19.2% of the paint (1756 withdrawals), 10 or less: 1364;  by S/X/M 68/14/18%
+
+== won games (50): paint withdrawn from towers by robots (sums)
+   r1-100 paint towers us  :   5912 paint in   151 withdrawals; by half+ robots 18.4% of the paint (107 withdrawals), 10 or less: 95;  by S/X/M 100/0/0%
+   r1-100 paint towers them:   5043 paint in   113 withdrawals; by half+ robots 13.8% of the paint (81 withdrawals), 10 or less: 71;  by S/X/M 96/0/4%
+   r1-100 money towers us  :  49104 paint in   743 withdrawals; by half+ robots 13.4% of the paint (417 withdrawals), 10 or less: 307;  by S/X/M 100/0/0%
+   r1-100 money towers them:  23665 paint in   461 withdrawals; by half+ robots 26.1% of the paint (328 withdrawals), 10 or less: 235;  by S/X/M 97/0/3%
+   r101-200 paint towers us  :  45497 paint in   884 withdrawals; by half+ robots 15.8% of the paint (517 withdrawals), 10 or less: 406;  by S/X/M 77/19/4%
+   r101-200 paint towers them:  17398 paint in   347 withdrawals; by half+ robots 14.4% of the paint (206 withdrawals), 10 or less: 155;  by S/X/M 74/4/22%
+   r101-200 money towers us  :  60294 paint in  1014 withdrawals; by half+ robots 14.2% of the paint (485 withdrawals), 10 or less: 344;  by S/X/M 83/6/11%
+   r101-200 money towers them:  32009 paint in   627 withdrawals; by half+ robots 16.0% of the paint (398 withdrawals), 10 or less: 308;  by S/X/M 82/3/15%
+   r201-400 paint towers us  : 201687 paint in  5485 withdrawals; by half+ robots 22.9% of the paint (3807 withdrawals), 10 or less: 2738;  by S/X/M 43/42/16%
+   r201-400 paint towers them:  47575 paint in  1118 withdrawals; by half+ robots 14.0% of the paint (745 withdrawals), 10 or less: 621;  by S/X/M 44/31/25%
+   r201-400 money towers us  : 100725 paint in  2204 withdrawals; by half+ robots 15.6% of the paint (1390 withdrawals), 10 or less: 1107;  by S/X/M 51/30/20%
+   r201-400 money towers them:  55997 paint in   986 withdrawals; by half+ robots 12.1% of the paint (539 withdrawals), 10 or less: 427;  by S/X/M 69/15/16%

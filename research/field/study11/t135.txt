@@ -1,0 +1,64 @@
+
+== lost games (58): soldier siege episodes on enemy towers (sums; medians)
+   r1-100 us   episodes 366, 8.5 hits each, defense-tower targets 1%
+      alone 173 (killed 12% died 56% left 32%); group 193 (killed 66% died 16% left 18%)
+      paint at first hit: killed 158 died 141.0 left 120;  at last hit: killed 101 died 59.5 left 41
+      dry 5 (killed 0% died 80% left 20%) [<= 5 paint after the last hit];  died episodes: shot 121, starved 7;  drained 180 (killed 37% died 31% left 32%) [drained by a mopper]
+      target HP before the first hit: killed 800.0 died 1000 left 1000; at <= 500 HP 17%
+   r1-100 them episodes 263, 8.4 hits each, defense-tower targets 0%
+      alone 105 (killed 17% died 35% left 48%); group 158 (killed 63% died 15% left 23%)
+      paint at first hit: killed 148 died 73.5 left 111.0;  at last hit: killed 91 died 36.5 left 57.0
+      dry 20 (killed 10% died 45% left 45%) [<= 5 paint after the last hit];  died episodes: shot 55, starved 5;  drained 7 (killed 43% died 29% left 29%) [drained by a mopper]
+      target HP before the first hit: killed 800 died 1000.0 left 1000.0; at <= 500 HP 15%
+   r101-200 us   episodes 356, 5.6 hits each, defense-tower targets 12%
+      alone 220 (killed 13% died 44% left 43%); group 136 (killed 43% died 24% left 32%)
+      paint at first hit: killed 135.0 died 114 left 103;  at last hit: killed 89.5 died 56 left 37
+      dry 20 (killed 5% died 70% left 25%) [<= 5 paint after the last hit];  died episodes: shot 120, starved 9;  drained 207 (killed 21% died 33% left 46%) [drained by a mopper]
+      target HP before the first hit: killed 400.0 died 1000.0 left 900.0; at <= 500 HP 25%
+   r101-200 them episodes 321, 7.2 hits each, defense-tower targets 0%
+      alone 170 (killed 22% died 27% left 51%); group 151 (killed 67% died 11% left 22%)
+      paint at first hit: killed 153 died 96 left 101;  at last hit: killed 105 died 35 left 54
+      dry 20 (killed 0% died 65% left 35%) [<= 5 paint after the last hit];  died episodes: shot 54, starved 9;  drained 88 (killed 28% died 19% left 52%) [drained by a mopper]
+      target HP before the first hit: killed 525.0 died 1000 left 1000.0; at <= 500 HP 27%
+   r201-400 us   episodes 537, 5.7 hits each, defense-tower targets 20%
+      alone 305 (killed 15% died 47% left 38%); group 232 (killed 42% died 29% left 29%)
+      paint at first hit: killed 132.5 died 117 left 102.0;  at last hit: killed 78.5 died 65 left 32.0
+      dry 27 (killed 7% died 48% left 44%) [<= 5 paint after the last hit];  died episodes: shot 190, starved 21;  drained 388 (killed 26% died 34% left 40%) [drained by a mopper]
+      target HP before the first hit: killed 500 died 1000 left 1000.0; at <= 500 HP 23%
+   r201-400 them episodes 698, 6.2 hits each, defense-tower targets 0%
+      alone 298 (killed 32% died 26% left 42%); group 400 (killed 58% died 13% left 29%)
+      paint at first hit: killed 131.5 died 88 left 100;  at last hit: killed 85.5 died 29 left 56
+      dry 67 (killed 13% died 51% left 36%) [<= 5 paint after the last hit];  died episodes: shot 103, starved 28;  drained 208 (killed 36% died 25% left 40%) [drained by a mopper]
+      target HP before the first hit: killed 450 died 950.0 left 1000.0; at <= 500 HP 32%
+
+== won games (50): soldier siege episodes on enemy towers (sums; medians)
+   r1-100 us   episodes 254, 9.4 hits each, defense-tower targets 0%
+      alone 115 (killed 15% died 57% left 29%); group 139 (killed 71% died 20% left 9%)
+      paint at first hit: killed 166.0 died 151 left 118;  at last hit: killed 100.5 died 53 left 33
+      dry 6 (killed 0% died 100% left 0%) [<= 5 paint after the last hit];  died episodes: shot 89, starved 4;  drained 136 (killed 40% died 37% left 23%) [drained by a mopper]
+      target HP before the first hit: killed 700.0 died 1000.0 left 1000; at <= 500 HP 15%
+   r1-100 them episodes 262, 8.5 hits each, defense-tower targets 0%
+      alone 112 (killed 10% died 36% left 54%); group 150 (killed 63% died 19% left 18%)
+      paint at first hit: killed 144 died 89 left 107.0;  at last hit: killed 90 died 36 left 52.5
+      dry 12 (killed 0% died 75% left 25%) [<= 5 paint after the last hit];  died episodes: shot 66, starved 3;  drained 10 (killed 10% died 20% left 70%) [drained by a mopper]
+      target HP before the first hit: killed 850.0 died 1000 left 1000; at <= 500 HP 13%
+   r101-200 us   episodes 285, 6.8 hits each, defense-tower targets 3%
+      alone 140 (killed 24% died 31% left 44%); group 145 (killed 49% died 17% left 34%)
+      paint at first hit: killed 131 died 106.5 left 94.5;  at last hit: killed 70 died 46.0 left 25.0
+      dry 19 (killed 0% died 42% left 58%) [<= 5 paint after the last hit];  died episodes: shot 59, starved 9;  drained 173 (killed 28% died 20% left 53%) [drained by a mopper]
+      target HP before the first hit: killed 550 died 1000.0 left 1000.0; at <= 500 HP 25%
+   r101-200 them episodes 353, 7.2 hits each, defense-tower targets 0%
+      alone 169 (killed 22% died 30% left 47%); group 184 (killed 62% died 15% left 23%)
+      paint at first hit: killed 147 died 77.5 left 97.5;  at last hit: killed 87 died 16.5 left 50.5
+      dry 32 (killed 9% died 69% left 22%) [<= 5 paint after the last hit];  died episodes: shot 67, starved 11;  drained 116 (killed 36% died 23% left 41%) [drained by a mopper]
+      target HP before the first hit: killed 550 died 1000.0 left 1000; at <= 500 HP 26%
+   r201-400 us   episodes 640, 6.0 hits each, defense-tower targets 14%
+      alone 342 (killed 23% died 39% left 39%); group 298 (killed 62% died 22% left 16%)
+      paint at first hit: killed 130 died 123 left 102.0;  at last hit: killed 90 died 71 left 31.5
+      dry 17 (killed 12% died 65% left 24%) [<= 5 paint after the last hit];  died episodes: shot 183, starved 14;  drained 379 (killed 39% died 28% left 33%) [drained by a mopper]
+      target HP before the first hit: killed 475.0 died 1275.0 left 1000.0; at <= 500 HP 27%
+   r201-400 them episodes 681, 5.4 hits each, defense-tower targets 0%
+      alone 264 (killed 21% died 30% left 49%); group 417 (killed 54% died 21% left 25%)
+      paint at first hit: killed 112.0 died 67 left 86.5;  at last hit: killed 66.5 died 11 left 45.5
+      dry 105 (killed 24% died 56% left 20%) [<= 5 paint after the last hit];  died episodes: shot 126, starved 41;  drained 364 (killed 34% died 27% left 39%) [drained by a mopper]
+      target HP before the first hit: killed 450.0 died 1000 left 900.0; at <= 500 HP 31%

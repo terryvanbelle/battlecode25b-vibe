@@ -1,0 +1,92 @@
+
+== lost games (58): medians per game (sums), us | them
+   r1-100  (58 games)
+      wd P           6.5 (   5482) |    52.5 (   8017)
+      wd M         974.5 (  50763) |   647.0 (  36512)
+      wd by SOL   1051.0 (  56227) |   746.5 (  43485)
+      wd by SPL      0.0 (      0) |     0.0 (    231)
+      wd by MOP      0.0 (     18) |     0.0 (   1409)
+      give T         0.0 (      0) |     0.0 (      0)
+      give R         0.0 (      0) |     0.0 (    422)
+      spawn P     1000.0 (  63000) |  1100.0 (  62100)
+      spawn M     1100.0 (  63800) |  1000.0 (  61200)
+      M spawns       6.0 (    349) |     6.0 (    360)
+      P spawns       5.0 (    310) |     6.0 (    357)
+      us   paint-tower turns 5445: at 900+ paint 0.0%, below 200 67.5%
+      them paint-tower turns 5878: at 900+ paint 0.0%, below 200 50.6%
+   r101-200  (57 games)
+      wd P         520.0 (  35560) |   254.0 (  23714)
+      wd M         972.0 (  53722) |   610.0 (  38164)
+      wd by SOL   1038.0 (  66242) |   868.0 (  51004)
+      wd by SPL    161.0 (  13814) |       0 (   5394)
+      wd by MOP    129.0 (   9226) |   113.0 (  10665)
+      give T           0 (      0) |       0 (      0)
+      give R        55.0 (   3991) |       0 (   6111)
+      spawn P      700.0 (  48600) |  1400.0 (  96300)
+      spawn M     1200.0 (  68300) |   800.0 (  52500)
+      M spawns       8.0 (    443) |     5.0 (    321)
+      P spawns       3.0 (    201) |     8.0 (    517)
+      us   paint-tower turns 7225: at 900+ paint 3.5%, below 200 57.4%
+      them paint-tower turns 8652: at 900+ paint 4.0%, below 200 48.6%
+   r201-400  (54 games)
+      wd P         870.5 ( 106789) |  1824.5 ( 137775)
+      wd M         665.0 (  55319) |  1202.5 ( 107186)
+      wd by SOL    557.5 (  68574) |  1729.5 ( 130362)
+      wd by SPL    630.5 (  66441) |   560.5 (  62423)
+      wd by MOP    275.0 (  27093) |   940.5 (  62511)
+      give T         0.0 (      0) |     0.0 (      0)
+      give R        57.5 (   8884) |   100.0 (  38543)
+      spawn P     2050.0 ( 196100) |  5150.0 ( 592800)
+      spawn M      550.0 (  51300) |   800.0 (  79200)
+      M spawns       3.5 (    334) |     4.0 (    442)
+      P spawns       8.5 (    850) |    24.0 (   2912)
+      us   paint-tower turns 17012: at 900+ paint 5.7%, below 200 65.8%
+      them paint-tower turns 28622: at 900+ paint 6.2%, below 200 55.6%
+   us: 380 money towers built after r0 that lived 60+ rounds; in their first 60 rounds, paint spent on spawns med 300.0 (sum 89600), withdrawn by robots med 200.0 (sum 78902); towers that spawned nothing 63
+   them: 559 money towers built after r0 that lived 60+ rounds; in their first 60 rounds, paint spent on spawns med 200 (sum 111500), withdrawn by robots med 173 (sum 107736); towers that spawned nothing 128
+
+== won games (50): medians per game (sums), us | them
+   r1-100  (50 games)
+      wd P          95.5 (   5912) |    28.5 (   5043)
+      wd M         938.0 (  49104) |   461.0 (  23291)
+      wd by SOL   1111.0 (  54995) |   557.0 (  27706)
+      wd by SPL      0.0 (      0) |     0.0 (      3)
+      wd by MOP      0.0 (     21) |     0.0 (    999)
+      give T         0.0 (      0) |     0.0 (      0)
+      give R         0.0 (     56) |     0.0 (   1225)
+      spawn P     1000.0 (  53300) |  1150.0 (  57500)
+      spawn M     1100.0 (  57700) |   900.0 (  49400)
+      M spawns       6.0 (    318) |     6.0 (    294)
+      P spawns       5.0 (    264) |     7.0 (    324)
+      us   paint-tower turns 4902: at 900+ paint 0.0%, below 200 66.3%
+      them paint-tower turns 4957: at 900+ paint 0.0%, below 200 54.2%
+   r101-200  (50 games)
+      wd P         758.0 (  45497) |   205.0 (  17398)
+      wd M        1190.5 (  60294) |   459.0 (  30421)
+      wd by SOL   1697.0 (  85109) |   680.5 (  39257)
+      wd by SPL    207.0 (  12316) |     0.0 (   1536)
+      wd by MOP    136.0 (   8366) |   113.5 (   8614)
+      give T         0.0 (      0) |     0.0 (      0)
+      give R        33.5 (   3428) |     0.0 (   3477)
+      spawn P     1000.0 (  64200) |   950.0 (  58600)
+      spawn M     1500.0 (  69800) |   700.0 (  40600)
+      M spawns      10.0 (    448) |     4.0 (    271)
+      P spawns       4.0 (    266) |     6.0 (    347)
+      us   paint-tower turns 8416: at 900+ paint 0.1%, below 200 59.8%
+      them paint-tower turns 6350: at 900+ paint 4.9%, below 200 54.9%
+   r201-400  (49 games)
+      wd P        3358.0 ( 201687) |   327.0 (  47575)
+      wd M        1767.0 ( 100725) |   359.0 (  54104)
+      wd by SOL   2454.0 ( 136669) |   632.0 (  59625)
+      wd by SPL   1472.0 ( 113998) |       0 (  23470)
+      wd by MOP    742.0 (  51745) |   253.0 (  20477)
+      give T           0 (      0) |       0 (      0)
+      give R       321.0 (  22851) |       0 (  15460)
+      spawn P     5500.0 ( 442300) |  1300.0 ( 199200)
+      spawn M     1400.0 (  83500) |   400.0 (  54000)
+      M spawns       9.0 (    535) |     2.0 (    303)
+      P spawns      24.0 (   1918) |    10.0 (   1167)
+      us   paint-tower turns 29147: at 900+ paint 3.5%, below 200 61.3%
+      them paint-tower turns 12772: at 900+ paint 3.6%, below 200 60.3%
+   us: 481 money towers built after r0 that lived 60+ rounds; in their first 60 rounds, paint spent on spawns med 300 (sum 114500), withdrawn by robots med 200 (sum 107839); towers that spawned nothing 74
+   them: 303 money towers built after r0 that lived 60+ rounds; in their first 60 rounds, paint spent on spawns med 200 (sum 61200), withdrawn by robots med 152 (sum 53013); towers that spawned nothing 69

@@ -1,0 +1,113 @@
+== lost: 58 games
+   ruins per map: med 19.0; in our half 9.5, theirs 9.5
+   round  n | towers us/them | free ruins (in our half / their half) | our towers in their half, theirs in ours
+   r50   58 | 4.0/4.0 | 11.5 (6.0 / 5.0) | 0.0, 0.0
+   r100  57 | 6/5 | 11 (4 / 4) | 0, 0
+   r150  55 | 6/7 | 9 (4 / 4) | 0, 0
+   r200  54 | 6.5/7.5 | 6.5 (3.0 / 3.0) | 0.0, 1.0
+   r300  50 | 5.0/10.0 | 5.5 (3.0 / 2.0) | 0.0, 2.0
+   new-ruin build #1: us med r17 (reached in 53), them r20 (in 57)
+   new-ruin build #2: us med r36 (reached in 49), them r35.5 (in 56)
+   new-ruin build #3: us med r52 (reached in 45), them r53 (in 55)
+   new-ruin build #4: us med r64.0 (reached in 42), them r76.5 (in 54)
+   new-ruin build #5: us med r79.0 (reached in 34), them r120 (in 53)
+   new-ruin build #6: us med r101.0 (reached in 28), them r160 (in 53)
+   new-ruin build #7: us med r112 (reached in 19), them r181 (in 51)
+   new-ruin build #8: us med r138.5 (reached in 14), them r238 (in 49)
+   paint towers >= 2: us in 22 games, med r126.5; them in 44, med r132.5
+   paint towers >= 3: us in 14 games, med r167.0; them in 41, med r222
+   per game: map, end, r150 towers us/them, free ruins r150 (ours/theirs), our 2nd paint tower round, theirs
+      m4661g1 giver           342  8/9  free 13 (9/4)  2nd PT us r82 them r174
+      m4661g2 sierpinski      478  6/7  free 7 (5/2)  2nd PT us rNone them r107
+      m4663g0 Oasis           445  7/7  free 14 (7/7)  2nd PT us r151 them r192
+      m4663g1 Thirds          387  4/7  free 15 (10/5)  2nd PT us rNone them r254
+      m4663g2 memstore        410  6/8  free 16 (7/8)  2nd PT us rNone them r103
+      m4664g2 Terminal        422  7/7  free 2 (1/1)  2nd PT us r95 them r148
+      m4682g1 maze            764  8/9  free 15 (8/7)  2nd PT us rNone them rNone
+      m4692g0 DefaultHuge     506  16/17  free 20 (7/9)  2nd PT us r107 them r65
+      m4692g1 Money           362  6/8  free 10 (4/6)  2nd PT us rNone them r142
+      m4692g2 lighthouse      783  4/3  free 8 (2/3)  2nd PT us r249 them r370
+      m4699g0 BatSignal       341  5/6  free 3 (2/1)  2nd PT us rNone them r98
+      m4699g1 Portal          311  8/8  free 10 (5/5)  2nd PT us r99 them r120
+      m4699g2 gridworld       436  10/10  free 5 (0/1)  2nd PT us r272 them r70
+      m4716g0 Barcode         409  3/3  free 16 (8/8)  2nd PT us rNone them r347
+      m4716g1 Money           400  7/8  free 9 (5/4)  2nd PT us rNone them r256
+      m4716g2 quack           726  5/6  free 5 (3/2)  2nd PT us r155 them r225
+      m4725g0 BatSignal       543  6/5  free 3 (1/2)  2nd PT us rNone them r80
+      m4726g0 Flower          499  4/6  free 6 (3/3)  2nd PT us rNone them rNone
+      m4726g1 Jail             78  0/1  free 11 (6/5)  2nd PT us rNone them rNone
+      m4726g2 memstore        421  3/7  free 20 (9/10)  2nd PT us r192 them rNone
+      m4766g1 Portal          332  2/6  free 18 (11/7)  2nd PT us rNone them r75
+      m4787g0 BunnyGame       233  2/7  free 7 (5/2)  2nd PT us rNone them r110
+      m4787g1 DonkeyKong      465  13/15  free 22 (12/10)  2nd PT us r117 them r93
+      m4787g2 Snowman         305  1/2  free 7 (4/3)  2nd PT us rNone them r153
+      m4805g0 DefaultHuge     458  13/13  free 27 (10/12)  2nd PT us r92 them r136
+      m4805g1 Thirds          440  3/7  free 16 (9/7)  2nd PT us rNone them r292
+      m4805g2 UnderTheSea     641  7/10  free 10 (6/0)  2nd PT us r131 them r131
+      m4806g1 lighthouse      465  1/4  free 10 (3/5)  2nd PT us rNone them r235
+      m4841g0 Crab            527  6/7  free 5 (3/2)  2nd PT us rNone them r78
+      m4842g0 Castle          365  6/5  free 3 (1/1)  2nd PT us rNone them rNone
+      m4878g0 PlumberGame     377  11/7  free 4 (0/4)  2nd PT us r130 them r86
+      m4878g1 Terminal        389  8/7  free 1 (0/1)  2nd PT us rNone them r145
+      m4879g0 BatSignal       666  7/5  free 2 (1/1)  2nd PT us rNone them r107
+      m4879g1 Brat            550  2/3  free 10 (3/2)  2nd PT us rNone them r175
+      m4880g2 maze           1236  5/10  free 17 (10/7)  2nd PT us r65 them r209
+      m4881g1 Jail            120  0/1  free 11 (6/5)  2nd PT us rNone them rNone
+      m4881g2 quack           499  5/5  free 6 (3/3)  2nd PT us r167 them rNone
+      m4916g1 Fossil          577  7/6  free 5 (2/3)  2nd PT us rNone them r292
+      m4916g2 gridworld       320  6/8  free 11 (4/3)  2nd PT us rNone them r104
+      m4917g0 Filter          129  0/4  free 5 (4/0)  2nd PT us rNone them r64
+      m4918g0 Crab            293  8/6  free 4 (1/3)  2nd PT us r93 them r178
+      m4918g1 leavemealone    373  7/8  free 3 (2/1)  2nd PT us rNone them r65
+      m4920g1 Piglets2        411  8/8  free 8 (4/4)  2nd PT us r120 them r121
+      m4921g0 gridworld       648  10/9  free 6 (0/1)  2nd PT us r123 them r72
+      m4921g1 rain            375  6/4  free 6 (1/5)  2nd PT us rNone them r144
+      m4921g2 sayhi           846  8/7  free 11 (4/7)  2nd PT us r154 them r134
+      m4954g0 Bread           253  2/6  free 8 (5/2)  2nd PT us rNone them r173
+      m4954g1 UnderTheSea     354  9/9  free 9 (3/4)  2nd PT us r104 them r109
+      m4955g2 fix             417  5/5  free 18 (9/9)  2nd PT us rNone them r120
+      m4956g0 CastleDefense   177  2/5  free 3 (2/1)  2nd PT us rNone them rNone
+      m4956g2 galaxy          675  9/7  free 12 (7/5)  2nd PT us r146 them r53
+      m4957g0 Justice         372  6/5  free 1 (0/1)  2nd PT us rNone them rNone
+      m4957g1 giver           548  6/9  free 15 (11/4)  2nd PT us r280 them rNone
+      m4981g2 quack           271  1/6  free 9 (6/3)  2nd PT us rNone them rNone
+      m4993g0 DefaultSmall    305  2/3  free 7 (3/4)  2nd PT us rNone them r221
+      m5010g1 Racetrack       372  6/6  free 2 (1/1)  2nd PT us rNone them rNone
+      m5010g2 SandyBeach      320  2/2  free 16 (9/7)  2nd PT us rNone them rNone
+      m5012g0 BunnyGame       425  2/3  free 11 (6/5)  2nd PT us rNone them rNone
+== won: 50 games
+   ruins per map: med 22.0; in our half 10.0, theirs 10.0
+   round  n | towers us/them | free ruins (in our half / their half) | our towers in their half, theirs in ours
+   r50   50 | 4.0/4.0 | 14.0 (7.0 / 6.0) | 0.0, 0.0
+   r100  50 | 5.5/4.0 | 10.0 (4.0 / 5.0) | 0.0, 0.0
+   r150  50 | 7.0/5.0 | 8.0 (3.0 / 4.0) | 0.5, 0.0
+   r200  49 | 8/6 | 8 (3 / 4) | 1, 0
+   r300  39 | 11/6 | 6 (2 / 4) | 2, 0
+   new-ruin build #1: us med r17.0 (reached in 50), them r20 (in 49)
+   new-ruin build #2: us med r36.0 (reached in 50), them r37.5 (in 48)
+   new-ruin build #3: us med r55 (reached in 49), them r62 (in 41)
+   new-ruin build #4: us med r75 (reached in 47), them r96 (in 33)
+   new-ruin build #5: us med r96.0 (reached in 46), them r125.0 (in 28)
+   new-ruin build #6: us med r126.0 (reached in 40), them r157 (in 23)
+   new-ruin build #7: us med r161 (reached in 39), them r206.0 (in 20)
+   new-ruin build #8: us med r189.0 (reached in 38), them r237.5 (in 16)
+   paint towers >= 2: us in 44 games, med r152.5; them in 20, med r138.5
+   paint towers >= 3: us in 40 games, med r209.5; them in 14, med r151.0
+== study 9's lost games (3211-3951): 75 games
+   ruins per map: med 20; in our half 10, theirs 10
+   round  n | towers us/them | free ruins (in our half / their half) | our towers in their half, theirs in ours
+   r50   75 | 4/4 | 12 (6 / 6) | 0, 0
+   r100  74 | 5.0/5.0 | 9.5 (4.0 / 4.0) | 0.0, 0.0
+   r150  72 | 6.0/6.0 | 8.0 (4.0 / 3.0) | 0.0, 0.0
+   r200  70 | 6.0/7.5 | 7.0 (3.0 / 3.0) | 0.0, 0.0
+   r300  59 | 6/10 | 6 (4 / 2) | 0, 1
+   new-ruin build #1: us med r16.0 (reached in 70), them r19 (in 75)
+   new-ruin build #2: us med r36.5 (reached in 66), them r33.0 (in 74)
+   new-ruin build #3: us med r52 (reached in 61), them r53 (in 73)
+   new-ruin build #4: us med r66.0 (reached in 58), them r80.5 (in 70)
+   new-ruin build #5: us med r95.5 (reached in 50), them r123.0 (in 68)
+   new-ruin build #6: us med r125.0 (reached in 38), them r162.5 (in 66)
+   new-ruin build #7: us med r137.0 (reached in 30), them r187 (in 61)
+   new-ruin build #8: us med r178 (reached in 25), them r218.0 (in 54)
+   paint towers >= 2: us in 36 games, med r171.0; them in 53, med r128
+   paint towers >= 3: us in 20 games, med r227.5; them in 46, med r199.5

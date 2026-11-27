@@ -1,0 +1,146 @@
+match g ver   opponent        map              WxH    paintable res end  type  towers@r100 us/them
+4661 0 t122  subscribe-to-caterpillow Filter           21x21    419     W   232 MAJ   3/3
+4661 1 t122  subscribe-to-caterpillow giver            50x50   2344     L   342 MAJ   4/5
+4661 2 t122  subscribe-to-caterpillow sierpinski       39x50   1620     L   478 MAJ   5/4
+4662 0 t122  immutable       Paintball        20x20    354     W   407 MAJ   2/1
+4662 1 t122  immutable       Rose             40x40   1512     W   366 MAJ   4/3
+4662 2 t122  immutable       walalilongla     45x45   1811     W   412 MAJ   8/6
+4663 0 t122  om-nom          Oasis            59x59   3339     L   445 MAJ   7/5
+4663 1 t122  om-nom          Thirds           55x40   1932     L   387 ALL   4/5
+4663 2 t122  om-nom          memstore         59x39   2081     L   410 MAJ   6/5
+4664 0 t122  spaark          Mirage           40x40   1480     W   336 MAJ   7/6
+4664 1 t122  spaark          Parking_lot      45x45   1795     W   394 MAJ   4/3
+4664 2 t122  spaark          Terminal         40x30   1022     L   422 ALL   7/5
+4682 0 t122  gone-whalin     Bread            35x29    914     W   392 MAJ   5/3
+4682 1 t122  gone-whalin     maze             60x60   2888     L   764 MAJ   8/6
+4682 2 t122  gone-whalin     walalilongla     45x45   1811     W   574 MAJ   10/9
+4692 0 t122  spaark          DefaultHuge      59x59   3421     L   506 MAJ   11/11
+4692 1 t122  spaark          Money            35x35   1141     L   362 MAJ   6/6
+4692 2 t122  spaark          lighthouse       31x31    853     L   783 MAJ   3/2
+4699 0 t122  immutable       BatSignal        40x25    890     L   341 MAJ   7/5
+4699 1 t122  immutable       Portal           35x35   1129     L   311 MAJ   7/6
+4699 2 t122  immutable       gridworld        31x31    769     L   436 MAJ   10/9
+4716 0 t122  lobster-roll    Barcode          50x21    966     L   409 MAJ   3/2
+4716 1 t122  lobster-roll    Money            35x35   1141     L   400 MAJ   6/4
+4716 2 t122  lobster-roll    quack            30x35    932     L   726 MAJ   6/5
+4725 0 t122  lobster-roll    BatSignal        40x25    890     L   543 MAJ   6/4
+4725 1 t122  lobster-roll    Bread            35x29    914     W   413 MAJ   5/3
+4725 2 t122  lobster-roll    windmill         30x30    780     W   239 MAJ   7/2
+4726 0 t122  gone-whalin     Flower           45x41   1623     L   499 MAJ   4/5
+4726 1 t122  gone-whalin     Jail             20x30    540     L    78 ALL   0/1
+4726 2 t122  gone-whalin     memstore         59x39   2081     L   421 MAJ   4/4
+4765 0 t122  gone-whalin     AlarmClock       35x35   1091     W   296 MAJ   6/3
+4765 1 t122  gone-whalin     SaltyPepper      40x40   1484     W   440 MAJ   8/6
+4765 2 t122  gone-whalin     shell            40x40   1418     W   599 MAJ   6/5
+4766 0 t122  scienceqiu      Leaf             60x60   3440     W  2000 ARE   10/8
+4766 1 t122  scienceqiu      Portal           35x35   1129     L   332 MAJ   2/5
+4766 2 t122  scienceqiu      UglySweater      50x50   2340     W   330 MAJ   6/6
+4787 0 t122  scienceqiu      BunnyGame        30x50   1286     L   233 ALL   2/5
+4787 1 t122  scienceqiu      DonkeyKong       60x60   3232     L   465 MAJ   9/9
+4787 2 t122  scienceqiu      Snowman          25x25    553     L   305 MAJ   2/3
+4800 0 t122  varunvejalla    Circuit          60x21   1096     W   271 MAJ   5/3
+4800 1 t122  varunvejalla    DonkeyKong       60x60   3232     W   372 MAJ   6/5
+4800 2 t122  varunvejalla    SMILE            60x60   3482     W   319 MAJ   7/3
+4805 0 t122  spaark          DefaultHuge      59x59   3421     L   458 MAJ   11/9
+4805 1 t122  spaark          Thirds           55x40   1932     L   440 ALL   4/7
+4805 2 t122  spaark          UnderTheSea      45x45   1847     L   641 MAJ   8/8
+4806 0 t122  immutable       UnderTheSea      45x45   1847     W   254 MAJ   10/6
+4806 1 t122  immutable       lighthouse       31x31    853     L   465 MAJ   1/3
+4806 2 t122  immutable       starburst        30x30    844     W   470 MAJ   7/4
+4841 0 t122  scienceqiu      Crab             40x30   1046     L   527 MAJ   6/6
+4841 1 t122  scienceqiu      quack            30x35    932     W   337 MAJ   4/3
+4841 2 t122  scienceqiu      sayhi            40x50   1734     W   377 MAJ   5/5
+4842 0 t122  gone-whalin     Castle           27x27    636     L   365 MAJ   6/4
+4842 1 t122  gone-whalin     sunrise          45x55   2208     W   400 MAJ   5/5
+4878 0 t122  immutable       PlumberGame      60x30   1688     L   377 MAJ   9/7
+4878 1 t122  immutable       Terminal         40x30   1022     L   389 MAJ   7/4
+4878 2 t122  immutable       headphones       60x60   3186     W   415 MAJ   5/6
+4879 0 t122  scienceqiu      BatSignal        40x25    890     L   666 MAJ   5/3
+4879 1 t122  scienceqiu      Brat             29x29    715     L   550 ALL   2/2
+4879 2 t122  scienceqiu      Rose             40x40   1512     W   323 MAJ   4/2
+4880 0 t122  spaark          Dominoes         44x30   1228     W   269 ALL   5/1
+4880 1 t122  spaark          Flower           45x41   1623     W   332 ALL   5/3
+4880 2 t122  spaark          maze             60x60   2888     L  1236 MAJ   5/7
+4881 0 t122  gone-whalin     Circuit          60x21   1096     W   356 MAJ   5/4
+4881 1 t122  gone-whalin     Jail             20x30    540     L   120 ALL   0/1
+4881 2 t122  gone-whalin     quack            30x35    932     L   499 MAJ   6/4
+4916 0 t122  spaark          DonkeyKong       60x60   3232     W   460 MAJ   9/7
+4916 1 t122  spaark          Fossil           30x30    868     L   577 MAJ   7/5
+4916 2 t122  spaark          gridworld        31x31    769     L   320 MAJ   9/9
+4917 0 t122  scienceqiu      Filter           21x21    419     L   129 ALL   1/3
+4917 1 t122  scienceqiu      Money            35x35   1141     W   323 MAJ   8/5
+4917 2 t122  scienceqiu      roads            30x30    770     W   484 MAJ   5/4
+4918 0 t122  immutable       Crab             40x30   1046     L   293 MAJ   9/6
+4918 1 t122  immutable       leavemealone     50x30   1364     L   373 MAJ   8/8
+4918 2 t122  immutable       shell            40x40   1418     W   364 MAJ   9/5
+4919 0 t122  gone-whalin     DefaultMedium    35x35   1193     W   287 MAJ   9/7
+4919 1 t122  gone-whalin     PlumberGame      60x30   1688     W   356 MAJ   8/8
+4919 2 t122  gone-whalin     TargetPractice   30x30    816     W   335 MAJ   5/3
+4920 0 t122  subscribe-to-caterpillow DefaultMedium    35x35   1193     W   631 MAJ   7/7
+4920 1 t122  subscribe-to-caterpillow Piglets2         60x40   2032     L   411 MAJ   7/6
+4920 2 t122  subscribe-to-caterpillow yearofthesnake   45x45   1653     W   531 MAJ   5/7
+4921 0 t122  lobster-roll    gridworld        31x31    769     L   648 MAJ   9/8
+4921 1 t122  lobster-roll    rain             30x30    850     L   375 MAJ   6/4
+4921 2 t122  lobster-roll    sayhi            40x50   1734     L   846 MAJ   8/5
+4954 0 t122  spaark          Bread            35x29    914     L   253 ALL   3/4
+4954 1 t122  spaark          UnderTheSea      45x45   1847     L   354 MAJ   8/8
+4954 2 t122  spaark          boxofchocolates  55x55   2435     W   538 MAJ   4/3
+4955 1 t122  scienceqiu      DefaultLarge     50x30   1476     W   327 MAJ   4/2
+4955 2 t122  scienceqiu      fix              40x50   1856     L   417 ALL   7/5
+4956 0 t122  immutable       CastleDefense    20x20    340     L   177 MAJ   2/2
+4956 1 t122  immutable       Piglets2         60x40   2032     W   484 MAJ   7/6
+4956 2 t122  immutable       galaxy           45x45   1834     L   675 MAJ   8/5
+4957 0 t122  gone-whalin     Justice          21x20    389     L   372 MAJ   5/4
+4957 1 t122  gone-whalin     giver            50x50   2344     L   548 MAJ   4/5
+4957 2 t122  gone-whalin     maze             60x60   2888     W   645 MAJ   5/5
+4981 0 t122  gone-whalin     Parking_lot      45x45   1795     W   673 MAJ   4/2
+4981 1 t122  gone-whalin     catface          30x30    868     W   322 MAJ   3/2
+4981 2 t122  gone-whalin     quack            30x35    932     L   271 ALL   1/4
+4992 0 t122  scienceqiu      AlarmClock       35x35   1091     W   260 MAJ   6/3
+4992 1 t122  scienceqiu      Parking_lot      45x45   1795     W   384 MAJ   7/4
+4992 2 t122  scienceqiu      UnderTheSea      45x45   1847     W   351 MAJ   8/7
+4993 0 t122  lobster-roll    DefaultSmall     20x20    372     L   305 ALL   2/2
+4993 1 t122  lobster-roll    Filter           21x21    419     W   330 MAJ   4/2
+4993 2 t122  lobster-roll    catface          30x30    868     W   239 MAJ   6/2
+5010 0 t122  gone-whalin     DefaultSmall     20x20    372     W   161 MAJ   5/2
+5010 1 t122  gone-whalin     Racetrack        25x25    562     L   372 MAJ   6/5
+5010 2 t122  gone-whalin     SandyBeach       30x30    822     L   320 MAJ   2/3
+5012 0 t122  gone-whalin     BunnyGame        30x50   1286     L   425 MAJ   2/2
+5012 2 t122  gone-whalin     box              31x31    829     W   268 MAJ   6/4
+
+by opponent: (won, lost, loss%)
+   gone-whalin             15  13  46%
+   immutable                8  10  56%
+   lobster-roll             4   8  67%
+   om-nom                   0   3  100%
+   scienceqiu              11   9  45%
+   spaark                   6  12  67%
+   subscribe-to-caterpillow   3   3  50%
+   varunvejalla             3   0  0%
+
+by our version: (won, lost, loss%)
+   t122                    50  58  54%
+
+by paintable area: (won, lost, loss%)
+   1: <=500                 4   4  50%
+   2: 501-900               7  17  71%
+   3: 901-1600             18  16  47%
+   4: 1601-2500            15  15  50%
+   5: >2500                 6   6  50%
+
+by min side: (won, lost, loss%)
+   26-35                   18  26  59%
+   <=25                     6  12  67%
+   >35                     26  20  43%
+
+towers at r100 (us - them) vs result:
+   diff -3: won  0 lost  4
+   diff -2: won  1 lost  3
+   diff -1: won  1 lost  9
+   diff +0: won  7 lost 13
+   diff +1: won 14 lost 11
+   diff +2: won 15 lost 14
+   diff +3: won 12 lost  4
+
+win types of losses: {'ARE': 0, 'ALL': 12, 'MAJ': 46}
+median end of losses on maps <= 900 paintable: 372  > 900: 421

@@ -1,0 +1,89 @@
+
+== LOST games, us: killed PAINT_TOWERs: 104 killed towers
+   pattern at death: all 24 tiles 11 (11%), 20+ and no enemy tile 27 (26%), median own-pattern tiles 15.0, enemy tiles 1.0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 3 (3%)
+      next tower on the ruin, all (104): never rebuilt 51, same side PAINT 6-50r 19, OTHER side MONEY >50r 12, same side PAINT <=5r 8, OTHER side PAINT >50r 7, same side PAINT >50r 3, same side MONEY 6-50r 1, OTHER side PAINT 6-50r 1, OTHER side DEFEN >50r 1, OTHER side MONEY 6-50r 1
+      next tower on the ruin, pattern intact (11): same side PAINT <=5r 4, never rebuilt 2, OTHER side MONEY >50r 2, same side PAINT 6-50r 2, OTHER side PAINT >50r 1
+      next tower on the ruin, intact + chips + helper adjacent (3): same side PAINT <=5r 2, never rebuilt 1
+
+== LOST games, us: killed MONEY_TOWERs: 357 killed towers
+   pattern at death: all 24 tiles 100 (28%), 20+ and no enemy tile 144 (40%), median own-pattern tiles 18, enemy tiles 0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 28 (8%)
+      next tower on the ruin, all (357): never rebuilt 103, same side MONEY 6-50r 69, same side MONEY <=5r 53, OTHER side PAINT >50r 41, OTHER side MONEY >50r 39, OTHER side MONEY 6-50r 17, OTHER side PAINT 6-50r 16, same side MONEY >50r 12, OTHER side DEFEN >50r 5, same side PAINT >50r 1, same side PAINT 6-50r 1
+      next tower on the ruin, pattern intact (100): same side MONEY <=5r 43, same side MONEY 6-50r 42, same side MONEY >50r 6, OTHER side PAINT >50r 4, OTHER side MONEY >50r 3, never rebuilt 2
+      next tower on the ruin, intact + chips + helper adjacent (28): same side MONEY <=5r 26, same side MONEY 6-50r 2
+
+== LOST games, us: killed LAST paint towers: 25 killed towers
+   pattern at death: all 24 tiles 0 (0%), 20+ and no enemy tile 0 (0%), median own-pattern tiles 8, enemy tiles 4
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 0 (0%)
+      next tower on the ruin, all (25): never rebuilt 15, OTHER side MONEY >50r 4, same side PAINT >50r 3, OTHER side PAINT >50r 2, same side PAINT 6-50r 1
+      next tower on the ruin, pattern intact (0): 
+      next tower on the ruin, intact + chips + helper adjacent (0): 
+
+== LOST games, them: killed PAINT_TOWERs: 78 killed towers
+   pattern at death: all 24 tiles 18 (23%), 20+ and no enemy tile 35 (45%), median own-pattern tiles 19.0, enemy tiles 0.0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 7 (9%)
+      next tower on the ruin, all (78): same side PAINT 6-50r 27, same side PAINT <=5r 12, same side DEFEN 6-50r 11, same side PAINT >50r 9, same side MONEY >50r 7, same side MONEY 6-50r 5, never rebuilt 5, same side DEFEN >50r 1, same side DEFEN <=5r 1
+      next tower on the ruin, pattern intact (18): same side PAINT <=5r 9, same side PAINT 6-50r 5, same side DEFEN 6-50r 2, same side MONEY 6-50r 1, same side MONEY >50r 1
+      next tower on the ruin, intact + chips + helper adjacent (7): same side PAINT <=5r 6, same side MONEY >50r 1
+
+== LOST games, them: killed MONEY_TOWERs: 187 killed towers
+   pattern at death: all 24 tiles 79 (42%), 20+ and no enemy tile 115 (61%), median own-pattern tiles 22, enemy tiles 0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 29 (16%)
+      next tower on the ruin, all (187): same side MONEY 6-50r 65, same side MONEY >50r 34, same side PAINT 6-50r 22, same side DEFEN 6-50r 17, same side MONEY <=5r 17, same side PAINT >50r 13, never rebuilt 11, OTHER side MONEY >50r 4, same side DEFEN >50r 3, OTHER side PAINT >50r 1
+      next tower on the ruin, pattern intact (79): same side MONEY 6-50r 32, same side MONEY >50r 13, same side PAINT 6-50r 13, same side MONEY <=5r 11, same side DEFEN 6-50r 5, same side PAINT >50r 3, never rebuilt 2
+      next tower on the ruin, intact + chips + helper adjacent (29): same side MONEY <=5r 10, same side MONEY 6-50r 9, same side PAINT 6-50r 6, same side MONEY >50r 3, never rebuilt 1
+
+== LOST games, them: killed LAST paint towers: 11 killed towers
+   pattern at death: all 24 tiles 0 (0%), 20+ and no enemy tile 1 (9%), median own-pattern tiles 3, enemy tiles 0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 0 (0%)
+      next tower on the ruin, all (11): same side MONEY >50r 5, same side PAINT >50r 3, never rebuilt 1, same side DEFEN 6-50r 1, same side MONEY 6-50r 1
+      next tower on the ruin, pattern intact (0): 
+      next tower on the ruin, intact + chips + helper adjacent (0): 
+
+== WON games, us: killed PAINT_TOWERs: 266 killed towers
+   pattern at death: all 24 tiles 75 (28%), 20+ and no enemy tile 158 (59%), median own-pattern tiles 21.0, enemy tiles 0.0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 21 (8%)
+      next tower on the ruin, all (266): same side PAINT <=5r 121, same side PAINT 6-50r 111, never rebuilt 19, same side PAINT >50r 13, same side MONEY >50r 1, same side MONEY 6-50r 1
+      next tower on the ruin, pattern intact (75): same side PAINT <=5r 48, same side PAINT 6-50r 19, never rebuilt 6, same side PAINT >50r 2
+      next tower on the ruin, intact + chips + helper adjacent (21): same side PAINT <=5r 18, same side PAINT 6-50r 2, never rebuilt 1
+
+== WON games, us: killed MONEY_TOWERs: 371 killed towers
+   pattern at death: all 24 tiles 139 (37%), 20+ and no enemy tile 267 (72%), median own-pattern tiles 23, enemy tiles 0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 49 (13%)
+      next tower on the ruin, all (371): same side MONEY <=5r 150, same side MONEY 6-50r 135, same side MONEY >50r 43, never rebuilt 25, OTHER side MONEY >50r 8, same side PAINT >50r 4, OTHER side PAINT 6-50r 2, same side PAINT 6-50r 2, OTHER side PAINT >50r 1, OTHER side MONEY 6-50r 1
+      next tower on the ruin, pattern intact (139): same side MONEY <=5r 82, same side MONEY 6-50r 45, same side MONEY >50r 10, never rebuilt 1, OTHER side MONEY >50r 1
+      next tower on the ruin, intact + chips + helper adjacent (49): same side MONEY <=5r 48, same side MONEY 6-50r 1
+
+== WON games, us: killed LAST paint towers: 6 killed towers
+   pattern at death: all 24 tiles 1 (17%), 20+ and no enemy tile 1 (17%), median own-pattern tiles 4.5, enemy tiles 1.0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 0 (0%)
+      next tower on the ruin, all (6): same side PAINT >50r 4, same side MONEY >50r 1, never rebuilt 1
+      next tower on the ruin, pattern intact (1): same side PAINT >50r 1
+      next tower on the ruin, intact + chips + helper adjacent (0): 
+
+== WON games, them: killed PAINT_TOWERs: 88 killed towers
+   pattern at death: all 24 tiles 5 (6%), 20+ and no enemy tile 12 (14%), median own-pattern tiles 13.0, enemy tiles 0.0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 0 (0%)
+      next tower on the ruin, all (88): never rebuilt 30, same side PAINT 6-50r 15, same side MONEY 6-50r 8, same side PAINT <=5r 8, OTHER side PAINT >50r 6, same side DEFEN 6-50r 5, same side DEFEN <=5r 4, same side PAINT >50r 3, same side DEFEN >50r 3, OTHER side PAINT 6-50r 2, same side MONEY >50r 2, OTHER side MONEY 6-50r 1, OTHER side MONEY >50r 1
+      next tower on the ruin, pattern intact (5): never rebuilt 3, OTHER side PAINT >50r 1, same side MONEY 6-50r 1
+      next tower on the ruin, intact + chips + helper adjacent (0): 
+
+== WON games, them: killed MONEY_TOWERs: 290 killed towers
+   pattern at death: all 24 tiles 98 (34%), 20+ and no enemy tile 128 (44%), median own-pattern tiles 19.0, enemy tiles 0.0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 42 (14%)
+      next tower on the ruin, all (290): never rebuilt 107, same side MONEY 6-50r 62, OTHER side PAINT >50r 32, same side MONEY <=5r 24, same side PAINT 6-50r 13, OTHER side MONEY >50r 12, same side MONEY >50r 9, same side DEFEN 6-50r 9, OTHER side PAINT 6-50r 8, same side PAINT >50r 8, OTHER side MONEY 6-50r 5, same side DEFEN <=5r 1
+      next tower on the ruin, pattern intact (98): same side MONEY 6-50r 42, same side MONEY <=5r 20, never rebuilt 9, OTHER side PAINT >50r 7, same side DEFEN 6-50r 5, same side MONEY >50r 4, same side PAINT 6-50r 4, OTHER side MONEY >50r 3, same side PAINT >50r 3, OTHER side PAINT 6-50r 1
+      next tower on the ruin, intact + chips + helper adjacent (42): same side MONEY 6-50r 17, same side MONEY <=5r 16, same side DEFEN 6-50r 3, OTHER side PAINT >50r 2, never rebuilt 2, same side PAINT 6-50r 1, OTHER side MONEY >50r 1
+
+== WON games, them: killed LAST paint towers: 18 killed towers
+   pattern at death: all 24 tiles 1 (6%), 20+ and no enemy tile 1 (6%), median own-pattern tiles 6.0, enemy tiles 0.0
+   intact + chips >= 1000 + a robot of the side within d2 2 in the next 5 rounds: 0 (0%)
+      next tower on the ruin, all (18): never rebuilt 10, same side MONEY 6-50r 2, OTHER side PAINT >50r 2, same side PAINT >50r 1, same side PAINT 6-50r 1, same side MONEY >50r 1, OTHER side PAINT 6-50r 1
+      next tower on the ruin, pattern intact (1): never rebuilt 1
+      next tower on the ruin, intact + chips + helper adjacent (0): 
+
+our killed paint towers in lost games with the pattern intact, chips and a helper adjacent (missed instant rebuilds):
+   m4692g2 r299 last=False chips 1547 helper r303 next (4, 'PAINT_TOWER', 2)
+   m4692g2 r457 last=False chips 1696 helper r458 next (1, 'PAINT_TOWER', 2)
+   m4954g1 r344 last=False chips 1380 helper r348 next None

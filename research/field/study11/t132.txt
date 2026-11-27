@@ -1,0 +1,30 @@
+
+== lost games (58); medians per game [sums], us | them
+   wait-turns r1-100            0.0 | 0.0   [9 | 32]   games with any: 9 | 15
+   pattern marks r1-100         6.5 | 0.0   [372 | 0]   games with any: 58 | 0
+   single marks r1-100          0.0 | 9.0   [0 | 1061]   games with any: 0 | 44
+   wait-turns r101-200          0.0 | 0.0   [18 | 54]   games with any: 9 | 16
+   pattern marks r101-200       1.0 | 0.0   [82 | 0]   games with any: 31 | 0
+   single marks r101-200        0.0 | 7.0   [0 | 787]   games with any: 0 | 45
+   wait-turns r201-400          0.0 | 0.0   [16 | 65]   games with any: 5 | 18
+   pattern marks r201-400       0.0 | 0.0   [50 | 0]   games with any: 25 | 0
+   single marks r201-400        0.0 | 10.0   [0 | 2463]   games with any: 0 | 43
+   episodes                     0.0 | 0.0   [2 | 2]   games with any: 2 | 2
+   ep len med                   5.0 | 11.0   [10 | 22]   games with any: 2 | 2
+   ep len max                   5.0 | 11.0   [10 | 22]   games with any: 2 | 2
+   paint on 25-paint pattern marks, us: 12600 over 58 games = 217 per game
+
+== won games (50); medians per game [sums], us | them
+   wait-turns r1-100            0.0 | 0.0   [9 | 41]   games with any: 5 | 12
+   pattern marks r1-100         7.0 | 0.0   [348 | 0]   games with any: 50 | 0
+   single marks r1-100          0.0 | 4.0   [0 | 517]   games with any: 0 | 33
+   wait-turns r101-200          0.0 | 0.0   [32 | 102]   games with any: 7 | 12
+   pattern marks r101-200       3.0 | 0.0   [137 | 0]   games with any: 38 | 0
+   single marks r101-200        0.0 | 2.5   [0 | 285]   games with any: 0 | 33
+   wait-turns r201-400          0.0 | 0.0   [12 | 76]   games with any: 5 | 22
+   pattern marks r201-400       3.0 | 0.0   [200 | 0]   games with any: 43 | 0
+   single marks r201-400        0.0 | 1.0   [0 | 285]   games with any: 0 | 29
+   episodes                     0.0 | 0.0   [2 | 10]   games with any: 2 | 3
+   ep len med                   12.0 | 3   [24 | 9.0]   games with any: 2 | 3
+   ep len max                   12.0 | 3   [24 | 11]   games with any: 2 | 3
+   paint on 25-paint pattern marks, us: 17125 over 50 games = 342 per game

@@ -1,0 +1,81 @@
+== lost, behind at r100: 16 games; medians (sums for counts in brackets), us / them
+   towers r100                  2.0 / 4.5   [39 / 66]
+   built r50                    1.0 / 1.5   [15 / 23]
+   built r100                   2.5 / 3.5   [33 / 51]
+   killed r50                   1.0 / 0.0   [12 / 6]
+   killed r100                  1.5 / 1.0   [23 / 16]
+   start PT killed by r100      0.0 / 0.0   [4 / 2]
+   build #1 round               23.5 / 28   (reached in 12 / 15)
+   build #2 round               63 / 47.5   (reached in 11 / 14)
+   build #3 round               82.0 / 70.5   (reached in 10 / 14)
+   spawned S r100               8.0 / 7.5   [134 / 126]
+   spawned M r100               0.0 / 3.5   [8 / 57]
+   spawned X r100               0.0 / 0.0   [3 / 5]
+   soldier-turns r100           599.0 / 550.0   [9056 / 8707]
+   soldier dmg to towers r100   2375.0 / 2725.0   [36950 / 39050]
+
+== lost, level or ahead at r100: 42 games; medians (sums for counts in brackets), us / them
+   towers r100                  7.0 / 5.0   [274 / 223]
+   built r50                    2.0 / 3.0   [88 / 106]
+   built r100                   6.0 / 4.0   [228 / 199]
+   killed r50                   0.0 / 0.0   [6 / 10]
+   killed r100                  1.0 / 1.0   [35 / 60]
+   start PT killed by r100      0.0 / 0.0   [6 / 6]
+   build #1 round               16 / 18.5   (reached in 41 / 42)
+   build #2 round               36 / 32.5   (reached in 41 / 42)
+   build #3 round               52 / 49.0   (reached in 41 / 42)
+   spawned S r100               11.0 / 8.0   [455 / 351]
+   spawned M r100               1.0 / 3.0   [52 / 164]
+   spawned X r100               0.0 / 0.0   [7 / 15]
+   soldier-turns r100           688.0 / 555.0   [28000 / 23531]
+   soldier dmg to towers r100   2825.0 / 1100.0   [112450 / 66350]
+
+== won, behind at r100: 2 games; medians (sums for counts in brackets), us / them
+   towers r100                  5.0 / 6.5   [10 / 13]
+   built r50                    1.5 / 2.5   [3 / 5]
+   built r100                   3.5 / 4.5   [7 / 9]
+   killed r50                   0.0 / 0.0   [0 / 0]
+   killed r100                  0.0 / 0.0   [0 / 0]
+   start PT killed by r100      0.0 / 0.0   [0 / 0]
+   build #1 round               36.0 / 22.0   (reached in 2 / 2)
+   build #2 round               59.5 / 39.0   (reached in 2 / 2)
+   build #3 round               71.5 / 60.5   (reached in 2 / 2)
+   spawned S r100               12.0 / 10.0   [24 / 20]
+   spawned M r100               1.5 / 4.0   [3 / 8]
+   spawned X r100               0.0 / 1.0   [0 / 2]
+   soldier-turns r100           753.0 / 722.5   [1506 / 1445]
+   soldier dmg to towers r100   1050.0 / 500.0   [2100 / 1000]
+
+== won, level or ahead at r100: 48 games; medians (sums for counts in brackets), us / them
+   towers r100                  6.0 / 4.0   [288 / 201]
+   built r50                    2.0 / 2.0   [93 / 97]
+   built r100                   5.0 / 3.0   [247 / 167]
+   killed r50                   0.0 / 0.0   [17 / 11]
+   killed r100                  1.0 / 1.0   [51 / 60]
+   start PT killed by r100      0.0 / 0.0   [5 / 9]
+   build #1 round               17.0 / 19   (reached in 48 / 47)
+   build #2 round               36.0 / 38   (reached in 48 / 47)
+   build #3 round               55.0 / 64.0   (reached in 48 / 44)
+   spawned S r100               10.0 / 8.0   [494 / 399]
+   spawned M r100               1.0 / 3.0   [56 / 177]
+   spawned X r100               0.0 / 0.0   [5 / 14]
+   soldier-turns r100           681.0 / 534.5   [32199 / 26521]
+   soldier dmg to towers r100   2075.0 / 2150.0   [110850 / 104800]
+
+== lost games behind at r100, one by one: our built/killed by r100, theirs; our starting paint tower death
+   m4661g1 giver         subscribe- MAJ r342  towers r100 4/5: us built 3 lost 1 | them built 4 lost 1 | our start PT died rNone, theirs rNone | spawns S/M/X 8/0/0 vs 7/4/0
+   m4663g1 Thirds        om-nom     ALL r387  towers r100 4/5: us built 2 lost 0 | them built 4 lost 1 | our start PT died r174, theirs r310 | spawns S/M/X 9/2/1 vs 9/3/1
+   m4726g0 Flower        gone-whali MAJ r499  towers r100 4/5: us built 3 lost 0 | them built 3 lost 0 | our start PT died r362, theirs rNone | spawns S/M/X 11/2/0 vs 6/5/0
+   m4726g1 Jail          gone-whali ALL r78   towers r100 0/1: us built 0 lost 2 | them built 1 lost 2 | our start PT died r27, theirs r71 | spawns S/M/X 5/0/0 vs 5/4/0
+   m4766g1 Portal        scienceqiu MAJ r332  towers r100 2/5: us built 3 lost 1 | them built 4 lost 1 | our start PT died r78, theirs rNone | spawns S/M/X 10/0/0 vs 12/2/0
+   m4787g0 BunnyGame     scienceqiu ALL r233  towers r100 2/5: us built 0 lost 0 | them built 4 lost 1 | our start PT died r171, theirs rNone | spawns S/M/X 7/0/0 vs 10/3/0
+   m4787g2 Snowman       scienceqiu MAJ r305  towers r100 2/3: us built 4 lost 4 | them built 3 lost 2 | our start PT died rNone, theirs rNone | spawns S/M/X 8/0/0 vs 10/1/2
+   m4805g1 Thirds        spaark     ALL r440  towers r100 4/7: us built 2 lost 0 | them built 6 lost 1 | our start PT died r416, theirs rNone | spawns S/M/X 9/2/1 vs 10/2/0
+   m4806g1 lighthouse    immutable  MAJ r465  towers r100 1/3: us built 0 lost 1 | them built 3 lost 2 | our start PT died rNone, theirs r58 | spawns S/M/X 9/0/0 vs 8/2/0
+   m4880g2 maze          spaark     MAJ r1236 towers r100 5/7: us built 3 lost 0 | them built 5 lost 0 | our start PT died rNone, theirs rNone | spawns S/M/X 12/0/0 vs 9/3/1
+   m4881g1 Jail          gone-whali ALL r120  towers r100 0/1: us built 0 lost 2 | them built 0 lost 1 | our start PT died r27, theirs rNone | spawns S/M/X 5/0/0 vs 5/8/0
+   m4917g0 Filter        scienceqiu ALL r129  towers r100 1/3: us built 1 lost 2 | them built 2 lost 1 | our start PT died r129, theirs rNone | spawns S/M/X 8/0/0 vs 7/4/0
+   m4954g0 Bread         spaark     ALL r253  towers r100 3/4: us built 3 lost 2 | them built 4 lost 2 | our start PT died r223, theirs rNone | spawns S/M/X 10/1/1 vs 7/2/1
+   m4957g1 giver         gone-whali MAJ r548  towers r100 4/5: us built 4 lost 2 | them built 4 lost 1 | our start PT died rNone, theirs rNone | spawns S/M/X 7/0/0 vs 5/4/0
+   m4981g2 quack         gone-whali ALL r271  towers r100 1/4: us built 2 lost 3 | them built 3 lost 0 | our start PT died r263, theirs rNone | spawns S/M/X 8/0/0 vs 7/6/0
+   m5010g2 SandyBeach    gone-whali MAJ r320  towers r100 2/3: us built 3 lost 3 | them built 1 lost 0 | our start PT died r28, theirs r153 | spawns S/M/X 8/1/0 vs 9/4/0

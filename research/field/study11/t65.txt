@@ -1,0 +1,18 @@
+== lost: 58 games; medians, us | them
+  r25  tiles seen % own half 64.2 | 60.3  ruins seen % own half 67.9 | 62.5  tiles seen % other half 10.6 | 9.5  ruins seen % other half 11.1 | 3.6
+  r50  tiles seen % own half 83.3 | 75.3  ruins seen % own half 81.8 | 75.0  tiles seen % other half 30.4 | 34.0  ruins seen % other half 26.8 | 28.6
+  r100 tiles seen % own half 89.5 | 87.4  ruins seen % own half 100.0 | 91.7  tiles seen % other half 56.6 | 56.2  ruins seen % other half 61.5 | 50.0
+  r150 tiles seen % own half 96.2 | 91.8  ruins seen % own half 100.0 | 92.3  tiles seen % other half 67.9 | 64.7  ruins seen % other half 66.7 | 62.5
+  r200 tiles seen % own half 98.0 | 95.5  ruins seen % own half 100.0 | 100.0  tiles seen % other half 69.7 | 74.7  ruins seen % other half 66.7 | 77.8
+== won: 50 games; medians, us | them
+  r25  tiles seen % own half 53.7 | 52.3  ruins seen % own half 56.4 | 54.5  tiles seen % other half 9.4 | 8.7  ruins seen % other half 4.2 | 6.9
+  r50  tiles seen % own half 69.7 | 63.4  ruins seen % own half 72.7 | 61.2  tiles seen % other half 27.6 | 29.6  ruins seen % other half 20.5 | 27.6
+  r100 tiles seen % own half 86.3 | 76.1  ruins seen % own half 89.4 | 75.0  tiles seen % other half 53.4 | 51.4  ruins seen % other half 50.0 | 44.9
+  r150 tiles seen % own half 95.0 | 84.2  ruins seen % own half 100.0 | 81.8  tiles seen % other half 64.0 | 62.5  ruins seen % other half 65.2 | 65.2
+  r200 tiles seen % own half 98.3 | 86.9  ruins seen % own half 100.0 | 88.9  tiles seen % other half 70.1 | 69.0  ruins seen % other half 72.7 | 66.7
+== study 9's lost games (3211-3951): 75 games; medians, us | them
+  r25  tiles seen % own half 62.0 | 60.2  ruins seen % own half 62.5 | 58.3  tiles seen % other half 8.0 | 8.2  ruins seen % other half 6.2 | 6.2
+  r50  tiles seen % own half 74.7 | 74.6  ruins seen % own half 77.8 | 75.0  tiles seen % other half 28.7 | 31.9  ruins seen % other half 25.0 | 31.2
+  r100 tiles seen % own half 90.0 | 86.7  ruins seen % own half 86.6 | 88.9  tiles seen % other half 64.2 | 54.9  ruins seen % other half 66.7 | 54.2
+  r150 tiles seen % own half 93.1 | 91.9  ruins seen % own half 100.0 | 96.4  tiles seen % other half 67.8 | 65.7  ruins seen % other half 70.7 | 70.3
+  r200 tiles seen % own half 96.3 | 96.2  ruins seen % own half 100.0 | 100.0  tiles seen % other half 70.3 | 77.1  ruins seen % other half 76.0 | 79.1

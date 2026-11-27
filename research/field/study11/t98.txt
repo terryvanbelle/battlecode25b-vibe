@@ -1,0 +1,18 @@
+== lost, behind at r100: 16 games; medians, us / them, for the 1st / 2nd / 3rd new tower
+   build  n     built r    dist   seen r    seen->start  start->ready  ready->built  painters  chips@ready  chips@built  enemy tiles@start
+   #1   12/15       24/28  8/8        8/4          1/1         12/18           0/1       2/2    1925/1790    1925/1760       0/0
+   #2    9/14       65/52  18/11      44/20          1/1         25/24           0/2       1/2    1700/1175    1720/1040       0/0
+   #3    5/12       82/80  14/13      37/36          1/2         25/26           0/3       2/2     1120/760     1120/975       0/0
+
+== lost, level or ahead at r100: 42 games; medians, us / them, for the 1st / 2nd / 3rd new tower
+   build  n     built r    dist   seen r    seen->start  start->ready  ready->built  painters  chips@ready  chips@built  enemy tiles@start
+   #1   41/42       16/18  6/6        2/2          1/1         12/13           0/0       2/2    1730/1700    1730/1715       0/0
+   #2   39/42       36/32  8/9        6/6          1/1         21/20           4/1       2/2      820/970      980/995       0/0
+   #3   37/41       51/49  10/10      12/15          1/1         24/23          17/7       1/2      720/810      950/970       0/0
+
+== won: 50 games; medians, us / them, for the 1st / 2nd / 3rd new tower
+   build  n     built r    dist   seen r    seen->start  start->ready  ready->built  painters  chips@ready  chips@built  enemy tiles@start
+   #1   50/49       17/20  6/6        2/3          1/1         12/13           0/0       2/2    1750/1760    1750/1760       0/0
+   #2   50/47       36/37  10/10       11/9          1/1         16/18           3/1       2/2     920/1160     990/1070       0/0
+   #3   46/38       55/62  13/12      21/22          1/2         24/19           4/3       1/2      755/915      980/990       0/0
+

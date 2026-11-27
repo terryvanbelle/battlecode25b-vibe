@@ -1,0 +1,16 @@
+
+== lost games (58): soldier siege episodes on enemy towers (sums; HP medians)
+   r1-100 us   episodes  366 hits  3126 killed 40.7% died 35.0% left 24.3% alone 47.3%  HP first hit 250.0  last hit: died 10.0 left 110 killed 140  hits at <=60 HP 425  tower kills by soldiers 76  soldiers died per kill 1.68
+   r1-100 them episodes  263 hits  2218 killed 44.5% died 22.8% left 32.7% alone 39.9%  HP first hit 250  last hit: died 10.0 left 60.0 killed 130  hits at <=60 HP 237  tower kills by soldiers 58  soldiers died per kill 1.03
+   r101-200 us   episodes  356 hits  1996 killed 24.7% died 36.2% left 39.0% alone 61.8%  HP first hit 250.0  last hit: died 40 left 130 killed 190.0  hits at <=60 HP 254  tower kills by soldiers 58  soldiers died per kill 2.22
+   r101-200 them episodes  321 hits  2309 killed 43.3% died 19.6% left 37.1% alone 53.0%  HP first hit 250  last hit: died 30 left 70 killed 150  hits at <=60 HP 242  tower kills by soldiers 86  soldiers died per kill 0.73
+   r201-400 us   episodes  537 hits  3037 killed 26.4% died 39.3% left 34.3% alone 56.8%  HP first hit 250  last hit: died 40 left 140.0 killed 160.0  hits at <=60 HP 326  tower kills by soldiers 92  soldiers died per kill 2.29
+   r201-400 them episodes  698 hits  4332 killed 46.4% died 18.8% left 34.8% alone 42.7%  HP first hit 250.0  last hit: died 30 left 130 killed 160.0  hits at <=60 HP 380  tower kills by soldiers 206  soldiers died per kill 0.64
+
+== won games (50): soldier siege episodes on enemy towers (sums; HP medians)
+   r1-100 us   episodes  254 hits  2379 killed 45.7% died 36.6% left 17.7% alone 45.3%  HP first hit 250.0  last hit: died 10 left 100 killed 155.0  hits at <=60 HP 295  tower kills by soldiers 60  soldiers died per kill 1.55
+   r1-100 them episodes  262 hits  2220 killed 40.1% died 26.3% left 33.6% alone 42.7%  HP first hit 250.0  last hit: died 30 left 60.0 killed 120  hits at <=60 HP 253  tower kills by soldiers 51  soldiers died per kill 1.35
+   r101-200 us   episodes  285 hits  1931 killed 36.8% died 23.9% left 39.3% alone 49.1%  HP first hit 250  last hit: died 20.0 left 130.0 killed 150  hits at <=60 HP 176  tower kills by soldiers 62  soldiers died per kill 1.10
+   r101-200 them episodes  353 hits  2557 killed 43.3% died 22.1% left 34.6% alone 47.9%  HP first hit 250  last hit: died 10.0 left 100.0 killed 140  hits at <=60 HP 297  tower kills by soldiers 85  soldiers died per kill 0.92
+   r201-400 us   episodes  640 hits  3811 killed 41.1% died 30.8% left 28.1% alone 53.4%  HP first hit 250.0  last hit: died 40 left 130.0 killed 160  hits at <=60 HP 392  tower kills by soldiers 150  soldiers died per kill 1.31
+   r201-400 them episodes  681 hits  3673 killed 41.4% died 24.5% left 34.1% alone 38.8%  HP first hit 250  last hit: died 50 left 170.0 killed 190.0  hits at <=60 HP 285  tower kills by soldiers 152  soldiers died per kill 1.10

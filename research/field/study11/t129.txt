@@ -1,0 +1,220 @@
+
+== all lost: 58 games; medians per game (means for shares), us / them
+   spawn #1                     1.0 / 1.0
+   spawn #2                     1.0 / 1.0
+   spawn #3                     2.0 / 2.0
+   spawn #4                     2.0 / 2.0
+   spawn #5                     10.0 / 10.0
+   spawn #6                     18.5 / 26.0   (reached 56 / 58)
+   spawn #7                     30.0 / 38.0   (reached 56 / 58)
+   spawn #8                     35.5 / 56.5   (reached 56 / 58)
+   spawned r25                  6.0 / 5.0   [353 / 328]
+   spawned r50                  8.0 / 7.0   [440 / 413]
+   first mopper                 91.5 / 43.0   (reached 52 / 58)
+   first splasher               120.0 / 117.5   (reached 48 / 54)
+   r1-100 spawns by sP          5.0 / 6.0   [308 / 345]
+   r1-100 spawns by sM          2.0 / 2.0   [116 / 136]
+   r1-100 spawns by built       4.0 / 4.0   [235 / 237]
+   build #1 round               17 / 20   (reached 53 / 57)
+   build #1 paint               0.0% / 0.0%  (n 53 / 57)
+   build #1 d2 own              41 / 45   (reached 53 / 57)
+   build #1 rank                2 / 2   (reached 53 / 57)
+   build #1 front               0.2 / 0.2   (reached 53 / 57)
+   build #2 round               36 / 35.5   (reached 49 / 56)
+   build #2 paint               2.04% / 0.0%  (n 49 / 56)
+   build #2 d2 own              73 / 86.0   (reached 49 / 56)
+   build #2 rank                2 / 3.0   (reached 49 / 56)
+   build #2 front               0.2 / 0.3   (reached 49 / 56)
+   build #3 round               52 / 53   (reached 45 / 55)
+   build #3 paint               4.44% / 3.64%  (n 45 / 55)
+   build #3 d2 own              117 / 125   (reached 45 / 55)
+   build #3 rank                3 / 3   (reached 45 / 55)
+   build #3 front               0.3 / 0.3   (reached 45 / 55)
+   build #4 round               64.0 / 78.5   (reached 42 / 54)
+   build #4 paint               4.76% / 12.96%  (n 42 / 54)
+   build #4 d2 own              144.0 / 175.0   (reached 42 / 54)
+   build #4 rank                2.0 / 4.0   (reached 42 / 54)
+   build #4 front               0.4 / 0.4   (reached 42 / 54)
+   build #5 round               79.0 / 120.5   (reached 34 / 52)
+   build #5 paint               11.76% / 28.85%  (n 34 / 52)
+   build #5 d2 own              190.5 / 164.5   (reached 34 / 52)
+   build #5 rank                3.5 / 3.0   (reached 34 / 52)
+   build #5 front               0.4 / 0.4   (reached 34 / 52)
+   painters per build           1.5 / 2   (reached 53 / 57)
+   paint per build              120.0 / 120.0   (reached 53 / 57)
+   parallel mean                1.9 / 2.0
+   parallel max                 4.5 / 4.0
+   pattern marks r150           7.0 / 0.0   [425 / 0]
+   single marks r150            0.0 / 11.5   [0 / 1488]
+   unmarks r150                 0.0 / 3.0   [0 / 225]
+   first SRP                    133 / 76.5   (reached 37 / 38)
+   SRPs r150                    0.0 / 1.0   [67 / 121]
+   SRPs r200                    1.0 / 1.0   [160 / 206]
+   first defense                - / 155   (reached 0 / 29)
+   towers killed r150           2.0 / 2.0   [108 / 103]
+   robots killed by towers r150 1.0 / 3.0   [95 / 183]
+
+== lost, behind at r100: 16 games; medians per game (means for shares), us / them
+   spawn #1                     1.0 / 1.0
+   spawn #2                     1.0 / 1.0
+   spawn #3                     2.0 / 2.0
+   spawn #4                     2.0 / 2.0
+   spawn #5                     10.0 / 10.0
+   spawn #6                     25.0 / 22.0   (reached 14 / 16)
+   spawn #7                     30.0 / 34.0   (reached 14 / 16)
+   spawn #8                     50.5 / 45.5   (reached 14 / 16)
+   spawned r25                  5.5 / 6.0   [92 / 96]
+   spawned r50                  7.0 / 8.0   [115 / 126]
+   first mopper                 106.5 / 27.0   (reached 10 / 16)
+   first splasher               132 / 158   (reached 9 / 13)
+   r1-100 spawns by sP          5.0 / 6.0   [78 / 99]
+   r1-100 spawns by sM          2.0 / 2.5   [32 / 40]
+   r1-100 spawns by built       2.0 / 2.5   [35 / 49]
+   build #1 round               23.5 / 28   (reached 12 / 15)
+   build #1 paint               0.0% / 0.0%  (n 12 / 15)
+   build #1 d2 own              68.5 / 64   (reached 12 / 15)
+   build #1 rank                2.0 / 2   (reached 12 / 15)
+   build #1 front               0.3 / 0.3   (reached 12 / 15)
+   build #2 round               65 / 52.0   (reached 9 / 14)
+   build #2 paint               11.11% / 0.0%  (n 9 / 14)
+   build #2 d2 own              324 / 123.0   (reached 9 / 14)
+   build #2 rank                9 / 4.5   (reached 9 / 14)
+   build #2 front               0.5 / 0.4   (reached 9 / 14)
+   build #3 round               183 / 85   (reached 7 / 13)
+   build #3 paint               28.57% / 0.0%  (n 7 / 13)
+   build #3 d2 own              185 / 169   (reached 7 / 13)
+   build #3 rank                5 / 5   (reached 7 / 13)
+   build #3 front               0.4 / 0.4   (reached 7 / 13)
+   build #4 round               107 / 109   (reached 5 / 13)
+   build #4 paint               0.0% / 23.08%  (n 5 / 13)
+   build #4 d2 own              353 / 200   (reached 5 / 13)
+   build #4 rank                7 / 6   (reached 5 / 13)
+   build #4 front               0.5 / 0.4   (reached 5 / 13)
+   build #5 round               137 / 130.0   (reached 3 / 12)
+   build #5 paint               0.0% / 8.33%  (n 3 / 12)
+   build #5 d2 own              680 / 199.5   (reached 3 / 12)
+   build #5 rank                13 / 5.0   (reached 3 / 12)
+   build #5 front               0.6 / 0.4   (reached 3 / 12)
+   painters per build           1.5 / 2.0   (reached 12 / 15)
+   paint per build              120.0 / 120   (reached 12 / 15)
+   parallel mean                1.7 / 1.8
+   parallel max                 4.0 / 4.5
+   pattern marks r150           5.0 / 0.0   [86 / 0]
+   single marks r150            0.0 / 4.5   [0 / 127]
+   unmarks r150                 0.0 / 3.0   [0 / 62]
+   first SRP                    156 / 113   (reached 7 / 9)
+   SRPs r150                    0.0 / 0.0   [5 / 14]
+   SRPs r200                    0.0 / 0.0   [24 / 30]
+   first defense                - / 216.0   (reached 0 / 4)
+   towers killed r150           1.0 / 2.0   [19 / 33]
+   robots killed by towers r150 0.5 / 2.0   [23 / 35]
+
+== lost, level/ahead at r100: 42 games; medians per game (means for shares), us / them
+   spawn #1                     1.0 / 1.0
+   spawn #2                     1.0 / 1.0
+   spawn #3                     2.0 / 2.0
+   spawn #4                     2.0 / 2.0
+   spawn #5                     10.0 / 10.0
+   spawn #6                     17.0 / 27.5
+   spawn #7                     30.0 / 51.0
+   spawn #8                     34.0 / 63.0
+   spawned r25                  6.0 / 5.0   [261 / 232]
+   spawned r50                  8.0 / 6.0   [325 / 287]
+   first mopper                 91.5 / 50.5
+   first splasher               119 / 116   (reached 39 / 41)
+   r1-100 spawns by sP          5.0 / 6.0   [230 / 246]
+   r1-100 spawns by sM          2.0 / 2.0   [84 / 96]
+   r1-100 spawns by built       5.0 / 4.0   [200 / 188]
+   build #1 round               16 / 18.5   (reached 41 / 42)
+   build #1 paint               0.0% / 0.0%  (n 41 / 42)
+   build #1 d2 own              40 / 38.0   (reached 41 / 42)
+   build #1 rank                2 / 2.0   (reached 41 / 42)
+   build #1 front               0.2 / 0.2   (reached 41 / 42)
+   build #2 round               36.0 / 32.5   (reached 40 / 42)
+   build #2 paint               0.0% / 0.0%  (n 40 / 42)
+   build #2 d2 own              62.5 / 81.5   (reached 40 / 42)
+   build #2 rank                2.0 / 2.0   (reached 40 / 42)
+   build #2 front               0.2 / 0.3   (reached 40 / 42)
+   build #3 round               51.0 / 49.0   (reached 38 / 42)
+   build #3 paint               0.0% / 4.76%  (n 38 / 42)
+   build #3 d2 own              106.0 / 113.5   (reached 38 / 42)
+   build #3 rank                2.5 / 3.0   (reached 38 / 42)
+   build #3 front               0.3 / 0.3   (reached 38 / 42)
+   build #4 round               63 / 71   (reached 37 / 41)
+   build #4 paint               5.41% / 9.76%  (n 37 / 41)
+   build #4 d2 own              144 / 169   (reached 37 / 41)
+   build #4 rank                2 / 4   (reached 37 / 41)
+   build #4 front               0.4 / 0.4   (reached 37 / 41)
+   build #5 round               75 / 120.0   (reached 31 / 40)
+   build #5 paint               12.9% / 35.0%  (n 31 / 40)
+   build #5 d2 own              185 / 153.0   (reached 31 / 40)
+   build #5 rank                3 / 3.0   (reached 31 / 40)
+   build #5 front               0.4 / 0.4   (reached 31 / 40)
+   painters per build           2 / 2.0   (reached 41 / 42)
+   paint per build              120.0 / 120.0   (reached 41 / 42)
+   parallel mean                1.9 / 2.1
+   parallel max                 5.0 / 4.0
+   pattern marks r150           7.0 / 0.0   [339 / 0]
+   single marks r150            0.0 / 14.5   [0 / 1361]
+   unmarks r150                 0.0 / 3.0   [0 / 163]
+   first SRP                    127.5 / 68   (reached 30 / 29)
+   SRPs r150                    0.5 / 1.0   [62 / 107]
+   SRPs r200                    1.0 / 2.0   [136 / 176]
+   first defense                - / 138   (reached 0 / 25)
+   towers killed r150           2.0 / 1.0   [89 / 70]
+   robots killed by towers r150 1.0 / 3.0   [72 / 148]
+
+== won: 50 games; medians per game (means for shares), us / them
+   spawn #1                     1.0 / 1.0
+   spawn #2                     1.0 / 1.0
+   spawn #3                     2.0 / 2.0
+   spawn #4                     2.0 / 2.0
+   spawn #5                     10.0 / 10.0
+   spawn #6                     18.0 / 27.5
+   spawn #7                     30.0 / 37.0
+   spawn #8                     34.0 / 52.0
+   spawned r25                  6.0 / 5.0   [307 / 278]
+   spawned r50                  8.0 / 7.0   [396 / 366]
+   first mopper                 90.0 / 45.5
+   first splasher               120 / 163   (reached 49 / 41)
+   r1-100 spawns by sP          5.0 / 6.0   [260 / 314]
+   r1-100 spawns by sM          2.0 / 2.0   [100 / 121]
+   r1-100 spawns by built       4.0 / 4.0   [222 / 185]
+   build #1 round               17.0 / 20   (reached 50 / 49)
+   build #1 paint               0.0% / 0.0%  (n 50 / 49)
+   build #1 d2 own              35.0 / 37   (reached 50 / 49)
+   build #1 rank                1.0 / 2   (reached 50 / 49)
+   build #1 front               0.2 / 0.2   (reached 50 / 49)
+   build #2 round               36.0 / 37.5   (reached 50 / 48)
+   build #2 paint               4.0% / 0.0%  (n 50 / 48)
+   build #2 d2 own              91.0 / 100.5   (reached 50 / 48)
+   build #2 rank                2.0 / 2.5   (reached 50 / 48)
+   build #2 front               0.3 / 0.3   (reached 50 / 48)
+   build #3 round               55.0 / 62   (reached 48 / 41)
+   build #3 paint               12.5% / 4.88%  (n 48 / 41)
+   build #3 d2 own              161.0 / 153   (reached 48 / 41)
+   build #3 rank                3.0 / 3   (reached 48 / 41)
+   build #3 front               0.4 / 0.4   (reached 48 / 41)
+   build #4 round               73.5 / 95.5   (reached 46 / 32)
+   build #4 paint               15.22% / 15.62%  (n 46 / 32)
+   build #4 d2 own              215.0 / 200.0   (reached 46 / 32)
+   build #4 rank                4 / 3.0   (reached 45 / 32)
+   build #4 front               0.4 / 0.4   (reached 46 / 32)
+   build #5 round               92.5 / 125.0   (reached 44 / 28)
+   build #5 paint               22.73% / 21.43%  (n 44 / 28)
+   build #5 d2 own              206.5 / 182.5   (reached 44 / 28)
+   build #5 rank                3.5 / 3.0   (reached 44 / 28)
+   build #5 front               0.4 / 0.4   (reached 44 / 28)
+   painters per build           2.0 / 2   (reached 50 / 49)
+   paint per build              120.0 / 120.0   (reached 50 / 49)
+   parallel mean                2.3 / 1.3
+   parallel max                 5.0 / 3.5
+   pattern marks r150           8.0 / 0.0   [424 / 0]
+   single marks r150            0.0 / 6.5   [0 / 666]
+   unmarks r150                 0.0 / 0.5   [0 / 144]
+   first SRP                    122.0 / 93   (reached 46 / 27)
+   SRPs r150                    2.0 / 0.0   [116 / 78]
+   SRPs r200                    4.0 / 0.0   [221 / 113]
+   first defense                - / 165   (reached 0 / 9)
+   towers killed r150           1.0 / 2.0   [89 / 88]
+   robots killed by towers r150 1.0 / 2.0   [114 / 134]

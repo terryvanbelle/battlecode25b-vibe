@@ -1,0 +1,28 @@
+
+== lost games (58): tower HP damage on the side's robots, by what the robot did (sums)
+   r1-100 us   HP  48405 per game   835 (SOL 48405 SPL 0 MOP 0) | hit tower 99%, splash 0%, mop/drain 0%, ruin paint 0%, paint 0%, withdraw 0%, move only 1%
+               died within 3 rounds of a tower hit: 98 (hit tower 93, move only 5)
+   r1-100 them HP  36060 per game   622 (SOL 35700 SPL 180 MOP 180) | hit tower 97%, splash 0%, mop/drain 0%, ruin paint 0%, paint 0%, withdraw 0%, move only 3%
+               died within 3 rounds of a tower hit: 57 (hit tower 46, move only 11)
+   r101-200 us   HP  49805 per game   859 (SOL 47370 SPL 1055 MOP 1380) | hit tower 89%, splash 0%, mop/drain 0%, ruin paint 0%, paint 1%, withdraw 0%, move only 9%
+               died within 3 rounds of a tower hit: 178 (hit tower 128, move only 48, ruin paint 1, paint 1)
+   r101-200 them HP  45170 per game   779 (SOL 41700 SPL 2330 MOP 1140) | hit tower 90%, splash 0%, mop/drain 0%, ruin paint 0%, paint 0%, withdraw 0%, move only 9%
+               died within 3 rounds of a tower hit: 89 (hit tower 51, move only 33, mop/drain 4, ruin paint 1)
+   r201-400 us   HP  87312 per game  1505 (SOL 80453 SPL 3916 MOP 2943) | hit tower 84%, splash 1%, mop/drain 0%, ruin paint 1%, paint 1%, withdraw 0%, move only 13%
+               died within 3 rounds of a tower hit: 298 (hit tower 193, move only 100, mop/drain 3, splash 2)
+   r201-400 them HP 108460 per game  1870 (SOL 77250 SPL 23530 MOP 7680) | hit tower 76%, splash 2%, mop/drain 1%, ruin paint 0%, paint 0%, withdraw 0%, move only 21%
+               died within 3 rounds of a tower hit: 328 (move only 178, hit tower 145, mop/drain 5)
+
+== won games (50): tower HP damage on the side's robots, by what the robot did (sums)
+   r1-100 us   HP  35560 per game   711 (SOL 35500 SPL 0 MOP 60) | hit tower 99%, splash 0%, mop/drain 0%, ruin paint 0%, paint 0%, withdraw 0%, move only 1%
+               died within 3 rounds of a tower hit: 76 (hit tower 73, move only 3)
+   r1-100 them HP  36110 per game   722 (SOL 35600 SPL 210 MOP 300) | hit tower 97%, splash 0%, mop/drain 0%, ruin paint 0%, paint 0%, withdraw 0%, move only 2%
+               died within 3 rounds of a tower hit: 64 (hit tower 56, move only 8)
+   r101-200 us   HP  36155 per game   723 (SOL 35035 SPL 30 MOP 1090) | hit tower 92%, splash 0%, mop/drain 0%, ruin paint 0%, paint 1%, withdraw 0%, move only 7%
+               died within 3 rounds of a tower hit: 101 (hit tower 65, move only 34, ruin paint 1, paint 1)
+   r101-200 them HP  44580 per game   892 (SOL 42570 SPL 580 MOP 1430) | hit tower 92%, splash 0%, mop/drain 0%, ruin paint 0%, paint 0%, withdraw 0%, move only 7%
+               died within 3 rounds of a tower hit: 106 (hit tower 64, move only 41, mop/drain 1)
+   r201-400 us   HP 100510 per game  2010 (SOL 85114 SPL 9421 MOP 5975) | hit tower 81%, splash 1%, mop/drain 0%, ruin paint 1%, paint 1%, withdraw 0%, move only 15%
+               died within 3 rounds of a tower hit: 352 (hit tower 197, move only 144, mop/drain 4, splash 4, withdraw 1, paint 1, ruin paint 1)
+   r201-400 them HP  78330 per game  1567 (SOL 73690 SPL 1980 MOP 2660) | hit tower 86%, splash 0%, mop/drain 1%, ruin paint 0%, paint 0%, withdraw 0%, move only 13%
+               died within 3 rounds of a tower hit: 281 (hit tower 147, move only 129, mop/drain 4, paint 1)

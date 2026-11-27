@@ -1,0 +1,36 @@
+== lost (58): medians per game, us / them
+   r1-50: away % 13.5/19.0  hits 8.0/4.0  tower kills 0.0/0.0  robots lost to towers 0.0/0.0
+   r51-100: away % 37.0/39.0  hits 34.0/18.5  tower kills 1.0/1.0  robots lost to towers 1.0/0.0
+   first mopper: us med r91.5 (none in 6), them med r43.0 (none in 0)
+== won (50): medians per game, us / them
+   r1-50: away % 16.5/23.0  hits 8.0/16.0  tower kills 0.0/0.0  robots lost to towers 0.0/0.0
+   r51-100: away % 35.0/37.0  hits 26.5/21.0  tower kills 1.0/0.5  robots lost to towers 1.0/0.0
+   first mopper: us med r90.0 (none in 0), them med r45.5 (none in 0)
+
+== result by the starting paint towers: (our start PT killed by rN?, theirs killed by rN?) -> won / lost
+   by r100: ours killed False theirs killed False: won 38 lost 45
+   by r100: ours killed True  theirs killed False: won  3 lost  5
+   by r100: ours killed False theirs killed True : won  7 lost  3
+   by r100: ours killed True  theirs killed True : won  2 lost  5
+   by r150: ours killed False theirs killed False: won 36 lost 42
+   by r150: ours killed True  theirs killed False: won  3 lost  6
+   by r150: ours killed False theirs killed True : won  9 lost  5
+   by r150: ours killed True  theirs killed True : won  2 lost  5
+
+== games where our starting paint tower fell by r150: round, map, opponent, result, their start PT fell
+   m4726g1   r27   Jail          gone-whalin  LOST  theirs: r71
+   m4726g2   r92   memstore      gone-whalin  LOST  theirs: r92
+   m4765g2   r46   shell         gone-whalin  won   theirs: r501
+   m4766g1   r78   Portal        scienceqiu   LOST  theirs: rNone
+   m4800g1   r91   DonkeyKong    varunvejalla won   theirs: r324
+   m4879g1   r77   Brat          scienceqiu   LOST  theirs: r65
+   m4879g2   r48   Rose          scienceqiu   won   theirs: r78
+   m4881g1   r27   Jail          gone-whalin  LOST  theirs: rNone
+   m4881g2   r49   quack         gone-whalin  LOST  theirs: rNone
+   m4917g0   r129  Filter        scienceqiu   LOST  theirs: rNone
+   m4919g2   r35   TargetPractic gone-whalin  won   theirs: r184
+   m4956g0   r87   CastleDefense immutable    LOST  theirs: r43
+   m5010g0   r30   DefaultSmall  gone-whalin  won   theirs: r73
+   m5010g1   r53   Racetrack     gone-whalin  LOST  theirs: rNone
+   m5010g2   r28   SandyBeach    gone-whalin  LOST  theirs: r153
+   m5012g0   r27   BunnyGame     gone-whalin  LOST  theirs: r78
