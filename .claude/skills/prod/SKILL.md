@@ -19,7 +19,9 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
 - Save any new owner prompt in `PROMPTS.md` as `## #N (YYYY-MM-DD HH:MM PDT)`.
 
 ## Steps
-1. `tools/prod.sh pull` - status, pulls every unfinished run, ranks.
+1. `tools/prod.sh pull` - status, pulls every unfinished run, ranks. Its `guardrail` line gives each replica slot's
+   head-to-head record against the champion (owner #59/#60; no extra games). On `GUARDRAIL ALARM`, report it and
+   look for the behavioural regression since that slot before building more candidates.
 2. Confirmation stage (owner #46): a bot that clears the lead bar prints `CONFIRMING X` and is crowned only after 150
    fresh games (runs after it qualified, `research/tourney/confirm.txt`) in which it still leads (> 0). `NOT CONFIRMED`
    restarts its window; never retire a bot for failing it (owner: don't throw away possible improvements).

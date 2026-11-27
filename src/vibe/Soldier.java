@@ -184,6 +184,20 @@ public strictfp class Soldier {
         return UnitType.LEVEL_ONE_DEFENSE_TOWER;
     }
 
+    // study 11 2.1: the paint and money patterns differ on all 16 outer-ring tiles of the 5x5, so one ring mark spells
+    // the type (readMarks decodes partial marks); rc.mark is free, has no cooldown and reaches r2 2
+    static void freeMarks(MapLocation r, UnitType t) throws GameActionException {
+        RobotController rc = G.rc;
+        int pat = patternOf(t);
+        MapLocation me = rc.getLocation();
+        for (int dx = -2; dx <= 2; dx++) for (int dy = -2; dy <= 2; dy++) {
+            if (dx != -2 && dx != 2 && dy != -2 && dy != 2) continue;
+            MapLocation l = r.translate(dx, dy);
+            if (me.distanceSquaredTo(l) > 2 || !rc.canMark(l)) continue;
+            if (rc.senseMapInfo(l).getMark() == PaintType.EMPTY) rc.mark(l, bit(pat, dx, dy));
+        }
+    }
+
     // study 8 2.2 (a): our first tower is built at a median r25 against their r19; we start painting 3 rounds after
     // first sight (they 1) because we walk up and mark first. On the way in, paint the nearest wrong tile of the
     // pattern we are about to mark.
@@ -222,15 +236,14 @@ public strictfp class Soldier {
             if (d > 2) { Nav.moveTo(r); d = G.here.distanceSquaredTo(r); }
             if (d > 2 && rc.getNumberTowers() <= 3) prePaint(r);   // study 8 2.2 (a)
             if (d <= 2) {
-                UnitType t = wantType();
-                // study 10 2.6d: the top teams never mark; a soldier with no other soldier in view skips the 25-paint mark
-                boolean mate = false;
-                for (RobotInfo a : G.allies) if (a.type == UnitType.SOLDIER) { mate = true; break; }
-                if (!mate) ruinType = t;
-                else if (rc.canMarkTowerPattern(t, r)) { rc.markTowerPattern(t, r); ruinType = t; G.paint = rc.getPaint(); }
+                // study 11 2.1: from beside the ruin the whole 5x5 is in sight: read the marks again, else take our own
+                // type and signal it with free single marks (rc.mark costs no paint; markTowerPattern cost 25)
+                ruinType = readMarks(r);
+                if (ruinType == null && rc.onTheMap(r.translate(-2, -2)) && rc.onTheMap(r.translate(2, 2))) ruinType = wantType();
             }
             if (ruinType == null) return true;
         }
+        freeMarks(r, ruinType);   // study 11 2.1: every turn, mark the outer-ring tiles in reach so helpers read the type
         int pat = patternOf(ruinType);
         // paint the nearest wrong tile in range; find the nearest wrong tile overall to walk toward
         MapLocation paintL = null; boolean paintS = false; int paintD = Integer.MAX_VALUE;

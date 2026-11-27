@@ -45,3 +45,4 @@ when_pdt,bot,base,change,submission
 2026-11-26 23:27,t118,t111,study 9 2.1b: a soldier on a blocked pattern with no own mopper or splasher in view gives up after 5 turns (was 25); confirmed +71 +-29 in 153 fresh games,75
 2026-11-27 01:07,t122,t118,study 9 2.4: paint-tower dry flags expire after 10 rounds (was 40) and a flagged tower in sight is re-sensed; confirmed +6 +-19 in 378 fresh games; +16 overall,76
 2026-11-27 06:10,t135,t122,study 10 2.6d: a soldier with no other soldier in view skips the 25-paint pattern mark (the top teams never mark); confirmed +9 +-22 in 262 fresh games; +14 overall,77
+2026-11-27 08:28,t140,t135,study 11 2.1: free single marks (rc.mark on the 5x5 outer ring) replace the 25-paint pattern mark; marks re-read beside the ruin; confirmed +40 +-23 in 251 fresh games; +30 overall,78

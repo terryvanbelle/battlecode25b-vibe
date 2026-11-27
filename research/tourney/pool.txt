@@ -433,7 +433,7 @@ t118  # replica reference: peak 1726 at #5 on 11-27 01:09 PDT (the record until 
 # y265 (retired: -24 vs t122 after 268 games)
 # y266 (retired: flat, -1 vs t122 after 696 games)
 # t134 (retired: flat, -0 vs t122 after 600 games)
-t135
+t135  # replica record: 1733 at #6 on 11-27 07:44 PDT; permanent slot (owner #35), champion until t140
 # y267 (retired: flat, +5 vs t122 after 625 games)
 # y268 (retired: -18 vs t122 after 461 games)
 # t136 (retired: built on t122, champion now t135)
@@ -446,16 +446,23 @@ t135
 # y274 (retired: built on t122, champion now t135)
 # y275 (retired: built on t122, champion now t135)
 # y276 (retired: -38 vs t135 after 285 games)
-t138
+# t138 (retired: built on t135, champion now t140)
 # y277 (retired: flat, -3 vs t135 after 857 games)
 # t139 (retired: -22 vs t135 after 208 games; dry-flag fix alone)
 t140
 # t141 (retired: -53 vs t135 after 193 games; siege HP exit at 70)
 # t142 (retired: -92 vs t135 after 211 games; siege HP exit at 100)
-y278
-y279
-y280
+# y278 (retired: built on t135, champion now t140)
+# y279 (retired: built on t135, champion now t140)
+# y280 (retired: built on t135, champion now t140)
 t143
-t144
-y281
-y282
+# t144 (retired: built on t135, champion now t140)
+# y281 (retired: built on t135, champion now t140)
+# y282 (retired: built on t135, champion now t140)
+t145
+y283
+y284
+y285
+y286
+y287
+y288

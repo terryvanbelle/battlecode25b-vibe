@@ -229,3 +229,10 @@ t143	t140 + y280 (free marks + splashers keep off our pattern tiles)
 t144	t135 + study 11 2.4: a soldier under 100 paint with an enemy mopper within r2 8 heads for a refill
 y281	t135 + bug audit S3: moppers finish a refill trip under way (was cancelled at 40 paint)
 y282	t135 + bug audit 8: towers re-read chips before upgrading and churning (build had spent them)
+t145	t140 + t138 (money upgrades at +5000 spare)
+y283	t140 + y282 (towers re-read chips before upgrade and churn)
+y284	t140 + y281 (moppers finish a refill trip)
+y285	t140 + y279 (free hit needs 30 paint; no repair shots at enemy paint)
+y286	t140 + y278 (refill-target fixes, bug audit 1)
+y287	t140 + bug audit 7: exploreTarget stops drawing below 2000 bytecodes
+y288	t140 + bug audit 8: a robot that sees its refill tower dry stops walking to it that turn
