@@ -201,3 +201,4 @@ t132	t128 + study 10 2.1 v2 (idle soldiers also repaint our wrong-colour pattern
 y264	t122 with paint-tower dry flags lasting 20 rounds (was 10)
 t133	t128 without the idle fill (study 10 2.1a+b only: rebuild paint towers; paint near own towers in pattern colour)
 y265	t131 salting at 8+ enemy tiles with +6 per tile (was 12, +4)
+y266	y260 + t131 (dry flag drops at 25+ paint; splashers salt killed towers' ruins)

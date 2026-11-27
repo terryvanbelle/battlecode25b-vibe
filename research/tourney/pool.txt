@@ -422,7 +422,7 @@ t122
 y260
 y261
 # y262 (retired: -50 vs t122 after 249 games)
-y263
+# y263 (retired: -11 vs t122 after 543 games)
 t128
 # t129 (retired: -41 vs t122 after 204 games)
 t130
@@ -431,3 +431,4 @@ t131
 y264
 t133
 y265
+y266
