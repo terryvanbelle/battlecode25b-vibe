@@ -222,7 +222,7 @@ public class BotTest {
         boolean allSol = true;
         for (int b = 0; b < 12; b++) { Tower.built = b; if (Tower.choose() != UnitType.SOLDIER) allSol = false; }
         check(allSol, "soldiers only before round 80");
-        w.round = 100; G.startTurn();
+        w.round = 150; G.startTurn();   // past every candidate's soldier-only opening (y241: 120)
         int sol = 0, spl = 0, mop = 0;
         for (int b = 6; b < 12; b++) {
             Tower.built = b;
