@@ -368,7 +368,7 @@
 # y224 (retired at t111's crowning: +12 vs y221 after 746; in y229)
 # y225 (retired at t111's crowning: +23 vs y221 after 638, confirming; in y230)
 # y226 (retired: -23 after 580 games)
-t111  # replica reference: peak 1694 at #7 on 11-26 (record.py); permanent slot (owner #45), back when t135 took the record with 1733 at #6 on 11-27 07:44 PDT
+# t111 (retired: replica reference replaced by t118 1726 and t122 1726 when t140 took the record, 1741 at #6 on 11-27 08:53 PDT; -79 vs t140)
 # y228 (retired: -51 after 245 games)
 # y229 (retired: flat, +3 vs t111 after 1073 games)
 # y230 (retired: -31 vs t111 after 371 games)
@@ -400,7 +400,7 @@ t118  # replica reference: peak 1726 at #5 on 11-27 01:09 PDT (the record until 
 # t119 (retired: built on t111, champion now t118)
 # t120 (retired: -12 vs t118 after 628 games; study 9 2.1a on t118)
 # t121 (retired: built on t111, champion now t118)
-# t122 (retired at t135's crowning)
+t122  # replica reference: peak 1726 at #6 (record.py); permanent slot (owner #45), back when t140 took the record with 1741 at #6 on 11-27 08:53 PDT
 # y248 (retired: flat, +2 vs t118 after 591 games)
 # y249 (retired: -30 vs t118 after 427 games)
 # y211 (retired: its replica-reference slot passed to y221, peak 1673 > 1663, once t118 took the record; owner #45)
@@ -433,7 +433,7 @@ t118  # replica reference: peak 1726 at #5 on 11-27 01:09 PDT (the record until 
 # y265 (retired: -24 vs t122 after 268 games)
 # y266 (retired: flat, -1 vs t122 after 696 games)
 # t134 (retired: flat, -0 vs t122 after 600 games)
-t135  # replica record: 1733 at #6 on 11-27 07:44 PDT; permanent slot (owner #35), champion until t140
+# t135 (retired: t140, the champion, took the replica record with 1741 at #6 on 11-27 08:53 PDT; t135 is its direct parent, so no reference slot; -31 vs t140)
 # y267 (retired: flat, +5 vs t122 after 625 games)
 # y268 (retired: -18 vs t122 after 461 games)
 # t136 (retired: built on t122, champion now t135)
@@ -455,7 +455,7 @@ t140
 # y278 (retired: built on t135, champion now t140)
 # y279 (retired: built on t135, champion now t140)
 # y280 (retired: built on t135, champion now t140)
-t143
+# t143 (retired: flat, +1 vs t140 after 552 games; t140 + y280 splashers off our pattern tiles)
 # t144 (retired: built on t135, champion now t140)
 # y281 (retired: built on t135, champion now t140)
 # y282 (retired: built on t135, champion now t140)
