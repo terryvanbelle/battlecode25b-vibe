@@ -199,3 +199,5 @@ t130	t122 + study 10 2.3: on small maps (short side <= 25) a paint tower seeing 
 t131	t122 + study 10 2.4: splashers score +4 per enemy tile in an empty ruin whose 5x5 holds 12+ enemy tiles (salt killed towers' ruins)
 t132	t128 + study 10 2.1 v2 (idle soldiers also repaint our wrong-colour pattern tiles) + 2.5 (forgetTower moves the dry flag)
 y264	t122 with paint-tower dry flags lasting 20 rounds (was 10)
+t133	t128 without the idle fill (study 10 2.1a+b only: rebuild paint towers; paint near own towers in pattern colour)
+y265	t131 salting at 8+ enemy tiles with +6 per tile (was 12, +4)
