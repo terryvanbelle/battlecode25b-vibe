@@ -494,7 +494,7 @@ t158  # champion (study 12 2.2 moppers hit and run; crowned 2026-11-27 16:27)
 # y300 (retired: built on r140, -16 after 211 games; explore painting from r60)
 # y301 (retired: built on r140, -10 after 222 games; y295 + Nav weight 4)
 # y302 (retired: built on r140, 0 games; Nav weight 4 (ported as y303))
-t159
+# t159 (retired: -59 +-29 vs t158 after 183 games; t158 + single-robot swing)
 t160
 y303
 y304
@@ -503,3 +503,4 @@ t161
 t162
 y306
 y307
+y308

@@ -273,3 +273,4 @@ y306	retreat ground weight 8 (was 20)
 y307	retreat ground weight 50 (was 20)
 t161	study 12 2.2: a mopper as the third unit of the opening cycle
 t162	study 12 2.2: paint towers spawn a second mopper per six
+y308	retreat from enemy moppers within d2 20 (t158 8, y305 13)
