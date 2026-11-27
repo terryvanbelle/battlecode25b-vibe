@@ -406,7 +406,7 @@ t122
 # y211 (retired: its replica-reference slot passed to y221, peak 1673 > 1663, once t118 took the record; owner #45)
 t123
 # t124 (retired: -28 vs t118 after 209 games; study 9 2.2)
-y250
+# y250 (retired: flat, -3 vs t118 after 707 games; failed confirmation once)
 y251
 # t125 (retired: -26 vs t118 after 326 games; study 9 2.1c)
 y252
@@ -414,3 +414,4 @@ y253
 t126
 t127
 y254
+y255
