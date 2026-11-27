@@ -212,3 +212,4 @@ y270	t135 + y266 (dry flag drops at 25+ paint; splashers salt killed towers' rui
 t137	t135 + t134 (lone soldier skips marks; explore when refill fails mid-pattern)
 y271	t135 counting only an ally soldier within d2 20 of the ruin as a mate (marks less)
 y272	t135 marking only with 2+ other soldiers in view
+y273	t135 + t136 (lone soldier skips marks; money upgrades at +5000 spare)
