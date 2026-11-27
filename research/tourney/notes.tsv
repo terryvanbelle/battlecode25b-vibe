@@ -236,3 +236,4 @@ y285	t140 + y279 (free hit needs 30 paint; no repair shots at enemy paint)
 y286	t140 + y278 (refill-target fixes, bug audit 1)
 y287	t140 + bug audit 7: exploreTarget stops drawing below 2000 bytecodes
 y288	t140 + bug audit 8: a robot that sees its refill tower dry stops walking to it that turn
+t146	t140 + study 11 2.1 (b): free marks once on arrival, no per-turn top-up
