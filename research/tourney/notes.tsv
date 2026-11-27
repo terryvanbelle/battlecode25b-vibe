@@ -169,3 +169,5 @@ t117	study 9 2.1a: splashers value enemy tiles inside a free ruin pattern we are
 t118	study 9 2.1b: a blocked soldier with no own mopper or splasher in view gives up after 5 turns (was 25)
 t119	study 9 2.2: with no paint tower standing, old money ruins are rebuilt as paint towers (no money rebuild)
 y247	y245 (no reserve before round 60) + y241 (soldier-only opening 120)
+t120	t118 (2.1b give up blocked ruins without a cleaner) + t117 (2.1a splashers clear blocked patterns)
+t121	study 9 2.3: on one tower or none with 1000+ chips, soldiers skip deny/siege/ground paint and walk to the nearest remembered clean ruin
