@@ -461,12 +461,15 @@ t140
 # y282 (retired: built on t135, champion now t140)
 # t145 (retired: -19 vs t140 after 634 games; t138 money upgrades at +5000 spare, ported)
 # y283 (retired: flat, -6 vs t140 after 554 games; towers re-read chips)
-y284
+# y284 (retired: flat, +3 vs t140 after 892 games; moppers finish a refill trip)
 # y285 (retired: flat, +2 vs t140 after 542 games; free hit paint floor + no repair shots at enemy paint)
 # y286 (retired: flat, -1 vs t140 after 568 games; refill-target fixes)
 # y287 (retired: -29 vs t140 after 198 games; explore bytecode guard)
 # y288 (retired: -21 vs t140 after 232 games; stop walking to a dry tower)
 # t146 (retired: -22 vs t140 after 255 games; free marks on arrival only, so the per-turn top-up matters)
-t147
-y289
-y290
+# t147 (retired: -36 vs t140 after 303 games; t145 + y284)
+# y289 (retired: -20 vs t140 after 280 games; siege exit at 50 paint)
+# y290 (retired: -26 vs t140 after 291 games; recheck completed SRPs)
+t148
+y291
+y292

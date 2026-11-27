@@ -240,3 +240,6 @@ t146	t140 + study 11 2.1 (b): free marks once on arrival, no per-turn top-up
 t147	t145 + y284 (money upgrades at +5000 spare; moppers finish a refill trip): the two confirming bots combined
 y289	t140 + bug audit S2: siege exit at 50 paint (was 30)
 y290	t140 + bug audit 8: completed SRPs are rechecked after 100 rounds (a broken SRP stops counting)
+t148	t140 + study 11 1.1: refills prefer money towers (paint towers count 40% farther; was 30% closer)
+y291	t140 + refills: no paint-tower preference (was 30% closer)
+y292	t140 + refills: paint towers 15% closer (was 30%)
