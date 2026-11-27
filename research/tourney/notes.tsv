@@ -219,3 +219,9 @@ y276	t135 with lone soldiers skipping the mark only before r150
 t138	t135 + t136 (study 10 2.6c: money upgrades at +5000 spare)
 y277	t135 + y274 (money upgrades at +7500 spare)
 t139	t135 + study 10 2.5 alone (forgetTower moves the dry flag with its tower; untested apart from t132)
+t140	t135 + study 11 2.1: free single marks (rc.mark on the 5x5 outer ring) replace the 25-paint pattern mark; re-read marks beside the ruin
+t141	t135 + study 11 2.2: siege HP exit at 70 (no free hit or siege step-in at <= 70 HP unless the tower is two hits from dead)
+t142	t141 with the siege HP exit at 100
+y278	t135 + bug audit 1: refill targets (L1-only churn exception, 150-round money flags, every robot flags dry towers it sees, flags move on forget, dead towers forgotten on sight)
+y279	t135 + bug audit 2 + 4: free hit needs siege paint (30, was 5); no repair shots at enemy paint
+y280	t135 + bug audit 3: splashers keep off our secondary tiles in the 5x5 of ruins and towers
