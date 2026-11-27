@@ -440,11 +440,11 @@ t135
 # y269 (retired: -84 vs t122 after 236 games; never marking is bad)
 # y270 (retired: -24 vs t122 after 248 games)
 # t137 (retired: flat, +1 vs t122 after 560 games)
-y271
+# y271 (retired: flat, -4 vs t135 after 809 games)
 # y272 (retired: -48 vs t122 after 202 games)
 # y273 (retired: -26 vs t122 after 230 games)
 # y274 (retired: built on t122, champion now t135)
 # y275 (retired: built on t122, champion now t135)
-y276
+# y276 (retired: -38 vs t135 after 285 games)
 t138
 y277
