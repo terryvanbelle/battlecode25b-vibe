@@ -1,0 +1,119 @@
+== lost games
+  us: built while none: MONEY: 91, games: 89, games with a no-paint-tower spell: 48, lost games with spell: 48
+      first such round                                             n= 48 med 138.5 p25 95 p75 270
+      paint held during spells (mean)                              n= 48 med 327.9 p25 122.1 p75 598.8
+      robots alive during spells (mean)                            n= 48 med 3.5 p25 2.1 p75 5.4
+      rounds from first spell to the next paint tower (9999 never) n= 48 med 9999.0 p25 9999 p75 9999
+      rounds without a paint tower                                 n= 48 med 100.0 p25 37 p75 171
+  them: built while none: MONEY: 37, games: 89, games with a no-paint-tower spell: 10
+      first such round                                             n= 10 med 59.5 p25 45 p75 74
+      paint held during spells (mean)                              n= 10 med 1111.7 p25 851.5 p75 1660.9
+      robots alive during spells (mean)                            n= 10 med 8.7 p25 7.9 p75 9.0
+      rounds from first spell to the next paint tower (9999 never) n= 10 med 69.0 p25 31 p75 9999
+      rounds without a paint tower                                 n= 10 med 69.0 p25 31 p75 117
+== won games
+  us: built while none: MONEY: 78, games: 96, games with a no-paint-tower spell: 14, won games with spell: 14
+      first such round                                             n= 14 med 72.5 p25 43 p75 159
+      paint held during spells (mean)                              n= 14 med 1408.9 p25 1006.3 p75 1927.0
+      robots alive during spells (mean)                            n= 14 med 10.7 p25 6.4 p75 13.4
+      rounds from first spell to the next paint tower (9999 never) n= 14 med 107.0 p25 70 p75 132
+      rounds without a paint tower                                 n= 14 med 107.0 p25 70 p75 132
+  them: built while none: DEFEN: 3, built while none: MONEY: 216, games: 96, games with a no-paint-tower spell: 32
+      first such round                                             n= 32 med 165.0 p25 92 p75 346
+      paint held during spells (mean)                              n= 32 med 972.4 p25 495.5 p75 1681.8
+      robots alive during spells (mean)                            n= 32 med 9.7 p25 4.4 p75 16.0
+      rounds from first spell to the next paint tower (9999 never) n= 32 med 9999.0 p25 9999 p75 9999
+      rounds without a paint tower                                 n= 32 med 96.0 p25 36 p75 215
+== our towers completed while no paint tower of ours stood (lost games)
+   m3211g0 Brat         r197  MONEY on old money ruin (13, 25), chips 2030, towers 1
+   m3211g0 Brat         r255  MONEY on old money ruin (13, 25), chips 1700, towers 0
+   m3211g1 DefaultSmall r65   MONEY on old money ruin (17, 12), chips 970, towers 1
+   m3213g2 sayhi        r178  MONEY on old money ruin (2, 33), chips 3653, towers 4
+   m3213g2 sayhi        r181  MONEY on new ruin (11, 2), chips 2379, towers 4
+   m3213g2 sayhi        r182  MONEY on old money ruin (6, 12), chips 1471, towers 5
+   m3213g2 sayhi        r192  MONEY on new ruin (2, 17), chips 1048, towers 5
+   m3213g2 sayhi        r204  MONEY on new ruin (5, 5), chips 1181, towers 6
+   m3213g2 sayhi        r209  MONEY on old money ruin (11, 17), chips 963, towers 7
+   m3213g2 sayhi        r220  MONEY on new ruin (13, 9), chips 1114, towers 8
+   m3213g2 sayhi        r230  MONEY on new ruin (2, 23), chips 1361, towers 9
+   m3213g2 sayhi        r247  MONEY on old money ruin (11, 17), chips 3452, towers 9
+   m3213g2 sayhi        r248  MONEY on new ruin (10, 24), chips 2659, towers 10
+   m3213g2 sayhi        r257  MONEY on old money ruin (6, 12), chips 3163, towers 11
+   m3213g2 sayhi        r270  MONEY on old money ruin (5, 5), chips 4564, towers 10
+   m3213g2 sayhi        r279  MONEY on old money ruin (11, 17), chips 4946, towers 9
+   m3213g2 sayhi        r313  MONEY on old money ruin (13, 9), chips 4404, towers 9
+   m3213g2 sayhi        r317  MONEY on old money ruin (13, 9), chips 3884, towers 9
+   m3213g2 sayhi        r334  MONEY on old money ruin (6, 12), chips 3808, towers 8
+   m3213g2 sayhi        r347  MONEY on old money ruin (2, 33), chips 5326, towers 8
+   m3289g0 Bread        r69   MONEY on old money ruin (11, 20), chips 1400, towers 1
+   m3289g0 Bread        r81   MONEY on new ruin (26, 2), chips 980, towers 2
+   m3289g0 Bread        r95   MONEY on new ruin (31, 5), chips 940, towers 3
+   m3289g0 Bread        r132  MONEY on old money ruin (26, 2), chips 2500, towers 4
+   m3289g0 Bread        r159  MONEY on new ruin (8, 2), chips 3360, towers 4
+   m3289g2 Portal       r128  MONEY on old money ruin (21, 32), chips 2550, towers 3
+   m3289g2 Portal       r130  MONEY on old money ruin (5, 20), chips 1420, towers 3
+   m3289g2 Portal       r161  MONEY on new ruin (16, 32), chips 2340, towers 4
+   m3289g2 Portal       r173  MONEY on old money ruin (21, 32), chips 1990, towers 5
+   m3304g1 Piglets2     r233  MONEY on old money ruin (16, 29), chips 2951, towers 5
+   m3304g1 Piglets2     r234  MONEY on old money ruin (27, 10), chips 2041, towers 5
+   m3304g1 Piglets2     r241  MONEY on new ruin (32, 10), chips 1131, towers 6
+   m3304g1 Piglets2     r381  MONEY on old money ruin (16, 29), chips 2585, towers 7
+   m3304g1 Piglets2     r402  MONEY on old money ruin (16, 29), chips 3725, towers 6
+   m3304g1 Piglets2     r415  MONEY on old money ruin (16, 11), chips 3565, towers 5
+   m3306g0 Brat         r85   MONEY on old money ruin (13, 25), chips 970, towers 2
+   m3312g1 defensetower r37   MONEY on new ruin (6, 32), chips 2330, towers 1
+   m3312g1 defensetower r51   MONEY on new ruin (29, 23), chips 1510, towers 2
+   m3312g1 defensetower r89   MONEY on new ruin (36, 36), chips 2160, towers 2
+   m3323g0 Castle       r217  MONEY on old money ruin (17, 2), chips 1640, towers 5
+   m3323g2 Paintball    r68   MONEY on old money ruin (7, 2), chips 2470, towers 2
+   m3324g0 Bread        r291  MONEY on old paint ruin (3, 20), chips 982, towers 1
+   m3324g0 Bread        r333  MONEY on old money ruin (11, 20), chips 994, towers 1
+   m3324g2 quack        r160  MONEY on old money ruin (13, 21), chips 1070, towers 2
+   m3324g2 quack        r182  MONEY on old money ruin (26, 21), chips 990, towers 2
+   m3324g2 quack        r205  MONEY on new ruin (25, 2), chips 990, towers 2
+   m3324g2 quack        r222  MONEY on old money ruin (13, 21), chips 990, towers 3
+   m3513g0 CastleDefens r39   MONEY on new ruin (2, 15), chips 1210, towers 2
+   m3513g0 CastleDefens r96   MONEY on old money ruin (2, 15), chips 3210, towers 1
+   m3513g0 CastleDefens r100  MONEY on old money ruin (17, 12), chips 1840, towers 2
+   m3513g1 DonkeyKong   r87   MONEY on new ruin (40, 12), chips 980, towers 3
+   m3513g1 DonkeyKong   r99   MONEY on old money ruin (29, 17), chips 950, towers 3
+   m3513g1 DonkeyKong   r112  MONEY on old money ruin (29, 22), chips 970, towers 4
+   m3513g1 DonkeyKong   r122  MONEY on new ruin (40, 17), chips 950, towers 5
+   m3513g1 DonkeyKong   r131  MONEY on new ruin (40, 22), chips 970, towers 4
+   m3513g1 DonkeyKong   r141  MONEY on new ruin (17, 17), chips 950, towers 5
+   m3513g1 DonkeyKong   r149  MONEY on new ruin (40, 27), chips 890, towers 6
+   m3513g1 DonkeyKong   r157  MONEY on old money ruin (29, 17), chips 990, towers 7
+   m3513g1 DonkeyKong   r166  MONEY on old money ruin (40, 5), chips 860, towers 8
+   m3513g1 DonkeyKong   r194  MONEY on old money ruin (17, 27), chips 1000, towers 6
+   m3513g1 DonkeyKong   r214  MONEY on old money ruin (40, 27), chips 2030, towers 5
+   m3513g1 DonkeyKong   r216  MONEY on old money ruin (29, 22), chips 1000, towers 6
+   m3513g1 DonkeyKong   r239  MONEY on old money ruin (40, 27), chips 2350, towers 6
+   m3513g1 DonkeyKong   r249  MONEY on old money ruin (40, 27), chips 2160, towers 6
+   m3513g1 DonkeyKong   r251  MONEY on old money ruin (29, 22), chips 1130, towers 6
+   m3513g1 DonkeyKong   r260  MONEY on old money ruin (29, 17), chips 910, towers 6
+   m3513g1 DonkeyKong   r274  MONEY on old money ruin (29, 22), chips 1030, towers 6
+   m3513g2 Justice      r150  MONEY on old money ruin (2, 7), chips 5010, towers 0
+   m3513g2 Justice      r152  MONEY on old money ruin (2, 2), chips 3780, towers 1
+   m3513g2 Justice      r205  MONEY on old money ruin (2, 2), chips 3510, towers 1
+   m3548g0 DefaultLarge r323  MONEY on old money ruin (7, 7), chips 4482, towers 0
+   m3575g0 DefaultSmall r149  MONEY on old money ruin (17, 12), chips 2100, towers 2
+   m3684g0 Snowglobe    r140  MONEY on old money ruin (28, 2), chips 2790, towers 5
+   m3684g0 Snowglobe    r140  MONEY on old money ruin (28, 35), chips 2790, towers 5
+   m3684g0 Snowglobe    r150  MONEY on old money ruin (33, 19), chips 1250, towers 5
+   m3684g0 Snowglobe    r413  MONEY on old money ruin (23, 27), chips 2040, towers 6
+   m3684g0 Snowglobe    r417  MONEY on old money ruin (33, 24), chips 1050, towers 6
+   m3684g0 Snowglobe    r438  MONEY on old money ruin (31, 14), chips 2430, towers 7
+   m3684g0 Snowglobe    r449  MONEY on old money ruin (22, 37), chips 2530, towers 8
+   m3684g2 starburst    r249  MONEY on old money ruin (24, 7), chips 2770, towers 2
+   m3702g2 sierpinski   r356  MONEY on old money ruin (31, 16), chips 5850, towers 4
+   m3789g1 TargetPracti r134  MONEY on old money ruin (10, 2), chips 5920, towers 1
+   m3946g1 Terminal     r113  MONEY on old money ruin (29, 14), chips 940, towers 5
+   m3946g1 Terminal     r127  MONEY on old money ruin (29, 14), chips 1100, towers 6
+   m3946g1 Terminal     r147  MONEY on old money ruin (34, 14), chips 1410, towers 4
+   m3946g1 Terminal     r153  MONEY on old money ruin (17, 5), chips 990, towers 5
+   m3946g1 Terminal     r177  MONEY on old money ruin (17, 5), chips 1330, towers 4
+   m3946g1 Terminal     r203  MONEY on old money ruin (27, 24), chips 1640, towers 3
+   m3946g1 Terminal     r225  MONEY on old money ruin (27, 24), chips 1750, towers 2
+   m3946g1 Terminal     r229  MONEY on old money ruin (23, 5), chips 970, towers 2
+   m3951g0 Paintball    r177  MONEY on old money ruin (7, 17), chips 980, towers 1
+   totals: MONEY on new ruin: 21, MONEY on old money ruin: 69, MONEY on old paint ruin: 1

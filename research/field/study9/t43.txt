@@ -1,0 +1,36 @@
+== small maps, lost
+   game           map            end  | US: contact dmg kill  towers r25/50/100  spawns<=r50 <=r100  1st mop  no-PT-from | THEM: same
+   m3211g1 subscrib DefaultSmall   122 |   25   26   35M    3/2/0    S7M0X0    S7M0X0  None    62 |   18   25   33M    3/3/2    S8M1X0    S9M3X0    20  None
+   m3214g1 immutabl Snowman        158 |   27   46   69M    3/4/5    S8M0X0   S12M0X0  None  None |   44   28  126M    3/3/3    S5M3X1    S5M4X2     4  None
+   m3289g1 gone-wha Justice        460 |    2   25   74M    3/4/4    S8M0X0   S11M1X0    80    57 |   24   14   57P    4/4/4    S5M1X0    S7M6X0    44   211
+   m3306g2 scienceq FourCorners    307 |   20   28   74P    2/2/2    S7M0X0    S7M0X0  None   128 |   21   21  128P    2/4/4    S6M2X0    S8M2X0    28    74
+   m3323g2 varunvej Paintball      223 |   21   28   46M    3/3/2    S8M0X0   S10M0X0   163    56 |   16   23   56P    4/4/4    S6M2X0    S6M2X0    39  None
+   m3324g1 varunvej Justice        290 |    4   38     -    4/3/3    S8M0X0    S8M1X0    81   277 |   19   18   34M    3/4/5    S7M1X0   S11M5X0    39  None
+   m3409g1 lobster- DefaultSmall   204 |   20   13   61M    2/2/2    S6M0X0    S7M0X1   185  None |   12   22  156M    3/4/5    S5M3X0    S6M6X0    13  None
+   m3409g2 lobster- Justice        541 |   21   25   37M    4/4/5    S8M0X0   S12M2X0    80  None |   25   26   50M    4/3/3    S7M2X0    S8M6X0    37  None
+   m3449g1 angtn    Racetrack      521 |   55   51   75M    4/5/7    S8M0X0   S13M2X0    81  None |   49   57  205M    3/5/4    S5M0X1    S5M2X7    67  None
+   m3513g0 varunvej CastleDefense  203 |   14   23   52P    3/3/3    S7M0X0    S9M2X0    80    33 |   21   16   33P    3/4/3    S5M4X0    S8M5X0    34    52
+   m3513g2 varunvej Justice        237 |    2   17   46M    3/4/3    S8M0X0    S9M0X1   154   101 |   13   34   88M    4/4/6    S5M2X0   S12M3X0    32  None
+   m3515g2 slifland Justice        638 |   11   19   42M    3/3/5    S8M0X0   S12M1X1    84   602 |    3   23   48M    3/3/4    S6M2X0   S10M3X0    15  None
+   m3547g0 angtn    DefaultSmall   388 |   10   15   49M    2/3/3    S8M0X0    S8M0X1   179  None |   13   12     -    3/4/3    S4M1X2    S4M2X2    16  None
+   m3575g0 gone-wha DefaultSmall   261 |   12   35   78M    3/3/3    S8M0X0   S11M1X0    80   114 |   19   14   82M    2/3/3    S5M2X0    S5M6X0    20  None
+   m3575g2 gone-wha Justice        421 |    2   24   80M    3/3/5    S8M0X0   S11M2X1    86  None |   23   14   50M    4/4/3    S5M2X0   S5M10X0    47  None
+   m3583g0 gone-wha Jail           108 |    9   29   56M    2/0/0    S5M0X0    S5M0X0  None    27 |   27   11   27P    2/2/2    S5M4X0    S5M5X0    28  None
+   m3583g2 gone-wha Racetrack      433 |   35   46   72M    4/5/6    S7M0X0   S11M1X1    96  None |   45   36   57M    4/5/5    S5M0X0    S5M7X0    56  None
+   m3829g1 immutabl CastleDefense  111 |   25   28   53M    3/4/2    S8M0X0    S9M0X0  None  None |   26   27   60M    3/3/4    S6M3X1    S7M4X1     4    74
+   m3899g1 subscrib Filter         241 |   24   22   48M    3/2/2    S8M0X0    S9M0X0   124   100 |   20   26   36M    3/2/3    S7M3X0    S8M4X1    28  None
+   m3914g1 subscrib Snowman        365 |   19   20   27M    3/3/2    S8M0X0    S8M0X0   201   293 |   20   24   33M    3/3/4    S8M0X0    S8M5X1    58  None
+   m3931g2 subscrib Paintball      192 |   22   22   35M    3/2/0    S8M0X0    S8M0X0  None    95 |   17   24   31M    3/2/4    S7M1X0    S8M2X0    49  None
+   m3944g1 scienceq Snowman        236 |   18   41   83M    3/3/2    S8M0X0    S8M0X0  None   236 |   34   21   33M    3/3/2    S7M1X0    S8M3X0    35   127
+   m3951g0 varunvej Paintball      308 |   21   22   41M    3/3/3    S8M0X0    S8M0X0   150   175 |   17   23   42M    4/3/3    S6M0X0    S7M0X0   194  None
+== small maps, won
+   game           map            end  | US: contact dmg kill  towers r25/50/100  spawns<=r50 <=r100  1st mop  no-PT-from | THEM: same
+   m3304g0 gone-wha Circuit        272 |    2   31  170M    3/4/6    S8M0X0   S12M2X0    91  None |    4   28   46M    3/4/5    S4M3X0    S4M8X0    10  None
+   m3312g0 slifland Jail           287 |    9   22   32M    3/2/2    S8M0X0    S9M0X0  None  None |   19   16   41M    3/2/0    S6M1X0    S6M1X0    15    90
+   m3426g0 angtn    Filter         257 |   11   32   44P    3/4/4    S8M0X0   S12M0X1   166  None |   28   13     -    2/1/1    S4M2X1    S4M3X1    33    44
+   m3515g1 slifland FourCorners    266 |   23   29   67M    2/3/2    S7M0X0    S9M1X0    82    63 |   28   24   63P    2/3/3    S8M1X0   S11M2X1    15   118
+   m3549g0 slifland Justice        426 |   19   19   53M    3/3/3    S7M0X0   S11M0X0   138  None |    3   27   70M    3/4/5    S8M1X0    S9M3X0    15   416
+   m3583g1 gone-wha Paintball      206 |   15   30   42M    3/3/4    S7M0X0   S11M1X0    89    31 |   17   16   31P    3/4/2    S5M0X0    S5M0X0  None   133
+   m3655g0 slifland DefaultSmall  1942 |   12   16   48M    2/3/2    S8M0X0    S8M0X0   193  None |   15   13   51M    2/2/2    S8M1X0   S11M2X0    15    77
+   m3771g1 gone-wha DefaultSmall   210 |   12   33   45M    3/3/3    S7M0X0   S10M1X0    94    30 |   31   14   30P    3/3/0    S5M1X0    S5M5X0    47   100
+   m3790g0 gone-wha CastleDefense  238 |   12   29   49P    3/3/3    S7M0X0   S10M1X0    93    31 |   23   14   31P    3/2/2    S5M4X0    S5M7X0    30    49

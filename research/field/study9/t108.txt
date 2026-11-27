@@ -1,0 +1,148 @@
+
+== gone-whalin: we lost 14, won 21
+  lost: 14 games, median end r422.5, eliminations 2; maps: galaxy(MAJ550), lighthouse(MAJ308), Bread(MAJ375), Justice(MAJ460), Portal(MAJ424), Piglets2(MAJ607), DefaultSmall(MAJ261), Justice(MAJ421), Jail(ALL108), Racetrack(MAJ433), TargetPractice(MAJ218), boxofchocolates(MAJ513), defensetower(ALL142), starburst(MAJ496)
+     first tower kill on us r57.0, on them r73.0  (games with a kill on us by r100: 13, on them: 11)
+     r50  (14) T 2.5/3.5  P 1.0/1.0  S 7.0/5.0  X 0.0/0.0  M 0.0/1.5  cov 17.1/14.2  $ 1035.0/1265.0
+     r100 (14) T 4.0/4.0  P 1.0/1.0  S 6.0/5.0  X 0.0/0.0  M 0.0/5.5  cov 25.8/16.4  $ 1245.0/1580.0
+     r200 (12) T 5.0/6.0  P 1.0/1.0  S 3.5/6.5  X 0.5/0.0  M 2.0/9.5  cov 31.4/35.8  $ 2608.0/2345.0
+     r300 (10) T 5.0/8.5  P 1.0/1.0  S 3.5/7.5  X 1.0/2.0  M 2.5/12.0  cov 27.3/42.8  $ 3455.0/2880.0
+  won: 21 games, median end r388, eliminations 1; maps: maze(ARE2000), Circuit(MAJ272), sierpinski(MAJ530), SMILE(MAJ388), Snowglobe(MAJ540), sierpinski(MAJ532), HungerGames(MAJ352), Paintball(MAJ206), DefaultHuge(MAJ467), Mirage(ALL139), TheBest(MAJ349), AlarmClock(MAJ731), DefaultSmall(MAJ210), Leaf(MAJ372), DefaultLarge(MAJ453), UnderTheSea(MAJ330), CastleDefense(MAJ238), SMILE(MAJ435), HungerGames(MAJ511), headphones(MAJ807), sierpinski(MAJ321)
+     first tower kill on us r81.5, on them r112  (games with a kill on us by r100: 11, on them: 8)
+     r50  (21) T 3/4  P 1/1  S 8/5  X 0/0  M 0/0  cov 12.4/11.0  $ 860/980
+     r100 (21) T 6/5  P 1/1  S 8/5  X 0/0  M 1/5  cov 20.3/11.6  $ 1070/2360
+     r200 (20) T 7.0/7.5  P 2.0/1.0  S 11.5/13.5  X 2.0/0.0  M 5.0/11.5  cov 40.2/14.6  $ 1963.5/2290.0
+     r300 (16) T 14.0/11.5  P 6.0/1.0  S 19.5/12.0  X 11.0/1.0  M 10.0/16.5  cov 52.4/17.1  $ 1221.5/2970.0
+
+== varunvejalla: we lost 12, won 9
+  lost: 12 games, median end r266.0, eliminations 7; maps: Castle(MAJ481), DefaultMedium(ALL240), Paintball(ALL223), Bread(ALL485), Justice(MAJ290), quack(ALL255), catface(ALL246), CastleDefense(ALL203), DonkeyKong(MAJ532), Justice(MAJ237), Terminal(ALL277), Paintball(MAJ308)
+     first tower kill on us r49.0, on them r55  (games with a kill on us by r100: 11, on them: 10)
+     r50  (12) T 3.0/4.0  P 1.0/1.0  S 7.0/5.5  X 0.0/0.0  M 0.0/1.0  cov 20.9/21.8  $ 920.0/720.0
+     r100 (12) T 3.5/4.5  P 1.0/1.0  S 5.0/7.0  X 0.0/0.0  M 0.0/3.5  cov 29.8/27.8  $ 790.0/970.0
+     r200 (12) T 1.5/5.5  P 0.0/1.0  S 3.0/10.5  X 0.0/0.0  M 1.0/7.5  cov 25.9/42.4  $ 1240.0/1525.0
+     r300 ( 4) T 3.0/5.5  P 0.5/1.0  S 3.5/10.0  X 0.5/4.5  M 2.5/8.0  cov 32.8/42.1  $ 735.0/2485.0
+  won: 9 games, median end r368, eliminations 0; maps: Parking_lot(MAJ357), lighthouse(MAJ340), Leaf(MAJ590), TheBest(MAJ420), sayhi(MAJ368), Gears(MAJ387), mit(MAJ319), leavemealone(MAJ383), walalilongla(MAJ353)
+     first tower kill on us r74.0, on them r144  (games with a kill on us by r100: 6, on them: 2)
+     r50  ( 9) T 4/4  P 1/1  S 8/6  X 0/0  M 0/1  cov 9.8/9.8  $ 920/840
+     r100 ( 9) T 6/5  P 1/1  S 8/8  X 0/0  M 1/3  cov 15.2/13.3  $ 980/2240
+     r200 ( 9) T 10/5  P 3/1  S 12/13  X 2/0  M 6/6  cov 35.8/18.4  $ 1410/1970
+     r300 ( 9) T 12/6  P 5/0  S 18/11  X 11/0  M 10/8  cov 57.8/18.7  $ 1172/2020
+
+== subscribe-to-caterpillow: we lost 10, won 4
+  lost: 10 games, median end r419.5, eliminations 4; maps: Brat(ALL554), DefaultSmall(ALL122), Piglets2(MAJ457), Bunny(MAJ474), Piglets2(MAJ436), DefaultHuge(MAJ461), Filter(ALL241), Snowman(ALL365), Oasis(MAJ403), Paintball(MAJ192)
+     first tower kill on us r49.5, on them r72.0  (games with a kill on us by r100: 8, on them: 6)
+     r50  (10) T 3.0/3.0  P 1.0/1.0  S 7.0/7.0  X 0.0/0.0  M 0.0/1.0  cov 14.9/18.4  $ 680.0/665.0
+     r100 (10) T 2.0/4.0  P 1.0/1.0  S 6.0/7.0  X 0.0/0.0  M 0.5/2.0  cov 19.6/25.1  $ 785.0/919.0
+     r200 ( 8) T 5.0/6.0  P 1.5/2.0  S 6.5/6.5  X 2.0/3.5  M 2.5/4.0  cov 29.8/31.4  $ 1809.0/2322.5
+     r300 ( 7) T 6/7  P 2/3  S 7/5  X 3/13  M 2/11  cov 31.8/43.4  $ 1480/3540
+  won: 4 games, median end r415.0, eliminations 0; maps: roads(MAJ361), gardenworld(MAJ615), Castle(MAJ342), memstore(MAJ469)
+     first tower kill on us r68.0, on them r40.5  (games with a kill on us by r100: 3, on them: 3)
+     r50  ( 4) T 4.5/3.5  P 1.0/1.0  S 7.5/7.0  X 0.0/0.0  M 0.0/1.0  cov 14.0/17.2  $ 575.0/535.0
+     r100 ( 4) T 6.0/5.5  P 1.0/1.5  S 8.5/8.0  X 0.0/0.0  M 2.0/0.5  cov 23.9/21.6  $ 1035.0/713.5
+     r200 ( 4) T 9.0/7.0  P 2.0/2.5  S 11.0/6.0  X 3.0/3.5  M 4.0/7.0  cov 42.6/31.2  $ 1703.0/1663.0
+     r300 ( 4) T 7.5/6.0  P 1.5/3.5  S 12.5/4.5  X 7.5/8.5  M 4.5/11.5  cov 54.7/31.8  $ 2644.5/1083.5
+
+== immutable: we lost 10, won 11
+  lost: 10 games, median end r345.5, eliminations 0; maps: Portal(MAJ414), Snowman(MAJ158), starburst(MAJ270), roads(MAJ307), sierpinski(MAJ412), Fossil(MAJ384), Castle(MAJ235), CastleDefense(MAJ111), Snowglobe(MAJ491), memstore(MAJ456)
+     first tower kill on us r131.5, on them r69.5  (games with a kill on us by r100: 3, on them: 9)
+     r50  (10) T 4.0/4.0  P 1.0/1.0  S 7.0/6.0  X 0.0/0.0  M 0.0/1.0  cov 16.9/23.1  $ 795.0/695.0
+     r100 (10) T 6.0/4.0  P 1.0/1.0  S 8.5/7.5  X 0.0/0.5  M 1.5/3.0  cov 26.0/37.0  $ 1260.0/555.0
+     r200 ( 8) T 7.0/6.0  P 1.5/1.5  S 3.5/10.0  X 2.0/3.5  M 4.5/7.0  cov 36.3/48.8  $ 2755.0/1668.5
+     r300 ( 6) T 8.0/9.5  P 2.5/3.5  S 4.5/11.0  X 3.0/7.5  M 5.0/10.0  cov 37.5/47.7  $ 1895.0/1150.0
+  won: 11 games, median end r372, eliminations 0; maps: box(MAJ273), catface(MAJ432), gardenworld(MAJ360), Flower(MAJ372), SMILE(MAJ327), box(MAJ231), quack(MAJ504), SandyBeach(MAJ306), shell(MAJ827), Leaf(MAJ408), MoneyTower(MAJ443)
+     first tower kill on us r85.5, on them r121.0  (games with a kill on us by r100: 6, on them: 4)
+     r50  (11) T 4/4  P 1/1  S 8/7  X 0/0  M 0/1  cov 10.7/16.9  $ 930/940
+     r100 (11) T 6/5  P 1/1  S 9/9  X 0/0  M 1/3  cov 19.9/22.4  $ 1140/1170
+     r200 (11) T 7/5  P 2/1  S 12/8  X 3/2  M 6/5  cov 38.0/28.1  $ 1358/1020
+     r300 ( 9) T 11/5  P 4/1  S 16/10  X 7/6  M 10/6  cov 51.3/29.8  $ 1376/994
+
+== lobster-roll: we lost 10, won 4
+  lost: 10 games, median end r501.5, eliminations 0; maps: PlumberGame(MAJ622), Portal(MAJ429), DefaultMedium(MAJ377), DefaultSmall(MAJ204), Justice(MAJ541), Castle(MAJ499), Money(MAJ385), roads(MAJ674), Bunny(MAJ504), MoneyTower(MAJ877)
+     first tower kill on us r133.0, on them r92.5  (games with a kill on us by r100: 3, on them: 8)
+     r50  (10) T 4.0/4.0  P 1.0/1.0  S 8.0/5.0  X 0.0/0.0  M 0.0/1.0  cov 19.9/21.8  $ 560.0/740.0
+     r100 (10) T 6.0/5.0  P 1.0/1.5  S 9.0/5.0  X 0.0/0.0  M 1.5/5.5  cov 26.4/28.9  $ 1305.0/791.0
+     r200 (10) T 7.0/7.5  P 1.5/2.0  S 6.0/6.0  X 1.0/3.0  M 3.0/10.0  cov 34.8/34.7  $ 3009.0/975.0
+     r300 ( 9) T 6/8  P 2/2  S 3/7  X 2/5  M 2/14  cov 36.7/44.2  $ 4930/2340
+  won: 4 games, median end r555.5, eliminations 0; maps: fix(MAJ534), DefaultMedium(MAJ392), gardenworld(MAJ577), maze(MAJ1178)
+     first tower kill on us r266.0, on them r188.5  (games with a kill on us by r100: 0, on them: 1)
+     r50  ( 4) T 4.5/4.5  P 1.0/1.0  S 8.0/5.0  X 0.0/0.0  M 0.0/1.0  cov 6.9/7.5  $ 475.0/730.0
+     r100 ( 4) T 8.5/7.5  P 1.5/1.0  S 9.0/7.0  X 0.0/0.0  M 1.5/4.0  cov 13.3/13.3  $ 1165.0/715.5
+     r200 ( 4) T 10.5/9.0  P 3.5/2.0  S 9.5/5.0  X 5.0/2.5  M 4.5/11.0  cov 29.1/21.5  $ 1378.5/3297.0
+     r300 ( 4) T 12.0/9.5  P 4.0/2.0  S 13.5/6.0  X 9.5/6.5  M 6.5/14.5  cov 40.5/24.4  $ 1872.0/4722.5
+
+== placeholder-name-2: we lost 9, won 8
+  lost: 9 games, median end r456, eliminations 2; maps: DefaultHuge(MAJ400), UglySweater(MAJ472), Crab(MAJ469), BunnyGame(ALL237), defensetower(MAJ524), Bunny(MAJ386), Restart(ALL300), DefaultHuge(MAJ685), Piglets2(MAJ456)
+     first tower kill on us r150, on them r113.5  (games with a kill on us by r100: 0, on them: 4)
+     r50  ( 9) T 4/5  P 1/1  S 7/5  X 0/0  M 0/0  cov 11.3/15.0  $ 980/870
+     r100 ( 9) T 5/6  P 1/2  S 7/6  X 0/0  M 0/3  cov 16.3/18.5  $ 1610/950
+     r200 ( 9) T 6/8  P 1/3  S 9/10  X 3/3  M 4/9  cov 28.9/28.3  $ 2097/1190
+     r300 ( 8) T 5.0/10.5  P 1.5/4.5  S 9.5/28.0  X 3.0/11.0  M 4.0/21.0  cov 33.2/45.7  $ 1369.5/895.0
+  won: 8 games, median end r502.0, eliminations 0; maps: Rose(MAJ568), SaltyPepper(MAJ533), maze(MAJ477), gardenworld(MAJ533), SaltyPepper(MAJ383), SMILE(MAJ492), lighthouse(MAJ392), maze(MAJ512)
+     first tower kill on us r155, on them r119.5  (games with a kill on us by r100: 1, on them: 4)
+     r50  ( 8) T 3.0/3.0  P 1.0/1.0  S 8.0/5.0  X 0.0/0.0  M 0.0/0.5  cov 10.1/14.4  $ 1150.0/840.0
+     r100 ( 8) T 6.0/4.5  P 1.0/1.0  S 10.0/6.0  X 0.0/0.0  M 1.0/3.5  cov 15.2/18.8  $ 1055.0/989.5
+     r200 ( 8) T 11.0/6.5  P 4.0/3.0  S 13.0/7.0  X 2.0/2.5  M 5.0/8.0  cov 29.7/23.9  $ 1792.5/1219.0
+     r300 ( 8) T 9.0/8.0  P 5.5/2.5  S 16.0/11.5  X 16.0/4.0  M 11.0/12.5  cov 44.1/33.0  $ 1455.5/1217.0
+
+== scienceqiu: we lost 9, won 3
+  lost: 9 games, median end r307, eliminations 5; maps: Brat(ALL301), BunnyGame(ALL189), FourCorners(MAJ307), DefaultLarge(MAJ331), Snowglobe(MAJ529), starburst(ALL358), Mirage(ALL299), Snowman(ALL236), giver(MAJ468)
+     first tower kill on us r44, on them r67.0  (games with a kill on us by r100: 7, on them: 7)
+     r50  ( 9) T 3/4  P 1/1  S 7/7  X 0/0  M 0/1  cov 13.0/19.6  $ 920/670
+     r100 ( 9) T 4/4  P 1/1  S 5/4  X 0/0  M 0/2  cov 20.8/30.0  $ 980/610
+     r200 ( 8) T 4.5/5.5  P 1.0/2.0  S 3.0/7.0  X 0.0/0.0  M 1.5/5.5  cov 27.6/38.5  $ 1797.5/1036.0
+     r300 ( 6) T 1.0/9.5  P 0.0/3.0  S 2.0/15.0  X 1.0/2.0  M 2.0/9.5  cov 26.5/50.0  $ 4042.5/1273.5
+  won: 3 games, median end r370, eliminations 0; maps: SaltyPepper(MAJ348), shell(MAJ394), mit(MAJ370)
+     first tower kill on us r99, on them r125  (games with a kill on us by r100: 2, on them: 1)
+     r50  ( 3) T 4/5  P 1/1  S 8/8  X 0/0  M 0/0  cov 9.4/12.4  $ 860/80
+     r100 ( 3) T 6/6  P 1/1  S 11/9  X 0/0  M 3/1  cov 20.2/23.8  $ 1140/1030
+     r200 ( 3) T 10/7  P 2/2  S 10/6  X 2/1  M 8/8  cov 40.2/28.6  $ 1161/1165
+     r300 ( 3) T 13/7  P 5/2  S 17/8  X 10/0  M 7/6  cov 54.7/24.2  $ 2621/1258
+
+== angtn: we lost 7, won 14
+  lost: 7 games, median end r396, eliminations 0; maps: yearofthesnake(MAJ1731), Portal(MAJ349), Racetrack(MAJ521), DefaultSmall(MAJ388), Bunny(MAJ404), rain(MAJ396), sierpinski(MAJ395)
+     first tower kill on us r126.5, on them r58  (games with a kill on us by r100: 1, on them: 7)
+     r50  ( 7) T 4/4  P 1/1  S 7/5  X 0/2  M 0/0  cov 15.8/23.6  $ 990/630
+     r100 ( 7) T 5/4  P 1/2  S 9/6  X 1/3  M 2/3  cov 19.2/36.0  $ 1870/700
+     r200 ( 7) T 5/6  P 1/2  S 5/4  X 2/6  M 3/7  cov 26.2/44.0  $ 1840/1226
+     r300 ( 7) T 6/8  P 2/2  S 5/6  X 2/10  M 3/12  cov 20.9/53.4  $ 2970/1030
+  won: 14 games, median end r438.5, eliminations 0; maps: Crab(MAJ331), SMILE(ARE2000), shell(MAJ969), Filter(MAJ257), headphones(MAJ426), leavemealone(MAJ444), AlarmClock(MAJ290), Gears(MAJ455), SMILE(MAJ448), maze(MAJ631), boxofchocolates(MAJ536), Bread(MAJ317), Restart(MAJ433), TheBest(MAJ416)
+     first tower kill on us r256, on them r141.5  (games with a kill on us by r100: 2, on them: 5)
+     r50  (14) T 4.0/4.0  P 1.0/1.0  S 7.0/6.0  X 0.0/1.0  M 0.0/0.0  cov 11.2/14.1  $ 930.0/835.0
+     r100 (14) T 6.0/4.5  P 1.0/1.5  S 9.0/6.5  X 0.0/2.0  M 1.0/3.0  cov 16.8/21.8  $ 1075.0/1060.0
+     r200 (14) T 9.0/6.0  P 3.0/2.0  S 11.0/3.0  X 3.0/6.0  M 4.0/7.0  cov 30.4/27.7  $ 1902.5/1490.0
+     r300 (12) T 10.0/7.0  P 4.5/2.0  S 14.0/2.5  X 10.5/7.0  M 7.5/8.5  cov 43.8/27.2  $ 1240.0/2184.0
+
+== om-nom: we lost 3, won 0
+  lost: 3 games, median end r536, eliminations 0; maps: Gears(MAJ536), TheBest(MAJ422), sayhi(MAJ571)
+     first tower kill on us r67, on them r76  (games with a kill on us by r100: 2, on them: 3)
+     r50  ( 3) T 4/3  P 1/1  S 7/5  X 0/0  M 0/2  cov 8.8/10.3  $ 730/970
+     r100 ( 3) T 7/5  P 1/1  S 8/5  X 0/1  M 1/4  cov 15.2/15.1  $ 1130/900
+     r200 ( 3) T 8/6  P 3/2  S 9/9  X 2/3  M 5/7  cov 28.3/24.5  $ 1017/2006
+     r300 ( 3) T 9/9  P 2/3  S 11/16  X 9/8  M 7/13  cov 37.3/37.0  $ 1894/1470
+
+== slifland: we lost 3, won 12
+  lost: 3 games, median end r638, eliminations 0; maps: defensetower(MAJ747), Justice(MAJ638), Portal(MAJ290)
+     first tower kill on us r48, on them r42  (games with a kill on us by r100: 2, on them: 3)
+     r50  ( 3) T 3/3  P 1/1  S 6/5  X 0/0  M 0/2  cov 14.5/18.6  $ 940/230
+     r100 ( 3) T 5/4  P 1/2  S 7/7  X 0/0  M 2/3  cov 22.5/27.6  $ 1430/280
+     r200 ( 3) T 4/6  P 1/3  S 4/5  X 0/5  M 3/6  cov 19.3/37.8  $ 2499/240
+     r300 ( 2) T 4.5/6.0  P 2.0/3.5  S 5.0/4.5  X 3.5/7.5  M 1.5/6.0  cov 26.2/40.0  $ 4437.0/1279.5
+  won: 12 games, median end r415.0, eliminations 1; maps: Jail(MAJ287), gridworld(MAJ404), Flower(MAJ379), FourCorners(MAJ266), Justice(MAJ426), Leaf(MAJ605), lighthouse(ALL205), DefaultSmall(MAJ1942), fix(MAJ690), walalilongla(MAJ467), PlumberGame(MAJ299), sunrise(MAJ433)
+     first tower kill on us r86.0, on them r66.0  (games with a kill on us by r100: 7, on them: 10)
+     r50  (12) T 3.0/4.0  P 1.0/1.0  S 7.0/7.0  X 0.0/0.0  M 0.0/1.0  cov 15.2/15.9  $ 870.0/420.0
+     r100 (12) T 5.0/4.0  P 1.0/1.0  S 7.5/7.5  X 0.0/0.0  M 0.5/1.0  cov 23.4/20.2  $ 1185.0/690.0
+     r200 (12) T 5.0/4.5  P 1.5/1.5  S 7.5/2.5  X 1.0/2.5  M 3.5/4.0  cov 35.3/26.2  $ 1623.5/890.0
+     r300 ( 8) T 7.5/5.0  P 2.5/2.5  S 9.0/2.0  X 5.0/6.0  M 5.5/3.0  cov 45.8/30.1  $ 2106.0/1315.5
+
+== spaark: we lost 2, won 1
+  lost: 2 games, median end r434.5, eliminations 0; maps: Bunny(MAJ596), Castle(MAJ273)
+     first tower kill on us r123.5, on them r74.0  (games with a kill on us by r100: 1, on them: 2)
+     r50  ( 2) T 4.0/4.0  P 1.0/1.0  S 8.0/6.0  X 0.0/0.0  M 0.0/1.0  cov 22.3/25.5  $ 740.0/1310.0
+     r100 ( 2) T 4.5/4.0  P 1.0/1.5  S 8.5/7.0  X 0.0/0.5  M 1.0/2.5  cov 29.9/32.6  $ 2000.0/1900.0
+     r200 ( 2) T 3.5/7.0  P 1.5/1.5  S 3.5/10.0  X 2.5/2.0  M 2.0/6.5  cov 26.9/46.8  $ 3264.0/2102.5
+     r300 ( 1) T 4/9  P 1/3  S 4/8  X 4/1  M 5/8  cov 37.5/30.3  $ 2923/3030
+  won: 1 games, median end r374, eliminations 0; maps: galaxy(MAJ374)
+     first tower kill on us r80, on them r66  (games with a kill on us by r100: 1, on them: 1)
+     r50  ( 1) T 4/4  P 1/1  S 7/5  X 0/0  M 0/2  cov 16.9/17.1  $ 810/650
+     r100 ( 1) T 6/4  P 1/1  S 10/8  X 0/1  M 1/3  cov 25.3/21.3  $ 1020/1060
+     r200 ( 1) T 9/8  P 3/1  S 12/15  X 1/2  M 7/4  cov 38.0/28.1  $ 1700/2543
+     r300 ( 1) T 12/8  P 5/1  S 13/12  X 7/0  M 10/3  cov 53.4/25.5  $ 1177/1209

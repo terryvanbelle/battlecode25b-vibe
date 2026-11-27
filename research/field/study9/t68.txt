@@ -1,0 +1,18 @@
+== lost games reaching r250: 71.  r101-250 per game: median (sum) us | them
+   at r100              5 (389) | 5 (357)
+   new ruin             1 (134) | 2 (223)
+   rebuilt after kill   1 (126) | 1 (127)
+   taken from them      0 (0) | 0 (17)
+   churn rebuild        2 (169) | 0 (90)
+   killed               2 (222) | 2 (123)
+   churned              2 (178) | 0 (95)
+   at r250              6 (418) | 7 (596)
+== won games reaching r250: 90.  r101-250 per game: median (sum) us | them
+   at r100              6.0 (576) | 5.0 (477)
+   new ruin             3.0 (383) | 2.0 (271)
+   rebuilt after kill   1.0 (180) | 1.0 (119)
+   taken from them      0.0 (9) | 0.0 (6)
+   churn rebuild        3.0 (317) | 0.0 (171)
+   killed               2.0 (222) | 2.0 (182)
+   churned              3.0 (334) | 0.0 (177)
+   at r250              10.0 (909) | 6.5 (685)

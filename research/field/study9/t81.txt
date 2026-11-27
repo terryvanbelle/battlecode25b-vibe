@@ -1,0 +1,459 @@
+20 elimination losses, 2 elimination wins
+
+summary: game map opp ver end | contact on our towers / theirs | spawns <=r50 us / them | <=r100 us / them | towers r50, r100 us/them | robots r50, r100 us/them
+   m3211g0 Brat         subscribe- t91  L r554  | 56 / 29 | S8X0M0 / S7X0M2 | S11X0M1 / S9X0M3 | 3/2, 1/4 | 6/9, 8/10
+   m3211g1 DefaultSmall subscribe- t91  L r122  | 25 / 18 | S7X0M0 / S8X0M1 | S7X0M0 / S9X0M3 | 2/3, 0/2 | 7/8, 5/10
+   m3306g0 Brat         scienceqiu y195 L r301  | 28 / 30 | S8X0M0 / S7X0M1 | S9X0M1 / S9X0M3 | 2/2, 3/4 | 7/6, 3/7
+   m3306g1 BunnyGame    scienceqiu y195 L r189  | 68 / 16 | S6X0M0 / S8X0M0 | S9X0M0 / S13X0M2 | 2/4, 2/6 | 6/8, 6/12
+   m3323g1 DefaultMedium varunvejal y195 L r240  | 41 / 62 | S8X0M0 / S6X0M0 | S9X0M2 / S12X0M4 | 5/6, 7/9 | 8/6, 7/11
+   m3323g2 Paintball    varunvejal y195 L r223  | 21 / 16 | S8X0M0 / S6X0M2 | S10X0M0 / S6X0M2 | 3/4, 2/4 | 7/7, 4/3
+   m3324g0 Bread        varunvejal y195 L r485  | 29 / 22 | S8X0M0 / S7X0M1 | S10X0M0 / S12X0M3 | 3/4, 6/4 | 7/8, 8/13
+   m3324g2 quack        varunvejal y195 L r255  | 25 / 14 | S8X0M0 / S4X0M1 | S8X0M0 / S11X0M1 | 3/5, 6/6 | 7/5, 3/9
+   m3410g0 BunnyGame    placeholde y197 L r237  | 55 / 16 | S7X0M0 / S5X0M2 | S8X1M0 / S6X0M4 | 3/4, 3/4 | 7/7, 6/8
+   m3450g1 catface      varunvejal y197 L r246  | 52 / 25 | S7X0M0 / S6X0M1 | S9X0M0 / S8X0M4 | 2/3, 2/3 | 6/7, 5/10
+   m3513g0 CastleDefense varunvejal y211 L r203  | 14 / 21 | S7X0M0 / S5X0M4 | S9X0M2 / S8X0M5 | 3/4, 3/3 | 5/8, 5/8
+   m3514g1 Restart      placeholde y211 L r300  | 79 / 42 | S8X0M0 / S5X0M0 | S9X1M1 / S6X1M7 | 3/5, 4/6 | 8/5, 5/14
+   m3583g0 Jail         gone-whali y211 L r108  | 9 / 27 | S5X0M0 / S5X0M4 | S5X0M0 / S5X0M5 | 0/2, 0/2 | 4/9, 1/9
+   m3684g2 starburst    scienceqiu y211 L r358  | 29 / 31 | S8X0M0 / S7X0M2 | S10X0M1 / S9X0M4 | 4/3, 5/5 | 8/9, 6/5
+   m3790g2 defensetower gone-whali y221 L r142  | 31 / 15 | S6X0M0 / S5X0M2 | S7X0M0 / S8X0M3 | 2/3, 0/4 | 4/7, 4/8
+   m3899g1 Filter       subscribe- y221 L r241  | 24 / 20 | S8X0M0 / S7X0M3 | S9X0M0 / S8X1M4 | 2/2, 2/3 | 7/10, 3/7
+   m3914g1 Snowman      subscribe- y221 L r365  | 19 / 20 | S8X0M0 / S8X0M0 | S8X0M0 / S8X1M5 | 3/3, 2/4 | 8/7, 4/10
+   m3944g0 Mirage       scienceqiu y221 L r299  | 2 / 3 | S7X0M0 / S8X0M0 | S7X0M0 / S12X0M1 | 3/4, 5/7 | 6/8, 6/10
+   m3944g1 Snowman      scienceqiu y221 L r236  | 18 / 34 | S8X0M0 / S7X0M1 | S8X0M0 / S8X0M3 | 3/3, 2/2 | 8/6, 4/5
+   m3946g1 Terminal     varunvejal y221 L r277  | 44 / 26 | S8X0M0 / S5X0M0 | S8X0M0 / S14X0M5 | 4/6, 6/6 | 7/5, 6/15
+   m3549g2 lighthouse   slifland   y211 W r205  | 25 / 24 | S8X0M0 / S7X0M1 | S11X0M0 / S8X0M1 | 3/2, 4/1 | 6/6, 8/5
+   m3698g1 Mirage       gone-whali y211 W r139  | 2 / 2 | S8X0M0 / S3X0M3 | S11X0M1 / S3X0M3 | 4/1, 8/1 | 7/4, 11/2
+
+== m3211g0 Brat (29x29, 715 paintable) vs subscribe-to-caterpillow, t91, LOST ALL_UNITS_DESTROYED r554
+   r25   us T 3(P1M2D0) S 6 X 0 M 0 $  990 cov  8.8 | them T 3(P1M2D0) S 6 X 0 M 0 $  890 cov 13.1
+   r50   us T 3(P1M2D0) S 6 X 0 M 0 $ 1740 cov 10.1 | them T 2(P0M2D0) S 7 X 0 M 2 $ 1290 cov 22.2
+   r75   us T 2(P1M1D0) S 6 X 0 M 0 $ 2650 cov 11.3 | them T 3(P0M3D0) S 8 X 0 M 3 $ 1350 cov 26.4
+   r100  us T 1(P1M0D0) S 7 X 0 M 1 $ 1230 cov 20.6 | them T 4(P1M3D0) S 8 X 0 M 2 $ 1850 cov 31.3
+   r125  us T 1(P0M1D0) S 7 X 0 M 0 $  610 cov 26.0 | them T 3(P0M3D0) S 6 X 0 M 1 $ 3600 cov 31.3
+   r150  us T 1(P0M1D0) S 6 X 0 M 0 $ 1110 cov 30.6 | them T 2(P0M2D0) S 4 X 0 M 1 $ 5170 cov 31.3
+   r175  us T 1(P0M1D0) S 6 X 0 M 0 $ 1610 cov 32.0 | them T 2(P0M2D0) S 2 X 0 M 1 $ 6420 cov 31.3
+   r200  us T 1(P0M1D0) S 4 X 0 M 0 $ 1090 cov 32.3 | them T 2(P1M1D0) S 3 X 0 M 1 $ 6320 cov 31.7
+   r225  us T 1(P0M1D0) S 4 X 0 M 0 $ 1340 cov 35.5 | them T 2(P1M1D0) S 2 X 0 M 1 $ 7070 cov 31.7
+   r250  us T 0(P0M0D0) S 3 X 0 M 0 $ 1700 cov 39.0 | them T 2(P1M1D0) S 2 X 1 M 1 $ 7420 cov 31.9
+   r275  us T 1(P0M1D0) S 3 X 0 M 0 $ 1100 cov 37.8 | them T 2(P1M1D0) S 2 X 1 M 1 $ 7870 cov 33.7
+   r300  us T 0(P0M0D0) S 3 X 0 M 0 $ 1480 cov 40.0 | them T 2(P2M0D0) S 3 X 1 M 1 $ 6800 cov 33.7
+   r325  us T 0(P0M0D0) S 3 X 0 M 0 $ 1480 cov 36.1 | them T 2(P2M0D0) S 3 X 1 M 1 $ 6800 cov 38.0
+   r350  us T 0(P0M0D0) S 3 X 0 M 0 $ 1480 cov 35.8 | them T 2(P2M0D0) S 3 X 1 M 3 $ 6200 cov 38.5
+   r375  us T 0(P0M0D0) S 1 X 0 M 0 $ 1480 cov 33.3 | them T 2(P2M0D0) S 3 X 1 M 3 $ 6200 cov 38.6
+   r400  us T 0(P0M0D0) S 1 X 0 M 0 $ 1480 cov 29.9 | them T 2(P2M0D0) S 3 X 1 M 3 $ 6200 cov 40.7
+   r425  us T 0(P0M0D0) S 1 X 0 M 0 $ 1480 cov 28.7 | them T 2(P2M0D0) S 3 X 0 M 1 $ 6200 cov 41.7
+   r450  us T 0(P0M0D0) S 1 X 0 M 0 $ 1480 cov 27.7 | them T 2(P2M0D0) S 3 X 0 M 1 $ 6200 cov 42.1
+   r475  us T 0(P0M0D0) S 1 X 0 M 0 $ 1480 cov 26.6 | them T 2(P2M0D0) S 3 X 1 M 1 $ 5800 cov 43.1
+   r500  us T 0(P0M0D0) S 1 X 0 M 0 $ 1480 cov 23.2 | them T 2(P2M0D0) S 3 X 1 M 2 $ 5500 cov 47.3
+   r525  us T 0(P0M0D0) S 1 X 0 M 0 $ 1480 cov 21.8 | them T 2(P2M0D0) S 3 X 1 M 1 $ 5500 cov 47.8
+   r550  us T 0(P0M0D0) S 1 X 0 M 0 $ 1480 cov 19.4 | them T 3(P3M0D0) S 4 X 1 M 1 $ 4250 cov 50.3
+   r554  us T 0(P0M0D0) S 0 X 0 M 0 $ 1480 cov 19.3 | them T 3(P3M0D0) S 4 X 1 M 1 $ 4250 cov 50.3
+   killed r72   ours MONEY at (8, 26): damage last 20 rounds {'SO': 1500} from 5 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 5 (SSSSS)
+   killed r87   ours MONEY at (13, 25): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 5 (SSSSM)
+   killed r94   ours MONEY at (13, 25): damage last 20 rounds {'SO': 1000} from 6 robots; at death own robots d2<=20: 4 (SSMS), enemy robots d2<=20: 7 (SSSSSMS)
+   killed r124  ours PAINT at (18, 26): damage last 20 rounds {'SO': 600} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r243  ours MONEY at (13, 25): damage last 20 rounds {'SO': 350} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r294  ours MONEY at (13, 25): damage last 20 rounds {'SP': 100, 'SO': 600} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 4 (SSSS)
+
+== m3211g1 DefaultSmall (20x20, 372 paintable) vs subscribe-to-caterpillow, t91, LOST ALL_UNITS_DESTROYED r122
+   r25   us T 3(P1M2D0) S 6 X 0 M 0 $  770 cov 20.4 | them T 3(P1M2D0) S 6 X 0 M 1 $  490 cov 23.7
+   r50   us T 2(P1M1D0) S 7 X 0 M 0 $  550 cov 21.8 | them T 3(P1M2D0) S 7 X 0 M 1 $  220 cov 30.4
+   r75   us T 1(P0M1D0) S 6 X 0 M 0 $  500 cov 21.0 | them T 4(P1M3D0) S 6 X 0 M 1 $  650 cov 32.0
+   r100  us T 0(P0M0D0) S 5 X 0 M 0 $  860 cov 24.7 | them T 2(P1M1D0) S 7 X 0 M 3 $   10 cov 33.9
+   r122  us T 0(P0M0D0) S 0 X 0 M 0 $  860 cov 22.0 | them T 2(P1M1D0) S 7 X 0 M 3 $  450 cov 34.9
+   killed r33   ours MONEY at (17, 12): damage last 20 rounds {'SO': 1000} from 4 robots; at death own robots d2<=20: 3 (SSS), enemy robots d2<=20: 4 (SSSS)
+   killed r42   ours MONEY at (17, 12): damage last 20 rounds {'SO': 1000} from 4 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 4 (SSSS)
+   killed r62   ours PAINT at (14, 17): damage last 20 rounds {'SO': 1500} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r75   ours MONEY at (9, 17): damage last 20 rounds {'SO': 1500} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (SSS)
+   killed r93   ours MONEY at (17, 12): damage last 20 rounds {'SO': 700} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 4 (SSSS)
+
+== m3306g0 Brat (29x29, 715 paintable) vs scienceqiu, y195, LOST ALL_UNITS_DESTROYED r301
+   r25   us T 3(P1M2D0) S 6 X 0 M 0 $  990 cov  9.0 | them T 3(P1M2D0) S 5 X 0 M 0 $ 1280 cov 15.8
+   r50   us T 2(P1M1D0) S 7 X 0 M 0 $ 1620 cov 11.3 | them T 2(P1M1D0) S 5 X 0 M 1 $ 1710 cov 26.0
+   r75   us T 3(P0M3D0) S 4 X 0 M 0 $ 1050 cov 12.9 | them T 3(P1M2D0) S 5 X 0 M 2 $  120 cov 30.5
+   r100  us T 3(P0M3D0) S 2 X 0 M 1 $ 1070 cov 17.5 | them T 4(P2M2D0) S 4 X 0 M 3 $   70 cov 35.5
+   r125  us T 2(P0M2D0) S 3 X 0 M 0 $ 2110 cov 20.1 | them T 4(P2M2D0) S 3 X 0 M 3 $  820 cov 35.7
+   r150  us T 2(P0M2D0) S 1 X 0 M 0 $ 3360 cov 18.7 | them T 4(P2M2D0) S 3 X 0 M 3 $ 1820 cov 39.6
+   r175  us T 2(P0M2D0) S 1 X 0 M 0 $ 4610 cov 15.0 | them T 4(P2M2D0) S 3 X 0 M 4 $  270 cov 41.7
+   r200  us T 2(P0M2D0) S 1 X 0 M 0 $ 5860 cov 12.3 | them T 5(P2M2D1) S 5 X 0 M 3 $   20 cov 43.6
+   r225  us T 2(P0M2D0) S 1 X 0 M 0 $ 4790 cov 12.2 | them T 6(P2M2D2) S 6 X 0 M 2 $   20 cov 50.1
+   r250  us T 1(P0M1D0) S 1 X 0 M 0 $ 5870 cov 10.5 | them T 7(P3M2D2) S 7 X 0 M 2 $   20 cov 54.7
+   r275  us T 1(P0M1D0) S 0 X 0 M 0 $ 6620 cov  8.4 | them T 8(P3M3D2) S 8 X 0 M 2 $   20 cov 58.3
+   r300  us T 1(P0M1D0) S 0 X 0 M 0 $ 7370 cov  8.3 | them T 9(P3M3D3) S11 X 0 M 2 $   20 cov 62.2
+   r301  us T 0(P0M0D0) S 0 X 0 M 0 $ 7400 cov  8.3 | them T 9(P3M3D3) S11 X 0 M 2 $   90 cov 62.2
+   killed r44   ours MONEY at (13, 25): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r66   ours PAINT at (18, 26): damage last 20 rounds {'SO': 900} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r76   ours MONEY at (13, 25): damage last 20 rounds {'SO': 950} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r117  ours MONEY at (13, 25): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 3 (SSS)
+   killed r236  ours MONEY at (8, 26): damage last 20 rounds {'SO': 450} from 1 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r301  ours MONEY at (26, 4): damage last 20 rounds {'SO': 650} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+
+== m3306g1 BunnyGame (30x50, 1286 paintable) vs scienceqiu, y195, LOST ALL_UNITS_DESTROYED r189
+   r25   us T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov  9.7 | them T 3(P1M2D0) S 6 X 0 M 0 $  950 cov 11.0
+   r50   us T 2(P1M1D0) S 6 X 0 M 0 $ 2500 cov 11.4 | them T 4(P1M3D0) S 8 X 0 M 0 $  980 cov 19.6
+   r75   us T 2(P1M1D0) S 8 X 0 M 0 $ 2750 cov 12.1 | them T 5(P1M4D0) S 9 X 0 M 1 $  210 cov 26.6
+   r100  us T 2(P1M1D0) S 6 X 0 M 0 $ 3250 cov 14.2 | them T 6(P1M5D0) S10 X 0 M 2 $  610 cov 31.6
+   r125  us T 2(P1M1D0) S 4 X 0 M 0 $ 4000 cov 14.5 | them T 8(P2M5D1) S11 X 0 M 2 $  210 cov 36.2
+   r150  us T 2(P1M1D0) S 1 X 1 M 0 $ 4350 cov 16.3 | them T 8(P2M5D1) S12 X 2 M 1 $  300 cov 41.8
+   r175  us T 1(P0M1D0) S 0 X 1 M 0 $ 4700 cov 14.2 | them T10(P3M6D1) S14 X 2 M 1 $  803 cov 49.5
+   r189  us T 0(P0M0D0) S 0 X 0 M 0 $ 5120 cov 12.2 | them T10(P3M6D1) S15 X 2 M 6 $ 1255 cov 52.1
+   killed r170  ours PAINT at (22, 14): damage last 20 rounds {'SO': 650} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 5 (MSSSS)
+   killed r189  ours MONEY at (22, 3): damage last 20 rounds {'SO': 650} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+
+== m3323g1 DefaultMedium (35x35, 1193 paintable) vs varunvejalla, y195, LOST ALL_UNITS_DESTROYED r240
+   r25   us T 3(P1M2D0) S 6 X 0 M 0 $  870 cov  9.1 | them T 4(P1M3D0) S 4 X 0 M 0 $  610 cov  9.1
+   r50   us T 5(P1M4D0) S 8 X 0 M 0 $   60 cov 12.8 | them T 6(P1M5D0) S 6 X 0 M 0 $  120 cov 12.9
+   r75   us T 7(P1M6D0) S 8 X 0 M 0 $  690 cov 15.8 | them T 7(P1M6D0) S 5 X 0 M 1 $  470 cov 16.8
+   r100  us T 7(P1M6D0) S 5 X 0 M 2 $ 1170 cov 19.2 | them T 9(P1M8D0) S 7 X 0 M 4 $  240 cov 18.8
+   r125  us T 4(P1M3D0) S 7 X 1 M 3 $  910 cov 27.0 | them T 9(P1M8D0) S10 X 0 M 8 $  920 cov 19.9
+   r150  us T 1(P0M1D0) S 5 X 1 M 2 $  810 cov 28.2 | them T 9(P1M8D0) S10 X 0 M12 $  950 cov 24.8
+   r175  us T 0(P0M0D0) S 3 X 1 M 0 $  950 cov 23.9 | them T10(P1M9D0) S12 X 0 M14 $ 1520 cov 29.6
+   r200  us T 0(P0M0D0) S 3 X 0 M 0 $  950 cov 20.5 | them T10(P1M9D0) S14 X 0 M18 $ 2050 cov 38.1
+   r225  us T 0(P0M0D0) S 1 X 0 M 0 $  950 cov 14.8 | them T11(P1M10D0) S18 X 1 M21 $ 1120 cov 50.6
+   r240  us T 0(P0M0D0) S 0 X 0 M 0 $  950 cov 10.1 | them T14(P1M13D0) S18 X 1 M20 $  870 cov 57.6
+   killed r78   ours MONEY at (12, 14): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r92   ours MONEY at (7, 12): damage last 20 rounds {'SO': 450} from 3 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 2 (SS)
+   killed r106  ours MONEY at (12, 14): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 1 (S)
+   killed r110  ours MONEY at (12, 20): damage last 20 rounds {'SO': 900} from 4 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 5 (SSSSS)
+   killed r120  ours MONEY at (7, 22): damage last 20 rounds {'SO': 600} from 3 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 3 (SSS)
+   killed r121  ours MONEY at (17, 5): damage last 20 rounds {'SO': 150} from 1 robots; at death own robots d2<=20: 2 (SS), enemy robots d2<=20: 1 (S)
+   killed r129  ours MONEY at (7, 7): damage last 20 rounds {'SO': 450} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r129  ours MONEY at (7, 17): damage last 20 rounds {'SO': 600} from 1 robots; at death own robots d2<=20: 2 (MS), enemy robots d2<=20: 1 (S)
+   killed r137  ours PAINT at (7, 27): damage last 20 rounds {'SO': 1500} from 4 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r157  ours MONEY at (17, 5): damage last 20 rounds {'SO': 400} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+
+== m3323g2 Paintball (20x20, 354 paintable) vs varunvejalla, y195, LOST ALL_UNITS_DESTROYED r223
+   r25   us T 3(P1M2D0) S 6 X 0 M 0 $  870 cov 36.4 | them T 4(P1M3D0) S 4 X 0 M 0 $  630 cov 35.9
+   r50   us T 3(P1M2D0) S 7 X 0 M 0 $ 1620 cov 42.9 | them T 4(P1M3D0) S 5 X 0 M 2 $  240 cov 39.3
+   r75   us T 1(P0M1D0) S 8 X 0 M 0 $ 1260 cov 47.2 | them T 4(P1M3D0) S 3 X 0 M 2 $   10 cov 40.7
+   r100  us T 2(P1M1D0) S 4 X 0 M 0 $  760 cov 46.3 | them T 4(P1M3D0) S 1 X 0 M 2 $  760 cov 40.7
+   r125  us T 3(P1M2D0) S 1 X 0 M 0 $  520 cov 50.0 | them T 4(P1M3D0) S 2 X 0 M 2 $  710 cov 41.2
+   r150  us T 2(P1M1D0) S 1 X 0 M 0 $   50 cov 46.9 | them T 5(P1M4D0) S 4 X 0 M 2 $  970 cov 42.1
+   r175  us T 0(P0M0D0) S 1 X 0 M 1 $   50 cov 44.1 | them T 5(P1M4D0) S 6 X 0 M 4 $  810 cov 43.5
+   r200  us T 0(P0M0D0) S 0 X 0 M 1 $   50 cov 37.3 | them T 5(P1M4D0) S 8 X 1 M 6 $ 1310 cov 48.6
+   r223  us T 0(P0M0D0) S 0 X 0 M 0 $   50 cov 29.7 | them T 5(P1M4D0) S 9 X 1 M 6 $ 3130 cov 56.2
+   killed r56   ours PAINT at (17, 5): damage last 20 rounds {'SO': 1050} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r72   ours MONEY at (12, 2): damage last 20 rounds {'SO': 800} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r128  ours PAINT at (12, 2): damage last 20 rounds {'SO': 200} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r139  ours MONEY at (7, 2): damage last 20 rounds {'SO': 850} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r165  ours MONEY at (17, 5): damage last 20 rounds {'SO': 300} from 2 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 1 (S)
+   killed r173  ours PAINT at (12, 2): damage last 20 rounds {'SO': 950} from 3 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 3 (SSS)
+
+== m3324g0 Bread (35x29, 914 paintable) vs varunvejalla, y195, LOST ALL_UNITS_DESTROYED r485
+   r25   us T 3(P1M2D0) S 7 X 0 M 0 $  680 cov 10.5 | them T 4(P1M3D0) S 5 X 0 M 0 $  100 cov 12.0
+   r50   us T 3(P1M2D0) S 7 X 0 M 0 $  620 cov 18.1 | them T 4(P1M3D0) S 7 X 0 M 1 $ 1050 cov 17.0
+   r75   us T 4(P1M3D0) S 8 X 0 M 0 $  780 cov 21.7 | them T 3(P1M2D0) S 8 X 0 M 1 $ 1990 cov 20.4
+   r100  us T 6(P1M5D0) S 8 X 0 M 0 $  820 cov 30.2 | them T 4(P1M3D0) S10 X 0 M 3 $ 1580 cov 24.3
+   r125  us T 6(P1M5D0) S11 X 1 M 2 $ 1820 cov 37.4 | them T 4(P1M3D0) S 9 X 0 M 5 $ 1480 cov 24.9
+   r150  us T 5(P1M4D0) S 9 X 1 M 3 $ 2700 cov 44.6 | them T 3(P1M2D0) S 9 X 0 M 6 $ 1270 cov 25.7
+   r175  us T 4(P1M3D0) S 6 X 1 M 4 $ 2980 cov 46.1 | them T 4(P1M3D0) S 9 X 0 M 7 $  310 cov 25.8
+   r200  us T 4(P1M3D0) S 3 X 1 M 3 $ 3052 cov 45.3 | them T 4(P1M3D0) S10 X 0 M 7 $  750 cov 25.4
+   r225  us T 2(P1M1D0) S 2 X 2 M 2 $ 3986 cov 43.5 | them T 5(P1M4D0) S11 X 0 M 8 $  870 cov 26.9
+   r250  us T 3(P2M1D0) S 3 X 3 M 2 $ 1177 cov 49.6 | them T 5(P1M4D0) S11 X 0 M 7 $ 2370 cov 26.3
+   r275  us T 1(P0M1D0) S 3 X 3 M 2 $  637 cov 52.4 | them T 4(P1M3D0) S11 X 0 M 6 $ 2830 cov 25.5
+   r300  us T 1(P0M1D0) S 2 X 3 M 2 $  258 cov 52.4 | them T 4(P1M3D0) S12 X 0 M 6 $ 2830 cov 26.1
+   r325  us T 1(P0M1D0) S 2 X 3 M 2 $  833 cov 54.5 | them T 4(P1M3D0) S12 X 1 M 5 $ 2350 cov 25.8
+   r350  us T 1(P0M1D0) S 1 X 2 M 1 $  557 cov 52.3 | them T 4(P1M3D0) S11 X 2 M 5 $ 1880 cov 29.2
+   r375  us T 0(P0M0D0) S 0 X 2 M 0 $  697 cov 50.7 | them T 4(P1M3D0) S11 X 2 M 5 $ 1710 cov 31.9
+   r400  us T 0(P0M0D0) S 0 X 2 M 0 $  697 cov 43.0 | them T 4(P1M3D0) S11 X 2 M 3 $ 2960 cov 38.6
+   r425  us T 0(P0M0D0) S 0 X 1 M 0 $  697 cov 41.0 | them T 6(P1M5D0) S 8 X 3 M 5 $   10 cov 43.3
+   r450  us T 0(P0M0D0) S 0 X 1 M 0 $  697 cov 36.4 | them T 6(P1M5D0) S 7 X 4 M 4 $ 1710 cov 49.3
+   r475  us T 0(P0M0D0) S 0 X 1 M 0 $  697 cov 34.0 | them T 6(P1M5D0) S 9 X 4 M 4 $ 3510 cov 52.1
+   r485  us T 0(P0M0D0) S 0 X 0 M 0 $  697 cov 32.8 | them T 6(P1M5D0) S 9 X 4 M 4 $ 4510 cov 52.3
+   killed r42   ours MONEY at (11, 20): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r133  ours MONEY at (20, 2): damage last 20 rounds {'SO': 650} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r158  ours MONEY at (11, 20): damage last 20 rounds {'SO': 400} from 1 robots; at death own robots d2<=20: 2 (SS), enemy robots d2<=20: 1 (S)
+   killed r170  ours MONEY at (3, 12): damage last 20 rounds {'SO': 550} from 1 robots; at death own robots d2<=20: 2 (SS), enemy robots d2<=20: 1 (S)
+   killed r178  ours MONEY at (11, 20): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 2 (MS), enemy robots d2<=20: 1 (S)
+   killed r208  ours MONEY at (11, 20): damage last 20 rounds {'SO': 800} from 2 robots; at death own robots d2<=20: 2 (MM), enemy robots d2<=20: 2 (SS)
+   killed r225  ours MONEY at (26, 2): damage last 20 rounds {'SO': 250} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r251  ours MONEY at (11, 20): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r259  ours PAINT at (3, 20): damage last 20 rounds {'SO': 300} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r270  ours PAINT at (3, 12): damage last 20 rounds {'SO': 850} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r293  ours MONEY at (11, 20): damage last 20 rounds {'SO': 200} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 4 (SSSS)
+   killed r340  ours MONEY at (3, 20): damage last 20 rounds {'SO': 400} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r357  ours MONEY at (11, 20): damage last 20 rounds {'SO': 900} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 4 (SSSS)
+
+== m3324g2 quack (30x35, 932 paintable) vs varunvejalla, y195, LOST ALL_UNITS_DESTROYED r255
+   r25   us T 3(P1M2D0) S 6 X 0 M 0 $  770 cov  5.8 | them T 4(P1M3D0) S 4 X 0 M 0 $  650 cov  8.9
+   r50   us T 3(P1M2D0) S 7 X 0 M 0 $  560 cov 10.7 | them T 5(P1M4D0) S 4 X 0 M 1 $  380 cov 13.5
+   r75   us T 4(P1M3D0) S 5 X 0 M 0 $  110 cov 11.9 | them T 5(P1M4D0) S 6 X 0 M 1 $  900 cov 16.6
+   r100  us T 6(P1M5D0) S 3 X 0 M 0 $  120 cov 14.1 | them T 6(P1M5D0) S 8 X 0 M 1 $  990 cov 21.8
+   r125  us T 4(P1M3D0) S 3 X 0 M 0 $ 1100 cov 17.0 | them T 6(P1M5D0) S11 X 0 M 3 $ 1640 cov 27.3
+   r150  us T 2(P0M2D0) S 4 X 0 M 1 $ 1010 cov 21.1 | them T 6(P1M5D0) S13 X 0 M 1 $ 2390 cov 33.6
+   r175  us T 2(P0M2D0) S 4 X 0 M 2 $  750 cov 21.2 | them T 7(P1M6D0) S13 X 0 M 2 $  360 cov 39.5
+   r200  us T 2(P0M2D0) S 4 X 0 M 1 $  830 cov 22.1 | them T 7(P1M6D0) S13 X 0 M 3 $ 2560 cov 44.4
+   r225  us T 4(P0M4D0) S 3 X 0 M 1 $  290 cov 22.6 | them T 8(P1M7D0) S13 X 2 M 3 $ 2790 cov 49.9
+   r250  us T 0(P0M0D0) S 1 X 0 M 0 $ 1030 cov 20.5 | them T 8(P1M7D0) S14 X 3 M 7 $  900 cov 53.8
+   r255  us T 0(P0M0D0) S 0 X 0 M 0 $ 1030 cov 19.8 | them T 8(P1M7D0) S14 X 3 M 8 $ 1300 cov 54.3
+   killed r37   ours MONEY at (13, 21): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r73   ours MONEY at (13, 21): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r105  ours MONEY at (18, 25): damage last 20 rounds {'SO': 1200} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 3 (SSS)
+   killed r116  ours MONEY at (13, 21): damage last 20 rounds {'SO': 1000} from 4 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (SSM)
+   killed r123  ours MONEY at (2, 25): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r129  ours MONEY at (26, 21): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r139  ours PAINT at (7, 32): damage last 20 rounds {'SO': 450} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r147  ours MONEY at (13, 21): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r162  ours MONEY at (2, 30): damage last 20 rounds {'SO': 800} from 2 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 1 (S)
+   killed r186  ours MONEY at (13, 21): damage last 20 rounds {'SO': 900} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r228  ours MONEY at (26, 13): damage last 20 rounds {'SO': 400} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r233  ours MONEY at (26, 21): damage last 20 rounds {'SO': 150} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r235  ours MONEY at (13, 21): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r241  ours MONEY at (25, 2): damage last 20 rounds {'SO': 950} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+
+== m3410g0 BunnyGame (30x50, 1286 paintable) vs placeholder-name-2, y197, LOST ALL_UNITS_DESTROYED r237
+   r25   us T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov  9.5 | them T 3(P1M2D0) S 5 X 0 M 0 $ 1200 cov 10.0
+   r50   us T 3(P1M2D0) S 7 X 0 M 0 $ 1470 cov 11.3 | them T 4(P1M3D0) S 5 X 0 M 2 $  550 cov 15.0
+   r75   us T 3(P1M2D0) S 7 X 0 M 0 $ 2470 cov 10.8 | them T 3(P1M2D0) S 3 X 0 M 4 $ 1140 cov 17.8
+   r100  us T 3(P1M2D0) S 5 X 1 M 0 $ 3320 cov 10.8 | them T 4(P1M3D0) S 4 X 0 M 4 $  295 cov 18.4
+   r125  us T 2(P0M2D0) S 2 X 0 M 0 $ 4570 cov 12.1 | them T 4(P1M3D0) S 4 X 1 M 5 $ 1191 cov 20.1
+   r150  us T 1(P0M1D0) S 1 X 0 M 0 $ 5360 cov  9.1 | them T 5(P2M3D0) S 7 X 1 M 7 $ 1039 cov 29.2
+   r175  us T 1(P0M1D0) S 1 X 0 M 0 $ 6110 cov  6.3 | them T 7(P3M4D0) S 7 X 1 M 6 $ 1225 cov 35.1
+   r200  us T 1(P0M1D0) S 0 X 0 M 0 $ 6860 cov  3.2 | them T 9(P3M6D0) S 7 X 3 M 9 $ 1053 cov 42.9
+   r225  us T 1(P0M1D0) S 0 X 0 M 0 $ 7610 cov  1.5 | them T10(P4M6D0) S 9 X 6 M14 $ 1109 cov 49.2
+   r237  us T 0(P0M0D0) S 0 X 0 M 0 $ 7970 cov  1.3 | them T11(P4M7D0) S13 X 6 M16 $  651 cov 53.8
+   killed r103  ours PAINT at (22, 14): damage last 20 rounds {'SO': 1500} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r127  ours MONEY at (22, 22): damage last 20 rounds {'SO': 50} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r237  ours MONEY at (22, 3): damage last 20 rounds {'SP': 700} from 4 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 7 (MSSMMSS)
+
+== m3450g1 catface (30x30, 868 paintable) vs varunvejalla, y197, LOST ALL_UNITS_DESTROYED r246
+   r25   us T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov  7.0 | them T 3(P1M2D0) S 4 X 0 M 0 $ 1550 cov  7.4
+   r50   us T 2(P1M1D0) S 6 X 0 M 0 $ 2250 cov 10.5 | them T 3(P1M2D0) S 6 X 0 M 1 $ 2000 cov 11.9
+   r75   us T 2(P1M1D0) S 5 X 0 M 0 $ 2750 cov 11.2 | them T 2(P1M1D0) S 6 X 0 M 4 $  810 cov 14.5
+   r100  us T 2(P1M1D0) S 5 X 0 M 0 $ 3250 cov 13.1 | them T 3(P1M2D0) S 6 X 0 M 4 $  920 cov 18.4
+   r125  us T 1(P1M0D0) S 3 X 1 M 0 $ 3060 cov 14.5 | them T 3(P1M2D0) S 9 X 0 M 5 $  870 cov 27.2
+   r150  us T 1(P1M0D0) S 2 X 1 M 0 $ 3060 cov 15.8 | them T 4(P1M3D0) S 8 X 0 M 5 $ 1210 cov 34.8
+   r175  us T 1(P1M0D0) S 2 X 1 M 0 $ 3060 cov 14.3 | them T 5(P1M4D0) S 8 X 0 M 5 $  460 cov 39.5
+   r200  us T 1(P1M0D0) S 0 X 1 M 0 $ 3060 cov 13.5 | them T 6(P1M5D0) S 9 X 0 M 7 $ 1000 cov 44.8
+   r225  us T 0(P0M0D0) S 0 X 1 M 0 $ 3060 cov 10.9 | them T 7(P1M6D0) S13 X 1 M 7 $ 1630 cov 54.6
+   r246  us T 0(P0M0D0) S 0 X 0 M 0 $ 3060 cov  8.8 | them T 8(P1M7D0) S13 X 3 M 8 $ 1110 cov 63.6
+   killed r107  ours MONEY at (6, 8): damage last 20 rounds {'SO': 1400} from 3 robots; at death own robots d2<=20: 2 (SS), enemy robots d2<=20: 2 (SS)
+   killed r202  ours PAINT at (4, 3): damage last 20 rounds {'SO': 150} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+
+== m3513g0 CastleDefense (20x20, 340 paintable) vs varunvejalla, y211, LOST ALL_UNITS_DESTROYED r203
+   r25   us T 3(P1M2D0) S 6 X 0 M 0 $  810 cov 21.2 | them T 3(P1M2D0) S 4 X 0 M 0 $ 1490 cov 23.8
+   r50   us T 3(P0M3D0) S 5 X 0 M 0 $ 1030 cov 29.7 | them T 4(P1M3D0) S 4 X 0 M 4 $  630 cov 28.8
+   r75   us T 2(P0M2D0) S 3 X 0 M 0 $ 2510 cov 30.9 | them T 3(P0M3D0) S 2 X 0 M 5 $  750 cov 29.1
+   r100  us T 3(P0M3D0) S 3 X 0 M 2 $  890 cov 30.9 | them T 3(P0M3D0) S 3 X 0 M 5 $ 2000 cov 31.2
+   r125  us T 3(P0M3D0) S 3 X 0 M 3 $ 2090 cov 35.9 | them T 2(P0M2D0) S 2 X 0 M 5 $ 3730 cov 29.1
+   r150  us T 2(P0M2D0) S 0 X 0 M 2 $ 3270 cov 29.4 | them T 2(P0M2D0) S 1 X 0 M 6 $ 3320 cov 33.2
+   r175  us T 1(P0M1D0) S 0 X 0 M 1 $ 4170 cov 22.4 | them T 4(P0M4D0) S 5 X 0 M 7 $ 1660 cov 41.2
+   r200  us T 1(P0M1D0) S 0 X 0 M 0 $ 4670 cov 15.3 | them T 5(P0M5D0) S 5 X 2 M 6 $  740 cov 50.9
+   r203  us T 0(P0M0D0) S 0 X 0 M 0 $ 4730 cov 15.0 | them T 5(P0M5D0) S 5 X 2 M 6 $ 1040 cov 52.4
+   killed r33   ours PAINT at (9, 17): damage last 20 rounds {'SO': 1500} from 3 robots; at death own robots d2<=20: 2 (SS), enemy robots d2<=20: 3 (SSS)
+   killed r74   ours MONEY at (17, 12): damage last 20 rounds {'SO': 550} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r95   ours MONEY at (2, 15): damage last 20 rounds {'SO': 150} from 1 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r131  ours MONEY at (17, 17): damage last 20 rounds {'SO': 700} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r170  ours MONEY at (2, 15): damage last 20 rounds {'SO': 150} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 4 (MMSS)
+   killed r203  ours MONEY at (17, 12): damage last 20 rounds {'SO': 400} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (MSS)
+
+== m3514g1 Restart (55x55, 2657 paintable) vs placeholder-name-2, y211, LOST ALL_UNITS_DESTROYED r300
+   r25   us T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov 11.5 | them T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov 13.7
+   r50   us T 3(P1M2D0) S 8 X 0 M 0 $ 1320 cov 13.6 | them T 5(P1M4D0) S 5 X 0 M 0 $  850 cov 16.4
+   r75   us T 4(P1M3D0) S 7 X 0 M 0 $ 1400 cov 15.2 | them T 6(P2M4D0) S 5 X 0 M 4 $  700 cov 18.7
+   r100  us T 4(P1M3D0) S 4 X 1 M 0 $ 2450 cov 16.3 | them T 6(P2M4D0) S 6 X 1 M 7 $ 1000 cov 20.2
+   r125  us T 4(P1M3D0) S 4 X 1 M 0 $ 3950 cov 17.1 | them T 6(P2M4D0) S 6 X 1 M 9 $ 1756 cov 21.9
+   r150  us T 3(P1M2D0) S 2 X 1 M 0 $ 5700 cov 16.6 | them T 6(P2M4D0) S 6 X 1 M 8 $ 1082 cov 23.7
+   r175  us T 2(P1M1D0) S 2 X 2 M 0 $ 1460 cov 16.3 | them T 6(P2M4D0) S 8 X 1 M 7 $ 1970 cov 25.4
+   r200  us T 1(P1M0D0) S 1 X 2 M 0 $ 1320 cov 16.0 | them T 7(P3M4D0) S11 X 2 M 7 $ 1920 cov 27.9
+   r225  us T 1(P1M0D0) S 1 X 2 M 1 $ 1020 cov 15.2 | them T 8(P4M4D0) S11 X 2 M 8 $ 1124 cov 30.8
+   r250  us T 0(P0M0D0) S 1 X 2 M 1 $ 1020 cov 14.6 | them T12(P4M8D0) S13 X 2 M 6 $  786 cov 33.9
+   r275  us T 0(P0M0D0) S 0 X 1 M 1 $ 1020 cov 13.5 | them T15(P6M9D0) S22 X 8 M 9 $  565 cov 38.4
+   r300  us T 0(P0M0D0) S 0 X 0 M 0 $ 1020 cov 10.3 | them T17(P7M10D0) S34 X13 M22 $  207 cov 46.5
+   killed r150  ours MONEY at (26, 38): damage last 20 rounds {'SO': 150} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (MS)
+   killed r172  ours MONEY at (22, 32): damage last 20 rounds {'SP': 400, 'SO': 1000} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (SSS)
+   killed r188  ours MONEY at (17, 29): damage last 20 rounds {'SO': 800, 'SP': 200} from 4 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 4 (MSMS)
+   killed r238  ours PAINT at (12, 16): damage last 20 rounds {'SP': 100} from 1 robots; at death own robots d2<=20: 2 (SM), enemy robots d2<=20: 1 (S)
+
+== m3583g0 Jail (20x30, 540 paintable) vs gone-whalin, y211, LOST ALL_UNITS_DESTROYED r108
+   r25   us T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov 16.7 | them T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov 12.0
+   r50   us T 0(P0M0D0) S 4 X 0 M 0 $ 2090 cov 18.1 | them T 2(P1M1D0) S 5 X 0 M 4 $ 1550 cov 13.0
+   r75   us T 0(P0M0D0) S 1 X 0 M 0 $ 2090 cov 14.1 | them T 1(P1M0D0) S 5 X 0 M 5 $ 1430 cov 14.4
+   r100  us T 0(P0M0D0) S 1 X 0 M 0 $ 2090 cov 10.6 | them T 2(P1M1D0) S 4 X 0 M 5 $  770 cov 20.2
+   r108  us T 0(P0M0D0) S 0 X 0 M 0 $ 2090 cov 10.2 | them T 2(P1M1D0) S 2 X 0 M 5 $  930 cov 20.2
+   killed r27   ours PAINT at (2, 26): damage last 20 rounds {'SO': 1500} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r28   ours MONEY at (3, 15): damage last 20 rounds {'SO': 1500} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+
+== m3684g2 starburst (30x30, 844 paintable) vs scienceqiu, y211, LOST ALL_UNITS_DESTROYED r358
+   r25   us T 3(P1M2D0) S 6 X 0 M 0 $  950 cov  9.1 | them T 3(P1M2D0) S 6 X 0 M 0 $  950 cov 12.1
+   r50   us T 4(P1M3D0) S 8 X 0 M 0 $    0 cov 13.0 | them T 3(P1M2D0) S 7 X 0 M 2 $  670 cov 20.7
+   r75   us T 4(P1M3D0) S 6 X 0 M 0 $  770 cov 16.5 | them T 4(P1M3D0) S 5 X 0 M 4 $  430 cov 26.2
+   r100  us T 5(P1M4D0) S 5 X 0 M 1 $ 1140 cov 21.1 | them T 5(P2M3D0) S 2 X 0 M 3 $  930 cov 28.2
+   r125  us T 5(P1M4D0) S 6 X 1 M 1 $ 2540 cov 31.3 | them T 4(P2M2D0) S 2 X 2 M 4 $ 1240 cov 29.3
+   r150  us T 5(P1M4D0) S 5 X 2 M 1 $ 3140 cov 39.2 | them T 5(P2M3D0) S 4 X 2 M 5 $  420 cov 29.0
+   r175  us T 5(P1M4D0) S 5 X 3 M 2 $ 3420 cov 38.0 | them T 5(P2M3D0) S 3 X 2 M 9 $  970 cov 29.6
+   r200  us T 4(P1M3D0) S 3 X 2 M 4 $ 3380 cov 38.3 | them T 5(P2M3D0) S 4 X 3 M11 $ 1141 cov 26.1
+   r225  us T 3(P1M2D0) S 3 X 2 M 5 $ 3200 cov 35.7 | them T 5(P2M3D0) S 4 X 3 M10 $  486 cov 33.9
+   r250  us T 2(P0M2D0) S 5 X 2 M 5 $ 1600 cov 33.2 | them T 5(P2M3D0) S 4 X 3 M 8 $ 1811 cov 36.5
+   r275  us T 2(P0M2D0) S 5 X 1 M 3 $ 2850 cov 36.4 | them T 5(P1M4D0) S 6 X 3 M 6 $  470 cov 37.7
+   r300  us T 1(P0M1D0) S 2 X 1 M 2 $ 3900 cov 31.9 | them T 5(P1M4D0) S 6 X 3 M 6 $ 3534 cov 40.2
+   r325  us T 1(P0M1D0) S 2 X 1 M 0 $ 4650 cov 28.2 | them T 6(P1M5D0) S 7 X 2 M 5 $  996 cov 45.5
+   r350  us T 1(P0M1D0) S 1 X 0 M 0 $ 5400 cov 24.1 | them T 6(P1M5D0) S 8 X 3 M 4 $ 4921 cov 50.7
+   r358  us T 0(P0M0D0) S 0 X 0 M 0 $ 5640 cov 21.3 | them T 6(P1M5D0) S 8 X 3 M 4 $ 1481 cov 53.3
+   killed r41   ours MONEY at (24, 7): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r66   ours MONEY at (23, 22): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r171  ours MONEY at (23, 22): damage last 20 rounds {'SO': 850} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r179  ours MONEY at (24, 7): damage last 20 rounds {'SO': 750} from 2 robots; at death own robots d2<=20: 3 (SSM), enemy robots d2<=20: 2 (SS)
+   killed r216  ours MONEY at (15, 2): damage last 20 rounds {'SO': 300} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (MS)
+   killed r240  ours PAINT at (25, 2): damage last 20 rounds {'SO': 600} from 2 robots; at death own robots d2<=20: 3 (SMS), enemy robots d2<=20: 1 (S)
+   killed r290  ours MONEY at (24, 7): damage last 20 rounds {'SO': 800} from 2 robots; at death own robots d2<=20: 4 (SSMS), enemy robots d2<=20: 3 (SSS)
+   killed r358  ours MONEY at (27, 27): damage last 20 rounds {'SO': 650} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+
+== m3790g2 defensetower (40x59, 2173 paintable) vs gone-whalin, y221, LOST ALL_UNITS_DESTROYED r142
+   r25   us T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov  9.8 | them T 2(P1M1D0) S 5 X 0 M 1 $ 1700 cov 10.0
+   r50   us T 2(P1M1D0) S 4 X 0 M 0 $ 2500 cov 11.5 | them T 3(P0M3D0) S 5 X 0 M 2 $  730 cov 10.6
+   r75   us T 1(P1M0D0) S 5 X 0 M 0 $ 2640 cov 11.3 | them T 3(P0M3D0) S 7 X 0 M 2 $ 1980 cov 11.4
+   r100  us T 0(P0M0D0) S 4 X 0 M 0 $ 2640 cov 13.8 | them T 4(P0M4D0) S 7 X 0 M 1 $ 1440 cov 12.3
+   r125  us T 0(P0M0D0) S 3 X 0 M 0 $ 2640 cov 14.0 | them T 5(P0M5D0) S 7 X 0 M 2 $ 2030 cov 13.1
+   r142  us T 0(P0M0D0) S 0 X 0 M 0 $ 2640 cov 13.5 | them T 5(P0M5D0) S 8 X 0 M 4 $ 2750 cov 14.0
+   killed r63   ours MONEY at (12, 12): damage last 20 rounds {'SO': 1500} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r87   ours PAINT at (18, 24): damage last 20 rounds {'SO': 700} from 1 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+
+== m3899g1 Filter (21x21, 419 paintable) vs subscribe-to-caterpillow, y221, LOST ALL_UNITS_DESTROYED r241
+   r25   us T 3(P1M2D0) S 7 X 0 M 0 $  740 cov 20.3 | them T 3(P1M2D0) S 6 X 0 M 0 $  870 cov 18.4
+   r50   us T 2(P1M1D0) S 7 X 0 M 0 $  620 cov 20.5 | them T 2(P1M1D0) S 7 X 0 M 3 $  930 cov 18.6
+   r75   us T 3(P1M2D0) S 3 X 0 M 0 $  530 cov 20.8 | them T 3(P1M2D0) S 7 X 0 M 3 $  870 cov 20.8
+   r100  us T 2(P0M2D0) S 3 X 0 M 0 $  230 cov 18.6 | them T 3(P1M2D0) S 4 X 1 M 2 $ 1420 cov 28.2
+   r125  us T 2(P0M2D0) S 4 X 0 M 1 $  930 cov 18.6 | them T 2(P1M1D0) S 2 X 1 M 1 $ 2490 cov 35.6
+   r150  us T 1(P0M1D0) S 4 X 0 M 1 $ 1980 cov 15.0 | them T 3(P1M2D0) S 3 X 2 M 3 $ 1250 cov 44.2
+   r175  us T 1(P0M1D0) S 1 X 0 M 0 $ 2730 cov 15.0 | them T 4(P1M3D0) S 4 X 3 M 3 $ 1310 cov 47.3
+   r200  us T 1(P0M1D0) S 0 X 0 M 0 $ 3480 cov  5.5 | them T 4(P1M3D0) S 4 X 2 M 3 $ 2560 cov 57.3
+   r225  us T 1(P0M1D0) S 0 X 0 M 0 $ 4230 cov  1.0 | them T 6(P2M4D0) S 5 X 3 M 4 $ 1160 cov 64.7
+   r241  us T 0(P0M0D0) S 0 X 0 M 0 $ 4710 cov  0.2 | them T 7(P2M5D0) S 7 X 3 M 3 $ 1260 cov 66.8
+   killed r36   ours MONEY at (13, 15): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 2 (SS), enemy robots d2<=20: 3 (SSS)
+   killed r45   ours MONEY at (13, 15): damage last 20 rounds {'SO': 1000} from 5 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 5 (SSSSS)
+   killed r83   ours MONEY at (13, 15): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 3 (SMS)
+   killed r100  ours PAINT at (18, 18): damage last 20 rounds {'SO': 700} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r140  ours MONEY at (13, 15): damage last 20 rounds {'SO': 350} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 4 (SSSS)
+   killed r241  ours MONEY at (2, 18): damage last 20 rounds {'SO': 550} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (SSS)
+
+== m3914g1 Snowman (25x25, 553 paintable) vs subscribe-to-caterpillow, y221, LOST ALL_UNITS_DESTROYED r365
+   r25   us T 3(P1M2D0) S 7 X 0 M 0 $  660 cov 13.7 | them T 3(P1M2D0) S 6 X 0 M 0 $  870 cov 17.4
+   r50   us T 3(P1M2D0) S 8 X 0 M 0 $  520 cov 20.1 | them T 3(P1M2D0) S 7 X 0 M 0 $  600 cov 23.3
+   r75   us T 3(P1M2D0) S 7 X 0 M 0 $  570 cov 22.6 | them T 4(P1M3D0) S 6 X 0 M 1 $  770 cov 24.4
+   r100  us T 2(P1M1D0) S 4 X 0 M 0 $  390 cov 21.2 | them T 4(P1M3D0) S 4 X 1 M 5 $  920 cov 27.5
+   r125  us T 2(P1M1D0) S 3 X 0 M 0 $  890 cov 17.0 | them T 4(P1M3D0) S 4 X 1 M 5 $ 2670 cov 27.7
+   r150  us T 3(P1M2D0) S 2 X 0 M 0 $  770 cov 18.3 | them T 5(P2M3D0) S 4 X 2 M 6 $ 1870 cov 31.5
+   r175  us T 3(P1M2D0) S 1 X 0 M 0 $  280 cov 14.3 | them T 4(P2M2D0) S 4 X 3 M 3 $ 2780 cov 36.2
+   r200  us T 3(P1M2D0) S 2 X 0 M 0 $ 1030 cov 14.8 | them T 5(P2M2D1) S 4 X 4 M 4 $ 2030 cov 39.4
+   r225  us T 2(P1M1D0) S 0 X 1 M 1 $ 1150 cov 10.5 | them T 5(P2M2D1) S 4 X 4 M 5 $ 2740 cov 46.8
+   r250  us T 2(P1M1D0) S 1 X 2 M 1 $ 1000 cov 14.5 | them T 4(P2M2D0) S 4 X 3 M 2 $ 3690 cov 48.5
+   r275  us T 2(P1M1D0) S 0 X 2 M 2 $  800 cov 17.9 | them T 5(P3M2D0) S 5 X 4 M 4 $ 2690 cov 50.8
+   r300  us T 1(P0M1D0) S 0 X 2 M 2 $ 1300 cov 21.9 | them T 5(P3M2D0) S 5 X 3 M 3 $ 3540 cov 45.0
+   r325  us T 1(P0M1D0) S 0 X 1 M 1 $ 1800 cov 16.1 | them T 5(P3M2D0) S 5 X 3 M 3 $ 4090 cov 49.9
+   r350  us T 0(P0M0D0) S 0 X 1 M 0 $ 2100 cov 12.5 | them T 5(P3M2D0) S 5 X 3 M 4 $ 4640 cov 54.6
+   r365  us T 0(P0M0D0) S 0 X 0 M 0 $ 2100 cov  8.9 | them T 6(P4M2D0) S 6 X 3 M 4 $ 3840 cov 58.0
+   killed r33   ours MONEY at (15, 7): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 5 (SSSSS), enemy robots d2<=20: 3 (SSS)
+   killed r54   ours MONEY at (15, 7): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r85   ours MONEY at (22, 14): damage last 20 rounds {'SO': 950} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r85   ours MONEY at (22, 9): damage last 20 rounds {'SO': 500} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r162  ours MONEY at (15, 7): damage last 20 rounds {'SP': 100, 'SO': 50} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 3 (SSS)
+   killed r216  ours MONEY at (17, 21): damage last 20 rounds {'SP': 300} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 4 (SSSM)
+   killed r293  ours PAINT at (22, 2): damage last 20 rounds {'SP': 100, 'SO': 300} from 2 robots; at death own robots d2<=20: 2 (SM), enemy robots d2<=20: 3 (SSS)
+   killed r340  ours MONEY at (22, 14): damage last 20 rounds {'SP': 300, 'SO': 400} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+
+== m3944g0 Mirage (40x40, 1480 paintable) vs scienceqiu, y221, LOST ALL_UNITS_DESTROYED r299
+   r25   us T 2(P1M1D0) S 5 X 0 M 0 $  760 cov  7.1 | them T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov  7.5
+   r50   us T 3(P1M2D0) S 6 X 0 M 0 $   10 cov 12.1 | them T 4(P1M3D0) S 8 X 0 M 0 $  520 cov 14.1
+   r75   us T 4(P1M3D0) S 6 X 0 M 0 $   10 cov 13.4 | them T 5(P1M4D0) S 8 X 0 M 0 $  780 cov 20.3
+   r100  us T 5(P1M4D0) S 6 X 0 M 0 $  670 cov 15.5 | them T 7(P1M6D0) S 9 X 0 M 1 $  380 cov 24.9
+   r125  us T 4(P1M3D0) S 5 X 0 M 1 $  930 cov 18.0 | them T 9(P2M7D0) S 9 X 0 M 3 $  686 cov 30.4
+   r150  us T 6(P1M5D0) S 5 X 0 M 1 $ 1110 cov 21.5 | them T10(P2M8D0) S11 X 0 M 6 $  977 cov 37.0
+   r175  us T 5(P1M4D0) S 8 X 0 M 2 $  800 cov 24.5 | them T10(P2M8D0) S15 X 0 M 8 $ 1037 cov 41.8
+   r200  us T 5(P1M4D0) S 8 X 0 M 2 $ 1140 cov 27.4 | them T11(P3M8D0) S17 X 0 M12 $ 2485 cov 43.9
+   r225  us T 3(P1M2D0) S 5 X 0 M 2 $  881 cov 26.1 | them T11(P3M8D0) S17 X 0 M15 $ 1295 cov 45.1
+   r250  us T 2(P1M1D0) S 4 X 0 M 2 $  908 cov 23.4 | them T11(P3M8D0) S22 X 0 M25 $ 3345 cov 48.2
+   r275  us T 1(P0M1D0) S 1 X 0 M 2 $  391 cov 18.7 | them T11(P3M8D0) S24 X 0 M30 $ 2195 cov 53.9
+   r299  us T 0(P0M0D0) S 0 X 0 M 0 $  575 cov 14.7 | them T13(P4M9D0) S28 X 0 M39 $ 1232 cov 59.5
+   killed r18   ours MONEY at (17, 36): damage last 20 rounds {'SO': 1500} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r101  ours MONEY at (35, 24): damage last 20 rounds {'SO': 750} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 3 (SSS)
+   killed r108  ours MONEY at (25, 13): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r156  ours MONEY at (33, 34): damage last 20 rounds {'SO': 850} from 2 robots; at death own robots d2<=20: 2 (SM), enemy robots d2<=20: 1 (S)
+   killed r159  ours MONEY at (35, 24): damage last 20 rounds {'SO': 150} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r193  ours MONEY at (25, 13): damage last 20 rounds {'SO': 300} from 1 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r200  ours MONEY at (35, 24): damage last 20 rounds {'SO': 550} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r201  ours MONEY at (30, 12): damage last 20 rounds {'SO': 500} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 3 (SSS)
+   killed r209  ours MONEY at (32, 7): damage last 20 rounds {'SO': 800} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r215  ours MONEY at (30, 12): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 3 (SSS)
+   killed r224  ours MONEY at (32, 7): damage last 20 rounds {'SO': 1000} from 4 robots; at death own robots d2<=20: 2 (SS), enemy robots d2<=20: 3 (SSS)
+   killed r239  ours MONEY at (33, 34): damage last 20 rounds {'SO': 350} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r239  ours MONEY at (32, 29): damage last 20 rounds {'SO': 650} from 2 robots; at death own robots d2<=20: 2 (MM), enemy robots d2<=20: 4 (MSSS)
+   killed r260  ours MONEY at (32, 7): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 3 (MSS)
+   killed r269  ours PAINT at (36, 13): damage last 20 rounds {'SO': 600} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (SSM)
+   killed r283  ours MONEY at (35, 24): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 4 (SMMS)
+
+== m3944g1 Snowman (25x25, 553 paintable) vs scienceqiu, y221, LOST ALL_UNITS_DESTROYED r236
+   r25   us T 3(P1M2D0) S 7 X 0 M 0 $  660 cov 14.3 | them T 3(P1M2D0) S 6 X 0 M 0 $  930 cov 17.2
+   r50   us T 3(P1M2D0) S 8 X 0 M 0 $  520 cov 18.1 | them T 3(P1M2D0) S 5 X 0 M 1 $ 1630 cov 26.0
+   r75   us T 2(P1M1D0) S 6 X 0 M 0 $  340 cov 17.5 | them T 3(P1M2D0) S 3 X 0 M 2 $ 2330 cov 29.3
+   r100  us T 2(P1M1D0) S 4 X 0 M 0 $  840 cov 21.9 | them T 2(P1M1D0) S 2 X 0 M 3 $ 2940 cov 31.3
+   r125  us T 3(P1M2D0) S 4 X 0 M 0 $  680 cov 24.2 | them T 1(P1M0D0) S 1 X 0 M 4 $ 3240 cov 34.5
+   r150  us T 3(P1M2D0) S 3 X 0 M 0 $  430 cov 25.7 | them T 2(P1M1D0) S 5 X 0 M 4 $  460 cov 38.7
+   r175  us T 2(P1M1D0) S 3 X 0 M 0 $ 1050 cov 25.7 | them T 2(P1M1D0) S 5 X 0 M 4 $  960 cov 40.1
+   r200  us T 1(P1M0D0) S 1 X 0 M 0 $ 1070 cov 26.2 | them T 3(P2M1D0) S 5 X 0 M 4 $  210 cov 40.9
+   r225  us T 1(P1M0D0) S 0 X 0 M 0 $ 1070 cov 22.4 | them T 3(P2M1D0) S 5 X 0 M 3 $  460 cov 43.0
+   r236  us T 0(P0M0D0) S 0 X 0 M 0 $ 1070 cov 20.6 | them T 3(P2M1D0) S 5 X 0 M 3 $  680 cov 44.1
+   killed r33   ours MONEY at (9, 7): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 3 (SSS), enemy robots d2<=20: 3 (SSS)
+   killed r53   ours MONEY at (9, 7): damage last 20 rounds {'SO': 1000} from 4 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 3 (SSS)
+   killed r68   ours MONEY at (2, 9): damage last 20 rounds {'SO': 750} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 2 (SS)
+   killed r149  ours MONEY at (9, 7): damage last 20 rounds {'SO': 400} from 2 robots; at death own robots d2<=20: 3 (SSS), enemy robots d2<=20: 3 (MSS)
+   killed r156  ours MONEY at (9, 7): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 4 (SMSS)
+   killed r176  ours MONEY at (2, 14): damage last 20 rounds {'SO': 100} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r236  ours PAINT at (2, 2): damage last 20 rounds {'SO': 200} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+
+== m3946g1 Terminal (40x30, 1022 paintable) vs varunvejalla, y221, LOST ALL_UNITS_DESTROYED r277
+   r25   us T 3(P1M2D0) S 7 X 0 M 0 $  660 cov  5.6 | them T 4(P1M3D0) S 5 X 0 M 0 $  140 cov  8.9
+   r50   us T 4(P1M3D0) S 7 X 0 M 0 $  920 cov 11.2 | them T 6(P1M5D0) S 5 X 0 M 0 $  150 cov 14.6
+   r75   us T 6(P1M5D0) S 7 X 0 M 0 $   30 cov 16.7 | them T 6(P1M5D0) S 7 X 0 M 2 $ 1050 cov 18.0
+   r100  us T 6(P1M5D0) S 6 X 0 M 0 $  600 cov 22.5 | them T 6(P1M5D0) S10 X 0 M 5 $  880 cov 20.9
+   r125  us T 6(P0M6D0) S 6 X 0 M 0 $ 1230 cov 26.9 | them T 7(P1M6D0) S 6 X 0 M 5 $  530 cov 25.0
+   r150  us T 5(P0M5D0) S 6 X 0 M 1 $  790 cov 27.5 | them T 8(P1M7D0) S 8 X 0 M 9 $ 1000 cov 26.5
+   r175  us T 5(P0M5D0) S 7 X 0 M 2 $ 1230 cov 29.1 | them T 7(P1M6D0) S11 X 0 M11 $ 1990 cov 31.1
+   r200  us T 3(P0M3D0) S 6 X 0 M 3 $ 1520 cov 28.5 | them T 8(P1M7D0) S11 X 0 M13 $ 1980 cov 33.7
+   r225  us T 3(P0M3D0) S 4 X 0 M 2 $  790 cov 28.3 | them T 9(P1M8D0) S11 X 2 M15 $  730 cov 37.0
+   r250  us T 1(P0M1D0) S 1 X 0 M 1 $  650 cov 23.2 | them T 9(P1M8D0) S 9 X 4 M14 $ 1610 cov 41.1
+   r275  us T 0(P0M0D0) S 1 X 0 M 0 $  870 cov 15.9 | them T 9(P1M8D0) S11 X 4 M16 $ 2310 cov 53.9
+   r277  us T 0(P0M0D0) S 0 X 0 M 0 $  870 cov 15.6 | them T 9(P1M8D0) S12 X 4 M16 $ 2400 cov 54.6
+   killed r59   ours MONEY at (29, 14): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r84   ours MONEY at (23, 5): damage last 20 rounds {'SO': 650} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r90   ours MONEY at (29, 5): damage last 20 rounds {'SO': 800} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (SSS)
+   killed r105  ours PAINT at (34, 5): damage last 20 rounds {'SO': 1500} from 4 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (SSS)
+   killed r111  ours MONEY at (29, 14): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r127  ours MONEY at (29, 14): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r138  ours MONEY at (34, 14): damage last 20 rounds {'SO': 500} from 1 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r142  ours MONEY at (17, 5): damage last 20 rounds {'SO': 600} from 1 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+   killed r155  ours MONEY at (29, 14): damage last 20 rounds {'SO': 700} from 1 robots; at death own robots d2<=20: 2 (SM), enemy robots d2<=20: 1 (S)
+   killed r176  ours MONEY at (22, 24): damage last 20 rounds {'SO': 150} from 1 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (MS)
+   killed r177  ours MONEY at (17, 5): damage last 20 rounds {'SO': 900} from 2 robots; at death own robots d2<=20: 2 (SM), enemy robots d2<=20: 2 (SS)
+   killed r191  ours MONEY at (27, 24): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r221  ours MONEY at (23, 5): damage last 20 rounds {'SO': 200} from 1 robots; at death own robots d2<=20: 2 (MS), enemy robots d2<=20: 2 (SS)
+   killed r223  ours MONEY at (27, 24): damage last 20 rounds {'SO': 1000} from 4 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 2 (SS)
+   killed r228  ours MONEY at (17, 5): damage last 20 rounds {'SO': 550} from 2 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 3 (MSS)
+   killed r234  ours MONEY at (34, 14): damage last 20 rounds {'SO': 1000} from 2 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 2 (SS)
+   killed r235  ours MONEY at (27, 24): damage last 20 rounds {'SO': 1000} from 3 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 2 (SS)
+   killed r261  ours MONEY at (23, 5): damage last 20 rounds {'SO': 300, 'SP': 200} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 3 (MSS)
+
+#### elimination wins (their towers killed)
+== m3549g2 lighthouse (31x31, 853 paintable) vs slifland, y211, WON ALL_UNITS_DESTROYED r205
+   r25   us T 2(P1M1D0) S 5 X 0 M 0 $ 2000 cov 11.8 | them T 2(P1M1D0) S 5 X 0 M 1 $ 1700 cov 10.4
+   r50   us T 3(P1M2D0) S 6 X 0 M 0 $ 1300 cov 15.0 | them T 2(P1M1D0) S 5 X 0 M 1 $ 1950 cov 13.6
+   r75   us T 3(P1M2D0) S 6 X 0 M 0 $ 2550 cov 16.9 | them T 1(P1M0D0) S 6 X 0 M 1 $ 1940 cov 16.1
+   r100  us T 4(P2M2D0) S 8 X 0 M 0 $ 2050 cov 30.5 | them T 1(P1M0D0) S 5 X 0 M 0 $ 1940 cov 19.0
+   r125  us T 4(P3M1D0) S 8 X 0 M 1 $  360 cov 40.0 | them T 1(P1M0D0) S 5 X 0 M 0 $ 1690 cov 19.5
+   r150  us T 4(P3M1D0) S 8 X 0 M 1 $  860 cov 46.2 | them T 1(P1M0D0) S 4 X 1 M 0 $ 1290 cov 21.3
+   r175  us T 4(P3M1D0) S 9 X 0 M 1 $ 1110 cov 48.3 | them T 0(P0M0D0) S 2 X 1 M 0 $ 1290 cov 23.3
+   r200  us T 4(P3M1D0) S 8 X 1 M 1 $ 1010 cov 54.5 | them T 0(P0M0D0) S 1 X 1 M 0 $ 1290 cov 21.1
+   r205  us T 4(P3M1D0) S 8 X 1 M 1 $ 1110 cov 55.7 | them T 0(P0M0D0) S 0 X 0 M 0 $ 1290 cov 20.9
+   killed r58   theirs MONEY at (27, 2): damage last 20 rounds {'SO': 1300} from 3 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+   killed r160  theirs PAINT at (4, 27): damage last 20 rounds {'SO': 650} from 1 robots; at death own robots d2<=20: 1 (S), enemy robots d2<=20: 1 (S)
+
+== m3698g1 Mirage (40x40, 1480 paintable) vs gone-whalin, y211, WON ALL_UNITS_DESTROYED r139
+   r25   us T 3(P1M2D0) S 5 X 0 M 0 $ 1000 cov  4.7 | them T 1(P1M0D0) S 3 X 0 M 2 $ 1390 cov  3.0
+   r50   us T 4(P1M3D0) S 7 X 0 M 0 $  620 cov 10.3 | them T 1(P1M0D0) S 3 X 0 M 1 $ 1390 cov  3.4
+   r75   us T 6(P1M5D0) S 7 X 0 M 0 $  910 cov 13.9 | them T 1(P1M0D0) S 3 X 0 M 1 $ 1390 cov  3.4
+   r100  us T 8(P2M6D0) S10 X 0 M 1 $ 1090 cov 24.4 | them T 1(P1M0D0) S 1 X 0 M 1 $ 1390 cov  3.2
+   r125  us T 9(P2M7D0) S13 X 1 M 2 $ 1850 cov 34.1 | them T 1(P1M0D0) S 0 X 0 M 0 $ 1390 cov  2.7
+   r139  us T 9(P2M7D0) S13 X 2 M 3 $ 1780 cov 39.8 | them T 0(P0M0D0) S 0 X 0 M 0 $ 1390 cov  2.2
+   killed r18   theirs MONEY at (17, 36): damage last 20 rounds {'SO': 1500} from 2 robots; at death own robots d2<=20: 1 (M), enemy robots d2<=20: 2 (SS)
+   killed r139  theirs PAINT at (36, 13): damage last 20 rounds {'SO': 650} from 2 robots; at death own robots d2<=20: 0 (), enemy robots d2<=20: 1 (S)
+

@@ -1,0 +1,74 @@
+
+######## OURS in lost games: 41 games; games with an episode 20; rounds at <= 1 tower, median where > 0: 22.5
+
+== OURS in lost games, FIRST episode: 20 episodes
+   outcome: {'recovered': 8, 'held<=1': 6, 'elim': 6}; median start r195.5, duration 21.5 rounds
+   recovered   8: start r158.0, chips 2245.0, robots S/X/M 3.5/0.0/0.5, soldier paint 77.2, tower left {'P': 4, 'M': 4}; free ruins 8.5 of which clean 2.5; nearest clean ruin d2 2.0 (none clean: 0); duration 14.0; towers built during: {'M': 2}
+   elim        6: start r95.0, chips 3015.0, robots S/X/M 2.5/0.0/0.0, soldier paint 66.8, tower left {'P': 1, 'M': 5}; free ruins 9.0 of which clean 2.0; nearest clean ruin d2 49.5 (none clean: 0); duration 86.5; towers built during: {}
+   held<=1     6: start r368.0, chips 3535.0, robots S/X/M 2.0/1.0/2.0, soldier paint 106.0, tower left {'P': 4, 'M': 2}; free ruins 5.0 of which clean 1.0; nearest clean ruin d2 16.5 (none clean: 2); duration 14.5; towers built during: {}
+   soldier-turns, first 60 rounds of the episode: build 0.2%, mark 0.3%, ruin 18.1%, siege 5.1%, refill 0.5%, cover 8.7%, none 67.0%, at 0 paint 12.9% (883 turns)
+      recovered: build 0.9%, mark 0.9%, ruin 36.8%, siege 8.7%, refill 1.3%, cover 10.4%, none 41.1%, at 0 paint 1.7% (231 turns)
+      elim     : build 0.0%, mark 0.2%, ruin 12.1%, siege 2.6%, refill 0.2%, cover 9.1%, none 75.9%, at 0 paint 14.7% (497 turns)
+      held<=1  : build 0.0%, mark 0.0%, ruin 9.7%, siege 7.7%, refill 0.0%, cover 5.2%, none 77.4%, at 0 paint 23.9% (155 turns)
+
+== OURS in lost games, LAST episode that runs to the end: 16 episodes
+   outcome: {'held<=1': 7, 'elim': 9}; median start r237.0, duration 35.5 rounds
+   elim        9: start r120, chips 2280, robots S/X/M 2/0/0, soldier paint 117.2, tower left {'P': 1, 'M': 8}; free ruins 7 of which clean 2; nearest clean ruin d2 73 (none clean: 1); duration 57; towers built during: {}
+   held<=1     7: start r332, chips 2310, robots S/X/M 2/1/2, soldier paint 91.0, tower left {'P': 5, 'M': 2}; free ruins 5 of which clean 1; nearest clean ruin d2 9 (none clean: 2); duration 17; towers built during: {}
+   soldier-turns, first 60 rounds of the episode: build 0.0%, mark 0.1%, ruin 10.4%, siege 4.0%, refill 0.1%, cover 8.1%, none 77.2%, at 0 paint 18.8% (729 turns)
+      elim     : build 0.0%, mark 0.2%, ruin 10.9%, siege 3.0%, refill 0.2%, cover 9.1%, none 76.5%, at 0 paint 15.4% (558 turns)
+      held<=1  : build 0.0%, mark 0.0%, ruin 8.8%, siege 7.0%, refill 0.0%, cover 4.7%, none 79.5%, at 0 paint 29.8% (171 turns)
+
+######## THEIRS in lost games: 41 games; games with an episode 1; rounds at <= 1 tower, median where > 0: 9
+
+== THEIRS in lost games, FIRST episode: 1 episodes
+   outcome: {'recovered': 1}; median start r69, duration 9 rounds
+   recovered   1: start r69, chips 730, robots S/X/M 4/0/2, soldier paint 111.0, tower left {'M': 1}; free ruins 6 of which clean 3; nearest clean ruin d2 1 (none clean: 0); duration 9; towers built during: {}
+   soldier-turns, first 60 rounds of the episode: build 0.0%, mark 0.0%, ruin 2.8%, siege 22.2%, refill 0.0%, cover 5.6%, none 69.4%, at 0 paint 0.0% (36 turns)
+      recovered: build 0.0%, mark 0.0%, ruin 2.8%, siege 22.2%, refill 0.0%, cover 5.6%, none 69.4%, at 0 paint 0.0% (36 turns)
+
+== THEIRS in lost games, LAST episode that runs to the end: 0 episodes
+
+######## OURS in won games: 51 games; games with an episode 3; rounds at <= 1 tower, median where > 0: 2
+
+== OURS in won games, FIRST episode: 3 episodes
+   outcome: {'recovered': 3}; median start r58, duration 2 rounds
+   recovered   3: start r58, chips 2020, robots S/X/M 7/0/0, soldier paint 130.0, tower left {'M': 2, 'P': 1}; free ruins 17 of which clean 6; nearest clean ruin d2 1 (none clean: 0); duration 2; towers built during: {}
+   soldier-turns, first 60 rounds of the episode: build 0.0%, mark 0.0%, ruin 4.9%, siege 12.6%, refill 0.0%, cover 8.7%, none 73.8%, at 0 paint 1.0% (103 turns)
+      recovered: build 0.0%, mark 0.0%, ruin 4.9%, siege 12.6%, refill 0.0%, cover 8.7%, none 73.8%, at 0 paint 1.0% (103 turns)
+
+== OURS in won games, LAST episode that runs to the end: 0 episodes
+
+######## THEIRS in won games: 51 games; games with an episode 12; rounds at <= 1 tower, median where > 0: 20.0
+
+== THEIRS in won games, FIRST episode: 12 episodes
+   outcome: {'held<=1': 7, 'recovered': 5}; median start r286.5, duration 14.0 rounds
+   recovered   5: start r102, chips 1170, robots S/X/M 4/0/2, soldier paint 114, tower left {'M': 3, 'P': 2}; free ruins 14 of which clean 7; nearest clean ruin d2 1 (none clean: 2); duration 2; towers built during: {}
+   held<=1     7: start r310, chips 1890, robots S/X/M 2/0/6, soldier paint 34, tower left {'M': 3, 'P': 4}; free ruins 6 of which clean 3; nearest clean ruin d2 9.0 (none clean: 1); duration 29; towers built during: {}
+   soldier-turns, first 60 rounds of the episode: build 0.0%, mark 0.1%, ruin 4.5%, siege 3.5%, refill 0.4%, cover 3.7%, none 87.7%, at 0 paint 7.2% (734 turns)
+      recovered: build 0.0%, mark 0.0%, ruin 11.5%, siege 0.5%, refill 0.5%, cover 4.8%, none 82.8%, at 0 paint 0.5% (209 turns)
+      held<=1  : build 0.0%, mark 0.2%, ruin 1.7%, siege 4.8%, refill 0.4%, cover 3.2%, none 89.7%, at 0 paint 9.9% (525 turns)
+
+== THEIRS in won games, LAST episode that runs to the end: 9 episodes
+   outcome: {'held<=1': 9}; median start r310, duration 26 rounds
+   held<=1     9: start r310, chips 1890, robots S/X/M 3/0/6, soldier paint 86, tower left {'M': 4, 'P': 5}; free ruins 7 of which clean 3; nearest clean ruin d2 9.0 (none clean: 1); duration 26; towers built during: {}
+   soldier-turns, first 60 rounds of the episode: build 0.0%, mark 0.3%, ruin 3.6%, siege 4.4%, refill 0.3%, cover 2.9%, none 88.5%, at 0 paint 8.4% (618 turns)
+      held<=1  : build 0.0%, mark 0.3%, ruin 3.6%, siege 4.4%, refill 0.3%, cover 2.9%, none 88.5%, at 0 paint 8.4% (618 turns)
+
+per lost game whose last episode of ours runs to the end:
+   m2919g2 t74   immutable    windmill       MAJ220   r199  held<=1   dur   22 $ 2310 S/X/M 2/1/2 paint 21.0 left P clean 2/5 near 1 built {} | siege 0% ruin 26% cover 0% none 74% zero 26% (eps 1)
+   m2921g1 t74   spaark       Paintball      ALL138   r82   elim      dur   57 $  840 S/X/M 0/0/0 paint None left P clean 3/5 near None built {} | siege 0% ruin 0% cover 0% none 0% zero 0% (eps 1)
+   m2970g0 y170  gone-whalin  Bunny          ALL235   r120  elim      dur  116 $ 4280 S/X/M 3/0/0 paint 19 left M clean 5/14 near 10 built {} | siege 0% ruin 0% cover 6% none 94% zero 53% (eps 1)
+   m2970g2 y170  gone-whalin  sierpinski     MAJ502   r501  held<=1   dur    2 $ 6704 S/X/M 0/1/2 paint None left M clean 0/4 near None built {} | siege 0% ruin 0% cover 0% none 0% zero 0% (eps 1)
+   m2972g1 y170  scienceqiu   DonkeyKong     MAJ494   r472  held<=1   dur   23 $  836 S/X/M 3/1/2 paint 121 left P clean 2/24 near 1 built {} | siege 3% ruin 0% cover 2% none 95% zero 38% (eps 1)
+   m2979g0 y170  scienceqiu   Bunny          ALL323   r276  elim      dur   48 $  972 S/X/M 2/0/2 paint 167.0 left M clean 3/11 near 90 built {} | siege 2% ruin 2% cover 9% none 87% zero 24% (eps 2)
+   m2979g1 y170  scienceqiu   BunnyGame      ALL229   r100  elim      dur  130 $ 3750 S/X/M 3/0/0 paint 155 left M clean 2/11 near 73 built {} | siege 2% ruin 4% cover 27% none 68% zero 6% (eps 1)
+   m2979g2 y170  scienceqiu   TargetPractice MAJ299   r294  held<=1   dur    6 $ 6564 S/X/M 2/0/3 paint 91.0 left M clean 1/6 near 116 built {} | siege 0% ruin 8% cover 8% none 83% zero 50% (eps 1)
+   m2990g0 y170  gone-whalin  Bunny          ALL282   r275  elim      dur    8 $ 7720 S/X/M 0/0/0 paint None left M clean 2/7 near None built {} | siege 0% ruin 0% cover 0% none 0% zero 0% (eps 3)
+   m2990g2 y170  gone-whalin  UglySweater    ALL482   r432  elim      dur   51 $ 4148 S/X/M 2/0/0 paint 1.0 left M clean 2/7 near 580 built {} | siege 0% ruin 0% cover 0% none 100% zero 75% (eps 1)
+   m3080g0 t85   lobster-roll DefaultSmall   MAJ203   r192  held<=1   dur   12 $ 4760 S/X/M 0/0/1 paint None left P clean 0/2 near None built {} | siege 0% ruin 0% cover 0% none 0% zero 0% (eps 1)
+   m3103g2 t85   placeholder- walalilongla   MAJ458   r442  held<=1   dur   17 $  965 S/X/M 3/4/3 paint 129 left P clean 1/5 near 32 built {} | siege 20% ruin 12% cover 12% none 57% zero 0% (eps 1)
+   m3127g0 t85   scienceqiu   Snowman        MAJ387   r332  held<=1   dur   56 $  910 S/X/M 1/0/2 paint 2.0 left P clean 1/4 near 9 built {} | siege 0% ruin 0% cover 0% none 100% zero 88% (eps 2)
+   m3188g0 t91   scienceqiu   Filter         ALL230   r125  elim      dur  106 $ 1340 S/X/M 1/0/1 paint 120 left M clean 0/6 near None built {} | siege 50% ruin 0% cover 17% none 33% zero 0% (eps 2)
+   m3190g1 t91   slifland     FourCorners    ALL285   r51   elim      dur  235 $ 2280 S/X/M 6/0/0 paint 114.5 left M clean 1/11 near 26 built {} | siege 4% ruin 18% cover 4% none 74% zero 9% (eps 1)
+   m3190g2 t91   slifland     Paintball      ALL110   r90   elim      dur   21 $  880 S/X/M 0/0/0 paint None left M clean 1/6 near None built {} | siege 0% ruin 0% cover 0% none 0% zero 0% (eps 1)

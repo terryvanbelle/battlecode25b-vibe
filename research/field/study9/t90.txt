@@ -1,0 +1,55 @@
+== lost (89): medians per game, us / them
+   r1-50: away % 17/21  hits 16/9  tower kills 0/0  robots lost to towers 0/0
+   r51-100: away % 34/43  hits 31/21  tower kills 1/0  robots lost to towers 1/1
+   first mopper: us med r89.5 (none in 13), them med r41 (none in 0)
+== won (96): medians per game, us / them
+   r1-50: away % 11.0/14.0  hits 0.0/0.0  tower kills 0.0/0.0  robots lost to towers 0.0/0.0
+   r51-100: away % 31.5/26.0  hits 20.0/14.5  tower kills 0.0/0.0  robots lost to towers 1.0/0.0
+   first mopper: us med r91 (none in 1), them med r49 (none in 1)
+
+== result by the starting paint towers: (our start PT killed by rN?, theirs killed by rN?) -> won / lost
+   by r100: ours killed False theirs killed False: won 79 lost 70
+   by r100: ours killed True  theirs killed False: won  6 lost 10
+   by r100: ours killed False theirs killed True : won  8 lost  5
+   by r100: ours killed True  theirs killed True : won  3 lost  4
+   by r150: ours killed False theirs killed False: won 76 lost 58
+   by r150: ours killed True  theirs killed False: won  4 lost 19
+   by r150: ours killed False theirs killed True : won 10 lost  6
+   by r150: ours killed True  theirs killed True : won  6 lost  6
+
+== games where our starting paint tower fell by r150: round, map, opponent, result, their start PT fell
+   m3211g0   r124  Brat          subscribe-to LOST  theirs: r45
+   m3211g1   r62   DefaultSmall  subscribe-to LOST  theirs: rNone
+   m3212g1   r88   lighthouse    gone-whalin  LOST  theirs: rNone
+   m3289g0   r45   Bread         gone-whalin  LOST  theirs: rNone
+   m3289g1   r57   Justice       gone-whalin  LOST  theirs: r211
+   m3289g2   r120  Portal        gone-whalin  LOST  theirs: rNone
+   m3294g1   r92   Rose          placeholder- won   theirs: r84
+   m3306g0   r66   Brat          scienceqiu   LOST  theirs: r70
+   m3306g2   r128  FourCorners   scienceqiu   LOST  theirs: r74
+   m3312g1   r29   defensetower  slifland     LOST  theirs: r35
+   m3323g1   r137  DefaultMedium varunvejalla LOST  theirs: rNone
+   m3323g2   r56   Paintball     varunvejalla LOST  theirs: rNone
+   m3324g2   r139  quack         varunvejalla LOST  theirs: rNone
+   m3410g0   r103  BunnyGame     placeholder- LOST  theirs: rNone
+   m3513g0   r33   CastleDefense varunvejalla LOST  theirs: r52
+   m3513g1   r81   DonkeyKong    varunvejalla LOST  theirs: rNone
+   m3513g2   r101  Justice       varunvejalla LOST  theirs: rNone
+   m3515g1   r63   FourCorners   slifland     won   theirs: r118
+   m3548g2   r61   shell         scienceqiu   won   theirs: r304
+   m3575g0   r114  DefaultSmall  gone-whalin  LOST  theirs: rNone
+   m3583g0   r27   Jail          gone-whalin  LOST  theirs: rNone
+   m3583g1   r31   Paintball     gone-whalin  won   theirs: r133
+   m3655g2   r112  walalilongla  slifland     won   theirs: r393
+   m3684g0   r135  Snowglobe     scienceqiu   LOST  theirs: rNone
+   m3735g1   r138  Portal        slifland     LOST  theirs: rNone
+   m3771g0   r82   AlarmClock    gone-whalin  won   theirs: r170
+   m3771g1   r30   DefaultSmall  gone-whalin  won   theirs: r100
+   m3789g0   r43   DefaultLarge  gone-whalin  won   theirs: r425
+   m3789g1   r48   TargetPractic gone-whalin  LOST  theirs: rNone
+   m3790g0   r31   CastleDefense gone-whalin  won   theirs: r49
+   m3790g2   r87   defensetower  gone-whalin  LOST  theirs: r35
+   m3899g1   r100  Filter        subscribe-to LOST  theirs: rNone
+   m3931g2   r95   Paintball     subscribe-to LOST  theirs: rNone
+   m3946g1   r105  Terminal      varunvejalla LOST  theirs: rNone
+   m3951g1   r60   leavemealone  varunvejalla won   theirs: r123

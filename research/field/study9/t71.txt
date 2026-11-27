@@ -1,0 +1,10 @@
+== lost: soldier-turns by zone, % (median over games), us | them
+  r1-100: own 58 | 52  mid 17 | 19  other 19 | 22
+  r101-200: own 64 | 47  mid 18 | 21  other 15 | 22
+  r201-300: own 64 | 51  mid 20 | 22  other 12 | 25
+  soldier deaths in the other half: 36% | 67%
+== won: soldier-turns by zone, % (median over games), us | them
+  r1-100: own 60 | 63  mid 20 | 17  other 14 | 14
+  r101-200: own 56 | 54  mid 24 | 23  other 16 | 17
+  r201-300: own 50 | 55  mid 26 | 25  other 18 | 17
+  soldier deaths in the other half: 48% | 40%

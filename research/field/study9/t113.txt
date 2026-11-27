@@ -1,0 +1,134 @@
+
+== LOST games: 89  (sums; r50 on)
+   money tower-rounds L1                          us    87621   them   119753
+   drained money tower-rounds L1                  us    45254   them    45861
+   money tower-rounds L2+                         us    33443   them    50356
+   drained money tower-rounds L2+                 us    23560   them    38838
+   robot-turns beside a drained L1 money tower    us    21275   them    11648
+     SO beside drained L1                         us     8982   them     4532
+     SP beside drained L1                         us     6672   them     2983
+     MO beside drained L1                         us     5621   them     4133
+     ... with chips >= 2000 (L1)                  us    14595   them     3790
+     ... gained no paint (L1)                     us    20390   them    10864
+   robot-turns beside a drained L2+ money tower   us     6521   them     9699
+     SO beside drained L2+                        us     3208   them     4623
+     SP beside drained L2+                        us     2140   them     2464
+     MO beside drained L2+                        us     1173   them     2612
+     ... with chips >= 2000 (L2+)                 us     5261   them     6238
+     ... gained no paint (L2+)                    us     6501   them     9587
+   money tower upgrades                           us      118   them      226
+   churns (money towers disintegrated)            us      388   them      437
+   games with >= 50 robot-turns beside a drained L2+ money tower: us 35, them 17
+   first money tower upgrade, median round: us r290 (31 games), them r233.5 (28 games)
+   per lost game (ours):
+   m3211g0 t91   subscribe-to Brat           ALL554   drained L2+ tower-rounds     0, robot-turns beside them     0; L1   115 /    37; upgrades 0, churns 1
+   m3211g1 t91   subscribe-to DefaultSmall   ALL122   drained L2+ tower-rounds    20, robot-turns beside them     1; L1     0 /     0; upgrades 0, churns 0
+   m3211g2 t91   subscribe-to Piglets2       MAJ457   drained L2+ tower-rounds    71, robot-turns beside them     1; L1   993 /   434; upgrades 0, churns 5
+   m3212g0 t91   gone-whalin  galaxy         MAJ550   drained L2+ tower-rounds   501, robot-turns beside them    40; L1   756 /   381; upgrades 0, churns 11
+   m3212g1 t91   gone-whalin  lighthouse     MAJ308   drained L2+ tower-rounds     0, robot-turns beside them     0; L1     0 /     0; upgrades 1, churns 0
+   m3213g0 t91   om-nom       Gears          MAJ536   drained L2+ tower-rounds   133, robot-turns beside them    20; L1   591 /   115; upgrades 0, churns 0
+   m3213g1 t91   om-nom       TheBest        MAJ422   drained L2+ tower-rounds   169, robot-turns beside them    28; L1   781 /    90; upgrades 0, churns 4
+   m3213g2 t91   om-nom       sayhi          MAJ571   drained L2+ tower-rounds   501, robot-turns beside them   212; L1   757 /   388; upgrades 12, churns 8
+   m3214g0 t91   immutable    Portal         MAJ414   drained L2+ tower-rounds   312, robot-turns beside them    20; L1   890 /   248; upgrades 0, churns 5
+   m3214g1 t91   immutable    Snowman        MAJ158   drained L2+ tower-rounds    69, robot-turns beside them    21; L1    84 /    90; upgrades 0, churns 0
+   m3289g0 y195  gone-whalin  Bread          MAJ375   drained L2+ tower-rounds   340, robot-turns beside them    23; L1    91 /    53; upgrades 5, churns 1
+   m3289g1 y195  gone-whalin  Justice        MAJ460   drained L2+ tower-rounds   319, robot-turns beside them    15; L1   470 /   244; upgrades 1, churns 4
+   m3289g2 y195  gone-whalin  Portal         MAJ424   drained L2+ tower-rounds   368, robot-turns beside them    22; L1   619 /    65; upgrades 0, churns 8
+   m3294g0 y195  placeholder- DefaultHuge    MAJ400   drained L2+ tower-rounds   272, robot-turns beside them    43; L1  1168 /   360; upgrades 0, churns 4
+   m3294g2 y195  placeholder- UglySweater    MAJ472   drained L2+ tower-rounds   305, robot-turns beside them    81; L1   864 /   393; upgrades 0, churns 6
+   m3304g1 y195  gone-whalin  Piglets2       MAJ607   drained L2+ tower-rounds   652, robot-turns beside them   113; L1   675 /   107; upgrades 6, churns 9
+   m3305g2 y195  immutable    starburst      MAJ270   drained L2+ tower-rounds    96, robot-turns beside them    38; L1   171 /   108; upgrades 0, churns 6
+   m3306g0 y195  scienceqiu   Brat           ALL301   drained L2+ tower-rounds   109, robot-turns beside them    53; L1     0 /     0; upgrades 1, churns 0
+   m3306g1 y195  scienceqiu   BunnyGame      ALL189   drained L2+ tower-rounds   140, robot-turns beside them    82; L1     0 /     0; upgrades 0, churns 0
+   m3306g2 y195  scienceqiu   FourCorners    MAJ307   drained L2+ tower-rounds   209, robot-turns beside them    52; L1     0 /     0; upgrades 1, churns 0
+   m3307g0 y195  placeholder- Crab           MAJ469   drained L2+ tower-rounds   309, robot-turns beside them    92; L1   869 /   242; upgrades 0, churns 6
+   m3312g1 y195  slifland     defensetower   MAJ747   drained L2+ tower-rounds     0, robot-turns beside them     0; L1   885 /   362; upgrades 0, churns 3
+   m3323g0 y195  varunvejalla Castle         MAJ481   drained L2+ tower-rounds   381, robot-turns beside them     0; L1   503 /   149; upgrades 0, churns 6
+   m3323g1 y195  varunvejalla DefaultMedium  ALL240   drained L2+ tower-rounds     0, robot-turns beside them     0; L1    23 /    10; upgrades 0, churns 0
+   m3323g2 y195  varunvejalla Paintball      ALL223   drained L2+ tower-rounds     0, robot-turns beside them     0; L1    13 /     3; upgrades 0, churns 1
+   m3324g0 y195  varunvejalla Bread          ALL485   drained L2+ tower-rounds   121, robot-turns beside them    29; L1   242 /    62; upgrades 0, churns 2
+   m3324g1 y195  varunvejalla Justice        MAJ290   drained L2+ tower-rounds   181, robot-turns beside them    38; L1     0 /     0; upgrades 0, churns 0
+   m3324g2 y195  varunvejalla quack          ALL255   drained L2+ tower-rounds     0, robot-turns beside them     0; L1    59 /     5; upgrades 0, churns 0
+   m3400g0 y197  lobster-roll PlumberGame    MAJ622   drained L2+ tower-rounds   951, robot-turns beside them   165; L1  1330 /  1203; upgrades 5, churns 7
+   m3400g1 y197  lobster-roll Portal         MAJ429   drained L2+ tower-rounds   211, robot-turns beside them    46; L1   304 /   117; upgrades 1, churns 2
+   m3409g0 y197  lobster-roll DefaultMedium  MAJ377   drained L2+ tower-rounds   423, robot-turns beside them    88; L1   600 /   164; upgrades 4, churns 4
+   m3409g1 y197  lobster-roll DefaultSmall   MAJ204   drained L2+ tower-rounds   107, robot-turns beside them    64; L1     0 /     0; upgrades 0, churns 0
+   m3409g2 y197  lobster-roll Justice        MAJ541   drained L2+ tower-rounds   759, robot-turns beside them   196; L1   223 /    29; upgrades 5, churns 0
+   m3410g0 y197  placeholder- BunnyGame      ALL237   drained L2+ tower-rounds   188, robot-turns beside them    16; L1    57 /    89; upgrades 0, churns 0
+   m3410g1 y197  placeholder- defensetower   MAJ524   drained L2+ tower-rounds   461, robot-turns beside them   193; L1   268 /    78; upgrades 0, churns 6
+   m3426g2 y197  angtn        yearofthesnake MAJ1731  drained L2+ tower-rounds  1172, robot-turns beside them  1113; L1  6117 /  4417; upgrades 0, churns 88
+   m3449g0 y197  angtn        Portal         MAJ349   drained L2+ tower-rounds   229, robot-turns beside them   106; L1   382 /   213; upgrades 0, churns 6
+   m3449g1 y197  angtn        Racetrack      MAJ521   drained L2+ tower-rounds   906, robot-turns beside them   302; L1   384 /   226; upgrades 9, churns 2
+   m3450g1 y197  varunvejalla catface        ALL246   drained L2+ tower-rounds    58, robot-turns beside them    58; L1     0 /     0; upgrades 0, churns 0
+   m3467g0 y197  lobster-roll Castle         MAJ499   drained L2+ tower-rounds   308, robot-turns beside them    85; L1   321 /   121; upgrades 7, churns 5
+   m3467g1 y197  lobster-roll Money          MAJ385   drained L2+ tower-rounds   661, robot-turns beside them   217; L1   880 /   388; upgrades 6, churns 3
+   m3467g2 y197  lobster-roll roads          MAJ674   drained L2+ tower-rounds  1773, robot-turns beside them   466; L1   703 /   388; upgrades 9, churns 5
+   m3513g0 y211  varunvejalla CastleDefense  ALL203   drained L2+ tower-rounds    59, robot-turns beside them     4; L1   118 /    50; upgrades 0, churns 0
+   m3513g1 y211  varunvejalla DonkeyKong     MAJ532   drained L2+ tower-rounds     0, robot-turns beside them     0; L1  1456 /   259; upgrades 0, churns 8
+   m3513g2 y211  varunvejalla Justice        MAJ237   drained L2+ tower-rounds    53, robot-turns beside them    25; L1    73 /    73; upgrades 0, churns 1
+   m3514g0 y211  placeholder- Bunny          MAJ386   drained L2+ tower-rounds   148, robot-turns beside them    89; L1   130 /    78; upgrades 0, churns 3
+   m3514g1 y211  placeholder- Restart        ALL300   drained L2+ tower-rounds     0, robot-turns beside them     0; L1   164 /    17; upgrades 0, churns 0
+   m3515g2 y211  slifland     Justice        MAJ638   drained L2+ tower-rounds   873, robot-turns beside them   188; L1   298 /    56; upgrades 3, churns 0
+   m3547g0 y211  angtn        DefaultSmall   MAJ388   drained L2+ tower-rounds   387, robot-turns beside them   127; L1   275 /   263; upgrades 1, churns 0
+   m3548g0 y211  scienceqiu   DefaultLarge   MAJ331   drained L2+ tower-rounds   142, robot-turns beside them    15; L1   282 /    84; upgrades 0, churns 0
+   m3575g0 y211  gone-whalin  DefaultSmall   MAJ261   drained L2+ tower-rounds    26, robot-turns beside them     1; L1   131 /    78; upgrades 0, churns 2
+   m3575g2 y211  gone-whalin  Justice        MAJ421   drained L2+ tower-rounds   456, robot-turns beside them   170; L1   217 /   110; upgrades 5, churns 2
+   m3583g0 y211  gone-whalin  Jail           ALL108   drained L2+ tower-rounds     0, robot-turns beside them     0; L1     0 /     0; upgrades 0, churns 0
+   m3583g2 y211  gone-whalin  Racetrack      MAJ433   drained L2+ tower-rounds   184, robot-turns beside them   226; L1   274 /   172; upgrades 5, churns 4
+   m3584g0 y211  placeholder- DefaultHuge    MAJ685   drained L2+ tower-rounds   557, robot-turns beside them    84; L1  2455 /   962; upgrades 0, churns 3
+   m3584g1 y211  placeholder- Piglets2       MAJ456   drained L2+ tower-rounds   316, robot-turns beside them    47; L1   368 /    91; upgrades 1, churns 5
+   m3632g0 y211  angtn        Bunny          MAJ404   drained L2+ tower-rounds   343, robot-turns beside them    48; L1   523 /   185; upgrades 0, churns 7
+   m3659g0 y211  lobster-roll Bunny          MAJ504   drained L2+ tower-rounds   408, robot-turns beside them    78; L1   656 /   146; upgrades 0, churns 4
+   m3684g0 y211  scienceqiu   Snowglobe      MAJ529   drained L2+ tower-rounds   460, robot-turns beside them    24; L1  1331 /   354; upgrades 2, churns 11
+   m3684g2 y211  scienceqiu   starburst      ALL358   drained L2+ tower-rounds   232, robot-turns beside them    18; L1   175 /   119; upgrades 0, churns 5
+   m3702g1 y211  angtn        rain           MAJ396   drained L2+ tower-rounds   310, robot-turns beside them    57; L1   573 /   198; upgrades 0, churns 5
+   m3702g2 y211  angtn        sierpinski     MAJ395   drained L2+ tower-rounds   192, robot-turns beside them     4; L1   471 /   318; upgrades 1, churns 12
+   m3735g1 y211  slifland     Portal         MAJ290   drained L2+ tower-rounds   214, robot-turns beside them   103; L1    27 /     8; upgrades 4, churns 1
+   m3742g2 y211  immutable    roads          MAJ307   drained L2+ tower-rounds   174, robot-turns beside them     0; L1   344 /   145; upgrades 0, churns 2
+   m3772g2 y221  immutable    sierpinski     MAJ412   drained L2+ tower-rounds   283, robot-turns beside them    88; L1   729 /   258; upgrades 0, churns 10
+   m3773g0 y221  spaark       Bunny          MAJ596   drained L2+ tower-rounds   206, robot-turns beside them     5; L1   348 /   169; upgrades 0, churns 5
+   m3773g1 y221  spaark       Castle         MAJ273   drained L2+ tower-rounds     0, robot-turns beside them     0; L1   172 /    84; upgrades 0, churns 3
+   m3774g0 y221  subscribe-to Bunny          MAJ474   drained L2+ tower-rounds     0, robot-turns beside them     0; L1   654 /   346; upgrades 0, churns 5
+   m3774g1 y221  subscribe-to Piglets2       MAJ436   drained L2+ tower-rounds   218, robot-turns beside them   213; L1   639 /   340; upgrades 1, churns 5
+   m3785g0 y221  immutable    Fossil         MAJ384   drained L2+ tower-rounds   190, robot-turns beside them     6; L1  1057 /   452; upgrades 1, churns 6
+   m3789g1 y221  gone-whalin  TargetPractice MAJ218   drained L2+ tower-rounds   144, robot-turns beside them    43; L1    54 /    41; upgrades 1, churns 0
+   m3790g1 y221  gone-whalin  boxofchocolate MAJ513   drained L2+ tower-rounds    46, robot-turns beside them    18; L1     0 /     0; upgrades 0, churns 0
+   m3790g2 y221  gone-whalin  defensetower   ALL142   drained L2+ tower-rounds     0, robot-turns beside them     0; L1     0 /     0; upgrades 0, churns 0
+   m3829g0 y221  immutable    Castle         MAJ235   drained L2+ tower-rounds     0, robot-turns beside them     0; L1   161 /    98; upgrades 0, churns 2
+   m3829g1 y221  immutable    CastleDefense  MAJ111   drained L2+ tower-rounds     0, robot-turns beside them     0; L1    14 /     1; upgrades 0, churns 0
+   m3830g2 y221  gone-whalin  starburst      MAJ496   drained L2+ tower-rounds    89, robot-turns beside them    60; L1   997 /   443; upgrades 2, churns 10
+   m3899g0 y221  subscribe-to DefaultHuge    MAJ461   drained L2+ tower-rounds   253, robot-turns beside them    73; L1  2445 /  1492; upgrades 0, churns 2
+   m3899g1 y221  subscribe-to Filter         ALL241   drained L2+ tower-rounds   186, robot-turns beside them    31; L1     1 /     1; upgrades 0, churns 0
+   m3914g1 y221  subscribe-to Snowman        ALL365   drained L2+ tower-rounds    17, robot-turns beside them     1; L1    48 /    10; upgrades 0, churns 0
+   m3931g1 y221  subscribe-to Oasis          MAJ403   drained L2+ tower-rounds   390, robot-turns beside them   128; L1  1151 /  1226; upgrades 3, churns 2
+   m3931g2 y221  subscribe-to Paintball      MAJ192   drained L2+ tower-rounds     0, robot-turns beside them     0; L1     0 /     0; upgrades 0, churns 0
+   m3944g0 y221  scienceqiu   Mirage         ALL299   drained L2+ tower-rounds     0, robot-turns beside them     0; L1    29 /     5; upgrades 0, churns 0
+   m3944g1 y221  scienceqiu   Snowman        ALL236   drained L2+ tower-rounds     0, robot-turns beside them     0; L1     8 /     6; upgrades 0, churns 0
+   m3944g2 y221  scienceqiu   giver          MAJ468   drained L2+ tower-rounds    53, robot-turns beside them     0; L1  1179 /   628; upgrades 2, churns 16
+   m3945g1 y221  immutable    Snowglobe      MAJ491   drained L2+ tower-rounds   116, robot-turns beside them    36; L1   788 /   271; upgrades 5, churns 9
+   m3945g2 y221  immutable    memstore       MAJ456   drained L2+ tower-rounds   329, robot-turns beside them   106; L1   383 /    66; upgrades 0, churns 15
+   m3946g1 y221  varunvejalla Terminal       ALL277   drained L2+ tower-rounds     0, robot-turns beside them     0; L1   253 /    37; upgrades 0, churns 0
+   m3947g0 y221  lobster-roll MoneyTower     MAJ877   drained L2+ tower-rounds  1721, robot-turns beside them   266; L1   615 /   156; upgrades 8, churns 5
+   m3951g0 y221  varunvejalla Paintball      MAJ308   drained L2+ tower-rounds     0, robot-turns beside them     0; L1     0 /     0; upgrades 0, churns 0
+
+== WON games: 96  (sums; r50 on)
+   money tower-rounds L1                          us   211363   them   152076
+   drained money tower-rounds L1                  us   125416   them    46517
+   money tower-rounds L2+                         us    43942   them    77443
+   drained money tower-rounds L2+                 us    32188   them    58738
+   robot-turns beside a drained L1 money tower    us    65835   them    11954
+     SO beside drained L1                         us    23276   them     4165
+     SP beside drained L1                         us    29110   them     3689
+     MO beside drained L1                         us    13449   them     4100
+     ... with chips >= 2000 (L1)                  us    24896   them     6317
+     ... gained no paint (L1)                     us    63725   them    10828
+   robot-turns beside a drained L2+ money tower   us    10289   them    23070
+     SO beside drained L2+                        us     3945   them     5391
+     SP beside drained L2+                        us     4256   them     9534
+     MO beside drained L2+                        us     2088   them     8145
+     ... with chips >= 2000 (L2+)                 us     6903   them    21568
+     ... gained no paint (L2+)                    us    10242   them    22655
+   money tower upgrades                           us       60   them      355
+   churns (money towers disintegrated)            us      937   them     1018
+   games with >= 50 robot-turns beside a drained L2+ money tower: us 31, them 16
+   first money tower upgrade, median round: us r352.5 (12 games), them r200.0 (46 games)

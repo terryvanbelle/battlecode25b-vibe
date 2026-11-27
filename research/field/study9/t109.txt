@@ -1,0 +1,69 @@
+
+== LOST games: 89 games; share of soldier-turns % (all turns pooled), us | them
+                             r1-100              r101-200              r201-400
+   build               0.6 |    0.8          0.5 |    0.6          0.4 |    0.3
+   srp-done            0.0 |    0.2          0.4 |    0.4          0.4 |    0.4
+   mark                0.9 |    1.2          0.2 |    0.7          0.1 |    0.8
+   ruin               20.7 |   21.8          7.8 |   10.5          6.6 |    6.5
+   repair              1.2 |    2.8          3.7 |    2.6          2.7 |    1.8
+   srp                 1.0 |    5.4          6.8 |    5.8          2.9 |    3.8
+   siege               7.9 |    8.2          5.5 |    6.3          4.5 |    3.9
+   refill              2.3 |    1.9          2.8 |    2.2          3.1 |    1.6
+   cover               8.1 |    7.3         14.6 |    6.8          8.7 |    4.6
+   none               57.3 |   50.4         57.9 |   64.2         70.7 |   76.1
+   at 0 paint          1.7 |    0.8          6.0 |    1.8          7.3 |    2.8
+   turns              56218 | 48047         55538 | 60291        87500 | 165788
+   mean paint     127 | 120              103 | 114              117 | 121         
+   per-game medians of the shares (games with >= 50 soldier-turns in the phase), us | them:
+   ruin                 20.0 | 21.2             6.8 | 9.7             7.1 | 8.0
+   srp                    0.0 | 2.0             1.1 | 1.3             0.6 | 1.8
+   srp-done               0.0 | 0.0             0.0 | 0.0             0.1 | 0.3
+   siege                  7.9 | 7.1             5.5 | 5.4             4.5 | 4.3
+   cover                  8.6 | 6.1            12.9 | 4.1             8.5 | 4.3
+   none                 57.7 | 50.7           60.2 | 64.2           69.3 | 69.9
+
+== LOST games to the top teams: 48 games; share of soldier-turns % (all turns pooled), us | them
+                             r1-100              r101-200              r201-400
+   build               0.6 |    0.7          0.5 |    0.5          0.4 |    0.4
+   srp-done            0.0 |    0.1          0.4 |    0.4          0.4 |    0.5
+   mark                0.9 |    0.7          0.3 |    0.3          0.1 |    0.2
+   ruin               20.0 |   20.3          8.2 |   10.0          6.7 |    7.0
+   repair              1.1 |    2.7          3.3 |    3.1          2.6 |    2.0
+   srp                 1.2 |    5.4          7.8 |    6.5          3.6 |    4.7
+   siege               7.9 |    8.5          5.5 |    5.4          4.4 |    4.8
+   refill              2.2 |    1.6          2.6 |    1.9          3.1 |    2.0
+   cover               8.0 |    7.3         14.5 |    7.5          8.3 |    6.4
+   none               58.2 |   52.7         57.0 |   64.4         70.4 |   71.9
+   at 0 paint          1.8 |    0.8          6.1 |    1.5          6.9 |    2.0
+   turns              29954 | 27026         27928 | 32290         47482 | 71062
+   mean paint     127 | 120              102 | 113              119 | 121         
+   per-game medians of the shares (games with >= 50 soldier-turns in the phase), us | them:
+   ruin                 19.8 | 19.6             7.1 | 9.7             7.3 | 7.9
+   srp                    0.1 | 2.7             2.0 | 3.9             1.5 | 1.5
+   srp-done               0.0 | 0.0             0.1 | 0.2             0.2 | 0.2
+   siege                  7.9 | 8.4             4.6 | 4.8             4.9 | 5.6
+   cover                  8.4 | 5.5            11.8 | 5.6             8.6 | 4.6
+   none                 59.2 | 51.6           60.2 | 64.6           66.3 | 68.1
+
+== WON games: 96 games; share of soldier-turns % (all turns pooled), us | them
+                             r1-100              r101-200              r201-400
+   build               0.8 |    0.7          0.6 |    0.4          0.4 |    0.4
+   srp-done            0.0 |    0.2          0.5 |    0.2          0.5 |    0.3
+   mark                1.0 |    0.6          0.3 |    0.3          0.2 |    0.4
+   ruin               22.5 |   20.5          8.7 |    9.3          5.2 |    5.1
+   repair              0.9 |    2.2          3.0 |    2.1          2.0 |    1.3
+   srp                 2.5 |    4.0         10.6 |    3.2          3.8 |    2.6
+   siege               5.1 |    5.2          3.5 |    5.3          3.1 |    4.2
+   refill              1.9 |    1.3          2.3 |    1.3          3.5 |    1.3
+   cover               9.6 |    9.4         14.5 |    6.3          7.3 |    7.2
+   none               55.8 |   55.9         55.9 |   71.6         74.1 |   77.2
+   at 0 paint          1.1 |    1.5          4.0 |    2.9          2.7 |    4.3
+   turns              64721 | 53018         96804 | 72800       277492 | 167748
+   mean paint     132 | 117              106 | 107              137 | 110         
+   per-game medians of the shares (games with >= 50 soldier-turns in the phase), us | them:
+   ruin                 22.5 | 19.2             7.9 | 7.8             5.3 | 5.0
+   srp                    1.8 | 0.0             9.5 | 0.0             2.7 | 0.0
+   srp-done               0.0 | 0.0             0.4 | 0.0             0.3 | 0.0
+   siege                  4.6 | 4.1             3.2 | 4.6             3.7 | 3.9
+   cover                  9.4 | 6.9            14.8 | 5.1             8.2 | 5.3
+   none                 55.6 | 58.4           54.8 | 72.0           72.1 | 76.7

@@ -1,0 +1,22 @@
+== lost (89 games): upgrades by side, type, new level: count, games, median first round
+   ('them', 'DEFEN', '2'): 15 in 6 games, first med r282.5
+   ('them', 'DEFEN', '3'): 2 in 1 games, first med r439
+   ('them', 'MONEY', '2'): 178 in 28 games, first med r233.5
+   ('them', 'MONEY', '3'): 48 in 7 games, first med r371
+   ('them', 'PAINT', '2'): 137 in 42 games, first med r257.0
+   ('them', 'PAINT', '3'): 53 in 16 games, first med r410.0
+   ('us', 'MONEY', '2'): 78 in 29 games, first med r305
+   ('us', 'MONEY', '3'): 40 in 15 games, first med r367
+   ('us', 'PAINT', '2'): 59 in 29 games, first med r223
+   ('us', 'PAINT', '3'): 45 in 39 games, first med r242
+== won (96 games): upgrades by side, type, new level: count, games, median first round
+   ('them', 'DEFEN', '2'): 19 in 12 games, first med r363.0
+   ('them', 'DEFEN', '3'): 8 in 4 games, first med r508.0
+   ('them', 'MONEY', '2'): 239 in 46 games, first med r200.0
+   ('them', 'MONEY', '3'): 116 in 19 games, first med r427
+   ('them', 'PAINT', '2'): 82 in 33 games, first med r215
+   ('them', 'PAINT', '3'): 49 in 24 games, first med r297.5
+   ('us', 'MONEY', '2'): 42 in 12 games, first med r352.5
+   ('us', 'MONEY', '3'): 18 in 4 games, first med r585.0
+   ('us', 'PAINT', '2'): 204 in 64 games, first med r240.0
+   ('us', 'PAINT', '3'): 35 in 18 games, first med r263.5

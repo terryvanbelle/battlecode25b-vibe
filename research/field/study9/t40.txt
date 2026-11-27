@@ -1,0 +1,232 @@
+match g ver   opponent        map              WxH    paintable res end  type  towers@r100 us/them
+3211 0 t91   subscribe-to-caterpillow Brat             29x29    715     L   554 ALL   1/4
+3211 1 t91   subscribe-to-caterpillow DefaultSmall     20x20    372     L   122 ALL   0/2
+3211 2 t91   subscribe-to-caterpillow Piglets2         60x40   2032     L   457 MAJ   7/7
+3212 0 t91   gone-whalin     galaxy           45x45   1834     L   550 MAJ   5/6
+3212 1 t91   gone-whalin     lighthouse       31x31    853     L   308 MAJ   1/3
+3212 2 t91   gone-whalin     maze             60x60   2888     W  2000 ARE   5/5
+3213 0 t91   om-nom          Gears            55x55   2885     L   536 MAJ   7/3
+3213 1 t91   om-nom          TheBest          60x60   3292     L   422 MAJ   9/8
+3213 2 t91   om-nom          sayhi            40x50   1734     L   571 MAJ   3/5
+3214 0 t91   immutable       Portal           35x35   1129     L   414 MAJ   6/5
+3214 1 t91   immutable       Snowman          25x25    553     L   158 MAJ   5/3
+3214 2 t91   immutable       box              31x31    829     W   273 MAJ   4/4
+3289 0 y195  gone-whalin     Bread            35x29    914     L   375 MAJ   4/4
+3289 1 y195  gone-whalin     Justice          21x20    389     L   460 MAJ   4/4
+3289 2 y195  gone-whalin     Portal           35x35   1129     L   424 MAJ   4/6
+3294 0 y195  placeholder-name-2 DefaultHuge      59x59   3421     L   400 MAJ   11/11
+3294 1 y195  placeholder-name-2 Rose             40x40   1512     W   568 MAJ   2/3
+3294 2 y195  placeholder-name-2 UglySweater      50x50   2340     L   472 MAJ   6/6
+3304 0 y195  gone-whalin     Circuit          60x21   1096     W   272 MAJ   6/5
+3304 1 y195  gone-whalin     Piglets2         60x40   2032     L   607 MAJ   5/5
+3304 2 y195  gone-whalin     sierpinski       39x50   1620     W   530 MAJ   5/4
+3305 0 y195  immutable       catface          30x30    868     W   432 MAJ   4/2
+3305 1 y195  immutable       gardenworld      60x60   3180     W   360 MAJ   8/6
+3305 2 y195  immutable       starburst        30x30    844     L   270 MAJ   6/4
+3306 0 y195  scienceqiu      Brat             29x29    715     L   301 ALL   3/4
+3306 1 y195  scienceqiu      BunnyGame        30x50   1286     L   189 ALL   2/6
+3306 2 y195  scienceqiu      FourCorners      25x25    542     L   307 MAJ   2/4
+3307 0 y195  placeholder-name-2 Crab             40x30   1046     L   469 MAJ   7/6
+3307 1 y195  placeholder-name-2 SaltyPepper      40x40   1484     W   533 MAJ   7/6
+3307 2 y195  placeholder-name-2 maze             60x60   2888     W   477 MAJ   6/3
+3312 0 y195  slifland        Jail             20x30    540     W   287 MAJ   2/0
+3312 1 y195  slifland        defensetower     40x59   2173     L   747 MAJ   3/3
+3312 2 y195  slifland        gridworld        31x31    769     W   404 MAJ   9/9
+3323 0 y195  varunvejalla    Castle           27x27    636     L   481 MAJ   5/4
+3323 1 y195  varunvejalla    DefaultMedium    35x35   1193     L   240 ALL   7/9
+3323 2 y195  varunvejalla    Paintball        20x20    354     L   223 ALL   2/4
+3324 0 y195  varunvejalla    Bread            35x29    914     L   485 ALL   6/4
+3324 1 y195  varunvejalla    Justice          21x20    389     L   290 MAJ   3/5
+3324 2 y195  varunvejalla    quack            30x35    932     L   255 ALL   6/6
+3340 0 y197  geesegeesego    Flower           45x41   1623     W   290 MAJ   6/4
+3340 1 y197  geesegeesego    Money            35x35   1141     W   634 MAJ   9/6
+3340 2 y197  geesegeesego    PlumberGame      60x30   1688     W   311 MAJ   11/6
+3347 0 y197  angtn           Crab             40x30   1046     W   331 MAJ   7/4
+3347 1 y197  angtn           SMILE            60x60   3482     W  2000 ARE   4/7
+3347 2 y197  angtn           shell            40x40   1418     W   969 MAJ   6/5
+3400 0 y197  lobster-roll    PlumberGame      60x30   1688     L   622 MAJ   10/6
+3400 1 y197  lobster-roll    Portal           35x35   1129     L   429 MAJ   6/6
+3400 2 y197  lobster-roll    fix              40x50   1856     W   534 MAJ   9/8
+3409 0 y197  lobster-roll    DefaultMedium    35x35   1193     L   377 MAJ   9/7
+3409 1 y197  lobster-roll    DefaultSmall     20x20    372     L   204 MAJ   2/5
+3409 2 y197  lobster-roll    Justice          21x20    389     L   541 MAJ   5/3
+3410 0 y197  placeholder-name-2 BunnyGame        30x50   1286     L   237 ALL   3/4
+3410 1 y197  placeholder-name-2 defensetower     40x59   2173     L   524 MAJ   4/5
+3410 2 y197  placeholder-name-2 gardenworld      60x60   3180     W   533 MAJ   9/7
+3426 0 y197  angtn           Filter           21x21    419     W   257 MAJ   4/1
+3426 1 y197  angtn           headphones       60x60   3186     W   426 MAJ   6/6
+3426 2 y197  angtn           yearofthesnake   45x45   1653     L  1731 MAJ   7/6
+3449 0 y197  angtn           Portal           35x35   1129     L   349 MAJ   6/5
+3449 1 y197  angtn           Racetrack        25x25    562     L   521 MAJ   7/4
+3449 2 y197  angtn           leavemealone     50x30   1364     W   444 MAJ   8/7
+3450 0 y197  varunvejalla    Parking_lot      45x45   1795     W   357 MAJ   7/5
+3450 1 y197  varunvejalla    catface          30x30    868     L   246 ALL   2/3
+3450 2 y197  varunvejalla    lighthouse       31x31    853     W   340 MAJ   3/1
+3467 0 y197  lobster-roll    Castle           27x27    636     L   499 MAJ   6/5
+3467 1 y197  lobster-roll    Money            35x35   1141     L   385 MAJ   10/9
+3467 2 y197  lobster-roll    roads            30x30    770     L   674 MAJ   6/3
+3479 0 y211  podemice        Bunny            44x30   1228     W   522 MAJ   5/4
+3479 1 y211  podemice        Parking_lot      45x45   1795     W   293 MAJ   6/3
+3479 2 y211  podemice        galaxy           45x45   1834     W   389 MAJ   7/7
+3512 0 y211  angtn           AlarmClock       35x35   1091     W   290 MAJ   8/3
+3512 1 y211  angtn           Gears            55x55   2885     W   455 MAJ   5/3
+3512 2 y211  angtn           SMILE            60x60   3482     W   448 MAJ   7/5
+3513 0 y211  varunvejalla    CastleDefense    20x20    340     L   203 ALL   3/3
+3513 1 y211  varunvejalla    DonkeyKong       60x60   3232     L   532 MAJ   4/5
+3513 2 y211  varunvejalla    Justice          21x20    389     L   237 MAJ   3/6
+3514 0 y211  placeholder-name-2 Bunny            44x30   1228     L   386 MAJ   3/3
+3514 1 y211  placeholder-name-2 Restart          55x55   2657     L   300 ALL   4/6
+3514 2 y211  placeholder-name-2 SaltyPepper      40x40   1484     W   383 MAJ   8/6
+3515 0 y211  slifland        Flower           45x41   1623     W   379 MAJ   3/4
+3515 1 y211  slifland        FourCorners      25x25    542     W   266 MAJ   2/3
+3515 2 y211  slifland        Justice          21x20    389     L   638 MAJ   5/4
+3544 0 y211  gone-whalin     SMILE            60x60   3482     W   388 MAJ   6/8
+3544 1 y211  gone-whalin     Snowglobe        40x40   1478     W   540 MAJ   7/8
+3544 2 y211  gone-whalin     sierpinski       39x50   1620     W   532 MAJ   5/4
+3545 0 y211  varunvejalla    Leaf             60x60   3440     W   590 MAJ   10/11
+3545 1 y211  varunvejalla    TheBest          60x60   3292     W   420 MAJ   7/6
+3545 2 y211  varunvejalla    sayhi            40x50   1734     W   368 MAJ   4/2
+3546 1 y211  placeholder-name-2 SMILE            60x60   3482     W   492 MAJ   6/6
+3546 2 y211  placeholder-name-2 lighthouse       31x31    853     W   392 MAJ   3/2
+3547 0 y211  angtn           DefaultSmall     20x20    372     L   388 MAJ   3/3
+3547 2 y211  angtn           maze             60x60   2888     W   631 MAJ   7/5
+3548 0 y211  scienceqiu      DefaultLarge     50x30   1476     L   331 MAJ   4/4
+3548 1 y211  scienceqiu      SaltyPepper      40x40   1484     W   348 MAJ   6/6
+3548 2 y211  scienceqiu      shell            40x40   1418     W   394 MAJ   6/7
+3549 0 y211  slifland        Justice          21x20    389     W   426 MAJ   3/5
+3549 1 y211  slifland        Leaf             60x60   3440     W   605 MAJ   11/10
+3549 2 y211  slifland        lighthouse       31x31    853     W   205 ALL   4/1
+3575 0 y211  gone-whalin     DefaultSmall     20x20    372     L   261 MAJ   3/3
+3575 1 y211  gone-whalin     HungerGames      50x50   2258     W   352 MAJ   11/9
+3575 2 y211  gone-whalin     Justice          21x20    389     L   421 MAJ   5/3
+3583 0 y211  gone-whalin     Jail             20x30    540     L   108 ALL   0/2
+3583 1 y211  gone-whalin     Paintball        20x20    354     W   206 MAJ   4/2
+3583 2 y211  gone-whalin     Racetrack        25x25    562     L   433 MAJ   6/5
+3584 0 y211  placeholder-name-2 DefaultHuge      59x59   3421     L   685 MAJ   11/11
+3584 1 y211  placeholder-name-2 Piglets2         60x40   2032     L   456 MAJ   5/5
+3584 2 y211  placeholder-name-2 maze             60x60   2888     W   512 MAJ   6/3
+3632 0 y211  angtn           Bunny            44x30   1228     L   404 MAJ   5/5
+3632 1 y211  angtn           boxofchocolates  55x55   2435     W   536 MAJ   4/3
+3655 0 y211  slifland        DefaultSmall     20x20    372     W  1942 MAJ   2/2
+3655 1 y211  slifland        fix              40x50   1856     W   690 MAJ   7/5
+3655 2 y211  slifland        walalilongla     45x45   1811     W   467 MAJ   6/4
+3659 0 y211  lobster-roll    Bunny            44x30   1228     L   504 MAJ   4/5
+3659 1 y211  lobster-roll    DefaultMedium    35x35   1193     W   392 MAJ   9/9
+3684 0 y211  scienceqiu      Snowglobe        40x40   1478     L   529 MAJ   7/7
+3684 1 y211  scienceqiu      mit              60x60   3012     W   370 MAJ   6/5
+3684 2 y211  scienceqiu      starburst        30x30    844     L   358 ALL   5/5
+3698 0 y211  gone-whalin     DefaultHuge      59x59   3421     W   467 MAJ   10/12
+3698 1 y211  gone-whalin     Mirage           40x40   1480     W   139 ALL   8/1
+3698 2 y211  gone-whalin     TheBest          60x60   3292     W   349 MAJ   7/6
+3702 0 y211  angtn           Bread            35x29    914     W   317 MAJ   4/4
+3702 1 y211  angtn           rain             30x30    850     L   396 MAJ   5/4
+3702 2 y211  angtn           sierpinski       39x50   1620     L   395 MAJ   5/4
+3721 1 y211  angtn           Restart          55x55   2657     W   433 MAJ   5/4
+3721 2 y211  angtn           TheBest          60x60   3292     W   416 MAJ   10/7
+3735 0 y211  slifland        PlumberGame      60x30   1688     W   299 MAJ   9/8
+3735 1 y211  slifland        Portal           35x35   1129     L   290 MAJ   5/6
+3735 2 y211  slifland        sunrise          45x55   2208     W   433 MAJ   7/4
+3742 0 y211  immutable       Flower           45x41   1623     W   372 MAJ   7/5
+3742 1 y211  immutable       SMILE            60x60   3482     W   327 MAJ   6/5
+3742 2 y211  immutable       roads            30x30    770     L   307 MAJ   5/4
+3771 0 y221  gone-whalin     AlarmClock       35x35   1091     W   731 MAJ   4/5
+3771 1 y221  gone-whalin     DefaultSmall     20x20    372     W   210 MAJ   3/0
+3771 2 y221  gone-whalin     Leaf             60x60   3440     W   372 MAJ   11/9
+3772 0 y221  immutable       box              31x31    829     W   231 MAJ   6/4
+3772 1 y221  immutable       quack            30x35    932     W   504 MAJ   7/6
+3772 2 y221  immutable       sierpinski       39x50   1620     L   412 MAJ   6/3
+3773 0 y221  spaark          Bunny            44x30   1228     L   596 MAJ   4/2
+3773 1 y221  spaark          Castle           27x27    636     L   273 MAJ   5/6
+3773 2 y221  spaark          galaxy           45x45   1834     W   374 MAJ   6/4
+3774 0 y221  subscribe-to-caterpillow Bunny            44x30   1228     L   474 MAJ   2/4
+3774 1 y221  subscribe-to-caterpillow Piglets2         60x40   2032     L   436 MAJ   7/6
+3774 2 y221  subscribe-to-caterpillow roads            30x30    770     W   361 MAJ   5/4
+3785 0 y221  immutable       Fossil           30x30    868     L   384 MAJ   8/6
+3785 1 y221  immutable       SandyBeach       30x30    822     W   306 MAJ   6/3
+3785 2 y221  immutable       shell            40x40   1418     W   827 MAJ   8/6
+3789 0 y221  gone-whalin     DefaultLarge     50x30   1476     W   453 MAJ   5/5
+3789 1 y221  gone-whalin     TargetPractice   30x30    816     L   218 MAJ   2/5
+3789 2 y221  gone-whalin     UnderTheSea      45x45   1847     W   330 MAJ   8/8
+3790 0 y221  gone-whalin     CastleDefense    20x20    340     W   238 MAJ   3/2
+3790 1 y221  gone-whalin     boxofchocolates  55x55   2435     L   513 MAJ   2/3
+3790 2 y221  gone-whalin     defensetower     40x59   2173     L   142 ALL   0/4
+3829 0 y221  immutable       Castle           27x27    636     L   235 MAJ   6/4
+3829 1 y221  immutable       CastleDefense    20x20    340     L   111 MAJ   2/4
+3829 2 y221  immutable       Leaf             60x60   3440     W   408 MAJ   11/8
+3830 0 y221  gone-whalin     SMILE            60x60   3482     W   435 MAJ   6/8
+3830 2 y221  gone-whalin     starburst        30x30    844     L   496 MAJ   5/4
+3899 0 y221  subscribe-to-caterpillow DefaultHuge      59x59   3421     L   461 MAJ   11/9
+3899 1 y221  subscribe-to-caterpillow Filter           21x21    419     L   241 ALL   2/3
+3899 2 y221  subscribe-to-caterpillow gardenworld      60x60   3180     W   615 MAJ   9/8
+3914 0 y221  subscribe-to-caterpillow Castle           27x27    636     W   342 MAJ   4/6
+3914 1 y221  subscribe-to-caterpillow Snowman          25x25    553     L   365 ALL   2/4
+3914 2 y221  subscribe-to-caterpillow memstore         59x39   2081     W   469 MAJ   7/5
+3931 1 y221  subscribe-to-caterpillow Oasis            59x59   3339     L   403 MAJ   10/6
+3931 2 y221  subscribe-to-caterpillow Paintball        20x20    354     L   192 MAJ   0/4
+3943 0 y221  gone-whalin     HungerGames      50x50   2258     W   511 MAJ   9/8
+3943 1 y221  gone-whalin     headphones       60x60   3186     W   807 MAJ   4/6
+3943 2 y221  gone-whalin     sierpinski       39x50   1620     W   321 MAJ   5/2
+3944 0 y221  scienceqiu      Mirage           40x40   1480     L   299 ALL   5/7
+3944 1 y221  scienceqiu      Snowman          25x25    553     L   236 ALL   2/2
+3944 2 y221  scienceqiu      giver            50x50   2344     L   468 MAJ   4/4
+3945 0 y221  immutable       MoneyTower       35x50   1501     W   443 MAJ   5/4
+3945 1 y221  immutable       Snowglobe        40x40   1478     L   491 MAJ   10/7
+3945 2 y221  immutable       memstore         59x39   2081     L   456 MAJ   7/5
+3946 0 y221  varunvejalla    Gears            55x55   2885     W   387 MAJ   6/2
+3946 1 y221  varunvejalla    Terminal         40x30   1022     L   277 ALL   6/6
+3946 2 y221  varunvejalla    mit              60x60   3012     W   319 MAJ   8/6
+3947 0 y221  lobster-roll    MoneyTower       35x50   1501     L   877 MAJ   7/4
+3947 1 y221  lobster-roll    gardenworld      60x60   3180     W   577 MAJ   8/7
+3947 2 y221  lobster-roll    maze             60x60   2888     W  1178 MAJ   6/6
+3948 0 y221  geesegeesego    Rose             40x40   1512     W   292 MAJ   4/2
+3948 1 y221  geesegeesego    fix              40x50   1856     W   438 MAJ   11/8
+3948 2 y221  geesegeesego    sayhi            40x50   1734     W   546 MAJ   7/5
+3951 0 y221  varunvejalla    Paintball        20x20    354     L   308 MAJ   3/3
+3951 1 y221  varunvejalla    leavemealone     50x30   1364     W   383 MAJ   6/5
+3951 2 y221  varunvejalla    walalilongla     45x45   1811     W   353 MAJ   5/4
+
+by opponent: (won, lost, loss%)
+   angtn                   14   7  33%
+   geesegeesego             6   0  0%
+   gone-whalin             21  14  40%
+   immutable               11  10  48%
+   lobster-roll             4  10  71%
+   om-nom                   0   3  100%
+   placeholder-name-2       8   9  53%
+   podemice                 3   0  0%
+   scienceqiu               3   9  75%
+   slifland                12   3  20%
+   spaark                   1   2  67%
+   subscribe-to-caterpillow   4  10  71%
+   varunvejalla             9  12  57%
+
+by our version: (won, lost, loss%)
+   t91                      2  10  83%
+   y195                     9  18  67%
+   y197                    13  14  52%
+   y211                    42  22  34%
+   y221                    30  25  45%
+
+by paintable area: (won, lost, loss%)
+   1: <=500                 6  16  73%
+   2: 501-900              12  23  66%
+   3: 901-1600             23  25  52%
+   4: 1601-2500            25  17  40%
+   5: >2500                30   8  21%
+
+by min side: (won, lost, loss%)
+   26-35                   24  39  62%
+   <=25                     9  23  72%
+   >35                     63  27  30%
+
+towers at r100 (us - them) vs result:
+   diff -3: won  1 lost  7
+   diff -2: won  6 lost 14
+   diff -1: won  7 lost 11
+   diff +0: won 13 lost 23
+   diff +1: won 26 lost 15
+   diff +2: won 25 lost 11
+   diff +3: won 18 lost  8
+
+win types of losses: {'MAJ': 69, 'ALL': 20, 'ARE': 0}
+median end of losses on maps <= 900 paintable: 307  > 900: 446.0

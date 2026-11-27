@@ -1,0 +1,55 @@
+== lost games (89): SRP breaks (first wrong tile at the failing round-start check)
+   us: 532 breaks
+      enemy    243 (46%), before 50 rounds 110
+            239  by SP
+              4  by SO
+      mopped    79 (15%), before 50 rounds 52
+             79  by MO
+      own      210 (39%), before 50 rounds 148
+            185  by SO, tile before: right, in a ruin 5x5: True
+              7  by SP, tile before: enemy, in a ruin 5x5: True
+              7  by SP, tile before: enemy, in a ruin 5x5: False
+              6  by SO, tile before: empty, in a ruin 5x5: False
+              3  by SP, tile before: empty, in a ruin 5x5: False
+              2  by SP, tile before: right, in a ruin 5x5: False
+   them: 609 breaks
+      enemy    104 (17%), before 50 rounds 69
+            103  by SP
+              1  by SO
+      mopped    23 (4%), before 50 rounds 14
+             23  by MO
+      own      482 (79%), before 50 rounds 362
+            317  by SO, tile before: right, in a ruin 5x5: True
+             72  by SP, tile before: right, in a ruin 5x5: False
+             70  by SO, tile before: right, in a ruin 5x5: False
+             19  by SP, tile before: right, in a ruin 5x5: True
+              3  by SP, tile before: enemy, in a ruin 5x5: False
+              1  by SP, tile before: enemy, in a ruin 5x5: True
+
+== won games (96): SRP breaks (first wrong tile at the failing round-start check)
+   us: 1128 breaks
+      enemy    328 (29%), before 50 rounds 229
+            322  by SP
+              6  by SO
+      mopped   206 (18%), before 50 rounds 181
+            206  by MO
+      own      594 (53%), before 50 rounds 422
+            515  by SO, tile before: right, in a ruin 5x5: True
+             39  by SP, tile before: enemy, in a ruin 5x5: False
+             21  by SO, tile before: empty, in a ruin 5x5: False
+              8  by SP, tile before: enemy, in a ruin 5x5: True
+              6  by SP, tile before: right, in a ruin 5x5: False
+              5  by SP, tile before: empty, in a ruin 5x5: False
+   them: 1019 breaks
+      enemy    262 (26%), before 50 rounds 134
+            262  by SP
+      mopped    30 (3%), before 50 rounds 11
+             30  by MO
+      own      727 (71%), before 50 rounds 514
+            491  by SO, tile before: right, in a ruin 5x5: True
+            151  by SP, tile before: right, in a ruin 5x5: False
+             50  by SP, tile before: right, in a ruin 5x5: True
+             20  by SO, tile before: right, in a ruin 5x5: False
+             12  by SP, tile before: enemy, in a ruin 5x5: False
+              3  by SP, tile before: enemy, in a ruin 5x5: True
+

@@ -1,0 +1,30 @@
+== lost games (89): SRP completions by zone
+   side zone     done  active(50r)%  broken by enemy paint/mops %  own wrong colour %  life med  enemy tile within (Chebyshev) med
+   us   home      560      48%          52%                         37%          46.0     6.0
+   us   middle     21      43%          81%                         10%            44     4
+   us   away       24      54%          67%                         12%          75.0     4.0
+   us   all       605      48%          53%                         35%            46     5
+      us: enemy paint within 4 at completion: 228, active 33%, broken by enemy 74%
+      us: none within 4: 377, active 56%, broken by enemy 41%
+   them home      850      68%           7%                         31%         105.0     8.0
+   them middle    332      32%          14%                         48%          22.0     5.0
+   them away      205      30%           9%                         29%            25     4
+   them all      1387      54%           9%                         35%            58     7
+      them: enemy paint within 4 at completion: 395, active 41%, broken by enemy 22%
+      them: none within 4: 992, active 59%, broken by enemy 4%
+
+== won games (96): SRP completions by zone
+   side zone     done  active(50r)%  broken by enemy paint/mops %  own wrong colour %  life med  enemy tile within (Chebyshev) med
+   us   home     1586      62%          17%                         26%          81.5     7.0
+   us   middle    525      37%          36%                         23%            33     5
+   us   away      276      34%          26%                         22%          21.5     5.0
+   us   all      2387      53%          22%                         25%            55     6
+      us: enemy paint within 4 at completion: 756, active 34%, broken by enemy 43%
+      us: none within 4: 1631, active 62%, broken by enemy 13%
+   them home     1073      45%          21%                         60%            40     6
+   them middle    119      33%          38%                         55%            23     4
+   them away       59      53%          37%                         36%            56     5
+   them all      1251      44%          23%                         58%            38     5
+      them: enemy paint within 4 at completion: 507, active 20%, broken by enemy 29%
+      them: none within 4: 744, active 61%, broken by enemy 20%
+

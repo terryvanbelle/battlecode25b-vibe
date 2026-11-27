@@ -1,0 +1,113 @@
+== lost games (89): per 100 tower-rounds
+   side type where   towers  tower-rounds  killed/100r  robots killed/100r  damage/100r
+   us    P   all       268         54853        0.34                0.45          170
+   us    P   home      249         52654        0.33                0.43          163
+   us    P   front      19          2199        0.55                0.77          327
+   us    M   all      1095        128879        0.43                0.64          209
+   us    M   home     1042        123259        0.42                0.63          204
+   us    M   front      53          5620        0.71                0.85          311
+   them  P   all       386         84615        0.08                0.22           79
+   them  P   home      296         73487        0.08                0.19           74
+   them  P   front      90         11128        0.09                0.40          109
+   them  M   all      1404        178857        0.18                0.26          109
+   them  M   home     1096        159587        0.18                0.24          105
+   them  M   front     308         19270        0.16                0.39          136
+   them  D   all        45          5092        0.06                2.12          519
+   them  D   home       39          4294        0.07                2.05          496
+   them  D   front       6           798        0.00                2.51          643
+   defense towers: 45; by opponent: {'immutable': 13, 'scienceqiu': 13, 'slifland': 1, 'varunvejalla': 5, 'angtn': 5, 'spaark': 2, 'subscribe-to-caterpillow': 6}
+      m3214g0 Portal       immutable    them built r287  home  life  127        robots killed 0 damage 150
+      m3214g0 Portal       immutable    them built r295  home  life  119        robots killed 2 damage 560
+      m3306g0 Brat         scienceqiu   them built r198  home  life  103        robots killed 0 damage 0
+      m3306g0 Brat         scienceqiu   them built r220  home  life   81        robots killed 0 damage 0
+      m3306g0 Brat         scienceqiu   them built r293  home  life    8        robots killed 0 damage 0
+      m3306g1 BunnyGame    scienceqiu   them built r106  home  life   83        robots killed 3 damage 560
+      m3306g2 FourCorners  scienceqiu   them built r209  home  life   98        robots killed 0 damage 0
+      m3306g2 FourCorners  scienceqiu   them built r235  home  life   72        robots killed 0 damage 0
+      m3312g1 defensetower slifland     them built r445  front life  176        robots killed 6 damage 1645
+      m3323g0 Castle       varunvejalla them built r447  home  life   34        robots killed 0 damage 0
+      m3513g1 DonkeyKong   varunvejalla them built r410  home  life   66        robots killed 4 damage 910
+      m3513g1 DonkeyKong   varunvejalla them built r478  home  life   26        robots killed 0 damage 0
+      m3513g1 DonkeyKong   varunvejalla them built r506  home  life   26        robots killed 0 damage 0
+      m3513g1 DonkeyKong   varunvejalla them built r524  home  life    8        robots killed 0 damage 0
+      m3547g0 DefaultSmall angtn        them built r143  home  life  245        robots killed 1 damage 20
+      m3547g0 DefaultSmall angtn        them built r192  front life  196        robots killed 4 damage 1220
+      m3547g0 DefaultSmall angtn        them built r307  home  life   81        robots killed 0 damage 0
+      m3548g0 DefaultLarge scienceqiu   them built r132  home  life  199        robots killed 2 damage 300
+      m3548g0 DefaultLarge scienceqiu   them built r239  home  life   92        robots killed 0 damage 0
+      m3548g0 DefaultLarge scienceqiu   them built r254  front life   77        robots killed 1 damage 300
+      m3684g0 Snowglobe    scienceqiu   them built r378  front life  128        robots killed 4 damage 800
+      m3684g0 Snowglobe    scienceqiu   them built r458  front life   71        robots killed 0 damage 0
+      m3684g0 Snowglobe    scienceqiu   them built r469  home  life   60        robots killed 0 damage 0
+      m3702g1 rain         angtn        them built r246  front life  150        robots killed 5 damage 1165
+      m3702g1 rain         angtn        them built r265  home  life  131        robots killed 1 damage 267
+      m3772g2 sierpinski   immutable    them built r195  home  life  210        robots killed 2 damage 415
+      m3773g1 Castle       spaark       them built r64   home  life  209        robots killed 6 damage 1405
+      m3773g1 Castle       spaark       them built r165  home  life   71        robots killed 0 damage 0
+      m3774g1 Piglets2     subscribe-to them built r221  home  life  215        robots killed 1 damage 215
+      m3785g0 Fossil       immutable    them built r346  home  life   38        robots killed 2 damage 345
+      m3829g0 Castle       immutable    them built r136  home  life   99        robots killed 0 damage 65
+      m3829g0 Castle       immutable    them built r218  home  life   17        robots killed 0 damage 0
+      m3899g0 DefaultHuge  subscribe-to them built r185  home  life  176 KILLED robots killed 21 damage 4644
+      m3899g0 DefaultHuge  subscribe-to them built r190  home  life  100 KILLED robots killed 14 damage 3520
+      m3899g0 DefaultHuge  subscribe-to them built r321  home  life  124        robots killed 6 damage 1514
+      m3899g0 DefaultHuge  subscribe-to them built r454  home  life    7        robots killed 1 damage 494
+      m3914g1 Snowman      subscribe-to them built r180  home  life   66        robots killed 1 damage 260
+      m3944g2 giver        scienceqiu   them built r401  home  life   67        robots killed 2 damage 520
+      m3945g1 Snowglobe    immutable    them built r152  home  life  219 KILLED robots killed 6 damage 1765
+      m3945g1 Snowglobe    immutable    them built r169  home  life  322        robots killed 2 damage 390
+      m3945g1 Snowglobe    immutable    them built r205  home  life  286        robots killed 5 damage 1375
+      m3945g1 Snowglobe    immutable    them built r287  home  life  204        robots killed 3 damage 1000
+      m3945g1 Snowglobe    immutable    them built r385  home  life  106        robots killed 1 damage 50
+      m3945g2 memstore     immutable    them built r405  home  life   51        robots killed 1 damage 280
+      m3945g2 memstore     immutable    them built r408  home  life   48        robots killed 1 damage 280
+
+== won games (96): per 100 tower-rounds
+   side type where   towers  tower-rounds  killed/100r  robots killed/100r  damage/100r
+   us    P   all       801        176995        0.08                0.13           59
+   us    P   home      545        145168        0.07                0.10           48
+   us    P   front     256         31827        0.13                0.30          111
+   us    M   all      2125        264210        0.17                0.22           91
+   us    M   home     1823        235848        0.16                0.21           87
+   us    M   front     302         28362        0.26                0.38          127
+   them  P   all       287         80285        0.20                0.33          124
+   them  P   home      257         74569        0.19                0.32          122
+   them  P   front      30          5716        0.26                0.45          153
+   them  M   all      2023        239250        0.28                0.38          150
+   them  M   home     1696        214853        0.26                0.35          143
+   them  M   front     327         24397        0.39                0.64          212
+   them  D   all        30          9037        0.17                4.23          950
+   them  D   home       22          6791        0.16                3.75          864
+   them  D   front       8          2246        0.18                5.65         1212
+   defense towers: 30; by opponent: {'angtn': 3, 'podemice': 5, 'varunvejalla': 2, 'scienceqiu': 2, 'slifland': 4, 'immutable': 13, 'subscribe-to-caterpillow': 1}
+      m3347g1 SMILE        angtn        them built r482  home  life  365 KILLED robots killed 35 damage 9000
+      m3347g1 SMILE        angtn        them built r681  front life   90 KILLED robots killed 30 damage 6949
+      m3479g0 Bunny        podemice     them built r200  home  life  322        robots killed 16 damage 3732
+      m3479g0 Bunny        podemice     them built r217  front life  281 KILLED robots killed 32 damage 6507
+      m3479g2 galaxy       podemice     them built r137  front life  252        robots killed 1 damage 280
+      m3479g2 galaxy       podemice     them built r167  home  life  222        robots killed 4 damage 862
+      m3479g2 galaxy       podemice     them built r377  front life   12        robots killed 1 damage 231
+      m3545g0 Leaf         varunvejalla them built r396  home  life  116 KILLED robots killed 29 damage 6558
+      m3545g1 TheBest      varunvejalla them built r372  home  life   48        robots killed 11 damage 2280
+      m3548g1 SaltyPepper  scienceqiu   them built r101  home  life  247        robots killed 12 damage 2856
+      m3548g2 shell        scienceqiu   them built r156  home  life  238        robots killed 17 damage 2570
+      m3655g0 DefaultSmall slifland     them built r106  home  life 1836        robots killed 26 damage 4685
+      m3655g0 DefaultSmall slifland     them built r170  home  life 1702 KILLED robots killed 35 damage 7344
+      m3655g0 DefaultSmall slifland     them built r235  front life 1211 KILLED robots killed 50 damage 9406
+      m3655g2 walalilongla slifland     them built r265  front life  106 KILLED robots killed 11 damage 2862
+      m3721g1 Restart      angtn        them built r47   home  life  364 KILLED robots killed 22 damage 4381
+      m3785g2 shell        immutable    them built r460  home  life  352 KILLED robots killed 11 damage 2215
+      m3785g2 shell        immutable    them built r552  home  life  219        robots killed 1 damage 340
+      m3785g2 shell        immutable    them built r602  home  life   77 KILLED robots killed 6 damage 1848
+      m3785g2 shell        immutable    them built r618  front life  209        robots killed 2 damage 528
+      m3785g2 shell        immutable    them built r742  front life   85        robots killed 0 damage 466
+      m3829g2 Leaf         immutable    them built r153  home  life  185        robots killed 5 damage 1299
+      m3829g2 Leaf         immutable    them built r193  home  life  132 KILLED robots killed 1 damage 880
+      m3829g2 Leaf         immutable    them built r236  home  life   93 KILLED robots killed 1 damage 1020
+      m3829g2 Leaf         immutable    them built r317  home  life   52 KILLED robots killed 6 damage 1704
+      m3829g2 Leaf         immutable    them built r365  home  life   43        robots killed 1 damage 290
+      m3829g2 Leaf         immutable    them built r385  home  life   20 KILLED robots killed 2 damage 1250
+      m3829g2 Leaf         immutable    them built r387  home  life   21        robots killed 2 damage 605
+      m3829g2 Leaf         immutable    them built r402  home  life    6        robots killed 2 damage 230
+      m3899g2 gardenworld  subscribe-to them built r155  home  life  131 KILLED robots killed 10 damage 2715
+

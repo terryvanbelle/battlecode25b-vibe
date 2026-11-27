@@ -1,0 +1,106 @@
+
+== LOST games: their lead: 89 games
+   tower lead for good: 88 of 89 games, median r173.0 (p25 r99, p75 r270); by r100: 25, r101-200: 25, later: 38
+   coverage lead >= 10 points for good: 88 games, median r232.0; rounds from the tower lead to it: 49
+   in the 50 rounds before the tower lead (sums over 88 games): leader {'lost to kills': 71, 'built rebuilt own': 61, 'built new ruin': 89, 'built taken': 11} | trailer {'lost to kills': 105, 'built rebuilt own': 43, 'built new ruin': 62}
+
+== LOST games to the top teams: their lead: 48 games
+   tower lead for good: 47 of 48 games, median r176 (p25 r82, p75 r302); by r100: 16, r101-200: 10, later: 21
+   coverage lead >= 10 points for good: 47 games, median r232; rounds from the tower lead to it: 39.0
+   in the 50 rounds before the tower lead (sums over 47 games): leader {'lost to kills': 34, 'built rebuilt own': 30, 'built new ruin': 47, 'built taken': 4} | trailer {'lost to kills': 66, 'built rebuilt own': 23, 'built new ruin': 32}
+
+== WON games: our lead: 96 games
+   tower lead for good: 96 of 96 games, median r154.5 (p25 r80, p75 r328); by r100: 35, r101-200: 20, later: 41
+   coverage lead >= 10 points for good: 96 games, median r196.5; rounds from the tower lead to it: 36.5
+   in the 50 rounds before the tower lead (sums over 96 games): leader {'built new ruin': 160, 'lost to kills': 97, 'built rebuilt own': 79, 'built taken': 13} | trailer {'built rebuilt own': 41, 'built taken': 2, 'built new ruin': 110, 'lost to kills': 91}
+
+per lost game: tower lead r / coverage lead r
+   m3211g0 t91   subscribe-to Brat           ALL554   towlead r287 covlead r395
+   m3211g1 t91   subscribe-to DefaultSmall   ALL122   towlead r42 covlead r113
+   m3211g2 t91   subscribe-to Piglets2       MAJ457   towlead r325 covlead r277
+   m3212g0 t91   gone-whalin  galaxy         MAJ550   towlead r54 covlead r333
+   m3212g1 t91   gone-whalin  lighthouse     MAJ308   towlead r44 covlead r121
+   m3213g0 t91   om-nom       Gears          MAJ536   towlead r281 covlead r441
+   m3213g1 t91   om-nom       TheBest        MAJ422   towlead r196 covlead r284
+   m3213g2 t91   om-nom       sayhi          MAJ571   towlead r318 covlead r353
+   m3214g0 t91   immutable    Portal         MAJ414   towlead r372 covlead r343
+   m3214g1 t91   immutable    Snowman        MAJ158   towlead rNone covlead r29
+   m3289g0 y195  gone-whalin  Bread          MAJ375   towlead r202 covlead r226
+   m3289g1 y195  gone-whalin  Justice        MAJ460   towlead r354 covlead r356
+   m3289g2 y195  gone-whalin  Portal         MAJ424   towlead r84 covlead r232
+   m3294g0 y195  placeholder- DefaultHuge    MAJ400   towlead r183 covlead r276
+   m3294g2 y195  placeholder- UglySweater    MAJ472   towlead r240 covlead r338
+   m3304g1 y195  gone-whalin  Piglets2       MAJ607   towlead r125 covlead r375
+   m3305g2 y195  immutable    starburst      MAJ270   towlead r225 covlead r118
+   m3306g0 y195  scienceqiu   Brat           ALL301   towlead r99 covlead r31
+   m3306g1 y195  scienceqiu   BunnyGame      ALL189   towlead r15 covlead r57
+   m3306g2 y195  scienceqiu   FourCorners    MAJ307   towlead r37 covlead r45
+   m3307g0 y195  placeholder- Crab           MAJ469   towlead r268 covlead r378
+   m3312g1 y195  slifland     defensetower   MAJ747   towlead r251 covlead r472
+   m3323g0 y195  varunvejalla Castle         MAJ481   towlead r387 covlead r338
+   m3323g1 y195  varunvejalla DefaultMedium  ALL240   towlead r92 covlead r184
+   m3323g2 y195  varunvejalla Paintball      ALL223   towlead r116 covlead r198
+   m3324g0 y195  varunvejalla Bread          ALL485   towlead r204 covlead r443
+   m3324g1 y195  varunvejalla Justice        MAJ290   towlead r84 covlead r167
+   m3324g2 y195  varunvejalla quack          ALL255   towlead r116 covlead r120
+   m3400g0 y197  lobster-roll PlumberGame    MAJ622   towlead r468 covlead r517
+   m3400g1 y197  lobster-roll Portal         MAJ429   towlead r178 covlead r220
+   m3409g0 y197  lobster-roll DefaultMedium  MAJ377   towlead r152 covlead r204
+   m3409g1 y197  lobster-roll DefaultSmall   MAJ204   towlead r19 covlead r63
+   m3409g2 y197  lobster-roll Justice        MAJ541   towlead r138 covlead r206
+   m3410g0 y197  placeholder- BunnyGame      ALL237   towlead r100 covlead r132
+   m3410g1 y197  placeholder- defensetower   MAJ524   towlead r233 covlead r360
+   m3426g2 y197  angtn        yearofthesnake MAJ1731  towlead r1587 covlead r1419
+   m3449g0 y197  angtn        Portal         MAJ349   towlead r125 covlead r69
+   m3449g1 y197  angtn        Racetrack      MAJ521   towlead r427 covlead r242
+   m3450g1 y197  varunvejalla catface        ALL246   towlead r82 covlead r117
+   m3467g0 y197  lobster-roll Castle         MAJ499   towlead r313 covlead r364
+   m3467g1 y197  lobster-roll Money          MAJ385   towlead r233 covlead r295
+   m3467g2 y197  lobster-roll roads          MAJ674   towlead r574 covlead r568
+   m3513g0 y211  varunvejalla CastleDefense  ALL203   towlead r152 covlead r161
+   m3513g1 y211  varunvejalla DonkeyKong     MAJ532   towlead r128 covlead r256
+   m3513g2 y211  varunvejalla Justice        MAJ237   towlead r54 covlead r135
+   m3514g0 y211  placeholder- Bunny          MAJ386   towlead r131 covlead r277
+   m3514g1 y211  placeholder- Restart        ALL300   towlead r27 covlead r183
+   m3515g2 y211  slifland     Justice        MAJ638   towlead r268 covlead r218
+   m3547g0 y211  angtn        DefaultSmall   MAJ388   towlead r143 covlead r40
+   m3548g0 y211  scienceqiu   DefaultLarge   MAJ331   towlead r152 covlead r205
+   m3575g0 y211  gone-whalin  DefaultSmall   MAJ261   towlead r143 covlead r182
+   m3575g2 y211  gone-whalin  Justice        MAJ421   towlead r302 covlead r281
+   m3583g0 y211  gone-whalin  Jail           ALL108   towlead r27 covlead r107
+   m3583g2 y211  gone-whalin  Racetrack      MAJ433   towlead r363 covlead r329
+   m3584g0 y211  placeholder- DefaultHuge    MAJ685   towlead r186 covlead r345
+   m3584g1 y211  placeholder- Piglets2       MAJ456   towlead r222 covlead r319
+   m3632g0 y211  angtn        Bunny          MAJ404   towlead r266 covlead r63
+   m3659g0 y211  lobster-roll Bunny          MAJ504   towlead r54 covlead r290
+   m3684g0 y211  scienceqiu   Snowglobe      MAJ529   towlead r389 covlead r415
+   m3684g2 y211  scienceqiu   starburst      ALL358   towlead r179 covlead r303
+   m3702g1 y211  angtn        rain           MAJ396   towlead r246 covlead r49
+   m3702g2 y211  angtn        sierpinski     MAJ395   towlead r116 covlead r225
+   m3735g1 y211  slifland     Portal         MAJ290   towlead r100 covlead r147
+   m3742g2 y211  immutable    roads          MAJ307   towlead r135 covlead r63
+   m3772g2 y221  immutable    sierpinski     MAJ412   towlead r209 covlead r332
+   m3773g0 y221  spaark       Bunny          MAJ596   towlead r165 covlead r390
+   m3773g1 y221  spaark       Castle         MAJ273   towlead r82 covlead r137
+   m3774g0 y221  subscribe-to Bunny          MAJ474   towlead r390 covlead r332
+   m3774g1 y221  subscribe-to Piglets2       MAJ436   towlead r257 covlead r282
+   m3785g0 y221  immutable    Fossil         MAJ384   towlead r378 covlead r318
+   m3789g1 y221  gone-whalin  TargetPractice MAJ218   towlead r30 covlead r122
+   m3790g1 y221  gone-whalin  boxofchocolate MAJ513   towlead r32 covlead r328
+   m3790g2 y221  gone-whalin  defensetower   ALL142   towlead r40 covlead rNone
+   m3829g0 y221  immutable    Castle         MAJ235   towlead r210 covlead r136
+   m3829g1 y221  immutable    CastleDefense  MAJ111   towlead r85 covlead r31
+   m3830g2 y221  gone-whalin  starburst      MAJ496   towlead r449 covlead r389
+   m3899g0 y221  subscribe-to DefaultHuge    MAJ461   towlead r321 covlead r393
+   m3899g1 y221  subscribe-to Filter         ALL241   towlead r137 covlead r105
+   m3914g1 y221  subscribe-to Snowman        ALL365   towlead r85 covlead r118
+   m3931g1 y221  subscribe-to Oasis          MAJ403   towlead r270 covlead r310
+   m3931g2 y221  subscribe-to Paintball      MAJ192   towlead r55 covlead r136
+   m3944g0 y221  scienceqiu   Mirage         ALL299   towlead r35 covlead r109
+   m3944g1 y221  scienceqiu   Snowman        ALL236   towlead r176 covlead r134
+   m3944g2 y221  scienceqiu   giver          MAJ468   towlead r241 covlead r356
+   m3945g1 y221  immutable    Snowglobe      MAJ491   towlead r411 covlead r232
+   m3945g2 y221  immutable    memstore       MAJ456   towlead r137 covlead r176
+   m3946g1 y221  varunvejalla Terminal       ALL277   towlead r121 covlead r230
+   m3947g0 y221  lobster-roll MoneyTower     MAJ877   towlead r579 covlead r574
+   m3951g0 y221  varunvejalla Paintball      MAJ308   towlead r170 covlead r244

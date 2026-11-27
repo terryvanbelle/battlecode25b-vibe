@@ -1,0 +1,32 @@
+== lost games (89): robots that ran dry (first turn ending at 0 paint)
+   side type  dry  per100turns  drained%  dist-to-tower med (p75)  paint 10r before med  tile own/neutral/enemy %  got paint again%  then died starved%
+   us   SO   1709      0.66       74%     8 (12)               56.0         24/24/51                    1%              93%
+   us   SP    986      0.83       53%     5.0 (8)               43.0         46/16/37                    2%              97%
+   us   MO    774      0.86       42%     2.0 (6)               27.0         49/20/30                    0%             100%
+   them SO   1533      0.37       29%     7 (11)               30         50/9/40                    7%              89%
+   them SP   1134      0.40       25%     9.0 (14)               26.0         61/6/32                    9%              91%
+   them MO   2371      0.62       12%     6 (9)               21         58/23/18                    2%              97%
+   never drained in the 10 rounds before (ran dry on their own):
+      us   SO: 442 (0.17 per 100 turns); distance to our nearest tower med 2.0, >= 8 tiles in 21%; paint 10 rounds before med 16.0
+      us   SP: 459 (0.39 per 100 turns); distance to our nearest tower med 2, >= 8 tiles in 17%; paint 10 rounds before med 22
+      us   MO: 450 (0.50 per 100 turns); distance to our nearest tower med 1.0, >= 8 tiles in 8%; paint 10 rounds before med 20.0
+      them SO: 1095 (0.26 per 100 turns); distance to our nearest tower med 5, >= 8 tiles in 32%; paint 10 rounds before med 24
+      them SP: 848 (0.30 per 100 turns); distance to our nearest tower med 7.0, >= 8 tiles in 47%; paint 10 rounds before med 22.0
+      them MO: 2088 (0.55 per 100 turns); distance to our nearest tower med 6.0, >= 8 tiles in 35%; paint 10 rounds before med 20.0
+
+== won games (96): robots that ran dry (first turn ending at 0 paint)
+   side type  dry  per100turns  drained%  dist-to-tower med (p75)  paint 10r before med  tile own/neutral/enemy %  got paint again%  then died starved%
+   us   SO   3384      0.37       48%     6.0 (10)               41.0         49/16/33                    4%              92%
+   us   SP   3249      0.41       24%     5 (7)               36         76/6/17                    5%              96%
+   us   MO   2003      0.64       13%     3 (5)               22         81/8/9                    0%              99%
+   them SO   2536      0.51       41%     9.0 (14)               30.0         30/10/59                    3%              91%
+   them SP   2181      0.46       16%     6 (11)               21         51/5/43                    5%              95%
+   them MO   3988      0.77       15%     4.0 (8)               19.0         57/19/22                    1%              98%
+   never drained in the 10 rounds before (ran dry on their own):
+      us   SO: 1754 (0.19 per 100 turns); distance to our nearest tower med 4.0, >= 8 tiles in 20%; paint 10 rounds before med 28.0
+      us   SP: 2484 (0.31 per 100 turns); distance to our nearest tower med 4.0, >= 8 tiles in 15%; paint 10 rounds before med 33.0
+      us   MO: 1747 (0.55 per 100 turns); distance to our nearest tower med 3, >= 8 tiles in 6%; paint 10 rounds before med 20
+      them SO: 1498 (0.30 per 100 turns); distance to our nearest tower med 6.0, >= 8 tiles in 39%; paint 10 rounds before med 19.0
+      them SP: 1836 (0.39 per 100 turns); distance to our nearest tower med 6.0, >= 8 tiles in 35%; paint 10 rounds before med 20.0
+      them MO: 3384 (0.66 per 100 turns); distance to our nearest tower med 4.0, >= 8 tiles in 21%; paint 10 rounds before med 18.0
+

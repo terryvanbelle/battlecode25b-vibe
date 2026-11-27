@@ -1,0 +1,22 @@
+
+== LOST games: 89
+   splasher paints                          us   85816   them  109056
+   flip free ruin                           us     440   them    1009
+   flip own money tower                     us     373   them     322
+   flip own paint tower                     us     103   them      94
+   flip own defen tower                     us       0   them      26
+   flip enemy tower                         us       0   them      14
+   flip elsewhere                           us      12   them    1030
+   soldier repaints a flipped ruin tile     us     260   them     620
+   per game, flips in free ruins (ours): median 1, p75 3, games with any 49
+
+== WON games: 96
+   splasher paints                          us  274753   them  165764
+   flip free ruin                           us     967   them    1114
+   flip own money tower                     us     609   them     599
+   flip own paint tower                     us     231   them     205
+   flip own defen tower                     us       0   them      43
+   flip enemy tower                         us       0   them      16
+   flip elsewhere                           us      43   them    2117
+   soldier repaints a flipped ruin tile     us     735   them     535
+   per game, flips in free ruins (ours): median 4.0, p75 9, games with any 73

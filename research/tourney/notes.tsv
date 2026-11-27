@@ -164,3 +164,6 @@ y243	tower spawn reserve 800 chips while under 25 towers (was 1000)
 y244	moppers spawn below the reserve with an enemy robot within d2 36 (was 20)
 y245	no spawn reserve before round 60 (was 40)
 y246	soldiers only for the first 150 rounds (was 80)
+t116	study 9 2.4: paint-tower dry flags expire after 10 rounds; a flagged tower in sight is re-sensed
+t117	study 9 2.1a: splashers value enemy tiles inside a free ruin pattern we are building (+6 each)
+t118	study 9 2.1b: a blocked soldier with no own mopper or splasher in view gives up after 5 turns (was 25)

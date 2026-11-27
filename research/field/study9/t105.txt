@@ -1,0 +1,156 @@
+
+LOST games, all opponents: 89 games
+                                   median us/them   sum us/them   per 100 rounds us/them
+   paint towers built                       0 / 3     179 / 297             0.49 /  0.82
+   money towers built                     10 / 11   1006 / 1315             2.77 /  3.62
+   defense towers built                     0 / 0        0 / 45             0.00 /  0.12
+   towers disintegrated (churn)             2 / 0     388 / 448             1.07 /  1.23
+   soldiers spawned                       21 / 23   2372 / 3957             6.53 / 10.89
+   splashers spawned                       5 / 11   1266 / 3107             3.48 /  8.55
+   moppers spawned                         7 / 25    944 / 4533             2.60 / 12.47
+   towers at the end                       2 / 10     232 / 997                         
+   robots at the end                       3 / 34    519 / 5757                         
+   paint share of non-churn tower builds: us 22% (179 P / 618 M), them 26% (297 P / 867 M)
+
+WON games, all opponents: 96 games
+                                   median us/them   sum us/them   per 100 rounds us/them
+   paint towers built                   6.0 / 0.0     705 / 191             1.53 /  0.41
+   money towers built                  19.0 / 8.0   2029 / 1927             4.40 /  4.18
+   defense towers built                 0.0 / 0.0        0 / 30             0.00 /  0.07
+   towers disintegrated (churn)         7.0 / 0.0    937 / 1022             2.03 /  2.22
+   soldiers spawned                   49.0 / 23.0   7723 / 3692            16.75 /  8.01
+   splashers spawned                   30.0 / 7.5   7560 / 3001            16.40 /  6.51
+   moppers spawned                    25.0 / 24.5   3685 / 5196             7.99 / 11.27
+   towers at the end                   14.0 / 4.5    1393 / 480                         
+   robots at the end                  52.5 / 17.0   9168 / 2658                         
+   paint share of non-churn tower builds: us 39% (705 P / 1092 M), them 17% (191 P / 905 M)
+
+LOST games, top teams: 48 games
+                                   median us/them   sum us/them   per 100 rounds us/them
+   paint towers built                   0.0 / 2.0      80 / 139             0.45 /  0.79
+   money towers built                   9.5 / 9.5     487 / 721             2.76 /  4.08
+   defense towers built                 0.0 / 0.0        0 / 34             0.00 /  0.19
+   towers disintegrated (churn)         2.0 / 0.0     178 / 306             1.01 /  1.73
+   soldiers spawned                   18.0 / 21.0   1132 / 1485             6.40 /  8.40
+   splashers spawned                    3.5 / 8.0    515 / 1389             2.91 /  7.86
+   moppers spawned                     5.5 / 20.5    440 / 1792             2.49 / 10.14
+   towers at the end                   1.5 / 10.0     119 / 515                         
+   robots at the end                   2.5 / 28.5    287 / 2830                         
+   paint share of non-churn tower builds: us 21% (80 P / 309 M), them 25% (139 P / 415 M)
+
+WON games, top teams: 40 games
+                                   median us/them   sum us/them   per 100 rounds us/them
+   paint towers built                   6.0 / 0.0      284 / 42             1.58 /  0.23
+   money towers built                 20.0 / 10.5    888 / 1255             4.95 /  7.00
+   defense towers built                 0.0 / 0.0        0 / 16             0.00 /  0.09
+   towers disintegrated (churn)         8.0 / 0.5     407 / 829             2.27 /  4.62
+   soldiers spawned                   49.5 / 23.0   2592 / 1215            14.45 /  6.77
+   splashers spawned                   30.0 / 4.0    2137 / 651            11.91 /  3.63
+   moppers spawned                    26.5 / 23.5   1248 / 1282             6.96 /  7.15
+   towers at the end                   13.5 / 4.0     569 / 211                         
+   robots at the end                  53.0 / 18.5   3620 / 1031                         
+   paint share of non-churn tower builds: us 37% (284 P / 481 M), them 9% (42 P / 426 M)
+
+per opponent (lost games): paint/money towers built us vs them, splashers+moppers spawned us vs them
+   gone-whalin                14 lost: towers P/M us 9/76 them 0/145; X+M spawned us 154 them 465; soldiers us 255 them 313
+   varunvejalla               12 lost: towers P/M us 15/110 them 0/128; X+M spawned us 79 them 342; soldiers us 188 them 380
+   subscribe-to-caterpillow   10 lost: towers P/M us 26/68 them 38/74; X+M spawned us 425 them 1379; soldiers us 337 them 191
+   immutable                  10 lost: towers P/M us 12/50 them 37/77; X+M spawned us 166 them 334; soldiers us 231 them 201
+   lobster-roll               10 lost: towers P/M us 11/61 them 41/110; X+M spawned us 333 them 841; soldiers us 302 them 404
+   placeholder-name-2          9 lost: towers P/M us 60/87 them 69/127; X+M spawned us 390 them 2362; soldiers us 351 them 1446
+   scienceqiu                  9 lost: towers P/M us 16/67 them 35/63; X+M spawned us 98 them 433; soldiers us 170 them 380
+   angtn                       7 lost: towers P/M us 7/37 them 29/67; X+M spawned us 384 them 759; soldiers us 328 them 153
+   om-nom                      3 lost: towers P/M us 13/40 them 19/40; X+M spawned us 91 them 430; soldiers us 100 them 328
+   slifland                    3 lost: towers P/M us 6/14 them 19/20; X+M spawned us 69 them 155; soldiers us 71 them 89
+   spaark                      2 lost: towers P/M us 4/8 them 10/16; X+M spawned us 21 them 140; soldiers us 39 them 72
+
+per game (lost):
+   m3211g0 t91   subscribe-to Brat           ALL554   built P/M/D us 0/5/0 (churn 1) them 4/2/0; spawned S/X/M us 12/0/1 them 12/2/7
+   m3211g1 t91   subscribe-to DefaultSmall   ALL122   built P/M/D us 0/3/0 (churn 0) them 0/4/0; spawned S/X/M us 7/0/0 them 9/0/3
+   m3211g2 t91   subscribe-to Piglets2       MAJ457   built P/M/D us 1/13/0 (churn 5) them 7/9/0; spawned S/X/M us 24/10/11 them 24/59/67
+   m3212g0 t91   gone-whalin  galaxy         MAJ550   built P/M/D us 2/19/0 (churn 11) them 0/74/0; spawned S/X/M us 35/12/17 them 41/24/54
+   m3212g1 t91   gone-whalin  lighthouse     MAJ308   built P/M/D us 0/0/0 (churn 0) them 0/18/0; spawned S/X/M us 8/0/0 them 15/7/20
+   m3213g0 t91   om-nom       Gears          MAJ536   built P/M/D us 4/14/0 (churn 0) them 3/18/0; spawned S/X/M us 31/17/14 them 108/78/48
+   m3213g1 t91   om-nom       TheBest        MAJ422   built P/M/D us 9/16/0 (churn 4) them 9/23/0; spawned S/X/M us 41/25/19 them 163/126/81
+   m3213g2 t91   om-nom       sayhi          MAJ571   built P/M/D us 0/22/0 (churn 8) them 7/26/0; spawned S/X/M us 28/0/16 them 57/61/36
+   m3214g0 t91   immutable    Portal         MAJ414   built P/M/D us 4/10/0 (churn 5) them 4/8/2; spawned S/X/M us 25/10/11 them 21/24/18
+   m3214g1 t91   immutable    Snowman        MAJ158   built P/M/D us 0/3/0 (churn 0) them 1/3/0; spawned S/X/M us 12/1/0 them 5/6/4
+   m3289g0 y195  gone-whalin  Bread          MAJ375   built P/M/D us 0/7/0 (churn 1) them 0/26/0; spawned S/X/M us 11/0/3 them 19/5/21
+   m3289g1 y195  gone-whalin  Justice        MAJ460   built P/M/D us 1/13/0 (churn 4) them 0/28/0; spawned S/X/M us 23/5/11 them 23/8/27
+   m3289g2 y195  gone-whalin  Portal         MAJ424   built P/M/D us 4/19/0 (churn 8) them 0/48/0; spawned S/X/M us 28/3/13 them 42/11/26
+   m3294g0 y195  placeholder- DefaultHuge    MAJ400   built P/M/D us 13/22/0 (churn 4) them 9/19/0; spawned S/X/M us 64/52/25 them 272/164/252
+   m3294g2 y195  placeholder- UglySweater    MAJ472   built P/M/D us 5/18/0 (churn 6) them 6/21/0; spawned S/X/M us 41/22/21 them 162/70/189
+   m3304g1 y195  gone-whalin  Piglets2       MAJ607   built P/M/D us 2/24/0 (churn 9) them 0/84/0; spawned S/X/M us 33/4/19 them 56/22/51
+   m3305g2 y195  immutable    starburst      MAJ270   built P/M/D us 0/11/0 (churn 6) them 0/9/0; spawned S/X/M us 20/4/8 them 13/7/7
+   m3306g0 y195  scienceqiu   Brat           ALL301   built P/M/D us 0/4/0 (churn 0) them 3/3/3; spawned S/X/M us 10/0/2 them 20/0/4
+   m3306g1 y195  scienceqiu   BunnyGame      ALL189   built P/M/D us 0/0/0 (churn 0) them 2/7/1; spawned S/X/M us 9/2/0 them 23/2/7
+   m3306g2 y195  scienceqiu   FourCorners    MAJ307   built P/M/D us 0/0/0 (churn 0) them 3/4/2; spawned S/X/M us 7/1/0 them 22/0/10
+   m3307g0 y195  placeholder- Crab           MAJ469   built P/M/D us 1/17/0 (churn 6) them 5/10/0; spawned S/X/M us 31/15/17 them 69/16/74
+   m3312g1 y195  slifland     defensetower   MAJ747   built P/M/D us 6/8/0 (churn 3) them 7/4/1; spawned S/X/M us 41/37/18 them 55/49/22
+   m3323g0 y195  varunvejalla Castle         MAJ481   built P/M/D us 1/18/0 (churn 6) them 0/23/1; spawned S/X/M us 29/7/12 them 38/9/30
+   m3323g1 y195  varunvejalla DefaultMedium  ALL240   built P/M/D us 0/8/0 (churn 0) them 0/21/0; spawned S/X/M us 12/1/3 them 33/1/23
+   m3323g2 y195  varunvejalla Paintball      ALL223   built P/M/D us 2/3/0 (churn 1) them 0/9/0; spawned S/X/M us 11/0/1 them 18/1/6
+   m3324g0 y195  varunvejalla Bread          ALL485   built P/M/D us 1/12/0 (churn 2) them 0/17/0; spawned S/X/M us 19/3/6 them 36/7/11
+   m3324g1 y195  varunvejalla Justice        MAJ290   built P/M/D us 0/13/0 (churn 0) them 0/14/0; spawned S/X/M us 10/0/2 them 30/2/15
+   m3324g2 y195  varunvejalla quack          ALL255   built P/M/D us 0/12/0 (churn 0) them 0/15/0; spawned S/X/M us 10/0/2 them 30/3/10
+   m3400g0 y197  lobster-roll PlumberGame    MAJ622   built P/M/D us 3/20/0 (churn 7) them 6/18/0; spawned S/X/M us 79/82/38 them 105/100/121
+   m3400g1 y197  lobster-roll Portal         MAJ429   built P/M/D us 2/7/0 (churn 2) them 8/13/0; spawned S/X/M us 24/14/11 them 35/27/51
+   m3409g0 y197  lobster-roll DefaultMedium  MAJ377   built P/M/D us 0/11/0 (churn 4) them 5/15/0; spawned S/X/M us 23/9/11 them 32/28/52
+   m3409g1 y197  lobster-roll DefaultSmall   MAJ204   built P/M/D us 0/0/0 (churn 0) them 2/7/0; spawned S/X/M us 8/3/1 them 9/3/14
+   m3409g2 y197  lobster-roll Justice        MAJ541   built P/M/D us 0/4/0 (churn 0) them 2/7/0; spawned S/X/M us 17/9/5 them 19/11/25
+   m3410g0 y197  placeholder- BunnyGame      ALL237   built P/M/D us 0/1/0 (churn 0) them 3/8/0; spawned S/X/M us 8/1/0 them 18/6/20
+   m3410g1 y197  placeholder- defensetower   MAJ524   built P/M/D us 1/12/0 (churn 6) them 7/11/0; spawned S/X/M us 24/6/11 them 68/36/63
+   m3426g2 y197  angtn        yearofthesnake MAJ1731  built P/M/D us 4/103/0 (churn 88) them 7/25/0; spawned S/X/M us 202/193/100 them 87/189/291
+   m3449g0 y197  angtn        Portal         MAJ349   built P/M/D us 1/10/0 (churn 6) them 4/11/0; spawned S/X/M us 22/6/7 them 12/20/29
+   m3449g1 y197  angtn        Racetrack      MAJ521   built P/M/D us 0/7/0 (churn 2) them 5/8/0; spawned S/X/M us 22/12/8 them 10/24/25
+   m3450g1 y197  varunvejalla catface        ALL246   built P/M/D us 0/0/0 (churn 0) them 0/10/0; spawned S/X/M us 9/1/0 them 21/3/8
+   m3467g0 y197  lobster-roll Castle         MAJ499   built P/M/D us 0/12/0 (churn 5) them 3/12/0; spawned S/X/M us 24/6/9 them 23/12/29
+   m3467g1 y197  lobster-roll Money          MAJ385   built P/M/D us 2/11/0 (churn 3) them 6/12/0; spawned S/X/M us 34/22/14 them 52/42/56
+   m3467g2 y197  lobster-roll roads          MAJ674   built P/M/D us 0/13/0 (churn 5) them 2/9/0; spawned S/X/M us 32/21/13 them 34/28/37
+   m3513g0 y211  varunvejalla CastleDefense  ALL203   built P/M/D us 0/4/0 (churn 0) them 0/8/0; spawned S/X/M us 10/0/3 them 13/2/8
+   m3513g1 y211  varunvejalla DonkeyKong     MAJ532   built P/M/D us 11/29/0 (churn 8) them 0/97/4; spawned S/X/M us 41/8/20 them 85/51/100
+   m3513g2 y211  varunvejalla Justice        MAJ237   built P/M/D us 0/5/0 (churn 1) them 0/13/0; spawned S/X/M us 12/1/2 them 25/3/13
+   m3514g0 y211  placeholder- Bunny          MAJ386   built P/M/D us 3/8/0 (churn 3) them 3/8/0; spawned S/X/M us 21/4/5 them 52/26/52
+   m3514g1 y211  placeholder- Restart        ALL300   built P/M/D us 0/2/0 (churn 0) them 6/9/0; spawned S/X/M us 10/3/2 them 41/14/42
+   m3515g2 y211  slifland     Justice        MAJ638   built P/M/D us 0/6/0 (churn 0) them 6/5/0; spawned S/X/M us 17/6/5 them 14/11/37
+   m3547g0 y211  angtn        DefaultSmall   MAJ388   built P/M/D us 0/1/0 (churn 0) them 1/3/3; spawned S/X/M us 13/9/3 them 5/5/6
+   m3548g0 y211  scienceqiu   DefaultLarge   MAJ331   built P/M/D us 2/9/0 (churn 0) them 4/10/3; spawned S/X/M us 17/1/3 them 56/6/64
+   m3575g0 y211  gone-whalin  DefaultSmall   MAJ261   built P/M/D us 0/4/0 (churn 2) them 0/10/0; spawned S/X/M us 13/0/2 them 10/2/6
+   m3575g2 y211  gone-whalin  Justice        MAJ421   built P/M/D us 0/8/0 (churn 2) them 0/15/0; spawned S/X/M us 18/5/5 them 14/9/33
+   m3583g0 y211  gone-whalin  Jail           ALL108   built P/M/D us 0/0/0 (churn 0) them 0/1/0; spawned S/X/M us 5/0/0 them 5/0/5
+   m3583g2 y211  gone-whalin  Racetrack      MAJ433   built P/M/D us 0/13/0 (churn 4) them 0/25/0; spawned S/X/M us 24/11/7 them 21/6/23
+   m3584g0 y211  placeholder- DefaultHuge    MAJ685   built P/M/D us 35/30/0 (churn 3) them 23/27/0; spawned S/X/M us 130/137/53 them 696/535/710
+   m3584g1 y211  placeholder- Piglets2       MAJ456   built P/M/D us 2/10/0 (churn 5) them 7/14/0; spawned S/X/M us 22/6/10 them 68/39/54
+   m3632g0 y211  angtn        Bunny          MAJ404   built P/M/D us 1/11/0 (churn 7) them 4/7/0; spawned S/X/M us 22/4/10 them 12/21/29
+   m3659g0 y211  lobster-roll Bunny          MAJ504   built P/M/D us 2/7/0 (churn 4) them 3/11/0; spawned S/X/M us 23/12/9 them 40/35/49
+   m3684g0 y211  scienceqiu   Snowglobe      MAJ529   built P/M/D us 12/28/0 (churn 11) them 9/11/3; spawned S/X/M us 45/8/21 them 79/24/91
+   m3684g2 y211  scienceqiu   starburst      ALL358   built P/M/D us 0/11/0 (churn 5) them 1/6/0; spawned S/X/M us 18/3/6 them 24/4/14
+   m3702g1 y211  angtn        rain           MAJ396   built P/M/D us 1/9/0 (churn 5) them 2/6/2; spawned S/X/M us 23/7/10 them 8/12/17
+   m3702g2 y211  angtn        sierpinski     MAJ395   built P/M/D us 0/16/0 (churn 12) them 6/7/0; spawned S/X/M us 24/4/11 them 19/36/55
+   m3735g1 y211  slifland     Portal         MAJ290   built P/M/D us 0/4/0 (churn 1) them 6/12/0; spawned S/X/M us 13/0/3 them 20/13/23
+   m3742g2 y211  immutable    roads          MAJ307   built P/M/D us 0/6/0 (churn 2) them 2/10/0; spawned S/X/M us 17/5/5 them 17/6/7
+   m3772g2 y221  immutable    sierpinski     MAJ412   built P/M/D us 2/16/0 (churn 10) them 5/11/1; spawned S/X/M us 30/6/14 them 32/28/20
+   m3773g0 y221  spaark       Bunny          MAJ596   built P/M/D us 4/9/0 (churn 5) them 7/13/0; spawned S/X/M us 23/8/8 them 53/67/53
+   m3773g1 y221  spaark       Castle         MAJ273   built P/M/D us 0/7/0 (churn 3) them 3/4/2; spawned S/X/M us 16/2/3 them 19/7/13
+   m3774g0 y221  subscribe-to Bunny          MAJ474   built P/M/D us 0/14/0 (churn 5) them 2/8/0; spawned S/X/M us 19/5/7 them 18/31/37
+   m3774g1 y221  subscribe-to Piglets2       MAJ436   built P/M/D us 2/13/0 (churn 5) them 5/12/1; spawned S/X/M us 26/14/10 them 25/73/83
+   m3785g0 y221  immutable    Fossil         MAJ384   built P/M/D us 2/12/0 (churn 6) them 4/11/1; spawned S/X/M us 27/12/10 them 15/12/13
+   m3789g1 y221  gone-whalin  TargetPractice MAJ218   built P/M/D us 0/2/0 (churn 0) them 0/13/0; spawned S/X/M us 7/0/0 them 14/3/17
+   m3790g1 y221  gone-whalin  boxofchocolate MAJ513   built P/M/D us 0/1/0 (churn 0) them 0/49/0; spawned S/X/M us 14/6/3 them 32/13/33
+   m3790g2 y221  gone-whalin  defensetower   ALL142   built P/M/D us 0/0/0 (churn 0) them 0/5/0; spawned S/X/M us 7/0/0 them 11/0/7
+   m3829g0 y221  immutable    Castle         MAJ235   built P/M/D us 0/7/0 (churn 2) them 2/4/2; spawned S/X/M us 17/3/4 them 12/10/9
+   m3829g1 y221  immutable    CastleDefense  MAJ111   built P/M/D us 0/2/0 (churn 0) them 0/4/0; spawned S/X/M us 9/0/0 them 7/1/4
+   m3830g2 y221  gone-whalin  starburst      MAJ496   built P/M/D us 0/17/0 (churn 10) them 0/23/0; spawned S/X/M us 29/12/16 them 10/8/24
+   m3899g0 y221  subscribe-to DefaultHuge    MAJ461   built P/M/D us 20/16/0 (churn 2) them 10/18/4; spawned S/X/M us 149/180/68 them 45/294/310
+   m3899g1 y221  subscribe-to Filter         ALL241   built P/M/D us 0/4/0 (churn 0) them 1/6/0; spawned S/X/M us 10/0/1 them 13/4/8
+   m3914g1 y221  subscribe-to Snowman        ALL365   built P/M/D us 0/6/0 (churn 0) them 3/3/1; spawned S/X/M us 11/3/2 them 11/9/17
+   m3931g1 y221  subscribe-to Oasis          MAJ403   built P/M/D us 3/12/0 (churn 2) them 5/9/0; spawned S/X/M us 71/80/33 them 23/181/184
+   m3931g2 y221  subscribe-to Paintball      MAJ192   built P/M/D us 0/2/0 (churn 0) them 1/5/0; spawned S/X/M us 8/0/0 them 11/3/7
+   m3944g0 y221  scienceqiu   Mirage         ALL299   built P/M/D us 0/14/0 (churn 0) them 3/8/0; spawned S/X/M us 10/0/2 them 55/0/45
+   m3944g1 y221  scienceqiu   Snowman        ALL236   built P/M/D us 0/5/0 (churn 0) them 2/2/0; spawned S/X/M us 9/0/0 them 14/0/4
+   m3944g2 y221  scienceqiu   giver          MAJ468   built P/M/D us 2/28/0 (churn 16) them 8/13/1; spawned S/X/M us 45/21/28 them 87/47/111
+   m3945g1 y221  immutable    Snowglobe      MAJ491   built P/M/D us 2/18/0 (churn 9) them 6/9/5; spawned S/X/M us 41/25/18 them 36/51/22
+   m3945g2 y221  immutable    memstore       MAJ456   built P/M/D us 2/20/0 (churn 15) them 13/9/2; spawned S/X/M us 33/11/19 them 43/48/37
+   m3946g1 y221  varunvejalla Terminal       ALL277   built P/M/D us 0/16/0 (churn 0) them 0/19/0; spawned S/X/M us 15/0/6 them 33/4/19
+   m3947g0 y221  lobster-roll MoneyTower     MAJ877   built P/M/D us 2/11/0 (churn 5) them 4/16/0; spawned S/X/M us 38/28/16 them 55/53/68
+   m3951g0 y221  varunvejalla Paintball      MAJ308   built P/M/D us 0/8/0 (churn 0) them 0/13/0; spawned S/X/M us 10/0/1 them 18/7/6
