@@ -204,3 +204,6 @@ y265	t131 salting at 8+ enemy tiles with +6 per tile (was 12, +4)
 y266	y260 + t131 (dry flag drops at 25+ paint; splashers salt killed towers' ruins)
 t134	t122 + study 10 4.5: a soldier out of paint mid-pattern with no known paint tower explores instead of standing still
 t135	t122 + study 10 2.6d: a soldier with no other soldier in view skips the 25-paint pattern mark
+y267	y266 with the dry flag dropped in sight at 35+ paint (y260: 25)
+y268	y266 salting only at 16+ enemy tiles (was 12)
+t136	t122 + study 10 2.6c: money towers upgrade only at cost + spare + 5000 chips (was +2500)

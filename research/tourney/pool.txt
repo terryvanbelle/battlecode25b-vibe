@@ -425,12 +425,15 @@ y261
 # y263 (retired: -11 vs t122 after 543 games)
 # t128 (retired: -13 vs t122 after 510 games)
 # t129 (retired: -41 vs t122 after 204 games)
-t130
+# t130 (retired: flat, -8 vs t122 after 645 games)
 # t131 (retired: flat, -1 vs t122 after 536 games)
 # t132 (retired early: -140 +-53 after 49 games; wrong-colour repaint likely fights SRP workers)
-y264
-t133
-y265
+# y264 (retired: -18 vs t122 after 554 games)
+# t133 (retired: -22 vs t122 after 255 games)
+# y265 (retired: -24 vs t122 after 268 games)
 y266
 t134
 t135
+y267
+y268
+t136
