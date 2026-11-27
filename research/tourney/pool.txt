@@ -447,7 +447,7 @@ t135
 # y275 (retired: built on t122, champion now t135)
 # y276 (retired: -38 vs t135 after 285 games)
 t138
-y277
+# y277 (retired: flat, -3 vs t135 after 857 games)
 t139
 t140
 t141
