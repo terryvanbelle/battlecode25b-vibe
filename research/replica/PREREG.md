@@ -37,3 +37,21 @@ holds fewer than 30 windows, extend by 24 hours at a time, up to 2026-12-01 16:0
 then. No look at the result before the evaluation, and no change to the definitions, cutoffs or code.
 
 H1 holds if rotation p < 0.05 with the difference negative. Anything else means it does not hold on new data.
+
+## Addendum, 2026-11-26 17:25 PDT, before any pre-registered data exists (window data start 18:07)
+
+Nothing above changes: same windows, groups, tests, code and dates. This adds how to read the result.
+
+- From the 17:13 prod on, a bot is crowned only after a confirmation stage (`tools/tourney.py`, owner #46): once it
+  clears the lead bar it needs 150 fresh games in which it still leads the champion. Every pre-registered window
+  falls under this rule; the exploratory data (H1's -13.8, p 0.014) came from the old rule.
+- The leading explanation for the exploratory dip is the winner's curse: the bot that first clears the bar is the
+  luckiest one, and moderate local gains are the most likely to be luck. Confirmation should filter those out.
+  Owner #48: "If the anomalous dip in the delta Elo chart is truly caused by the winner's curse, this should
+  alleviate that. Let's see if it does."
+- So, read together with the exploratory result:
+  - H1 not holding (and the G-minus-rest difference near 0 or positive) is what the winner's-curse explanation
+    predicts under confirmation;
+  - H1 holding means the dip persists despite confirmation: the winner's curse alone does not explain it.
+- Fewer crownings are expected under confirmation, so G may stay small; the extension rule above applies unchanged.
+- Report the difference next to the exploratory -13.8 (Newey-West SE included) so the change is visible.

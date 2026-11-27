@@ -238,19 +238,13 @@ def cmd_plan(run, n):
             sw = [min(rate[b].se, 350 / math.sqrt(max(have[b], 1))) + 10 for b in others]
             for k in range(n // 4):
                 pairs.append((random.choices(others, sw)[0], ch))
-    # owner #45: a fifth of the run pairs the champion (a quarter of these) and the rated candidates with the replica
-    # references, so each candidate's score against the field-proven bots (the dashboard's vs refs) gets enough games
-    rf = [b for b in refs() if b in rate]
-    cands = [b for b in top if b not in rf and b != ch]
-    if rf and cands:
-        for k in range(n // 5):
-            x = ch if ch in rate and ch not in rf and random.random() < 0.25 else random.choice(cands)
-            pairs.append((x, random.choice(rf)))
+    # owner #47: the replica references are regular (permanent) entrants: no extra games for them (the fifth of each
+    # run that owner #45's vs refs column took, tr261-tr264 as first planned, was dropped)
     # owner #46: a bot in its confirmation window plays the champion more, so confirming costs about one prod
     for b in read_confirm():
         if b in rate and ch in rate and b != ch:
             pairs += [(b, ch)] * (n // 10)
-    cand = [(a, b) for i, a in enumerate(top) for b in top[i + 1:] if not (a in rf and b in rf)]   # no ref-vs-ref
+    cand = [(a, b) for i, a in enumerate(top) for b in top[i + 1:]]
     # SE expected once the planned games are in (~350/sqrt(games)): an unplayed bot's prior SE of 400 would otherwise
     # pull every top-pair game in each of several consecutive plans (11-22 11:20)
     se = {x: min(rate[x].se, 350 / math.sqrt(max(have[x], 1))) for x in top}

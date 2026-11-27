@@ -8,7 +8,6 @@ Change descriptions for pool bots come from research/tourney/notes.tsv (bot<TAB>
 """
 import csv
 import json
-import math
 import os
 import re
 import subprocess
@@ -62,35 +61,12 @@ def main(out):
               if l.split('#')[0].strip() and 'replica record' in l.split('#', 1)[-1]}
     for r in pool:
         r['replica_record'] = r['bot'] in record
-    # owner #45: the replica reference set (the record holder plus the lines marked 'replica reference'). vs_refs is a
-    # bot's performance rating in its games against the set, minus the champion's: like vs_champion, but measured only
-    # against field-proven bots, so a candidate that beats y211 without beating them shows up
+    # owner #45/#47: the replica references are permanent, otherwise regular entrants (shown as Replica Ref)
     refs = sorted(tourney.refs(), key=lambda b: b not in record)   # the record holder first
-    rating = {r['bot']: r['rating'] for r in pool}
-    gs = tourney.games()
-
-    def perf(x):
-        w = l = 0
-        s = 0.0
-        for a, b, wa, wb in gs:
-            opp, won = (b, wa) if a == x else (a, wb) if b == x else (None, None)
-            if opp in refs and rating.get(opp) is not None:
-                s += rating[opp]; w += won; l += not won
-        if w + l < 40:   # below 40 games against the set the column shows a dash, not noise
-            return None
-        return (s / (w + l) + 400 * math.log10((w + .5) / (l + .5)),
-                400 / math.log(10) * math.sqrt(1 / (w + .5) + 1 / (l + .5)), w, l)
     champ_name = next((r['bot'] for r in pool if r['champion']), None)
-    pc = perf(champ_name) if champ_name else None
     confirm = tourney.read_confirm()
-    last = tourney.last_run()
     for r in pool:
         r['replica_ref'] = r['bot'] in refs and not r['replica_record']
-        p = perf(r['bot'])
-        r['vs_refs'] = r['vs_refs_se'] = None
-        r['refs_w'], r['refs_l'] = (p[2], p[3]) if p else (0, 0)
-        if p and pc and not r['champion'] and r['bot'] not in refs:
-            r['vs_refs'], r['vs_refs_se'] = round(p[0] - pc[0]), round(math.hypot(p[1], pc[1]))
         # owner #46: a qualifier in its confirmation window
         r['confirm'] = None
         if r['bot'] in confirm and champ_name:

@@ -164,3 +164,9 @@ Yes, let's.  I have a mild worry that bots that close together in time will larg
 
 ## #46 (2026-11-26 16:45 PDT)
 I'm also open to option #3, as long as we don't get so strict that we start throwing away bots that might be improvements
+
+## #47 (2026-11-26 17:22 PDT)
+I'm having second thoughts on the amount of games you want to allocate to the "vs refs" column.  Let's get rid of the column, and just treat the refs are regular, but permanent, entrants in the tournament
+
+## #48 (2026-11-26 17:24 PDT)
+I'm good with your option 3, as stated.  If the anomalous dip in the delta Elo chart is truly caused by the winner's curse, this should alleviate that.  Let's see if it does

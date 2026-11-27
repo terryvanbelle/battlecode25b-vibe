@@ -29,9 +29,7 @@ Repo: `~/projects/vibe/2025b`. Method: `TRAINING_ALGORITHM.md` §7.1; machine ma
    replica slots (pool lines whose comment says `replica record`, owner #35, or `replica reference`, owner #45), and
    rebuild the promising ones on the new champion with `variant.py port`.
 3. Pool upkeep, about 10 active besides the 3 replica slots, half tunings (`yNN`) and half tactic copies (`tNN`, #12).
-   The pool table's vs refs (dashboard) is each bot's score against the replica slots minus the champion's: a
-   candidate that gains on the champion but not on the references is the local-vs-replica warning sign (owner #45).
-   Upkeep:
+   The replica slots are regular entrants that are never retired; they get no extra games (owner #47). Upkeep:
    - retire bots clearly behind (about -20 or worse after 200+ games, or flat after 500);
    - build candidates: `python3 tools/variant.py NEW BASE FILE 'OLD' 'NEW' [...]` (exact, single-occurrence
      replacements; snapshots and adds) or `python3 tools/variant.py port NEW BASE VAR VARBASE`; then
