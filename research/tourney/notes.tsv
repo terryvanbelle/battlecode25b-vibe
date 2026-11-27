@@ -193,3 +193,6 @@ y260	t122 dropping a dry flag in sight at 25+ paint (was 50)
 y261	y259 + y260 (cleaner give-up 35; dry flag drops at 25+ paint)
 y262	t122 with the give-up beside a cleaner after 45 blocked turns (was 25)
 y263	t122 dropping a dry flag in sight at 10+ paint (was 50)
+t128	t122 + study 10 2.1: rebuild paint towers with intact patterns; paint near own towers in pattern colour; idle soldiers fill empty tiles of visible own towers' patterns (starting towers)
+t129	t122 + study 10 2.2: paint towers spawn S X M from r80 (was S X X M S X)
+t130	t122 + study 10 2.3: on small maps (short side <= 25) a paint tower seeing an enemy soldier and no own mopper spawns a guard mopper, before r80 too

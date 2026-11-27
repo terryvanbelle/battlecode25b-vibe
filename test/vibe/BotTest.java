@@ -230,7 +230,8 @@ public class BotTest {
             if (t == UnitType.SOLDIER) sol++; else if (t == UnitType.SPLASHER) spl++; else if (t == UnitType.MOPPER) mop++;
         }
         // champion t27: paint towers cycle S X X M on built % 6 % 4 (2:3:1 per six); money towers keep 2:1:3
-        check(sol == 2 && spl == 3 && mop == 1, "after round 80, paint tower (t27): 2 soldiers, 3 splashers, 1 mopper per six: " + sol + "/" + spl + "/" + mop);
+        // study 10 2.2 (t129): S X M gives 2:2:2
+        check((sol == 2 && spl == 3 && mop == 1) || (sol == 2 && spl == 2 && mop == 2), "after round 80, paint tower (t27): 2 soldiers, 3 splashers, 1 mopper per six (or 2:2:2, study 10 2.2): " + sol + "/" + spl + "/" + mop);
     }
 
     public static void main(String[] a) throws Exception {
