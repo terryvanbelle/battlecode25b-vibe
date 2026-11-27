@@ -145,3 +145,6 @@ y228	y225 + t110 (pre-paint up to 5 towers; skip a drained money tower 20 rounds
 y229	t111 splasher stand-off + y224 explore 75
 y230	t111 splasher stand-off + y225 pre-paint while towers <= 5
 t112	t111 with the stand-off from 30 paint (was 50)
+t113	t110 on t111: skip a drained money tower for 20 rounds after a failed rebuild wait
+y231	y230 + t110 (t111 stand-off, pre-paint while towers <= 5, drained-tower skip)
+t114	t111 with the stand-off from 70 paint (was 50)

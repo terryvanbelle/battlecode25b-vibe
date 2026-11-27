@@ -359,17 +359,21 @@ t91  # replica reference: peak 1667 at #7 on 11-26 13:07 PDT (the record until y
 # t103 (retired: -72 vs y211 after 335; study 8 2.1 narrow defense rebuild)
 # t106 (retired at y221's crowning)
 # t107 (retired at y221's crowning)
-y221
+# y221 (retired at t111's crowning)
 # y222 (retired at y221's crowning)
 # y223 (retired: -1 vs y221 after 538, flat; explore timeout 120)
 # t108 (retired at y221's crowning; ported as t109)
 # t109 (retired: -38 after 583 games)
-t110
-y224
-y225
+# t110 (retired at t111's crowning: +14 vs y221 after 678; ported as t113)
+# y224 (retired at t111's crowning: +12 vs y221 after 746; in y229)
+# y225 (retired at t111's crowning: +23 vs y221 after 638, confirming; in y230)
 # y226 (retired: -23 after 580 games)
 t111
 # y228 (retired: -51 after 245 games)
 y229
 y230
 t112
+t113
+y231
+t114
+y221  # replica record: 1673 at #7 on 11-26 18:08 PDT; permanent slot (owner #35), champion until t111

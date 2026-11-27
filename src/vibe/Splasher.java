@@ -23,7 +23,8 @@ public strictfp class Splasher {
         // study 5 2.3: 8.6% of our splasher turns sat by a lone empty tile with full paint; after 8 rounds without a
         // splash (while able to splash), explore instead of chasing the nearest non-ally tile
         if (lastSplash == 0 || G.paint < 50 || !rc.isActionReady()) lastSplash = Math.max(lastSplash, G.round - 4);
-        MapLocation goal = Clock.getBytecodesLeft() > 5000 && G.round - lastSplash <= 8 ? frontier() : null;
+        MapLocation goal = G.paint >= 50 && Clock.getBytecodesLeft() > 6000 ? standOff() : null;   // study 8 2.4
+        if (goal == null) goal = Clock.getBytecodesLeft() > 5000 && G.round - lastSplash <= 8 ? frontier() : null;
         Nav.moveTo(goal != null ? goal : Unit.exploreTarget());
         if (!done && G.paint >= 50 && rc.isActionReady() && Clock.getBytecodesLeft() > 2500) {
             G.here = rc.getLocation();
@@ -67,6 +68,37 @@ public strictfp class Splasher {
         rc.attack(t); lastSplash = G.round;
         G.paint = rc.getPaint();
         return true;
+    }
+
+    static final int[] SX = {4, -4, 0, 0, 3, 3, -3, -3, 1, 1, -1, -1};
+    static final int[] SY = {0, 0, 4, -4, 1, -1, 1, -1, 3, -3, 3, -3};
+
+    /** study 8 2.4: a firing tile at d2 10-16 from the nearest enemy paint or money tower in view (a splash reaches
+     *  the tower from there; those towers shoot only to d2 9), clear of the other towers' reach; null when none. */
+    static MapLocation standOff() throws GameActionException {
+        RobotController rc = G.rc;
+        RobotInfo tw = null; int td = Integer.MAX_VALUE;
+        for (RobotInfo e : G.enemies) {
+            if (!e.type.isTowerType() || G.kind(e.type) == 3) continue;
+            int d = G.here.distanceSquaredTo(e.location);
+            if (d < td) { td = d; tw = e; }
+        }
+        if (tw == null) return null;
+        MapLocation best = null; int bd = Integer.MAX_VALUE;
+        for (int i = 0; i < 12; i++) {
+            MapLocation l = tw.location.translate(SX[i], SY[i]);
+            if (!rc.onTheMap(l) || !rc.canSenseLocation(l)) continue;
+            if (!l.equals(G.here) && (!rc.senseMapInfo(l).isPassable() || rc.senseRobotAtLocation(l) != null)) continue;
+            boolean bad = false;
+            for (RobotInfo e : G.enemies) {
+                if (!e.type.isTowerType() || e.location.equals(tw.location)) continue;
+                if (l.distanceSquaredTo(e.location) <= (G.kind(e.type) == 3 ? 16 : 9)) { bad = true; break; }
+            }
+            if (bad) continue;
+            int d = G.here.distanceSquaredTo(l);
+            if (d < bd) { bd = d; best = l; }
+        }
+        return best;
     }
 
     /** The visible tile with the most non-ally paintable ground around it, roughly: the nearest non-ally tile at
