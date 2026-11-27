@@ -189,11 +189,38 @@ def cmd_rank(root):
         print(f'NEW CHAMPION {elig[0][0]} (was {ch}): leads the bots with >= {MIN_GAMES} games')
     else:
         print(f'champion {ch}')
+    gs = games(root)
+    guardrail(gs, ch)
     if root == R:   # keep progress/local-elo.md current every prod, not only at crownings
         import datetime as dt
         from zoneinfo import ZoneInfo
-        gs = games(root)
         write_md(gs, elolib.fit(gs), champ_history(), dt.datetime.now(ZoneInfo('America/Vancouver')))
+
+
+def guardrail(gs, ch):
+    """Owner #59/#60: the replica slots guard against behavioural regression. Report each slot's head-to-head record
+    against the champion from the games already played (no extra games), and raise an alarm when a slot wins
+    significantly more than half (by 2 SE, with 50+ games): a regression the local pool can see."""
+    parts, alarms = [], []
+    for s in refs():
+        if s == ch:
+            continue
+        w = sum(1 for a, b, aw, bw in gs if (a, b) == (s, ch) and aw or (a, b) == (ch, s) and bw)
+        l = sum(1 for a, b, aw, bw in gs if (a, b) == (s, ch) and bw or (a, b) == (ch, s) and aw)
+        n = w + l
+        if not n:
+            parts.append(f'{s} no games')
+            continue
+        p = w / n
+        se = math.sqrt(max(p * (1 - p), 0.25 / n) / n)
+        parts.append(f'{s} {w}-{l} {100 * p:.1f}% +-{100 * se:.1f}')
+        if n >= 50 and p - 0.5 > 2 * se:
+            alarms.append(f'GUARDRAIL ALARM: {s} beats the champion {ch} head-to-head, {w}-{l} ({100 * p:.1f}% +-'
+                          f'{100 * se:.1f}): look for a behavioural regression since {s}')
+    if parts:
+        print(f'guardrail (replica slots vs {ch}, head-to-head): ' + ', '.join(parts))
+    for a in alarms:
+        print(a)
 
 
 def pending():

@@ -88,6 +88,10 @@ replica. That build is the first champion.
   - Why: the builds that beat the field best often rate well below newer champions locally (one season: 60-95
     points), so a pool of recent builds alone loses what they know.
   - They are regular entrants: never retired, no extra games and no separate score.
+  - They are a guardrail against behavioural regression (owner #59, #60). Each rank prints each slot's
+    head-to-head record against the champion from games already played; a slot that wins significantly
+    more than half (by 2 SE, 50+ games) prints `GUARDRAIL ALARM`, a regression the local pool can see. The
+    check costs no games: spend no extra resources on the slots while it stays quiet.
 - The pool file lists active bots. Retired bots stay as comments, unscheduled, but their games keep anchoring the fit.
 - Name prefixes tell the kinds apart (e.g. `yNN` tunings, `swNN` swings, `fxNN` audit fixes, `tNN` tactics
   imitated from enemy replays). A swing table records each strategy and its fate.

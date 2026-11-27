@@ -200,3 +200,9 @@ That all sounds good to me
 
 ## #58 (2026-11-27 06:52 PDT)
 Let's add that as a rule to TRAINING_ALGORITHM, i.e. a bot with verified identical behavior can always substitute in the local tournament without needing to be crowned
+
+## #59 (2026-11-27 07:11 PDT)
+I'm curious whether the best replica bots ever rose above zero.  Their primary purpose is to guard against behavioral regression, which we'd see if they started to perform well in the local tournament, right?
+
+## #60 (2026-11-27 07:16 PDT)
+You can add it as long as it doesn't require more games on the box.  Since the slots are guardrails that haven't yet fired, I want to be conscious about not spending too many resources on them
