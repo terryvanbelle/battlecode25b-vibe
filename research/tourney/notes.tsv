@@ -197,3 +197,5 @@ t128	t122 + study 10 2.1: rebuild paint towers with intact patterns; paint near 
 t129	t122 + study 10 2.2: paint towers spawn S X M from r80 (was S X X M S X)
 t130	t122 + study 10 2.3: on small maps (short side <= 25) a paint tower seeing an enemy soldier and no own mopper spawns a guard mopper, before r80 too
 t131	t122 + study 10 2.4: splashers score +4 per enemy tile in an empty ruin whose 5x5 holds 12+ enemy tiles (salt killed towers' ruins)
+t132	t128 + study 10 2.1 v2 (idle soldiers also repaint our wrong-colour pattern tiles) + 2.5 (forgetTower moves the dry flag)
+y264	t122 with paint-tower dry flags lasting 20 rounds (was 10)
