@@ -223,7 +223,11 @@ public strictfp class Soldier {
             if (d > 2 && rc.getNumberTowers() <= 3) prePaint(r);   // study 8 2.2 (a)
             if (d <= 2) {
                 UnitType t = wantType();
-                if (rc.canMarkTowerPattern(t, r)) { rc.markTowerPattern(t, r); ruinType = t; G.paint = rc.getPaint(); }
+                // study 10 2.6d: the top teams never mark; a soldier with no other soldier in view skips the 25-paint mark
+                boolean mate = false;
+                for (RobotInfo a : G.allies) if (a.type == UnitType.SOLDIER) { mate = true; break; }
+                if (!mate) ruinType = t;
+                else if (rc.canMarkTowerPattern(t, r)) { rc.markTowerPattern(t, r); ruinType = t; G.paint = rc.getPaint(); }
             }
             if (ruinType == null) return true;
         }

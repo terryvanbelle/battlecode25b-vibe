@@ -188,3 +188,9 @@ You probably also want to rebucket the delta Elo graph now that the local Elo va
 
 ## #54 (2026-11-27 06:06 PDT)
 Good morning!  Looks like we had a case of diminishing returns last night
+
+## #55 (2026-11-27 06:18 PDT)
+OK, then yeah, I don't think we're going to tune our way to #1.  One of two things are likely:  Either the 8 bots above us know how to do things we need to learn how to do, or we have some bugs accumulated that are acting as a drag. Can you also do an audit on the code?  There might be a bug, or the code might have gotten unwieldy enough to be difficult to alter
+
+## #56 (2026-11-27 06:22 PDT)
+That all sounds good to me

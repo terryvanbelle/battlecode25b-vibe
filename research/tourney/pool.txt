@@ -400,7 +400,7 @@ t118  # replica record: 1716 at #5 on 11-27 00:08 PDT; permanent slot (owner #35
 # t119 (retired: built on t111, champion now t118)
 # t120 (retired: -12 vs t118 after 628 games; study 9 2.1a on t118)
 # t121 (retired: built on t111, champion now t118)
-t122
+# t122 (retired at t135's crowning)
 # y248 (retired: flat, +2 vs t118 after 591 games)
 # y249 (retired: -30 vs t118 after 427 games)
 # y211 (retired: its replica-reference slot passed to y221, peak 1673 > 1663, once t118 took the record; owner #45)
@@ -436,13 +436,15 @@ t122
 t135
 # y267 (retired: flat, +5 vs t122 after 625 games)
 # y268 (retired: -18 vs t122 after 461 games)
-t136
+# t136 (retired: built on t122, champion now t135)
 # y269 (retired: -84 vs t122 after 236 games; never marking is bad)
 # y270 (retired: -24 vs t122 after 248 games)
 # t137 (retired: flat, +1 vs t122 after 560 games)
 y271
 # y272 (retired: -48 vs t122 after 202 games)
 # y273 (retired: -26 vs t122 after 230 games)
-y274
-y275
+# y274 (retired: built on t122, champion now t135)
+# y275 (retired: built on t122, champion now t135)
 y276
+t138
+y277
