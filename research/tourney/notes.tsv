@@ -155,3 +155,6 @@ y235	t111, splashers chase the frontier for 12 rounds without a splash before ex
 y236	t111, stand-off search from 4000 bytecodes left (was 6000)
 t115	t111 with the stand-off from 90 paint (was 50; t114 70 leads, t112 30 lost)
 y237	t114 (stand-off from 70 paint) + y229 (explore timeout 75)
+y238	soldiers only for the first 60 rounds (was 80)
+y239	soldiers only for the first 100 rounds (was 80)
+y240	money towers spawn S M X M S S (one mopper fewer per cycle)

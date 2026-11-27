@@ -370,17 +370,20 @@ t91  # replica reference: peak 1667 at #7 on 11-26 13:07 PDT (the record until y
 # y226 (retired: -23 after 580 games)
 t111
 # y228 (retired: -51 after 245 games)
-y229
+# y229 (retired: flat, +3 vs t111 after 1073 games)
 # y230 (retired: -31 vs t111 after 371 games)
 # t112 (retired: -26 vs t111 after 351 games)
 # t113 (retired: -21 vs t111 after 285 games; t110 on t111)
-y231
+# y231 (retired: flat, -1 vs t111 after 772 games)
 t114
 y221  # replica record: 1673 at #7 on 11-26 18:08 PDT; permanent slot (owner #35), champion until t111
 y232
 y233
 # y234 (retired: -37 vs t111 after 240 games)
-y235
-y236
+# y235 (retired: behind t111 after 380 games)
+# y236 (retired: behind t111 after 380 games)
 t115
 y237
+y238
+y239
+y240
