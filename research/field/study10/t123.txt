@@ -1,0 +1,36 @@
+
+== lost games (75), deaths in r101+
+   SOLDIER  us  : deaths 1664 = 1.09/100 turns (153062 turns), starved 1148 (69%) = 0.75/100 turns
+        starved: paint 10 turns before med 0.0, 20 before 59; last 50+ paint 19.0 rounds before death (p25 13, p75 27); nearest own tower holding 50+ paint then: d2 med 185 (none known: 57); drained by enemy moppers in its last 15 rounds 72%; died on {'neutral': 286, 'own': 274, 'enemy': 588}; own mopper within d2 8 in its last 5 turns 19%
+   SOLDIER  them: deaths 1333 = 0.43/100 turns (307130 turns), starved 927 (70%) = 0.30/100 turns
+        starved: paint 10 turns before med 9, 20 before 37; last 50+ paint 24 rounds before death (p25 15, p75 36); nearest own tower holding 50+ paint then: d2 med 193 (none known: 4); drained by enemy moppers in its last 15 rounds 34%; died on {'enemy': 409, 'neutral': 113, 'own': 405}; own mopper within d2 8 in its last 5 turns 44%
+   SPLASHER us  : deaths 666 = 0.94/100 turns (70931 turns), starved 611 (92%) = 0.86/100 turns
+        starved: paint 10 turns before med 11, 20 before 85; last 50+ paint 16 rounds before death (p25 11, p75 26); nearest own tower holding 50+ paint then: d2 med 109 (none known: 28); drained by enemy moppers in its last 15 rounds 65%; died on {'own': 234, 'enemy': 252, 'neutral': 125}; own mopper within d2 8 in its last 5 turns 26%
+   SPLASHER them: deaths 668 = 0.27/100 turns (247654 turns), starved 446 (67%) = 0.18/100 turns
+        starved: paint 10 turns before med 7.0, 20 before 28.0; last 50+ paint 26.0 rounds before death (p25 17, p75 38); nearest own tower holding 50+ paint then: d2 med 229 (none known: 3); drained by enemy moppers in its last 15 rounds 26%; died on {'own': 251, 'enemy': 152, 'neutral': 43}; own mopper within d2 8 in its last 5 turns 52%
+   MOPPER   us  : deaths 786 = 0.98/100 turns (80160 turns), starved 697 (89%) = 0.87/100 turns
+        starved: paint 10 turns before med 22, 20 before 38; last 50+ paint 23 rounds before death (p25 15, p75 35); nearest own tower holding 50+ paint then: d2 med 106 (none known: 28); drained by enemy moppers in its last 15 rounds 51%; died on {'own': 291, 'enemy': 224, 'neutral': 182}; own mopper within d2 8 in its last 5 turns 100%
+   MOPPER   them: deaths 1742 = 0.48/100 turns (364339 turns), starved 1475 (85%) = 0.40/100 turns
+        starved: paint 10 turns before med 16, 20 before 33; last 50+ paint 29 rounds before death (p25 20, p75 47); nearest own tower holding 50+ paint then: d2 med 117 (none known: 4); drained by enemy moppers in its last 15 rounds 16%; died on {'own': 859, 'enemy': 226, 'neutral': 390}; own mopper within d2 8 in its last 5 turns 100%
+   splashes by us: 5573; the splasher's paint at the end of that turn: <50 13%, 50-99 20%, 100-149 21%, 150+ 46%
+   splasher withdrawals by us: 2517, paint at the end of that turn med 227 (p25 181)
+   splashes by them: 7463; the splasher's paint at the end of that turn: <50 13%, 50-99 18%, 100-149 21%, 150+ 49%
+   splasher withdrawals by them: 4775, paint at the end of that turn med 298 (p25 297)
+
+== won games (100), deaths in r101+
+   SOLDIER  us  : deaths 2175 = 0.44/100 turns (499987 turns), starved 1485 (68%) = 0.30/100 turns
+        starved: paint 10 turns before med 0, 20 before 48; last 50+ paint 21 rounds before death (p25 14, p75 33); nearest own tower holding 50+ paint then: d2 med 197 (none known: 16); drained by enemy moppers in its last 15 rounds 66%; died on {'own': 532, 'neutral': 386, 'enemy': 567}; own mopper within d2 8 in its last 5 turns 19%
+   SOLDIER  them: deaths 1921 = 0.63/100 turns (303455 turns), starved 1420 (74%) = 0.47/100 turns
+        starved: paint 10 turns before med 3.0, 20 before 39.0; last 50+ paint 23.0 rounds before death (p25 14, p75 35); nearest own tower holding 50+ paint then: d2 med 208 (none known: 53); drained by enemy moppers in its last 15 rounds 48%; died on {'enemy': 949, 'neutral': 161, 'own': 310}; own mopper within d2 8 in its last 5 turns 36%
+   SPLASHER us  : deaths 991 = 0.28/100 turns (349648 turns), starved 851 (86%) = 0.24/100 turns
+        starved: paint 10 turns before med 8, 20 before 59; last 50+ paint 19 rounds before death (p25 13, p75 32); nearest own tower holding 50+ paint then: d2 med 157 (none known: 6); drained by enemy moppers in its last 15 rounds 55%; died on {'neutral': 107, 'own': 510, 'enemy': 234}; own mopper within d2 8 in its last 5 turns 34%
+   SPLASHER them: deaths 750 = 0.50/100 turns (149943 turns), starved 653 (87%) = 0.44/100 turns
+        starved: paint 10 turns before med 7, 20 before 43; last 50+ paint 21 rounds before death (p25 14, p75 32); nearest own tower holding 50+ paint then: d2 med 200 (none known: 8); drained by enemy moppers in its last 15 rounds 39%; died on {'enemy': 370, 'neutral': 58, 'own': 225}; own mopper within d2 8 in its last 5 turns 45%
+   MOPPER   us  : deaths 1025 = 0.46/100 turns (221018 turns), starved 800 (78%) = 0.36/100 turns
+        starved: paint 10 turns before med 15.0, 20 before 30.0; last 50+ paint 30.0 rounds before death (p25 20, p75 44); nearest own tower holding 50+ paint then: d2 med 122 (none known: 11); drained by enemy moppers in its last 15 rounds 29%; died on {'neutral': 158, 'own': 519, 'enemy': 123}; own mopper within d2 8 in its last 5 turns 100%
+   MOPPER   them: deaths 2039 = 0.62/100 turns (331024 turns), starved 1927 (95%) = 0.58/100 turns
+        starved: paint 10 turns before med 19, 20 before 37.0; last 50+ paint 27 rounds before death (p25 18, p75 43); nearest own tower holding 50+ paint then: d2 med 113 (none known: 56); drained by enemy moppers in its last 15 rounds 29%; died on {'neutral': 490, 'enemy': 707, 'own': 730}; own mopper within d2 8 in its last 5 turns 100%
+   splashes by us: 14111; the splasher's paint at the end of that turn: <50 8%, 50-99 21%, 100-149 22%, 150+ 49%
+   splasher withdrawals by us: 11417, paint at the end of that turn med 290 (p25 194)
+   splashes by them: 7158; the splasher's paint at the end of that turn: <50 15%, 50-99 22%, 100-149 21%, 150+ 42%
+   splasher withdrawals by them: 3036, paint at the end of that turn med 244.0 (p25 127)

@@ -1,0 +1,197 @@
+== lost games
+  us: built while none: MONEY: 169, games: 75, games with a no-paint-tower spell: 41, lost games with spell: 41
+      first such round                                             n= 41 med 109 p25 76 p75 209
+      paint held during spells (mean)                              n= 41 med 314.2 p25 107.9 p75 1284.8
+      robots alive during spells (mean)                            n= 41 med 4.0 p25 1.7 p75 8.0
+      rounds from first spell to the next paint tower (9999 never) n= 41 med 9999 p25 138 p75 9999
+      rounds without a paint tower                                 n= 41 med 115 p25 51 p75 182
+  them: built while none: DEFEN: 32, built while none: MONEY: 190, games: 75, games with a no-paint-tower spell: 11
+      first such round                                             n= 11 med 91 p25 61 p75 230
+      paint held during spells (mean)                              n= 11 med 2142.2 p25 1353.0 p75 3204.9
+      robots alive during spells (mean)                            n= 11 med 11.8 p25 8.5 p75 26.6
+      rounds from first spell to the next paint tower (9999 never) n= 11 med 125 p25 73 p75 9999
+      rounds without a paint tower                                 n= 11 med 121 p25 73 p75 226
+== won games
+  us: built while none: MONEY: 67, games: 100, games with a no-paint-tower spell: 13, won games with spell: 13
+      first such round                                             n= 13 med 125 p25 77 p75 140
+      paint held during spells (mean)                              n= 13 med 1451.9 p25 1149.5 p75 1904.7
+      robots alive during spells (mean)                            n= 13 med 14.1 p25 10.2 p75 14.9
+      rounds from first spell to the next paint tower (9999 never) n= 13 med 53 p25 17 p75 123
+      rounds without a paint tower                                 n= 13 med 53 p25 32 p75 123
+  them: built while none: DEFEN: 4, built while none: MONEY: 179, games: 100, games with a no-paint-tower spell: 38
+      first such round                                             n= 38 med 187.0 p25 93 p75 305
+      paint held during spells (mean)                              n= 38 med 718.0 p25 355.7 p75 1393.0
+      robots alive during spells (mean)                            n= 38 med 6.2 p25 5.3 p75 11.2
+      rounds from first spell to the next paint tower (9999 never) n= 38 med 9999.0 p25 9999 p75 9999
+      rounds without a paint tower                                 n= 38 med 127.0 p25 30 p75 229
+== our towers completed while no paint tower of ours stood (lost games)
+   m4001g1 Filter       r31   MONEY on new ruin (7, 15), chips 990, towers 2
+   m4001g1 Filter       r59   MONEY on old money ruin (13, 15), chips 980, towers 1
+   m4001g1 Filter       r79   MONEY on old money ruin (7, 15), chips 960, towers 2
+   m4004g0 DefaultLarge r65   MONEY on old money ruin (13, 19), chips 1590, towers 2
+   m4004g0 DefaultLarge r96   MONEY on new ruin (42, 7), chips 2440, towers 3
+   m4004g0 DefaultLarge r126  MONEY on old money ruin (13, 19), chips 2870, towers 3
+   m4004g0 DefaultLarge r145  MONEY on old money ruin (22, 4), chips 2310, towers 2
+   m4004g0 DefaultLarge r171  MONEY on new ruin (27, 4), chips 1600, towers 2
+   m4004g0 DefaultLarge r224  MONEY on old money ruin (42, 7), chips 3722, towers 2
+   m4004g0 DefaultLarge r254  MONEY on old money ruin (22, 4), chips 3882, towers 2
+   m4004g0 DefaultLarge r272  MONEY on old money ruin (27, 4), chips 3710, towers 3
+   m4004g0 DefaultLarge r280  MONEY on old money ruin (27, 4), chips 2758, towers 3
+   m4004g0 DefaultLarge r290  MONEY on old money ruin (22, 4), chips 2007, towers 3
+   m4004g0 DefaultLarge r318  MONEY on old money ruin (22, 4), chips 2893, towers 3
+   m4004g0 DefaultLarge r331  MONEY on old money ruin (22, 4), chips 2337, towers 3
+   m4004g2 starburst    r107  MONEY on old money ruin (5, 22), chips 990, towers 3
+   m4004g2 starburst    r119  MONEY on old money ruin (5, 22), chips 990, towers 3
+   m4004g2 starburst    r131  MONEY on old money ruin (6, 7), chips 990, towers 3
+   m4004g2 starburst    r146  MONEY on old money ruin (3, 15), chips 1050, towers 3
+   m4004g2 starburst    r185  MONEY on old money ruin (3, 15), chips 2240, towers 3
+   m4004g2 starburst    r206  MONEY on old money ruin (3, 15), chips 2080, towers 2
+   m4004g2 starburst    r209  MONEY on old money ruin (6, 7), chips 1020, towers 3
+   m4004g2 starburst    r248  MONEY on old money ruin (3, 15), chips 2180, towers 2
+   m4004g2 starburst    r257  MONEY on old money ruin (6, 7), chips 1200, towers 2
+   m4055g0 DefaultLarge r78   MONEY on old money ruin (36, 19), chips 1380, towers 2
+   m4055g0 DefaultLarge r94   MONEY on new ruin (46, 15), chips 930, towers 3
+   m4055g0 DefaultLarge r107  MONEY on new ruin (42, 22), chips 960, towers 3
+   m4055g0 DefaultLarge r118  MONEY on old money ruin (36, 19), chips 930, towers 4
+   m4055g0 DefaultLarge r154  MONEY on old paint ruin (37, 12), chips 2020, towers 5
+   m4055g0 DefaultLarge r164  MONEY on old money ruin (46, 15), chips 1850, towers 5
+   m4055g0 DefaultLarge r167  MONEY on new ruin (47, 27), chips 1220, towers 6
+   m4055g0 DefaultLarge r177  MONEY on old money ruin (36, 19), chips 1000, towers 6
+   m4055g0 DefaultLarge r185  MONEY on old money ruin (37, 12), chips 960, towers 6
+   m4055g0 DefaultLarge r202  MONEY on old money ruin (42, 7), chips 1449, towers 6
+   m4055g0 DefaultLarge r226  MONEY on old money ruin (36, 19), chips 3242, towers 6
+   m4055g0 DefaultLarge r230  MONEY on old money ruin (37, 12), chips 2515, towers 7
+   m4055g0 DefaultLarge r235  MONEY on old money ruin (36, 19), chips 2343, towers 7
+   m4055g0 DefaultLarge r250  MONEY on old money ruin (37, 12), chips 3807, towers 5
+   m4055g0 DefaultLarge r251  MONEY on old money ruin (36, 19), chips 2977, towers 6
+   m4057g2 fix          r133  MONEY on old money ruin (14, 30), chips 3150, towers 8
+   m4057g2 fix          r135  MONEY on old money ruin (14, 30), chips 2240, towers 8
+   m4057g2 fix          r147  MONEY on old money ruin (20, 30), chips 2030, towers 8
+   m4057g2 fix          r154  MONEY on old money ruin (26, 19), chips 1950, towers 8
+   m4057g2 fix          r166  MONEY on old money ruin (32, 19), chips 1980, towers 6
+   m4057g2 fix          r178  MONEY on old money ruin (32, 19), chips 1990, towers 6
+   m4057g2 fix          r187  MONEY on old money ruin (8, 30), chips 1610, towers 5
+   m4057g2 fix          r190  MONEY on old money ruin (14, 30), chips 980, towers 6
+   m4057g2 fix          r196  MONEY on old money ruin (20, 19), chips 965, towers 7
+   m4057g2 fix          r214  MONEY on old money ruin (14, 30), chips 2884, towers 8
+   m4057g2 fix          r214  MONEY on new ruin (2, 30), chips 2884, towers 8
+   m4057g2 fix          r227  MONEY on old money ruin (26, 19), chips 2559, towers 9
+   m4057g2 fix          r234  MONEY on old money ruin (8, 30), chips 2447, towers 9
+   m4057g2 fix          r249  MONEY on old money ruin (2, 30), chips 3347, towers 9
+   m4057g2 fix          r254  MONEY on old money ruin (32, 19), chips 2727, towers 9
+   m4057g2 fix          r268  MONEY on old money ruin (20, 30), chips 3967, towers 8
+   m4057g2 fix          r271  MONEY on old money ruin (20, 30), chips 3197, towers 8
+   m4057g2 fix          r271  MONEY on old money ruin (32, 19), chips 3197, towers 8
+   m4057g2 fix          r280  MONEY on new ruin (26, 30), chips 1537, towers 6
+   m4127g0 BunnyGame    r51   MONEY on old money ruin (17, 8), chips 1720, towers 1
+   m4127g0 BunnyGame    r78   MONEY on old money ruin (17, 8), chips 1490, towers 1
+   m4152g1 SaltyPepper  r95   MONEY on old money ruin (24, 10), chips 2030, towers 4
+   m4154g2 giver        r342  MONEY on old money ruin (3, 20), chips 4187, towers 7
+   m4160g0 Restart      r115  MONEY on new ruin (29, 8), chips 990, towers 3
+   m4160g0 Restart      r127  MONEY on new ruin (36, 9), chips 930, towers 4
+   m4160g0 Restart      r149  MONEY on new ruin (41, 12), chips 1010, towers 5
+   m4160g0 Restart      r157  MONEY on old money ruin (28, 16), chips 910, towers 5
+   m4160g0 Restart      r179  MONEY on new ruin (43, 17), chips 1180, towers 6
+   m4160g0 Restart      r191  MONEY on new ruin (37, 25), chips 1280, towers 6
+   m4160g0 Restart      r198  MONEY on old money ruin (18, 10), chips 940, towers 7
+   m4223g1 Piglets2     r105  MONEY on new ruin (51, 36), chips 1910, towers 5
+   m4223g1 Piglets2     r123  MONEY on old money ruin (43, 29), chips 2480, towers 6
+   m4223g1 Piglets2     r136  MONEY on old money ruin (51, 29), chips 2400, towers 6
+   m4225g1 Restart      r99   MONEY on new ruin (26, 38), chips 970, towers 3
+   m4225g1 Restart      r112  MONEY on new ruin (18, 45), chips 990, towers 4
+   m4225g1 Restart      r122  MONEY on old money ruin (37, 25), chips 970, towers 5
+   m4225g1 Restart      r159  MONEY on old money ruin (37, 25), chips 1970, towers 5
+   m4225g1 Restart      r174  MONEY on old money ruin (18, 45), chips 2200, towers 6
+   m4225g1 Restart      r186  MONEY on old money ruin (25, 46), chips 2090, towers 6
+   m4225g1 Restart      r196  MONEY on old money ruin (36, 44), chips 1400, towers 4
+   m4225g1 Restart      r205  MONEY on new ruin (13, 42), chips 1030, towers 5
+   m4225g1 Restart      r215  MONEY on old money ruin (37, 25), chips 910, towers 6
+   m4225g1 Restart      r232  MONEY on old money ruin (13, 42), chips 930, towers 5
+   m4225g1 Restart      r241  MONEY on old paint ruin (42, 38), chips 990, towers 6
+   m4225g1 Restart      r248  MONEY on old money ruin (26, 38), chips 950, towers 7
+   m4286g0 DefaultLarge r258  MONEY on old money ruin (42, 22), chips 3004, towers 5
+   m4286g0 DefaultLarge r261  MONEY on old money ruin (42, 22), chips 2129, towers 5
+   m4286g0 DefaultLarge r290  MONEY on new ruin (47, 27), chips 4481, towers 5
+   m4286g0 DefaultLarge r308  MONEY on old money ruin (42, 22), chips 4623, towers 2
+   m4289g1 DonkeyKong   r93   MONEY on new ruin (17, 22), chips 990, towers 3
+   m4289g1 DonkeyKong   r108  MONEY on new ruin (17, 27), chips 960, towers 3
+   m4289g1 DonkeyKong   r121  MONEY on new ruin (40, 27), chips 980, towers 4
+   m4289g1 DonkeyKong   r131  MONEY on new ruin (40, 17), chips 960, towers 5
+   m4289g1 DonkeyKong   r139  MONEY on old money ruin (29, 22), chips 900, towers 6
+   m4289g1 DonkeyKong   r146  MONEY on new ruin (17, 12), chips 860, towers 7
+   m4289g1 DonkeyKong   r168  MONEY on old money ruin (29, 17), chips 910, towers 8
+   m4289g1 DonkeyKong   r174  MONEY on old money ruin (40, 17), chips 870, towers 8
+   m4289g1 DonkeyKong   r195  MONEY on old money ruin (17, 12), chips 1330, towers 8
+   m4289g1 DonkeyKong   r199  MONEY on new ruin (40, 12), chips 1030, towers 9
+   m4289g1 DonkeyKong   r206  MONEY on old money ruin (40, 17), chips 1120, towers 9
+   m4289g1 DonkeyKong   r214  MONEY on old money ruin (17, 12), chips 1110, towers 9
+   m4289g1 DonkeyKong   r259  MONEY on old money ruin (29, 22), chips 1970, towers 8
+   m4289g1 DonkeyKong   r270  MONEY on old money ruin (17, 12), chips 2380, towers 9
+   m4289g1 DonkeyKong   r270  MONEY on old money ruin (29, 22), chips 2380, towers 9
+   m4289g1 DonkeyKong   r289  MONEY on old money ruin (17, 12), chips 2140, towers 7
+   m4289g1 DonkeyKong   r291  MONEY on old money ruin (40, 27), chips 1170, towers 7
+   m4367g2 Racetrack    r64   MONEY on new ruin (2, 21), chips 1020, towers 4
+   m4367g2 Racetrack    r88   MONEY on old money ruin (17, 17), chips 2090, towers 5
+   m4367g2 Racetrack    r101  MONEY on new ruin (21, 11), chips 1950, towers 5
+   m4367g2 Racetrack    r102  MONEY on old money ruin (7, 21), chips 1060, towers 6
+   m4367g2 Racetrack    r137  MONEY on old money ruin (21, 11), chips 3090, towers 6
+   m4367g2 Racetrack    r148  MONEY on old money ruin (2, 21), chips 2950, towers 6
+   m4367g2 Racetrack    r181  MONEY on old money ruin (2, 21), chips 5596, towers 5
+   m4367g2 Racetrack    r187  MONEY on old money ruin (2, 21), chips 5050, towers 4
+   m4370g2 walalilongla r103  MONEY on old money ruin (27, 13), chips 1070, towers 7
+   m4370g2 walalilongla r117  MONEY on old money ruin (27, 13), chips 860, towers 7
+   m4441g0 Bread        r56   MONEY on new ruin (26, 2), chips 950, towers 2
+   m4441g0 Bread        r76   MONEY on new ruin (8, 2), chips 990, towers 2
+   m4515g1 DefaultMediu r134  MONEY on old money ruin (12, 14), chips 4860, towers 4
+   m4515g1 DefaultMediu r135  MONEY on old money ruin (7, 22), chips 3930, towers 4
+   m4515g1 DefaultMediu r152  MONEY on old money ruin (7, 22), chips 3480, towers 5
+   m4515g1 DefaultMediu r158  MONEY on old money ruin (7, 22), chips 2550, towers 4
+   m4518g1 Fossil       r49   MONEY on new ruin (7, 27), chips 960, towers 3
+   m4518g1 Fossil       r72   MONEY on old money ruin (26, 22), chips 2010, towers 4
+   m4518g1 Fossil       r108  MONEY on old money ruin (7, 27), chips 3980, towers 4
+   m4518g1 Fossil       r113  MONEY on old money ruin (26, 22), chips 2860, towers 4
+   m4518g1 Fossil       r115  MONEY on old money ruin (19, 24), chips 1790, towers 4
+   m4518g1 Fossil       r122  MONEY on new ruin (12, 27), chips 1100, towers 4
+   m4518g1 Fossil       r130  MONEY on new ruin (4, 22), chips 960, towers 5
+   m4518g1 Fossil       r138  MONEY on new ruin (11, 21), chips 980, towers 6
+   m4518g1 Fossil       r169  MONEY on old money ruin (11, 21), chips 2960, towers 7
+   m4520g0 CastleDefens r39   MONEY on new ruin (2, 15), chips 1540, towers 2
+   m4542g2 walalilongla r98   MONEY on old money ruin (19, 25), chips 1170, towers 6
+   m4542g2 walalilongla r131  MONEY on old money ruin (10, 40), chips 2340, towers 6
+   m4542g2 walalilongla r141  MONEY on old money ruin (12, 4), chips 2070, towers 6
+   m4542g2 walalilongla r148  MONEY on new ruin (2, 32), chips 1390, towers 5
+   m4542g2 walalilongla r154  MONEY on old money ruin (17, 31), chips 950, towers 6
+   m4542g2 walalilongla r167  MONEY on old money ruin (19, 25), chips 1080, towers 7
+   m4542g2 walalilongla r178  MONEY on new ruin (2, 25), chips 1424, towers 8
+   m4542g2 walalilongla r191  MONEY on old money ruin (12, 4), chips 1934, towers 8
+   m4542g2 walalilongla r201  MONEY on old money ruin (12, 4), chips 2538, towers 8
+   m4542g2 walalilongla r201  MONEY on old money ruin (2, 32), chips 2538, towers 8
+   m4542g2 walalilongla r203  MONEY on old money ruin (2, 25), chips 906, towers 7
+   m4579g0 Crab         r215  MONEY on old money ruin (22, 5), chips 3004, towers 4
+   m4579g0 Crab         r217  MONEY on old money ruin (3, 26), chips 1915, towers 4
+   m4579g0 Crab         r252  MONEY on old paint ruin (3, 6), chips 3514, towers 4
+   m4579g0 Crab         r263  MONEY on old money ruin (3, 6), chips 2904, towers 3
+   m4579g0 Crab         r279  MONEY on old money ruin (3, 16), chips 2154, towers 2
+   m4579g0 Crab         r286  MONEY on old money ruin (3, 26), chips 1004, towers 2
+   m4579g0 Crab         r333  MONEY on old money ruin (3, 16), chips 2054, towers 2
+   m4579g0 Crab         r366  MONEY on old money ruin (3, 16), chips 1954, towers 1
+   m4579g0 Crab         r374  MONEY on old money ruin (3, 16), chips 1049, towers 2
+   m4579g1 lighthouse   r99   MONEY on new ruin (3, 2), chips 3190, towers 1
+   m4579g2 sayhi        r134  MONEY on new ruin (34, 44), chips 990, towers 4
+   m4579g2 sayhi        r145  MONEY on old money ruin (28, 32), chips 1070, towers 5
+   m4579g2 sayhi        r153  MONEY on new ruin (2, 33), chips 1010, towers 6
+   m4579g2 sayhi        r165  MONEY on old money ruin (26, 40), chips 1170, towers 7
+   m4579g2 sayhi        r189  MONEY on new ruin (37, 32), chips 1000, towers 7
+   m4579g2 sayhi        r195  MONEY on new ruin (2, 23), chips 940, towers 8
+   m4579g2 sayhi        r202  MONEY on old money ruin (37, 26), chips 1080, towers 8
+   m4579g2 sayhi        r227  MONEY on old money ruin (28, 47), chips 2910, towers 8
+   m4579g2 sayhi        r231  MONEY on old money ruin (33, 37), chips 2000, towers 8
+   m4579g2 sayhi        r243  MONEY on old money ruin (37, 32), chips 2170, towers 8
+   m4579g2 sayhi        r255  MONEY on old money ruin (2, 33), chips 2520, towers 8
+   m4579g2 sayhi        r270  MONEY on old money ruin (37, 26), chips 3370, towers 7
+   m4579g2 sayhi        r281  MONEY on old money ruin (37, 26), chips 3340, towers 5
+   m4579g2 sayhi        r285  MONEY on old money ruin (2, 33), chips 2250, towers 6
+   m4579g2 sayhi        r294  MONEY on old money ruin (33, 37), chips 1760, towers 6
+   m4579g2 sayhi        r362  MONEY on old money ruin (34, 44), chips 2020, towers 7
+   m4579g2 sayhi        r369  MONEY on old money ruin (33, 37), chips 1250, towers 4
+   totals: MONEY on new ruin: 40, MONEY on old money ruin: 126, MONEY on old paint ruin: 3

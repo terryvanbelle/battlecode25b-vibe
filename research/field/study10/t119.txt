@@ -1,0 +1,274 @@
+180 games in the main set (60 matches)
+match g ver  rk opponent                 map              res  end  how  cov% us/them   repeat of
+m3999 g0 t111  R  gone-whalin              Castle           L    590 MAJ   22.6/ 69.3   
+m3999 g1 t111  R  gone-whalin              MoneyTower       W    470 MAJ   70.2/  6.5   
+m3999 g2 t111  R  gone-whalin              Terminal         L    500 MAJ   16.6/ 70.1   
+m4001 g0 t111  R  gone-whalin              Brat             W    477 MAJ   70.6/ 15.5   
+m4001 g1 t111  R  gone-whalin              Filter           L    381 MAJ    3.6/ 70.4   
+m4001 g2 t111  R  gone-whalin              UglySweater      W    393 MAJ   70.2/ 10.2   
+m4002 g0 t111  u  scienceqiu               Snowman          L    233 ALL    1.3/ 59.0   
+m4002 g1 t111  u  scienceqiu               headphones       W    431 MAJ   70.2/  6.6   
+m4002 g2 t111  u  scienceqiu               sayhi            W    371 MAJ   70.0/ 16.0   
+m4003 g0 t111  R  immutable                Oasis            L    365 MAJ   23.2/ 69.8   
+m4003 g1 t111  R  immutable                Restart          L    392 MAJ    9.0/ 70.2   
+m4003 g2 t111  R  immutable                TheBest          W    466 MAJ   70.1/ 21.2   
+m4004 g0 t111  u  varunvejalla             DefaultLarge     L    335 MAJ   12.0/ 70.0   
+m4004 g1 t111  u  varunvejalla             Flower           W    558 MAJ   70.2/ 21.4   
+m4004 g2 t111  u  varunvejalla             starburst        L    376 ALL    9.8/ 68.1   
+m4005 g0 t111  R  lobster-roll             catface          W    209 MAJ   70.2/ 10.4   
+m4005 g1 t111  R  lobster-roll             sierpinski       L    634 MAJ   12.3/ 70.4   
+m4005 g2 t111  R  lobster-roll             walalilongla     L    466 MAJ    9.3/ 70.1   
+m4006 g0 t111  u  angtn                    Bunny            L    454 MAJ   17.0/ 70.3   
+m4006 g1 t111  u  angtn                    box              W    237 MAJ   70.1/ 16.0   
+m4006 g2 t111  u  angtn                    shell            W    405 MAJ   70.1/  9.8   
+m4055 g0 t111  R  scienceqiu               DefaultLarge     L    377 MAJ   18.8/ 70.0   
+m4055 g1 t111  R  scienceqiu               Restart          L    372 ALL    9.8/ 57.8   
+m4055 g2 t111  R  scienceqiu               fix              W    487 MAJ   70.2/ 12.4   
+m4056 g0 t111  u  slifland                 DonkeyKong       L    439 MAJ   26.2/ 70.1   
+m4056 g1 t111  u  slifland                 Justice          L    465 MAJ    9.8/ 71.2   
+m4056 g2 t111  u  slifland                 shell            W    515 MAJ   70.4/ 14.8   
+m4057 g0 t111  R  subscribe-to-caterpillow Portal           W    374 MAJ   70.8/ 19.8   
+m4057 g1 t111  R  subscribe-to-caterpillow Restart          W    425 MAJ   70.1/ 21.2   
+m4057 g2 t111  R  subscribe-to-caterpillow fix              L    369 ALL    3.7/ 63.2   
+m4058 g0 t111  u  placeholder-name-2       Dominoes         W    643 MAJ   70.0/ 17.7   
+m4058 g1 t111  u  placeholder-name-2       boxofchocolates  W    528 MAJ   70.2/ 10.7   
+m4058 g2 t111  u  placeholder-name-2       windmill         W    422 MAJ   70.1/ 15.1   
+m4099 g0 t111  R  lobster-roll             SandyBeach       W    270 MAJ   70.1/ 17.0   
+m4099 g1 t111  R  lobster-roll             memstore         W    450 MAJ   69.9/  7.5   
+m4099 g2 t111  R  lobster-roll             roads            L    487 MAJ   18.2/ 70.3   
+m4127 g0 t111  R  gone-whalin              BunnyGame        L    261 ALL    2.1/ 57.1   
+m4127 g1 t111  R  gone-whalin              galaxy           L    765 MAJ    9.5/ 70.3   
+m4127 g2 t111  R  gone-whalin              windmill         L    513 MAJ   17.1/ 70.4   
+m4150 g0 t111  R  lobster-roll             BatSignal        L    541 MAJ    6.6/ 70.0   
+m4150 g1 t111  R  lobster-roll             DefaultSmall     L    211 ALL    3.0/ 68.8   
+m4150 g2 t111  R  lobster-roll             Justice          W    545 MAJ   71.7/ 13.1   
+m4151 g0 t111  u  placeholder-name-2       AlarmClock       W    269 MAJ   70.3/ 18.0   
+m4151 g1 t111  u  placeholder-name-2       FourCorners      L    158 ALL    7.6/ 61.8   
+m4151 g2 t111  u  placeholder-name-2       giver            W    327 MAJ   70.4/  8.4   
+m4152 g0 t111  R  gone-whalin              Filter           L    381 MAJ    3.6/ 70.4   m4001g1
+m4152 g1 t111  R  gone-whalin              SaltyPepper      L    343 MAJ    5.8/ 70.0   
+m4152 g2 t111  R  gone-whalin              headphones       W    512 MAJ   70.0/ 17.6   
+m4153 g0 t111  u  slifland                 Fossil           W    239 MAJ   70.2/ 17.6   
+m4153 g1 t111  u  slifland                 Snowglobe        W    316 MAJ   69.7/ 16.0   
+m4153 g2 t111  u  slifland                 sierpinski       W    328 MAJ   70.0/ 13.4   
+m4154 g0 t111  R  scienceqiu               Filter           L    131 ALL   11.9/ 52.7   
+m4154 g1 t111  R  scienceqiu               Parking_lot      W    404 MAJ   70.2/ 20.0   
+m4154 g2 t111  R  scienceqiu               giver            L    438 MAJ   17.0/ 70.4   
+m4155 g0 t111  u  podemice                 FourCorners      W    407 MAJ   70.1/ 16.4   
+m4155 g1 t111  u  podemice                 catface          W    313 MAJ   70.3/ 21.0   
+m4155 g2 t111  u  podemice                 fix              W    408 MAJ   70.0/  8.5   
+m4160 g0 t111  R  varunvejalla             Restart          L    844 MAJ   21.7/ 70.0   
+m4160 g1 t111  R  varunvejalla             galaxy           W    316 MAJ   70.6/  6.8   
+m4160 g2 t111  R  varunvejalla             yearofthesnake   W    346 MAJ   69.6/ 19.6   
+m4222 g0 t111  R  spaark                   DefaultHuge      L    455 MAJ   14.3/ 70.2   
+m4222 g1 t111  R  spaark                   quack            L    397 MAJ   15.9/ 69.8   
+m4222 g2 t111  R  spaark                   sayhi            W    323 MAJ   70.7/ 14.1   
+m4223 g0 t111  u  placeholder-name-2       Castle           W    329 MAJ   70.6/ 23.9   
+m4223 g1 t111  u  placeholder-name-2       Piglets2         L    359 MAJ    9.6/ 70.0   
+m4223 g2 t111  u  placeholder-name-2       roads            W    325 MAJ   70.3/ 23.9   
+m4224 g0 t111  R  lobster-roll             DefaultHuge      W    427 MAJ   70.1/ 21.6   
+m4224 g1 t111  R  lobster-roll             Racetrack        L    637 MAJ   16.2/ 71.3   
+m4224 g2 t111  R  lobster-roll             gardenworld      W    719 MAJ   70.2/ 22.3   
+m4225 g0 t111  u  varunvejalla             Dominoes         W    351 MAJ   70.0/  6.3   
+m4225 g1 t111  u  varunvejalla             Restart          L    546 MAJ   23.5/ 69.9   
+m4225 g2 t111  u  varunvejalla             sayhi            W    268 MAJ   70.1/  5.4   
+m4226 g0 t111  R  scienceqiu               Oasis            L    474 MAJ   21.1/ 70.2   
+m4226 g1 t111  R  scienceqiu               Thirds           W    436 MAJ   70.1/ 10.9   
+m4226 g2 t111  R  scienceqiu               shell            W    434 MAJ   70.1/ 12.3   
+m4227 g0 t111  u  podemice                 DonkeyKong       W    360 MAJ   70.0/ 10.9   
+m4227 g1 t111  u  podemice                 Leaf             W    337 MAJ   70.2/ 19.3   
+m4227 g2 t111  u  podemice                 Oasis            L    585 MAJ   27.4/ 70.0   
+m4250 g0 t111  R  spaark                   Brat             W    262 MAJ   70.3/  8.7   
+m4250 g1 t111  R  spaark                   SMILE            L    417 MAJ   11.8/ 70.1   
+m4250 g2 t111  R  spaark                   defensetower     W    369 MAJ   70.1/  2.9   
+m4251 g0 t111  u  lobster-roll             AlarmClock       L    680 MAJ   18.8/ 70.5   
+m4251 g1 t111  u  lobster-roll             Restart          W    328 MAJ   70.8/  9.4   
+m4251 g2 t111  u  lobster-roll             sayhi            W    421 MAJ   70.0/ 13.7   
+m4286 g0 t111  R  spaark                   DefaultLarge     L    348 MAJ    6.2/ 70.3   
+m4286 g1 t111  R  spaark                   TargetPractice   L    353 MAJ   17.6/ 70.5   
+m4286 g2 t111  R  spaark                   UglySweater      W    365 MAJ   70.1/  5.4   
+m4287 g0 t111  u  lobster-roll             Portal           L    607 MAJ   19.7/ 70.5   
+m4287 g1 t111  u  lobster-roll             Rose             W    308 MAJ   70.4/  6.5   
+m4287 g2 t111  u  lobster-roll             maze             W   2000 ARE   54.7/ 42.8   
+m4288 g0 t111  R  scienceqiu               BatSignal        W    401 MAJ   70.2/ 10.7   
+m4288 g1 t111  R  scienceqiu               Money            W    542 MAJ   70.3/ 21.4   
+m4288 g2 t111  R  scienceqiu               fix              W    487 MAJ   70.2/ 12.4   m4055g2
+m4289 g0 t111  u  varunvejalla             Bunny            W    287 MAJ   70.2/  5.5   
+m4289 g1 t111  u  varunvejalla             DonkeyKong       L    708 MAJ   20.8/ 69.8   
+m4289 g2 t111  u  varunvejalla             MoneyTower       W    346 MAJ   70.1/  5.0   
+m4309 g0 t111  R  spaark                   Castle           L    273 MAJ   12.1/ 70.1   m3773g1
+m4309 g1 t111  R  spaark                   DefaultLarge     L    326 ALL    1.8/ 65.5   
+m4309 g2 t111  R  spaark                   MoneyTower       W    337 MAJ   70.1/  6.6   
+m4325 g0 t111  R  varunvejalla             Dominoes         W    351 MAJ   70.0/  6.3   m4225g0
+m4325 g1 t111  R  varunvejalla             Flower           W    558 MAJ   70.2/ 21.4   m4004g1
+m4325 g2 t111  R  varunvejalla             Portal           W    327 MAJ   70.1/  9.3   
+m4331 g0 t111  R  scienceqiu               Fossil           W    368 MAJ   70.7/ 16.2   
+m4331 g1 t111  R  scienceqiu               SaltyPepper      W    349 MAJ   70.2/ 12.1   
+m4331 g2 t111  R  scienceqiu               maze             W   2000 ARE   51.5/ 43.4   
+m4366 g0 t111  R  immutable                Circuit          W    285 MAJ   70.9/ 22.4   
+m4366 g1 t111  R  immutable                gridworld        L    300 MAJ   16.5/ 70.1   
+m4366 g2 t111  R  immutable                walalilongla     W    379 MAJ   70.1/ 20.6   
+m4367 g0 t111  u  gone-whalin              AlarmClock       W    351 MAJ   71.1/ 19.9   
+m4367 g1 t111  u  gone-whalin              Flower           W    346 MAJ   70.8/ 12.0   
+m4367 g2 t111  u  gone-whalin              Racetrack        L    317 MAJ   10.5/ 71.0   
+m4368 g0 t111  R  subscribe-to-caterpillow catface          W    344 MAJ   70.5/  4.5   
+m4368 g1 t111  R  subscribe-to-caterpillow galaxy           W    445 MAJ   70.7/ 18.6   
+m4368 g2 t111  R  subscribe-to-caterpillow rain             L    405 ALL   12.8/ 60.2   
+m4369 g0 t111  u  spaark                   Paintball        L    227 ALL   14.4/ 68.1   
+m4369 g1 t111  u  spaark                   UnderTheSea      L    336 MAJ   15.7/ 70.8   
+m4369 g2 t111  u  spaark                   mit              W    407 MAJ   70.0/ 11.6   
+m4370 g0 t111  R  om-nom                   Brat             L    196 ALL   28.2/ 39.0   
+m4370 g1 t111  R  om-nom                   PlumberGame      W    438 MAJ   70.1/ 18.8   
+m4370 g2 t111  R  om-nom                   walalilongla     L    690 MAJ   10.1/ 70.2   
+m4371 g0 t111  u  scienceqiu               AlarmClock       W    313 MAJ   70.4/ 15.3   
+m4371 g1 t111  u  scienceqiu               DefaultHuge      L    338 MAJ   10.4/ 70.3   
+m4371 g2 t111  u  scienceqiu               FourCorners      L    281 MAJ    4.1/ 70.1   
+m4393 g0 t111  R  spaark                   Crab             L    361 MAJ   10.4/ 70.2   
+m4393 g1 t111  R  spaark                   MoneyTower       W    355 MAJ   70.2/  9.2   
+m4393 g2 t111  R  spaark                   catface          W    589 MAJ   70.2/  4.6   
+m4440 g0 t118  R  immutable                Paintball        W    346 MAJ   70.1/ 20.6   
+m4440 g1 t118  R  immutable                TargetPractice   W    330 MAJ   70.6/ 14.0   
+m4440 g2 t118  R  immutable                headphones       W    451 MAJ   70.2/ 15.1   
+m4441 g0 t118  u  gone-whalin              Bread            L    601 MAJ    9.6/ 71.0   
+m4441 g1 t118  u  gone-whalin              Castle           L    382 MAJ   18.4/ 70.1   
+m4441 g2 t118  u  gone-whalin              rain             W    335 MAJ   71.2/ 14.3   
+m4442 g0 t118  R  subscribe-to-caterpillow Justice          W    196 ALL   61.7/ 29.1   
+m4442 g1 t118  R  subscribe-to-caterpillow giver            W    364 MAJ   70.2/ 20.0   
+m4442 g2 t118  R  subscribe-to-caterpillow maze             W    607 MAJ   69.8/ 16.7   
+m4443 g0 t118  u  spaark                   Circuit          W    251 MAJ   70.1/ 13.6   
+m4443 g1 t118  u  spaark                   Terminal         L    402 ALL   12.1/ 59.1   
+m4443 g2 t118  u  spaark                   sierpinski       L    634 MAJ    8.2/ 70.4   
+m4448 g0 t118  R  spaark                   HungerGames      W    307 MAJ   70.4/ 12.4   
+m4448 g1 t118  R  spaark                   Portal           W    343 MAJ   70.1/  7.6   
+m4448 g2 t118  R  spaark                   Snowglobe        L    585 MAJ   10.4/ 70.0   
+m4471 g0 t118  R  spaark                   HungerGames      W    397 MAJ   69.7/ 17.2   
+m4471 g1 t118  R  spaark                   Money            L    403 MAJ    8.3/ 70.5   
+m4471 g2 t118  R  spaark                   headphones       L    617 MAJ   10.0/ 70.1   
+m4515 g0 t118  R  om-nom                   Bunny            L    273 ALL    3.9/ 57.2   
+m4515 g1 t118  R  om-nom                   DefaultMedium    L    259 ALL   12.0/ 40.5   
+m4515 g2 t118  R  om-nom                   roads            W    260 MAJ   70.0/ 13.6   
+m4516 g0 t118  u  subscribe-to-caterpillow Piglets2         W    554 MAJ   70.0/ 17.2   
+m4516 g1 t118  u  subscribe-to-caterpillow gardenworld      L    433 MAJ   17.9/ 70.2   
+m4516 g2 t118  u  subscribe-to-caterpillow walalilongla     W    473 MAJ   70.3/ 21.5   
+m4517 g0 t118  R  just-woke-up             Crab             L    341 MAJ   27.5/ 70.4   
+m4517 g1 t118  R  just-woke-up             Filter           L    210 MAJ    8.6/ 70.2   
+m4517 g2 t118  R  just-woke-up             leavemealone     W    293 MAJ   70.0/ 20.8   
+m4518 g0 t118  u  gone-whalin              Circuit          W    263 MAJ   70.3/  7.9   
+m4518 g1 t118  u  gone-whalin              Fossil           L    316 MAJ   12.3/ 70.2   
+m4518 g2 t118  u  gone-whalin              Parking_lot      W   1323 MAJ   69.9/ 26.6   
+m4519 g0 t118  R  confused                 Bread            L    345 MAJ    6.8/ 70.0   
+m4519 g1 t118  R  confused                 Jail             L     85 ALL   12.6/ 31.5   
+m4519 g2 t118  R  confused                 Portal           W    221 MAJ   70.2/  4.8   
+m4520 g0 t118  u  spaark                   CastleDefense    L    299 MAJ    4.1/ 70.3   
+m4520 g1 t118  u  spaark                   UglySweater      W    671 MAJ   70.2/ 20.1   
+m4520 g2 t118  u  spaark                   shell            W    467 MAJ   70.0/ 16.7   
+m4523 g0 t118  R  subscribe-to-caterpillow DefaultMedium    W    376 MAJ   70.5/ 13.9   
+m4523 g1 t118  R  subscribe-to-caterpillow roads            W    321 MAJ   70.0/ 20.5   
+m4523 g2 t118  R  subscribe-to-caterpillow shell            L    491 MAJ    8.8/ 70.2   
+m4542 g0 t118  R  spaark                   SandyBeach       L    522 MAJ   19.2/ 70.8   
+m4542 g1 t118  R  spaark                   sayhi            W    290 MAJ   70.1/ 10.7   
+m4542 g2 t118  R  spaark                   walalilongla     L    401 MAJ    5.6/ 70.3   
+m4569 g0 t118  R  subscribe-to-caterpillow Bread            W    491 MAJ   70.7/ 13.9   
+m4569 g1 t118  R  subscribe-to-caterpillow gridworld        W    429 MAJ   70.1/ 16.6   
+m4569 g2 t118  R  subscribe-to-caterpillow sunrise          L    277 MAJ    6.5/ 70.6   
+m4579 g0 t118  R  confused                 Crab             L    417 MAJ   19.4/ 70.2   
+m4579 g1 t118  R  confused                 lighthouse       L    254 ALL   15.1/ 53.8   
+m4579 g2 t118  R  confused                 sayhi            L    417 MAJ   10.8/ 70.1   
+m4594 g0 t118  R  om-nom                   Jail             L    119 ALL   13.7/ 33.5   
+m4594 g1 t118  R  om-nom                   defensetower     W    308 MAJ   70.4/  3.9   
+m4594 g2 t118  R  om-nom                   windmill         W    347 MAJ   71.5/  9.2   
+m4602 g0 t118  R  immutable                DefaultLarge     W    272 MAJ   70.1/ 22.7   
+m4602 g1 t118  R  immutable                Money            W    424 MAJ   70.0/ 25.9   
+m4602 g2 t118  R  immutable                defensetower     W    400 MAJ   70.7/  3.8   
+
+exact repeats (5): m4152g0 = m4001g1, m4288g2 = m4055g2, m4309g0 = m3773g1, m4325g0 = m4225g0, m4325g1 = m4004g1
+DUP set for lib.py: {(4152, 0), (4288, 2), (4309, 0), (4325, 0), (4325, 1)}
+
+per match (repeats left out): won-lost
+m3999 t111  R gone-whalin              1-2
+m4001 t111  R gone-whalin              2-1
+m4002 t111  u scienceqiu               2-1
+m4003 t111  R immutable                1-2
+m4004 t111  u varunvejalla             1-2
+m4005 t111  R lobster-roll             1-2
+m4006 t111  u angtn                    2-1
+m4055 t111  R scienceqiu               1-2
+m4056 t111  u slifland                 1-2
+m4057 t111  R subscribe-to-caterpillow 2-1
+m4058 t111  u placeholder-name-2       3-0
+m4099 t111  R lobster-roll             2-1
+m4127 t111  R gone-whalin              0-3
+m4150 t111  R lobster-roll             1-2
+m4151 t111  u placeholder-name-2       2-1
+m4152 t111  R gone-whalin              1-1
+m4153 t111  u slifland                 3-0
+m4154 t111  R scienceqiu               1-2
+m4155 t111  u podemice                 3-0
+m4160 t111  R varunvejalla             2-1
+m4222 t111  R spaark                   1-2
+m4223 t111  u placeholder-name-2       2-1
+m4224 t111  R lobster-roll             2-1
+m4225 t111  u varunvejalla             2-1
+m4226 t111  R scienceqiu               2-1
+m4227 t111  u podemice                 2-1
+m4250 t111  R spaark                   2-1
+m4251 t111  u lobster-roll             2-1
+m4286 t111  R spaark                   1-2
+m4287 t111  u lobster-roll             2-1
+m4288 t111  R scienceqiu               2-0
+m4289 t111  u varunvejalla             2-1
+m4309 t111  R spaark                   1-1
+m4325 t111  R varunvejalla             1-0
+m4331 t111  R scienceqiu               3-0
+m4366 t111  R immutable                2-1
+m4367 t111  u gone-whalin              2-1
+m4368 t111  R subscribe-to-caterpillow 2-1
+m4369 t111  u spaark                   1-2
+m4370 t111  R om-nom                   1-2
+m4371 t111  u scienceqiu               1-2
+m4393 t111  R spaark                   2-1
+m4440 t118  R immutable                3-0
+m4441 t118  u gone-whalin              1-2
+m4442 t118  R subscribe-to-caterpillow 3-0
+m4443 t118  u spaark                   1-2
+m4448 t118  R spaark                   2-1
+m4471 t118  R spaark                   1-2
+m4515 t118  R om-nom                   1-2
+m4516 t118  u subscribe-to-caterpillow 2-1
+m4517 t118  R just-woke-up             1-2
+m4518 t118  u gone-whalin              2-1
+m4519 t118  R confused                 1-2
+m4520 t118  u spaark                   2-1
+m4523 t118  R subscribe-to-caterpillow 2-1
+m4542 t118  R spaark                   1-2
+m4569 t118  R subscribe-to-caterpillow 2-1
+m4579 t118  R confused                 0-3
+m4594 t118  R om-nom                   2-1
+m4602 t118  R immutable                3-0
+t111  top : 34-32 (52%)
+t111  rest: 36-19 (65%)
+t111  all : 70-51 (58%)
+t118  top : 30-24 (56%)
+t118  rest: 0-0
+t118  all : 30-24 (56%)
+all   top : 64-56 (53%)
+all   rest: 36-19 (65%)
+all   all : 100-75 (57%)
+ranked: 59-50
+unranked: 41-25
+
+per opponent (repeats left out), t111 | t118:
+   angtn                       2-1 |    -  
+   confused                    -   |    1-5
+   gone-whalin                 6-8 |    3-3
+   immutable                   3-3 |    6-0
+   just-woke-up                -   |    1-2
+   lobster-roll               10-8 |    -  
+   om-nom                      1-2 |    3-3
+   placeholder-name-2          7-2 |    -  
+   podemice                    5-1 |    -  
+   scienceqiu                 12-8 |    -  
+   slifland                    4-2 |    -  
+   spaark                      8-9 |    7-8
+   subscribe-to-caterpillow    4-2 |    9-3
+   varunvejalla                8-5 |    -  

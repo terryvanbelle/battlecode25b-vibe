@@ -1,0 +1,32 @@
+
+== LOST games: 75; towers built after r0, by the builder's front band (f = share of the way to the enemy start)
+   us: 1185 towers; median f: paint 0.4, money 0.4, defense -
+      deep <0.35      n  546  paint share   12%  | PAINT   63 killed  52% life 144 | MONEY  483 killed  53% life 68 
+      own 0.35-0.5    n  440  paint share   13%  | PAINT   57 killed  61% life 141 | MONEY  383 killed  48% life 60 
+      their 0.5-0.65  n  145  paint share   23%  | PAINT   34 killed  74% life 115.0 | MONEY  111 killed  49% life 72 
+      far >0.65       n   54  paint share   28%  | PAINT   15 killed  67% life 172 | MONEY   39 killed  31% life 45 
+      PAINT by d2 to the nearest enemy tower at build: 0-50: n 18 killed 89%; 51-150: n 41 killed 90%; 151-400: n 42 killed 62%; 401-+: n 68 killed 35%; 
+      MONEY by d2 to the nearest enemy tower at build: 0-50: n 45 killed 78%; 51-150: n 265 killed 59%; 151-400: n 454 killed 50%; 401-+: n 252 killed 35%; 
+   them: 1849 towers; median f: paint 0.4, money 0.4, defense 0.5
+      deep <0.35      n  573  paint share   13%  | PAINT   77 killed  12% life 203 | MONEY  476 killed  20% life 82.0 | DEFEN   20 killed   0% life 56.5 
+      own 0.35-0.5    n  564  paint share   21%  | PAINT  121 killed  39% life 119 | MONEY  416 killed  22% life 66.0 | DEFEN   27 killed   0% life 57 
+      their 0.5-0.65  n  427  paint share   23%  | PAINT   99 killed  27% life 69 | MONEY  294 killed  13% life 46.0 | DEFEN   34 killed   3% life 70.5 
+      far >0.65       n  285  paint share   17%  | PAINT   49 killed   8% life 29 | MONEY  228 killed  14% life 35.0 | DEFEN    8 killed   0% life 42.5 
+      PAINT by d2 to the nearest enemy tower at build: 0-50: n 42 killed 33%; 51-150: n 114 killed 35%; 151-400: n 109 killed 26%; 401-+: n 75 killed 7%; 
+      MONEY by d2 to the nearest enemy tower at build: 0-50: n 93 killed 29%; 51-150: n 413 killed 27%; 151-400: n 486 killed 19%; 401-+: n 403 killed 8%; 
+
+== WON games: 100; towers built after r0, by the builder's front band (f = share of the way to the enemy start)
+   us: 2576 towers; median f: paint 0.5, money 0.4, defense -
+      deep <0.35      n  887  paint share   13%  | PAINT  114 killed  13% life 116.0 | MONEY  773 killed  16% life 67 
+      own 0.35-0.5    n  930  paint share   23%  | PAINT  212 killed  31% life 97.0 | MONEY  718 killed  21% life 60.0 
+      their 0.5-0.65  n  647  paint share   36%  | PAINT  236 killed  15% life 83.0 | MONEY  411 killed  20% life 50 
+      far >0.65       n  112  paint share   49%  | PAINT   55 killed   2% life 42 | MONEY   57 killed  16% life 40 
+      PAINT by d2 to the nearest enemy tower at build: 0-50: n 44 killed 34%; 51-150: n 149 killed 25%; 151-400: n 198 killed 28%; 401-+: n 215 killed 5%; 
+      MONEY by d2 to the nearest enemy tower at build: 0-50: n 72 killed 62%; 51-150: n 440 killed 29%; 151-400: n 743 killed 18%; 401-+: n 684 killed 9%; 
+   them: 1203 towers; median f: paint 0.4, money 0.4, defense 0.4
+      deep <0.35      n  485  paint share   18%  | PAINT   85 killed  64% life 124 | MONEY  390 killed  49% life 100.5 | DEFEN   10 killed  50% life 131.0 
+      own 0.35-0.5    n  378  paint share   27%  | PAINT  102 killed  64% life 136.5 | MONEY  259 killed  65% life 69 | DEFEN   17 killed  47% life 85 
+      their 0.5-0.65  n  315  paint share   14%  | PAINT   45 killed  87% life 65 | MONEY  262 killed  35% life 52.0 | DEFEN    8 killed  50% life 182.0 
+      far >0.65       n   25  paint share    8%  | PAINT    2 killed  50% life 193.0 | MONEY   23 killed  39% life 83 
+      PAINT by d2 to the nearest enemy tower at build: 0-50: n 21 killed 90%; 51-150: n 69 killed 86%; 151-400: n 84 killed 75%; 401-+: n 60 killed 30%; 
+      MONEY by d2 to the nearest enemy tower at build: 0-50: n 54 killed 91%; 51-150: n 195 killed 67%; 151-400: n 442 killed 48%; 401-+: n 243 killed 29%; 

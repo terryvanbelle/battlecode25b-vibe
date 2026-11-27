@@ -1,0 +1,93 @@
+
+== LOST games: 51 games
+   us: 699 attempts; r1-100 355; r101-250 177; r251+ 167
+      r1-100    n  355: completed  47%, taken by the other side   2%, abandoned  51% (of those blocked by enemy paint  54%, median enemy tiles 2.0, own tiles 23); paint spent on abandoned 19140; abandoned but built by the side later 93; paint spent after the first enemy tile, blocked abandoned 7710
+      r101-250  n  177: completed  41%, taken by the other side  14%, abandoned  45% (of those blocked by enemy paint  76%, median enemy tiles 7, own tiles 16.0); paint spent on abandoned 7855; abandoned but built by the side later 20; paint spent after the first enemy tile, blocked abandoned 5750
+      r251+     n  167: completed  35%, taken by the other side  18%, abandoned  47% (of those blocked by enemy paint  92%, median enemy tiles 9.5, own tiles 12.5); paint spent on abandoned 7020; abandoned but built by the side later 11; paint spent after the first enemy tile, blocked abandoned 6290
+      all       n  699: completed  43%, taken by the other side   9%, abandoned  48% (of those blocked by enemy paint  68%, median enemy tiles 4, own tiles 20); paint spent on abandoned 34015; abandoned but built by the side later 124; paint spent after the first enemy tile, blocked abandoned 19750
+      enemy tiles in the blocked 5x5s, by the type that painted them: {'map': 123, 'SPLASHER': 806, 'SOLDIER': 652}
+      attempts that met an enemy tile in the 5x5 (332, 47% of all): completed 11% of 332; with an own splasher in view after the first enemy tile 16% of 115, a mopper 23% of 157, neither 1% of 149
+      blocked abandoned attempts (231): an own splasher in view of the ruin after the first enemy tile 71 (31%), an own mopper 79 (34%); median attempt length 30 rounds, splasher-rounds in view 0
+      enemy tiles cleared inside free ruins: {'MOPPER': 3072, 'SPLASHER': 4886}
+   them: 964 attempts; r1-100 304; r101-250 308; r251+ 352
+      r1-100    n  304: completed  65%, taken by the other side   0%, abandoned  34% (of those blocked by enemy paint  37%, median enemy tiles 3.5, own tiles 23.0); paint spent on abandoned 10715; abandoned but built by the side later 92; paint spent after the first enemy tile, blocked abandoned 2235
+      r101-250  n  308: completed  70%, taken by the other side   1%, abandoned  29% (of those blocked by enemy paint  59%, median enemy tiles 6, own tiles 19.0); paint spent on abandoned 8880; abandoned but built by the side later 58; paint spent after the first enemy tile, blocked abandoned 4595
+      r251+     n  352: completed  70%, taken by the other side   1%, abandoned  29% (of those blocked by enemy paint  58%, median enemy tiles 5.0, own tiles 20); paint spent on abandoned 10510; abandoned but built by the side later 30; paint spent after the first enemy tile, blocked abandoned 6710
+      all       n  964: completed  68%, taken by the other side   1%, abandoned  31% (of those blocked by enemy paint  51%, median enemy tiles 5, own tiles 20); paint spent on abandoned 30105; abandoned but built by the side later 180; paint spent after the first enemy tile, blocked abandoned 13540
+      enemy tiles in the blocked 5x5s, by the type that painted them: {'SOLDIER': 469, 'SPLASHER': 307, 'map': 117}
+      attempts that met an enemy tile in the 5x5 (439, 46% of all): completed 53% of 439; with an own splasher in view after the first enemy tile 60% of 295, a mopper 58% of 401, neither 0% of 30
+      blocked abandoned attempts (151): an own splasher in view of the ruin after the first enemy tile 71 (47%), an own mopper 118 (78%); median attempt length 38 rounds, splasher-rounds in view 0
+      enemy tiles cleared inside free ruins: {'MOPPER': 9376, 'SPLASHER': 6620}
+
+== WON games: 70 games
+   us: 1304 attempts; r1-100 503; r101-250 406; r251+ 395
+      r1-100    n  503: completed  55%, taken by the other side   0%, abandoned  45% (of those blocked by enemy paint  55%, median enemy tiles 4, own tiles 23); paint spent on abandoned 24360; abandoned but built by the side later 176; paint spent after the first enemy tile, blocked abandoned 10640
+      r101-250  n  406: completed  61%, taken by the other side   1%, abandoned  38% (of those blocked by enemy paint  71%, median enemy tiles 5, own tiles 16.5); paint spent on abandoned 13550; abandoned but built by the side later 79; paint spent after the first enemy tile, blocked abandoned 8635
+      r251+     n  395: completed  58%, taken by the other side   0%, abandoned  42% (of those blocked by enemy paint  68%, median enemy tiles 4.0, own tiles 21); paint spent on abandoned 14975; abandoned but built by the side later 31; paint spent after the first enemy tile, blocked abandoned 9270
+      all       n 1304: completed  58%, taken by the other side   1%, abandoned  42% (of those blocked by enemy paint  63%, median enemy tiles 4.0, own tiles 21.0); paint spent on abandoned 52885; abandoned but built by the side later 286; paint spent after the first enemy tile, blocked abandoned 28545
+      enemy tiles in the blocked 5x5s, by the type that painted them: {'map': 290, 'SOLDIER': 1115, 'SPLASHER': 583}
+      attempts that met an enemy tile in the 5x5 (607, 47% of all): completed 34% of 607; with an own splasher in view after the first enemy tile 44% of 305, a mopper 51% of 390, neither 0% of 167
+      blocked abandoned attempts (344): an own splasher in view of the ruin after the first enemy tile 129 (38%), an own mopper 138 (40%); median attempt length 30.5 rounds, splasher-rounds in view 0.0
+      enemy tiles cleared inside free ruins: {'MOPPER': 6292, 'SPLASHER': 9609}
+   them: 796 attempts; r1-100 396; r101-250 215; r251+ 185
+      r1-100    n  396: completed  54%, taken by the other side   1%, abandoned  46% (of those blocked by enemy paint  48%, median enemy tiles 4, own tiles 19); paint spent on abandoned 16490; abandoned but built by the side later 86; paint spent after the first enemy tile, blocked abandoned 4665
+      r101-250  n  215: completed  61%, taken by the other side  10%, abandoned  29% (of those blocked by enemy paint  60%, median enemy tiles 10.0, own tiles 15); paint spent on abandoned 5500; abandoned but built by the side later 20; paint spent after the first enemy tile, blocked abandoned 3110
+      r251+     n  185: completed  57%, taken by the other side   6%, abandoned  36% (of those blocked by enemy paint  82%, median enemy tiles 10, own tiles 15); paint spent on abandoned 7455; abandoned but built by the side later 12; paint spent after the first enemy tile, blocked abandoned 6585
+      all       n  796: completed  57%, taken by the other side   4%, abandoned  39% (of those blocked by enemy paint  58%, median enemy tiles 6.0, own tiles 18); paint spent on abandoned 29445; abandoned but built by the side later 118; paint spent after the first enemy tile, blocked abandoned 14360
+      enemy tiles in the blocked 5x5s, by the type that painted them: {'SOLDIER': 634, 'SPLASHER': 645, 'map': 132}
+      attempts that met an enemy tile in the 5x5 (316, 40% of all): completed 30% of 316; with an own splasher in view after the first enemy tile 35% of 143, a mopper 40% of 230, neither 0% of 79
+      blocked abandoned attempts (180): an own splasher in view of the ruin after the first enemy tile 68 (38%), an own mopper 103 (57%); median attempt length 38.5 rounds, splasher-rounds in view 0.0
+      enemy tiles cleared inside free ruins: {'MOPPER': 7757, 'SPLASHER': 6215}
+
+per lost game: our attempts / completed / abandoned-blocked / met an enemy tile / paint after the first enemy tile (blocked abandoned) | their attempts / completed
+   m3999g0 t111  gone-whalin  Castle         MAJ590   us  12 /   4 /   6 /   8 /   760 | them  12 /   9
+   m3999g2 t111  gone-whalin  Terminal       MAJ500   us  13 /   4 /   5 /   9 /   355 | them  11 /  10
+   m4001g1 t111  gone-whalin  Filter         MAJ381   us   6 /   2 /   3 /   4 /   235 | them   8 /   6
+   m4002g0 t111  scienceqiu   Snowman        ALL233   us   4 /   1 /   2 /   2 /   105 | them   5 /   4
+   m4003g0 t111  immutable    Oasis          MAJ365   us  11 /   6 /   1 /   1 /    55 | them  17 /  11
+   m4003g1 t111  immutable    Restart        MAJ392   us   7 /   3 /   2 /   2 /   180 | them  29 /  21
+   m4004g0 t111  varunvejalla DefaultLarge   MAJ335   us  10 /   4 /   5 /   5 /   340 | them  19 /  13
+   m4004g2 t111  varunvejalla starburst      ALL376   us   7 /   2 /   2 /   2 /   115 | them   7 /   5
+   m4005g1 t111  lobster-roll sierpinski     MAJ634   us  11 /   6 /   2 /   4 /   220 | them  17 /  11
+   m4005g2 t111  lobster-roll walalilongla   MAJ466   us  14 /   6 /   4 /   6 /   385 | them  22 /  16
+   m4006g0 t111  angtn        Bunny          MAJ454   us  12 /   5 /   7 /   7 /   560 | them  10 /   9
+   m4055g0 t111  scienceqiu   DefaultLarge   MAJ377   us  17 /   7 /   7 /  10 /   470 | them  22 /  13
+   m4055g1 t111  scienceqiu   Restart        ALL372   us   8 /   3 /   3 /   3 /   200 | them  20 /  14
+   m4056g0 t111  slifland     DonkeyKong     MAJ439   us  37 /  17 /  11 /  17 /  1410 | them  35 /  25
+   m4056g1 t111  slifland     Justice        MAJ465   us   6 /   2 /   1 /   2 /    60 | them  12 /   7
+   m4057g2 t111  subscribe-to fix            ALL369   us  19 /   6 /   7 /  12 /   565 | them  22 /  14
+   m4099g2 t111  lobster-roll roads          MAJ487   us   7 /   3 /   1 /   1 /    50 | them  10 /   8
+   m4127g0 t111  gone-whalin  BunnyGame      ALL261   us   4 /   1 /   2 /   2 /   180 | them  12 /  10
+   m4127g1 t111  gone-whalin  galaxy         MAJ765   us  17 /   7 /  10 /  11 /   980 | them  26 /  23
+   m4127g2 t111  gone-whalin  windmill       MAJ513   us   7 /   2 /   4 /   4 /   340 | them   9 /   6
+   m4150g0 t111  lobster-roll BatSignal      MAJ541   us   6 /   3 /   0 /   2 /     0 | them  13 /   9
+   m4150g1 t111  lobster-roll DefaultSmall   ALL211   us   3 /   0 /   3 /   3 /   270 | them  11 /   6
+   m4151g1 t111  placeholder- FourCorners    ALL158   us   4 /   0 /   3 /   4 /   180 | them  10 /   8
+   m4152g1 t111  gone-whalin  SaltyPepper    MAJ343   us  12 /   4 /   4 /   7 /   270 | them  21 /  11
+   m4154g0 t111  scienceqiu   Filter         ALL131   us   4 /   1 /   3 /   3 /   110 | them   6 /   3
+   m4154g2 t111  scienceqiu   giver          MAJ438   us  17 /   9 /   7 /   8 /   695 | them  21 /  16
+   m4160g0 t111  varunvejalla Restart        MAJ844   us  27 /  17 /   8 /  17 /  1285 | them  44 /  32
+   m4222g0 t111  spaark       DefaultHuge    MAJ455   us  43 /  20 /  13 /  19 /  1350 | them  41 /  26
+   m4222g1 t111  spaark       quack          MAJ397   us  11 /   5 /   4 /   6 /   230 | them  13 /  10
+   m4223g1 t111  placeholder- Piglets2       MAJ359   us  10 /   7 /   1 /   2 /    50 | them  18 /  16
+   m4224g1 t111  lobster-roll Racetrack      MAJ637   us   9 /   2 /   4 /   5 /   160 | them  16 /   8
+   m4225g1 t111  varunvejalla Restart        MAJ546   us  24 /   9 /  11 /  13 /   995 | them  31 /  23
+   m4226g0 t111  scienceqiu   Oasis          MAJ474   us  21 /  12 /   3 /   7 /   220 | them  17 /  11
+   m4227g2 t111  podemice     Oasis          MAJ585   us  23 /  12 /   8 /   9 /   660 | them  21 /  10
+   m4250g1 t111  spaark       SMILE          MAJ417   us  16 /   8 /   4 /   5 /   125 | them  22 /  17
+   m4251g0 t111  lobster-roll AlarmClock     MAJ680   us  17 /  10 /   4 /   7 /   190 | them  27 /  16
+   m4286g0 t111  spaark       DefaultLarge   MAJ348   us  13 /   6 /   0 /   3 /     0 | them  22 /  17
+   m4286g1 t111  spaark       TargetPractice MAJ353   us  10 /   5 /   5 /   5 /   365 | them  14 /   9
+   m4287g0 t111  lobster-roll Portal         MAJ607   us  19 /   7 /   8 /  11 /   900 | them  30 /  16
+   m4289g1 t111  varunvejalla DonkeyKong     MAJ708   us  41 /  16 /  10 /  19 /   600 | them  53 /  36
+   m4309g1 t111  spaark       DefaultLarge   ALL326   us  11 /   3 /   5 /   5 /   275 | them  21 /  15
+   m4366g1 t111  immutable    gridworld      MAJ300   us  12 /   4 /   2 /   5 /   295 | them  19 /  14
+   m4367g2 t111  gone-whalin  Racetrack      MAJ317   us   8 /   3 /   1 /   4 /    45 | them   8 /   6
+   m4368g2 t111  subscribe-to rain           ALL405   us  10 /   2 /   7 /   7 /   855 | them   9 /   6
+   m4369g0 t111  spaark       Paintball      ALL227   us   4 /   1 /   3 /   3 /   145 | them  11 /   5
+   m4369g1 t111  spaark       UnderTheSea    MAJ336   us  19 /   7 /   2 /   8 /   210 | them  20 /  16
+   m4370g0 t111  om-nom       Brat           ALL196   us   8 /   1 /   7 /   7 /   675 | them   3 /   3
+   m4370g2 t111  om-nom       walalilongla   MAJ690   us  23 /  13 /   6 /  11 /   355 | them  26 /  20
+   m4371g1 t111  scienceqiu   DefaultHuge    MAJ338   us  33 /  17 /   6 /   9 /   395 | them  37 /  21
+   m4371g2 t111  scienceqiu   FourCorners    MAJ281   us   1 /   0 /   1 /   1 /    50 | them  14 /   7
+   m4393g0 t111  spaark       Crab           MAJ361   us  11 /   5 /   3 /   5 /   230 | them  20 /  12

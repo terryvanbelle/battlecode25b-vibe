@@ -1,0 +1,92 @@
+
+== LOST games: their lead: 75 games
+   tower lead for good: 75 of 75 games, median r197 (p25 r100, p75 r295); by r100: 19, r101-200: 20, later: 36
+   coverage lead >= 10 points for good: 75 games, median r264; rounds from the tower lead to it: 52
+   in the 50 rounds before the tower lead (sums over 75 games): leader {'built rebuilt own': 50, 'built new ruin': 96, 'lost to kills': 65, 'built taken': 11} | trailer {'lost to kills': 87, 'built rebuilt own': 36, 'built new ruin': 60, 'built taken': 3}
+
+== LOST games to the top teams: their lead: 56 games
+   tower lead for good: 56 of 56 games, median r191.0 (p25 r99, p75 r239); by r100: 16, r101-200: 16, later: 24
+   coverage lead >= 10 points for good: 56 games, median r255.0; rounds from the tower lead to it: 59.0
+   in the 50 rounds before the tower lead (sums over 56 games): leader {'built rebuilt own': 40, 'built new ruin': 77, 'lost to kills': 57, 'built taken': 4} | trailer {'lost to kills': 66, 'built rebuilt own': 28, 'built new ruin': 44, 'built taken': 2}
+
+== WON games: our lead: 100 games
+   tower lead for good: 100 of 100 games, median r125.5 (p25 r61, p75 r229); by r100: 47, r101-200: 19, later: 34
+   coverage lead >= 10 points for good: 99 games, median r172; rounds from the tower lead to it: 53
+   in the 50 rounds before the tower lead (sums over 100 games): leader {'lost to kills': 88, 'built rebuilt own': 70, 'built new ruin': 178, 'built taken': 3} | trailer {'built new ruin': 113, 'built rebuilt own': 37, 'lost to kills': 72, 'built taken': 4}
+
+per lost game: tower lead r / coverage lead r
+   m3999g0 t111  gone-whalin  Castle         MAJ590   towlead r438 covlead r399
+   m3999g2 t111  gone-whalin  Terminal       MAJ500   towlead r334 covlead r334
+   m4001g1 t111  gone-whalin  Filter         MAJ381   towlead r219 covlead r177
+   m4002g0 t111  scienceqiu   Snowman        ALL233   towlead r133 covlead r53
+   m4003g0 t111  immutable    Oasis          MAJ365   towlead r255 covlead r216
+   m4003g1 t111  immutable    Restart        MAJ392   towlead r210 covlead r195
+   m4004g0 t111  varunvejalla DefaultLarge   MAJ335   towlead r134 covlead r223
+   m4004g2 t111  varunvejalla starburst      ALL376   towlead r152 covlead r271
+   m4005g1 t111  lobster-roll sierpinski     MAJ634   towlead r302 covlead r397
+   m4005g2 t111  lobster-roll walalilongla   MAJ466   towlead r53 covlead r347
+   m4006g0 t111  angtn        Bunny          MAJ454   towlead r239 covlead r64
+   m4055g0 t111  scienceqiu   DefaultLarge   MAJ377   towlead r17 covlead r307
+   m4055g1 t111  scienceqiu   Restart        ALL372   towlead r77 covlead r213
+   m4056g0 t111  slifland     DonkeyKong     MAJ439   towlead r297 covlead r321
+   m4056g1 t111  slifland     Justice        MAJ465   towlead r257 covlead r249
+   m4057g2 t111  subscribe-to fix            ALL369   towlead r155 covlead r298
+   m4099g2 t111  lobster-roll roads          MAJ487   towlead r331 covlead r360
+   m4127g0 t111  gone-whalin  BunnyGame      ALL261   towlead r26 covlead r144
+   m4127g1 t111  gone-whalin  galaxy         MAJ765   towlead r377 covlead r513
+   m4127g2 t111  gone-whalin  windmill       MAJ513   towlead r388 covlead r350
+   m4150g0 t111  lobster-roll BatSignal      MAJ541   towlead r238 covlead r311
+   m4150g1 t111  lobster-roll DefaultSmall   ALL211   towlead r19 covlead r57
+   m4151g1 t111  placeholder- FourCorners    ALL158   towlead r28 covlead r41
+   m4152g1 t111  gone-whalin  SaltyPepper    MAJ343   towlead r126 covlead r240
+   m4154g0 t111  scienceqiu   Filter         ALL131   towlead r37 covlead r70
+   m4154g2 t111  scienceqiu   giver          MAJ438   towlead r327 covlead r363
+   m4160g0 t111  varunvejalla Restart        MAJ844   towlead r590 covlead r251
+   m4222g0 t111  spaark       DefaultHuge    MAJ455   towlead r299 covlead r301
+   m4222g1 t111  spaark       quack          MAJ397   towlead r223 covlead r314
+   m4223g1 t111  placeholder- Piglets2       MAJ359   towlead r156 covlead r228
+   m4224g1 t111  lobster-roll Racetrack      MAJ637   towlead r430 covlead r440
+   m4225g1 t111  varunvejalla Restart        MAJ546   towlead r132 covlead r330
+   m4226g0 t111  scienceqiu   Oasis          MAJ474   towlead r408 covlead r376
+   m4227g2 t111  podemice     Oasis          MAJ585   towlead r295 covlead r427
+   m4250g1 t111  spaark       SMILE          MAJ417   towlead r168 covlead r264
+   m4251g0 t111  lobster-roll AlarmClock     MAJ680   towlead r562 covlead r577
+   m4286g0 t111  spaark       DefaultLarge   MAJ348   towlead r27 covlead r150
+   m4286g1 t111  spaark       TargetPractice MAJ353   towlead r37 covlead r236
+   m4287g0 t111  lobster-roll Portal         MAJ607   towlead r419 covlead r480
+   m4289g1 t111  varunvejalla DonkeyKong     MAJ708   towlead r358 covlead r312
+   m4309g1 t111  spaark       DefaultLarge   ALL326   towlead r100 covlead r193
+   m4366g1 t111  immutable    gridworld      MAJ300   towlead r99 covlead r89
+   m4367g2 t111  gone-whalin  Racetrack      MAJ317   towlead r198 covlead r224
+   m4368g2 t111  subscribe-to rain           ALL405   towlead r147 covlead r293
+   m4369g0 t111  spaark       Paintball      ALL227   towlead r76 covlead r178
+   m4369g1 t111  spaark       UnderTheSea    MAJ336   towlead r223 covlead r262
+   m4370g0 t111  om-nom       Brat           ALL196   towlead r144 covlead r189
+   m4370g2 t111  om-nom       walalilongla   MAJ690   towlead r455 covlead r521
+   m4371g1 t111  scienceqiu   DefaultHuge    MAJ338   towlead r197 covlead r221
+   m4371g2 t111  scienceqiu   FourCorners    MAJ281   towlead r44 covlead r31
+   m4393g0 t111  spaark       Crab           MAJ361   towlead r191 covlead r283
+   m4441g0 t118  gone-whalin  Bread          MAJ601   towlead r501 covlead r307
+   m4441g1 t118  gone-whalin  Castle         MAJ382   towlead r239 covlead r252
+   m4443g1 t118  spaark       Terminal       ALL402   towlead r211 covlead r281
+   m4443g2 t118  spaark       sierpinski     MAJ634   towlead r244 covlead r485
+   m4448g2 t118  spaark       Snowglobe      MAJ585   towlead r295 covlead r416
+   m4471g1 t118  spaark       Money          MAJ403   towlead r149 covlead r280
+   m4471g2 t118  spaark       headphones     MAJ617   towlead r97 covlead r375
+   m4515g0 t118  om-nom       Bunny          ALL273   towlead r62 covlead r129
+   m4515g1 t118  om-nom       DefaultMedium  ALL259   towlead r125 covlead r209
+   m4516g1 t118  subscribe-to gardenworld    MAJ433   towlead r236 covlead r288
+   m4517g0 t118  just-woke-up Crab           MAJ341   towlead r232 covlead r258
+   m4517g1 t118  just-woke-up Filter         MAJ210   towlead r120 covlead r133
+   m4518g1 t118  gone-whalin  Fossil         MAJ316   towlead r191 covlead r223
+   m4519g0 t118  confused     Bread          MAJ345   towlead r202 covlead r221
+   m4519g1 t118  confused     Jail           ALL85    towlead r18 covlead r67
+   m4520g0 t118  spaark       CastleDefense  MAJ299   towlead r205 covlead r75
+   m4523g2 t118  subscribe-to shell          MAJ491   towlead r213 covlead r306
+   m4542g0 t118  spaark       SandyBeach     MAJ522   towlead r191 covlead r296
+   m4542g2 t118  spaark       walalilongla   MAJ401   towlead r179 covlead r298
+   m4569g2 t118  subscribe-to sunrise        MAJ277   towlead r105 covlead r189
+   m4579g0 t118  confused     Crab           MAJ417   towlead r270 covlead r265
+   m4579g1 t118  confused     lighthouse     ALL254   towlead r40 covlead r182
+   m4579g2 t118  confused     sayhi          MAJ417   towlead r70 covlead r266
+   m4594g0 t118  om-nom       Jail           ALL119   towlead r63 covlead r80

@@ -1,0 +1,50 @@
+
+== LOST games: 75; robot-turns, us / them (share of the side's robot-turns in the phase)
+   low                                              2426 ( 4.9%) /   2339 ( 4.6%)    7102 ( 9.9%) /   7584 ( 7.0%)   22090 (13.6%) /  36042 ( 8.0%)   11008 (15.8%) /  24665 ( 6.9%) 
+   low, paint-holding own tower in sight             275 ( 0.6%) /    357 ( 0.7%)     670 ( 0.9%) /   1121 ( 1.0%)    1956 ( 1.2%) /   4012 ( 0.9%)    1428 ( 2.1%) /   2941 ( 0.8%) 
+   low, paint-holding own tower within d2 100        929 ( 1.9%) /    729 ( 1.4%)    2592 ( 3.6%) /   2344 ( 2.2%)    7187 ( 4.4%) /  11279 ( 2.5%)    3922 ( 5.6%) /   6787 ( 1.9%) 
+   stuck                                            1670 ( 3.4%) /   1379 ( 2.7%)    5015 ( 7.0%) /   4521 ( 4.2%)   16003 ( 9.8%) /  21442 ( 4.7%)    7912 (11.4%) /  14097 ( 3.9%) 
+   stuck, paint-holding own tower in sight           163 ( 0.3%) /    195 ( 0.4%)     430 ( 0.6%) /    619 ( 0.6%)    1277 ( 0.8%) /   2232 ( 0.5%)     997 ( 1.4%) /   1649 ( 0.5%) 
+   stuck in sight of a PAINT                          44 ( 0.1%) /     70 ( 0.1%)     193 ( 0.3%) /    283 ( 0.3%)     891 ( 0.5%) /   1529 ( 0.3%)     885 ( 1.3%) /   1275 ( 0.4%) 
+   stuck in sight of a MONEY                         119 ( 0.2%) /    125 ( 0.2%)     237 ( 0.3%) /    293 ( 0.3%)     386 ( 0.2%) /    592 ( 0.1%)     112 ( 0.2%) /    338 ( 0.1%) 
+   stuck in sight of a DEFEN                           0 ( 0.0%) /      0 ( 0.0%)       0 ( 0.0%) /     43 ( 0.0%)       0 ( 0.0%) /    111 ( 0.0%)       0 ( 0.0%) /     36 ( 0.0%) 
+   stuck in sight, SO                                163 ( 0.3%) /    190 ( 0.4%)     343 ( 0.5%) /    455 ( 0.4%)     365 ( 0.2%) /   1085 ( 0.2%)     235 ( 0.3%) /    625 ( 0.2%) 
+   stuck in sight, SP                                  0 ( 0.0%) /      4 ( 0.0%)      45 ( 0.1%) /     46 ( 0.0%)     627 ( 0.4%) /    522 ( 0.1%)     592 ( 0.9%) /    552 ( 0.2%) 
+   stuck in sight, MO                                  0 ( 0.0%) /      1 ( 0.0%)      42 ( 0.1%) /    118 ( 0.1%)     285 ( 0.2%) /    625 ( 0.1%)     170 ( 0.2%) /    472 ( 0.1%) 
+   stuck, paint-holding own tower within d2 100      626 ( 1.3%) /    425 ( 0.8%)    1823 ( 2.5%) /   1434 ( 1.3%)    5136 ( 3.2%) /   6583 ( 1.5%)    2744 ( 3.9%) /   3841 ( 1.1%) 
+   robot-turns: r1-100 us 49429 them 51153, r101-200 us 71757 them 107720, r201-400 us 162753 them 452307, r401+ us 69643 them 359096
+   us: stuck spells of >= 10 turns in sight of a paint-holding own tower: 33, robot-turns 397, median length 12, median start r286, tower types {'MONEY': 10, 'PAINT': 23}
+   them: stuck spells of >= 10 turns in sight of a paint-holding own tower: 42, robot-turns 545, median length 12.0, median start r278.5, tower types {'PAINT': 24, 'MONEY': 17, 'DEFEN': 1}
+   lost games with the most stuck turns in sight (ours):
+   m4222g0 t111  spaark       DefaultHuge    MAJ455   stuck in sight  529 (PT 522, MT 7), spells >= 10 11 (longest 14)
+   m4227g2 t111  podemice     Oasis          MAJ585   stuck in sight  250 (PT 220, MT 30), spells >= 10 2 (longest 13)
+   m4127g1 t111  gone-whalin  galaxy         MAJ765   stuck in sight  131 (PT 113, MT 18), spells >= 10 0 (longest 0)
+   m4056g0 t111  slifland     DonkeyKong     MAJ439   stuck in sight  118 (PT 96, MT 22), spells >= 10 1 (longest 13)
+   m4160g0 t111  varunvejalla Restart        MAJ844   stuck in sight  116 (PT 100, MT 16), spells >= 10 1 (longest 12)
+   m4287g0 t111  lobster-roll Portal         MAJ607   stuck in sight   92 (PT 70, MT 22), spells >= 10 0 (longest 0)
+   m4251g0 t111  lobster-roll AlarmClock     MAJ680   stuck in sight   91 (PT 57, MT 34), spells >= 10 1 (longest 12)
+   m4289g1 t111  varunvejalla DonkeyKong     MAJ708   stuck in sight   77 (PT 58, MT 19), spells >= 10 0 (longest 0)
+   m4471g2 t118  spaark       headphones     MAJ617   stuck in sight   75 (PT 67, MT 8), spells >= 10 1 (longest 12)
+   m4226g0 t111  scienceqiu   Oasis          MAJ474   stuck in sight   71 (PT 45, MT 26), spells >= 10 0 (longest 0)
+   m4370g2 t111  om-nom       walalilongla   MAJ690   stuck in sight   70 (PT 14, MT 56), spells >= 10 1 (longest 11)
+   m4441g0 t118  gone-whalin  Bread          MAJ601   stuck in sight   58 (PT 51, MT 7), spells >= 10 0 (longest 0)
+   m4003g0 t111  immutable    Oasis          MAJ365   stuck in sight   52 (PT 37, MT 15), spells >= 10 2 (longest 13)
+   m4519g0 t118  confused     Bread          MAJ345   stuck in sight   50 (PT 7, MT 43), spells >= 10 1 (longest 12)
+   m4224g1 t111  lobster-roll Racetrack      MAJ637   stuck in sight   47 (PT 12, MT 35), spells >= 10 1 (longest 12)
+
+== WON games: 100; robot-turns, us / them (share of the side's robot-turns in the phase)
+   low                                              2628 ( 3.8%) /   4009 ( 5.7%)   10999 ( 8.2%) /  11721 ( 9.9%)   26556 ( 6.1%) /  28299 (10.5%)   31618 ( 6.3%) /  38559 ( 9.7%) 
+   low, paint-holding own tower in sight             366 ( 0.5%) /    563 ( 0.8%)    1021 ( 0.8%) /   1474 ( 1.2%)    3271 ( 0.8%) /   2427 ( 0.9%)    2376 ( 0.5%) /   5013 ( 1.3%) 
+   low, paint-holding own tower within d2 100       1037 ( 1.5%) /   1265 ( 1.8%)    3669 ( 2.7%) /   2980 ( 2.5%)   10469 ( 2.4%) /   6920 ( 2.6%)   11795 ( 2.3%) /  14361 ( 3.6%) 
+   stuck                                            1747 ( 2.5%) /   2234 ( 3.2%)    7560 ( 5.6%) /   7013 ( 5.9%)   17373 ( 4.0%) /  17662 ( 6.6%)   20322 ( 4.0%) /  24102 ( 6.1%) 
+   stuck, paint-holding own tower in sight           222 ( 0.3%) /    285 ( 0.4%)     634 ( 0.5%) /    827 ( 0.7%)    1983 ( 0.5%) /   1312 ( 0.5%)    1360 ( 0.3%) /   2798 ( 0.7%) 
+   stuck in sight of a PAINT                          65 ( 0.1%) /     82 ( 0.1%)     359 ( 0.3%) /    514 ( 0.4%)    1484 ( 0.3%) /    889 ( 0.3%)    1097 ( 0.2%) /   2350 ( 0.6%) 
+   stuck in sight of a MONEY                         157 ( 0.2%) /    202 ( 0.3%)     275 ( 0.2%) /    294 ( 0.2%)     499 ( 0.1%) /    384 ( 0.1%)     263 ( 0.1%) /    395 ( 0.1%) 
+   stuck in sight of a DEFEN                           0 ( 0.0%) /      1 ( 0.0%)       0 ( 0.0%) /     19 ( 0.0%)       0 ( 0.0%) /     39 ( 0.0%)       0 ( 0.0%) /     53 ( 0.0%) 
+   stuck in sight, SO                                222 ( 0.3%) /    275 ( 0.4%)     544 ( 0.4%) /    617 ( 0.5%)     870 ( 0.2%) /    602 ( 0.2%)     322 ( 0.1%) /    850 ( 0.2%) 
+   stuck in sight, SP                                  0 ( 0.0%) /      0 ( 0.0%)      36 ( 0.0%) /     29 ( 0.0%)     758 ( 0.2%) /    272 ( 0.1%)     751 ( 0.1%) /    865 ( 0.2%) 
+   stuck in sight, MO                                  0 ( 0.0%) /     10 ( 0.0%)      54 ( 0.0%) /    181 ( 0.2%)     355 ( 0.1%) /    438 ( 0.2%)     287 ( 0.1%) /   1083 ( 0.3%) 
+   stuck, paint-holding own tower within d2 100      675 ( 1.0%) /    734 ( 1.0%)    2479 ( 1.8%) /   1788 ( 1.5%)    6801 ( 1.6%) /   4022 ( 1.5%)    7156 ( 1.4%) /   8690 ( 2.2%) 
+   robot-turns: r1-100 us 68570 them 70069, r101-200 us 134757 them 118551, r201-400 us 432338 them 268872, r401+ us 503558 them 396999
+   us: stuck spells of >= 10 turns in sight of a paint-holding own tower: 33, robot-turns 392, median length 12, median start r215, tower types {'PAINT': 18, 'MONEY': 15}
+   them: stuck spells of >= 10 turns in sight of a paint-holding own tower: 34, robot-turns 408, median length 12.0, median start r298.0, tower types {'PAINT': 21, 'MONEY': 12, 'DEFEN': 1}

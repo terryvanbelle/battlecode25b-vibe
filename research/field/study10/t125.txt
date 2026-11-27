@@ -1,0 +1,24 @@
+
+== lost games (75)
+   them start MONEY_TOWER : 75 towers, killed 18 (by r100 7, by r200 16), median death r134.0; pattern at r80 per tower ok 2.4 wrong 3.1 empty 17.8 enemy 0.7
+        killed: attackers in its last 40 rounds per tower S 2.1 X 0.1 M 0.0; damage share S 97% X 3%; own mopper-rounds within d2 20 in those 40 rounds med 7.0 (zero in 6); pattern at death ok 3.5 wrong 2.9 empty 14.6 enemy 2.9; no enemy tile at death 10, at most 2 14; rebuilt by the side within 50 rounds 3 (as {'MONEY': 1, 'PAINT': 2}), taken by the other side 3, never 5
+   them start PAINT_TOWER : 75 towers, killed 13 (by r100 7, by r200 7), median death r94; pattern at r80 per tower ok 4.4 wrong 2.8 empty 16.4 enemy 0.5
+        killed: attackers in its last 40 rounds per tower S 2.0 X 0.0 M 0.0; damage share S 100% X 0%; own mopper-rounds within d2 20 in those 40 rounds med 27 (zero in 0); pattern at death ok 7.5 wrong 4.8 empty 11.7 enemy 0.1; no enemy tile at death 12, at most 2 13; rebuilt by the side within 50 rounds 3 (as {'MONEY': 1, 'DEFEN': 1, 'PAINT': 1}), taken by the other side 0, never 3
+   us   start MONEY_TOWER : 75 towers, killed 47 (by r100 11, by r200 25), median death r197; pattern at r80 per tower ok 1.2 wrong 1.5 empty 19.8 enemy 1.5
+        killed: attackers in its last 40 rounds per tower S 2.4 X 0.4 M 0.0; damage share S 94% X 6%; own mopper-rounds within d2 20 in those 40 rounds med 0 (zero in 36); pattern at death ok 3.1 wrong 4.9 empty 11.0 enemy 5.0; no enemy tile at death 19, at most 2 25; rebuilt by the side within 50 rounds 1 (as {'MONEY': 1}), taken by the other side 19, never 25
+   us   start PAINT_TOWER : 75 towers, killed 52 (by r100 21, by r200 30), median death r132.0; pattern at r80 per tower ok 2.7 wrong 1.5 empty 18.4 enemy 1.4
+        killed: attackers in its last 40 rounds per tower S 2.3 X 0.4 M 0.0; damage share S 95% X 5%; own mopper-rounds within d2 20 in those 40 rounds med 0.0 (zero in 35); pattern at death ok 6.8 wrong 3.4 empty 10.4 enemy 3.3; no enemy tile at death 27, at most 2 34; rebuilt by the side within 50 rounds 4 (as {'PAINT': 3, 'MONEY': 1}), taken by the other side 23, never 19
+   us   killed paint towers built after r0: 103; pattern at death ok 15.9 wrong 2.9 empty 0.8 enemy 4.3; 24 ok 11
+   them killed paint towers built after r0: 87; pattern at death ok 20.1 wrong 2.2 empty 0.4 enemy 1.3; 24 ok 23
+
+== won games (100)
+   them start MONEY_TOWER : 100 towers, killed 63 (by r100 20, by r200 32), median death r195; pattern at r80 per tower ok 3.3 wrong 3.5 empty 15.8 enemy 1.4
+        killed: attackers in its last 40 rounds per tower S 2.0 X 0.2 M 0.0; damage share S 96% X 4%; own mopper-rounds within d2 20 in those 40 rounds med 0 (zero in 33); pattern at death ok 4.6 wrong 5.0 empty 10.7 enemy 3.6; no enemy tile at death 31, at most 2 42; rebuilt by the side within 50 rounds 5 (as {'MONEY': 3, 'PAINT': 2}), taken by the other side 24, never 29
+   them start PAINT_TOWER : 100 towers, killed 53 (by r100 15, by r200 25), median death r225; pattern at r80 per tower ok 4.6 wrong 2.7 empty 16.0 enemy 0.7
+        killed: attackers in its last 40 rounds per tower S 2.2 X 0.2 M 0.0; damage share S 96% X 4%; own mopper-rounds within d2 20 in those 40 rounds med 23 (zero in 3); pattern at death ok 6.5 wrong 5.1 empty 11.3 enemy 1.1; no enemy tile at death 34, at most 2 46; rebuilt by the side within 50 rounds 5 (as {'MONEY': 5}), taken by the other side 11, never 30
+   us   start MONEY_TOWER : 100 towers, killed 23 (by r100 9, by r200 16), median death r136; pattern at r80 per tower ok 1.0 wrong 1.7 empty 19.7 enemy 1.6
+        killed: attackers in its last 40 rounds per tower S 1.8 X 0.1 M 0.0; damage share S 98% X 2%; own mopper-rounds within d2 20 in those 40 rounds med 0 (zero in 17); pattern at death ok 3.9 wrong 6.7 empty 8.5 enemy 5.0; no enemy tile at death 10, at most 2 14; rebuilt by the side within 50 rounds 6 (as {'PAINT': 4, 'MONEY': 2}), taken by the other side 4, never 4
+   us   start PAINT_TOWER : 100 towers, killed 19 (by r100 5, by r200 16), median death r138; pattern at r80 per tower ok 2.0 wrong 0.8 empty 19.5 enemy 1.6
+        killed: attackers in its last 40 rounds per tower S 2.4 X 0.0 M 0.0; damage share S 100% X 0%; own mopper-rounds within d2 20 in those 40 rounds med 0 (zero in 12); pattern at death ok 8.7 wrong 5.1 empty 9.3 enemy 0.9; no enemy tile at death 14, at most 2 15; rebuilt by the side within 50 rounds 6 (as {'MONEY': 2, 'PAINT': 4}), taken by the other side 0, never 3
+   us   killed paint towers built after r0: 118; pattern at death ok 20.1 wrong 2.7 empty 0.1 enemy 1.2; 24 ok 42
+   them killed paint towers built after r0: 159; pattern at death ok 17.8 wrong 3.2 empty 0.4 enemy 2.6; 24 ok 35

@@ -1,0 +1,79 @@
+map               size      paintable | since 3999 games/lost | study 9 games/lost | losses (m = since 3999, p = study 9)
+DefaultLarge      50x30      1476     |    5 / 4                |    2 / 1            | m:varunvej t111 MAJ335, m:scienceq t111 MAJ377, m:spaark t111 MAJ348, m:spaark t111 ALL326, p:scienceq y211 MAJ331
+Restart           55x55      2657     |    6 / 4                |    2 / 1            | m:immutabl t111 MAJ392, m:scienceq t111 ALL372, m:varunvej t111 MAJ844, m:varunvej t111 MAJ546, p:placehol y211 ALL300
+Crab              40x30      1046     |    3 / 3                |    2 / 1            | m:spaark t111 MAJ361, m:just-wok t118 MAJ341, m:confused t118 MAJ417, p:placehol y195 MAJ469
+Filter            21x21       419     |    3 / 3                |    2 / 1            | m:gone-wha t111 MAJ381, m:scienceq t111 ALL131, m:just-wok t118 MAJ210, p:subscrib y221 ALL241
+Oasis             59x59      3339     |    3 / 3                |    1 / 1            | m:immutabl t111 MAJ365, m:scienceq t111 MAJ474, m:podemice t111 MAJ585, p:subscrib y221 MAJ403
+walalilongla      45x45      1811     |    5 / 3                |    2 / 0            | m:lobster- t111 MAJ466, m:om-nom t111 MAJ690, m:spaark t118 MAJ401
+Bunny             44x30      1228     |    3 / 2                |    6 / 5            | m:angtn t111 MAJ454, m:om-nom t118 ALL273, p:placehol y211 MAJ386, p:angtn y211 MAJ404, p:lobster- y211 MAJ504, p:spaark y221 MAJ596, p:subscrib y221 MAJ474
+Castle            27x27       636     |    3 / 2                |    5 / 4            | m:gone-wha t111 MAJ590, m:gone-wha t118 MAJ382, p:varunvej y195 MAJ481, p:lobster- y197 MAJ499, p:spaark y221 MAJ273, p:immutabl y221 MAJ235
+DefaultHuge       59x59      3421     |    3 / 2                |    4 / 3            | m:spaark t111 MAJ455, m:scienceq t111 MAJ338, p:placehol y195 MAJ400, p:placehol y211 MAJ685, p:subscrib y221 MAJ461
+Bread             35x29       914     |    3 / 2                |    3 / 2            | m:gone-wha t118 MAJ601, m:confused t118 MAJ345, p:gone-wha y195 MAJ375, p:varunvej y195 ALL485
+Racetrack         25x25       562     |    2 / 2                |    2 / 2            | m:lobster- t111 MAJ637, m:gone-wha t111 MAJ317, p:angtn y197 MAJ521, p:gone-wha y211 MAJ433
+sierpinski        39x50      1620     |    3 / 2                |    5 / 2            | m:lobster- t111 MAJ634, m:spaark t118 MAJ634, p:angtn y211 MAJ395, p:immutabl y221 MAJ412
+DonkeyKong        60x60      3232     |    3 / 2                |    1 / 1            | m:slifland t111 MAJ439, m:varunvej t111 MAJ708, p:varunvej y211 MAJ532
+FourCorners       25x25       542     |    3 / 2                |    2 / 1            | m:placehol t111 ALL158, m:scienceq t111 MAJ281, p:scienceq y195 MAJ307
+Jail              20x30       540     |    2 / 2                |    2 / 1            | m:confused t118 ALL85, m:om-nom t118 ALL119, p:gone-wha y211 ALL108
+Terminal          40x30      1022     |    2 / 2                |    1 / 1            | m:gone-wha t111 MAJ500, m:spaark t118 ALL402, p:varunvej y221 ALL277
+Justice           21x20       389     |    3 / 1                |    7 / 6            | m:slifland t111 MAJ465, p:gone-wha y195 MAJ460, p:varunvej y195 MAJ290, p:lobster- y197 MAJ541, p:varunvej y211 MAJ237, p:slifland y211 MAJ638, p:gone-wha y211 MAJ421
+Portal            35x35      1129     |    5 / 1                |    5 / 5            | m:lobster- t111 MAJ607, p:immutabl t91 MAJ414, p:gone-wha y195 MAJ424, p:lobster- y197 MAJ429, p:angtn y197 MAJ349, p:slifland y211 MAJ290
+DefaultSmall      20x20       372     |    1 / 1                |    6 / 4            | m:lobster- t111 ALL211, p:subscrib t91 ALL122, p:lobster- y197 MAJ204, p:angtn y211 MAJ388, p:gone-wha y211 MAJ261
+Piglets2          60x40      2032     |    2 / 1                |    4 / 4            | m:placehol t111 MAJ359, p:subscrib t91 MAJ457, p:gone-wha y195 MAJ607, p:placehol y211 MAJ456, p:subscrib y221 MAJ436
+Paintball         20x20       354     |    2 / 1                |    4 / 3            | m:spaark t111 ALL227, p:varunvej y195 ALL223, p:subscrib y221 MAJ192, p:varunvej y221 MAJ308
+Snowman           25x25       553     |    1 / 1                |    3 / 3            | m:scienceq t111 ALL233, p:immutabl t91 MAJ158, p:subscrib y221 ALL365, p:scienceq y221 ALL236
+starburst         30x30       844     |    1 / 1                |    3 / 3            | m:varunvej t111 ALL376, p:immutabl y195 MAJ270, p:scienceq y211 ALL358, p:gone-wha y221 MAJ496
+Brat              29x29       715     |    3 / 1                |    2 / 2            | m:om-nom t111 ALL196, p:subscrib t91 ALL554, p:scienceq y195 ALL301
+BunnyGame         30x50      1286     |    1 / 1                |    2 / 2            | m:gone-wha t111 ALL261, p:scienceq y195 ALL189, p:placehol y197 ALL237
+CastleDefense     20x20       340     |    1 / 1                |    3 / 2            | m:spaark t118 MAJ299, p:varunvej y211 ALL203, p:immutabl y221 MAJ111
+DefaultMedium     35x35      1193     |    2 / 1                |    3 / 2            | m:om-nom t118 ALL259, p:varunvej y195 ALL240, p:lobster- y197 MAJ377
+Snowglobe         40x40      1478     |    2 / 1                |    3 / 2            | m:spaark t118 MAJ585, p:scienceq y211 MAJ529, p:immutabl y221 MAJ491
+roads             30x30       770     |    4 / 1                |    3 / 2            | m:lobster- t111 MAJ487, p:lobster- y197 MAJ674, p:immutabl y211 MAJ307
+Fossil            30x30       868     |    3 / 1                |    1 / 1            | m:gone-wha t118 MAJ316, p:immutabl y221 MAJ384
+Money             35x35      1141     |    3 / 1                |    2 / 1            | m:spaark t118 MAJ403, p:lobster- y197 MAJ385
+TargetPractice    30x30       816     |    2 / 1                |    1 / 1            | m:spaark t111 MAJ353, p:gone-wha y221 MAJ218
+galaxy            45x45      1834     |    3 / 1                |    3 / 1            | m:gone-wha t111 MAJ765, p:gone-wha t91 MAJ550
+giver             50x50      2344     |    3 / 1                |    1 / 1            | m:scienceq t111 MAJ438, p:scienceq y221 MAJ468
+lighthouse        31x31       853     |    1 / 1                |    4 / 1            | m:confused t118 ALL254, p:gone-wha t91 MAJ308
+quack             30x35       932     |    1 / 1                |    2 / 1            | m:spaark t111 MAJ397, p:varunvej y195 ALL255
+rain              30x30       850     |    2 / 1                |    1 / 1            | m:subscrib t111 ALL405, p:angtn y211 MAJ396
+sayhi             40x50      1734     |    6 / 1                |    3 / 1            | m:confused t118 MAJ417, p:om-nom t91 MAJ571
+AlarmClock        35x35      1091     |    4 / 1                |    2 / 0            | m:lobster- t111 MAJ680
+BatSignal         40x25       890     |    2 / 1                |    0 / 0            | m:lobster- t111 MAJ541
+SMILE             60x60      3482     |    1 / 1                |    6 / 0            | m:spaark t111 MAJ417
+SaltyPepper       40x40      1484     |    2 / 1                |    3 / 0            | m:gone-wha t111 MAJ343
+SandyBeach        30x30       822     |    2 / 1                |    1 / 0            | m:spaark t118 MAJ522
+UnderTheSea       45x45      1847     |    1 / 1                |    1 / 0            | m:spaark t111 MAJ336
+fix               40x50      1856     |    3 / 1                |    3 / 0            | m:subscrib t111 ALL369
+gardenworld       60x60      3180     |    2 / 1                |    4 / 0            | m:subscrib t118 MAJ433
+gridworld         31x31       769     |    2 / 1                |    1 / 0            | m:immutabl t111 MAJ300
+headphones        60x60      3186     |    4 / 1                |    2 / 0            | m:spaark t118 MAJ617
+shell             40x40      1418     |    5 / 1                |    3 / 0            | m:subscrib t118 MAJ491
+sunrise           45x55      2208     |    1 / 1                |    1 / 0            | m:subscrib t118 MAJ277
+windmill          30x30       780     |    3 / 1                |    0 / 0            | m:gone-wha t111 MAJ513
+defensetower      40x59      2173     |    3 / 0                |    3 / 3            | p:slifland y195 MAJ747, p:placehol y197 MAJ524, p:gone-wha y221 ALL142
+Gears             55x55      2885     |    0 / 0                |    3 / 1            | p:om-nom t91 MAJ536
+Mirage            40x40      1480     |    0 / 0                |    2 / 1            | p:scienceq y221 ALL299
+MoneyTower        35x50      1501     |    4 / 0                |    2 / 1            | p:lobster- y221 MAJ877
+PlumberGame       60x30      1688     |    1 / 0                |    3 / 1            | p:lobster- y197 MAJ622
+TheBest           60x60      3292     |    1 / 0                |    4 / 1            | p:om-nom t91 MAJ422
+UglySweater       50x50      2340     |    3 / 0                |    1 / 1            | p:placehol y195 MAJ472
+boxofchocolates   55x55      2435     |    1 / 0                |    2 / 1            | p:gone-wha y221 MAJ513
+catface           30x30       868     |    4 / 0                |    2 / 1            | p:varunvej y197 ALL246
+memstore          59x39      2081     |    1 / 0                |    2 / 1            | p:immutabl y221 MAJ456
+yearofthesnake    45x45      1653     |    1 / 0                |    1 / 1            | p:angtn y197 MAJ1731
+Circuit           60x21      1096     |    3 / 0                |    1 / 0            | 
+Dominoes          44x30      1228     |    2 / 0                |    0 / 0            | 
+Flower            45x41      1623     |    2 / 0                |    3 / 0            | 
+HungerGames       50x50      2258     |    2 / 0                |    2 / 0            | 
+Leaf              60x60      3440     |    1 / 0                |    4 / 0            | 
+Parking_lot       45x45      1795     |    2 / 0                |    2 / 0            | 
+Rose              40x40      1512     |    1 / 0                |    2 / 0            | 
+Thirds            55x40      1932     |    1 / 0                |    0 / 0            | 
+box               31x31       829     |    1 / 0                |    2 / 0            | 
+leavemealone      50x30      1364     |    1 / 0                |    2 / 0            | 
+maze              60x60      2888     |    3 / 0                |    5 / 0            | 
+mit               60x60      3012     |    1 / 0                |    2 / 0            | 
+
+small : since 3999 lost 15 of 23 (65%); study 9 lost 23 of 32 (72%)
+medium: since 3999 lost 31 of 71 (44%); study 9 lost 39 of 63 (62%)
+large : since 3999 lost 29 of 81 (36%); study 9 lost 27 of 90 (30%)

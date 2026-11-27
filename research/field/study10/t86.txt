@@ -1,0 +1,97 @@
+== lost, behind at r100: 32 games; medians (sums for counts in brackets), us / them
+   towers r100                  4.0 / 5.0   [113 / 167]
+   built r50                    2.0 / 2.0   [48 / 70]
+   built r100                   3.5 / 4.0   [107 / 139]
+   killed r50                   0.0 / 0.0   [16 / 8]
+   killed r100                  1.0 / 1.0   [53 / 34]
+   start PT killed by r100      0.0 / 0.0   [11 / 3]
+   build #1 round               19 / 21.0   (reached in 27 / 32)
+   build #2 round               41 / 35.0   (reached in 25 / 32)
+   build #3 round               63 / 53   (reached in 25 / 31)
+   spawned S r100               10.0 / 9.0   [302 / 282]
+   spawned M r100               0.0 / 3.0   [18 / 111]
+   spawned X r100               0.0 / 0.0   [5 / 14]
+   soldier-turns r100           649.0 / 554.5   [19034 / 17274]
+   soldier dmg to towers r100   2600.0 / 2975.0   [79900 / 85600]
+
+== lost, level or ahead at r100: 43 games; medians (sums for counts in brackets), us / them
+   towers r100                  6 / 5   [272 / 214]
+   built r50                    2 / 2   [94 / 99]
+   built r100                   5 / 4   [233 / 182]
+   killed r50                   0 / 0   [13 / 10]
+   killed r100                  1 / 1   [40 / 53]
+   start PT killed by r100      0 / 0   [10 / 4]
+   build #1 round               15 / 18   (reached in 43 / 43)
+   build #2 round               36 / 30   (reached in 43 / 43)
+   build #3 round               51.0 / 53   (reached in 40 / 43)
+   spawned S r100               11 / 8   [474 / 360]
+   spawned M r100               1 / 3   [49 / 152]
+   spawned X r100               0 / 0   [6 / 20]
+   soldier-turns r100           703 / 532   [29615 / 23643]
+   soldier dmg to towers r100   2450 / 1750   [103500 / 91350]
+
+== won, behind at r100: 8 games; medians (sums for counts in brackets), us / them
+   towers r100                  5.0 / 6.0   [41 / 51]
+   built r50                    1.5 / 2.0   [9 / 18]
+   built r100                   3.5 / 4.0   [32 / 36]
+   killed r50                   0.0 / 0.0   [1 / 1]
+   killed r100                  0.5 / 0.0   [7 / 1]
+   start PT killed by r100      0.0 / 0.0   [1 / 0]
+   build #1 round               31.0 / 23.0   (reached in 8 / 8)
+   build #2 round               60.5 / 40.5   (reached in 8 / 8)
+   build #3 round               74.0 / 53   (reached in 8 / 7)
+   spawned S r100               9.5 / 10.0   [78 / 79]
+   spawned M r100               1.0 / 2.0   [10 / 22]
+   spawned X r100               0.0 / 0.0   [1 / 1]
+   soldier-turns r100           641.0 / 670.5   [5172 / 5258]
+   soldier dmg to towers r100   775.0 / 1150.0   [7350 / 12050]
+
+== won, level or ahead at r100: 92 games; medians (sums for counts in brackets), us / them
+   towers r100                  6.0 / 4.0   [567 / 395]
+   built r50                    2.0 / 2.0   [185 / 176]
+   built r100                   5.0 / 3.0   [461 / 321]
+   killed r50                   0.0 / 0.0   [18 / 21]
+   killed r100                  1.0 / 1.0   [74 / 108]
+   start PT killed by r100      0.0 / 0.0   [4 / 15]
+   build #1 round               19.0 / 22   (reached in 92 / 91)
+   build #2 round               36.0 / 38   (reached in 92 / 87)
+   build #3 round               53.0 / 62   (reached in 92 / 79)
+   spawned S r100               11.0 / 9.0   [1004 / 786]
+   spawned M r100               1.0 / 3.0   [117 / 313]
+   spawned X r100               0.0 / 0.0   [16 / 36]
+   soldier-turns r100           673.5 / 561.5   [61822 / 51185]
+   soldier dmg to towers r100   2325.0 / 1725.0   [218200 / 166950]
+
+== lost games behind at r100, one by one: our built/killed by r100, theirs; our starting paint tower death
+   m3999g2 Terminal      gone-whali MAJ r500  towers r100 5/6: us built 4 lost 1 | them built 4 lost 0 | our start PT died rNone, theirs rNone | spawns S/M/X 11/1/1 vs 7/7/0
+   m4002g0 Snowman       scienceqiu ALL r233  towers r100 2/3: us built 4 lost 4 | them built 3 lost 2 | our start PT died r233, theirs rNone | spawns S/M/X 8/0/0 vs 10/1/2
+   m4003g1 Restart       immutable  MAJ r392  towers r100 4/5: us built 3 lost 0 | them built 5 lost 2 | our start PT died rNone, theirs rNone | spawns S/M/X 11/1/1 vs 9/5/0
+   m4005g2 walalilongla  lobster-ro MAJ r466  towers r100 4/5: us built 3 lost 0 | them built 4 lost 1 | our start PT died r329, theirs rNone | spawns S/M/X 13/0/0 vs 6/6/0
+   m4055g0 DefaultLarge  scienceqiu MAJ r377  towers r100 3/6: us built 4 lost 3 | them built 5 lost 1 | our start PT died r76, theirs rNone | spawns S/M/X 10/1/0 vs 10/3/0
+   m4055g1 Restart       scienceqiu ALL r372  towers r100 4/5: us built 3 lost 0 | them built 4 lost 1 | our start PT died r183, theirs rNone | spawns S/M/X 10/2/0 vs 11/4/0
+   m4057g2 fix           subscribe- ALL r369  towers r100 8/9: us built 7 lost 1 | them built 7 lost 0 | our start PT died r121, theirs rNone | spawns S/M/X 9/0/0 vs 10/1/0
+   m4127g0 BunnyGame     gone-whali ALL r261  towers r100 2/4: us built 3 lost 3 | them built 3 lost 1 | our start PT died r27, theirs rNone | spawns S/M/X 8/0/0 vs 6/6/0
+   m4127g2 windmill      gone-whali MAJ r513  towers r100 2/3: us built 2 lost 2 | them built 3 lost 1 | our start PT died rNone, theirs rNone | spawns S/M/X 10/0/0 vs 7/3/0
+   m4150g1 DefaultSmall  lobster-ro ALL r211  towers r100 1/4: us built 0 lost 1 | them built 4 lost 2 | our start PT died r202, theirs rNone | spawns S/M/X 7/0/0 vs 7/5/0
+   m4151g1 FourCorners   placeholde ALL r158  towers r100 1/5: us built 0 lost 1 | them built 4 lost 1 | our start PT died r34, theirs r57 | spawns S/M/X 6/0/0 vs 10/4/0
+   m4154g0 Filter        scienceqiu ALL r131  towers r100 1/4: us built 1 lost 2 | them built 3 lost 1 | our start PT died r131, theirs rNone | spawns S/M/X 8/0/0 vs 7/3/0
+   m4160g0 Restart       varunvejal MAJ r844  towers r100 4/5: us built 5 lost 3 | them built 4 lost 1 | our start PT died r114, theirs r475 | spawns S/M/X 8/0/0 vs 10/6/0
+   m4225g1 Restart       varunvejal MAJ r546  towers r100 4/6: us built 6 lost 4 | them built 4 lost 0 | our start PT died r92, theirs rNone | spawns S/M/X 8/0/0 vs 14/4/0
+   m4250g1 SMILE         spaark     MAJ r417  towers r100 6/7: us built 4 lost 0 | them built 5 lost 0 | our start PT died rNone, theirs rNone | spawns S/M/X 12/2/0 vs 9/3/0
+   m4286g0 DefaultLarge  spaark     MAJ r348  towers r100 5/7: us built 4 lost 1 | them built 5 lost 0 | our start PT died r234, theirs rNone | spawns S/M/X 10/1/0 vs 10/3/1
+   m4286g1 TargetPractic spaark     MAJ r353  towers r100 5/7: us built 3 lost 0 | them built 6 lost 1 | our start PT died r234, theirs r91 | spawns S/M/X 10/1/0 vs 11/2/0
+   m4289g1 DonkeyKong    varunvejal MAJ r708  towers r100 3/5: us built 5 lost 4 | them built 4 lost 0 | our start PT died r82, theirs r483 | spawns S/M/X 9/0/0 vs 15/1/0
+   m4309g1 DefaultLarge  spaark     ALL r326  towers r100 6/7: us built 5 lost 1 | them built 5 lost 0 | our start PT died r100, theirs rNone | spawns S/M/X 13/2/0 vs 10/4/0
+   m4366g1 gridworld     immutable  MAJ r300  towers r100 9/10: us built 7 lost 0 | them built 8 lost 0 | our start PT died rNone, theirs rNone | spawns S/M/X 12/0/1 vs 7/1/3
+   m4369g0 Paintball     spaark     ALL r227  towers r100 2/4: us built 2 lost 2 | them built 5 lost 3 | our start PT died r192, theirs rNone | spawns S/M/X 10/0/1 vs 6/1/0
+   m4371g2 FourCorners   scienceqiu MAJ r281  towers r100 1/3: us built 0 lost 1 | them built 3 lost 2 | our start PT died r97, theirs r36 | spawns S/M/X 7/0/1 vs 8/2/0
+   m4393g0 Crab          spaark     MAJ r361  towers r100 6/7: us built 7 lost 3 | them built 6 lost 1 | our start PT died rNone, theirs rNone | spawns S/M/X 9/1/0 vs 10/3/1
+   m4471g2 headphones    spaark     MAJ r617  towers r100 5/6: us built 3 lost 0 | them built 5 lost 1 | our start PT died r298, theirs rNone | spawns S/M/X 12/2/0 vs 9/2/1
+   m4515g0 Bunny         om-nom     ALL r273  towers r100 3/6: us built 3 lost 1 | them built 5 lost 1 | our start PT died r221, theirs rNone | spawns S/M/X 11/2/0 vs 8/6/1
+   m4518g1 Fossil        gone-whali MAJ r316  towers r100 4/5: us built 4 lost 1 | them built 5 lost 2 | our start PT died r38, theirs rNone | spawns S/M/X 9/0/0 vs 8/5/0
+   m4519g0 Bread         confused   MAJ r345  towers r100 3/4: us built 4 lost 3 | them built 4 lost 2 | our start PT died r224, theirs rNone | spawns S/M/X 11/1/0 vs 7/5/1
+   m4519g1 Jail          confused   ALL r85   towers r100 0/2: us built 0 lost 2 | them built 2 lost 2 | our start PT died r47, theirs rNone | spawns S/M/X 6/0/0 vs 4/3/1
+   m4579g0 Crab          confused   MAJ r417  towers r100 4/5: us built 6 lost 4 | them built 5 lost 2 | our start PT died r209, theirs r230 | spawns S/M/X 11/1/0 vs 9/3/3
+   m4579g1 lighthouse    confused   ALL r254  towers r100 2/4: us built 1 lost 1 | them built 3 lost 1 | our start PT died r94, theirs rNone | spawns S/M/X 10/0/0 vs 10/3/0
+   m4579g2 sayhi         confused   MAJ r417  towers r100 4/6: us built 4 lost 2 | them built 4 lost 0 | our start PT died r125, theirs rNone | spawns S/M/X 7/0/0 vs 9/3/0
+   m4594g0 Jail          om-nom     ALL r119  towers r100 0/2: us built 0 lost 2 | them built 2 lost 2 | our start PT died r63, theirs rNone | spawns S/M/X 6/0/0 vs 8/3/0

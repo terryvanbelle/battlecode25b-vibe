@@ -1,0 +1,43 @@
+
+== lost games
+   them DEFENSE_TOWER killed 1: tiles per tower ok 21.0, wrong colour 2.0, empty 1.0, enemy 0.0; ok median 21; 24 ok 0
+        wrongc  last written by: own SPL paint 100%
+        empty   last written by: own MOP unpaint 100%
+   them MONEY_TOWER   killed 277: tiles per tower ok 19.8, wrong colour 1.8, empty 1.3, enemy 1.2; ok median 23; 24 ok 129
+        wrongc  last written by: own SOL paint 70%, own SPL paint 26%, initial 4%
+        empty   last written by: initial 71%, own MOP unpaint 19%, enemy MOP unpaint 10%
+        enemy   last written by: enemy SPL paint 82%, initial 11%, enemy SOL paint 7%
+   them PAINT_TOWER   killed 100: tiles per tower ok 18.5, wrong colour 2.5, empty 1.9, enemy 1.1; ok median 21.0; 24 ok 23
+        wrongc  last written by: own SOL paint 79%, own SPL paint 16%, initial 5%
+        empty   last written by: initial 76%, own MOP unpaint 20%, enemy MOP unpaint 3%
+        enemy   last written by: enemy SPL paint 97%, enemy SOL paint 2%, initial 1%
+   us   MONEY_TOWER   killed 550: tiles per tower ok 16.2, wrong colour 1.9, empty 1.7, enemy 4.2; ok median 18.0; 24 ok 173
+        wrongc  last written by: own SOL paint 51%, own SPL paint 45%, initial 4%
+        empty   last written by: initial 51%, enemy MOP unpaint 26%, own MOP unpaint 23%
+        enemy   last written by: enemy SPL paint 93%, enemy SOL paint 5%, initial 2%
+   us   PAINT_TOWER   killed 155: tiles per tower ok 12.8, wrong colour 3.1, empty 4.1, enemy 4.0; ok median 13; 24 ok 11
+        wrongc  last written by: own SOL paint 62%, own SPL paint 29%, initial 8%
+        empty   last written by: initial 83%, enemy MOP unpaint 12%, own MOP unpaint 6%
+        enemy   last written by: enemy SPL paint 91%, enemy SOL paint 5%, initial 4%
+
+== won games
+   them DEFENSE_TOWER killed 17: tiles per tower ok 11.8, wrong colour 4.6, empty 0.9, enemy 6.6; ok median 12; 24 ok 0
+        wrongc  last written by: own SPL paint 58%, own SOL paint 42%
+        empty   last written by: own MOP unpaint 75%, enemy MOP unpaint 25%
+        enemy   last written by: enemy SPL paint 90%, enemy SOL paint 10%
+   them MONEY_TOWER   killed 525: tiles per tower ok 16.9, wrong colour 2.4, empty 1.7, enemy 3.0; ok median 19; 24 ok 153
+        wrongc  last written by: own SOL paint 70%, own SPL paint 22%, initial 7%
+        empty   last written by: initial 70%, own MOP unpaint 19%, enemy MOP unpaint 11%
+        enemy   last written by: enemy SPL paint 92%, enemy SOL paint 4%, initial 4%
+   them PAINT_TOWER   killed 212: tiles per tower ok 15.0, wrong colour 3.7, empty 3.1, enemy 2.2; ok median 15.5; 24 ok 35
+        wrongc  last written by: own SOL paint 75%, own SPL paint 22%, initial 4%
+        empty   last written by: initial 80%, own MOP unpaint 18%, enemy MOP unpaint 2%
+        enemy   last written by: enemy SPL paint 95%, enemy SOL paint 5%, initial 0%
+   us   MONEY_TOWER   killed 393: tiles per tower ok 19.8, wrong colour 1.8, empty 0.9, enemy 1.6; ok median 23; 24 ok 185
+        wrongc  last written by: own SOL paint 50%, own SPL paint 43%, initial 7%
+        empty   last written by: initial 53%, enemy MOP unpaint 28%, own MOP unpaint 20%
+        enemy   last written by: enemy SPL paint 79%, initial 13%, enemy SOL paint 8%
+   us   PAINT_TOWER   killed 137: tiles per tower ok 18.5, wrong colour 3.0, empty 1.3, enemy 1.1; ok median 20; 24 ok 42
+        wrongc  last written by: own SOL paint 75%, own SPL paint 22%, initial 3%
+        empty   last written by: initial 95%, own MOP unpaint 3%, enemy MOP unpaint 2%
+        enemy   last written by: enemy SPL paint 81%, enemy SOL paint 17%, initial 2%

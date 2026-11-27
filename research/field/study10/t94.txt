@@ -1,0 +1,133 @@
+== lost games (75): per 100 tower-rounds
+   side type where   towers  tower-rounds  killed/100r  robots killed/100r  damage/100r
+   us    P   all       244         48152        0.32                0.42          188
+   us    P   home      199         41021        0.30                0.38          178
+   us    P   front      45          7131        0.43                0.67          244
+   us    M   all      1091        121316        0.45                0.63          221
+   us    M   home      943        107181        0.46                0.60          220
+   us    M   front     148         14135        0.41                0.84          230
+   them  P   all       421         71749        0.14                0.25           93
+   them  P   home      300         61297        0.13                0.21           85
+   them  P   front     121         10452        0.22                0.45          141
+   them  M   all      1489        172076        0.16                0.24           95
+   them  M   home      986        137837        0.16                0.22           91
+   them  M   front     503         34239        0.16                0.31          114
+   them  D   all        89          7608        0.01                3.06          714
+   them  D   home       52          5392        0.02                2.74          641
+   them  D   front      37          2216        0.00                3.84          893
+   defense towers: 89; by opponent: {'immutable': 4, 'scienceqiu': 9, 'slifland': 2, 'varunvejalla': 34, 'spaark': 34, 'podemice': 2, 'just-woke-up': 2, 'subscribe-to-caterpillow': 2}
+      m4003g0 Oasis        immutable    them built r344  home  life   21        robots killed 0 damage 0
+      m4055g0 DefaultLarge scienceqiu   them built r89   home  life  288        robots killed 6 damage 1360
+      m4055g0 DefaultLarge scienceqiu   them built r283  front life   94        robots killed 2 damage 690
+      m4055g0 DefaultLarge scienceqiu   them built r302  front life   75        robots killed 3 damage 525
+      m4056g0 DonkeyKong   slifland     them built r64   home  life  345        robots killed 18 damage 3585
+      m4056g0 DonkeyKong   slifland     them built r389  front life   50        robots killed 4 damage 850
+      m4154g0 Filter       scienceqiu   them built r65   home  life   66        robots killed 0 damage 0
+      m4154g2 giver        scienceqiu   them built r224  home  life  214        robots killed 16 damage 3275
+      m4160g0 Restart      varunvejalla them built r446  front life   15        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r486  home  life  121        robots killed 2 damage 527
+      m4160g0 Restart      varunvejalla them built r499  front life    6        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r523  front life    9        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r553  front life   34        robots killed 1 damage 106
+      m4160g0 Restart      varunvejalla them built r593  front life  158        robots killed 5 damage 1424
+      m4160g0 Restart      varunvejalla them built r609  home  life  111        robots killed 2 damage 585
+      m4160g0 Restart      varunvejalla them built r644  front life   66        robots killed 2 damage 278
+      m4160g0 Restart      varunvejalla them built r658  front life   12        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r684  front life   49        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r732  front life   30        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r736  front life  108        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r742  home  life  102        robots killed 1 damage 256
+      m4160g0 Restart      varunvejalla them built r762  front life   65        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r776  front life   10        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r826  front life   18        robots killed 0 damage 0
+      m4160g0 Restart      varunvejalla them built r826  front life   18        robots killed 0 damage 0
+      m4222g0 DefaultHuge  spaark       them built r164  home  life   76        robots killed 3 damage 925
+      m4222g0 DefaultHuge  spaark       them built r388  home  life   67        robots killed 3 damage 775
+      m4222g1 quack        spaark       them built r20   home  life   55        robots killed 2 damage 520
+      m4222g1 quack        spaark       them built r113  home  life   58        robots killed 2 damage 390
+      m4222g1 quack        spaark       them built r338  front life   59        robots killed 3 damage 780
+      m4225g1 Restart      varunvejalla them built r395  home  life  151        robots killed 0 damage 0
+      m4227g2 Oasis        podemice     them built r385  front life  200        robots killed 17 damage 4450
+      m4227g2 Oasis        podemice     them built r423  front life  162        robots killed 13 damage 2609
+      m4250g1 SMILE        spaark       them built r329  front life   78        robots killed 4 damage 952
+      m4286g0 DefaultLarge spaark       them built r20   home  life  162        robots killed 8 damage 1985
+      m4286g0 DefaultLarge spaark       them built r182  front life   77        robots killed 2 damage 430
+      m4286g0 DefaultLarge spaark       them built r211  home  life   33        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r403  home  life  139        robots killed 7 damage 1267
+      m4289g1 DonkeyKong   varunvejalla them built r459  home  life  149        robots killed 5 damage 991
+      m4289g1 DonkeyKong   varunvejalla them built r549  home  life   39        robots killed 1 damage 258
+      m4289g1 DonkeyKong   varunvejalla them built r568  home  life   43        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r580  home  life   76        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r588  home  life   39        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r611  home  life   47        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r612  home  life   39        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r618  front life   36        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r632  home  life   54        robots killed 1 damage 330
+      m4289g1 DonkeyKong   varunvejalla them built r655  home  life   49        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r658  front life   50        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r662  home  life   36        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r685  home  life   23        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r691  home  life   17        robots killed 0 damage 0
+      m4289g1 DonkeyKong   varunvejalla them built r704  home  life    4        robots killed 0 damage 0
+      m4309g1 DefaultLarge spaark       them built r63   home  life  146        robots killed 3 damage 830
+      m4309g1 DefaultLarge spaark       them built r74   home  life   99        robots killed 4 damage 1060
+      m4309g1 DefaultLarge spaark       them built r201  front life   33        robots killed 0 damage 0
+      m4309g1 DefaultLarge spaark       them built r234  front life   33        robots killed 0 damage 0
+      m4309g1 DefaultLarge spaark       them built r277  front life   33        robots killed 0 damage 0
+      m4309g1 DefaultLarge spaark       them built r315  front life   11        robots killed 0 damage 0
+      m4366g1 gridworld    immutable    them built r137  home  life   59 KILLED robots killed 3 damage 1475
+
+== won games (100): per 100 tower-rounds
+   side type where   towers  tower-rounds  killed/100r  robots killed/100r  damage/100r
+   us    P   all       717        136712        0.10                0.22           80
+   us    P   home      461        107483        0.10                0.19           74
+   us    P   front     256         29229        0.12                0.31          102
+   us    M   all      2059        221464        0.18                0.24          101
+   us    M   home     1778        196103        0.17                0.23          100
+   us    M   front     281         25361        0.21                0.28          107
+   them  P   all       334         81306        0.26                0.30          133
+   them  P   home      300         77190        0.24                0.29          128
+   them  P   front      34          4116        0.66                0.66          228
+   them  M   all      1034        154465        0.34                0.37          147
+   them  M   home      900        141771        0.32                0.35          142
+   them  M   front     134         12694        0.53                0.57          205
+   them  D   all        35          6018        0.28                6.73         1400
+   them  D   home       30          4482        0.33                7.39         1540
+   them  D   front       5          1536        0.13                4.82          992
+   defense towers: 35; by opponent: {'scienceqiu': 10, 'immutable': 7, 'podemice': 6, 'spaark': 8, 'subscribe-to-caterpillow': 4}
+      m4002g2 sayhi        scienceqiu   them built r257  front life  114        robots killed 16 damage 3025
+      m4003g2 TheBest      immutable    them built r264  home  life   91 KILLED robots killed 6 damage 1300
+      m4003g2 TheBest      immutable    them built r343  home  life  123        robots killed 9 damage 1885
+      m4003g2 TheBest      immutable    them built r387  home  life   41 KILLED robots killed 4 damage 980
+      m4055g2 fix          scienceqiu   them built r141  home  life  316 KILLED robots killed 20 damage 3920
+      m4055g2 fix          scienceqiu   them built r254  front life  233        robots killed 12 damage 2405
+      m4154g1 Parking_lot  scienceqiu   them built r190  home  life   82        robots killed 3 damage 605
+      m4155g0 FourCorners  podemice     them built r201  home  life  127 KILLED robots killed 14 damage 2550
+      m4155g1 catface      podemice     them built r92   home  life  165 KILLED robots killed 9 damage 2135
+      m4155g2 fix          podemice     them built r203  home  life  205        robots killed 26 damage 4721
+      m4222g2 sayhi        spaark       them built r73   front life  222 KILLED robots killed 20 damage 3415
+      m4227g0 DonkeyKong   podemice     them built r201  home  life  159        robots killed 16 damage 3303
+      m4227g0 DonkeyKong   podemice     them built r221  home  life  139        robots killed 7 damage 1582
+      m4227g1 Leaf         podemice     them built r219  home  life   73 KILLED robots killed 18 damage 3155
+      m4288g0 BatSignal    scienceqiu   them built r69   home  life  284 KILLED robots killed 13 damage 3469
+      m4331g2 maze         scienceqiu   them built r1107 home  life   68        robots killed 3 damage 450
+      m4331g2 maze         scienceqiu   them built r1116 home  life  398        robots killed 12 damage 3008
+      m4331g2 maze         scienceqiu   them built r1192 front life  808        robots killed 14 damage 3215
+      m4331g2 maze         scienceqiu   them built r1253 home  life  347 KILLED robots killed 30 damage 6192
+      m4331g2 maze         scienceqiu   them built r1766 home  life  234        robots killed 17 damage 3498
+      m4440g2 headphones   immutable    them built r319  home  life   91 KILLED robots killed 9 damage 1710
+      m4448g1 Portal       spaark       them built r81   home  life  262        robots killed 25 damage 4613
+      m4448g1 Portal       spaark       them built r123  home  life   33        robots killed 0 damage 0
+      m4448g1 Portal       spaark       them built r138  home  life   33        robots killed 0 damage 0
+      m4448g1 Portal       spaark       them built r251  home  life   92        robots killed 14 damage 3236
+      m4516g2 walalilongla subscribe-to them built r125  home  life  240 KILLED robots killed 23 damage 4595
+      m4516g2 walalilongla subscribe-to them built r309  front life  159 KILLED robots killed 12 damage 3180
+      m4520g1 UglySweater  spaark       them built r56   home  life   82        robots killed 2 damage 520
+      m4520g1 UglySweater  spaark       them built r150  home  life   85        robots killed 0 damage 0
+      m4520g1 UglySweater  spaark       them built r171  home  life   73        robots killed 0 damage 0
+      m4523g0 DefaultMediu subscribe-to them built r111  home  life  205 KILLED robots killed 25 damage 4405
+      m4569g1 gridworld    subscribe-to them built r124  home  life  226 KILLED robots killed 18 damage 4353
+      m4602g1 Money        immutable    them built r237  home  life   52 KILLED robots killed 2 damage 905
+      m4602g1 Money        immutable    them built r244  home  life  118 KILLED robots killed 2 damage 940
+      m4602g1 Money        immutable    them built r324  home  life   38 KILLED robots killed 4 damage 980
+

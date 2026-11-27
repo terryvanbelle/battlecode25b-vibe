@@ -1,0 +1,4 @@
+4569 R subscribe-to-caterpillow us=t118,t118,t118 them=caterpillow,caterpillow,caterpillow
+4579 R confused us=t118,t118,t118 them=finals,finals,finals
+4594 R om-nom us=t118,t118,t118 them=srpStack,srpStack,srpStack
+4602 R immutable us=t118,t118,t118 them=immanentize,immanentize,immanentize
