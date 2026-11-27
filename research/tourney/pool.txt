@@ -476,9 +476,9 @@ t122  # replica reference: peak 1726 at #6 (record.py); permanent slot (owner #4
 # y293 (retired: -16 vs t140 after 756 games; refill paint towers 40% closer. The dial is flat from -40% to +50%)
 # y294 (retired: flat, -2 vs t140 after 765 games; refill paint towers 50% closer)
 r140  # champion (substitutes t140: verified identical refactor, owner #57/#58)
-t149
+# t149 (retired: -27 vs r140 after 515 games; opening cover from 150 paint)
 t150
-t151
+# t151 (retired: -79 vs r140 after 315 games; explore painting from r1)
 # t154 (retired: -22 vs r140 after 306 games; SRPs from round 60)
 t152
 # t153 (retired: -24 vs r140 after 320 games; t152 + robots in reach score 55)
@@ -489,3 +489,4 @@ y297
 t155
 t156
 y299
+t157
