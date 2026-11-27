@@ -437,6 +437,8 @@ t135
 y267
 y268
 t136
-y269
-y270
+# y269 (retired: -84 vs t122 after 236 games; never marking is bad)
+# y270 (retired: -24 vs t122 after 248 games)
 t137
+y271
+y272

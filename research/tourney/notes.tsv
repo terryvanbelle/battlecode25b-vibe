@@ -210,3 +210,5 @@ t136	t122 + study 10 2.6c: money towers upgrade only at cost + spare + 5000 chip
 y269	t135 never marking a ruin (t135: marks only with another soldier in view)
 y270	t135 + y266 (dry flag drops at 25+ paint; splashers salt killed towers' ruins)
 t137	t135 + t134 (lone soldier skips marks; explore when refill fails mid-pattern)
+y271	t135 counting only an ally soldier within d2 20 of the ruin as a mate (marks less)
+y272	t135 marking only with 2+ other soldiers in view
