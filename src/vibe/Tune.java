@@ -38,7 +38,7 @@ public strictfp class Tune {
     static final int SOL_SHOT_PAINT = 5;             // Soldier.turn: free shot at the remembered enemy tower from this paint (5 = the attack's cost)
     static final int SOL_RUIN_REFILL = 10;           // Soldier.workRuin: below this, refill mid-pattern
     static final int SRP_REFILL = 15;                // Soldier.workSrp: below this, refill mid-SRP
-    static final int SOL_PAINT_HERE = 25;            // Soldier.paintHere (on the refill path)
+    static final int SOL_PAINT_HERE = 10; // y374 (was 25; y370 15)            // Soldier.paintHere (on the refill path)
     static final int SOL_SIEGE_PAINT = 30;           // Soldier.siege (y219 50)
     static final int SOL_DENY_PAINT = 40;            // Soldier.deny (y206 25)
     static final int SOL_PAINT_NEAR = 40; // y357 (was 50)            // Soldier.paintNear (explore painting)

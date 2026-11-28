@@ -55,3 +55,4 @@ when_pdt,bot,base,change,submission
 2026-11-27 23:27,t188,t186,t186 + study 14 2.5: soldiers paint tiles inside a known paint/money tower 5x5 in its pattern colour,85
 2026-11-28 00:48,y358,t188,soldiers refill below 120 paint (was 100); tuning,86
 2026-11-28 01:47,y360,y358,soldiers explore-paint from 40 paint (was 50); tuning (port of y357),87
+2026-11-28 03:07,y374,y360,soldiers paint underfoot from 10 paint (was 25); tuning,88

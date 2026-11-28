@@ -533,7 +533,7 @@
 # t170 (retired: -49 vs y316 after 220 games; study 13 d1 disintegrate at 0 paint)
 # t171 (retired: built on y316, +13 after 286 games; repair skips enemy paint (ported as t175))
 # y323 (retired: champion 20:07-20:47; -49 behind y328 in its 233 games)
-y323  # replica reference: peak 1827 at #5 on 11-27 20:53 PDT; slot since t186 set 1829 (11-27 23:33); permanent slot (owner #45)
+# y323 (retired: replica reference until 11-28 03:07, displaced by y360 1850; -42 vs y360 after 3032 games)
 # y323 (retired: replica record until y328 (its child, the champion) set 1828 at #5 on 11-27 21:11; -14 vs y328 after 1488 games; y328's parent, so no reference slot)
 # y324 (retired: -22 vs y323 after 356 games; Nav weight 10)
 # t172 (retired: built on y316, -5 after 143 games; t169 + t171 (ported as t176))
@@ -596,7 +596,7 @@ t188  # replica record 1854 at #5, 2026-11-28 00:10 PDT (owner #35); champion un
 # y357 (retired: +23 vs t188 after 261; built on t188, ported as y360)
 # y358 (retired: champion until y360 (11-28 01:46); replica 1849 at #3 (t188's child, so no reference slot))
 # y359 (retired: +20 vs t188 after 211; built on t188, ported as y361)
-y360  # champion (y358 + soldiers explore-paint from 40 paint; crowned 2026-11-28 01:46 PDT)
+y360  # replica reference: peak 1850 at #3 on 11-28 02:09 PDT; champion until y374 (11-28 03:07); permanent slot (owner #45)
 # y361 (retired: -12 vs y358 after 327; guardrail diagnostic (alarm cleared))
 # y362 (retired: -59 vs y358 after 184 games (80-104); moppers refill below 60)
 # y363 (retired: +3 vs y358 after 332; built on y358, ported as y369)
@@ -611,12 +611,17 @@ y360  # champion (y358 + soldiers explore-paint from 40 paint; crowned 2026-11-2
 # y367 (retired: -45 vs y358 after 127)
 # y368 (retired: -47 vs y360 after 186 games; splashers refill below 120)
 # y369 (retired: -21 vs y360 after 377 games; contested ruin skipped 80 rounds)
-t198
-y370
+# t198 (retired: +4 vs y360 after 582 (flat); study 15 2.1 lethal-HP guard)
+# y370 (retired: +3 vs y360 after 534; paint underfoot from 15 (y374 took 10))
 # y371 (retired: -29 vs y360 after 202 games; refill to 7/8)
-y372
+# y372 (retired: +2 vs y360 after 554 (flat))
 # t199 (retired: -30 vs y360 after 417 games; study 15 4.5 pickSrp paint-tower agreement)
-y373
-y374
-y375
-y376
+# y373 (retired: -1 vs y360 after 596 (flat))
+y374  # champion (y360 + soldiers paint underfoot from 10 paint; crowned 2026-11-28 03:07 PDT)
+# y375 (retired: -18 vs y360 after 293)
+# y376 (retired: +16 vs y360 after 218; built on y360, ported as y377)
+y377
+y378
+y379
+y380
+y381
