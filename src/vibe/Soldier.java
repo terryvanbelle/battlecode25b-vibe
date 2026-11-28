@@ -60,13 +60,36 @@ public strictfp class Soldier {
             G.here = rc.getLocation();
             if (rc.canAttack(t)) { rc.attack(t); G.paint = rc.getPaint(); }
         }
-        if (!rc.isActionReady() && rc.isMovementReady() && G.here.distanceSquaredTo(t) <= 9) {
-            Direction away = t.directionTo(G.here);
-            for (Direction d : new Direction[]{away, away.rotateLeft(), away.rotateRight()})
-                if (rc.canMove(d)) { rc.move(d); G.here = rc.getLocation(); break; }
-        }
+        // study 14 2.1b: step out for real (the old three-direction step from r2 4-5 often stayed in range)
+        if (!rc.isActionReady() && rc.isMovementReady()) stepOut(t);
         G.ind += " siege" + t;
         return true;
+    }
+
+
+    // study 14 2.1b: 8% of our hits were followed by a step that stayed in range (theirs 1%). Leave the tower's reach
+    // (r2 9; 16 for a defense tower): of the 8 moves, one that ends beyond it, own paint first and then the largest
+    // r2; if none does, the move with the largest r2, when that gains distance.
+    static void stepOut(MapLocation t) throws GameActionException {
+        RobotController rc = G.rc;
+        int reach = 9;
+        if (rc.canSenseLocation(t)) {
+            RobotInfo r = rc.senseRobotAtLocation(t);
+            if (r != null && r.team != G.me && r.type.isTowerType()) reach = r.type.actionRadiusSquared;
+        }
+        int cur = G.here.distanceSquaredTo(t);
+        if (cur > reach) return;
+        Direction best = null; int bestS = cur;
+        for (Direction d : G.DIRS) {
+            if (!rc.canMove(d)) continue;
+            MapLocation n = G.here.add(d);
+            int r2 = n.distanceSquaredTo(t);
+            int s = r2 > reach ? 1000 + (rc.senseMapInfo(n).getPaint().isAlly() ? 100 : 0) + r2 : r2;
+            if (s > bestS) { bestS = s; best = d; }
+        }
+        if (best == null) return;
+        rc.move(best);
+        G.here = rc.getLocation();
     }
 
     // study 6 2.2: they paint into 48 of our 188 ruins (we finish 15% of those) and we did it to 6 of their 159.

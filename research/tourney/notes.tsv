@@ -336,3 +336,9 @@ y342	towers count a soldier/splasher 40 weaker than a mopper (was 60; y336 20, y
 t188	t186 + t187 (siege step-out fix; pattern-colour painting near our towers)
 y343	an SRP is dropped when its centre is within d2 36 of an enemy tower (was 25)
 y344	splashers value an enemy tower 50 in the splash grid (was 30)
+y345	t186 + y343 (an SRP is dropped within d2 36 of an enemy tower, was 25)
+y346	t186 + y344 (splashers value an enemy tower 50, was 30)
+y347	t186 + y336 (towers count a soldier/splasher 20 weaker than a mopper, was 60)
+t189	t186 + t185 (Towers.forget swaps the dry flag along)
+t190	t186 + study 14 2.1c (step out after the free shot unless a held ruin is within r2 8)
+y348	soldiers siege from 20 paint (was 30), now that the step-out leaves range

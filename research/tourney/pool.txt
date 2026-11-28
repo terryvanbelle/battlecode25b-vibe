@@ -544,7 +544,7 @@ y316  # replica reference: peak 1825 at #5 on 11-27 20:12 PDT; slot since y328 s
 # t176 (retired: built on y323, -6 after 282 games; t174 + t175)
 # t177 (retired: built on y323, -5 after 280 games; SRP redo (ported as t180))
 # y327 (retired: built on y323, +0 after 287 games; churn reset 20)
-y328  # champion (y323 + dry flags 60 rounds; crowned 2026-11-27 20:47)
+y328  # replica record: 1828 at #5 on 2026-11-27 21:11 PDT; permanent slot (owner #35); champion 11-27 20:47 to 23:07
 # y329 (retired: -5 vs y328 after 619 games (flat); dry flags 80 rounds)
 # y330 (retired: built on y323, -1 after 128 games; adjacent dry below 40 (rebuilt as y334))
 # y331 (retired: -9 vs y328 after 332 games; dry flags 100 rounds, the same knob as y329 (80); room for study 14)
@@ -555,7 +555,7 @@ y328  # champion (y323 + dry flags 60 rounds; crowned 2026-11-27 20:47)
 # t178 (retired: -35 vs y328 after 285 games; repair leaves SRP tiles)
 # t179 (retired: -21 vs y328 after 325 games; mopper cooling-turn retreat)
 # t180 (retired: -2 vs y328 after 665 games (flat); SRP skip 150 rounds)
-y336
+# y336 (retired: +14 vs y328 after 706 games, built on y328; ported to t186 as y347)
 # y337 (retired: -45 vs y328 after 291 games; SRP right weight 6)
 # y338 (retired: -12 vs y328 after 563 games (flat); explore reached 20)
 # t181 (retired: -22 vs y328 after 244 games; study 14 2.1a+b siege edge/step-out)
@@ -564,11 +564,17 @@ y336
 # t184 (retired: -26 vs y328 after 246 games; study 14 2.4 paint-tower rebuild)
 # y339 (retired: -20 vs y328 after 216 games; tower target weight 0)
 # y340 (retired: -57 vs y328 after 216 games; paint-tower dry 30)
-y341
-t185
-t186
-t187
-y342
+# y341 (retired: +11 vs y328 after 416 games; y336 + y332, built on y328)
+# t185 (retired: +1 vs y328 after 388 games, built on y328; ported to t186 as t189)
+t186  # champion (y328 + study 14 2.1b siege step-out; crowned 2026-11-27 23:07)
+# t187 (retired: +27 vs y328 after 235 games; kept as t188 (t186 + t187))
+# y342 (retired: +2 vs y328 after 218 games; tower target weight 40, built on y328)
 t188
-y343
-y344
+# y343 (retired: +94 vs y328 after 111 games, built on y328; ported to t186 as y345)
+# y344 (retired: +14 vs y328 after 128 games, built on y328; ported to t186 as y346)
+y345
+y346
+y347
+t189
+t190
+y348
