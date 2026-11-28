@@ -531,7 +531,7 @@ y316  # replica record: 1823 at #5 on 2026-11-27 19:50 PDT; permanent slot (owne
 # t170 (retired: -49 vs y316 after 220 games; study 13 d1 disintegrate at 0 paint)
 # t171 (retired: built on y316, +13 after 286 games; repair skips enemy paint (ported as t175))
 y323  # champion (y316 + churn wait 2, study 13 2.1; crowned 2026-11-27 20:07)
-y324
+# y324 (retired: -22 vs y323 after 356 games; Nav weight 10)
 # t172 (retired: built on y316, -5 after 143 games; t169 + t171 (ported as t176))
 y325
 # t173 (retired: built on y316, -24 after 146 games; soldiers-only money dry-flag exemption)
@@ -542,3 +542,5 @@ t176
 t177
 y327
 y328
+y329
+y330

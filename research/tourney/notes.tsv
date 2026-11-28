@@ -309,3 +309,5 @@ t176	t174 + t175 (t172 ported)
 t177	study 13 4.4: a completed SRP is skipped 150 rounds, not forever, so the completer can redo it
 y327	a churn wait older than 20 rounds starts over (was 50)
 y328	dry flags on money/defence towers last 60 rounds (was 40)
+y329	dry flags on money/defence towers last 80 rounds (y328 60, was 40)
+y330	an adjacent tower below 40 paint is flagged dry (was 20)
