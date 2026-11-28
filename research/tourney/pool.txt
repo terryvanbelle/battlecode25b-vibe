@@ -526,6 +526,8 @@ y322
 y321
 t168
 t169
-t166
+# t166 (retired: -28 vs y316 after 221 games; study 13 w1 churn-wait gate)
 t167
-t170
+# t170 (retired: -49 vs y316 after 220 games; study 13 d1 disintegrate at 0 paint)
+t171
+y323

@@ -296,3 +296,5 @@ t167	t166 + study 13 w2: the pattern repair skips enemy paint (canPaint)
 t168	study 13 2.2 s1: workSrp drops an SRP that disagrees with a money tower first seen after the pick
 t169	study 13 2.3 m1: moppers hit and run on cooling turns too
 t170	study 13 2.4 d1: disintegrate at 0 paint beside an ally, no mopper in sight, no ruin near
+t171	study 13 2.1 w2 alone: the money-pattern repair skips enemy paint (canPaint)
+y323	churn wait 2 rounds (was 3)
