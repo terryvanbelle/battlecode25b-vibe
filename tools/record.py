@@ -44,11 +44,12 @@ def peaks():
 
 def references(bot, champ):
     hist = tourney.champ_history()
-    parent = {h['bot']: h.get('base', '') for h in hist}
-    near = {parent.get(bot)} | {b for b, p in parent.items() if p == bot}
+    C = tourney.canon   # owner #58: a verified substitute is the same bot, so t140 (r140) is t158's parent
+    parent = {C(h['bot']): C(h.get('base', '')) for h in hist}
+    near = {parent.get(C(bot))} | {b for b, p in parent.items() if p == C(bot)}
     pk = peaks()
     ranked = sorted(pk, key=lambda b: (-pk[b][0], pk[b][2]))
-    return [b for b in ranked if b not in (bot, champ) and tourney.canon(b) != champ and b not in near][:2], pk
+    return [b for b in ranked if b not in (bot, champ) and C(b) != champ and C(b) not in near][:2], pk
 
 
 def main():
