@@ -378,3 +378,4 @@ t199	study 15 4.5: pickSrp also skips SRPs disagreeing with our paint towers
 y373	an explore target is dropped after 60 rounds (was 90)
 y374	soldiers paint underfoot from 10 paint (was 25; y370 15)
 y375	soldier-only opening until round 60 (was 80)
+y376	no explore painting before round 100 (was 80; y300 60)
