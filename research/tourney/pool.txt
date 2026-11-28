@@ -609,11 +609,13 @@ y360  # champion (y358 + soldiers explore-paint from 40 paint; crowned 2026-11-2
 # t196 (retired: -102 vs y358 after 211 games (78-133); study 15 4.3 own wrong-colour repaint)
 # t197 (retired: -24 vs y358 after 114; built on y358)
 # y367 (retired: -45 vs y358 after 127)
-y368
+# y368 (retired: -47 vs y360 after 186 games; splashers refill below 120)
 y369
 t198
 y370
-y371
+# y371 (retired: -29 vs y360 after 202 games; refill to 7/8)
 y372
 t199
 y373
+y374
+y375
