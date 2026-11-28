@@ -644,7 +644,10 @@ t206  # champion (t204 + a contested ruin is skipped 20 rounds; crowned 2026-11-
 # t208 (retired: -20 vs t204 after 251 (study 16 4.6))
 # y389 (retired: +5 vs t204 after 210; built on t204, ported as y391)
 y390
-y391
+# y391 (retired: -61 vs t206 after 161 games; siege from 40 paint)
 y392
 y393
 y394
+y395
+y396
+y397
