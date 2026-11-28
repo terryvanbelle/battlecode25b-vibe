@@ -632,14 +632,19 @@ y374  # replica record: 1862 at #3 on 11-28 03:32 PDT; champion until t204 (11-2
 # t201 (retired: -48 vs y374 after 79 (study 16 d1))
 # t202 (retired: -51 vs y374 after 93 (study 16 v1))
 # t203 (retired: -85 vs y374 after 63 (study 16 r1v1))
-t204  # champion (y374 + towers drop the spawn reserve once chips stop rising; crowned 2026-11-28 04:07 PDT)
-y384
-t205
-t206
-y385
-y386
+# t204 (retired: champion until t206 (11-28 05:07); -23 vs t206)
+# y384 (retired: -3 vs t204 after 281)
+# t205 (retired: -15 vs t204 after 284 (study 16 r1))
+t206  # champion (t204 + a contested ruin is skipped 20 rounds; crowned 2026-11-28 05:07 PDT)
+# y385 (retired: +4 vs t204 after 271 (y386 window 40 led))
+# y386 (retired: +13 vs t204 after 323; built on t204, ported as y390)
 # y387 (retired: -87 vs t204 after 166 games; spawn reserve 700)
-t207
-y388
-t208
-y389
+# t207 (retired: -36 vs t204 after 303 (study 16 4.3))
+# y388 (retired: -19 vs t204 after 238)
+# t208 (retired: -20 vs t204 after 251 (study 16 4.6))
+# y389 (retired: +5 vs t204 after 210; built on t204, ported as y391)
+y390
+y391
+y392
+y393
+y394

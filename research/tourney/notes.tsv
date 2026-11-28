@@ -401,3 +401,8 @@ t207	study 16 4.3: a robot waits beside a tower for its cooldown only when the t
 y388	spawn reserve drops after 5 rounds without a chip rise (t204 20, y385 10)
 t208	study 16 4.6: Towers.forget moves the dry flag along with the tower
 y389	soldiers siege enemy towers only from 40 paint (was 30)
+y390	t206 + the reserve lapses after 40 rounds without a chip rise (port of y386)
+y391	t206 + soldiers siege only from 40 paint (port of y389)
+y392	a contested ruin is skipped 10 rounds (t206 20)
+y393	a contested ruin is skipped 30 rounds (t206 20)
+y394	a dry flag on another tower lasts 80 rounds (was 60)

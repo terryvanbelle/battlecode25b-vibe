@@ -49,7 +49,7 @@ public strictfp class Tune {
     static final int SOL_SIEGE_R2 = 144;             // Soldier.siege: kite a remembered enemy tower within this d2 (y209 100)
     static final int SOL_DENY_OURS = 2;              // Soldier.deny: skip a contested ruin already showing this many of our tiles (t85 3; y188/y192/y197 crowned 2; y187 5; y196/y199 1)
     // ruins
-    static final int SOL_CONTESTED_BAD = 50;         // Soldier.pickRuin: a contested ruin is skipped this many rounds (t08)
+    static final int SOL_CONTESTED_BAD = 20; // t206 study 16 2.4 c1 (was 50; y369 80)         // Soldier.pickRuin: a contested ruin is skipped this many rounds (t08)
     static final int SOL_HELPER_R2 = 8;              // Soldier.pickRuin: an ally soldier within this d2 of a ruin is working it
     static final int SOL_PAIR_TOWERS = 2;            // Soldier.pickRuin: with exactly this many towers a second soldier may join a ruin...
     static final int SOL_PAIR_JOIN_R2 = 20;          // ...from within this d2 (t105/y221 crowned; y226 32); otherwise only when adjacent
