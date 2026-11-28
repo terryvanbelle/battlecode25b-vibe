@@ -368,3 +368,10 @@ y366	soldiers siege from 50 paint (was 30; study 15 2.3)
 t196	study 15 4.3: soldiers also repaint our own wrong-colour tile underfoot inside a known tower 5x5
 t197	t195 with the lethal-HP line at 40 (study 15 2.1 h3)
 y367	soldiers explore-paint from 30 paint (was 50; y360 40)
+y368	y360 + splashers refill below 120 paint (port of y365)
+y369	y360 + contested ruin skipped 80 rounds (port of y363)
+t198	y360 + study 15 2.1a+b lethal-HP guard (port of t195)
+y370	soldiers paint underfoot from 15 paint (was 25)
+y371	a refill ends at 7/8 of capacity (was 3/4)
+y372	soldiers deny enemy ruins from 30 paint (was 40)
+t199	study 15 4.5: pickSrp also skips SRPs disagreeing with our paint towers

@@ -41,7 +41,7 @@ public strictfp class Tune {
     static final int SOL_PAINT_HERE = 25;            // Soldier.paintHere (on the refill path)
     static final int SOL_SIEGE_PAINT = 30;           // Soldier.siege (y219 50)
     static final int SOL_DENY_PAINT = 40;            // Soldier.deny (y206 25)
-    static final int SOL_PAINT_NEAR = 50;            // Soldier.paintNear (explore painting)
+    static final int SOL_PAINT_NEAR = 40; // y357 (was 50)            // Soldier.paintNear (explore painting)
     static final int SRP_PAINT = 60;                 // Soldier.srpTurn: start an SRP only with this much paint
     static final int SOL_REFILL = 120; // y358 (was 100)               // Soldier.turn: refill below this
     static final int SOL_SAVE_PAINT_UNTIL = 80;      // Soldier.turn: no explore painting before this round (study 3 tactic 2: t04 crowned 80, y58 50); not OPENING_SOLDIERS_UNTIL

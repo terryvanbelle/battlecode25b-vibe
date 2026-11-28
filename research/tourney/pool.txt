@@ -594,18 +594,25 @@ t188  # replica record 1854 at #5, 2026-11-28 00:10 PDT (owner #35); champion un
 # y355 (retired: +10 vs t188 after 430; built on t188, ported as y363)
 # y356 (retired: +0 vs t188 after 268; built on t188)
 # y357 (retired: +23 vs t188 after 261; built on t188, ported as y360)
-y358  # champion (t188 + soldiers refill below 120 paint; crowned 2026-11-28 00:46 PDT)
+# y358 (retired: champion until y360 (11-28 01:46); replica 1849 at #3 (t188's child, so no reference slot))
 # y359 (retired: +20 vs t188 after 211; built on t188, ported as y361)
-y360
-y361
+y360  # champion (y358 + soldiers explore-paint from 40 paint; crowned 2026-11-28 01:46 PDT)
+# y361 (retired: -12 vs y358 after 327; guardrail diagnostic (alarm cleared))
 # y362 (retired: -59 vs y358 after 184 games (80-104); moppers refill below 60)
-y363
-t193
-y364
-y365
+# y363 (retired: +3 vs y358 after 332; built on y358, ported as y369)
+# t193 (retired: -17 vs y358 after 312; built on y358)
+# y364 (retired: -29 vs y358 after 291)
+# y365 (retired: +9 vs y358 after 337; built on y358, ported as y368)
 # t194 (retired: -172 vs y358 after 48 games (13-35), hopelessly behind; study 15 2.1a alone; t195 carries 2.1a+b)
-t195
-y366
+# t195 (retired: +0 vs y358 after 337; built on y358, ported as t198)
+# y366 (retired: -53 vs y358 after 290; siege from 50 paint (study 15 2.3))
 # t196 (retired: -102 vs y358 after 211 games (78-133); study 15 4.3 own wrong-colour repaint)
-t197
-y367
+# t197 (retired: -24 vs y358 after 114; built on y358)
+# y367 (retired: -45 vs y358 after 127)
+y368
+y369
+t198
+y370
+y371
+y372
+t199
