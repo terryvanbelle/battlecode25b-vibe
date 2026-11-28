@@ -365,3 +365,4 @@ y365	splashers refill below 120 paint (was 100)
 t194	study 15 2.1a: no siege step-in at HP 30 or less
 t195	study 15 2.1a+b: t194 + Nav keeps out of tower range at HP 30 or less
 y366	soldiers siege from 50 paint (was 30; study 15 2.3)
+t196	study 15 4.3: soldiers also repaint our own wrong-colour tile underfoot inside a known tower 5x5
