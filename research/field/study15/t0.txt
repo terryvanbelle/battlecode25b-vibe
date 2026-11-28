@@ -1,0 +1,56 @@
+44 lost games: m6901g0 DefaultMedium(confus,ALL300), m6902g2 HungerGames(immuta,MAJ406), m6903g1 Jail(om-nom,ALL153), m6903g2 Parking_lot(om-nom,ALL413), m6937g0 Circuit(confus,MAJ483), m6937g1 Justice(confus,MAJ232), m6938g0 CastleDefense(immuta,MAJ119), m6938g1 Racetrack(immuta,MAJ358), m6939g0 DefaultHuge(om-nom,MAJ376), m6939g1 Oasis(om-nom,MAJ368), m6940g0 Jail(subscr,ALL136), m6940g1 Justice(subscr,MAJ430), m6940g2 Portal(subscr,MAJ643), m6941g0 DefaultHuge(just-w,MAJ345), m6941g1 Oasis(just-w,MAJ342), m6941g2 PlumberGame(just-w,MAJ387), m6942g0 Barcode(spaark,MAJ358), m6942g1 Terminal(spaark,ALL493), m6965g1 Parking_lot(subscr,MAJ355), m6979g0 FourCorners(om-nom,ALL624), m6980g0 BunnyGame(immuta,MAJ384), m6980g2 sierpinski(immuta,MAJ576), m6981g0 Castle(confus,MAJ360), m6981g2 windmill(confus,ALL411), m6982g2 Oasis(subscr,MAJ354), m6983g1 TheBest(just-w,MAJ475), m6983g2 galaxy(just-w,MAJ296), m6984g0 DefaultMedium(spaark,MAJ572), m6984g1 Money(spaark,MAJ552), m7016g0 Barcode(immuta,MAJ292), m7016g1 BatSignal(immuta,MAJ372), m7050g0 BatSignal(spaark,ALL328), m7050g1 catface(spaark,ALL255), m7060g1 TheBest(subscr,MAJ410), m7060g2 shell(subscr,MAJ460), m7140g0 AlarmClock(spaark,MAJ360), m7140g1 DefaultSmall(spaark,ALL157), m7181g0 Mirage(immuta,MAJ295), m7204g0 TheBest(just-w,MAJ357), m7205g0 AlarmClock(immuta,MAJ397), m7206g1 BunnyGame(om-nom,ALL194), m7207g1 Piglets2(spaark,ALL343), m7208g2 walalilongla(confus,MAJ377), m7209g0 Bread(gone-w,MAJ492)
+wintypes: {'MAJORITY_PAINTED': 32, 'ALL_UNITS_DESTROYED': 12}  median end round 364.0
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   44 |     9.4/8.8  110.5/109.5      3.0/3.0      1.0/1.0      2.0/2.0      0.0/0.0  740.0/890.0  1263.0/1282.0      0.0/0.0      7.0/5.0      7.0/5.0      0.0/0.0      0.0/0.0
+r50   44 |   13.2/13.0  155.0/167.0      4.0/4.0      1.0/1.0      3.0/3.0      0.0/0.0  880.0/570.0  1527.0/1663.5      0.0/0.0      8.0/7.0      8.0/5.5      0.0/0.0      0.0/1.0
+r75   44 |   15.1/16.6  172.0/223.0      5.0/5.0      1.0/1.0      4.0/4.0      0.0/0.0  775.0/735.0  2056.5/2159.0      0.0/0.0      8.0/8.5      8.0/6.0      0.0/0.0      0.0/2.0
+r100  44 |   20.2/20.1  231.5/267.5      5.0/6.0      1.0/1.0      4.0/4.0      0.0/0.0  1150.0/803.0  1584.0/2574.0      0.0/0.0     9.0/10.0      8.0/7.0      0.0/0.5      1.0/3.0
+r150  42 |   25.1/28.2  353.0/372.5      6.0/7.0      1.0/2.0      5.0/5.0      0.0/0.0  1200.0/1071.0  1653.5/2690.0      0.0/0.0    11.0/17.0      9.0/8.0      1.0/1.0      2.0/5.0
+r200  39 |   30.8/35.8      421/475          6/8          1/2          5/6          0/0    2567/1150    1428/2699          0/1        13/19          7/9          2/3          3/8
+r300  34 |   32.0/50.9  401.5/655.5     5.0/10.0      2.0/3.0      3.5/6.5      0.0/0.0  2313.0/1215.5  1299.0/5333.0      1.0/4.0    10.0/31.5     4.0/12.0     3.0/11.0     4.0/10.5
+r400  15 |   26.4/56.7      314/527         3/10          1/3          2/6          0/0    4204/1560     763/4503          1/4         7/30         2/11          3/8         3/10
+
+m6901g0 y328 confused     DefaultMedium  rounds r101-400 with chips>=3000: us  10 them  52; max srp us 2 them 4
+m6902g2 y328 immutable    HungerGames    rounds r101-400 with chips>=3000: us 107 them   2; max srp us 2 them 9
+m6903g1 y328 om-nom       Jail           rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m6903g2 y328 om-nom       Parking_lot    rounds r101-400 with chips>=3000: us  90 them  35; max srp us 2 them 2
+m6937g0 y328 confused     Circuit        rounds r101-400 with chips>=3000: us  63 them  80; max srp us 11 them 8
+m6937g1 y328 confused     Justice        rounds r101-400 with chips>=3000: us  51 them   5; max srp us 0 them 1
+m6938g0 y328 immutable    CastleDefense  rounds r101-400 with chips>=3000: us  19 them   0; max srp us 0 them 0
+m6938g1 y328 immutable    Racetrack      rounds r101-400 with chips>=3000: us 242 them   0; max srp us 1 them 2
+m6939g0 y328 om-nom       DefaultHuge    rounds r101-400 with chips>=3000: us   0 them  32; max srp us 6 them 25
+m6939g1 y328 om-nom       Oasis          rounds r101-400 with chips>=3000: us  88 them  54; max srp us 17 them 34
+m6940g0 y328 subscribe-to Jail           rounds r101-400 with chips>=3000: us  36 them   0; max srp us 0 them 0
+m6940g1 y328 subscribe-to Justice        rounds r101-400 with chips>=3000: us 188 them 124; max srp us 0 them 0
+m6940g2 y328 subscribe-to Portal         rounds r101-400 with chips>=3000: us  55 them  92; max srp us 1 them 3
+m6941g0 y328 just-woke-up DefaultHuge    rounds r101-400 with chips>=3000: us   0 them   0; max srp us 18 them 34
+m6941g1 y328 just-woke-up Oasis          rounds r101-400 with chips>=3000: us  52 them  21; max srp us 11 them 40
+m6941g2 y328 just-woke-up PlumberGame    rounds r101-400 with chips>=3000: us 102 them  24; max srp us 8 them 18
+m6942g0 y328 spaark       Barcode        rounds r101-400 with chips>=3000: us  89 them  13; max srp us 0 them 1
+m6942g1 y328 spaark       Terminal       rounds r101-400 with chips>=3000: us 131 them  57; max srp us 0 them 8
+m6965g1 y328 subscribe-to Parking_lot    rounds r101-400 with chips>=3000: us  85 them   0; max srp us 3 them 7
+m6979g0 y328 om-nom       FourCorners    rounds r101-400 with chips>=3000: us 106 them 218; max srp us 1 them 2
+m6980g0 y328 immutable    BunnyGame      rounds r101-400 with chips>=3000: us  31 them   0; max srp us 0 them 5
+m6980g2 y328 immutable    sierpinski     rounds r101-400 with chips>=3000: us  95 them  91; max srp us 2 them 10
+m6981g0 y328 confused     Castle         rounds r101-400 with chips>=3000: us 147 them  27; max srp us 1 them 2
+m6981g2 y328 confused     windmill       rounds r101-400 with chips>=3000: us 178 them   3; max srp us 3 them 1
+m6982g2 y328 subscribe-to Oasis          rounds r101-400 with chips>=3000: us  36 them  51; max srp us 15 them 36
+m6983g1 y328 just-woke-up TheBest        rounds r101-400 with chips>=3000: us   8 them   2; max srp us 11 them 28
+m6983g2 y328 just-woke-up galaxy         rounds r101-400 with chips>=3000: us  50 them   0; max srp us 2 them 9
+m6984g0 y328 spaark       DefaultMedium  rounds r101-400 with chips>=3000: us 122 them   0; max srp us 4 them 11
+m6984g1 y328 spaark       Money          rounds r101-400 with chips>=3000: us  55 them  25; max srp us 4 them 8
+m7016g0 y328 immutable    Barcode        rounds r101-400 with chips>=3000: us  91 them   0; max srp us 1 them 2
+m7016g1 y328 immutable    BatSignal      rounds r101-400 with chips>=3000: us 159 them   0; max srp us 1 them 5
+m7050g0 y328 spaark       BatSignal      rounds r101-400 with chips>=3000: us 124 them   6; max srp us 0 them 4
+m7050g1 y328 spaark       catface        rounds r101-400 with chips>=3000: us   3 them   0; max srp us 0 them 3
+m7060g1 y328 subscribe-to TheBest        rounds r101-400 with chips>=3000: us  18 them   7; max srp us 9 them 30
+m7060g2 y328 subscribe-to shell          rounds r101-400 with chips>=3000: us  46 them  24; max srp us 1 them 5
+m7140g0 y328 spaark       AlarmClock     rounds r101-400 with chips>=3000: us  76 them   0; max srp us 2 them 4
+m7140g1 y328 spaark       DefaultSmall   rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m7181g0 t186 immutable    Mirage         rounds r101-400 with chips>=3000: us  49 them   1; max srp us 2 them 4
+m7204g0 t188 just-woke-up TheBest        rounds r101-400 with chips>=3000: us  12 them   8; max srp us 10 them 29
+m7205g0 t188 immutable    AlarmClock     rounds r101-400 with chips>=3000: us  67 them   0; max srp us 2 them 9
+m7206g1 t188 om-nom       BunnyGame      rounds r101-400 with chips>=3000: us  94 them   0; max srp us 1 them 1
+m7207g1 t188 spaark       Piglets2       rounds r101-400 with chips>=3000: us  26 them  10; max srp us 1 them 10
+m7208g2 t188 confused     walalilongla   rounds r101-400 with chips>=3000: us   3 them  29; max srp us 1 them 7
+m7209g0 t188 gone-whalin  Bread          rounds r101-400 with chips>=3000: us 226 them   0; max srp us 0 them 0

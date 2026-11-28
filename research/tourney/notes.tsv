@@ -355,3 +355,13 @@ y356	SRPs may start from round 80 (was 100)
 y357	soldiers explore-paint from 40 paint (was 50)
 y358	soldiers refill below 120 paint (was 100)
 y359	t188 with dry flags back at 40 rounds (reverts y328; guardrail diagnostic)
+y360	y358 + soldiers explore-paint from 40 paint (port of y357)
+y361	y358 with dry flags back at 40 rounds (port of y359; guardrail diagnostic)
+y362	y358 + moppers refill below 60 paint (port of y354)
+y363	y358 + contested ruin skipped 80 rounds (port of y355)
+t193	y358 + free-shot step-out (port of t192)
+y364	soldiers refill below 140 paint (y358 120)
+y365	splashers refill below 120 paint (was 100)
+t194	study 15 2.1a: no siege step-in at HP 30 or less
+t195	study 15 2.1a+b: t194 + Nav keeps out of tower range at HP 30 or less
+y366	soldiers siege from 50 paint (was 30; study 15 2.3)

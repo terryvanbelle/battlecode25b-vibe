@@ -1,0 +1,43 @@
+per 1000 of our robot-turns, all games (wins + losses), repeats left out
+t140 (study 13) all                169 g  hit0 beside  1.00  churn case  0.67  (of all hit0  14%)  turns beside dry  24.1  stay med 2.0 3+  30% end at 0   9%  arrive 50.0  churns/1000r 12.9
+t140 (study 13) lost                78 g  hit0 beside  1.68  churn case  1.14  (of all hit0  16%)  turns beside dry  36.6  stay med 2.0 3+  31% end at 0  10%  arrive 44.0  churns/1000r  8.6
+t140 (study 13) won                 91 g  hit0 beside  0.56  churn case  0.36  (of all hit0  11%)  turns beside dry  16.1  stay med 2.0 3+  28% end at 0   7%  arrive 57.0  churns/1000r 17.0
+t158 (study 13) all                 51 g  hit0 beside  0.79  churn case  0.59  (of all hit0  16%)  turns beside dry  26.7  stay med 2 3+  26% end at 0   6%  arrive 50  churns/1000r 13.7
+t158 (study 13) lost                24 g  hit0 beside  1.26  churn case  1.08  (of all hit0  18%)  turns beside dry  37.2  stay med 2 3+  25% end at 0   8%  arrive 39  churns/1000r  7.2
+t158 (study 13) won                 27 g  hit0 beside  0.59  churn case  0.39  (of all hit0  14%)  turns beside dry  22.4  stay med 2.0 3+  26% end at 0   5%  arrive 61.0  churns/1000r 20.5
+
+t158 (study 14) all                  3 g  hit0 beside  1.28  churn case  1.11  (of all hit0  21%)  turns beside dry  45.2  stay med 2.0 3+  29% end at 0   5%  arrive 42.0  churns/1000r 23.8
+t158 (study 14) lost                 1 g  hit0 beside  0.00  churn case  0.00  (of all hit0   0%)  turns beside dry  22.9  stay med 1 3+   0% end at 0   0%  arrive 66  churns/1000r  0.0
+t158 (study 14) won                  2 g  hit0 beside  1.35  churn case  1.17  (of all hit0  23%)  turns beside dry  46.5  stay med 2 3+  31% end at 0   6%  arrive 38  churns/1000r 29.2
+t160 (study 14) all                 21 g  hit0 beside  0.51  churn case  0.33  (of all hit0  11%)  turns beside dry  18.8  stay med 2.0 3+  28% end at 0   5%  arrive 60.0  churns/1000r 12.6
+t160 (study 14) lost                 8 g  hit0 beside  0.67  churn case  0.49  (of all hit0  13%)  turns beside dry  22.1  stay med 2 3+  27% end at 0   7%  arrive 55  churns/1000r 11.6
+t160 (study 14) won                 13 g  hit0 beside  0.40  churn case  0.23  (of all hit0   8%)  turns beside dry  16.5  stay med 2 3+  28% end at 0   4%  arrive 64  churns/1000r 13.4
+y316 (study 14) all                 53 g  hit0 beside  0.88  churn case  0.73  (of all hit0  20%)  turns beside dry  30.9  stay med 2 3+  24% end at 0   7%  arrive 43  churns/1000r 13.0
+y316 (study 14) lost                20 g  hit0 beside  1.28  churn case  1.11  (of all hit0  21%)  turns beside dry  45.2  stay med 2 3+  25% end at 0   7%  arrive 42  churns/1000r  8.5
+y316 (study 14) won                 33 g  hit0 beside  0.73  churn case  0.60  (of all hit0  20%)  turns beside dry  25.7  stay med 2.0 3+  24% end at 0   6%  arrive 44.0  churns/1000r 15.6
+y323 (study 14) all                  5 g  hit0 beside  0.47  churn case  0.31  (of all hit0  11%)  turns beside dry  15.5  stay med 2.0 3+  34% end at 0  10%  arrive 68.0  churns/1000r 15.9
+y323 (study 14) lost                 2 g  hit0 beside  1.10  churn case  0.76  (of all hit0  13%)  turns beside dry  29.1  stay med 2 3+  44% end at 0  14%  arrive 57  churns/1000r  8.6
+y323 (study 14) won                  3 g  hit0 beside  0.17  churn case  0.08  (of all hit0   6%)  turns beside dry   8.8  stay med 1 3+  24% end at 0   6%  arrive 92  churns/1000r 22.6
+
+y328 (study 15) all                 73 g  hit0 beside  0.78  churn case  0.61  (of all hit0  16%)  turns beside dry  23.8  stay med 2 3+  29% end at 0   8%  arrive 42  churns/1000r 14.5
+y328 (study 15) lost                37 g  hit0 beside  1.19  churn case  0.93  (of all hit0  16%)  turns beside dry  31.1  stay med 2 3+  33% end at 0  10%  arrive 44  churns/1000r  7.6
+y328 (study 15) won                 36 g  hit0 beside  0.60  churn case  0.48  (of all hit0  16%)  turns beside dry  20.5  stay med 2.0 3+  27% end at 0   7%  arrive 41.0  churns/1000r 20.8
+t186 (study 15) all                  6 g  hit0 beside  0.24  churn case  0.16  (of all hit0   8%)  turns beside dry   9.8  stay med 1 3+  33% end at 0   6%  arrive 90  churns/1000r 13.6
+t186 (study 15) lost                 1 g  hit0 beside  1.29  churn case  1.29  (of all hit0  27%)  turns beside dry  66.9  stay med 3.0 3+  53% end at 0  12%  arrive 88.0  churns/1000r 13.6
+t186 (study 15) won                  5 g  hit0 beside  0.14  churn case  0.06  (of all hit0   4%)  turns beside dry   4.7  stay med 1 3+  21% end at 0   3%  arrive 91  churns/1000r 13.6
+t188 (study 15) all                 21 g  hit0 beside  0.40  churn case  0.27  (of all hit0   9%)  turns beside dry  16.0  stay med 2.0 3+  27% end at 0   5%  arrive 56.0  churns/1000r 14.6
+t188 (study 15) lost                 6 g  hit0 beside  1.02  churn case  0.66  (of all hit0  11%)  turns beside dry  32.7  stay med 2 3+  25% end at 0   5%  arrive 42  churns/1000r  8.3
+t188 (study 15) won                 15 g  hit0 beside  0.30  churn case  0.20  (of all hit0   8%)  turns beside dry  13.3  stay med 2 3+  28% end at 0   4%  arrive 64  churns/1000r 17.0
+
+per opponent, all games: churn case per 1000 robot-turns (games)
+                                   t140/13         t158/13         t158/14         t160/14         y316/14         y323/14            y328            t186            t188
+confused                         0.73 (16)       0.89 ( 9)               -       0.06 ( 3)       0.51 ( 5)               -       0.25 ( 9)               -       0.22 ( 3)
+gone-whalin                      0.51 (14)               -               -               -               -               -               -               -       0.43 ( 3)
+immutable                        0.59 (24)       0.48 ( 9)               -       0.08 ( 3)       0.98 (13)               -       0.53 (18)       0.90 ( 3)       0.32 ( 3)
+just-woke-up                     1.49 ( 6)       0.75 ( 6)               -       0.40 ( 3)       0.29 ( 6)               -       0.58 ( 5)               -       0.42 ( 3)
+lobster-roll                     0.65 ( 3)               -               -               -               -               -               -               -               -
+old-but-gold                     0.24 ( 3)       0.58 ( 3)               -               -               -               -               -               -               -
+om-nom                           0.65 (17)       0.19 ( 6)               -       0.36 ( 3)       0.22 ( 6)               -       0.55 ( 9)               -       0.37 ( 3)
+scienceqiu                       0.45 (20)               -               -               -       0.06 ( 6)               -               -               -       0.09 ( 3)
+spaark                           0.88 (37)       0.59 ( 9)               -       0.44 ( 6)       0.64 (11)               -       0.58 (15)       0.00 ( 3)       0.14 ( 3)
+subscribe-to-caterpillow         0.54 (29)       0.63 ( 9)       1.11 ( 3)       0.68 ( 3)       1.27 ( 6)       0.31 ( 5)       0.97 (17)               -               -

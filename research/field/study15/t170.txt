@@ -1,0 +1,32 @@
+
+== lost: 44 games
+  us: hits by HP band: per game, the run goes on (another hit within 3 rounds), the soldier dies to that tower within 5 rounds
+       0- 49:  14.0 ( 50% /  73%)   50- 99:  13.0 ( 83% /  45%)  100-149:  29.3 ( 87% /   9%)  150-199:  42.8 ( 89% /   1%)  200-249:  34.5 ( 91% /   1%)  250-299:  16.5 ( 97% /   0%)
+  us: hits by exposures already taken in the run (0..6+): per game (goes on / dies)
+     0:   9.9 ( 91% /   3%)  1:  33.0 ( 91% /   5%)  2:  29.5 ( 91% /   5%)  3:  24.2 ( 88% /   8%)  4:  19.1 ( 86% /  12%)  5:  13.4 ( 82% /  18%)  6+:  21.0 ( 66% /  47%)
+  us: runs that end alive with the tower standing:  8.3/game; HP at the last hit: 0-29:7% 30-59:16% 60-89:9% 90-119:16% 120-149:11% 150-179:17% 180-209:14% 210-239:8% 240-269:3%
+     left at <100 HP:  2.7/game, paint then  29.4; in the next 40 rounds: re-enters that tower's reach  13%, any enemy tower's  26%; dies to a tower  17%, starves  75%, to a robot   0%; rounds alive 10.3/40; paints  0.7 tiles; towers+SRPs 0.03
+     left at >=100 HP:  5.6/game, paint then  47.0; in the next 40 rounds: re-enters that tower's reach  12%, any enemy tower's  30%; dies to a tower  13%, starves  71%, to a robot   0%; rounds alive 14.1/40; paints  0.7 tiles; towers+SRPs 0.04
+  them: hits by HP band: per game, the run goes on (another hit within 3 rounds), the soldier dies to that tower within 5 rounds
+       0- 49:  13.2 ( 50% /  40%)   50- 99:  17.5 ( 76% /  15%)  100-149:  36.6 ( 89% /   3%)  150-199:  48.9 ( 91% /   0%)  200-249:  42.0 ( 90% /   0%)  250-299:  15.8 ( 94% /   0%)
+  them: hits by exposures already taken in the run (0..6+): per game (goes on / dies)
+     0:  13.4 ( 91% /   2%)  1:  41.2 ( 90% /   2%)  2:  34.1 ( 90% /   2%)  3:  27.3 ( 88% /   3%)  4:  21.1 ( 84% /   4%)  5:  15.4 ( 84% /   7%)  6+:  21.6 ( 69% /  21%)
+  them: runs that end alive with the tower standing:  8.8/game; HP at the last hit: 0-29:10% 30-59:29% 60-89:19% 90-119:12% 120-149:9% 150-179:6% 180-209:5% 210-239:6% 240-269:4%
+     left at <100 HP:  5.3/game, paint then  58.7; in the next 40 rounds: re-enters that tower's reach  16%, any enemy tower's  21%; dies to a tower   5%, starves  46%, to a robot   0%; rounds alive 24.3/40; paints  3.2 tiles; towers+SRPs 0.07
+     left at >=100 HP:  3.6/game, paint then  55.4; in the next 40 rounds: re-enters that tower's reach  29%, any enemy tower's  40%; dies to a tower   6%, starves  46%, to a robot   0%; rounds alive 19.7/40; paints  2.1 tiles; towers+SRPs 0.11
+
+== won: 56 games
+  us: hits by HP band: per game, the run goes on (another hit within 3 rounds), the soldier dies to that tower within 5 rounds
+       0- 49:  20.3 ( 52% /  76%)   50- 99:  19.3 ( 81% /  40%)  100-149:  42.1 ( 86% /   8%)  150-199:  58.8 ( 91% /   1%)  200-249:  53.0 ( 91% /   0%)  250-299:  21.7 ( 95% /   0%)
+  us: hits by exposures already taken in the run (0..6+): per game (goes on / dies)
+     0:  16.3 ( 91% /   4%)  1:  47.1 ( 91% /   5%)  2:  42.5 ( 91% /   5%)  3:  34.0 ( 89% /   6%)  4:  26.9 ( 85% /  10%)  5:  19.7 ( 81% /  17%)  6+:  28.8 ( 68% /  49%)
+  us: runs that end alive with the tower standing:  9.3/game; HP at the last hit: 0-29:8% 30-59:11% 60-89:12% 90-119:18% 120-149:14% 150-179:11% 180-209:12% 210-239:10% 240-269:2%
+     left at <100 HP:  3.2/game, paint then  30.2; in the next 40 rounds: re-enters that tower's reach  12%, any enemy tower's  21%; dies to a tower  14%, starves  65%, to a robot   0%; rounds alive 12.4/40; paints  0.7 tiles; towers+SRPs 0.04
+     left at >=100 HP:  6.1/game, paint then  48.4; in the next 40 rounds: re-enters that tower's reach  19%, any enemy tower's  35%; dies to a tower   7%, starves  69%, to a robot   0%; rounds alive 15.1/40; paints  0.6 tiles; towers+SRPs 0.03
+  them: hits by HP band: per game, the run goes on (another hit within 3 rounds), the soldier dies to that tower within 5 rounds
+       0- 49:  12.6 ( 48% /  48%)   50- 99:  15.9 ( 75% /  26%)  100-149:  34.6 ( 88% /   7%)  150-199:  45.5 ( 90% /   1%)  200-249:  35.7 ( 91% /   1%)  250-299:  15.7 ( 95% /   0%)
+  them: hits by exposures already taken in the run (0..6+): per game (goes on / dies)
+     0:  10.7 ( 90% /   3%)  1:  37.4 ( 91% /   4%)  2:  31.0 ( 90% /   3%)  3:  25.0 ( 88% /   3%)  4:  19.4 ( 85% /   6%)  5:  14.4 ( 87% /  10%)  6+:  22.1 ( 67% /  32%)
+  them: runs that end alive with the tower standing:  9.7/game; HP at the last hit: 0-29:9% 30-59:22% 60-89:19% 90-119:11% 120-149:8% 150-179:8% 180-209:10% 210-239:9% 240-269:3%
+     left at <100 HP:  5.1/game, paint then  43.9; in the next 40 rounds: re-enters that tower's reach  20%, any enemy tower's  28%; dies to a tower   6%, starves  63%, to a robot   0%; rounds alive 19.1/40; paints  2.2 tiles; towers+SRPs 0.04
+     left at >=100 HP:  4.6/game, paint then  42.5; in the next 40 rounds: re-enters that tower's reach  30%, any enemy tower's  42%; dies to a tower   5%, starves  61%, to a robot   0%; rounds alive 16.8/40; paints  1.4 tiles; towers+SRPs 0.02

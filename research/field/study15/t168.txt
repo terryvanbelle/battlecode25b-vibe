@@ -1,0 +1,150 @@
+
+== all
+  t160               us    21 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  21.2/g  96%  pri/own  17.2/g  10%  sec/empty  23.1/g  19%  sec/own  21.7/g  47%
+                                 money tower-rounds   1733/g  intact  43%  own other colour on a tile  47% (the only fault  31%)  tiles per tower-round: own wrong 2.75, enemy 0.47, empty 2.35
+                                 paint tower-rounds    922/g  intact  17%  own other colour on a tile  75% (the only fault  47%)  tiles per tower-round: own wrong 3.59, enemy 0.75, empty 2.92
+                                 drained money turns (2000+ chips) 218.7/g: intact  27%  own other colour  61% (only fault  45%)  enemy  14%  empty  22%;  churns 4.86/g
+  t160               them  21 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  12.5/g  80%  pri/own  23.8/g  20%  sec/empty  11.4/g  32%  sec/own  40.1/g  47%
+                                 money tower-rounds   1682/g  intact  38%  own other colour on a tile  58% (the only fault  39%)  tiles per tower-round: own wrong 3.50, enemy 0.28, empty 2.59
+                                 paint tower-rounds    744/g  intact  26%  own other colour on a tile  67% (the only fault  36%)  tiles per tower-round: own wrong 3.48, enemy 0.34, empty 4.73
+                                 drained money turns (2000+ chips) 255.9/g: intact  30%  own other colour  67% (only fault  58%)  enemy   8%  empty   8%;  churns 3.38/g
+  y316               us    53 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  19.8/g  96%  pri/own  21.9/g  12%  sec/empty  22.5/g  22%  sec/own  31.2/g  45%
+                                 money tower-rounds   2196/g  intact  40%  own other colour on a tile  52% (the only fault  34%)  tiles per tower-round: own wrong 2.52, enemy 0.63, empty 2.13
+                                 paint tower-rounds    968/g  intact  15%  own other colour on a tile  77% (the only fault  58%)  tiles per tower-round: own wrong 3.90, enemy 0.40, empty 2.58
+                                 drained money turns (2000+ chips) 289.8/g: intact  20%  own other colour  72% (only fault  57%)  enemy  15%  empty  14%;  churns 5.85/g
+  y316               them  53 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  13.5/g  85%  pri/own  19.0/g  21%  sec/empty  13.7/g  32%  sec/own  18.6/g  32%
+                                 money tower-rounds   1751/g  intact  47%  own other colour on a tile  48% (the only fault  32%)  tiles per tower-round: own wrong 2.62, enemy 0.36, empty 2.19
+                                 paint tower-rounds    877/g  intact  24%  own other colour on a tile  66% (the only fault  36%)  tiles per tower-round: own wrong 3.09, enemy 0.49, empty 4.73
+                                 drained money turns (2000+ chips) 208.2/g: intact  45%  own other colour  49% (only fault  43%)  enemy  11%  empty   4%;  churns 1.68/g
+  y323               us     5 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  16.4/g  98%  pri/own  22.6/g  18%  sec/empty  12.8/g  31%  sec/own  34.0/g  46%
+                                 money tower-rounds   1684/g  intact  43%  own other colour on a tile  46% (the only fault  35%)  tiles per tower-round: own wrong 1.74, enemy 0.29, empty 2.64
+                                 paint tower-rounds    795/g  intact  10%  own other colour on a tile  84% (the only fault  61%)  tiles per tower-round: own wrong 4.19, enemy 0.49, empty 3.04
+                                 drained money turns (2000+ chips) 282.0/g: intact   9%  own other colour  78% (only fault  66%)  enemy  20%  empty  13%;  churns 6.20/g
+  y323               them   5 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  10.4/g  67%  pri/own  17.4/g   5%  sec/empty   7.6/g  61%  sec/own  21.2/g   4%
+                                 money tower-rounds   1472/g  intact  38%  own other colour on a tile  61% (the only fault  43%)  tiles per tower-round: own wrong 2.39, enemy 0.17, empty 2.45
+                                 paint tower-rounds    793/g  intact  13%  own other colour on a tile  87% (the only fault  43%)  tiles per tower-round: own wrong 4.63, enemy 0.19, empty 3.94
+                                 drained money turns (2000+ chips) 169.0/g: intact  16%  own other colour  83% (only fault  75%)  enemy   7%  empty   5%;  churns 0.00/g
+  y328               us    73 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  19.6/g  95%  pri/own  24.6/g  15%  sec/empty  22.5/g  21%  sec/own  32.9/g  45%
+                                 money tower-rounds   1788/g  intact  40%  own other colour on a tile  51% (the only fault  35%)  tiles per tower-round: own wrong 2.68, enemy 0.60, empty 2.24
+                                 paint tower-rounds    912/g  intact  12%  own other colour on a tile  80% (the only fault  62%)  tiles per tower-round: own wrong 4.32, enemy 0.43, empty 2.72
+                                 drained money turns (2000+ chips) 277.1/g: intact  17%  own other colour  75% (only fault  55%)  enemy  19%  empty  18%;  churns 5.74/g
+  y328               them  73 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  14.3/g  83%  pri/own  26.0/g  19%  sec/empty  13.0/g  39%  sec/own  30.8/g  28%
+                                 money tower-rounds   1711/g  intact  42%  own other colour on a tile  54% (the only fault  37%)  tiles per tower-round: own wrong 2.67, enemy 0.21, empty 2.55
+                                 paint tower-rounds    869/g  intact  18%  own other colour on a tile  74% (the only fault  46%)  tiles per tower-round: own wrong 3.79, enemy 0.21, empty 4.15
+                                 drained money turns (2000+ chips) 206.5/g: intact  39%  own other colour  58% (only fault  49%)  enemy   9%  empty   8%;  churns 2.55/g
+  t186               us     6 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  19.0/g  89%  pri/own  16.7/g   4%  sec/empty  20.5/g  24%  sec/own  10.2/g  43%
+                                 money tower-rounds   1581/g  intact  54%  own other colour on a tile  35% (the only fault  19%)  tiles per tower-round: own wrong 2.19, enemy 0.94, empty 1.60
+                                 paint tower-rounds    765/g  intact  10%  own other colour on a tile  80% (the only fault  62%)  tiles per tower-round: own wrong 4.46, enemy 0.13, empty 3.69
+                                 drained money turns (2000+ chips) 124.7/g: intact  27%  own other colour  54% (only fault  27%)  enemy  45%  empty  14%;  churns 4.33/g
+  t186               them   6 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  11.3/g  75%  pri/own   8.2/g  12%  sec/empty  10.2/g  39%  sec/own   8.0/g  10%
+                                 money tower-rounds   1104/g  intact  62%  own other colour on a tile  35% (the only fault  21%)  tiles per tower-round: own wrong 1.64, enemy 0.06, empty 2.87
+                                 paint tower-rounds    688/g  intact  48%  own other colour on a tile  44% (the only fault  13%)  tiles per tower-round: own wrong 2.12, enemy 0.53, empty 4.77
+                                 drained money turns (2000+ chips)  41.2/g: intact  47%  own other colour  53% (only fault  47%)  enemy   6%  empty   6%;  churns 0.00/g
+  t188               us    21 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  19.0/g  94%  pri/own  22.5/g  10%  sec/empty  22.0/g  93%  sec/own  25.3/g  36%
+                                 money tower-rounds   1883/g  intact  50%  own other colour on a tile  38% (the only fault  28%)  tiles per tower-round: own wrong 1.63, enemy 0.43, empty 2.18
+                                 paint tower-rounds    913/g  intact  14%  own other colour on a tile  74% (the only fault  60%)  tiles per tower-round: own wrong 3.33, enemy 0.63, empty 2.80
+                                 drained money turns (2000+ chips) 204.0/g: intact  25%  own other colour  68% (only fault  58%)  enemy  10%  empty  11%;  churns 5.62/g
+  t188               them  21 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  16.8/g  72%  pri/own  14.2/g   9%  sec/empty  18.8/g  44%  sec/own  16.6/g  28%
+                                 money tower-rounds   1778/g  intact  56%  own other colour on a tile  37% (the only fault  22%)  tiles per tower-round: own wrong 2.14, enemy 0.40, empty 2.50
+                                 paint tower-rounds    720/g  intact  23%  own other colour on a tile  66% (the only fault  34%)  tiles per tower-round: own wrong 3.76, enemy 0.52, empty 5.53
+                                 drained money turns (2000+ chips) 194.6/g: intact  57%  own other colour  32% (only fault  26%)  enemy  16%  empty   5%;  churns 4.33/g
+
+== lost
+  t160               us     8 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  19.1/g  98%  pri/own   9.4/g  15%  sec/empty  19.9/g  18%  sec/own  10.4/g  54%
+                                 money tower-rounds   1573/g  intact  42%  own other colour on a tile  49% (the only fault  28%)  tiles per tower-round: own wrong 3.51, enemy 0.63, empty 2.31
+                                 paint tower-rounds   1092/g  intact  14%  own other colour on a tile  78% (the only fault  41%)  tiles per tower-round: own wrong 3.65, enemy 0.91, empty 2.66
+                                 drained money turns (2000+ chips) 196.5/g: intact  26%  own other colour  56% (only fault  33%)  enemy  24%  empty  34%;  churns 5.12/g
+  t160               them   8 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  14.0/g  87%  pri/own  36.4/g  15%  sec/empty  14.2/g  31%  sec/own  60.8/g  56%
+                                 money tower-rounds   2240/g  intact  34%  own other colour on a tile  64% (the only fault  46%)  tiles per tower-round: own wrong 4.50, enemy 0.19, empty 1.75
+                                 paint tower-rounds   1213/g  intact  29%  own other colour on a tile  66% (the only fault  44%)  tiles per tower-round: own wrong 3.75, enemy 0.08, empty 2.98
+                                 drained money turns (2000+ chips) 204.6/g: intact  35%  own other colour  58% (only fault  49%)  enemy   9%  empty  15%;  churns 2.12/g
+  y316               us    20 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  18.1/g  98%  pri/own  11.0/g  15%  sec/empty  21.1/g  18%  sec/own  17.5/g  55%
+                                 money tower-rounds   1714/g  intact  34%  own other colour on a tile  54% (the only fault  36%)  tiles per tower-round: own wrong 2.83, enemy 1.17, empty 1.89
+                                 paint tower-rounds    723/g  intact  10%  own other colour on a tile  81% (the only fault  51%)  tiles per tower-round: own wrong 4.79, enemy 0.48, empty 3.31
+                                 drained money turns (2000+ chips) 309.8/g: intact  16%  own other colour  71% (only fault  53%)  enemy  26%  empty  14%;  churns 3.75/g
+  y316               them  20 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  18.1/g  90%  pri/own  30.1/g  24%  sec/empty  19.6/g  33%  sec/own  24.2/g  42%
+                                 money tower-rounds   2102/g  intact  43%  own other colour on a tile  52% (the only fault  38%)  tiles per tower-round: own wrong 3.08, enemy 0.41, empty 1.68
+                                 paint tower-rounds   1220/g  intact  28%  own other colour on a tile  63% (the only fault  42%)  tiles per tower-round: own wrong 2.96, enemy 0.28, empty 3.02
+                                 drained money turns (2000+ chips) 236.2/g: intact  43%  own other colour  51% (only fault  48%)  enemy   8%  empty   5%;  churns 2.00/g
+  y323               us     2 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  21.5/g 100%  pri/own  23.0/g  22%  sec/empty  18.5/g  19%  sec/own  50.0/g  49%
+                                 money tower-rounds   1656/g  intact  43%  own other colour on a tile  46% (the only fault  31%)  tiles per tower-round: own wrong 2.27, enemy 0.72, empty 1.72
+                                 paint tower-rounds    768/g  intact   3%  own other colour on a tile  89% (the only fault  51%)  tiles per tower-round: own wrong 4.43, enemy 1.17, empty 3.34
+                                 drained money turns (2000+ chips) 405.0/g: intact   4%  own other colour  75% (only fault  56%)  enemy  33%  empty  19%;  churns 4.00/g
+  y323               them   2 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty   9.0/g  72%  pri/own  28.0/g   4%  sec/empty  11.5/g  61%  sec/own  31.5/g   2%
+                                 money tower-rounds   2190/g  intact  47%  own other colour on a tile  53% (the only fault  44%)  tiles per tower-round: own wrong 2.32, enemy 0.01, empty 0.94
+                                 paint tower-rounds   1228/g  intact  19%  own other colour on a tile  81% (the only fault  50%)  tiles per tower-round: own wrong 4.67, enemy 0.01, empty 1.70
+                                 drained money turns (2000+ chips) 189.0/g: intact  34%  own other colour  63% (only fault  63%)  enemy   1%  empty   2%;  churns 0.00/g
+  y328               us    37 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  18.0/g  95%  pri/own  19.0/g  16%  sec/empty  20.8/g  20%  sec/own  22.4/g  41%
+                                 money tower-rounds   1410/g  intact  38%  own other colour on a tile  50% (the only fault  27%)  tiles per tower-round: own wrong 2.87, enemy 0.99, empty 2.70
+                                 paint tower-rounds    660/g  intact  13%  own other colour on a tile  75% (the only fault  48%)  tiles per tower-round: own wrong 4.05, enemy 0.71, empty 3.91
+                                 drained money turns (2000+ chips) 231.4/g: intact  15%  own other colour  73% (only fault  46%)  enemy  29%  empty  21%;  churns 2.86/g
+  y328               them  37 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  16.4/g  82%  pri/own  35.4/g  19%  sec/empty  15.1/g  40%  sec/own  42.1/g  30%
+                                 money tower-rounds   1998/g  intact  45%  own other colour on a tile  53% (the only fault  37%)  tiles per tower-round: own wrong 2.83, enemy 0.14, empty 2.04
+                                 paint tower-rounds   1015/g  intact  23%  own other colour on a tile  69% (the only fault  46%)  tiles per tower-round: own wrong 3.46, enemy 0.09, empty 3.73
+                                 drained money turns (2000+ chips) 204.2/g: intact  37%  own other colour  60% (only fault  47%)  enemy  11%  empty  11%;  churns 2.68/g
+  t186               us     1 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  22.0/g  91%  pri/own   7.0/g  29%  sec/empty  20.0/g   5%  sec/own  10.0/g  50%
+                                 money tower-rounds   1220/g  intact  52%  own other colour on a tile  38% (the only fault  14%)  tiles per tower-round: own wrong 1.71, enemy 2.03, empty 0.63
+                                 paint tower-rounds    295/g  intact   0%  own other colour on a tile  63% (the only fault  42%)  tiles per tower-round: own wrong 4.94, enemy 0.00, empty 11.45
+                                 drained money turns (2000+ chips) 297.0/g: intact   6%  own other colour  93% (only fault  26%)  enemy  67%  empty  28%;  churns 4.00/g
+  t186               them   1 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  16.0/g  69%  pri/own  29.0/g  17%  sec/empty  12.0/g  17%  sec/own  23.0/g  13%
+                                 money tower-rounds   1530/g  intact  49%  own other colour on a tile  51% (the only fault  40%)  tiles per tower-round: own wrong 1.83, enemy 0.00, empty 2.27
+                                 paint tower-rounds    815/g  intact  43%  own other colour on a tile  57% (the only fault  27%)  tiles per tower-round: own wrong 4.34, enemy 0.00, empty 2.95
+                                 drained money turns (2000+ chips)  63.0/g: intact  37%  own other colour  63% (only fault  63%)  enemy   0%  empty   0%;  churns 0.00/g
+  t188               us     6 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  17.8/g  94%  pri/own  11.2/g  12%  sec/empty  21.3/g  94%  sec/own  12.0/g  31%
+                                 money tower-rounds   1404/g  intact  50%  own other colour on a tile  31% (the only fault  18%)  tiles per tower-round: own wrong 0.97, enemy 0.80, empty 3.11
+                                 paint tower-rounds    552/g  intact  17%  own other colour on a tile  57% (the only fault  45%)  tiles per tower-round: own wrong 2.62, enemy 0.85, empty 4.18
+                                 drained money turns (2000+ chips) 109.2/g: intact  29%  own other colour  56% (only fault  30%)  enemy  33%  empty  27%;  churns 3.00/g
+  t188               them   6 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  19.2/g  77%  pri/own  30.2/g   9%  sec/empty  22.2/g  43%  sec/own  35.5/g  24%
+                                 money tower-rounds   2018/g  intact  46%  own other colour on a tile  49% (the only fault  39%)  tiles per tower-round: own wrong 2.99, enemy 0.09, empty 2.15
+                                 paint tower-rounds    821/g  intact  16%  own other colour on a tile  79% (the only fault  55%)  tiles per tower-round: own wrong 4.87, enemy 0.09, empty 4.43
+                                 drained money turns (2000+ chips) 250.8/g: intact  55%  own other colour  44% (only fault  42%)  enemy   3%  empty   1%;  churns 6.67/g
+
+== won
+  t160               us    13 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  22.5/g  95%  pri/own  22.1/g   9%  sec/empty  25.1/g  19%  sec/own  28.6/g  45%
+                                 money tower-rounds   1831/g  intact  44%  own other colour on a tile  46% (the only fault  33%)  tiles per tower-round: own wrong 2.35, enemy 0.38, empty 2.37
+                                 paint tower-rounds    817/g  intact  19%  own other colour on a tile  71% (the only fault  52%)  tiles per tower-round: own wrong 3.53, enemy 0.62, empty 3.13
+                                 drained money turns (2000+ chips) 232.3/g: intact  28%  own other colour  64% (only fault  52%)  enemy   8%  empty  16%;  churns 4.69/g
+  t160               them  13 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  11.6/g  75%  pri/own  16.0/g  26%  sec/empty   9.6/g  34%  sec/own  27.5/g  35%
+                                 money tower-rounds   1339/g  intact  41%  own other colour on a tile  52% (the only fault  31%)  tiles per tower-round: own wrong 2.47, enemy 0.36, empty 3.47
+                                 paint tower-rounds    455/g  intact  20%  own other colour on a tile  70% (the only fault  23%)  tiles per tower-round: own wrong 3.04, enemy 0.77, empty 7.59
+                                 drained money turns (2000+ chips) 287.5/g: intact  28%  own other colour  70% (only fault  61%)  enemy   8%  empty   5%;  churns 4.15/g
+  y316               us    33 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  20.8/g  95%  pri/own  28.5/g  11%  sec/empty  23.4/g  24%  sec/own  39.6/g  42%
+                                 money tower-rounds   2488/g  intact  42%  own other colour on a tile  51% (the only fault  33%)  tiles per tower-round: own wrong 2.39, enemy 0.41, empty 2.23
+                                 paint tower-rounds   1116/g  intact  17%  own other colour on a tile  76% (the only fault  60%)  tiles per tower-round: own wrong 3.55, enemy 0.36, empty 2.29
+                                 drained money turns (2000+ chips) 277.6/g: intact  23%  own other colour  72% (only fault  61%)  enemy   7%  empty  13%;  churns 7.12/g
+  y316               them  33 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  10.8/g  80%  pri/own  12.3/g  16%  sec/empty  10.2/g  30%  sec/own  15.2/g  22%
+                                 money tower-rounds   1538/g  intact  50%  own other colour on a tile  44% (the only fault  27%)  tiles per tower-round: own wrong 2.24, enemy 0.32, empty 2.62
+                                 paint tower-rounds    670/g  intact  20%  own other colour on a tile  70% (the only fault  30%)  tiles per tower-round: own wrong 3.24, enemy 0.73, empty 6.61
+                                 drained money turns (2000+ chips) 191.1/g: intact  46%  own other colour  48% (only fault  39%)  enemy  13%  empty   3%;  churns 1.48/g
+  y323               us     3 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  13.0/g  95%  pri/own  22.3/g  15%  sec/empty   9.0/g  48%  sec/own  23.3/g  41%
+                                 money tower-rounds   1703/g  intact  43%  own other colour on a tile  45% (the only fault  38%)  tiles per tower-round: own wrong 1.39, enemy 0.02, empty 3.23
+                                 paint tower-rounds    813/g  intact  14%  own other colour on a tile  80% (the only fault  67%)  tiles per tower-round: own wrong 4.04, enemy 0.06, empty 2.84
+                                 drained money turns (2000+ chips) 200.0/g: intact  15%  own other colour  82% (only fault  80%)  enemy   4%  empty   4%;  churns 7.67/g
+  y323               them   3 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  11.3/g  65%  pri/own  10.3/g   6%  sec/empty   5.0/g  60%  sec/own  14.3/g   7%
+                                 money tower-rounds    993/g  intact  25%  own other colour on a tile  73% (the only fault  41%)  tiles per tower-round: own wrong 2.49, enemy 0.40, empty 4.68
+                                 paint tower-rounds    503/g  intact   3%  own other colour on a tile  97% (the only fault  32%)  tiles per tower-round: own wrong 4.56, enemy 0.48, empty 7.59
+                                 drained money turns (2000+ chips) 155.7/g: intact   1%  own other colour  99% (only fault  85%)  enemy  12%  empty   9%;  churns 0.00/g
+  y328               us    36 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  21.2/g  96%  pri/own  30.4/g  14%  sec/empty  24.1/g  23%  sec/own  43.7/g  47%
+                                 money tower-rounds   2177/g  intact  41%  own other colour on a tile  52% (the only fault  39%)  tiles per tower-round: own wrong 2.55, enemy 0.34, empty 1.93
+                                 paint tower-rounds   1170/g  intact  11%  own other colour on a tile  83% (the only fault  70%)  tiles per tower-round: own wrong 4.48, enemy 0.27, empty 2.04
+                                 drained money turns (2000+ chips) 324.1/g: intact  18%  own other colour  76% (only fault  61%)  enemy  12%  empty  15%;  churns 8.69/g
+  y328               them  36 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  12.1/g  84%  pri/own  16.4/g  18%  sec/empty  10.8/g  37%  sec/own  19.1/g  24%
+                                 money tower-rounds   1416/g  intact  38%  own other colour on a tile  56% (the only fault  36%)  tiles per tower-round: own wrong 2.42, enemy 0.30, empty 3.29
+                                 paint tower-rounds    718/g  intact  11%  own other colour on a tile  82% (the only fault  45%)  tiles per tower-round: own wrong 4.28, enemy 0.38, empty 4.76
+                                 drained money turns (2000+ chips) 208.9/g: intact  41%  own other colour  56% (only fault  50%)  enemy   7%  empty   4%;  churns 2.42/g
+  t186               us     5 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  18.4/g  89%  pri/own  18.6/g   2%  sec/empty  20.6/g  28%  sec/own  10.2/g  41%
+                                 money tower-rounds   1654/g  intact  54%  own other colour on a tile  34% (the only fault  20%)  tiles per tower-round: own wrong 2.26, enemy 0.77, empty 1.74
+                                 paint tower-rounds    859/g  intact  11%  own other colour on a tile  82% (the only fault  63%)  tiles per tower-round: own wrong 4.43, enemy 0.14, empty 3.16
+                                 drained money turns (2000+ chips)  90.2/g: intact  41%  own other colour  28% (only fault  27%)  enemy  30%  empty   4%;  churns 4.40/g
+  t186               them   5 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  10.4/g  77%  pri/own   4.0/g   5%  sec/empty   9.8/g  45%  sec/own   5.0/g   8%
+                                 money tower-rounds   1018/g  intact  65%  own other colour on a tile  30% (the only fault  15%)  tiles per tower-round: own wrong 1.58, enemy 0.08, empty 3.06
+                                 paint tower-rounds    663/g  intact  49%  own other colour on a tile  41% (the only fault   9%)  tiles per tower-round: own wrong 1.57, enemy 0.66, empty 5.22
+                                 drained money turns (2000+ chips)  36.8/g: intact  51%  own other colour  49% (only fault  41%)  enemy   8%  empty   8%;  churns 0.00/g
+  t188               us    15 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  19.5/g  95%  pri/own  27.0/g  10%  sec/empty  22.3/g  93%  sec/own  30.7/g  37%
+                                 money tower-rounds   2074/g  intact  50%  own other colour on a tile  39% (the only fault  30%)  tiles per tower-round: own wrong 1.81, enemy 0.33, empty 1.93
+                                 paint tower-rounds   1058/g  intact  13%  own other colour on a tile  78% (the only fault  63%)  tiles per tower-round: own wrong 3.47, enemy 0.58, empty 2.52
+                                 drained money turns (2000+ chips) 242.0/g: intact  24%  own other colour  70% (only fault  63%)  enemy   6%  empty   8%;  churns 6.67/g
+  t188               them  15 g  soldier paints on own pattern tiles (wanted/before, per game, right colour): pri/empty  15.9/g  69%  pri/own   7.9/g   8%  sec/empty  17.4/g  45%  sec/own   9.0/g  35%
+                                 money tower-rounds   1681/g  intact  61%  own other colour on a tile  30% (the only fault  14%)  tiles per tower-round: own wrong 1.72, enemy 0.55, empty 2.67
+                                 paint tower-rounds    680/g  intact  27%  own other colour on a tile  60% (the only fault  24%)  tiles per tower-round: own wrong 3.22, enemy 0.73, empty 6.06
+                                 drained money turns (2000+ chips) 172.1/g: intact  58%  own other colour  25% (only fault  17%)  enemy  23%  empty   7%;  churns 3.40/g

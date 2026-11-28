@@ -1,0 +1,28 @@
+
+== lost: 44 games; soldier hits on standing paint/money towers by HP at the hit against L = 30 + defense buff
+  us: 139.2 hits a game,  13% against a defense-buffed side
+     hp<=L        2.7/g (  2%), dies  98%:  out->in  97% (dies  99%)  in->out   3% (dies  67%)  in->in   0% (dies   0%)
+     L<hp<=2L     7.3/g (  5%), dies  84%:  out->in  44% (dies  88%)  in->out  39% (dies  74%)  in->in  17% (dies  98%)
+     2L<hp<=3L    9.5/g (  7%), dies  59%:  out->in  44% (dies  59%)  in->out  39% (dies  57%)  in->in  18% (dies  65%)
+     hp>3L      119.8/g ( 86%), dies   4%:  out->in  47% (dies   2%)  in->out  41% (dies   4%)  in->in  12% (dies  15%)
+     soldiers of this side killed by towers  8.1/g: damaged by 2+ towers in the last 10 rounds  10%, killer's share of that damage  95%, a defense tower among them  28%
+  them: 155.0 hits a game,   0% against a defense-buffed side
+     hp<=L        1.4/g (  1%), dies  98%:  out->in  93% (dies 100%)  in->out   3% (dies  50%)  in->in   3% (dies 100%)
+     L<hp<=2L     7.2/g (  5%), dies  43%:  out->in  65% (dies  38%)  in->out  30% (dies  45%)  in->in   5% (dies  93%)
+     2L<hp<=3L   11.4/g (  7%), dies  23%:  out->in  55% (dies  20%)  in->out  40% (dies  26%)  in->in   4% (dies  27%)
+     hp>3L      135.0/g ( 87%), dies   2%:  out->in  52% (dies   1%)  in->out  45% (dies   1%)  in->in   3% (dies  11%)
+     soldiers of this side killed by towers  3.2/g: damaged by 2+ towers in the last 10 rounds  18%, killer's share of that damage  91%, a defense tower among them   0%
+
+== won: 56 games; soldier hits on standing paint/money towers by HP at the hit against L = 30 + defense buff
+  us: 194.9 hits a game,  13% against a defense-buffed side
+     hp<=L        3.9/g (  2%), dies  96%:  out->in  96% (dies  98%)  in->out   3% (dies  50%)  in->in   1% (dies  67%)
+     L<hp<=2L    10.8/g (  6%), dies  85%:  out->in  45% (dies  85%)  in->out  35% (dies  78%)  in->in  20% (dies  96%)
+     2L<hp<=3L   12.8/g (  7%), dies  59%:  out->in  45% (dies  53%)  in->out  40% (dies  61%)  in->in  15% (dies  69%)
+     hp>3L      167.4/g ( 86%), dies   4%:  out->in  47% (dies   2%)  in->out  42% (dies   3%)  in->in  11% (dies  16%)
+     soldiers of this side killed by towers 10.0/g: damaged by 2+ towers in the last 10 rounds   9%, killer's share of that damage  96%, a defense tower among them  27%
+  them: 146.7 hits a game,   0% against a defense-buffed side
+     hp<=L        1.3/g (  1%), dies  96%:  out->in  95% (dies  97%)  in->out   3% (dies  50%)  in->in   3% (dies 100%)
+     L<hp<=2L     6.7/g (  5%), dies  53%:  out->in  62% (dies  49%)  in->out  28% (dies  50%)  in->in  10% (dies  84%)
+     2L<hp<=3L   10.7/g (  7%), dies  35%:  out->in  55% (dies  31%)  in->out  38% (dies  37%)  in->in   8% (dies  51%)
+     hp>3L      128.0/g ( 87%), dies   4%:  out->in  51% (dies   3%)  in->out  43% (dies   3%)  in->in   6% (dies  18%)
+     soldiers of this side killed by towers  4.6/g: damaged by 2+ towers in the last 10 rounds  12%, killer's share of that damage  93%, a defense tower among them   0%

@@ -1,0 +1,31 @@
+tower shots that leave a sieging soldier at HP <= L (30 + defense buff) or L < HP <= 2L; its next 5 turns
+
+== lost: 44 games
+  us   hp<=L      6.1/g  could not move on its next turn  24%  ends a turn in range in its next 5  84% (hit from there  60%)  died to that tower  75%  lived 20+ rounds   5%  paint then med 47.0
+  us   L<hp<=2L   7.6/g  could not move on its next turn  20%  ends a turn in range in its next 5  85% (hit from there  69%)  died to that tower  55%  lived 20+ rounds  10%  paint then med 49
+  them hp<=L      6.3/g  could not move on its next turn  16%  ends a turn in range in its next 5  44% (hit from there  23%)  died to that tower  37%  lived 20+ rounds  38%  paint then med 51
+  them L<hp<=2L   8.1/g  could not move on its next turn  18%  ends a turn in range in its next 5  83% (hit from there  67%)  died to that tower  24%  lived 20+ rounds  44%  paint then med 61.0
+
+== won: 56 games
+  us   hp<=L      7.9/g  could not move on its next turn  25%  ends a turn in range in its next 5  88% (hit from there  69%)  died to that tower  79%  lived 20+ rounds   4%  paint then med 50
+  us   L<hp<=2L   9.4/g  could not move on its next turn  18%  ends a turn in range in its next 5  87% (hit from there  76%)  died to that tower  57%  lived 20+ rounds  12%  paint then med 55
+  them hp<=L      7.2/g  could not move on its next turn  20%  ends a turn in range in its next 5  55% (hit from there  24%)  died to that tower  46%  lived 20+ rounds  24%  paint then med 40
+  them L<hp<=2L   8.5/g  could not move on its next turn  21%  ends a turn in range in its next 5  87% (hit from there  61%)  died to that tower  38%  lived 20+ rounds  27%  paint then med 48.0
+
+== y316: 53 games
+  us   hp<=L      8.4/g  could not move on its next turn  19%  ends a turn in range in its next 5  86% (hit from there  67%)  died to that tower  79%  lived 20+ rounds   3%  paint then med 49.5
+  us   L<hp<=2L   9.7/g  could not move on its next turn  17%  ends a turn in range in its next 5  88% (hit from there  78%)  died to that tower  57%  lived 20+ rounds   9%  paint then med 59.0
+  them hp<=L      8.5/g  could not move on its next turn  20%  ends a turn in range in its next 5  62% (hit from there  32%)  died to that tower  52%  lived 20+ rounds  23%  paint then med 39
+  them L<hp<=2L  10.3/g  could not move on its next turn  22%  ends a turn in range in its next 5  86% (hit from there  62%)  died to that tower  39%  lived 20+ rounds  29%  paint then med 46.0
+
+== y328: 73 games
+  us   hp<=L      7.2/g  could not move on its next turn  22%  ends a turn in range in its next 5  86% (hit from there  67%)  died to that tower  78%  lived 20+ rounds   4%  paint then med 48
+  us   L<hp<=2L   8.8/g  could not move on its next turn  20%  ends a turn in range in its next 5  86% (hit from there  72%)  died to that tower  56%  lived 20+ rounds  11%  paint then med 50
+  them hp<=L      6.9/g  could not move on its next turn  20%  ends a turn in range in its next 5  50% (hit from there  24%)  died to that tower  42%  lived 20+ rounds  31%  paint then med 46.0
+  them L<hp<=2L   8.2/g  could not move on its next turn  21%  ends a turn in range in its next 5  87% (hit from there  67%)  died to that tower  32%  lived 20+ rounds  35%  paint then med 54
+
+== new: 27 games
+  us   hp<=L      7.0/g  could not move on its next turn  30%  ends a turn in range in its next 5  89% (hit from there  63%)  died to that tower  78%  lived 20+ rounds   5%  paint then med 48.0
+  us   L<hp<=2L   8.0/g  could not move on its next turn  15%  ends a turn in range in its next 5  87% (hit from there  75%)  died to that tower  58%  lived 20+ rounds  11%  paint then med 56
+  them hp<=L      6.4/g  could not move on its next turn  16%  ends a turn in range in its next 5  52% (hit from there  22%)  died to that tower  44%  lived 20+ rounds  28%  paint then med 43.0
+  them L<hp<=2L   8.7/g  could not move on its next turn  17%  ends a turn in range in its next 5  80% (hit from there  56%)  died to that tower  31%  lived 20+ rounds  32%  paint then med 50

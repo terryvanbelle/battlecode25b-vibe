@@ -1,0 +1,16 @@
+
+== lost: 44 games; soldier attack runs on towers by company size
+  us   company 0   runs  12.1/game  tower fell  16%  soldier died to it  42%   | vs a defense-buffed side: runs  3.2/game, fell  11%, died  65%
+  us   company 1   runs   6.6/game  tower fell  36%  soldier died to it  25%   | vs a defense-buffed side: runs  0.8/game, fell  24%, died  57%
+  us   company 2+  runs   4.0/game  tower fell  61%  soldier died to it  19%   | vs a defense-buffed side: runs  0.8/game, fell  31%, died  66%
+  them company 0   runs   8.0/game  tower fell  25%  soldier died to it  19%   | vs a defense-buffed side: runs  0.0/game, fell   0%, died   0%
+  them company 1   runs   8.0/game  tower fell  58%  soldier died to it  10%   | vs a defense-buffed side: runs  0.0/game, fell   0%, died   0%
+  them company 2+  runs   7.4/game  tower fell  69%  soldier died to it   8%   | vs a defense-buffed side: runs  0.0/game, fell   0%, died   0%
+
+== won: 56 games; soldier attack runs on towers by company size
+  us   company 0   runs  13.6/game  tower fell  20%  soldier died to it  40%   | vs a defense-buffed side: runs  2.9/game, fell  18%, died  60%
+  us   company 1   runs  10.7/game  tower fell  51%  soldier died to it  24%   | vs a defense-buffed side: runs  2.0/game, fell  41%, died  45%
+  us   company 2+  runs   7.9/game  tower fell  61%  soldier died to it  21%   | vs a defense-buffed side: runs  2.1/game, fell  42%, died  49%
+  them company 0   runs  10.7/game  tower fell  18%  soldier died to it  23%   | vs a defense-buffed side: runs  0.0/game, fell   0%, died   0%
+  them company 1   runs   7.3/game  tower fell  49%  soldier died to it  18%   | vs a defense-buffed side: runs  0.0/game, fell   0%, died   0%
+  them company 2+  runs   3.9/game  tower fell  67%  soldier died to it   8%   | vs a defense-buffed side: runs  0.0/game, fell   0%, died   0%

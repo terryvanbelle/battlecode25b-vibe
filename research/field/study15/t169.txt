@@ -1,0 +1,49 @@
+soldier attack runs on paint/money towers (main set: y328, t186, t188; repeats left out)
+
+== lost
+  lost           us   runs  20.3/g  hits/run  7.4  exposures/run  4.5  hits per exposure 1.64  dmg taken per hit  17.2  single shots on it  83% of the tower's singles on its side  runs never shot   3%  died  27%  fell  33%
+                      company in reach when shot (per exposure): S 0.12 X 0.00 M 0.00;  runs ending in death: hits  9.3, exposures  6.3, singles on it  94%, hp at first hit med 250
+                      this side's paint/money towers: single-shot damage on soldiers  88% splashers  10% moppers   2% ( 2025 a game)
+  lost           them runs  23.4/g  hits/run  7.4  exposures/run  4.1  hits per exposure 1.80  dmg taken per hit  15.2  single shots on it  72% of the tower's singles on its side  runs never shot   3%  died  12%  fell  50%
+                      company in reach when shot (per exposure): S 0.23 X 0.02 M 0.01;  runs ending in death: hits  9.2, exposures  5.9, singles on it  90%, hp at first hit med 220.0
+                      this side's paint/money towers: single-shot damage on soldiers  97% splashers   1% moppers   1% ( 1771 a game)
+
+== won
+  won            us   runs  28.9/g  hits/run  7.4  exposures/run  4.4  hits per exposure 1.68  dmg taken per hit  16.1  single shots on it  78% of the tower's singles on its side  runs never shot   4%  died  25%  fell  44%
+                      company in reach when shot (per exposure): S 0.18 X 0.00 M 0.01;  runs ending in death: hits  9.6, exposures  6.3, singles on it  92%, hp at first hit med 250.0
+                      this side's paint/money towers: single-shot damage on soldiers  93% splashers   5% moppers   1% ( 2014 a game)
+  won            them runs  21.9/g  hits/run  7.3  exposures/run  4.4  hits per exposure 1.67  dmg taken per hit  16.7  single shots on it  80% of the tower's singles on its side  runs never shot   3%  died  19%  fell  37%
+                      company in reach when shot (per exposure): S 0.17 X 0.01 M 0.00;  runs ending in death: hits  8.8, exposures  6.1, singles on it  92%, hp at first hit med 250.0
+                      this side's paint/money towers: single-shot damage on soldiers  96% splashers   2% moppers   3% ( 2329 a game)
+
+== by version, all games (study 14 versions from its set)
+  y316           us   runs  26.9/g  hits/run  7.5  exposures/run  4.5  hits per exposure 1.66  dmg taken per hit  16.8  single shots on it  80% of the tower's singles on its side  runs never shot   3%  died  28%  fell  40%
+                      company in reach when shot (per exposure): S 0.16 X 0.00 M 0.00;  runs ending in death: hits  9.3, exposures  6.1, singles on it  91%, hp at first hit med 250.0
+                      this side's paint/money towers: single-shot damage on soldiers  91% splashers   7% moppers   2% ( 2430 a game)
+  y316           them runs  25.7/g  hits/run  7.5  exposures/run  4.4  hits per exposure 1.70  dmg taken per hit  16.4  single shots on it  78% of the tower's singles on its side  runs never shot   3%  died  21%  fell  41%
+                      company in reach when shot (per exposure): S 0.18 X 0.01 M 0.00;  runs ending in death: hits  8.8, exposures  6.1, singles on it  92%, hp at first hit med 245.0
+                      this side's paint/money towers: single-shot damage on soldiers  96% splashers   1% moppers   3% ( 2321 a game)
+  y328           us   runs  25.1/g  hits/run  7.4  exposures/run  4.5  hits per exposure 1.63  dmg taken per hit  16.6  single shots on it  80% of the tower's singles on its side  runs never shot   4%  died  26%  fell  39%
+                      company in reach when shot (per exposure): S 0.17 X 0.00 M 0.00;  runs ending in death: hits  9.4, exposures  6.4, singles on it  92%, hp at first hit med 250.0
+                      this side's paint/money towers: single-shot damage on soldiers  90% splashers   8% moppers   2% ( 2000 a game)
+  y328           them runs  22.0/g  hits/run  7.5  exposures/run  4.3  hits per exposure 1.74  dmg taken per hit  16.0  single shots on it  77% of the tower's singles on its side  runs never shot   4%  died  16%  fell  44%
+                      company in reach when shot (per exposure): S 0.19 X 0.01 M 0.00;  runs ending in death: hits  9.2, exposures  6.0, singles on it  90%, hp at first hit med 230
+                      this side's paint/money towers: single-shot damage on soldiers  97% splashers   2% moppers   2% ( 2074 a game)
+  t186           us   runs  23.7/g  hits/run  7.5  exposures/run  4.1  hits per exposure 1.85  dmg taken per hit  14.9  single shots on it  71% of the tower's singles on its side  runs never shot   4%  died  26%  fell  56%
+                      company in reach when shot (per exposure): S 0.25 X 0.00 M 0.00;  runs ending in death: hits  9.8, exposures  6.0, singles on it  91%, hp at first hit med 200
+                      this side's paint/money towers: single-shot damage on soldiers  93% splashers   6% moppers   0% ( 1477 a game)
+  t186           them runs  18.2/g  hits/run  6.8  exposures/run  4.0  hits per exposure 1.69  dmg taken per hit  16.1  single shots on it  68% of the tower's singles on its side  runs never shot   3%  died   9%  fell  45%
+                      company in reach when shot (per exposure): S 0.25 X 0.01 M 0.00;  runs ending in death: hits  7.1, exposures  5.5, singles on it  98%, hp at first hit med 210.0
+                      this side's paint/money towers: single-shot damage on soldiers  97% splashers   1% moppers   2% ( 1779 a game)
+  t188           us   runs  25.6/g  hits/run  7.4  exposures/run  4.3  hits per exposure 1.74  dmg taken per hit  16.4  single shots on it  84% of the tower's singles on its side  runs never shot   3%  died  24%  fell  37%
+                      company in reach when shot (per exposure): S 0.11 X 0.00 M 0.00;  runs ending in death: hits  9.7, exposures  6.1, singles on it  96%, hp at first hit med 250.0
+                      this side's paint/money towers: single-shot damage on soldiers  92% splashers   5% moppers   2% ( 2236 a game)
+  t188           them runs  25.8/g  hits/run  7.1  exposures/run  4.2  hits per exposure 1.70  dmg taken per hit  16.2  single shots on it  77% of the tower's singles on its side  runs never shot   2%  died  16%  fell  41%
+                      company in reach when shot (per exposure): S 0.20 X 0.01 M 0.01;  runs ending in death: hits  8.4, exposures  6.3, singles on it  94%, hp at first hit med 250
+                      this side's paint/money towers: single-shot damage on soldiers  95% splashers   2% moppers   3% ( 2205 a game)
+  new            us   runs  25.1/g  hits/run  7.5  exposures/run  4.2  hits per exposure 1.76  dmg taken per hit  16.1  single shots on it  81% of the tower's singles on its side  runs never shot   3%  died  25%  fell  41%
+                      company in reach when shot (per exposure): S 0.14 X 0.00 M 0.00;  runs ending in death: hits  9.8, exposures  6.1, singles on it  95%, hp at first hit med 240
+                      this side's paint/money towers: single-shot damage on soldiers  92% splashers   6% moppers   2% ( 2067 a game)
+  new            them runs  24.1/g  hits/run  7.1  exposures/run  4.2  hits per exposure 1.70  dmg taken per hit  16.2  single shots on it  75% of the tower's singles on its side  runs never shot   2%  died  15%  fell  41%
+                      company in reach when shot (per exposure): S 0.21 X 0.01 M 0.01;  runs ending in death: hits  8.2, exposures  6.2, singles on it  94%, hp at first hit med 250
+                      this side's paint/money towers: single-shot damage on soldiers  95% splashers   2% moppers   3% ( 2110 a game)

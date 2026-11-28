@@ -1,0 +1,97 @@
+54 (opponent, map) pairings played by y328, t186 or t188 and by at least one other version
+opponent                 map              t188      t186      y328      y323      y316      t160      t158      t140      t135      t122      
+confused                 DefaultMedium    -         -         l         -         -         l         -         -         -         -         
+confused                 SandyBeach       W         -         -         -         -         -         -         W         -         -         
+confused                 TheBest          -         -         w         -         -         -         l         -         -         -         
+confused                 walalilongla     L         -         w         -         -         -         -         -         -         -         
+gone-whalin              Bread            L         -         -         -         -         -         -         lW        -         w         
+gone-whalin              PlumberGame      W         -         -         -         -         -         -         W         -         w         
+immutable                AlarmClock       L         -         w         -         w         W         -         -         -         -         
+immutable                Barcode          -         -         L         -         -         -         -         -         l         -         
+immutable                BatSignal        -         -         L         -         l         -         -         -         -         Ll        
+immutable                BunnyGame        -         -         L         -         -         -         l         Wl        -         -         
+immutable                CastleDefense    -         -         l         -         W         -         -         -         -         L         
+immutable                Flower           -         -         W         -         -         -         -         -         W         -         
+immutable                Fossil           W         -         -         -         -         -         -         w         -         -         
+immutable                HungerGames      -         -         l         -         L         -         -         L         -         -         
+immutable                Leaf             W         -         -         -         -         -         w         -         -         -         
+immutable                Paintball        -         w         -         -         -         -         -         w         -         W         
+immutable                Racetrack        -         -         l         -         L         -         -         L         -         -         
+immutable                Snowman          -         w         -         -         -         -         l         l         -         -         
+immutable                UnderTheSea      -         -         W         -         W         -         -         W         -         W         
+immutable                memstore         -         -         w         -         -         -         w         l         L         -         
+immutable                sierpinski       -         -         L         -         -         -         w         -         L         -         
+immutable                starburst        -         -         W         -         -         -         -         L         -         W         
+just-woke-up             Oasis            -         -         L         -         -         -         -         l         -         -         
+just-woke-up             TheBest          l         -         L         -         -         -         -         -         -         -         
+om-nom                   AlarmClock       W         -         -         -         w         -         -         w         -         -         
+om-nom                   Oasis            -         -         L         -         -         -         -         L         -         L         
+om-nom                   sayhi            -         -         W         -         w         -         -         -         -         -         
+om-nom                   shell            W         -         w         -         -         -         -         -         -         -         
+scienceqiu               Flower           w         -         -         -         -         -         -         -         w         -         
+scienceqiu               box              w         -         -         -         -         -         -         W         -         w         
+spaark                   AlarmClock       -         W         l         -         l         -         -         wW        -         -         
+spaark                   Barcode          -         -         l         -         -         -         -         L         -         -         
+spaark                   DefaultMedium    -         -         l         -         -         -         -         L         -         -         
+spaark                   DefaultSmall     -         -         l         -         -         -         -         l         -         -         
+spaark                   DonkeyKong       w         W         -         -         w         -         -         -         -         W         
+spaark                   Flower           -         -         W         -         w         -         -         -         -         w         
+spaark                   Money            -         -         l         -         -         -         -         Ww        -         l         
+spaark                   Piglets2         l         -         -         -         -         -         -         L         -         L         
+spaark                   Racetrack        -         -         w         -         -         -         l         -         -         -         
+spaark                   Terminal         -         -         l         -         -         -         -         -         -         Ll        
+spaark                   Thirds           -         -         w         -         -         -         -         -         -         L         
+spaark                   gridworld        w         -         -         -         -         -         w         -         -         L         
+spaark                   mit              -         -         W         -         -         -         -         W         -         -         
+spaark                   sunrise          -         -         W         -         w         -         -         w         -         -         
+subscribe-to-caterpillow Castle           -         -         wW        -         -         -         WW        -         -         -         
+subscribe-to-caterpillow Jail             -         -         L         -         -         -         -         l         -         -         
+subscribe-to-caterpillow Justice          -         -         L         -         -         W         -         W         -         -         
+subscribe-to-caterpillow Oasis            -         -         L         -         -         -         -         L         -         -         
+subscribe-to-caterpillow Parking_lot      -         -         l         -         -         -         l         -         -         -         
+subscribe-to-caterpillow Portal           -         -         L         -         -         W         -         -         w         -         
+subscribe-to-caterpillow TheBest          -         -         L         -         -         -         -         L         -         -         
+subscribe-to-caterpillow galaxy           -         -         w         w         -         -         -         w         -         -         
+subscribe-to-caterpillow shell            -         -         L         -         -         -         -         L         -         -         
+subscribe-to-caterpillow walalilongla     -         -         w         -         -         -         -         L         -         -         
+
+version against version, over the pairings both played (all opponents | the five teams of the brief):
+   new vs y328:  5 pairings: new 2-3, y328 3-2   | top5:  4 pairings: new 2-2, y328 2-2
+   t188 vs y328:  4 pairings: t188 1-3, y328 3-1   | top5:  3 pairings: t188 1-2, y328 2-1
+   t186 vs y328:  1 pairings: t186 1-0, y328 0-1   | top5:  1 pairings: t186 1-0, y328 0-1
+   new vs y316:  4 pairings: new 4-1, y316 3-1   | top5:  4 pairings: new 4-1, y316 3-1
+   new vs t140: 10 pairings: new 8-2, t140 9-3   | top5:  6 pairings: new 5-1, t140 5-2
+   y328 vs y316: 10 pairings: y328 5-5, y316 6-4   | top5: 10 pairings: y328 5-5, y316 6-4
+   y328 vs y323:  1 pairings: y328 1-0, y323 1-0   | top5:  1 pairings: y328 1-0, y323 1-0
+   y328 vs t160:  4 pairings: y328 1-3, t160 3-1   | top5:  3 pairings: y328 1-2, t160 3-0
+   y328 vs t158:  7 pairings: y328 5-3, t158 4-4   | top5:  6 pairings: y328 4-3, t158 4-3
+   y328 vs t140: 22 pairings: y328 7-15, t140 10-15   | top5: 22 pairings: y328 7-15, t140 10-15
+
+flips (every game of the first version lost / won while every game of the second won / lost):
+   new lost, y328 won: 2: confused/walalilongla, immutable/AlarmClock
+   new won, y328 lost: 1: spaark/AlarmClock
+   y328 lost, y316 won: 1: immutable/CastleDefense
+   y328 won, y316 lost: 0: 
+   new lost, y316 won: 1: immutable/AlarmClock
+   new won, y316 lost: 1: spaark/AlarmClock
+   y328 lost, t140 won: 3: spaark/AlarmClock, spaark/Money, subscribe-/Justice
+   y328 won, t140 lost: 3: immutable/memstore, immutable/starburst, subscribe-/walalilongla
+
+whole sets, per opponent: t188 | t186 | y328 | y323 | y316 | t160 | t158 | t140 | t135 | t122
+   angtn                         - |      - |      - |      - |      - |      - |      - |      - |      - |    2-1
+   confused                    2-1 |      - |    4-5 |      - |    4-1 |    2-1 |    3-6 |   8-11 |      - |      -
+   gone-whalin                 2-1 |      - |      - |      - |      - |      - |      - |   16-6 |    7-5 |  15-14
+   immutable                   2-1 |    2-1 |   11-7 |      - |    6-7 |    3-0 |    7-2 |  17-10 |    6-8 |   9-11
+   just-woke-up                2-1 |      - |    0-5 |      - |    2-4 |    0-3 |    2-4 |    1-5 |      - |      -
+   lobster-roll                  - |      - |      - |      - |      - |      - |      - |    2-1 |    2-1 |   11-9
+   old-but-gold                  - |      - |      - |      - |      - |      - |    1-2 |    0-3 |      - |      -
+   om-nom                      2-1 |      - |    4-5 |      - |    5-1 |    2-1 |    3-3 |   9-13 |      - |    0-3
+   placeholder-name-2            - |      - |      - |      - |      - |      - |      - |    3-0 |    4-5 |    3-3
+   scienceqiu                  3-0 |      - |      - |      - |    5-1 |      - |      - |   14-9 |    6-3 |  15-13
+   slifland                      - |      - |      - |      - |      - |      - |      - |      - |    6-0 |    3-0
+   spaark                      2-1 |    3-0 |    7-8 |      - |    7-4 |    3-3 |    4-5 |  24-19 |    1-2 |   8-16
+   subscribe-to-caterpillow      - |      - |   10-7 |    3-2 |    4-2 |    3-0 |    9-3 |  17-18 |    3-3 |    3-3
+   varunvejalla                  - |      - |      - |      - |      - |      - |      - |      - |      - |    3-0
+
+whole sets: t188 15-6, t186 5-1, y328 36-37, y323 3-2, y316 33-20, t160 13-8, t158 29-25, t140 111-95, t135 35-27, t122 72-73
+top 5 only: t188 8-4, t186 5-1, y328 32-32, y323 3-2, y316 24-18, t160 11-7, t158 25-17, t140 68-65, t135 10-13, t122 20-33

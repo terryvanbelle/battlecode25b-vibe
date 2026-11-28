@@ -1,0 +1,24 @@
+
+== y328: 73 games; soldier hits on standing paint/money towers by the hitter's paint
+  y328       >=100:  87.4/g (51%) shots/hit 0.55 dies   7% in->in  10%  70-99:  44.0/g (26%) shots/hit 0.57 dies  17% in->in  10%  50-69:  21.0/g (12%) shots/hit 0.80 dies  25% in->in  21%  30-49:  14.1/g ( 8%) shots/hit 0.98 dies  26% in->in  27%    <30:   4.0/g ( 2%) shots/hit 1.49 dies  34% in->in  70%
+  them(y328) >=100:  81.9/g (55%) shots/hit 0.51 dies   2% in->in   1%  70-99:  33.2/g (22%) shots/hit 0.54 dies   9% in->in   2%  50-69:  16.4/g (11%) shots/hit 0.83 dies  17% in->in  12%  30-49:  10.7/g ( 7%) shots/hit 0.84 dies  21% in->in  14%    <30:   6.8/g ( 5%) shots/hit 1.28 dies  26% in->in  19%
+
+== new: 27 games; soldier hits on standing paint/money towers by the hitter's paint
+  new        >=100:  93.4/g (55%) shots/hit 0.51 dies   9% in->in   2%  70-99:  42.8/g (25%) shots/hit 0.52 dies  17% in->in   2%  50-69:  19.0/g (11%) shots/hit 0.80 dies  25% in->in  11%  30-49:  11.3/g ( 7%) shots/hit 0.87 dies  30% in->in  16%    <30:   3.8/g ( 2%) shots/hit 1.63 dies  21% in->in  67%
+  them(new)  >=100:  80.6/g (52%) shots/hit 0.52 dies   2% in->in   2%  70-99:  35.1/g (23%) shots/hit 0.54 dies   7% in->in   4%  50-69:  18.0/g (12%) shots/hit 0.83 dies  11% in->in  15%  30-49:  12.7/g ( 8%) shots/hit 0.91 dies  20% in->in  20%    <30:   7.6/g ( 5%) shots/hit 1.41 dies  31% in->in  37%
+
+== def:y328: 33 games; soldier hits on standing paint/money towers by the hitter's paint
+  def:y328   >=100:  96.5/g (54%) shots/hit 0.54 dies   8% in->in   8%  70-99:  45.1/g (25%) shots/hit 0.56 dies  21% in->in   8%  50-69:  20.9/g (12%) shots/hit 0.81 dies  27% in->in  19%  30-49:  12.8/g ( 7%) shots/hit 0.95 dies  26% in->in  25%    <30:   3.2/g ( 2%) shots/hit 1.31 dies  32% in->in  64%
+  them(def:y328) >=100:  67.3/g (55%) shots/hit 0.52 dies   3% in->in   0%  70-99:  25.5/g (21%) shots/hit 0.55 dies   6% in->in   2%  50-69:  13.4/g (11%) shots/hit 0.85 dies  13% in->in  11%  30-49:  11.1/g ( 9%) shots/hit 0.85 dies  13% in->in  11%    <30:   6.2/g ( 5%) shots/hit 1.35 dies  16% in->in  16%
+
+== def:new: 12 games; soldier hits on standing paint/money towers by the hitter's paint
+  def:new    >=100: 116.2/g (59%) shots/hit 0.52 dies  10% in->in   3%  70-99:  46.7/g (24%) shots/hit 0.54 dies  19% in->in   3%  50-69:  19.8/g (10%) shots/hit 0.83 dies  32% in->in  13%  30-49:  10.5/g ( 5%) shots/hit 0.92 dies  37% in->in  13%    <30:   2.8/g ( 1%) shots/hit 1.27 dies  24% in->in  55%
+  them(def:new) >=100:  74.7/g (56%) shots/hit 0.53 dies   4% in->in   3%  70-99:  28.1/g (21%) shots/hit 0.55 dies   3% in->in   7%  50-69:  14.2/g (11%) shots/hit 0.92 dies  13% in->in  15%  30-49:  11.8/g ( 9%) shots/hit 0.90 dies  17% in->in  14%    <30:   5.0/g ( 4%) shots/hit 1.62 dies  18% in->in  33%
+
+== nodef:y328: 40 games; soldier hits on standing paint/money towers by the hitter's paint
+  nodef:y328 >=100:  79.9/g (49%) shots/hit 0.55 dies   6% in->in  12%  70-99:  43.0/g (26%) shots/hit 0.57 dies  13% in->in  12%  50-69:  21.0/g (13%) shots/hit 0.79 dies  23% in->in  23%  30-49:  15.2/g ( 9%) shots/hit 1.00 dies  26% in->in  29%    <30:   4.7/g ( 3%) shots/hit 1.59 dies  35% in->in  73%
+  them(nodef:y328) >=100:  93.9/g (55%) shots/hit 0.51 dies   2% in->in   1%  70-99:  39.5/g (23%) shots/hit 0.53 dies  11% in->in   3%  50-69:  18.9/g (11%) shots/hit 0.82 dies  19% in->in  12%  30-49:  10.4/g ( 6%) shots/hit 0.83 dies  28% in->in  17%    <30:   7.3/g ( 4%) shots/hit 1.22 dies  33% in->in  21%
+
+== nodef:new: 15 games; soldier hits on standing paint/money towers by the hitter's paint
+  nodef:new  >=100:  75.3/g (50%) shots/hit 0.51 dies   7% in->in   1%  70-99:  39.7/g (27%) shots/hit 0.51 dies  14% in->in   2%  50-69:  18.3/g (12%) shots/hit 0.77 dies  19% in->in  10%  30-49:  12.0/g ( 8%) shots/hit 0.84 dies  24% in->in  18%    <30:   4.6/g ( 3%) shots/hit 1.80 dies  19% in->in  72%
+  them(nodef:new) >=100:  85.3/g (50%) shots/hit 0.51 dies   1% in->in   1%  70-99:  40.8/g (24%) shots/hit 0.53 dies   9% in->in   3%  50-69:  20.9/g (12%) shots/hit 0.77 dies   9% in->in  16%  30-49:  13.3/g ( 8%) shots/hit 0.91 dies  22% in->in  24%    <30:   9.7/g ( 6%) shots/hit 1.33 dies  36% in->in  38%

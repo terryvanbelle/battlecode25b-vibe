@@ -53,3 +53,4 @@ when_pdt,bot,base,change,submission
 2026-11-27 20:47,y328,y323,y323 + dry flags on money/defence towers last 60 rounds (was 40); +49 +-25 over y323 in 233 games,83
 2026-11-27 23:07,t186,y328,study 14 2.1b: siege steps fully out of tower range after a hit (r2 9; 16 for defense); approach unchanged,84
 2026-11-27 23:27,t188,t186,t186 + study 14 2.5: soldiers paint tiles inside a known paint/money tower 5x5 in its pattern colour,85
+2026-11-28 00:48,y358,t188,soldiers refill below 120 paint (was 100); tuning,86

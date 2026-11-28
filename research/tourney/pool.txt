@@ -569,12 +569,12 @@ y328  # replica reference: peak 1828 at #5 on 11-27 21:11 PDT; slot since t188 s
 # y341 (retired: +11 vs y328 after 416 games; y336 + y332, built on y328)
 # t185 (retired: +1 vs y328 after 388 games, built on y328; ported to t186 as t189)
 # t186 (retired: champion 11-27 23:07 to 23:27; t188 (t186 + pattern colour) +37 after 321 games)
-t186  # guardrail diagnostic (y323 beats t188 58-33, 2026-11-28 00:26): t188 without the pattern colour (t188 - study 14 2.5); one change from the champion
+# t186 (retired: guardrail diagnostic, -9 vs t188 after 933 games; retired at y358 crowning (11-28 00:46))
 # t186 (retired: replica record 1829 until t188 (its child, the champion) set 1845 at #5 on 11-27 23:50; -22 vs t188 after 854 games; t188's parent, so no reference slot)
 # t187 (retired: +27 vs y328 after 235 games; kept as t188 (t186 + t187))
-t187  # guardrail diagnostic (y323 beats t188 58-33, 2026-11-28 00:26): t188 without the siege step-out (y328 + study 14 2.5); one change from the champion
+# t187 (retired: guardrail diagnostic, -5 vs t188 after 354 games; retired at y358 crowning)
 # y342 (retired: +2 vs y328 after 218 games; tower target weight 40, built on y328)
-t188  # champion (t186 + study 14 2.5 pattern-colour painting; crowned 2026-11-27 23:27)
+t188  # replica record 1854 at #5, 2026-11-28 00:10 PDT (owner #35); champion until y358 (11-28 00:46)
 # y343 (retired: +94 vs y328 after 111 games, built on y328; ported to t186 as y345)
 # y344 (retired: +14 vs y328 after 128 games, built on y328; ported to t186 as y346)
 # y345 (retired: +31 vs t186 after 66 games; ported to t188 as y351)
@@ -583,16 +583,26 @@ t188  # champion (t186 + study 14 2.5 pattern-colour painting; crowned 2026-11-2
 # t189 (retired: +39 vs t186 after 108 games; ported to t188 as t191)
 # t190 (retired: -20 vs t186 after 77 games; ported to t188 as t192)
 # y348 (retired: +54 vs t186 after 71 games; ported to t188 as y350)
-y349
+# y349 (retired: -8 vs t188 after 581 games (flat); built on t188)
 # y350 (retired: -46 vs t188 after 299 games; siege from 20 paint)
 # t191 (retired: -56 vs t188 after 258 games; dry-flag fix)
 # y351 (retired: -21 vs t188 after 291 games; SRP enemy-tower d2 36)
-t192
+# t192 (retired: +7 vs t188 after 610 games; built on t188, ported as t193)
 # y352 (retired: -37 vs t188 after 306 games; splasher tower value 50)
 # y353 (retired: -34 vs t188 after 235 games; y349 + y350)
-y354
-y355
-y356
-y357
-y358
-y359
+# y354 (retired: +10 vs t188 after 464; built on t188, ported as y362)
+# y355 (retired: +10 vs t188 after 430; built on t188, ported as y363)
+# y356 (retired: +0 vs t188 after 268; built on t188)
+# y357 (retired: +23 vs t188 after 261; built on t188, ported as y360)
+y358  # champion (t188 + soldiers refill below 120 paint; crowned 2026-11-28 00:46 PDT)
+# y359 (retired: +20 vs t188 after 211; built on t188, ported as y361)
+y360
+y361
+y362
+y363
+t193
+y364
+y365
+t194
+t195
+y366

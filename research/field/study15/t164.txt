@@ -1,0 +1,37 @@
+
+== lost: 44 games; soldier hits on towers that stood
+  us   hits 147.0/game; ends the turn in the tower's range  61% (death within 5 rounds after: in range  22%, out  12%); stepped in to hit  46%
+       under 100 HP: stepped in  9.9/game (then died  80%), already in range 17.7/game (died  60%);  hits on a defense-buffed side  18% (died  40% vs  13% unbuffed); on defense towers   5%
+  them hits 155.0/game; ends the turn in the tower's range  56% (death within 5 rounds after: in range   7%, out   4%); stepped in to hit  53%
+       under 100 HP: stepped in 12.3/game (then died  35%), already in range 14.5/game (died  24%);  hits on a defense-buffed side   0% (died   0% vs   6% unbuffed); on defense towers   0%
+  per opponent: defense towers completed per game (us / them); robots killed by tower fire per game (ours / theirs)
+    confused                    6 g  defense  0.0 /  0.0   tower kills of ours   7.3, of theirs   5.0
+    gone-whalin                 1 g  defense  0.0 /  0.0   tower kills of ours   6.0, of theirs  11.0
+    immutable                   9 g  defense  0.0 /  1.9   tower kills of ours  10.2, of theirs   3.0
+    just-woke-up                6 g  defense  0.0 /  0.0   tower kills of ours   6.5, of theirs   1.5
+    om-nom                      6 g  defense  0.0 /  0.0   tower kills of ours   2.5, of theirs   9.8
+    spaark                      9 g  defense  0.0 /  2.9   tower kills of ours  19.2, of theirs   2.4
+    subscribe-to-caterpillow    7 g  defense  0.0 /  1.4   tower kills of ours   9.3, of theirs   6.1
+
+== won: 56 games; soldier hits on towers that stood
+  us   hits 208.3/game; ends the turn in the tower's range  61% (death within 5 rounds after: in range  21%, out  12%); stepped in to hit  46%
+       under 100 HP: stepped in 14.6/game (then died  77%), already in range 25.0/game (died  63%);  hits on a defense-buffed side  18% (died  36% vs  13% unbuffed); on defense towers   6%
+  them hits 146.7/game; ends the turn in the tower's range  58% (death within 5 rounds after: in range  11%, out   6%); stepped in to hit  52%
+       under 100 HP: stepped in 11.3/game (then died  45%), already in range 14.3/game (died  35%);  hits on a defense-buffed side   0% (died   0% vs   9% unbuffed); on defense towers   0%
+  per opponent: defense towers completed per game (us / them); robots killed by tower fire per game (ours / theirs)
+    confused                    6 g  defense  0.0 /  0.0   tower kills of ours   9.7, of theirs   7.3
+    gone-whalin                 2 g  defense  0.0 /  0.0   tower kills of ours  10.5, of theirs   3.0
+    immutable                  15 g  defense  0.0 /  1.4   tower kills of ours  14.5, of theirs   3.5
+    just-woke-up                2 g  defense  0.0 /  0.5   tower kills of ours  15.5, of theirs   2.0
+    om-nom                      6 g  defense  0.0 /  0.0   tower kills of ours   8.2, of theirs  11.0
+    scienceqiu                  3 g  defense  0.0 /  0.3   tower kills of ours   7.3, of theirs  13.3
+    spaark                     12 g  defense  0.0 /  0.6   tower kills of ours  21.5, of theirs   4.7
+    subscribe-to-caterpillow   10 g  defense  0.0 /  0.0   tower kills of ours   9.4, of theirs   4.6
+
+== soldier hits on L1/L2 paint and money towers that stood: d2 to the tower at the end of the hit turn (share of hits; death to that tower within 5 rounds after)
+  lost:
+    us   1-2:   0% (59%)  4:  12% (14%)  5:  13% (16%)  edge 8-9:  34% (17%)  out (>9):  40% (11%)   |  out->in  47%  in->out  40%  in->in  13%  in->in, moved   7%  out->out   0%
+    them 1-2:   0% (50%)  4:   3% (11%)  5:  16% ( 7%)  edge 8-9:  37% ( 7%)  out (>9):  44% ( 4%)   |  out->in  53%  in->out  44%  in->in   3%  in->in, moved   1%  out->out   0%
+  won:
+    us   1-2:   0% (47%)  4:  13% (16%)  5:  13% (15%)  edge 8-9:  34% (16%)  out (>9):  41% (10%)   |  out->in  48%  in->out  41%  in->in  11%  in->in, moved   6%  out->out   0%
+    them 1-2:   0% (34%)  4:   3% (16%)  5:  17% (13%)  edge 8-9:  38% (10%)  out (>9):  42% ( 6%)   |  out->in  52%  in->out  42%  in->in   6%  in->in, moved   2%  out->out   0%

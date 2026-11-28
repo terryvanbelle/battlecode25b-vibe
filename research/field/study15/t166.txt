@@ -1,0 +1,107 @@
+opp        res map          c  end | cov50 us/them | cov75 us/them | tow100 | tow150 | mop100 | 1st kill on us | ver
+confused   L   Castle       m  360 |  21.5/ 26.3 |  26.7/ 29.9 |  4/ 5 |  4/ 5 | 2/4 | 53 | y328
+confused   L   Circuit      s  483 |   7.8/  8.6 |  11.3/ 12.4 |  5/ 5 |  5/ 8 | 2/2 | 107 | y328
+confused   L   DefaultMediu m  300 |  13.3/ 11.0 |  14.6/ 14.1 |  7/ 7 |  3/ 8 | 1/5 | 73 | y328
+confused   L   Justice      s  232 |  24.2/ 23.1 |  24.4/ 30.3 |  4/ 5 |  1/ 6 | 1/3 | 50 | y328
+confused   L   walalilongla l  377 |  11.8/  9.2 |  12.5/  9.2 |  5/ 6 |  5/ 7 | 0/3 | 44 | t188
+confused   L   windmill     m  411 |  11.2/  8.7 |  14.0/ 12.9 |  3/ 2 |  5/ 3 | 2/4 | 44 | y328
+confused   W   SandyBeach   m  245 |  42.8/ 31.8 |  46.2/ 33.1 |  3/ 2 |  6/ 2 | 1/2 | 33 | t188
+confused   W   Snowman      s  282 |  15.2/ 19.7 |  15.9/ 23.7 |  4/ 2 |  3/ 0 | 0/3 | 40 | y328
+confused   W   TheBest      l  568 |   6.5/  5.2 |   8.0/  6.1 | 10/ 8 | 12/12 | 0/2 | 126 | y328
+confused   W   leavemealone m  279 |  20.3/ 20.4 |  22.7/ 22.5 |  7/ 5 |  8/ 4 | 4/3 | 44 | y328
+confused   W   mit          l  419 |   8.8/  9.0 |  10.6/ 10.8 |  6/ 8 |  7/ 8 | 0/3 | 94 | t188
+confused   W   walalilongla l  322 |  12.8/  8.0 |  14.6/  8.1 |  6/ 5 |  9/ 6 | 0/3 | 58 | y328
+gone-whali L   Bread        m  492 |  16.7/  7.8 |  22.1/  8.1 |  4/ 3 |  5/ 4 | 0/5 | 36 | t188
+gone-whali W   PlumberGame  m  307 |  14.6/ 11.7 |  18.7/ 16.1 |  8/ 8 |  9/ 8 | 2/4 | 92 | t188
+gone-whali W   Terminal     m  550 |  13.5/  8.7 |  14.2/ 10.2 |  4/ 6 |  5/ 7 | 0/2 | 34 | t188
+immutable  L   AlarmClock   m  397 |  16.0/ 19.7 |  18.1/ 25.9 |  8/ 6 | 10/ 7 | 4/2 | 135 | t188
+immutable  L   Barcode      s  292 |  22.3/ 31.6 |  24.1/ 38.4 |  3/ 3 |  3/ 2 | 1/3 | 92 | y328
+immutable  L   BatSignal    s  372 |  15.5/ 20.9 |  16.6/ 30.0 |  7/ 5 |  7/ 6 | 1/3 | 96 | y328
+immutable  L   BunnyGame    m  384 |   9.8/ 11.5 |  10.6/ 14.0 |  3/ 4 |  4/ 3 | 0/3 | 23 | y328
+immutable  L   CastleDefens s  119 |  22.4/ 49.1 |  18.8/ 58.5 |  2/ 3 |  1/ 4 | 0/6 | 96 | y328
+immutable  L   HungerGames  l  406 |  13.6/ 12.7 |  16.2/ 17.6 | 10/ 8 | 12/ 9 | 0/0 | 151 | y328
+immutable  L   Mirage       l  295 |  13.1/ 11.5 |  14.1/ 17.0 |  5/ 8 |  7/10 | 0/3 | 22 | t186
+immutable  L   Racetrack    s  358 |  29.4/ 37.4 |  29.5/ 43.2 |  6/ 2 |  6/ 5 | 0/4 | 168 | y328
+immutable  L   sierpinski   l  576 |  13.1/ 16.3 |  14.7/ 22.3 |  5/ 5 |  7/ 7 | 2/3 | 101 | y328
+immutable  W   AlarmClock   m  439 |  14.4/ 16.6 |  16.3/ 24.7 |  6/ 3 |  8/ 5 | 1/5 | 121 | y328
+immutable  W   DefaultSmall s  235 |  22.0/ 37.9 |  22.6/ 48.9 |  3/ 0 |  4/ 0 | 1/3 | 73 | y328
+immutable  W   DonkeyKong   l  375 |   8.6/  8.9 |  10.1/ 11.5 | 10/ 6 | 14/10 | 0/5 | 95 | y328
+immutable  W   Flower       l  267 |   8.2/ 11.5 |  11.4/ 15.4 |  8/ 4 |  8/ 3 | 1/2 | 110 | y328
+immutable  W   Fossil       m  288 |  24.1/ 22.0 |  29.4/ 30.9 |  8/ 5 |  9/ 6 | 1/3 | 124 | t188
+immutable  W   Leaf         l  335 |   7.2/  6.3 |   9.8/  9.5 | 11/ 7 | 16/ 8 | 0/4 | 200 | t188
+immutable  W   Paintball    s  177 |  43.8/ 43.2 |  41.8/ 44.1 |  4/ 0 |  5/ 0 | 0/4 | 51 | t186
+immutable  W   Parking_lot  l  777 |   3.3/  8.5 |   3.9/ 10.5 |  3/ 4 |  6/ 5 | 1/2 | 78 | y328
+immutable  W   Snowman      s  389 |  16.3/ 37.8 |  16.1/ 44.1 |  4/ 2 |  4/ 1 | 0/4 | 93 | t186
+immutable  W   TheBest      l  465 |   7.1/  7.4 |   8.8/ 10.4 | 10/ 5 | 11/ 7 | 1/2 | 174 | y328
+immutable  W   UnderTheSea  l  237 |  21.7/ 20.7 |  23.9/ 25.0 | 10/ 6 | 11/ 6 | 0/1 | 126 | y328
+immutable  W   catface      m  364 |  11.6/ 14.5 |  13.2/ 18.0 |  4/ 3 |  4/ 4 | 1/2 | 43 | y328
+immutable  W   memstore     l  640 |   7.8/ 10.3 |   9.8/ 14.9 |  6/ 4 |  5/ 7 | 3/4 | 45 | y328
+immutable  W   starburst    m  630 |  15.9/ 21.6 |  16.5/ 26.8 |  6/ 3 |  6/ 4 | 1/3 | 99 | y328
+immutable  W   sunrise      l  746 |  18.4/ 20.3 |  19.8/ 23.9 |  6/ 6 |  6/ 5 | 2/2 | 112 | y328
+just-woke- L   DefaultHuge  l  345 |   6.9/  6.2 |   8.5/  9.4 | 11/10 | 18/13 | 0/1 | 208 | y328
+just-woke- L   Oasis        l  342 |   8.0/  7.9 |   7.8/  9.3 |  7/ 8 |  9/11 | 3/5 | 103 | y328
+just-woke- L   PlumberGame  m  387 |  13.3/ 14.5 |  16.4/ 16.1 |  8/ 6 |  8/ 6 | 1/4 | 110 | y328
+just-woke- L   TheBest      l  357 |   7.0/  5.6 |   8.0/  7.0 |  8/ 8 | 11/12 | 4/4 | 124 | t188
+just-woke- L   TheBest      l  475 |   7.0/  5.6 |   8.0/  7.0 |  8/ 7 | 11/10 | 4/5 | 124 | y328
+just-woke- L   galaxy       l  296 |  15.5/ 17.1 |  17.1/ 19.4 |  5/ 6 |  6/10 | 2/5 | 120 | y328
+just-woke- W   UglySweater  l  371 |   8.2/ 11.2 |  11.3/ 11.7 |  5/ 4 |  7/ 6 | 2/6 | 72 | t188
+just-woke- W   starburst    m  382 |  14.8/ 10.3 |  15.4/ 10.7 |  5/ 4 |  5/ 5 | 1/5 | 47 | t188
+om-nom     L   BunnyGame    m  194 |  10.3/ 12.6 |  11.3/ 15.2 |  2/ 4 |  1/ 7 | 0/3 | 121 | t188
+om-nom     L   DefaultHuge  l  376 |   7.7/  7.0 |   9.1/  9.6 | 11/10 | 16/13 | 0/1 | 146 | y328
+om-nom     L   FourCorners  s  624 |  15.7/ 18.3 |  18.8/ 20.8 |  3/ 2 |  2/ 4 | 1/5 | 32 | y328
+om-nom     L   Jail         s  153 |  17.6/ 20.9 |  17.4/ 23.3 |  0/ 1 |  0/ 1 | 0/3 | 65 | y328
+om-nom     L   Oasis        l  368 |   8.3/  9.4 |  10.1/ 12.0 | 10/ 7 | 10/ 9 | 0/2 | 146 | y328
+om-nom     L   Parking_lot  l  413 |   3.8/  8.6 |   4.6/ 10.1 |  2/ 5 |  4/ 7 | 1/4 | 62 | y328
+om-nom     W   AlarmClock   m  384 |  15.6/ 14.8 |  15.8/ 17.3 |  6/ 4 |  6/ 5 | 4/7 | 64 | t188
+om-nom     W   BatSignal    s  343 |  14.3/ 14.3 |  17.3/ 17.3 |  7/ 3 |  7/ 4 | 0/6 | 84 | y328
+om-nom     W   lighthouse   m  506 |  14.9/ 17.8 |  16.3/ 20.9 |  2/ 1 |  1/ 2 | 1/2 | 48 | y328
+om-nom     W   sayhi        l  679 |  10.3/ 11.1 |  12.3/ 13.8 |  6/ 5 |  7/ 8 | 0/2 | 38 | y328
+om-nom     W   shell        l  340 |   9.7/ 10.2 |  12.4/ 12.6 |  8/ 7 |  7/ 8 | 1/6 | 83 | t188
+om-nom     W   shell        l  395 |   8.7/  9.7 |  11.3/ 13.1 |  7/ 6 |  9/ 5 | 4/8 | 109 | y328
+scienceqiu W   Flower       l  426 |   7.0/ 13.9 |   8.5/ 16.3 |  4/ 4 |  4/ 5 | 1/5 | 43 | t188
+scienceqiu W   Thirds       l  387 |  11.5/ 13.9 |  14.5/ 18.9 |  6/ 6 |  5/ 5 | 1/1 | 109 | t188
+scienceqiu W   box          m  546 |  12.5/ 20.6 |  13.8/ 25.7 |  3/ 3 |  3/ 3 | 1/3 | 82 | t188
+spaark     L   AlarmClock   m  360 |  14.3/ 14.8 |  15.2/ 19.6 |  7/ 7 |  7/ 6 | 0/2 | 65 | y328
+spaark     L   Barcode      s  358 |  22.3/ 28.0 |  22.3/ 32.4 |  3/ 3 |  3/ 7 | 2/4 | 98 | y328
+spaark     L   BatSignal    s  328 |  13.1/ 14.0 |  15.1/ 18.1 |  4/ 6 |  5/ 6 | 1/3 | 57 | y328
+spaark     L   DefaultMediu m  572 |  12.2/ 13.3 |  15.0/ 15.8 |  7/ 7 |  7/ 9 | 1/2 | 88 | y328
+spaark     L   DefaultSmall s  157 |  21.8/ 33.9 |  23.4/ 43.5 |  1/ 1 |  0/ 1 | 1/1 | 48 | y328
+spaark     L   Money        m  552 |  23.0/ 21.5 |  25.2/ 24.5 |  6/ 6 |  6/ 7 | 2/3 | 103 | y328
+spaark     L   Piglets2     l  343 |   6.2/  8.2 |   7.7/ 11.4 |  5/ 7 |  6/ 9 | 2/1 | 111 | t188
+spaark     L   Terminal     m  493 |  15.1/ 13.6 |  16.3/ 17.1 |  7/ 7 |  7/ 8 | 0/2 | 69 | y328
+spaark     L   catface      m  255 |   6.9/ 11.1 |  11.9/ 15.1 |  3/ 4 |  3/ 5 | 0/2 | 37 | y328
+spaark     W   AlarmClock   m  272 |  15.4/ 15.8 |  15.9/ 21.0 |  7/ 5 |  7/ 5 | 3/2 | 104 | t186
+spaark     W   DonkeyKong   l  440 |   9.5/  8.2 |  11.0/  9.3 | 10/10 | 10/11 | 0/2 | 96 | t186
+spaark     W   DonkeyKong   l  466 |   9.5/  8.2 |  11.0/  9.3 | 10/10 | 10/11 | 0/2 | 96 | t188
+spaark     W   Flower       l  227 |   8.7/  9.5 |   8.7/ 11.3 |  6/ 3 |  6/ 3 | 3/2 | 113 | y328
+spaark     W   Racetrack    s  417 |  31.1/ 25.4 |  31.9/ 26.9 |  6/ 6 |  6/ 5 | 2/2 | 86 | y328
+spaark     W   Thirds       l  375 |   9.8/ 11.6 |  12.9/ 15.3 |  6/ 5 |  6/ 5 | 1/2 | 49 | y328
+spaark     W   gardenworld  l  358 |   6.1/  6.0 |   6.9/  8.1 |  9/ 7 |  8/ 9 | 1/2 | 126 | y328
+spaark     W   gridworld    m  451 |  21.3/ 19.4 |  28.9/ 25.2 | 10/10 | 10/10 | 0/2 | 177 | t188
+spaark     W   mit          l  558 |   7.6/  8.1 |   8.3/ 10.3 |  6/ 3 |  7/ 3 | 3/2 | 125 | y328
+spaark     W   sayhi        l  335 |   9.1/  8.0 |  12.3/ 10.8 |  6/ 4 |  7/ 4 | 1/2 | 52 | t186
+spaark     W   sierpinski   l  283 |  11.7/ 11.9 |  15.5/ 13.9 |  7/ 2 |  8/ 4 | 1/2 | 74 | y328
+spaark     W   sunrise      l  374 |  18.0/ 20.1 |  18.8/ 21.6 |  5/ 4 |  6/ 4 | 2/2 | 106 | y328
+subscribe- L   Jail         s  136 |  19.1/ 22.2 |  20.6/ 23.5 |  0/ 1 |  0/ 1 | 0/1 | 40 | y328
+subscribe- L   Justice      s  430 |  30.3/ 24.9 |  35.2/ 32.9 |  5/ 6 |  4/ 5 | 1/6 | 67 | y328
+subscribe- L   Oasis        l  354 |   7.6/  9.7 |   8.4/ 11.5 |  7/ 7 |  7/10 | 2/1 | 118 | y328
+subscribe- L   Parking_lot  l  355 |   3.3/  9.1 |   3.8/ 13.6 |  4/ 8 |  5/12 | 2/0 | 105 | y328
+subscribe- L   Portal       m  643 |  18.2/ 19.5 |  19.3/ 25.5 |  5/ 5 |  4/ 8 | 1/4 | 106 | y328
+subscribe- L   TheBest      l  410 |   6.9/  8.1 |   7.9/  9.8 |  9/ 7 | 12/12 | 3/2 | 114 | y328
+subscribe- L   shell        l  460 |   8.5/ 10.4 |  11.0/ 13.3 |  7/ 7 |  7/10 | 1/1 | 55 | y328
+subscribe- W   AlarmClock   m  231 |  14.8/ 17.3 |  17.3/ 21.5 |  6/ 4 |  8/ 4 | 1/1 | 107 | y328
+subscribe- W   Castle       m  275 |  22.8/ 27.8 |  24.8/ 31.8 |  5/ 4 |  6/ 4 | 2/5 | 50 | y328
+subscribe- W   Castle       m  387 |  26.4/ 29.6 |  30.2/ 32.7 |  5/ 6 |  6/ 6 | 0/0 | 74 | y328
+subscribe- W   Dominoes     m  305 |  11.3/ 16.2 |  14.3/ 19.5 |  4/ 1 |  4/ 3 | 1/2 | 66 | y328
+subscribe- W   Fossil       m  257 |  23.0/ 23.3 |  25.2/ 26.0 |  7/ 6 |  6/ 4 | 1/6 | 54 | y328
+subscribe- W   FourCorners  s  400 |  15.7/ 28.0 |  16.6/ 35.2 |  2/ 5 |  2/ 4 | 0/2 | 96 | y328
+subscribe- W   Snowglobe    l  322 |  14.0/ 13.8 |  17.3/ 16.8 |  7/ 5 |  8/ 7 | 2/7 | 103 | y328
+subscribe- W   galaxy       l  507 |  16.4/ 18.0 |  18.6/ 21.8 |  6/ 5 |  7/ 6 | 4/7 | 108 | y328
+subscribe- W   sunrise      l  891 |  21.4/ 21.2 |  22.9/ 24.8 |  8/ 7 | 10/ 8 | 2/1 | 105 | y328
+subscribe- W   walalilongla l  316 |  14.2/ 14.2 |  17.1/ 16.0 |  8/ 8 |  9/ 7 | 0/1 | 85 | y328
+L s 13 cov75 gap (them-us) med 5.9 tow100 diff 0 tow150 diff -1
+L m 14 cov75 gap (them-us) med 2.0 tow100 diff 0.0 tow150 diff -1.0
+L l 17 cov75 gap (them-us) med 1.9 tow100 diff 0 tow150 diff -2
+W s 7 cov75 gap (them-us) med 7.8 tow100 diff 2 tow150 diff 3
+W m 19 cov75 gap (them-us) med 2.5 tow100 diff 1 tow150 diff 1
+W l 30 cov75 gap (them-us) med 1.5 tow100 diff 1.0 tow150 diff 1.0

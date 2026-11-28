@@ -1,0 +1,119 @@
+m7191g0 scienceqiu soldier 10333 killed r69 by PAINT_TOWER 1 at (12, 9)
+   r55 at (12,7) d2  4 hp 240 paint 119  shot by []  hit [1]
+   r56 at (13,6) d2 10 hp 210 paint 113  shot by [(1, '10'), (1, '20')]  hit [1]
+   r57 at (12,7) d2  4 hp 210 paint 107  shot by []  hit [1]
+   r58 at (13,6) d2 10 hp 180 paint 101  shot by [(1, '10'), (1, '20')]  hit [1]
+   r59 at (12,7) d2  4 hp 180 paint  95  shot by []  hit [1]
+   r60 at (13,6) d2 10 hp 150 paint  89  shot by [(1, '10'), (1, '20')]  hit [1]
+   r61 at (12,7) d2  4 hp 150 paint  83  shot by []  hit [1]
+   r62 at (13,6) d2 10 hp 120 paint  77  shot by [(1, '10'), (1, '20')]  hit [1]
+   r63 at (12,7) d2  4 hp 120 paint  71  shot by []  hit [1]
+   r64 at (13,6) d2 10 hp  90 paint  65  shot by [(1, '10'), (1, '20')]  hit [1]
+   r65 at (12,7) d2  4 hp  90 paint  59  shot by []  hit [1]
+   r66 at (12,7) d2  4 hp  60 paint  58  shot by [(1, '10'), (1, '20')]  hit []
+   r67 at (13,6) d2 10 hp  30 paint  52  shot by [(1, '10'), (1, '20')]  hit [1]
+   r68 at (12,7) d2  4 hp  30 paint  46  shot by []  hit [1]
+m7191g0 scienceqiu soldier 13224 killed r70 by MONEY_TOWER 3 at (11, 25)
+   r56 at (14,27) d2 13 hp 190 paint 156  shot by []  hit []
+   r57 at (13,26) d2  5 hp 190 paint 150  shot by []  hit [3]
+   r58 at (14,27) d2 13 hp 160 paint 135  shot by [(3, '10'), (3, '20')]  hit [3]
+   r59 at (13,26) d2  5 hp 160 paint 129  shot by []  hit [3]
+   r60 at (14,27) d2 13 hp 130 paint 124  shot by [(3, '10'), (3, '20')]  hit [3]
+   r61 at (13,27) d2  8 hp 130 paint 108  shot by []  hit [3]
+   r62 at (14,28) d2 18 hp 100 paint 103  shot by [(3, '10'), (3, '20')]  hit [3]
+   r63 at (13,28) d2 13 hp 100 paint 103  shot by []  hit []
+   r64 at (12,27) d2  5 hp 100 paint  88  shot by []  hit [3]
+   r65 at (13,28) d2 13 hp  70 paint  82  shot by [(3, '10'), (3, '20')]  hit [3]
+   r66 at (12,27) d2  5 hp  70 paint  77  shot by []  hit [3]
+   r67 at (12,28) d2 10 hp  40 paint  61  shot by [(3, '10'), (3, '20')]  hit [3]
+   r68 at (11,27) d2  4 hp  40 paint  56  shot by []  hit [3]
+   r69 at (11,27) d2  4 hp  10 paint  56  shot by [(3, '10'), (3, '20')]  hit []
+m7191g0 scienceqiu soldier 11138 killed r243 by MONEY_TOWER 12043 at (14, 38)
+   r229 at (17,38) d2  9 hp 250 paint 125  shot by [(12043, '10'), (12043, '20')]  hit [12043]
+   r230 at (18,39) d2 17 hp 220 paint 119  shot by []  hit [12043]
+   r231 at (17,38) d2  9 hp 220 paint 112  shot by [(12043, '10'), (12043, '20')]  hit [12043]
+   r232 at (18,39) d2 17 hp 190 paint 106  shot by []  hit [12043]
+   r233 at (17,38) d2  9 hp 190 paint  99  shot by [(12043, '10'), (12043, '20')]  hit [12043]
+   r234 at (18,39) d2 17 hp 160 paint  93  shot by []  hit [12043]
+   r235 at (17,38) d2  9 hp 160 paint  86  shot by [(12043, '10'), (12043, '20')]  hit [12043]
+   r236 at (18,39) d2 17 hp 130 paint  80  shot by []  hit [12043]
+   r237 at (17,38) d2  9 hp 130 paint  73  shot by [(12043, '10'), (12043, '20')]  hit [12043]
+   r238 at (18,39) d2 17 hp 100 paint  67  shot by []  hit [12043]
+   r239 at (17,38) d2  9 hp 100 paint  60  shot by [(12043, '10'), (12043, '20')]  hit [12043]
+   r240 at (17,38) d2  9 hp  70 paint  58  shot by [(12043, '10'), (12043, '20')]  hit []
+   r241 at (18,39) d2 17 hp  40 paint  52  shot by []  hit [12043]
+   r242 at (17,38) d2  9 hp  40 paint  45  shot by [(12043, '10'), (12043, '20')]  hit [12043]
+   r243 at (17,38) d2  9 hp  10 paint  38  shot by [(12043, '10')]  hit [12043]
+
+m7157g0 spaark their soldier 12567 on our MONEY_TOWER at (12, 22), hits r76-r92 (15)
+   r74 d2 25 hp 250 paint 189 shot [] hit 
+   r75 d2 18 hp 250 paint 184 shot [] hit 
+   r76 d2  8 hp 250 paint 177 shot ['20', '10'] hit Y
+   r77 d2 18 hp 220 paint 172 shot [] hit Y
+   r78 d2  8 hp 220 paint 165 shot ['20', '10'] hit Y
+   r79 d2 18 hp 190 paint 160 shot [] hit Y
+   r80 d2  8 hp 190 paint 153 shot ['20', '10'] hit Y
+   r81 d2 18 hp 160 paint 148 shot [] hit Y
+   r82 d2  8 hp 160 paint 141 shot ['20', '10'] hit Y
+   r83 d2 18 hp 130 paint 136 shot [] hit Y
+   r84 d2  8 hp 130 paint 129 shot ['20', '10'] hit Y
+   r85 d2 18 hp 100 paint 124 shot [] hit Y
+   r86 d2  8 hp 100 paint 117 shot ['20', '10'] hit Y
+   r87 d2 18 hp  70 paint 112 shot [] hit Y
+   r88 d2  8 hp  70 paint 105 shot ['20', '10'] hit Y
+   r89 d2 18 hp  40 paint 100 shot [] hit Y
+   r90 d2 20 hp  40 paint  94 shot [] hit 
+   r91 d2 17 hp  40 paint  94 shot [] hit 
+   r92 d2  9 hp  40 paint  82 shot ['20', '10'] hit Y
+   r93 d2 17 hp  10 paint  80 shot [] hit 
+   r94 d2 29 hp  10 paint  74 shot [] hit 
+   r95 d2 37 hp  10 paint  73 shot [] hit 
+   r96 d2 37 hp  10 paint  67 shot [] hit 
+   r97 d2 50 hp  10 paint  65 shot [] hit 
+m7181g0 immutable their soldier 10986 on our MONEY_TOWER at (30, 12), hits r288-r295 (8)
+   r286 d2 25 hp 250 paint 189 shot [] hit 
+   r287 d2 16 hp 250 paint 189 shot [] hit 
+   r288 d2  9 hp 250 paint 184 shot [] hit Y
+   r289 d2 10 hp 220 paint 179 shot ['20', '10'] hit Y
+   r290 d2  4 hp 220 paint 174 shot [] hit Y
+   r291 d2 10 hp 190 paint 169 shot ['20', '10'] hit Y
+   r292 d2  4 hp 190 paint 164 shot [] hit Y
+   r293 d2 10 hp 160 paint 158 shot ['20', '10'] hit Y
+   r294 d2  5 hp 160 paint 152 shot [] hit Y
+   r295 d2 10 hp 130 paint 145 shot ['20', '10'] hit Y
+m7204g0 just-woke-up their soldier 12407 on our MONEY_TOWER at (16, 26), hits r79-r92 (13)
+   r77 d2 20 hp 250 paint 193 shot [] hit 
+   r78 d2 10 hp 250 paint 191 shot [] hit 
+   r79 d2  5 hp 250 paint 184 shot [] hit Y
+   r80 d2 13 hp 220 paint 177 shot ['20', '10'] hit Y
+   r81 d2  5 hp 220 paint 170 shot [] hit Y
+   r82 d2 13 hp 190 paint 163 shot ['20', '10'] hit Y
+   r83 d2  5 hp 190 paint 156 shot [] hit Y
+   r84 d2 13 hp 160 paint 149 shot ['20', '10'] hit Y
+   r85 d2  5 hp 160 paint 142 shot [] hit Y
+   r86 d2 13 hp 130 paint 135 shot ['20', '10'] hit Y
+   r87 d2  5 hp 130 paint 128 shot [] hit Y
+   r88 d2 13 hp 100 paint 121 shot ['20', '10'] hit Y
+   r89 d2  5 hp 100 paint 114 shot [] hit Y
+   r90 d2 13 hp  70 paint 107 shot ['20', '10'] hit Y
+   r91 d2 10 hp  70 paint 105 shot [] hit 
+   r92 d2  5 hp  70 paint  98 shot [] hit Y
+   r93 d2 13 hp  40 paint  86 shot ['20', '10'] hit 
+   r94 d2 13 hp  40 paint  84 shot [] hit 
+   r95 d2 10 hp  40 paint  82 shot [] hit 
+   r96 d2 16 hp  40 paint  71 shot [] hit 
+   r97 d2 10 hp  40 paint  69 shot [] hit 
+m7206g2 om-nom their soldier 12616 on our PAINT_TOWER at (36, 20), hits r330-r339 (10)
+   r328 d2 20 hp 250 paint 166 shot [] hit 
+   r329 d2 13 hp 250 paint 164 shot [] hit 
+   r330 d2  8 hp 250 paint 157 shot ['20', '10'] hit Y
+   r331 d2 10 hp 220 paint 150 shot [] hit Y
+   r332 d2  9 hp 220 paint 145 shot ['20', '10'] hit Y
+   r333 d2 10 hp 190 paint 138 shot [] hit Y
+   r334 d2  9 hp 190 paint 133 shot ['20', '10'] hit Y
+   r335 d2 10 hp 160 paint 121 shot [] hit Y
+   r336 d2  9 hp 160 paint 116 shot ['20', '10'] hit Y
+   r337 d2 10 hp 130 paint  99 shot [] hit Y
+   r338 d2  9 hp 130 paint  93 shot ['20', '10'] hit Y
+   r339 d2 10 hp 100 paint  86 shot [] hit Y
+   r340 d2 10 hp 100 paint  74 shot [] hit 

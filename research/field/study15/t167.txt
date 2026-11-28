@@ -1,0 +1,111 @@
+soldier hits on enemy paint/money towers that stood; all games, then losses, then wins
+
+== all
+  t160                   us    21 g  hits 179.7/g  out->in  46%  in->out  39%  in->in  15% (moved 8.5%, still with cd 4.2%, still free 2.2%; under 100 paint  70% of in->in)
+                                     died to it after: out->in  15%  in->out  12%  in->in  28%   all 15.6%;  killed by towers  12.0/g (soldiers  9.8); soldier-turns per soldier killed by a tower   374; hits per soldier killed by a tower 18.3
+  t160                   them  21 g  hits 173.3/g  out->in  52%  in->out  42%  in->in   5% (moved 1.6%, still with cd 3.3%, still free 0.3%; under 100 paint  87% of in->in)
+                                     died to it after: out->in   8%  in->out   5%  in->in  21%   all  7.6%;  killed by towers   7.1/g (soldiers  5.5); soldier-turns per soldier killed by a tower   796; hits per soldier killed by a tower 31.6
+  y316                   us    53 g  hits 184.3/g  out->in  48%  in->out  40%  in->in  12% (moved 7.3%, still with cd 3.6%, still free 1.5%; under 100 paint  68% of in->in)
+                                     died to it after: out->in  15%  in->out  12%  in->in  27%   all 15.1%;  killed by towers  16.2/g (soldiers 11.7); soldier-turns per soldier killed by a tower   374; hits per soldier killed by a tower 15.8
+  y316                   them  53 g  hits 175.9/g  out->in  52%  in->out  42%  in->in   6% (moved 1.2%, still with cd 2.8%, still free 1.9%; under 100 paint  91% of in->in)
+                                     died to it after: out->in  10%  in->out   7%  in->in  31%   all 10.1%;  killed by towers   7.4/g (soldiers  5.9); soldier-turns per soldier killed by a tower   599; hits per soldier killed by a tower 29.6
+  y323                   us     5 g  hits 138.0/g  out->in  46%  in->out  39%  in->in  14% (moved 8.4%, still with cd 4.2%, still free 1.7%; under 100 paint  65% of in->in)
+                                     died to it after: out->in  16%  in->out  12%  in->in  20%   all 15.1%;  killed by towers   7.4/g (soldiers  5.8); soldier-turns per soldier killed by a tower   681; hits per soldier killed by a tower 23.8
+  y323                   them   5 g  hits 159.4/g  out->in  52%  in->out  43%  in->in   4% (moved 1.9%, still with cd 2.4%, still free 0.0%; under 100 paint  88% of in->in)
+                                     died to it after: out->in  11%  in->out   8%  in->in  12%   all  9.8%;  killed by towers   6.4/g (soldiers  4.8); soldier-turns per soldier killed by a tower   526; hits per soldier killed by a tower 33.2
+  y328                   us    73 g  hits 170.4/g  out->in  47%  in->out  39%  in->in  14% (moved 7.8%, still with cd 4.2%, still free 2.3%; under 100 paint  69% of in->in)
+                                     died to it after: out->in  13%  in->out  10%  in->in  26%   all 13.9%;  killed by towers  11.3/g (soldiers  9.0); soldier-turns per soldier killed by a tower   473; hits per soldier killed by a tower 18.8
+  y328                   them  73 g  hits 149.0/g  out->in  53%  in->out  43%  in->in   4% (moved 1.3%, still with cd 2.8%, still free 0.2%; under 100 paint  89% of in->in)
+                                     died to it after: out->in   8%  in->out   6%  in->in  21%   all  7.8%;  killed by towers   5.1/g (soldiers  4.0); soldier-turns per soldier killed by a tower   988; hits per soldier killed by a tower 37.4
+  t186                   us     6 g  hits 156.8/g  out->in  53%  in->out  44%  in->in   3% (moved 0.5%, still with cd 2.3%, still free 0.1%; under 100 paint  93% of in->in)
+                                     died to it after: out->in  16%  in->out  14%  in->in  46%   all 15.8%;  killed by towers  14.3/g (soldiers 10.3); soldier-turns per soldier killed by a tower   322; hits per soldier killed by a tower 15.2
+  t186                   them   6 g  hits 110.5/g  out->in  51%  in->out  42%  in->in   7% (moved 2.3%, still with cd 4.2%, still free 0.2%; under 100 paint  86% of in->in)
+                                     died to it after: out->in   6%  in->out   3%  in->in  14%   all  5.0%;  killed by towers   2.3/g (soldiers  2.2); soldier-turns per soldier killed by a tower   967; hits per soldier killed by a tower 51.0
+  t188                   us    21 g  hits 174.2/g  out->in  50%  in->out  44%  in->in   6% (moved 1.4%, still with cd 3.1%, still free 1.5%; under 100 paint  84% of in->in)
+                                     died to it after: out->in  14%  in->out  11%  in->in  33%   all 13.7%;  killed by towers  12.9/g (soldiers  9.3); soldier-turns per soldier killed by a tower   420; hits per soldier killed by a tower 18.8
+  t188                   them  21 g  hits 166.4/g  out->in  51%  in->out  42%  in->in   7% (moved 2.2%, still with cd 2.7%, still free 2.6%; under 100 paint  87% of in->in)
+                                     died to it after: out->in   7%  in->out   4%  in->in  29%   all  7.6%;  killed by towers   6.2/g (soldiers  4.6); soldier-turns per soldier killed by a tower   718; hits per soldier killed by a tower 36.0
+  new = t186 + t188      us    27 g  hits 170.3/g  out->in  51%  in->out  44%  in->in   5% (moved 1.3%, still with cd 3.0%, still free 1.2%; under 100 paint  85% of in->in)
+                                     died to it after: out->in  14%  in->out  11%  in->in  35%   all 14.1%;  killed by towers  13.2/g (soldiers  9.5); soldier-turns per soldier killed by a tower   397; hits per soldier killed by a tower 17.9
+  new = t186 + t188      them  27 g  hits 154.0/g  out->in  51%  in->out  42%  in->in   7% (moved 2.2%, still with cd 3.0%, still free 2.2%; under 100 paint  87% of in->in)
+                                     died to it after: out->in   7%  in->out   4%  in->in  27%   all  7.2%;  killed by towers   5.3/g (soldiers  4.1); soldier-turns per soldier killed by a tower   748; hits per soldier killed by a tower 37.8
+
+== lost
+  t160                   us     8 g  hits 154.5/g  out->in  45%  in->out  39%  in->in  16% (moved 8.9%, still with cd 4.0%, still free 3.4%; under 100 paint  69% of in->in)
+                                     died to it after: out->in  15%  in->out  13%  in->in  32%   all 17.2%;  killed by towers  13.1/g (soldiers 10.6); soldier-turns per soldier killed by a tower   371; hits per soldier killed by a tower 14.5
+  t160                   them   8 g  hits 175.2/g  out->in  53%  in->out  44%  in->in   3% (moved 0.6%, still with cd 2.4%, still free 0.0%; under 100 paint  95% of in->in)
+                                     died to it after: out->in   5%  in->out   3%  in->in  16%   all  4.6%;  killed by towers   5.6/g (soldiers  3.9); soldier-turns per soldier killed by a tower  1972; hits per soldier killed by a tower 45.2
+  y316                   us    20 g  hits 154.7/g  out->in  47%  in->out  40%  in->in  13% (moved 7.3%, still with cd 3.8%, still free 1.9%; under 100 paint  73% of in->in)
+                                     died to it after: out->in  15%  in->out  12%  in->in  28%   all 15.8%;  killed by towers  13.9/g (soldiers 10.5); soldier-turns per soldier killed by a tower   293; hits per soldier killed by a tower 14.7
+  y316                   them  20 g  hits 175.0/g  out->in  53%  in->out  42%  in->in   5% (moved 1.0%, still with cd 3.0%, still free 0.7%; under 100 paint  95% of in->in)
+                                     died to it after: out->in   9%  in->out   7%  in->in  22%   all  8.8%;  killed by towers   6.7/g (soldiers  5.5); soldier-turns per soldier killed by a tower   903; hits per soldier killed by a tower 31.8
+  y323                   us     2 g  hits 157.5/g  out->in  45%  in->out  40%  in->in  15% (moved 7.9%, still with cd 3.2%, still free 3.5%; under 100 paint  61% of in->in)
+                                     died to it after: out->in  15%  in->out  10%  in->in  11%   all 12.4%;  killed by towers   5.5/g (soldiers  5.0); soldier-turns per soldier killed by a tower   711; hits per soldier killed by a tower 31.5
+  y323                   them   2 g  hits 192.5/g  out->in  53%  in->out  44%  in->in   4% (moved 1.6%, still with cd 2.1%, still free 0.0%; under 100 paint  86% of in->in)
+                                     died to it after: out->in  10%  in->out   8%  in->in  21%   all  9.6%;  killed by towers   9.0/g (soldiers  5.5); soldier-turns per soldier killed by a tower   572; hits per soldier killed by a tower 35.0
+  y328                   us    37 g  hits 139.8/g  out->in  47%  in->out  39%  in->in  14% (moved 7.6%, still with cd 4.4%, still free 2.0%; under 100 paint  72% of in->in)
+                                     died to it after: out->in  14%  in->out  10%  in->in  24%   all 13.8%;  killed by towers  10.3/g (soldiers  8.4); soldier-turns per soldier killed by a tower   349; hits per soldier killed by a tower 16.7
+  y328                   them  37 g  hits 157.8/g  out->in  53%  in->out  43%  in->in   4% (moved 1.2%, still with cd 2.3%, still free 0.1%; under 100 paint  85% of in->in)
+                                     died to it after: out->in   7%  in->out   5%  in->in  19%   all  6.2%;  killed by towers   4.7/g (soldiers  3.5); soldier-turns per soldier killed by a tower  1274; hits per soldier killed by a tower 44.6
+  t186                   us     1 g  hits  72.0/g  out->in  51%  in->out  46%  in->in   3% (moved 2.8%, still with cd 0.0%, still free 0.0%; under 100 paint 100% of in->in)
+                                     died to it after: out->in  14%  in->out   9%  in->in 100%   all 13.9%;  killed by towers   3.0/g (soldiers  3.0); soldier-turns per soldier killed by a tower   763; hits per soldier killed by a tower 24.0
+  t186                   them   1 g  hits  49.0/g  out->in  49%  in->out  49%  in->in   2% (moved 0.0%, still with cd 2.0%, still free 0.0%; under 100 paint 100% of in->in)
+                                     died to it after: out->in  12%  in->out   8%  in->in   0%   all 10.2%;  killed by towers   1.0/g (soldiers  1.0); soldier-turns per soldier killed by a tower  2434; hits per soldier killed by a tower 49.0
+  t188                   us     6 g  hits 146.8/g  out->in  50%  in->out  43%  in->in   7% (moved 2.0%, still with cd 3.1%, still free 1.5%; under 100 paint  91% of in->in)
+                                     died to it after: out->in  16%  in->out  12%  in->in  43%   all 16.2%;  killed by towers   8.5/g (soldiers  7.3); soldier-turns per soldier killed by a tower   300; hits per soldier killed by a tower 20.0
+  t188                   them   6 g  hits 155.7/g  out->in  53%  in->out  44%  in->in   3% (moved 0.5%, still with cd 2.4%, still free 0.0%; under 100 paint  93% of in->in)
+                                     died to it after: out->in   4%  in->out   2%  in->in  15%   all  3.6%;  killed by towers   4.2/g (soldiers  1.7); soldier-turns per soldier killed by a tower  2701; hits per soldier killed by a tower 93.4
+  new = t186 + t188      us     7 g  hits 136.1/g  out->in  50%  in->out  43%  in->in   6% (moved 2.1%, still with cd 2.8%, still free 1.4%; under 100 paint  92% of in->in)
+                                     died to it after: out->in  16%  in->out  12%  in->in  45%   all 16.1%;  killed by towers   7.7/g (soldiers  6.7); soldier-turns per soldier killed by a tower   330; hits per soldier killed by a tower 20.3
+  new = t186 + t188      them   7 g  hits 140.4/g  out->in  52%  in->out  45%  in->in   3% (moved 0.5%, still with cd 2.3%, still free 0.0%; under 100 paint  93% of in->in)
+                                     died to it after: out->in   4%  in->out   3%  in->in  14%   all  4.0%;  killed by towers   3.7/g (soldiers  1.6); soldier-turns per soldier killed by a tower  2677; hits per soldier killed by a tower 89.4
+
+== won
+  t160                   us    13 g  hits 195.2/g  out->in  47%  in->out  39%  in->in  14% (moved 8.3%, still with cd 4.3%, still free 1.6%; under 100 paint  70% of in->in)
+                                     died to it after: out->in  14%  in->out  12%  in->in  25%   all 14.8%;  killed by towers  11.2/g (soldiers  9.3); soldier-turns per soldier killed by a tower   376; hits per soldier killed by a tower 21.0
+  t160                   them  13 g  hits 172.1/g  out->in  52%  in->out  42%  in->in   7% (moved 2.3%, still with cd 3.8%, still free 0.5%; under 100 paint  85% of in->in)
+                                     died to it after: out->in  10%  in->out   7%  in->in  22%   all  9.4%;  killed by towers   8.1/g (soldiers  6.5); soldier-turns per soldier killed by a tower   361; hits per soldier killed by a tower 26.6
+  y316                   us    33 g  hits 202.2/g  out->in  48%  in->out  40%  in->in  12% (moved 7.3%, still with cd 3.5%, still free 1.3%; under 100 paint  66% of in->in)
+                                     died to it after: out->in  15%  in->out  12%  in->in  26%   all 14.8%;  killed by towers  17.6/g (soldiers 12.4); soldier-turns per soldier killed by a tower   415; hits per soldier killed by a tower 16.3
+  y316                   them  33 g  hits 176.5/g  out->in  51%  in->out  42%  in->in   7% (moved 1.3%, still with cd 2.6%, still free 2.6%; under 100 paint  89% of in->in)
+                                     died to it after: out->in  11%  in->out   7%  in->in  35%   all 10.8%;  killed by towers   7.9/g (soldiers  6.2); soldier-turns per soldier killed by a tower   436; hits per soldier killed by a tower 28.4
+  y323                   us     3 g  hits 125.0/g  out->in  47%  in->out  39%  in->in  14% (moved 8.8%, still with cd 5.1%, still free 0.3%; under 100 paint  68% of in->in)
+                                     died to it after: out->in  18%  in->out  13%  in->in  28%   all 17.3%;  killed by towers   8.7/g (soldiers  6.3); soldier-turns per soldier killed by a tower   664; hits per soldier killed by a tower 19.7
+  y323                   them   3 g  hits 137.3/g  out->in  52%  in->out  43%  in->in   5% (moved 2.2%, still with cd 2.7%, still free 0.0%; under 100 paint  90% of in->in)
+                                     died to it after: out->in  12%  in->out   8%  in->in   5%   all 10.0%;  killed by towers   4.7/g (soldiers  4.3); soldier-turns per soldier killed by a tower   487; hits per soldier killed by a tower 31.7
+  y328                   us    36 g  hits 201.9/g  out->in  47%  in->out  39%  in->in  14% (moved 7.9%, still with cd 4.1%, still free 2.5%; under 100 paint  67% of in->in)
+                                     died to it after: out->in  13%  in->out  10%  in->in  28%   all 13.9%;  killed by towers  12.4/g (soldiers  9.8); soldier-turns per soldier killed by a tower   582; hits per soldier killed by a tower 20.7
+  y328                   them  36 g  hits 140.0/g  out->in  53%  in->out  42%  in->in   5% (moved 1.3%, still with cd 3.5%, still free 0.2%; under 100 paint  92% of in->in)
+                                     died to it after: out->in  10%  in->out   7%  in->in  23%   all  9.6%;  killed by towers   5.4/g (soldiers  4.4); soldier-turns per soldier killed by a tower   755; hits per soldier killed by a tower 31.5
+  t186                   us     5 g  hits 173.8/g  out->in  53%  in->out  44%  in->in   3% (moved 0.3%, still with cd 2.5%, still free 0.1%; under 100 paint  92% of in->in)
+                                     died to it after: out->in  16%  in->out  14%  in->in  42%   all 16.0%;  killed by towers  16.6/g (soldiers 11.8); soldier-turns per soldier killed by a tower   300; hits per soldier killed by a tower 14.7
+  t186                   them   5 g  hits 122.8/g  out->in  52%  in->out  41%  in->in   7% (moved 2.4%, still with cd 4.4%, still free 0.2%; under 100 paint  86% of in->in)
+                                     died to it after: out->in   5%  in->out   2%  in->in  14%   all  4.6%;  killed by towers   2.6/g (soldiers  2.4); soldier-turns per soldier killed by a tower   844; hits per soldier killed by a tower 51.2
+  t188                   us    15 g  hits 185.1/g  out->in  50%  in->out  44%  in->in   6% (moved 1.3%, still with cd 3.1%, still free 1.5%; under 100 paint  82% of in->in)
+                                     died to it after: out->in  13%  in->out  10%  in->in  30%   all 12.9%;  killed by towers  14.7/g (soldiers 10.1); soldier-turns per soldier killed by a tower   456; hits per soldier killed by a tower 18.4
+  t188                   them  15 g  hits 170.7/g  out->in  50%  in->out  41%  in->in   9% (moved 2.8%, still with cd 2.9%, still free 3.5%; under 100 paint  87% of in->in)
+                                     died to it after: out->in   8%  in->out   5%  in->in  31%   all  9.1%;  killed by towers   7.0/g (soldiers  5.8); soldier-turns per soldier killed by a tower   490; hits per soldier killed by a tower 29.4
+  new = t186 + t188      us    20 g  hits 182.3/g  out->in  51%  in->out  44%  in->in   5% (moved 1.0%, still with cd 3.0%, still free 1.2%; under 100 paint  83% of in->in)
+                                     died to it after: out->in  14%  in->out  11%  in->in  32%   all 13.6%;  killed by towers  15.2/g (soldiers 10.5); soldier-turns per soldier killed by a tower   412; hits per soldier killed by a tower 17.4
+  new = t186 + t188      them  20 g  hits 158.8/g  out->in  50%  in->out  41%  in->in   9% (moved 2.7%, still with cd 3.2%, still free 2.9%; under 100 paint  87% of in->in)
+                                     died to it after: out->in   8%  in->out   5%  in->in  28%   all  8.2%;  killed by towers   5.9/g (soldiers  5.0); soldier-turns per soldier killed by a tower   533; hits per soldier killed by a tower 32.1
+
+== pairings played by new (t186 + t188) and by y328: 5: confused/walalilongla, immutabl/AlarmClock, just-wok/TheBest, om-nom/shell, spaark/AlarmClock
+  new                    us     5 g  hits 195.6/g  out->in  51%  in->out  43%  in->in   6% (moved 1.7%, still with cd 3.1%, still free 1.2%; under 100 paint  95% of in->in)
+                                     died to it after: out->in  14%  in->out  11%  in->in  37%   all 14.2%;  killed by towers   8.8/g (soldiers  8.0); soldier-turns per soldier killed by a tower   389; hits per soldier killed by a tower 24.4
+  new                    them   5 g  hits 153.4/g  out->in  52%  in->out  42%  in->in   5% (moved 2.3%, still with cd 3.0%, still free 0.0%; under 100 paint  83% of in->in)
+                                     died to it after: out->in   6%  in->out   3%  in->in  17%   all  5.3%;  killed by towers   4.2/g (soldiers  3.2); soldier-turns per soldier killed by a tower  1379; hits per soldier killed by a tower 47.9
+  y328                   us     5 g  hits 236.4/g  out->in  47%  in->out  38%  in->in  14% (moved 7.2%, still with cd 4.1%, still free 3.2%; under 100 paint  73% of in->in)
+                                     died to it after: out->in  13%  in->out   9%  in->in  19%   all 12.5%;  killed by towers  11.4/g (soldiers  9.6); soldier-turns per soldier killed by a tower   531; hits per soldier killed by a tower 24.6
+  y328                   them   5 g  hits 210.0/g  out->in  53%  in->out  42%  in->in   4% (moved 1.3%, still with cd 3.0%, still free 0.1%; under 100 paint  96% of in->in)
+                                     died to it after: out->in   7%  in->out   5%  in->in  32%   all  7.1%;  killed by towers   6.8/g (soldiers  5.6); soldier-turns per soldier killed by a tower  1047; hits per soldier killed by a tower 37.5
+
+== pairings played by new (t186 + t188) and by y316+y323+t160: 4: immutabl/AlarmClock, om-nom/AlarmClock, spaark/AlarmClock, spaark/DonkeyKong
+  new                    us     5 g  hits 274.8/g  out->in  52%  in->out  43%  in->in   5% (moved 1.0%, still with cd 2.3%, still free 1.7%; under 100 paint  82% of in->in)
+                                     died to it after: out->in  18%  in->out  16%  in->in  49%   all 18.6%;  killed by towers  31.2/g (soldiers 20.2); soldier-turns per soldier killed by a tower   288; hits per soldier killed by a tower 13.6
+  new                    them   5 g  hits 205.8/g  out->in  52%  in->out  42%  in->in   7% (moved 3.0%, still with cd 3.5%, still free 0.3%; under 100 paint  80% of in->in)
+                                     died to it after: out->in   6%  in->out   4%  in->in  16%   all  6.2%;  killed by towers   7.2/g (soldiers  5.6); soldier-turns per soldier killed by a tower   618; hits per soldier killed by a tower 36.8
+  y316+y323+t160         us     5 g  hits 216.4/g  out->in  48%  in->out  40%  in->in  12% (moved 7.2%, still with cd 3.1%, still free 1.8%; under 100 paint  61% of in->in)
+                                     died to it after: out->in  16%  in->out  12%  in->in  25%   all 15.4%;  killed by towers  25.4/g (soldiers 16.0); soldier-turns per soldier killed by a tower   232; hits per soldier killed by a tower 13.5
+  y316+y323+t160         them   5 g  hits 170.0/g  out->in  54%  in->out  42%  in->in   4% (moved 1.4%, still with cd 2.7%, still free 0.0%; under 100 paint  94% of in->in)
+                                     died to it after: out->in   9%  in->out   6%  in->in  23%   all  8.4%;  killed by towers   6.8/g (soldiers  5.0); soldier-turns per soldier killed by a tower   616; hits per soldier killed by a tower 34.0
