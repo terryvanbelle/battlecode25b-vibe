@@ -497,10 +497,14 @@ t158  # champion (study 12 2.2 moppers hit and run; crowned 2026-11-27 16:27)
 # t159 (retired: -59 +-29 vs t158 after 183 games; t158 + single-robot swing)
 t160
 y303
-y304
+# y304 (retired: -31 vs t158 after 230 games; mixed cycle from r60)
 y305
-t161
-t162
+# t161 (retired: -72 vs t158 after 220 games; opening mopper)
+# t162 (retired: -59 vs t158 after 270 games; a second mopper per six)
 y306
-y307
+# y307 (retired: -25 vs t158 after 252 games; retreat ground weight 50)
 y308
+t163
+y309
+y310
+y311

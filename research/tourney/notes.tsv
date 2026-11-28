@@ -274,3 +274,7 @@ y307	retreat ground weight 50 (was 20)
 t161	study 12 2.2: a mopper as the third unit of the opening cycle
 t162	study 12 2.2: paint towers spawn a second mopper per six
 y308	retreat from enemy moppers within d2 20 (t158 8, y305 13)
+t163	t158 hit and run for splashers: after a splash with an enemy mopper (d2 8) or tower (d2 9) near, step to the safest tile
+y309	mopper retreat from enemy towers within d2 16 (t158 9)
+y310	moppers refill below 25 paint (t158 40)
+y311	y303 + y305: Nav paint weight 4 + retreat from moppers within d2 13
