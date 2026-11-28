@@ -519,7 +519,7 @@ t158  # replica reference: peak 1783 at #5 on 11-27 17:27 PDT; slot since y316 s
 y316  # champion (t160 + Nav paint weight 8; crowned 2026-11-27 18:25)
 # y317 (retired: built on t160, -72 after 136 games; mopper refill 55)
 y320
-t165
+# t165 (retired: -20 vs y316 after 248 games; drain-scored mopper retreat)
 y318
 y319
 y322
