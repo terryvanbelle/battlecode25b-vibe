@@ -518,7 +518,7 @@
 # y315 (retired: built on t160, +21 after 147 games; retreat d2 20 (ported as y320))
 # t164 (retired: built on t160, -18 after 154 games; drain-scored retreat (ported as t165))
 # y316 (retired: replica record until y323 (its child) set 1827 at #5 on 11-27 20:53; -18 vs y323 after 3237 games; y323's parent, so no reference slot)
-y316  # replica reference: peak 1825 at #5 on 11-27 20:12 PDT; slot since y328 set 1828 (11-27 21:11); permanent slot (owner #45)
+# y316 (retired: replica reference until 11-27 23:50, displaced by y328 1828; -42 vs t188 after 4298 games)
 # y317 (retired: built on t160, -72 after 136 games; mopper refill 55)
 # y320 (retired: -15 vs y316 after 513 games; retreat d2 20)
 # t165 (retired: -20 vs y316 after 248 games; drain-scored mopper retreat)
@@ -546,6 +546,7 @@ y323  # replica reference: peak 1827 at #5 on 11-27 20:53 PDT; slot since t186 s
 # t177 (retired: built on y323, -5 after 280 games; SRP redo (ported as t180))
 # y327 (retired: built on y323, +0 after 287 games; churn reset 20)
 # y328 (retired: replica record 1828 until t186 (its child) set 1829 at #5 on 11-27 23:33; -13 vs t186 after 3554 games; t186's parent, so no reference slot)
+y328  # replica reference: peak 1828 at #5 on 11-27 21:11 PDT; slot since t188 set 1845 (11-27 23:50); permanent slot (owner #45)
 # y329 (retired: -5 vs y328 after 619 games (flat); dry flags 80 rounds)
 # y330 (retired: built on y323, -1 after 128 games; adjacent dry below 40 (rebuilt as y334))
 # y331 (retired: -9 vs y328 after 332 games; dry flags 100 rounds, the same knob as y329 (80); room for study 14)
@@ -568,7 +569,7 @@ y323  # replica reference: peak 1827 at #5 on 11-27 20:53 PDT; slot since t186 s
 # y341 (retired: +11 vs y328 after 416 games; y336 + y332, built on y328)
 # t185 (retired: +1 vs y328 after 388 games, built on y328; ported to t186 as t189)
 # t186 (retired: champion 11-27 23:07 to 23:27; t188 (t186 + pattern colour) +37 after 321 games)
-t186  # replica record: 1829 at #5 on 2026-11-27 23:33 PDT; permanent slot (owner #35); champion 11-27 23:07 to 23:27
+# t186 (retired: replica record 1829 until t188 (its child, the champion) set 1845 at #5 on 11-27 23:50; -22 vs t188 after 854 games; t188's parent, so no reference slot)
 # t187 (retired: +27 vs y328 after 235 games; kept as t188 (t186 + t187))
 # y342 (retired: +2 vs y328 after 218 games; tower target weight 40, built on y328)
 t188  # champion (t186 + study 14 2.5 pattern-colour painting; crowned 2026-11-27 23:27)
@@ -587,3 +588,5 @@ y351
 t192
 y352
 y353
+y354
+y355
