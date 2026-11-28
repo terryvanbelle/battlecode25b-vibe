@@ -298,3 +298,8 @@ t169	study 13 2.3 m1: moppers hit and run on cooling turns too
 t170	study 13 2.4 d1: disintegrate at 0 paint beside an ally, no mopper in sight, no ruin near
 t171	study 13 2.1 w2 alone: the money-pattern repair skips enemy paint (canPaint)
 y323	churn wait 2 rounds (was 3)
+y324	y318 + y323: Nav paint weight 10, churn wait 2
+t172	t169 + t171: mopper cooling-turn retreat + repair skips enemy paint
+y325	churn wait 1 round (y323 2, was 3)
+t173	study 13 2.1 w3: only soldiers ignore a churnable money tower's dry flag
+y326	paint towers count 50% closer for refills (was 30%)

@@ -518,16 +518,21 @@ t158  # replica reference: peak 1783 at #5 on 11-27 17:27 PDT; slot since y316 s
 # t164 (retired: built on t160, -18 after 154 games; drain-scored retreat (ported as t165))
 y316  # champion (t160 + Nav paint weight 8; crowned 2026-11-27 18:25)
 # y317 (retired: built on t160, -72 after 136 games; mopper refill 55)
-y320
+# y320 (retired: -15 vs y316 after 513 games; retreat d2 20)
 # t165 (retired: -20 vs y316 after 248 games; drain-scored mopper retreat)
 y318
-y319
-y322
-y321
-t168
+# y319 (retired: -0 vs y316 after 526 games, flat; Nav weight 12)
+# y322 (retired: +3 vs y316 after 504 games, flat; mopper tile extra 5)
+# y321 (retired: -16 vs y316 after 421 games; Nav robot wait 2)
+# t168 (retired: -26 vs y316 after 396 games; study 13 s1 workSrp money check)
 t169
 # t166 (retired: -28 vs y316 after 221 games; study 13 w1 churn-wait gate)
-t167
+# t167 (retired: -10 vs y316 after 410 games; w1+w2 (t171 has w2 alone))
 # t170 (retired: -49 vs y316 after 220 games; study 13 d1 disintegrate at 0 paint)
 t171
 y323
+y324
+t172
+y325
+t173
+y326
