@@ -390,3 +390,4 @@ t200	study 16 2.1 r1: the churn-wait repair steps along the tower ring to reach 
 t201	study 16 2.2 d1: the dry flag holds at L2+ money towers (only L1 churns)
 t202	study 16 2.3 v1: an SRP centre needs every tile within Chebyshev 4 seen
 t203	study 16 r1v1: t200 + t202
+t204	study 16 4.5: towers drop the spawn reserve once chips have not risen for 20 rounds

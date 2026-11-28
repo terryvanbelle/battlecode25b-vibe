@@ -625,10 +625,11 @@ y377
 y378
 y379
 y380
-y381
+# y381 (retired: -23 vs y374 after 444 games)
 y382
 y383
 t200
 t201
 t202
 t203
+t204
