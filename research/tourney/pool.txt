@@ -569,8 +569,10 @@ y328  # replica reference: peak 1828 at #5 on 11-27 21:11 PDT; slot since t188 s
 # y341 (retired: +11 vs y328 after 416 games; y336 + y332, built on y328)
 # t185 (retired: +1 vs y328 after 388 games, built on y328; ported to t186 as t189)
 # t186 (retired: champion 11-27 23:07 to 23:27; t188 (t186 + pattern colour) +37 after 321 games)
+t186  # guardrail diagnostic (y323 beats t188 58-33, 2026-11-28 00:26): t188 without the pattern colour (t188 - study 14 2.5); one change from the champion
 # t186 (retired: replica record 1829 until t188 (its child, the champion) set 1845 at #5 on 11-27 23:50; -22 vs t188 after 854 games; t188's parent, so no reference slot)
 # t187 (retired: +27 vs y328 after 235 games; kept as t188 (t186 + t187))
+t187  # guardrail diagnostic (y323 beats t188 58-33, 2026-11-28 00:26): t188 without the siege step-out (y328 + study 14 2.5); one change from the champion
 # y342 (retired: +2 vs y328 after 218 games; tower target weight 40, built on y328)
 t188  # champion (t186 + study 14 2.5 pattern-colour painting; crowned 2026-11-27 23:27)
 # y343 (retired: +94 vs y328 after 111 games, built on y328; ported to t186 as y345)
@@ -593,3 +595,4 @@ y355
 y356
 y357
 y358
+y359
