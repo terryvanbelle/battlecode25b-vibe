@@ -638,7 +638,8 @@ t205
 t206
 y385
 y386
-y387
+# y387 (retired: -87 vs t204 after 166 games; spawn reserve 700)
 t207
 y388
 t208
+y389
