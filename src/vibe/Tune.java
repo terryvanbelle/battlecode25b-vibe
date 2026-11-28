@@ -136,6 +136,6 @@ public strictfp class Tune {
 
     // ================================ movement: Nav ================================
     static final int NAV_RETARGET_R2 = 8;            // Nav.moveTo: a new target within this d2 of the old keeps the wall-follow state
-    static final int NAV_PAINT_WEIGHT = 6;           // Nav.moveTo: greedy step score = d2 + this * paint cost of the tile
+    static final int NAV_PAINT_WEIGHT = 8; // y316 (y312 4)           // Nav.moveTo: greedy step score = d2 + this * paint cost of the tile
     static final int NAV_ROBOT_WAIT = 3;             // Nav.moveTo: turns to wait on a robot before wall following
 }
