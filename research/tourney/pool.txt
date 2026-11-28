@@ -545,12 +545,12 @@ y316  # replica reference: peak 1825 at #5 on 11-27 20:12 PDT; slot since y328 s
 # t177 (retired: built on y323, -5 after 280 games; SRP redo (ported as t180))
 # y327 (retired: built on y323, +0 after 287 games; churn reset 20)
 y328  # champion (y323 + dry flags 60 rounds; crowned 2026-11-27 20:47)
-y329
+# y329 (retired: -5 vs y328 after 619 games (flat); dry flags 80 rounds)
 # y330 (retired: built on y323, -1 after 128 games; adjacent dry below 40 (rebuilt as y334))
 # y331 (retired: -9 vs y328 after 332 games; dry flags 100 rounds, the same knob as y329 (80); room for study 14)
 y332
 # y333 (retired: -37 vs y328 after 301 games; dry clear at 100 paint)
-y334
+# y334 (retired: -6 vs y328 after 510 games (flat); adjacent dry below 40)
 # y335 (retired: -19 vs y328 after 341 games; far dry below 60)
 # t178 (retired: -35 vs y328 after 285 games; repair leaves SRP tiles)
 # t179 (retired: -21 vs y328 after 325 games; mopper cooling-turn retreat)
