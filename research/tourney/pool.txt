@@ -554,11 +554,15 @@ y332
 # y335 (retired: -19 vs y328 after 341 games; far dry below 60)
 # t178 (retired: -35 vs y328 after 285 games; repair leaves SRP tiles)
 # t179 (retired: -21 vs y328 after 325 games; mopper cooling-turn retreat)
-t180
+# t180 (retired: -2 vs y328 after 665 games (flat); SRP skip 150 rounds)
 y336
-y337
+# y337 (retired: -45 vs y328 after 291 games; SRP right weight 6)
 y338
 t181
 t182
-t183
+# t183 (retired: -158 vs y328 after 77 games (4 SE behind); study 14 2.2 no lone siege)
 t184
+y339
+y340
+y341
+t185

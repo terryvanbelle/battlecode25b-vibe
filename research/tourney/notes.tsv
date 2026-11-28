@@ -326,3 +326,7 @@ t181	study 14 2.1a+b: siege steps to the edge of tower range (largest r2 <= 9) a
 t182	t181 + study 14 2.1c: also steps out after the free shot (unless a held ruin is within r2 8)
 t183	study 14 2.2: no lone siege: does not enter range of a seen tower without a soldier/splasher within r2 16 of it, unless it is at 200 HP or less
 t184	study 14 2.4: Churn.rebuild re-completes paint towers too, not only money towers
+y339	towers count a soldier/splasher no weaker than a mopper when picking a target (was 60; y336 20)
+y340	dry flags on paint towers last 30 rounds (was 10; y332 20)
+y341	y336 + y332 (tower target weight 20; paint-tower dry flags 20 rounds)
+t185	study 14 4.5 bug fix: Towers.forget swaps the dry flag along with the tower
