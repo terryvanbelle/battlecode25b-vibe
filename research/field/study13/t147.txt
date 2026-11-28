@@ -1,0 +1,449 @@
+246 games in the main set (82 matches)
+match g ver  rk opponent                 map              size   tiles res  end  how  cov% us/them   repeat of
+m5572 g0 t140  R  immutable                Restart          55x55  2657 W    597 MAJ   70.4/ 23.3   
+m5572 g1 t140  R  immutable                Snowman          25x25   553 L    150 MAJ   13.9/ 70.2   
+m5572 g2 t140  R  immutable                giver            50x50  2344 W    664 MAJ   70.3/ 27.2   
+m5573 g0 t140  u  spaark                   AlarmClock       35x35  1091 W    290 MAJ   70.0/ 16.3   
+m5573 g1 t140  u  spaark                   Bunny            44x30  1228 W    498 MAJ   72.1/ 12.4   
+m5573 g2 t140  u  spaark                   DefaultSmall     20x20   372 L    179 ALL    6.7/ 62.4   
+m5602 g0 t140  R  subscribe-to-caterpillow DonkeyKong       60x60  3232 L    428 MAJ   14.3/ 70.0   
+m5602 g1 t140  R  subscribe-to-caterpillow Filter           21x21   419 L    226 ALL   15.8/ 49.4   
+m5602 g2 t140  R  subscribe-to-caterpillow TheBest          60x60  3292 L    346 MAJ   19.8/ 70.3   
+m5620 g0 t140  R  gone-whalin              Flower           45x41  1623 L    496 MAJ   10.1/ 70.1   
+m5620 g1 t140  R  gone-whalin              Justice          21x20   389 L    520 MAJ   24.2/ 70.4   
+m5620 g2 t140  R  gone-whalin              leavemealone     50x30  1364 W    313 MAJ   70.3/ 22.2   
+m5638 g0 t140  R  gone-whalin              Filter           21x21   419 W    174 ALL   64.4/  1.4   
+m5638 g1 t140  R  gone-whalin              PlumberGame      60x30  1688 W    298 MAJ   70.1/ 14.8   
+m5638 g2 t140  R  gone-whalin              gardenworld      60x60  3180 W    402 MAJ   70.0/  6.9   
+m5681 g0 t140  R  spaark                   Fossil           30x30   868 W    478 MAJ   70.7/ 14.9   
+m5681 g1 t140  R  spaark                   Piglets2         60x40  2032 L    632 MAJ    1.8/ 70.0   
+m5681 g2 t140  R  spaark                   giver            50x50  2344 W    340 MAJ   70.0/ 12.7   
+m5683 g0 t140  R  gone-whalin              CastleDefense    20x20   340 L    403 MAJ   12.9/ 70.0   
+m5683 g1 t140  R  gone-whalin              Gears            55x55  2885 W    403 MAJ   70.1/ 12.5   
+m5683 g2 t140  R  gone-whalin              sierpinski       39x50  1620 W    380 MAJ   70.2/  5.4   
+m5700 g0 t140  R  immutable                FourCorners      25x25   542 L    178 MAJ   16.8/ 70.1   
+m5700 g1 t140  R  immutable                Justice          21x20   389 L    275 MAJ   21.1/ 71.2   
+m5700 g2 t140  R  immutable                SMILE            60x60  3482 W    354 MAJ   70.3/ 15.3   
+m5701 g0 t140  u  subscribe-to-caterpillow TargetPractice   30x30   816 W    230 MAJ   70.7/ 13.7   
+m5701 g1 t140  u  subscribe-to-caterpillow quack            30x35   932 L    395 MAJ    4.7/ 70.3   
+m5701 g2 t140  u  subscribe-to-caterpillow sierpinski       39x50  1620 W    329 MAJ   70.6/ 15.3   
+m5702 g0 t140  R  confused                 Bunny            44x30  1228 L    263 ALL    9.5/ 49.6   
+m5702 g1 t140  R  confused                 Gears            55x55  2885 L    626 MAJ   23.4/ 70.3   
+m5702 g2 t140  R  confused                 SaltyPepper      40x40  1484 W    499 MAJ   69.5/ 20.6   
+m5703 g0 t140  u  spaark                   Castle           27x27   636 W    392 MAJ   70.6/ 17.6   
+m5703 g1 t140  u  spaark                   MoneyTower       35x50  1501 W    339 MAJ   70.8/  4.5   
+m5703 g2 t140  u  spaark                   PlumberGame      60x30  1688 L    401 MAJ    8.6/ 70.3   
+m5704 g0 t140  R  om-nom                   CastleDefense    20x20   340 L    249 ALL    2.6/ 63.2   
+m5704 g1 t140  R  om-nom                   Circuit          60x21  1096 L    470 MAJ   10.1/ 70.3   
+m5704 g2 t140  R  om-nom                   SandyBeach       30x30   822 L    991 ALL   35.2/ 38.8   
+m5705 g0 t140  u  scienceqiu               BatSignal        40x25   890 L    743 ALL   20.8/ 62.2   
+m5705 g1 t140  u  scienceqiu               DonkeyKong       60x60  3232 W    563 MAJ   70.0/ 20.9   
+m5705 g2 t140  u  scienceqiu               shell            40x40  1418 W    437 MAJ   70.4/ 14.2   
+m5718 g0 t140  R  lobster-roll             HungerGames      50x50  2258 W    299 MAJ   69.7/ 15.3   
+m5718 g1 t140  R  lobster-roll             Restart          55x55  2657 W    323 MAJ   70.0/ 10.2   
+m5718 g2 t140  R  lobster-roll             Terminal         40x30  1022 L    628 MAJ    6.8/ 70.5   
+m5742 g0 t140  R  spaark                   AlarmClock       35x35  1091 W    277 MAJ   70.1/ 17.1   
+m5742 g1 t140  R  spaark                   Paintball        20x20   354 L    251 ALL   17.5/ 66.4   
+m5742 g2 t140  R  spaark                   fix              40x50  1856 W    417 MAJ   70.5/ 10.8   
+m5751 g0 t140  R  scienceqiu               TargetPractice   30x30   816 W    825 MAJ   70.2/ 20.1   
+m5751 g1 t140  R  scienceqiu               rain             30x30   850 L    393 MAJ    9.1/ 70.1   
+m5751 g2 t140  R  scienceqiu               shell            40x40  1418 W    437 MAJ   70.4/ 14.2   m5705g2 (t140)
+m5787 g0 t140  R  immutable                Castle           27x27   636 L    216 MAJ   25.8/ 70.1   
+m5787 g1 t140  R  immutable                Paintball        20x20   354 W    311 MAJ   72.0/ 16.4   m5492g0 (t140)
+m5787 g2 t140  R  immutable                gardenworld      60x60  3180 W    433 MAJ   70.2/ 22.8   
+m5788 g0 t140  u  gone-whalin              Circuit          60x21  1096 W    357 MAJ   70.4/  9.8   
+m5788 g1 t140  u  gone-whalin              DefaultMedium    35x35  1193 W    289 MAJ   70.2/ 17.9   
+m5788 g2 t140  u  gone-whalin              SMILE            60x60  3482 W    345 MAJ   69.9/ 18.9   
+m5789 g0 t140  R  confused                 AlarmClock       35x35  1091 W    271 MAJ   70.0/  8.2   
+m5789 g1 t140  R  confused                 FourCorners      25x25   542 L    430 MAJ   12.0/ 70.5   
+m5789 g2 t140  R  confused                 galaxy           45x45  1834 W    307 MAJ   70.3/ 12.9   
+m5790 g0 t140  u  spaark                   Filter           21x21   419 W    486 MAJ   70.6/  7.9   
+m5790 g1 t140  u  spaark                   Leaf             60x60  3440 L    546 MAJ   17.1/ 69.2   
+m5790 g2 t140  u  spaark                   SaltyPepper      40x40  1484 W    272 MAJ   70.1/ 20.4   
+m5812 g0 t140  R  immutable                Restart          55x55  2657 W    597 MAJ   70.4/ 23.3   m5572g0 (t140)
+m5812 g1 t140  R  immutable                Thirds           55x40  1932 W    259 MAJ   70.2/  6.4   
+m5812 g2 t140  R  immutable                windmill         30x30   780 W    341 MAJ   70.4/ 18.5   
+m5822 g0 t140  R  gone-whalin              Bread            35x29   914 L    447 MAJ    8.3/ 70.0   
+m5822 g1 t140  R  gone-whalin              FourCorners      25x25   542 L    161 ALL    5.5/ 39.5   
+m5822 g2 t140  R  gone-whalin              PlumberGame      60x30  1688 W    298 MAJ   70.1/ 14.8   m5638g1 (t140)
+m5861 g0 t140  R  immutable                BunnyGame        30x50  1286 W    397 MAJ   70.3/  3.2   
+m5861 g1 t140  R  immutable                HungerGames      50x50  2258 L    406 MAJ   27.1/ 69.7   
+m5861 g2 t140  R  immutable                Snowglobe        40x40  1478 W    476 MAJ   70.4/ 21.9   
+m5880 g0 t140  R  subscribe-to-caterpillow Jail             20x30   540 L    121 ALL   15.2/ 33.5   
+m5880 g1 t140  R  subscribe-to-caterpillow Restart          55x55  2657 L    349 MAJ   17.5/ 70.0   
+m5880 g2 t140  R  subscribe-to-caterpillow galaxy           45x45  1834 W    428 MAJ   70.2/ 16.2   
+m5889 g0 t140  R  confused                 DefaultLarge     50x30  1476 W    279 MAJ   70.2/ 16.5   
+m5889 g1 t140  R  confused                 Piglets2         60x40  2032 L    232 ALL    4.2/ 34.1   
+m5889 g2 t140  R  confused                 starburst        30x30   844 L    540 MAJ    7.8/ 70.1   
+m5890 g0 t140  u  immutable                BunnyGame        30x50  1286 L    306 MAJ   12.1/ 70.1   
+m5890 g1 t140  u  immutable                defensetower     40x59  2173 W    380 MAJ   70.5/ 19.1   
+m5890 g2 t140  u  immutable                headphones       60x60  3186 W    349 MAJ   69.6/ 17.8   
+m5897 g0 t140  R  immutable                PlumberGame      60x30  1688 L    517 MAJ   27.2/ 70.4   m5492g1 (t140)
+m5897 g1 t140  R  immutable                Restart          55x55  2657 W    597 MAJ   70.4/ 23.3   m5572g0 (t140)
+m5897 g2 t140  R  immutable                UnderTheSea      45x45  1847 W    235 MAJ   70.3/ 24.1   
+m5903 g0 t140  R  subscribe-to-caterpillow DefaultLarge     50x30  1476 W    273 MAJ   70.1/ 19.1   
+m5903 g1 t140  R  subscribe-to-caterpillow Piglets2         60x40  2032 W    448 MAJ   70.2/ 17.8   
+m5903 g2 t140  R  subscribe-to-caterpillow mit              60x60  3012 W    595 MAJ   70.0/ 18.7   
+m5921 g0 t140  R  subscribe-to-caterpillow DefaultMedium    35x35  1193 W    338 MAJ   70.1/ 11.5   
+m5921 g1 t140  R  subscribe-to-caterpillow Mirage           40x40  1480 L    391 MAJ    9.0/ 70.0   
+m5921 g2 t140  R  subscribe-to-caterpillow Piglets2         60x40  2032 W    448 MAJ   70.2/ 17.8   m5903g1 (t140)
+m5930 g0 t140  R  immutable                Racetrack        25x25   562 L    328 MAJ   24.2/ 70.1   
+m5930 g1 t140  R  immutable                sayhi            40x50  1734 W    338 MAJ   70.5/ 18.0   
+m5930 g2 t140  R  immutable                windmill         30x30   780 W    575 MAJ   70.1/ 22.7   
+m5934 g0 t140  R  scienceqiu               DonkeyKong       60x60  3232 L    537 MAJ   23.6/ 70.0   
+m5934 g1 t140  R  scienceqiu               Paintball        20x20   354 W    354 MAJ   70.3/ 14.4   
+m5934 g2 t140  R  scienceqiu               Snowglobe        40x40  1478 W    293 MAJ   70.4/ 15.8   
+m5948 g0 t140  R  spaark                   DefaultMedium    35x35  1193 L    444 MAJ    4.2/ 70.2   
+m5948 g1 t140  R  spaark                   Leaf             60x60  3440 L    546 MAJ   17.1/ 69.2   m5790g1 (t140)
+m5948 g2 t140  R  spaark                   Money            35x35  1141 W    512 MAJ   70.3/ 23.3   
+m5977 g0 t140  R  immutable                Fossil           30x30   868 W    266 MAJ   70.4/ 23.9   
+m5977 g1 t140  R  immutable                headphones       60x60  3186 W    376 MAJ   70.5/ 13.4   
+m5977 g2 t140  R  immutable                walalilongla     45x45  1811 W    351 MAJ   70.2/ 13.4   
+m6055 g0 t140  R  om-nom                   AlarmClock       35x35  1091 W    306 MAJ   70.5/ 11.6   
+m6055 g1 t140  R  om-nom                   quack            30x35   932 L    443 MAJ    6.3/ 71.0   
+m6055 g2 t140  R  om-nom                   yearofthesnake   45x45  1653 W    401 MAJ   70.0/ 17.4   
+m6056 g0 t140  u  spaark                   Circuit          60x21  1096 W    349 MAJ   70.5/ 21.0   
+m6056 g1 t140  u  spaark                   Leaf             60x60  3440 L    546 MAJ   17.1/ 69.2   m5790g1 (t140)
+m6056 g2 t140  u  spaark                   Oasis            59x59  3339 W    372 MAJ   70.4/ 17.2   
+m6057 g0 t140  R  confused                 DefaultLarge     50x30  1476 W    279 MAJ   70.2/ 16.5   m5889g0 (t140)
+m6057 g1 t140  R  confused                 DonkeyKong       60x60  3232 L    381 MAJ    8.7/ 71.0   
+m6057 g2 t140  R  confused                 SandyBeach       30x30   822 W    249 MAJ   70.0/ 19.8   
+m6058 g0 t140  u  subscribe-to-caterpillow Bunny            44x30  1228 W    417 MAJ   70.6/ 15.6   
+m6058 g1 t140  u  subscribe-to-caterpillow memstore         59x39  2081 L    598 MAJ   20.5/ 69.8   
+m6058 g2 t140  u  subscribe-to-caterpillow walalilongla     45x45  1811 L    538 MAJ    8.8/ 70.3   
+m6059 g0 t140  R  old-but-gold             Jail             20x30   540 L     92 ALL    8.9/ 28.3   
+m6059 g1 t140  R  old-but-gold             TheBest          60x60  3292 L    433 MAJ   27.3/ 70.4   
+m6059 g2 t140  R  old-but-gold             roads            30x30   770 L    255 MAJ   14.2/ 70.0   
+m6060 g0 t140  u  scienceqiu               SMILE            60x60  3482 W    583 MAJ   69.8/ 26.2   
+m6060 g1 t140  u  scienceqiu               Snowman          25x25   553 L    177 ALL    7.8/ 51.5   
+m6060 g2 t140  u  scienceqiu               roads            30x30   770 W    904 MAJ   70.0/ 21.6   
+m6067 g0 t140  R  subscribe-to-caterpillow TheBest          60x60  3292 L    346 MAJ   19.8/ 70.3   m5602g2 (t140)
+m6067 g1 t140  R  subscribe-to-caterpillow galaxy           45x45  1834 W    428 MAJ   70.2/ 16.2   m5880g2 (t140)
+m6067 g2 t140  R  subscribe-to-caterpillow walalilongla     45x45  1811 L    538 MAJ    8.8/ 70.3   m6058g2 (t140)
+m6088 g0 t140  R  spaark                   Bunny            44x30  1228 W    546 MAJ   70.0/ 16.3   
+m6088 g1 t140  R  spaark                   SaltyPepper      40x40  1484 W    272 MAJ   70.1/ 20.4   m5790g2 (t140)
+m6088 g2 t140  R  spaark                   windmill         30x30   780 L    559 ALL   20.3/ 54.6   
+m6101 g0 t140  R  scienceqiu               UglySweater      50x50  2340 W    439 MAJ   70.5/ 14.4   
+m6101 g1 t140  R  scienceqiu               gardenworld      60x60  3180 W    460 MAJ   70.0/ 20.9   
+m6101 g2 t140  R  scienceqiu               memstore         59x39  2081 W    649 MAJ   70.3/ 21.6   
+m6106 g0 t140  R  spaark                   Barcode          50x21   966 L    453 MAJ   12.7/ 70.1   
+m6106 g1 t140  R  spaark                   UnderTheSea      45x45  1847 L    381 MAJ   16.6/ 70.4   m5497g2 (t140)
+m6106 g2 t140  R  spaark                   mit              60x60  3012 W    361 MAJ   70.0/ 11.0   
+m6119 g0 t140  R  om-nom                   Paintball        20x20   354 L    147 ALL   46.3/ 38.4   
+m6119 g1 t140  R  om-nom                   gardenworld      60x60  3180 W    492 MAJ   69.8/ 17.3   
+m6119 g2 t140  R  om-nom                   rain             30x30   850 W    197 MAJ   70.0/ 10.3   
+m6120 g0 t140  u  spaark                   DefaultSmall     20x20   372 L    179 ALL    6.7/ 62.4   m5573g2 (t140)
+m6120 g1 t140  u  spaark                   SMILE            60x60  3482 L    731 MAJ   21.4/ 70.6   
+m6120 g2 t140  u  spaark                   maze             60x60  2888 L   1024 MAJ   22.0/ 69.7   
+m6124 g0 t140  R  immutable                headphones       60x60  3186 W    376 MAJ   70.5/ 13.4   m5977g1 (t140)
+m6124 g1 t140  R  immutable                memstore         59x39  2081 L    465 MAJ   22.6/ 69.5   m5492g2 (t140)
+m6124 g2 t140  R  immutable                starburst        30x30   844 L    618 MAJ   25.4/ 69.2   
+m6150 g0 t140  R  om-nom                   Filter           21x21   419 W    251 ALL   59.0/  8.8   
+m6150 g1 t140  R  om-nom                   Portal           35x35  1129 L    327 MAJ    3.7/ 70.4   
+m6150 g2 t140  R  om-nom                   UglySweater      50x50  2340 W    311 MAJ   70.1/ 11.7   
+m6151 g0 t140  u  spaark                   DefaultLarge     50x30  1476 L    291 ALL    4.2/ 67.1   
+m6151 g1 t140  u  spaark                   HungerGames      50x50  2258 W    353 MAJ   70.2/ 18.7   
+m6151 g2 t140  u  spaark                   sunrise          45x55  2208 W    483 MAJ   70.6/ 16.8   
+m6152 g0 t140  R  confused                 Oasis            59x59  3339 L    476 MAJ   26.3/ 70.2   
+m6152 g1 t140  R  confused                 Piglets2         60x40  2032 W    503 MAJ   70.2/ 11.1   
+m6152 g2 t140  R  confused                 lighthouse       31x31   853 L    280 MAJ    7.2/ 70.3   
+m6153 g0 t140  u  subscribe-to-caterpillow DefaultLarge     50x30  1476 W    292 MAJ   70.0/ 22.4   
+m6153 g1 t140  u  subscribe-to-caterpillow Snowman          25x25   553 L    272 ALL   11.9/ 55.9   
+m6153 g2 t140  u  subscribe-to-caterpillow headphones       60x60  3186 L    435 MAJ   19.8/ 70.0   
+m6154 g0 t140  R  just-woke-up             Oasis            59x59  3339 L    410 MAJ   26.9/ 70.3   
+m6154 g1 t140  R  just-woke-up             Parking_lot      45x45  1795 W    502 MAJ   70.4/ 13.0   
+m6154 g2 t140  R  just-woke-up             Terminal         40x30  1022 L    328 MAJ   23.1/ 70.3   
+m6155 g0 t140  u  scienceqiu               Restart          55x55  2657 L    461 ALL    9.5/ 69.8   
+m6155 g1 t140  u  scienceqiu               headphones       60x60  3186 W    309 MAJ   70.3/ 14.6   
+m6155 g2 t140  u  scienceqiu               starburst        30x30   844 W    465 MAJ   70.1/ 11.7   
+m6186 g0 t140  R  subscribe-to-caterpillow Jail             20x30   540 L    121 ALL   15.2/ 33.5   m5880g0 (t140)
+m6186 g1 t140  R  subscribe-to-caterpillow TargetPractice   30x30   816 W    358 MAJ   70.6/ 18.0   
+m6186 g2 t140  R  subscribe-to-caterpillow memstore         59x39  2081 L    598 MAJ   20.5/ 69.8   m6058g1 (t140)
+m6196 g0 t140  R  subscribe-to-caterpillow MoneyTower       35x50  1501 W    335 MAJ   70.1/ 16.2   
+m6196 g1 t140  R  subscribe-to-caterpillow Oasis            59x59  3339 L    373 MAJ   21.3/ 69.9   
+m6196 g2 t140  R  subscribe-to-caterpillow windmill         30x30   780 W    469 MAJ   70.8/  9.5   
+m6208 g0 t140  R  spaark                   Gears            55x55  2885 W    358 MAJ   70.0/ 13.9   
+m6208 g1 t140  R  spaark                   PlumberGame      60x30  1688 L    401 MAJ    8.6/ 70.3   m5703g2 (t140)
+m6208 g2 t140  R  spaark                   yearofthesnake   45x45  1653 L    879 MAJ   15.7/ 70.3   
+m6283 g0 t140  R  spaark                   Crab             40x30  1046 L    489 MAJ   10.1/ 70.5   
+m6283 g1 t140  R  spaark                   SMILE            60x60  3482 W    401 MAJ   70.4/ 21.3   
+m6283 g2 t140  R  spaark                   giver            50x50  2344 W    340 MAJ   70.0/ 12.7   m5681g2 (t140)
+m6306 g0 t140  R  om-nom                   gridworld        31x31   769 L    515 MAJ   14.7/ 70.1   
+m6306 g1 t140  R  om-nom                   memstore         59x39  2081 L    431 MAJ    9.7/ 70.3   
+m6306 g2 t140  R  om-nom                   starburst        30x30   844 W    404 MAJ   70.1/ 10.7   
+m6307 g0 t140  u  spaark                   Justice          21x20   389 L    614 MAJ    5.7/ 70.4   
+m6307 g1 t140  u  spaark                   UglySweater      50x50  2340 W    280 MAJ   70.1/ 10.6   
+m6307 g2 t140  u  spaark                   fix              40x50  1856 W    417 MAJ   70.5/ 10.8   m5742g2 (t140)
+m6308 g0 t140  R  confused                 DonkeyKong       60x60  3232 L    381 MAJ    8.7/ 71.0   m6057g1 (t140)
+m6308 g1 t140  R  confused                 PlumberGame      60x30  1688 L    457 MAJ   18.1/ 71.2   
+m6308 g2 t140  R  confused                 shell            40x40  1418 W    349 MAJ   70.3/ 10.4   
+m6309 g0 t140  u  subscribe-to-caterpillow Flower           45x41  1623 L    509 MAJ   12.3/ 69.9   
+m6309 g1 t140  u  subscribe-to-caterpillow SMILE            60x60  3482 L    425 MAJ   25.9/ 69.7   
+m6309 g2 t140  u  subscribe-to-caterpillow UglySweater      50x50  2340 W    315 MAJ   70.2/ 11.4   
+m6310 g0 t140  R  just-woke-up             Castle           27x27   636 L    270 MAJ   21.4/ 70.1   
+m6310 g1 t140  R  just-woke-up             Racetrack        25x25   562 L    357 MAJ   25.1/ 70.6   
+m6310 g2 t140  R  just-woke-up             boxofchocolates  55x55  2435 L    709 MAJ   14.1/ 70.8   
+m6311 g0 t140  u  scienceqiu               TheBest          60x60  3292 L    606 MAJ   25.1/ 70.0   
+m6311 g1 t140  u  scienceqiu               catface          30x30   868 L    533 ALL    9.3/ 68.0   
+m6311 g2 t140  u  scienceqiu               rain             30x30   850 L    241 ALL   10.2/ 50.9   
+m6328 g0 t140  R  spaark                   Leaf             60x60  3440 L    799 MAJ   22.4/ 69.8   
+m6328 g1 t140  R  spaark                   TargetPractice   30x30   816 W    235 MAJ   70.1/ 17.0   
+m6328 g2 t140  R  spaark                   box              31x31   829 W    362 MAJ   70.6/ 16.5   
+m6331 g0 t140  R  om-nom                   Brat             29x29   715 L    355 ALL   11.6/ 54.1   
+m6331 g1 t140  R  om-nom                   Terminal         40x30  1022 L    501 ALL   14.9/ 60.4   
+m6331 g2 t140  R  om-nom                   starburst        30x30   844 W    404 MAJ   70.1/ 10.7   m6306g2 (t140)
+m6332 g0 t140  u  subscribe-to-caterpillow DefaultLarge     50x30  1476 W    292 MAJ   70.0/ 22.4   m6153g0 (t140)
+m6332 g1 t140  u  subscribe-to-caterpillow Justice          21x20   389 W    224 MAJ   70.2/ 12.8   
+m6332 g2 t140  u  subscribe-to-caterpillow catface          30x30   868 W    257 MAJ   70.0/ 12.8   
+m6370 g0 t158  R  subscribe-to-caterpillow Bread            35x29   914 W    332 MAJ   70.1/ 13.1   
+m6370 g1 t158  R  subscribe-to-caterpillow Castle           27x27   636 W    377 MAJ   70.1/ 21.2   
+m6370 g2 t158  R  subscribe-to-caterpillow Flower           45x41  1623 L    844 MAJ    9.4/ 70.3   
+m6383 g0 t158  R  om-nom                   box              31x31   829 W    470 MAJ   70.1/ 17.0   
+m6383 g1 t158  R  om-nom                   fix              40x50  1856 W    310 MAJ   70.0/  6.3   
+m6383 g2 t158  R  om-nom                   memstore         59x39  2081 L    523 MAJ   15.9/ 70.0   
+m6384 g0 t158  u  spaark                   Castle           27x27   636 L    363 MAJ    9.8/ 71.1   
+m6384 g1 t158  u  spaark                   Racetrack        25x25   562 L    279 MAJ    9.2/ 70.1   
+m6384 g2 t158  u  spaark                   memstore         59x39  2081 W    459 MAJ   70.1/ 11.1   
+m6385 g0 t158  R  confused                 Paintball        20x20   354 L   2000 ARE   25.7/ 45.5   
+m6385 g1 t158  R  confused                 TargetPractice   30x30   816 W    315 MAJ   70.5/ 14.8   
+m6385 g2 t158  R  confused                 TheBest          60x60  3292 L    451 MAJ   14.4/ 70.1   
+m6386 g0 t158  u  subscribe-to-caterpillow Crab             40x30  1046 W    344 MAJ   71.1/ 14.2   
+m6386 g1 t158  u  subscribe-to-caterpillow MoneyTower       35x50  1501 W    344 MAJ   70.2/ 17.3   
+m6386 g2 t158  u  subscribe-to-caterpillow gridworld        31x31   769 W    325 MAJ   70.2/ 17.4   
+m6387 g0 t158  R  just-woke-up             DefaultLarge     50x30  1476 W    341 MAJ   71.3/ 25.9   
+m6387 g1 t158  R  just-woke-up             FourCorners      25x25   542 L    266 MAJ   18.6/ 70.1   
+m6387 g2 t158  R  just-woke-up             Piglets2         60x40  2032 L    299 MAJ   13.0/ 70.1   
+m6388 g0 t158  u  immutable                Leaf             60x60  3440 W    356 MAJ   70.0/ 24.6   
+m6388 g1 t158  u  immutable                Oasis            59x59  3339 W    319 MAJ   70.2/ 19.0   
+m6388 g2 t158  u  immutable                sierpinski       39x50  1620 W    372 MAJ   70.3/ 15.1   
+m6411 g0 t158  u  spaark                   Bread            35x29   914 L    362 MAJ    6.2/ 70.0   
+m6411 g1 t158  u  spaark                   Crab             40x30  1046 L    385 MAJ    4.0/ 70.7   
+m6411 g2 t158  u  spaark                   UnderTheSea      45x45  1847 L    414 MAJ   18.8/ 70.0   
+m6412 g0 t158  R  confused                 DefaultHuge      59x59  3421 L    380 MAJ   15.1/ 70.3   
+m6412 g1 t158  R  confused                 Portal           35x35  1129 W    438 MAJ   70.1/ 18.2   
+m6412 g2 t158  R  confused                 Thirds           55x40  1932 L    599 MAJ   12.7/ 70.1   
+m6413 g0 t158  u  subscribe-to-caterpillow Parking_lot      45x45  1795 L    492 MAJ   16.2/ 70.1   
+m6413 g1 t158  u  subscribe-to-caterpillow PlumberGame      60x30  1688 W    441 MAJ   69.0/ 22.6   
+m6413 g2 t158  u  subscribe-to-caterpillow Restart          55x55  2657 W    453 MAJ   70.0/ 23.8   
+m6414 g0 t158  R  just-woke-up             BatSignal        40x25   890 L    475 MAJ   27.4/ 70.2   
+m6414 g1 t158  R  just-woke-up             roads            30x30   770 L    289 MAJ   13.1/ 69.7   
+m6414 g2 t158  R  just-woke-up             shell            40x40  1418 W    755 MAJ   70.0/ 26.4   
+m6415 g0 t158  u  immutable                Circuit          60x21  1096 W    335 MAJ   70.2/ 21.4   
+m6415 g1 t158  u  immutable                Snowman          25x25   553 L    150 MAJ   13.9/ 70.2   m5572g1 (t140)
+m6415 g2 t158  u  immutable                quack            30x35   932 W    375 MAJ   70.7/ 26.5   
+m6442 g0 t158  R  old-but-gold             AlarmClock       35x35  1091 W    262 MAJ   69.8/ 14.2   
+m6442 g1 t158  R  old-but-gold             DefaultLarge     50x30  1476 L    296 MAJ   21.8/ 70.9   
+m6442 g2 t158  R  old-but-gold             lighthouse       31x31   853 L    454 MAJ   23.7/ 70.6   
+m6447 g0 t158  R  om-nom                   Brat             29x29   715 L    355 ALL   11.6/ 54.1   m6331g0 (t140)
+m6447 g1 t158  R  om-nom                   Filter           21x21   419 L    214 ALL    0.7/ 54.2   
+m6447 g2 t158  R  om-nom                   Gears            55x55  2885 W    404 MAJ   69.8/ 18.2   
+m6478 g0 t158  R  confused                 FourCorners      25x25   542 L    249 MAJ   10.2/ 70.1   
+m6478 g1 t158  R  confused                 UnderTheSea      45x45  1847 W    360 MAJ   69.5/ 17.9   
+m6478 g2 t158  R  confused                 box              31x31   829 L    322 ALL   14.1/ 46.6   
+m6483 g0 t158  R  spaark                   Parking_lot      45x45  1795 W    265 MAJ   70.3/ 12.1   
+m6483 g1 t158  R  spaark                   fix              40x50  1856 W    455 MAJ   70.3/ 11.5   
+m6483 g2 t158  R  spaark                   gridworld        31x31   769 W    455 MAJ   70.1/ 15.5   
+m6493 g0 t158  R  immutable                BunnyGame        30x50  1286 L    295 MAJ   13.8/ 70.2   
+m6493 g1 t158  R  immutable                Dominoes         44x30  1228 W    267 MAJ   70.0/ 15.8   
+m6493 g2 t158  R  immutable                memstore         59x39  2081 W    488 MAJ   70.2/ 26.0   
+
+exact repeats (28): m5751g2 (t140) = m5705g2 (t140), m5787g1 (t140) = m5492g0 (t140), m5812g0 (t140) = m5572g0 (t140), m5822g2 (t140) = m5638g1 (t140), m5897g0 (t140) = m5492g1 (t140), m5897g1 (t140) = m5572g0 (t140), m5921g2 (t140) = m5903g1 (t140), m5948g1 (t140) = m5790g1 (t140), m6056g1 (t140) = m5790g1 (t140), m6057g0 (t140) = m5889g0 (t140), m6067g0 (t140) = m5602g2 (t140), m6067g1 (t140) = m5880g2 (t140), m6067g2 (t140) = m6058g2 (t140), m6088g1 (t140) = m5790g2 (t140), m6106g1 (t140) = m5497g2 (t140), m6120g0 (t140) = m5573g2 (t140), m6124g0 (t140) = m5977g1 (t140), m6124g1 (t140) = m5492g2 (t140), m6186g0 (t140) = m5880g0 (t140), m6186g2 (t140) = m6058g1 (t140), m6208g1 (t140) = m5703g2 (t140), m6283g2 (t140) = m5681g2 (t140), m6307g2 (t140) = m5742g2 (t140), m6308g0 (t140) = m6057g1 (t140), m6331g2 (t140) = m6306g2 (t140), m6332g0 (t140) = m6153g0 (t140), m6415g1 (t158) = m5572g1 (t140), m6447g0 (t158) = m6331g0 (t140)
+DUP set for lib.py: {(5751, 2), (5787, 1), (5812, 0), (5822, 2), (5897, 0), (5897, 1), (5921, 2), (5948, 1), (6056, 1), (6057, 0), (6067, 0), (6067, 1), (6067, 2), (6088, 1), (6106, 1), (6120, 0), (6124, 0), (6124, 1), (6186, 0), (6186, 2), (6208, 1), (6283, 2), (6307, 2), (6308, 0), (6331, 2), (6332, 0), (6415, 1), (6447, 0)}
+
+per match (repeats left out): won-lost
+m5572 t140  R immutable                2-1
+m5573 t140  u spaark                   2-1
+m5602 t140  R subscribe-to-caterpillow 0-3
+m5620 t140  R gone-whalin              1-2
+m5638 t140  R gone-whalin              3-0
+m5681 t140  R spaark                   2-1
+m5683 t140  R gone-whalin              2-1
+m5700 t140  R immutable                1-2
+m5701 t140  u subscribe-to-caterpillow 2-1
+m5702 t140  R confused                 1-2
+m5703 t140  u spaark                   2-1
+m5704 t140  R om-nom                   0-3
+m5705 t140  u scienceqiu               2-1
+m5718 t140  R lobster-roll             2-1
+m5742 t140  R spaark                   2-1
+m5751 t140  R scienceqiu               1-1  (dup g2)
+m5787 t140  R immutable                1-1  (dup g1)
+m5788 t140  u gone-whalin              3-0
+m5789 t140  R confused                 2-1
+m5790 t140  u spaark                   2-1
+m5812 t140  R immutable                2-0  (dup g0)
+m5822 t140  R gone-whalin              0-2  (dup g2)
+m5861 t140  R immutable                2-1
+m5880 t140  R subscribe-to-caterpillow 1-2
+m5889 t140  R confused                 1-2
+m5890 t140  u immutable                2-1
+m5897 t140  R immutable                1-0  (dup g0,1)
+m5903 t140  R subscribe-to-caterpillow 3-0
+m5921 t140  R subscribe-to-caterpillow 1-1  (dup g2)
+m5930 t140  R immutable                2-1
+m5934 t140  R scienceqiu               2-1
+m5948 t140  R spaark                   1-1  (dup g1)
+m5977 t140  R immutable                3-0
+m6055 t140  R om-nom                   2-1
+m6056 t140  u spaark                   2-0  (dup g1)
+m6057 t140  R confused                 1-1  (dup g0)
+m6058 t140  u subscribe-to-caterpillow 1-2
+m6059 t140  R old-but-gold             0-3
+m6060 t140  u scienceqiu               2-1
+m6088 t140  R spaark                   1-1  (dup g1)
+m6101 t140  R scienceqiu               3-0
+m6106 t140  R spaark                   1-1  (dup g1)
+m6119 t140  R om-nom                   2-1
+m6120 t140  u spaark                   0-2  (dup g0)
+m6124 t140  R immutable                0-1  (dup g0,1)
+m6150 t140  R om-nom                   2-1
+m6151 t140  u spaark                   2-1
+m6152 t140  R confused                 1-2
+m6153 t140  u subscribe-to-caterpillow 1-2
+m6154 t140  R just-woke-up             1-2
+m6155 t140  u scienceqiu               2-1
+m6186 t140  R subscribe-to-caterpillow 1-0  (dup g0,2)
+m6196 t140  R subscribe-to-caterpillow 2-1
+m6208 t140  R spaark                   1-1  (dup g1)
+m6283 t140  R spaark                   1-1  (dup g2)
+m6306 t140  R om-nom                   1-2
+m6307 t140  u spaark                   1-1  (dup g2)
+m6308 t140  R confused                 1-1  (dup g0)
+m6309 t140  u subscribe-to-caterpillow 1-2
+m6310 t140  R just-woke-up             0-3
+m6311 t140  u scienceqiu               0-3
+m6328 t140  R spaark                   2-1
+m6331 t140  R om-nom                   0-2  (dup g2)
+m6332 t140  u subscribe-to-caterpillow 2-0  (dup g0)
+m6370 t158  R subscribe-to-caterpillow 2-1
+m6383 t158  R om-nom                   2-1
+m6384 t158  u spaark                   1-2
+m6385 t158  R confused                 1-2
+m6386 t158  u subscribe-to-caterpillow 3-0
+m6387 t158  R just-woke-up             1-2
+m6388 t158  u immutable                3-0
+m6411 t158  u spaark                   0-3
+m6412 t158  R confused                 1-2
+m6413 t158  u subscribe-to-caterpillow 2-1
+m6414 t158  R just-woke-up             1-2
+m6415 t158  u immutable                2-0  (dup g1)
+m6442 t158  R old-but-gold             1-2
+m6447 t158  R om-nom                   1-1  (dup g0)
+m6478 t158  R confused                 1-2
+m6483 t158  R spaark                   3-0
+m6493 t158  R immutable                2-1
+m6067 t140  R subscribe-to-caterpillow 0-0  (dup g0,1,2)
+
+== t140
+   top 7: 83-61 (58%)
+   rest : 8-17 (32%)
+   all  : 91-78 (54%)
+   ranked: 62-57
+   unranked: 29-21
+
+== t158
+   top 7: 21-10 (68%)
+   rest : 6-12 (33%)
+   all  : 27-22 (55%)
+   ranked: 16-16
+   unranked: 11-6
+
+== all versions
+   top 7: 104-71 (59%)
+   rest : 14-29 (33%)
+   all  : 118-100 (54%)
+   ranked: 78-73
+   unranked: 40-27
+
+per opponent (repeats left out): t140 | t158 | all
+   confused                    7-9 |    3-6 |  10-15
+   gone-whalin                 9-5 |      - |    9-5
+   immutable                  16-8 |    7-1 |   23-9
+   just-woke-up                1-5 |    2-4 |    3-9
+   lobster-roll                2-1 |      - |    2-1
+   old-but-gold                0-3 |    1-2 |    1-5
+   om-nom                     7-10 |    3-2 |  10-12
+   scienceqiu                 12-8 |      - |   12-8
+   spaark                    22-15 |    4-5 |  26-20
+   subscribe-to-caterpillow  15-14 |    7-2 |  22-16
+
+win types (repeats left out): Counter({('W', 'MAJ'): 116, ('L', 'MAJ'): 76, ('L', 'ALL'): 23, ('W', 'ALL'): 2, ('L', 'ARE'): 1})
+loss end rounds by version:
+   t140: 78 losses, median end r426.5, eliminations 21
+   t158: 22 losses, median end r371.5, eliminations 2
+
+per map (repeats left out): t140 W-L | t158 W-L
+   AlarmClock           4-0 |   1-0
+   Barcode              0-1 |     -
+   BatSignal            0-1 |   0-1
+   Brat                 0-1 |     -
+   Bread                0-1 |   1-1
+   Bunny                3-1 |     -
+   BunnyGame            1-1 |   0-1
+   Castle               1-2 |   1-1
+   CastleDefense        0-2 |     -
+   Circuit              2-1 |   1-0
+   Crab                 0-1 |   1-1
+   DefaultHuge            - |   0-1
+   DefaultLarge         3-1 |   1-1
+   DefaultMedium        2-1 |     -
+   DefaultSmall         0-1 |     -
+   Dominoes               - |   1-0
+   DonkeyKong           1-3 |     -
+   Filter               3-1 |   0-1
+   Flower               0-2 |   0-1
+   Fossil               2-0 |     -
+   FourCorners          0-3 |   0-2
+   Gears                2-1 |   1-0
+   HungerGames          2-1 |     -
+   Jail                 0-2 |     -
+   Justice              1-3 |     -
+   Leaf                 0-2 |   1-0
+   Mirage               0-1 |     -
+   Money                1-0 |     -
+   MoneyTower           2-0 |   1-0
+   Oasis                1-3 |   1-0
+   Paintball            1-2 |   0-1
+   Parking_lot          1-0 |   1-1
+   Piglets2             2-2 |   0-1
+   PlumberGame          1-2 |   1-0
+   Portal               0-1 |   1-0
+   Racetrack            0-2 |   0-1
+   Restart              2-2 |   1-0
+   SMILE                4-2 |     -
+   SaltyPepper          2-0 |     -
+   SandyBeach           1-1 |     -
+   Snowglobe            2-0 |     -
+   Snowman              0-3 |     -
+   TargetPractice       4-0 |   1-0
+   Terminal             0-3 |     -
+   TheBest              0-3 |   0-1
+   Thirds               1-0 |   0-1
+   UglySweater          4-0 |     -
+   UnderTheSea          1-0 |   1-1
+   box                  1-0 |   1-1
+   boxofchocolates      0-1 |     -
+   catface              1-1 |     -
+   defensetower         1-0 |     -
+   fix                  1-0 |   2-0
+   galaxy               2-0 |     -
+   gardenworld          4-0 |     -
+   giver                2-0 |     -
+   gridworld            0-1 |   2-0
+   headphones           3-1 |     -
+   leavemealone         1-0 |     -
+   lighthouse           0-1 |   0-1
+   maze                 0-1 |     -
+   memstore             1-2 |   2-1
+   mit                  2-0 |     -
+   quack                0-2 |   1-0
+   rain                 1-2 |     -
+   roads                1-1 |   0-1
+   sayhi                1-0 |     -
+   shell                2-0 |   1-0
+   sierpinski           2-0 |   1-0
+   starburst            2-2 |     -
+   sunrise              1-0 |     -
+   walalilongla         1-1 |     -
+   windmill             3-1 |     -
+   yearofthesnake       1-1 |     -

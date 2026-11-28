@@ -1,0 +1,146 @@
+== lost games: 24; per 100 unit-turns of that type (unit-turns in brackets)
+   SOLDIER                                r1-100 us    them r101-200 us    them    r201+ us    them
+   (unit-turns)                               15319   12926       13633   19381       24441   60071
+   tower hits                                  8.79    8.37        6.76    6.05        6.19    3.33
+   paint on neutral                           31.71   31.46       32.14   21.76       17.75   12.92
+   paint on own (recolour)                     1.13    2.77        3.87    4.51        4.64    6.09
+   paint on enemy (impossible)                 0.00    0.00        0.00    0.00        0.00    0.00
+   single marks                               11.66    1.35        3.03    0.82        1.78    0.65
+   pattern marks (25 paint)                    0.00    0.00        0.00    0.00        0.00    0.00
+   unmarks                                     0.00    0.37        0.00    0.20        0.00    0.17
+   withdrawals                                 2.62    2.43        2.95    2.42        2.16    2.13
+   paint withdrawn                           132.22  129.92      178.95  118.01      100.11   99.29
+   trickles < 10                               1.27    1.11        0.76    1.06        0.88    0.90
+   paint given to towers                       0.00    0.00        0.00    0.00        0.00    0.00
+   paint given to robots                       0.00    0.00        0.00    0.00        0.00    0.00
+   upgrades done by the robot                  0.00    0.00        0.00    0.00        0.00    0.04
+   towers completed                            0.67    0.70        0.65    0.54        0.32    0.50
+   SRPs completed                              0.00    0.14        0.40    0.35        0.32    0.43
+   kills                                       0.20    0.24        0.21    0.24        0.19    0.14
+   disintegrations                             0.00    0.02        0.00    0.01        0.00    0.01
+   SPLASHER                               r1-100 us    them r101-200 us    them    r201+ us    them
+   (unit-turns)                                  25     544        1904    2663       17350   46466
+   splashes                                   16.00   10.11        9.87    7.59        7.42    3.84
+   tiles painted                             180.00  105.88      105.99   77.54       75.83   38.91
+   tiles neutral -> own                      124.00   28.49       42.54   16.37       10.76    3.91
+   tiles enemy -> own                         24.00   47.43       34.72   42.62       40.31   22.93
+   own tiles re-coloured                      32.00   29.96       28.73   18.55       24.77   12.06
+   splashes changing nothing                   0.00    0.00        0.00    0.00        0.00    0.00
+   splashes only re-colouring                  0.00    0.18        0.05    0.60        0.02    0.17
+   tower hits                                  0.00    2.94        0.32    2.40        0.54    0.73
+   withdrawals                                 0.00    1.84        6.78    0.83        3.77    0.79
+   paint withdrawn                             0.00  145.22      303.94   60.68      197.18   42.08
+   paint given to towers                       0.00    0.00        0.00    0.00        0.00    0.00
+   paint given to robots                       0.00    0.00        0.00    0.00        0.00    0.00
+   upgrades done                               0.00    0.00        0.00    0.00        0.00    0.01
+   towers completed                            0.00    0.18        0.05    0.00        0.03    0.01
+   SRPs completed                              0.00    0.00        0.00    0.00        0.00    0.00
+   kills                                       0.00    0.00        0.05    0.11        0.04    0.06
+   disintegrations                             0.00    0.37        0.00    0.19        0.00    0.22
+   MOPPER                                 r1-100 us    them r101-200 us    them    r201+ us    them
+   (unit-turns)                                 288    3674        4820   13205       16380   55842
+   tiles mopped                               18.75   17.50       19.83   17.82       16.67   11.45
+   single drains (10)                          9.03   10.13        7.41    4.80        7.45    3.33
+   attack rows on robots                       9.03   10.13        7.41    4.80        7.45    3.33
+   swings                                      0.69    8.52        2.37    3.20        2.97    3.48
+   swing victims (5 each)                      1.39   10.21        5.04    3.70        6.23    3.78
+   gives to robots                             1.39    0.30        0.12    0.63        0.40    0.91
+   paint given to robots                      74.65   12.08        7.07   24.20       20.01   23.89
+   paint given to towers                       0.00    0.00        0.00    0.00        0.00    0.00
+   withdrawals                                 1.04    1.06        1.56    1.12        1.12    0.91
+   paint withdrawn                            65.97   20.01       47.49   48.93       41.87   32.26
+   upgrades done                               0.00    0.00        0.00    0.00        0.00    0.01
+   towers completed                            0.00    0.14        0.08    0.05        0.04    0.03
+   SRPs completed                              0.00    0.00        0.00    0.00        0.00    0.00
+   kills                                       0.00    0.00        0.00    0.00        0.00    0.00
+   disintegrations                             0.00    0.00        0.00    0.14        0.00    0.16
+   TOWER                                  r1-100 us    them r101-200 us    them    r201+ us    them
+   (unit-turns)                                8388    8619       11685   14928       23687   44423
+   soldiers spawned                            2.93    2.30        0.85    0.94        0.82    1.04
+   splashers spawned                           0.05    0.15        0.28    0.41        0.70    1.47
+   moppers spawned                             0.30    1.07        0.55    0.92        0.45    1.30
+   attack rows                                14.28   17.77       11.90    8.55       12.38    5.19
+   upgrades                                    0.00    0.00        0.03    0.03        0.19    0.08
+   kills                                       0.25    0.65        0.31    0.52        0.34    0.35
+   disintegrations                             0.01    0.00        0.41    0.05        0.16    0.38
+   per game, us / them:
+      built_by_MOPPER                    0.42 /   1.08
+      built_by_SOLDIER                  11.25 /  20.71
+      built_by_SPLASHER                  0.25 /   0.21
+      disintegrated_MOPPER               0.00 /   4.42
+      disintegrated_SOLDIER              0.00 /   0.50
+      disintegrated_SPLASHER             0.00 /   4.54
+      disintegrated_tower                3.58 /   7.25
+== won games: 27; per 100 unit-turns of that type (unit-turns in brackets)
+   SOLDIER                                r1-100 us    them r101-200 us    them    r201+ us    them
+   (unit-turns)                               18532   15898       27501   20606       76100   39518
+   tower hits                                  5.87    7.67        5.10    6.16        3.81    4.57
+   paint on neutral                           37.50   34.48       33.09   17.70       14.65   10.72
+   paint on own (recolour)                     1.27    3.53        4.12    4.69        5.93    6.79
+   paint on enemy (impossible)                 0.00    0.00        0.00    0.00        0.00    0.00
+   single marks                               15.03    1.44        4.28    0.87        2.51    0.55
+   pattern marks (25 paint)                    0.00    0.00        0.00    0.00        0.00    0.00
+   unmarks                                     0.00    0.60        0.00    0.28        0.00    0.24
+   withdrawals                                 2.67    1.59        3.20    1.58        3.72    1.29
+   paint withdrawn                           155.76  113.95      172.40  101.23      123.95   73.91
+   trickles < 10                               1.11    0.55        1.13    0.58        2.07    0.56
+   paint given to towers                       0.00    0.00        0.00    0.00        0.00    0.00
+   paint given to robots                       0.00    0.00        0.00    0.00        0.00    0.00
+   upgrades done by the robot                  0.00    0.00        0.00    0.00        0.00    0.02
+   towers completed                            0.88    0.67        0.60    0.35        0.41    0.21
+   SRPs completed                              0.00    0.12        0.39    0.48        0.38    0.41
+   kills                                       0.17    0.21        0.19    0.23        0.16    0.17
+   disintegrations                             0.00    0.00        0.00    0.01        0.00    0.01
+   SPLASHER                               r1-100 us    them r101-200 us    them    r201+ us    them
+   (unit-turns)                                   3     408        2785    3924       49888   28380
+   splashes                                    0.00    6.86        8.55    6.27        5.70    6.00
+   tiles painted                               0.00   77.45       90.63   63.46       57.59   59.04
+   tiles neutral -> own                        0.00   37.01       40.43   15.14        8.58    4.62
+   tiles enemy -> own                          0.00   23.53       23.52   31.35       27.72   37.95
+   own tiles re-coloured                       0.00   16.91       26.68   16.97       21.29   16.46
+   splashes changing nothing                   0.00    0.00        0.00    0.00        0.00    0.00
+   splashes only re-colouring                  0.00    0.74        0.11    0.23        0.08    0.12
+   tower hits                                  0.00    1.47        0.72    1.45        0.43    0.75
+   withdrawals                                 0.00    0.49        3.73    0.92        3.87    0.85
+   paint withdrawn                             0.00    1.23      146.57   49.62      169.02   94.03
+   paint given to towers                       0.00    0.00        0.00    0.00        0.00    0.00
+   paint given to robots                       0.00    0.00        0.00    0.00        0.00    0.00
+   upgrades done                               0.00    0.00        0.00    0.00        0.00    0.00
+   towers completed                            0.00    0.00        0.07    0.03        0.05    0.01
+   SRPs completed                              0.00    0.00        0.00    0.00        0.00    0.00
+   kills                                       0.00    0.25        0.04    0.08        0.03    0.05
+   disintegrations                             0.00    0.00        0.00    0.10        0.00    0.10
+   MOPPER                                 r1-100 us    them r101-200 us    them    r201+ us    them
+   (unit-turns)                                 275    3523        9280   12525       45570   34449
+   tiles mopped                               17.45   16.38       20.10   15.49       13.41   16.01
+   single drains (10)                          5.45    7.15        5.38    5.93        4.81    6.98
+   attack rows on robots                       5.45    7.15        5.38    5.93        4.81    6.98
+   swings                                      0.00    5.85        1.27    6.03        1.27    5.26
+   swing victims (5 each)                      0.00    6.64        2.63    6.90        2.66    6.27
+   gives to robots                             0.00    0.79        0.46    0.93        0.98    0.88
+   paint given to robots                       0.00   34.12       23.47   30.97       48.16   34.15
+   paint given to towers                       0.00    0.00        0.00    0.00        0.00    0.00
+   withdrawals                                 0.00    0.57        1.48    0.89        2.86    0.82
+   paint withdrawn                             0.00   23.76       41.49   40.23       86.03   32.60
+   upgrades done                               0.00    0.00        0.00    0.00        0.00    0.00
+   towers completed                            0.00    0.06        0.12    0.05        0.06    0.04
+   SRPs completed                              0.00    0.00        0.00    0.00        0.00    0.00
+   kills                                       0.00    0.00        0.00    0.00        0.00    0.00
+   disintegrations                             0.00    0.03        0.00    0.06        0.00    0.07
+   TOWER                                  r1-100 us    them r101-200 us    them    r201+ us    them
+   (unit-turns)                               11246    9792       20754   14697       53061   29029
+   soldiers spawned                            2.53    2.42        1.10    0.80        1.35    0.70
+   splashers spawned                           0.04    0.17        0.31    0.49        1.29    0.91
+   moppers spawned                             0.22    0.93        0.76    0.88        0.73    1.01
+   attack rows                                12.05   11.79        7.58   11.95        4.87   13.46
+   upgrades                                    0.00    0.00        0.03    0.07        0.11    0.13
+   kills                                       0.27    0.36        0.22    0.46        0.16    0.76
+   disintegrations                             0.04    0.00        0.32    0.02        0.31    0.07
+   per game, us / them:
+      built_by_MOPPER                    1.44 /   0.81
+      built_by_SOLDIER                  23.56 /   9.67
+      built_by_SPLASHER                  1.04 /   0.11
+      disintegrated_MOPPER               0.00 /   1.22
+      disintegrated_SOLDIER              0.00 /   0.22
+      disintegrated_SPLASHER             0.00 /   1.19
+      disintegrated_tower                8.74 /   0.81

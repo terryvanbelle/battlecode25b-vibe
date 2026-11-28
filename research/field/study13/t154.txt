@@ -1,0 +1,58 @@
+
+== lost: 102 games; SRPs by the phase of completion, churns and drained money towers by the phase of the round
+                                                                r1-100 us    them   r101-200 us    them      r201+ us    them        all us    them
+   SRPs completed per game                                           0.00    0.69          2.96    3.06          8.32   13.27         11.28   17.02
+     money disagrees: per game                                       0.00    0.40          1.10    1.68          3.20    5.68          4.29    7.75
+       broken by own paint                                              -     51%           64%     37%           48%     34%           53%     35%
+       broken (any cause)                                               -     66%           91%     44%           90%     41%           90%     43%
+       rounds active per SRP                                            -     120            73     157            46      73            53      93
+     paint disagrees (no money): per game                            0.00    0.17          0.51    0.82          2.37    3.17          2.88    4.16
+       broken by own paint                                              -      0%           15%     14%           27%     23%           25%     21%
+       broken (any cause)                                               -     12%           79%     23%           82%     30%           82%     28%
+       rounds active per SRP                                            -     235           159     185            42      71            62     100
+     agreeing towers only: per game                                  0.00    0.03          0.18    0.11          0.23    0.43          0.40    0.57
+       broken by own paint                                              -      0%            6%     18%           30%     14%           20%     14%
+       broken (any cause)                                               -     33%           89%     18%           83%     20%           85%     21%
+       rounds active per SRP                                            -     106           120     244            73      70            93     105
+     no own tower in 3-4: per game                                   0.00    0.09          1.18    0.45          2.53    4.00          3.71    4.54
+       broken by own paint                                              -     22%            3%     22%           15%     26%           11%     25%
+       broken (any cause)                                               -     56%           89%     28%           90%     42%           90%     41%
+       rounds active per SRP                                            -     212           106     166            30      35            54      52
+   SRP-rounds active per game (all SRPs)                                0     109           307     517           338     810           645    1437
+   churns per game                                                   0.03    0.02          1.33    0.27          2.21    4.69          3.57    4.98
+   drained L1 money tower turns (chips 2000+) per game                1.1     0.3          43.5    21.1         174.6   223.1         219.2   244.5
+     money pattern intact (churnable)                                 34%     74%           31%     56%           13%     37%           17%     39%
+     a tile held by an own SRP in the other colour                     0%      0%           13%     24%           30%     34%           27%     33%
+       and nothing else wrong (the SRP alone blocks the churn)            0%      0%            8%     18%           11%     19%           10%     19%
+     a tile with enemy paint                                          14%      0%           26%      4%           26%      5%           26%      5%
+     an empty tile (mopped, or never painted)                         48%      0%           23%      4%           22%      7%           22%      7%
+     own paint in the other colour, no SRP                            16%     26%           38%     21%           66%     41%           60%     39%
+
+== won: 118 games; SRPs by the phase of completion, churns and drained money towers by the phase of the round
+                                                                r1-100 us    them   r101-200 us    them      r201+ us    them        all us    them
+   SRPs completed per game                                           0.00    0.75          5.53    2.70         16.05    5.07         21.58    8.53
+     money disagrees: per game                                       0.00    0.45          1.81    1.43          5.64    2.37          7.44    4.25
+       broken by own paint                                              -     66%           50%     49%           38%     42%           41%     47%
+       broken (any cause)                                               -     91%           58%     83%           46%     72%           49%     78%
+       rounds active per SRP                                            -      65            62      87            25      41            34      59
+     paint disagrees (no money): per game                            0.00    0.13          1.24    0.51          3.73    1.21          4.97    1.85
+       broken by own paint                                              -     27%           10%     38%           13%     36%           12%     36%
+       broken (any cause)                                               -     60%           21%     58%           30%     73%           27%     68%
+       rounds active per SRP                                            -     230           130     122            43      30            65      69
+     agreeing towers only: per game                                  0.00    0.03          0.26    0.04          0.53    0.11          0.79    0.18
+       broken by own paint                                              -     33%            3%     20%           23%     31%           16%     29%
+       broken (any cause)                                               -    100%           35%     60%           42%     46%           40%     57%
+       rounds active per SRP                                            -     245           108     144            45      61            66     107
+     no own tower in 3-4: per game                                   0.00    0.15          2.23    0.72          6.16    1.37          8.39    2.25
+       broken by own paint                                              -     17%            3%     27%           10%     23%            8%     24%
+       broken (any cause)                                               -     89%           26%     79%           41%     73%           37%     76%
+       rounds active per SRP                                            -      78           129     105            29      42            55      65
+   SRP-rounds active per game (all SRPs)                                0      76           589     269           502     198          1092     543
+   churns per game                                                   0.09    0.03          2.21    0.35          4.58    1.10          6.89    1.47
+   drained L1 money tower turns (chips 2000+) per game                0.5     0.4          47.4    23.9         199.4    90.4         247.4   114.8
+     money pattern intact (churnable)                                 89%     77%           37%     46%           15%     43%           19%     44%
+     a tile held by an own SRP in the other colour                     0%     11%           18%     34%           30%     21%           27%     24%
+       and nothing else wrong (the SRP alone blocks the churn)            0%      0%           11%     24%           11%     15%           11%     17%
+     a tile with enemy paint                                           0%      0%            9%      3%            8%     15%            9%     12%
+     an empty tile (mopped, or never painted)                          8%      0%           15%      3%           13%     13%           13%     11%
+     own paint in the other colour, no SRP                             3%     23%           40%     26%           70%     27%           64%     27%

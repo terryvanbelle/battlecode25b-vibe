@@ -1,0 +1,39 @@
+27 won games: m6370g0 Bread(subscr,MAJ332), m6370g1 Castle(subscr,MAJ377), m6383g0 box(om-nom,MAJ470), m6383g1 fix(om-nom,MAJ310), m6384g2 memstore(spaark,MAJ459), m6385g1 TargetPractice(confus,MAJ315), m6386g0 Crab(subscr,MAJ344), m6386g1 MoneyTower(subscr,MAJ344), m6386g2 gridworld(subscr,MAJ325), m6387g0 DefaultLarge(just-w,MAJ341), m6388g0 Leaf(immuta,MAJ356), m6388g1 Oasis(immuta,MAJ319), m6388g2 sierpinski(immuta,MAJ372), m6412g1 Portal(confus,MAJ438), m6413g1 PlumberGame(subscr,MAJ441), m6413g2 Restart(subscr,MAJ453), m6414g2 shell(just-w,MAJ755), m6415g0 Circuit(immuta,MAJ335), m6415g2 quack(immuta,MAJ375), m6442g0 AlarmClock(old-bu,MAJ262), m6447g2 Gears(om-nom,MAJ404), m6478g1 UnderTheSea(confus,MAJ360), m6483g0 Parking_lot(spaark,MAJ265), m6483g1 fix(spaark,MAJ455), m6483g2 gridworld(spaark,MAJ455), m6493g1 Dominoes(immuta,MAJ267), m6493g2 memstore(immuta,MAJ488)
+wintypes: {'MAJORITY_PAINTED': 27}  median end round 360
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   27 |    9.7/10.1      112/124          3/3          1/1          2/2          0/0     720/1040    1324/1227          0/0          7/5          7/5          0/0          0/0
+r50   27 |   13.4/15.2      162/176          4/4          1/1          3/3          0/0      830/810    1551/1599          0/0          8/8          8/7          0/0          0/1
+r75   27 |   15.1/18.0      205/212          6/5          1/1          5/4          0/0      550/920    2171/1791          0/0          8/9          8/7          0/0          0/2
+r100  27 |   23.0/21.0      300/253          6/4          1/1          5/3          0/0     1010/928    2227/1759          0/0         9/10          8/7          0/0          0/3
+r150  27 |   34.0/24.5      447/329          8/5          1/1          6/4          0/0    1510/1330    1981/1891          0/0        15/14         10/8          1/1          3/5
+r200  27 |   43.2/27.2      577/336          8/6          2/1          7/4          0/0    1670/1760    2474/2004          1/1        20/15         10/7          2/2          5/5
+r300  24 |   55.2/26.4  846.0/374.0     10.0/5.0      3.0/1.0      7.0/4.0      0.0/0.0  1800.0/3132.5  4331.5/1630.5      2.5/1.5    30.0/14.5     13.0/6.5      5.5/3.5      9.0/5.0
+r400  10 |   60.2/21.6  1053.0/417.5     12.0/6.0      5.0/2.0      6.0/3.0      0.0/0.0  1322.5/2751.0  6036.5/1926.5      3.5/1.5    28.5/20.0     15.5/5.5     10.5/5.5    10.5/10.0
+
+m6370g0 t158 subscribe-to Bread          rounds r101-400 with chips>=3000: us  13 them 157; max srp us 1 them 0
+m6370g1 t158 subscribe-to Castle         rounds r101-400 with chips>=3000: us   6 them 157; max srp us 0 them 0
+m6383g0 t158 om-nom       box            rounds r101-400 with chips>=3000: us  67 them 148; max srp us 2 them 1
+m6383g1 t158 om-nom       fix            rounds r101-400 with chips>=3000: us   3 them 111; max srp us 4 them 1
+m6384g2 t158 spaark       memstore       rounds r101-400 with chips>=3000: us  44 them  33; max srp us 10 them 2
+m6385g1 t158 confused     TargetPractice rounds r101-400 with chips>=3000: us  14 them 136; max srp us 5 them 0
+m6386g0 t158 subscribe-to Crab           rounds r101-400 with chips>=3000: us  39 them   0; max srp us 2 them 0
+m6386g1 t158 subscribe-to MoneyTower     rounds r101-400 with chips>=3000: us  19 them 165; max srp us 2 them 5
+m6386g2 t158 subscribe-to gridworld      rounds r101-400 with chips>=3000: us  35 them  92; max srp us 0 them 0
+m6387g0 t158 just-woke-up DefaultLarge   rounds r101-400 with chips>=3000: us   3 them   6; max srp us 18 them 13
+m6388g0 t158 immutable    Leaf           rounds r101-400 with chips>=3000: us   2 them   0; max srp us 23 them 11
+m6388g1 t158 immutable    Oasis          rounds r101-400 with chips>=3000: us   1 them  59; max srp us 40 them 7
+m6388g2 t158 immutable    sierpinski     rounds r101-400 with chips>=3000: us  20 them   0; max srp us 3 them 0
+m6412g1 t158 confused     Portal         rounds r101-400 with chips>=3000: us  37 them 139; max srp us 1 them 1
+m6413g1 t158 subscribe-to PlumberGame    rounds r101-400 with chips>=3000: us 120 them  94; max srp us 15 them 10
+m6413g2 t158 subscribe-to Restart        rounds r101-400 with chips>=3000: us   8 them  34; max srp us 9 them 8
+m6414g2 t158 just-woke-up shell          rounds r101-400 with chips>=3000: us 109 them  17; max srp us 1 them 2
+m6415g0 t158 immutable    Circuit        rounds r101-400 with chips>=3000: us  31 them   0; max srp us 11 them 2
+m6415g2 t158 immutable    quack          rounds r101-400 with chips>=3000: us 119 them   2; max srp us 6 them 3
+m6442g0 t158 old-but-gold AlarmClock     rounds r101-400 with chips>=3000: us   6 them  44; max srp us 7 them 2
+m6447g2 t158 om-nom       Gears          rounds r101-400 with chips>=3000: us  20 them 148; max srp us 30 them 8
+m6478g1 t158 confused     UnderTheSea    rounds r101-400 with chips>=3000: us  17 them  88; max srp us 12 them 9
+m6483g0 t158 spaark       Parking_lot    rounds r101-400 with chips>=3000: us   0 them   0; max srp us 2 them 0
+m6483g1 t158 spaark       fix            rounds r101-400 with chips>=3000: us  20 them  94; max srp us 1 them 3
+m6483g2 t158 spaark       gridworld      rounds r101-400 with chips>=3000: us  63 them  44; max srp us 0 them 0
+m6493g1 t158 immutable    Dominoes       rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m6493g2 t158 immutable    memstore       rounds r101-400 with chips>=3000: us  50 them   0; max srp us 13 them 6

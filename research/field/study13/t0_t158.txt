@@ -1,0 +1,36 @@
+24 lost games: m6370g2 Flower(subscr,MAJ844), m6383g2 memstore(om-nom,MAJ523), m6384g0 Castle(spaark,MAJ363), m6384g1 Racetrack(spaark,MAJ279), m6385g0 Paintball(confus,ARE2000), m6385g2 TheBest(confus,MAJ451), m6387g1 FourCorners(just-w,MAJ266), m6387g2 Piglets2(just-w,MAJ299), m6411g0 Bread(spaark,MAJ362), m6411g1 Crab(spaark,MAJ385), m6411g2 UnderTheSea(spaark,MAJ414), m6412g0 DefaultHuge(confus,MAJ380), m6412g2 Thirds(confus,MAJ599), m6413g0 Parking_lot(subscr,MAJ492), m6414g0 BatSignal(just-w,MAJ475), m6414g1 roads(just-w,MAJ289), m6415g1 Snowman(immuta,MAJ150), m6442g1 DefaultLarge(old-bu,MAJ296), m6442g2 lighthouse(old-bu,MAJ454), m6447g0 Brat(om-nom,ALL355), m6447g1 Filter(om-nom,ALL214), m6478g0 FourCorners(confus,MAJ249), m6478g2 box(confus,ALL322), m6493g0 BunnyGame(immuta,MAJ295)
+wintypes: {'AREA_PAINTED': 1, 'MAJORITY_PAINTED': 20, 'ALL_UNITS_DESTROYED': 3}  median end round 362.5
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   24 |    9.9/10.4   95.0/113.0      3.0/3.0      1.0/1.0      2.0/2.0      0.0/0.0  740.0/1140.0  1243.5/1237.0      0.0/0.0      7.0/5.0      7.0/5.0      0.0/0.0      0.0/0.0
+r50   24 |   14.6/15.2  141.0/168.0      4.0/4.0      1.0/1.0      3.0/3.0      0.0/0.0  865.0/905.0  1471.5/1559.0      0.0/0.0      8.0/7.0      8.0/5.0      0.0/0.0      0.0/1.0
+r75   24 |   15.2/19.6  157.5/212.0      4.5/4.5      1.0/1.0      3.5/4.0      0.0/0.0  885.0/985.0  1758.5/1908.5      0.0/0.0      7.0/8.5      7.0/6.0      0.0/0.0      0.0/2.0
+r100  24 |   18.9/23.1  217.5/244.5      5.0/5.0      1.0/1.0      4.0/3.0      0.0/0.0  1045.0/955.0  1475.5/1744.5      0.0/0.0     7.5/11.0      6.5/6.5      0.0/0.0      1.0/3.0
+r150  24 |   25.0/31.2  280.5/304.5      4.5/6.0      1.0/1.0      3.0/4.0      0.0/0.0  1705.0/1055.0  1311.5/2096.5      0.0/0.0     8.0/13.5      5.5/8.0      1.0/1.0      2.0/5.0
+r200  23 |   26.4/35.2      303/366          4/8          1/2          3/4          0/0    2158/1482    1014/2215          0/0         7/16          4/9          1/2          2/7
+r300  15 |   25.7/45.5      330/479          5/8          1/3          3/4          0/0    2120/1711     995/3613          1/2         8/22         3/10          3/4          3/7
+r400   9 |   26.7/57.3      479/593          5/9          2/3          3/7          0/0    2745/1794    1920/3405          2/4        13/25          4/9          4/6         5/10
+
+m6370g2 t158 subscribe-to Flower         rounds r101-400 with chips>=3000: us  78 them  41; max srp us 9 them 14
+m6383g2 t158 om-nom       memstore       rounds r101-400 with chips>=3000: us 108 them  25; max srp us 3 them 17
+m6384g0 t158 spaark       Castle         rounds r101-400 with chips>=3000: us 192 them  24; max srp us 0 them 1
+m6384g1 t158 spaark       Racetrack      rounds r101-400 with chips>=3000: us 117 them   3; max srp us 0 them 1
+m6385g0 t158 confused     Paintball      rounds r101-400 with chips>=3000: us 257 them   0; max srp us 0 them 0
+m6385g2 t158 confused     TheBest        rounds r101-400 with chips>=3000: us  21 them  29; max srp us 4 them 17
+m6387g1 t158 just-woke-up FourCorners    rounds r101-400 with chips>=3000: us 101 them  10; max srp us 0 them 4
+m6387g2 t158 just-woke-up Piglets2       rounds r101-400 with chips>=3000: us 115 them   2; max srp us 2 them 10
+m6411g0 t158 spaark       Bread          rounds r101-400 with chips>=3000: us  70 them  15; max srp us 1 them 6
+m6411g1 t158 spaark       Crab           rounds r101-400 with chips>=3000: us 195 them   4; max srp us 0 them 5
+m6411g2 t158 spaark       UnderTheSea    rounds r101-400 with chips>=3000: us  10 them  14; max srp us 12 them 15
+m6412g0 t158 confused     DefaultHuge    rounds r101-400 with chips>=3000: us   0 them  31; max srp us 4 them 18
+m6412g2 t158 confused     Thirds         rounds r101-400 with chips>=3000: us  40 them  19; max srp us 5 them 2
+m6413g0 t158 subscribe-to Parking_lot    rounds r101-400 with chips>=3000: us   7 them  31; max srp us 3 them 6
+m6414g0 t158 just-woke-up BatSignal      rounds r101-400 with chips>=3000: us 191 them   6; max srp us 2 them 2
+m6414g1 t158 just-woke-up roads          rounds r101-400 with chips>=3000: us  64 them   0; max srp us 0 them 1
+m6415g1 t158 immutable    Snowman        rounds r101-400 with chips>=3000: us  50 them   0; max srp us 0 them 1
+m6442g1 t158 old-but-gold DefaultLarge   rounds r101-400 with chips>=3000: us  10 them   8; max srp us 5 them 11
+m6442g2 t158 old-but-gold lighthouse     rounds r101-400 with chips>=3000: us 118 them   4; max srp us 0 them 6
+m6447g0 t158 om-nom       Brat           rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m6447g1 t158 om-nom       Filter         rounds r101-400 with chips>=3000: us  63 them   0; max srp us 0 them 0
+m6478g0 t158 confused     FourCorners    rounds r101-400 with chips>=3000: us  87 them  10; max srp us 0 them 1
+m6478g2 t158 confused     box            rounds r101-400 with chips>=3000: us   0 them  28; max srp us 0 them 0
+m6493g0 t158 immutable    BunnyGame      rounds r101-400 with chips>=3000: us   0 them   7; max srp us 0 them 2

@@ -1,0 +1,17 @@
+our SRPs with one of our money towers at Chebyshev 3-4 at completion (an SRP beside two counts twice):
+   t140: 1511, of them disagreeing 1228 (81%)
+   t158: 264, of them disagreeing 224 (85%)
+     123  DISAGREES  tower NOT seen by the pick    built after the pick
+    1323  DISAGREES  tower NOT seen by the pick    built before the pick
+       6  DISAGREES  tower seen by the pick        built before the pick
+      18  agrees     tower NOT seen by the pick    built after the pick
+     122  agrees     tower NOT seen by the pick    built before the pick
+      21  agrees     tower seen by the pick        built after the pick
+     162  agrees     tower seen by the pick        built before the pick
+disagreeing although seen and built before the pick (m, g, round, soldier, centre, tower, pick):
+   (5701, 0, 148, 10797, (22, 10), (24, 7), 139)
+   (5903, 2, 302, 11922, (54, 34), (50, 34), 288)
+   (5948, 2, 299, 13530, (2, 6), (6, 7), 290)
+   (6101, 1, 190, 13938, (26, 50), (25, 46), 181)
+   (6101, 2, 587, 13365, (10, 18), (11, 22), 578)
+   (6152, 1, 182, 12804, (10, 26), (8, 29), 168)

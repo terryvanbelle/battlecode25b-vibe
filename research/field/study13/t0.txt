@@ -1,0 +1,114 @@
+102 lost games: m5572g1 Snowman(immuta,MAJ150), m5573g2 DefaultSmall(spaark,ALL179), m5602g0 DonkeyKong(subscr,MAJ428), m5602g1 Filter(subscr,ALL226), m5602g2 TheBest(subscr,MAJ346), m5620g0 Flower(gone-w,MAJ496), m5620g1 Justice(gone-w,MAJ520), m5681g1 Piglets2(spaark,MAJ632), m5683g0 CastleDefense(gone-w,MAJ403), m5700g0 FourCorners(immuta,MAJ178), m5700g1 Justice(immuta,MAJ275), m5701g1 quack(subscr,MAJ395), m5702g0 Bunny(confus,ALL263), m5702g1 Gears(confus,MAJ626), m5703g2 PlumberGame(spaark,MAJ401), m5704g0 CastleDefense(om-nom,ALL249), m5704g1 Circuit(om-nom,MAJ470), m5704g2 SandyBeach(om-nom,ALL991), m5705g0 BatSignal(scienc,ALL743), m5718g2 Terminal(lobste,MAJ628), m5742g1 Paintball(spaark,ALL251), m5751g1 rain(scienc,MAJ393), m5787g0 Castle(immuta,MAJ216), m5789g1 FourCorners(confus,MAJ430), m5790g1 Leaf(spaark,MAJ546), m5822g0 Bread(gone-w,MAJ447), m5822g1 FourCorners(gone-w,ALL161), m5861g1 HungerGames(immuta,MAJ406), m5880g0 Jail(subscr,ALL121), m5880g1 Restart(subscr,MAJ349), m5889g1 Piglets2(confus,ALL232), m5889g2 starburst(confus,MAJ540), m5890g0 BunnyGame(immuta,MAJ306), m5921g1 Mirage(subscr,MAJ391), m5930g0 Racetrack(immuta,MAJ328), m5934g0 DonkeyKong(scienc,MAJ537), m5948g0 DefaultMedium(spaark,MAJ444), m6055g1 quack(om-nom,MAJ443), m6057g1 DonkeyKong(confus,MAJ381), m6058g1 memstore(subscr,MAJ598), m6058g2 walalilongla(subscr,MAJ538), m6059g0 Jail(old-bu,ALL92), m6059g1 TheBest(old-bu,MAJ433), m6059g2 roads(old-bu,MAJ255), m6060g1 Snowman(scienc,ALL177), m6088g2 windmill(spaark,ALL559), m6106g0 Barcode(spaark,MAJ453), m6119g0 Paintball(om-nom,ALL147), m6120g1 SMILE(spaark,MAJ731), m6120g2 maze(spaark,MAJ1024), m6124g2 starburst(immuta,MAJ618), m6150g1 Portal(om-nom,MAJ327), m6151g0 DefaultLarge(spaark,ALL291), m6152g0 Oasis(confus,MAJ476), m6152g2 lighthouse(confus,MAJ280), m6153g1 Snowman(subscr,ALL272), m6153g2 headphones(subscr,MAJ435), m6154g0 Oasis(just-w,MAJ410), m6154g2 Terminal(just-w,MAJ328), m6155g0 Restart(scienc,ALL461), m6196g1 Oasis(subscr,MAJ373), m6208g2 yearofthesnake(spaark,MAJ879), m6283g0 Crab(spaark,MAJ489), m6306g0 gridworld(om-nom,MAJ515), m6306g1 memstore(om-nom,MAJ431), m6307g0 Justice(spaark,MAJ614), m6308g1 PlumberGame(confus,MAJ457), m6309g0 Flower(subscr,MAJ509), m6309g1 SMILE(subscr,MAJ425), m6310g0 Castle(just-w,MAJ270), m6310g1 Racetrack(just-w,MAJ357), m6310g2 boxofchocolates(just-w,MAJ709), m6311g0 TheBest(scienc,MAJ606), m6311g1 catface(scienc,ALL533), m6311g2 rain(scienc,ALL241), m6328g0 Leaf(spaark,MAJ799), m6331g0 Brat(om-nom,ALL355), m6331g1 Terminal(om-nom,ALL501), m6370g2 Flower(subscr,MAJ844), m6383g2 memstore(om-nom,MAJ523), m6384g0 Castle(spaark,MAJ363), m6384g1 Racetrack(spaark,MAJ279), m6385g0 Paintball(confus,ARE2000), m6385g2 TheBest(confus,MAJ451), m6387g1 FourCorners(just-w,MAJ266), m6387g2 Piglets2(just-w,MAJ299), m6411g0 Bread(spaark,MAJ362), m6411g1 Crab(spaark,MAJ385), m6411g2 UnderTheSea(spaark,MAJ414), m6412g0 DefaultHuge(confus,MAJ380), m6412g2 Thirds(confus,MAJ599), m6413g0 Parking_lot(subscr,MAJ492), m6414g0 BatSignal(just-w,MAJ475), m6414g1 roads(just-w,MAJ289), m6415g1 Snowman(immuta,MAJ150), m6442g1 DefaultLarge(old-bu,MAJ296), m6442g2 lighthouse(old-bu,MAJ454), m6447g0 Brat(om-nom,ALL355), m6447g1 Filter(om-nom,ALL214), m6478g0 FourCorners(confus,MAJ249), m6478g2 box(confus,ALL322), m6493g0 BunnyGame(immuta,MAJ295)
+wintypes: {'ALL_UNITS_DESTROYED': 24, 'AREA_PAINTED': 1, 'MAJORITY_PAINTED': 77}  median end round 404.5
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   102 |    9.6/10.1   99.5/112.0      3.0/3.0      1.0/1.0      2.0/2.0      0.0/0.0  740.0/980.0  1274.0/1272.0      0.0/0.0      7.0/5.0      7.0/5.0      0.0/0.0      0.0/0.0
+r50   102 |   13.9/14.9  154.0/169.0      4.0/4.0      1.0/1.0      3.0/3.0      0.0/0.0  830.0/860.0  1474.0/1562.0      0.0/0.0      8.0/7.0      8.0/6.0      0.0/0.0      0.0/1.0
+r75   102 |   15.4/18.4  171.5/214.5      5.0/4.0      1.0/1.0      4.0/3.0      0.0/0.0  785.0/855.0  1853.0/1797.5      0.0/0.0      7.0/9.0      7.0/6.0      0.0/0.0      0.0/2.0
+r100  101 |   19.8/21.3      238/248          5/5          1/1          4/3          0/0     1080/918    1639/2005          0/0         8/11          7/6          0/0          0/3
+r150  99 |   25.2/26.6      315/306          6/6          1/1          4/4          0/0    1240/1070    1451/2259          0/0        10/14          7/7          1/1          2/5
+r200  93 |   29.6/33.0      366/382          5/7          1/2          4/5          0/0    2120/1380    1349/2627          0/0        10/18          5/8          2/2          3/6
+r300  72 |   33.5/42.5  436.5/530.5      5.0/9.0      1.0/3.0      4.0/6.0      0.0/0.0  1680.0/1661.0  1605.0/3914.5      1.0/2.0    11.5/27.0     6.0/10.0      3.0/5.0     3.0/11.0
+r400  53 |   28.9/50.1      418/747         5/11          1/4          3/7          0/0    2300/1878    1544/5327          1/4        11/35         4/12         4/10         3/14
+
+m5572g1 t140 immutable    Snowman        rounds r101-400 with chips>=3000: us  50 them   0; max srp us 0 them 1
+m5573g2 t140 spaark       DefaultSmall   rounds r101-400 with chips>=3000: us  30 them   0; max srp us 0 them 0
+m5602g0 t140 subscribe-to DonkeyKong     rounds r101-400 with chips>=3000: us   0 them   3; max srp us 6 them 20
+m5602g1 t140 subscribe-to Filter         rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m5602g2 t140 subscribe-to TheBest        rounds r101-400 with chips>=3000: us   0 them   3; max srp us 7 them 30
+m5620g0 t140 gone-whalin  Flower         rounds r101-400 with chips>=3000: us 209 them   9; max srp us 4 them 0
+m5620g1 t140 gone-whalin  Justice        rounds r101-400 with chips>=3000: us 149 them   7; max srp us 0 them 0
+m5681g1 t140 spaark       Piglets2       rounds r101-400 with chips>=3000: us  35 them  62; max srp us 1 them 17
+m5683g0 t140 gone-whalin  CastleDefense  rounds r101-400 with chips>=3000: us 236 them   0; max srp us 0 them 0
+m5700g0 t140 immutable    FourCorners    rounds r101-400 with chips>=3000: us  43 them   0; max srp us 0 them 1
+m5700g1 t140 immutable    Justice        rounds r101-400 with chips>=3000: us 124 them   0; max srp us 0 them 0
+m5701g1 t140 subscribe-to quack          rounds r101-400 with chips>=3000: us 126 them  40; max srp us 1 them 1
+m5702g0 t140 confused     Bunny          rounds r101-400 with chips>=3000: us 157 them   8; max srp us 0 them 1
+m5702g1 t140 confused     Gears          rounds r101-400 with chips>=3000: us  29 them  35; max srp us 15 them 28
+m5703g2 t140 spaark       PlumberGame    rounds r101-400 with chips>=3000: us 142 them  13; max srp us 7 them 17
+m5704g0 t140 om-nom       CastleDefense  rounds r101-400 with chips>=3000: us 147 them   0; max srp us 0 them 0
+m5704g1 t140 om-nom       Circuit        rounds r101-400 with chips>=3000: us 200 them  15; max srp us 8 them 4
+m5704g2 t140 om-nom       SandyBeach     rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m5705g0 t140 scienceqiu   BatSignal      rounds r101-400 with chips>=3000: us  64 them   0; max srp us 1 them 4
+m5718g2 t140 lobster-roll Terminal       rounds r101-400 with chips>=3000: us 189 them  76; max srp us 0 them 1
+m5742g1 t140 spaark       Paintball      rounds r101-400 with chips>=3000: us   0 them  30; max srp us 0 them 0
+m5751g1 t140 scienceqiu   rain           rounds r101-400 with chips>=3000: us 116 them   0; max srp us 0 them 4
+m5787g0 t140 immutable    Castle         rounds r101-400 with chips>=3000: us  30 them   0; max srp us 1 them 3
+m5789g1 t140 confused     FourCorners    rounds r101-400 with chips>=3000: us   0 them  22; max srp us 1 them 0
+m5790g1 t140 spaark       Leaf           rounds r101-400 with chips>=3000: us   9 them  23; max srp us 12 them 28
+m5822g0 t140 gone-whalin  Bread          rounds r101-400 with chips>=3000: us 134 them  86; max srp us 0 them 0
+m5822g1 t140 gone-whalin  FourCorners    rounds r101-400 with chips>=3000: us  61 them   7; max srp us 0 them 0
+m5861g1 t140 immutable    HungerGames    rounds r101-400 with chips>=3000: us 105 them   3; max srp us 4 them 12
+m5880g0 t140 subscribe-to Jail           rounds r101-400 with chips>=3000: us  21 them   0; max srp us 0 them 0
+m5880g1 t140 subscribe-to Restart        rounds r101-400 with chips>=3000: us  35 them   2; max srp us 5 them 16
+m5889g1 t140 confused     Piglets2       rounds r101-400 with chips>=3000: us   0 them  18; max srp us 0 them 1
+m5889g2 t140 confused     starburst      rounds r101-400 with chips>=3000: us   7 them  44; max srp us 1 them 0
+m5890g0 t140 immutable    BunnyGame      rounds r101-400 with chips>=3000: us   0 them   7; max srp us 0 them 3
+m5921g1 t140 subscribe-to Mirage         rounds r101-400 with chips>=3000: us  43 them   9; max srp us 1 them 8
+m5930g0 t140 immutable    Racetrack      rounds r101-400 with chips>=3000: us 189 them   0; max srp us 1 them 2
+m5934g0 t140 scienceqiu   DonkeyKong     rounds r101-400 with chips>=3000: us   0 them   0; max srp us 7 them 23
+m5948g0 t140 spaark       DefaultMedium  rounds r101-400 with chips>=3000: us  74 them  10; max srp us 3 them 12
+m6055g1 t140 om-nom       quack          rounds r101-400 with chips>=3000: us 166 them  95; max srp us 0 them 3
+m6057g1 t140 confused     DonkeyKong     rounds r101-400 with chips>=3000: us   3 them   7; max srp us 4 them 16
+m6058g1 t140 subscribe-to memstore       rounds r101-400 with chips>=3000: us  16 them  81; max srp us 8 them 12
+m6058g2 t140 subscribe-to walalilongla   rounds r101-400 with chips>=3000: us  63 them   0; max srp us 5 them 11
+m6059g0 t140 old-but-gold Jail           rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m6059g1 t140 old-but-gold TheBest        rounds r101-400 with chips>=3000: us   0 them  78; max srp us 12 them 25
+m6059g2 t140 old-but-gold roads          rounds r101-400 with chips>=3000: us 117 them   0; max srp us 0 them 3
+m6060g1 t140 scienceqiu   Snowman        rounds r101-400 with chips>=3000: us   0 them  16; max srp us 0 them 1
+m6088g2 t140 spaark       windmill       rounds r101-400 with chips>=3000: us  56 them  33; max srp us 0 them 0
+m6106g0 t140 spaark       Barcode        rounds r101-400 with chips>=3000: us  92 them   0; max srp us 1 them 2
+m6119g0 t140 om-nom       Paintball      rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m6120g1 t140 spaark       SMILE          rounds r101-400 with chips>=3000: us  21 them  40; max srp us 27 them 47
+m6120g2 t140 spaark       maze           rounds r101-400 with chips>=3000: us   6 them  84; max srp us 0 them 15
+m6124g2 t140 immutable    starburst      rounds r101-400 with chips>=3000: us 104 them   7; max srp us 1 them 4
+m6150g1 t140 om-nom       Portal         rounds r101-400 with chips>=3000: us  96 them  15; max srp us 1 them 4
+m6151g0 t140 spaark       DefaultLarge   rounds r101-400 with chips>=3000: us  70 them   4; max srp us 1 them 12
+m6152g0 t140 confused     Oasis          rounds r101-400 with chips>=3000: us   4 them  86; max srp us 22 them 34
+m6152g2 t140 confused     lighthouse     rounds r101-400 with chips>=3000: us   2 them   7; max srp us 0 them 0
+m6153g1 t140 subscribe-to Snowman        rounds r101-400 with chips>=3000: us   0 them  89; max srp us 0 them 0
+m6153g2 t140 subscribe-to headphones     rounds r101-400 with chips>=3000: us   0 them  30; max srp us 8 them 26
+m6154g0 t140 just-woke-up Oasis          rounds r101-400 with chips>=3000: us 147 them 132; max srp us 16 them 41
+m6154g2 t140 just-woke-up Terminal       rounds r101-400 with chips>=3000: us 101 them   0; max srp us 0 them 5
+m6155g0 t140 scienceqiu   Restart        rounds r101-400 with chips>=3000: us  56 them   0; max srp us 2 them 16
+m6196g1 t140 subscribe-to Oasis          rounds r101-400 with chips>=3000: us  19 them  60; max srp us 16 them 33
+m6208g2 t140 spaark       yearofthesnake rounds r101-400 with chips>=3000: us  16 them  16; max srp us 6 them 5
+m6283g0 t140 spaark       Crab           rounds r101-400 with chips>=3000: us  39 them  17; max srp us 3 them 4
+m6306g0 t140 om-nom       gridworld      rounds r101-400 with chips>=3000: us 119 them  69; max srp us 0 them 0
+m6306g1 t140 om-nom       memstore       rounds r101-400 with chips>=3000: us 234 them  48; max srp us 3 them 12
+m6307g0 t140 spaark       Justice        rounds r101-400 with chips>=3000: us 223 them 120; max srp us 0 them 0
+m6308g1 t140 confused     PlumberGame    rounds r101-400 with chips>=3000: us  82 them  67; max srp us 6 them 8
+m6309g0 t140 subscribe-to Flower         rounds r101-400 with chips>=3000: us 207 them  83; max srp us 6 them 11
+m6309g1 t140 subscribe-to SMILE          rounds r101-400 with chips>=3000: us  10 them   5; max srp us 14 them 39
+m6310g0 t140 just-woke-up Castle         rounds r101-400 with chips>=3000: us  70 them   0; max srp us 0 them 2
+m6310g1 t140 just-woke-up Racetrack      rounds r101-400 with chips>=3000: us  81 them   0; max srp us 1 them 2
+m6310g2 t140 just-woke-up boxofchocolates rounds r101-400 with chips>=3000: us  98 them 104; max srp us 3 them 7
+m6311g0 t140 scienceqiu   TheBest        rounds r101-400 with chips>=3000: us   3 them   0; max srp us 8 them 22
+m6311g1 t140 scienceqiu   catface        rounds r101-400 with chips>=3000: us  91 them   0; max srp us 1 them 9
+m6311g2 t140 scienceqiu   rain           rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 1
+m6328g0 t140 spaark       Leaf           rounds r101-400 with chips>=3000: us   4 them  26; max srp us 25 them 28
+m6331g0 t140 om-nom       Brat           rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m6331g1 t140 om-nom       Terminal       rounds r101-400 with chips>=3000: us  19 them  98; max srp us 0 them 3
+m6370g2 t158 subscribe-to Flower         rounds r101-400 with chips>=3000: us  78 them  41; max srp us 9 them 14
+m6383g2 t158 om-nom       memstore       rounds r101-400 with chips>=3000: us 108 them  25; max srp us 3 them 17
+m6384g0 t158 spaark       Castle         rounds r101-400 with chips>=3000: us 192 them  24; max srp us 0 them 1
+m6384g1 t158 spaark       Racetrack      rounds r101-400 with chips>=3000: us 117 them   3; max srp us 0 them 1
+m6385g0 t158 confused     Paintball      rounds r101-400 with chips>=3000: us 257 them   0; max srp us 0 them 0
+m6385g2 t158 confused     TheBest        rounds r101-400 with chips>=3000: us  21 them  29; max srp us 4 them 17
+m6387g1 t158 just-woke-up FourCorners    rounds r101-400 with chips>=3000: us 101 them  10; max srp us 0 them 4
+m6387g2 t158 just-woke-up Piglets2       rounds r101-400 with chips>=3000: us 115 them   2; max srp us 2 them 10
+m6411g0 t158 spaark       Bread          rounds r101-400 with chips>=3000: us  70 them  15; max srp us 1 them 6
+m6411g1 t158 spaark       Crab           rounds r101-400 with chips>=3000: us 195 them   4; max srp us 0 them 5
+m6411g2 t158 spaark       UnderTheSea    rounds r101-400 with chips>=3000: us  10 them  14; max srp us 12 them 15
+m6412g0 t158 confused     DefaultHuge    rounds r101-400 with chips>=3000: us   0 them  31; max srp us 4 them 18
+m6412g2 t158 confused     Thirds         rounds r101-400 with chips>=3000: us  40 them  19; max srp us 5 them 2
+m6413g0 t158 subscribe-to Parking_lot    rounds r101-400 with chips>=3000: us   7 them  31; max srp us 3 them 6
+m6414g0 t158 just-woke-up BatSignal      rounds r101-400 with chips>=3000: us 191 them   6; max srp us 2 them 2
+m6414g1 t158 just-woke-up roads          rounds r101-400 with chips>=3000: us  64 them   0; max srp us 0 them 1
+m6415g1 t158 immutable    Snowman        rounds r101-400 with chips>=3000: us  50 them   0; max srp us 0 them 1
+m6442g1 t158 old-but-gold DefaultLarge   rounds r101-400 with chips>=3000: us  10 them   8; max srp us 5 them 11
+m6442g2 t158 old-but-gold lighthouse     rounds r101-400 with chips>=3000: us 118 them   4; max srp us 0 them 6
+m6447g0 t158 om-nom       Brat           rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m6447g1 t158 om-nom       Filter         rounds r101-400 with chips>=3000: us  63 them   0; max srp us 0 them 0
+m6478g0 t158 confused     FourCorners    rounds r101-400 with chips>=3000: us  87 them  10; max srp us 0 them 1
+m6478g2 t158 confused     box            rounds r101-400 with chips>=3000: us   0 them  28; max srp us 0 them 0
+m6493g0 t158 immutable    BunnyGame      rounds r101-400 with chips>=3000: us   0 them   7; max srp us 0 them 2

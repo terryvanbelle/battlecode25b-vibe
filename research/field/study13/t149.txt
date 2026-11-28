@@ -1,0 +1,50 @@
+
+== lost: 102 games.  First tower kill on us: median r68.0 (by r100 in 77 games); on them: r76 (by r100 in 69)
+   towers of                                    r1-100 us    them   r101-200 us    them      r201+ us    them
+   towers killed per game                            1.44    1.14          2.01    1.22          6.54    2.55
+     paint towers                                    0.17    0.14          0.29    0.25          2.06    0.82
+     money towers                                    1.27    1.00          1.72    0.96          4.48    1.70
+     defense towers                                  0.00    0.00          0.00    0.01          0.00    0.03
+   mean level                                        1.25    1.16          1.16    1.08          1.29    1.34
+   killing blow by a soldier                         100%    100%           92%     98%           75%     91%
+   killing blow by a splasher                          0%      0%            8%      2%           25%      9%
+   distinct attackers, last 30 rounds                2.50    2.42          2.27    2.23          2.92    2.58
+     soldiers                                        2.48    2.42          2.09    2.19          1.87    2.18
+     splashers                                       0.02    0.00          0.18    0.04          1.05    0.40
+   final assault, rounds                            14.49   16.51         13.59   12.84         16.06   15.29
+   damage share: soldiers                            100%    100%           93%     99%           73%     90%
+   damage share: splashers                             0%      0%            7%      1%           27%     10%
+   hits by the tower in the assault                 18.97   19.79         14.95   14.87         15.06   15.49
+   robots it killed in the assault                   0.18    0.35          0.23    0.35          0.32    0.36
+   own robots within r2 20 at death                  0.67    1.49          1.26    1.73          3.08    4.42
+     of them moppers                                 0.03    0.95          0.46    1.01          0.96    1.85
+   no own robot within r2 20                          56%     33%           32%     24%           19%     12%
+   enemy robots within r2 20 at death                2.33    1.92          2.17    1.66          3.30    1.64
+   age at death, rounds                             36.27   41.07         74.58   68.68        154.93  121.71
+   ruin rebuilt later by the same side                60%     91%           50%     92%           34%     80%
+   ruin taken later by the killers                    19%      2%           27%      2%           21%      3%
+
+== won: 118 games.  First tower kill on us: median r81 (by r100 in 73 games); on them: r80.0 (by r100 in 89)
+   towers of                                    r1-100 us    them   r101-200 us    them      r201+ us    them
+   towers killed per game                            1.05    1.20          1.71    1.69          3.60    5.16
+     paint towers                                    0.11    0.14          0.19    0.34          1.04    1.42
+     money towers                                    0.94    1.07          1.52    1.35          2.56    3.54
+     defense towers                                  0.00    0.00          0.00    0.00          0.00    0.20
+   mean level                                        1.18    1.19          1.07    1.18          1.08    1.38
+   killing blow by a soldier                          99%    100%           97%     97%           91%     86%
+   killing blow by a splasher                          1%      0%            3%      3%            9%     14%
+   distinct attackers, last 30 rounds                2.31    2.42          2.14    2.16          2.53    2.79
+     soldiers                                        2.28    2.42          2.03    2.12          2.22    2.02
+     splashers                                       0.02    0.00          0.10    0.04          0.31    0.77
+   final assault, rounds                            15.80   15.46         14.70   13.85         14.53   16.61
+   damage share: soldiers                             99%    100%           96%     99%           91%     84%
+   damage share: splashers                             1%      0%            4%      1%            9%     16%
+   hits by the tower in the assault                 19.07   18.40         14.77   16.06         15.56   15.37
+   robots it killed in the assault                   0.20    0.39          0.20    0.35          0.29    0.56
+   own robots within r2 20 at death                  0.66    1.29          1.53    1.58          3.73    2.69
+     of them moppers                                 0.06    0.71          0.61    0.80          1.37    1.31
+   no own robot within r2 20                          54%     33%           22%     26%           11%     22%
+   enemy robots within r2 20 at death                2.10    1.84          1.96    1.68          2.27    2.09
+   age at death, rounds                             36.24   42.64         66.02   79.09         91.60  157.99
+   ruin rebuilt later by the same side                85%     74%           93%     65%           82%     27%
+   ruin taken later by the killers                     9%     12%            1%     18%            4%     18%

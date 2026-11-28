@@ -1,0 +1,98 @@
+64 (opponent, map) pairings played by t158 or t140 and by at least one other version
+opponent                 map              t158          t140          t135          t122          
+confused                 FourCorners      l             l             -             -             
+gone-whalin              Bread            -             lW            -             w             
+gone-whalin              Circuit          -             w             -             W             
+gone-whalin              DefaultMedium    -             w             -             w             
+gone-whalin              Filter           -             W             w             -             
+gone-whalin              Flower           -             L             -             l             
+gone-whalin              Justice          -             L             l             ll            
+gone-whalin              PlumberGame      -             W             -             w             
+gone-whalin              box              -             W             w             w             
+gone-whalin              leavemealone     -             W             W             -             
+immutable                BunnyGame        l             Wl            -             -             
+immutable                Castle           -             L             L             -             
+immutable                Circuit          w             -             W             -             
+immutable                Paintball        -             w             -             W             
+immutable                PlumberGame      -             l             L             L             
+immutable                Snowman          l             l             -             -             
+immutable                UnderTheSea      -             W             -             W             
+immutable                giver            -             w             -             W             
+immutable                headphones       -             ww            W             W             
+immutable                memstore         w             l             L             -             
+immutable                sierpinski       w             -             L             -             
+immutable                starburst        -             L             -             W             
+immutable                walalilongla     -             w             -             W             
+lobster-roll             HungerGames      -             W             -             w             
+om-nom                   Brat             l             l             -             -             
+om-nom                   Filter           l             w             -             -             
+om-nom                   Oasis            -             L             -             L             
+om-nom                   memstore         L             l             -             L             
+placeholder-name-2       CastleDefense    -             W             W             -             
+scienceqiu               BatSignal        -             L             -             l             
+scienceqiu               DonkeyKong       -             WL            l             l             
+scienceqiu               Paintball        -             W             -             L             
+scienceqiu               SMILE            -             w             l             -             
+scienceqiu               Snowglobe        -             W             -             W             
+scienceqiu               Snowman          -             l             -             l             
+scienceqiu               TargetPractice   -             W             l             -             
+scienceqiu               UglySweater      -             w             -             w             
+scienceqiu               box              -             W             -             w             
+scienceqiu               roads            -             w             -             W             
+spaark                   Bread            L             -             -             wL            
+spaark                   Bunny            -             ww            -             W             
+spaark                   Castle           l             W             -             -             
+spaark                   Crab             L             L             -             -             
+spaark                   Fossil           -             W             -             L             
+spaark                   HungerGames      -             w             l             -             
+spaark                   Leaf             -             LL            -             l             
+spaark                   Money            -             Ww            -             l             
+spaark                   Parking_lot      w             -             -             w             
+spaark                   Piglets2         -             L             -             L             
+spaark                   SMILE            -             lW            w             -             
+spaark                   UnderTheSea      L             l             -             LL            
+spaark                   fix              w             W             -             -             
+spaark                   gridworld        w             -             -             L             
+spaark                   maze             -             l             -             l             
+subscribe-to-caterpillow DefaultMedium    -             W             -             w             
+subscribe-to-caterpillow Filter           -             L             -             w             
+subscribe-to-caterpillow Flower           L             L             L             -             
+subscribe-to-caterpillow MoneyTower       w             W             -             -             
+subscribe-to-caterpillow Piglets2         -             w             -             l             
+subscribe-to-caterpillow Restart          w             l             -             -             
+subscribe-to-caterpillow catface          -             W             w             -             
+subscribe-to-caterpillow headphones       -             L             w             -             
+subscribe-to-caterpillow mit              -             w             L             -             
+subscribe-to-caterpillow sierpinski       -             w             -             l             
+
+version against version, over the pairings both played (all opponents | the seven top teams):
+   t158 vs t140: 14 pairings: t158 4-10, t140 5-10   | top: 13 pairings: t158 4-9, t140 5-9
+   t158 vs t135:  4 pairings: t158 3-1, t135 1-3   | top:  4 pairings: t158 3-1, t135 1-3
+   t158 vs t122:  5 pairings: t158 2-3, t122 2-5   | top:  5 pairings: t158 2-3, t122 2-5
+   t140 vs t135: 18 pairings: t140 13-8, t135 8-10   | top: 17 pairings: t140 12-8, t135 7-10
+   t140 vs t122: 36 pairings: t140 26-16, t122 19-19   | top: 36 pairings: t140 26-16, t122 19-19
+
+flips (every game of the first version lost / won while every game of the second won / lost):
+   t158 lost, t140 won: 2: om-nom/Filter, spaark/Castle
+   t158 won, t140 lost: 2: immutable/memstore, subscribe-/Restart
+   t140 lost, t135 won: 1: subscribe-/headphones
+   t140 won, t135 lost: 4: scienceqiu/SMILE, scienceqiu/TargetPractice, spaark/HungerGames, subscribe-/mit
+
+whole sets, per opponent: t158 | t140 | t135 | t122
+   angtn                         - |      - |      - |    2-1
+   confused                    3-6 |   8-11 |      - |      -
+   gone-whalin                   - |   16-6 |    7-5 |  15-14
+   immutable                   7-2 |  17-10 |    6-8 |   9-11
+   just-woke-up                2-4 |    1-5 |      - |      -
+   lobster-roll                  - |    2-1 |    2-1 |   11-9
+   old-but-gold                1-2 |    0-3 |      - |      -
+   om-nom                      3-3 |   9-13 |      - |    0-3
+   placeholder-name-2            - |    3-0 |    4-5 |    3-3
+   scienceqiu                    - |   14-9 |    6-3 |  15-13
+   slifland                      - |      - |    6-0 |    3-0
+   spaark                      4-5 |  24-19 |    1-2 |   8-16
+   subscribe-to-caterpillow    7-2 |  17-18 |    3-3 |    3-3
+   varunvejalla                  - |      - |      - |    3-0
+
+whole sets: t158 27-24, t140 111-95, t135 35-27, t122 72-73
+top 7 only: t158 21-12, t140 99-76, t135 25-22, t122 61-69
