@@ -128,7 +128,7 @@ public strictfp class Tune {
     static final int DRY_CLEAR_PAINT = 50;           // Unit.refill: a flagged tower in sight holding this much is unflagged (y260/y266/y270 25; y263 10; y267 35)
     static final int DRY_ADJ_PAINT = 20;             // Unit.refill: an adjacent tower holding less than this is flagged dry
     static final int DRY_FAR_PAINT = 40;             // Unit.refill: a tower in sight holding less than min(this, our room) is flagged dry (t57 50)
-    static final int CHURN_WAIT_ROUNDS = 3;          // Unit.refill: wait this many rounds beside a drained money tower for its churn
+    static final int CHURN_WAIT_ROUNDS = 2; // y323 (study 13 2.1: waiters hit 0 paint after a median 3 rounds)          // Unit.refill: wait this many rounds beside a drained money tower for its churn
     static final int CHURN_WAIT_RESET = 50;          // Unit.refill: a wait older than this starts over
     static final int EXPLORE_REACHED_R2 = 8;         // Unit.exploreTarget: the target is reached within this d2
     static final int EXPLORE_TIMEOUT = 90;           // Unit.exploreTarget: renewed after this many rounds (y201 40; y211 crowned 60; y216/y221 crowned 90; y224/y229 75; y223 120)

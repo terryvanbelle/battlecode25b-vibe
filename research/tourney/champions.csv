@@ -49,3 +49,4 @@ when_pdt,bot,base,change,submission
 2026-11-27 16:27,t158,r140,study 12 2.2: moppers hit and run (after acting; step off non-ally paint and away from enemy moppers within d2 8 and towers within d2 9); +40 +-24 over r140 in 217 games; first crowning without the confirmation stage (owner #66),79
 2026-11-27 17:47,t160,t158,t158 + study 12 2.4 n1 (Nav.tileCost counts adjacent allies; the engine's drain rule; y295) + 2.2 m1 (moppers swing at a single robot; t152); +17 +-15 over t158 in 818 games,80
 2026-11-27 18:25,y316,t160,t160 + Nav paint weight 8 (was 6); +34 +-25 over t160 in 224 games,81
+2026-11-27 20:07,y323,y316,y316 + churn wait 2 rounds (was 3; study 13 2.1: waiters hit 0 paint after a median 3 rounds); +36 +-21 over y316 in 306 games,82

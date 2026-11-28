@@ -303,3 +303,9 @@ t172	t169 + t171: mopper cooling-turn retreat + repair skips enemy paint
 y325	churn wait 1 round (y323 2, was 3)
 t173	study 13 2.1 w3: only soldiers ignore a churnable money tower's dry flag
 y326	paint towers count 50% closer for refills (was 30%)
+t174	moppers hit and run on cooling turns too (t169 ported to y323)
+t175	the pattern repair skips enemy paint (t171 ported)
+t176	t174 + t175 (t172 ported)
+t177	study 13 4.4: a completed SRP is skipped 150 rounds, not forever, so the completer can redo it
+y327	a churn wait older than 20 rounds starts over (was 50)
+y328	dry flags on money/defence towers last 60 rounds (was 40)
