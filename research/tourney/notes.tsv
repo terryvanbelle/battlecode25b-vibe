@@ -375,3 +375,4 @@ y370	soldiers paint underfoot from 15 paint (was 25)
 y371	a refill ends at 7/8 of capacity (was 3/4)
 y372	soldiers deny enemy ruins from 30 paint (was 40)
 t199	study 15 4.5: pickSrp also skips SRPs disagreeing with our paint towers
+y373	an explore target is dropped after 60 rounds (was 90)
