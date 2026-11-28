@@ -398,3 +398,5 @@ y385	spawn reserve drops after 10 rounds without a chip rise (t204 20)
 y386	spawn reserve drops after 40 rounds without a chip rise (t204 20)
 y387	spawn reserve 700 chips (was 1000)
 t207	study 16 4.3: a robot waits beside a tower for its cooldown only when the tower has paint to take
+y388	spawn reserve drops after 5 rounds without a chip rise (t204 20, y385 10)
+t208	study 16 4.6: Towers.forget moves the dry flag along with the tower
