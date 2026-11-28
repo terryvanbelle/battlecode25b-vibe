@@ -499,7 +499,7 @@
 # y302 (retired: built on r140, 0 games; Nav weight 4 (ported as y303))
 # t159 (retired: -59 +-29 vs t158 after 183 games; t158 + single-robot swing)
 # t160 (retired: replica record until y316 (its child) set 1811 at #5 on 11-27 18:50; +6 vs y316 after 1943 games, y316's direct parent so no reference slot)
-t160  # replica reference: peak 1785 at #5 on 11-27 18:05 PDT; slot since y323 set 1827 (11-27 20:53); permanent slot (owner #45)
+# t160 (retired: replica reference until 11-27 23:33, displaced by y323 1827; -35 vs t186 after 2914 games)
 # y303 (retired: built on t158, +14 after 688 games; Nav weight 4 (ported as y312))
 # y304 (retired: -31 vs t158 after 230 games; mixed cycle from r60)
 # y305 (retired: built on t158, +2 after 592 games; retreat d2 13 (ported as y313))
@@ -533,6 +533,7 @@ y316  # replica reference: peak 1825 at #5 on 11-27 20:12 PDT; slot since y328 s
 # t170 (retired: -49 vs y316 after 220 games; study 13 d1 disintegrate at 0 paint)
 # t171 (retired: built on y316, +13 after 286 games; repair skips enemy paint (ported as t175))
 # y323 (retired: champion 20:07-20:47; -49 behind y328 in its 233 games)
+y323  # replica reference: peak 1827 at #5 on 11-27 20:53 PDT; slot since t186 set 1829 (11-27 23:33); permanent slot (owner #45)
 # y323 (retired: replica record until y328 (its child, the champion) set 1828 at #5 on 11-27 21:11; -14 vs y328 after 1488 games; y328's parent, so no reference slot)
 # y324 (retired: -22 vs y323 after 356 games; Nav weight 10)
 # t172 (retired: built on y316, -5 after 143 games; t169 + t171 (ported as t176))
@@ -544,7 +545,7 @@ y316  # replica reference: peak 1825 at #5 on 11-27 20:12 PDT; slot since y328 s
 # t176 (retired: built on y323, -6 after 282 games; t174 + t175)
 # t177 (retired: built on y323, -5 after 280 games; SRP redo (ported as t180))
 # y327 (retired: built on y323, +0 after 287 games; churn reset 20)
-y328  # replica record: 1828 at #5 on 2026-11-27 21:11 PDT; permanent slot (owner #35); champion 11-27 20:47 to 23:07
+# y328 (retired: replica record 1828 until t186 (its child) set 1829 at #5 on 11-27 23:33; -13 vs t186 after 3554 games; t186's parent, so no reference slot)
 # y329 (retired: -5 vs y328 after 619 games (flat); dry flags 80 rounds)
 # y330 (retired: built on y323, -1 after 128 games; adjacent dry below 40 (rebuilt as y334))
 # y331 (retired: -9 vs y328 after 332 games; dry flags 100 rounds, the same knob as y329 (80); room for study 14)
@@ -566,15 +567,23 @@ y328  # replica record: 1828 at #5 on 2026-11-27 21:11 PDT; permanent slot (owne
 # y340 (retired: -57 vs y328 after 216 games; paint-tower dry 30)
 # y341 (retired: +11 vs y328 after 416 games; y336 + y332, built on y328)
 # t185 (retired: +1 vs y328 after 388 games, built on y328; ported to t186 as t189)
-t186  # champion (y328 + study 14 2.1b siege step-out; crowned 2026-11-27 23:07)
+# t186 (retired: champion 11-27 23:07 to 23:27; t188 (t186 + pattern colour) +37 after 321 games)
+t186  # replica record: 1829 at #5 on 2026-11-27 23:33 PDT; permanent slot (owner #35); champion 11-27 23:07 to 23:27
 # t187 (retired: +27 vs y328 after 235 games; kept as t188 (t186 + t187))
 # y342 (retired: +2 vs y328 after 218 games; tower target weight 40, built on y328)
-t188
+t188  # champion (t186 + study 14 2.5 pattern-colour painting; crowned 2026-11-27 23:27)
 # y343 (retired: +94 vs y328 after 111 games, built on y328; ported to t186 as y345)
 # y344 (retired: +14 vs y328 after 128 games, built on y328; ported to t186 as y346)
-y345
-y346
-y347
-t189
-t190
-y348
+# y345 (retired: +31 vs t186 after 66 games; ported to t188 as y351)
+# y346 (retired: -25 vs t186 after 75 games; ported to t188 as y352)
+# y347 (retired: +54 vs t186 after 68 games, built on t186; ported to t188 as y349)
+# t189 (retired: +39 vs t186 after 108 games; ported to t188 as t191)
+# t190 (retired: -20 vs t186 after 77 games; ported to t188 as t192)
+# y348 (retired: +54 vs t186 after 71 games; ported to t188 as y350)
+y349
+y350
+t191
+y351
+t192
+y352
+y353

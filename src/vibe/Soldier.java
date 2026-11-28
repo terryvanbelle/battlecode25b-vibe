@@ -461,7 +461,7 @@ public strictfp class Soldier {
         RobotController rc = G.rc;
         if (!rc.isActionReady() || G.paint < Tune.SOL_PAINT_HERE) return;
         MapInfo mi = rc.senseMapInfo(G.here);
-        if (mi.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, false); G.paint = rc.getPaint(); }
+        if (mi.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, colourAt(G.here)); G.paint = rc.getPaint(); }
     }
 
     /** Paint one unpainted tile in range (the one under us first, then the nearest), keeping a reserve for ruins. */
@@ -469,13 +469,25 @@ public strictfp class Soldier {
         RobotController rc = G.rc;
         if (!rc.isActionReady() || G.paint < Tune.SOL_PAINT_NEAR) return;
         MapInfo under = rc.senseMapInfo(G.here);
-        if (under.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, false); G.paint = rc.getPaint(); return; }
+        if (under.getPaint() == PaintType.EMPTY && rc.canPaint(G.here)) { rc.attack(G.here, colourAt(G.here)); G.paint = rc.getPaint(); return; }
         MapLocation best = null; int bestD = Integer.MAX_VALUE;
         for (MapInfo mi : rc.senseNearbyMapInfos(G.here, 9)) {
             if (mi.getPaint() != PaintType.EMPTY || !mi.isPassable()) continue;
             int d = G.here.distanceSquaredTo(mi.getMapLocation());
             if (d < bestD) { bestD = d; best = mi.getMapLocation(); }
         }
-        if (best != null && rc.canPaint(best)) { rc.attack(best, false); G.paint = rc.getPaint(); }
+        if (best != null && rc.canPaint(best)) { rc.attack(best, colourAt(best)); G.paint = rc.getPaint(); }
+    }
+
+    // study 14 2.5: our own primary paint blocks 59% of our drained money towers' patterns (theirs 24%), and 16 of the
+    // money pattern's 24 tiles are secondary. A tile inside a known paint or money tower's 5x5 gets that pattern's colour.
+    static boolean colourAt(MapLocation l) {
+        for (int i = G.nTowers; --i >= 0; ) {
+            MapLocation t = Towers.loc[i];
+            int dx = l.x - t.x, dy = l.y - t.y;
+            if (dx < -2 || dx > 2 || dy < -2 || dy > 2 || Towers.kind[i] == Towers.DEFENSE) continue;
+            return Pattern.bit(Pattern.of(Towers.kind[i] == Towers.MONEY ? UnitType.LEVEL_ONE_MONEY_TOWER : UnitType.LEVEL_ONE_PAINT_TOWER), dx, dy);
+        }
+        return false;
     }
 }

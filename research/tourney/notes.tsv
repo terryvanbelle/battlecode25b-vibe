@@ -342,3 +342,10 @@ y347	t186 + y336 (towers count a soldier/splasher 20 weaker than a mopper, was 6
 t189	t186 + t185 (Towers.forget swaps the dry flag along)
 t190	t186 + study 14 2.1c (step out after the free shot unless a held ruin is within r2 8)
 y348	soldiers siege from 20 paint (was 30), now that the step-out leaves range
+y349	t188 + y347 (towers count a soldier/splasher 20 weaker than a mopper, was 60)
+y350	t188 + y348 (siege from 20 paint, was 30)
+t191	t188 + t189 (Towers.forget swaps the dry flag along)
+y351	t188 + y345 (SRP dropped within d2 36 of an enemy tower, was 25)
+t192	t188 + t190 (step out after the free shot too)
+y352	t188 + y346 (splashers value an enemy tower 50, was 30)
+y353	t188 + y347 + y348 (tower target weight 20; siege from 20 paint)
