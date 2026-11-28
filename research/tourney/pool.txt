@@ -618,18 +618,25 @@ y358  # replica reference: peak 1852 at #3 on 11-28 01:52 PDT; slot since y374 s
 # y372 (retired: +2 vs y360 after 554 (flat))
 # t199 (retired: -30 vs y360 after 417 games; study 15 4.5 pickSrp paint-tower agreement)
 # y373 (retired: -1 vs y360 after 596 (flat))
-y374  # champion (y360 + soldiers paint underfoot from 10 paint; crowned 2026-11-28 03:07 PDT)
+y374  # replica record: 1862 at #3 on 11-28 03:32 PDT; champion until t204 (11-28 04:07); permanent slot (owner #35)
 # y375 (retired: -18 vs y360 after 293)
 # y376 (retired: +16 vs y360 after 218; built on y360, ported as y377)
-y377
-y378
-y379
-y380
+# y377 (retired: -5 vs y374 after 478 (flat))
+# y378 (retired: -3 vs y374 after 493 (flat))
+# y379 (retired: -2 vs y374 after 440 (flat))
+# y380 (retired: -9 vs y374 after 495)
 # y381 (retired: -23 vs y374 after 444 games)
-y382
-y383
-t200
-t201
-t202
-t203
-t204
+# y382 (retired: +11 vs y374 after 143; built on y374, ported as y384)
+# y383 (retired: -16 vs y374 after 183)
+# t200 (retired: -8 vs y374 after 73; built on y374, ported as t205)
+# t201 (retired: -48 vs y374 after 79 (study 16 d1))
+# t202 (retired: -51 vs y374 after 93 (study 16 v1))
+# t203 (retired: -85 vs y374 after 63 (study 16 r1v1))
+t204  # champion (y374 + towers drop the spawn reserve once chips stop rising; crowned 2026-11-28 04:07 PDT)
+y384
+t205
+t206
+y385
+y386
+y387
+t207

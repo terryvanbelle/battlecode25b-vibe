@@ -391,3 +391,10 @@ t201	study 16 2.2 d1: the dry flag holds at L2+ money towers (only L1 churns)
 t202	study 16 2.3 v1: an SRP centre needs every tile within Chebyshev 4 seen
 t203	study 16 r1v1: t200 + t202
 t204	study 16 4.5: towers drop the spawn reserve once chips have not risen for 20 rounds
+y384	t204 + soldiers start an SRP from 45 paint (port of y382)
+t205	t204 + study 16 r1 ring repair (port of t200)
+t206	study 16 2.4 c1: a contested ruin is skipped 20 rounds (was 50)
+y385	spawn reserve drops after 10 rounds without a chip rise (t204 20)
+y386	spawn reserve drops after 40 rounds without a chip rise (t204 20)
+y387	spawn reserve 700 chips (was 1000)
+t207	study 16 4.3: a robot waits beside a tower for its cooldown only when the tower has paint to take

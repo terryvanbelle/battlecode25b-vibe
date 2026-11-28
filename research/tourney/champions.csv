@@ -56,3 +56,4 @@ when_pdt,bot,base,change,submission
 2026-11-28 00:48,y358,t188,soldiers refill below 120 paint (was 100); tuning,86
 2026-11-28 01:47,y360,y358,soldiers explore-paint from 40 paint (was 50); tuning (port of y357),87
 2026-11-28 03:07,y374,y360,soldiers paint underfoot from 10 paint (was 25); tuning,88
+2026-11-28 04:07,t204,y374,towers drop the spawn reserve once chips have not risen for 20 rounds (study 16 4.5),89

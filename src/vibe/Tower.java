@@ -61,6 +61,11 @@ public strictfp class Tower {
      *  3. a mopper is due and an enemy robot is within d2 DEFEND_MOPPER_R2 (study 3 tactic 5): none;
      *  4. else SPAWN_RESERVE. */
     static int reserve(UnitType t) {
+        // study 16 4.5: with no chip income (no money tower standing) the reserve never fills and the tower never
+        // spawns again; drop it once our chips have not risen for 20 rounds
+        if (G.chips > resChips) resRise = G.round;
+        resChips = G.chips;
+        if (G.round - resRise > 20) return 0;
         if (G.round < Tune.SPAWN_RESERVE_FROM) return 0;
         if (G.rc.getNumberTowers() >= Tune.SPAWN_RESERVE_TOWERS) return 0;
         if (t == UnitType.MOPPER) for (RobotInfo e : G.enemies) if (!e.type.isTowerType() && G.here.distanceSquaredTo(e.location) <= Tune.DEFEND_MOPPER_R2) return 0;
@@ -70,6 +75,8 @@ public strictfp class Tower {
     /** Build choose()'s unit on the buildable tile nearest the map centre (G.rand breaks ties). Can't pay -> wait:
      *  with chips below its cost + min(reserve, SPAWN_ANYWAY_CHIPS), or paint below its paint cost, return without
      *  building and without advancing `built`, so the same unit is due next turn (the money-tower stall above). */
+    static int resChips, resRise;   // study 16 4.5: chips at the last reserve() call, and the last round they rose
+
     static void build() throws GameActionException {
         RobotController rc = G.rc;
         UnitType t = choose();
