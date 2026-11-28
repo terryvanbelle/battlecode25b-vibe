@@ -47,3 +47,4 @@ when_pdt,bot,base,change,submission
 2026-11-27 06:10,t135,t122,study 10 2.6d: a soldier with no other soldier in view skips the 25-paint pattern mark (the top teams never mark); confirmed +9 +-22 in 262 fresh games; +14 overall,77
 2026-11-27 08:28,t140,t135,study 11 2.1: free single marks (rc.mark on the 5x5 outer ring) replace the 25-paint pattern mark; marks re-read beside the ruin; confirmed +40 +-23 in 251 fresh games; +30 overall,78
 2026-11-27 16:27,t158,r140,study 12 2.2: moppers hit and run (after acting; step off non-ally paint and away from enemy moppers within d2 8 and towers within d2 9); +40 +-24 over r140 in 217 games; first crowning without the confirmation stage (owner #66),79
+2026-11-27 17:47,t160,t158,t158 + study 12 2.4 n1 (Nav.tileCost counts adjacent allies; the engine's drain rule; y295) + 2.2 m1 (moppers swing at a single robot; t152); +17 +-15 over t158 in 818 games,80

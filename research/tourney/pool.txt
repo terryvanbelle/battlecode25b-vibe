@@ -395,7 +395,7 @@
 # y246 (retired: -60 vs t111 after 274 games)
 # t116 (retired: built on t111, champion now t118)
 # t117 (retired: built on t111, champion now t118)
-t118  # replica reference: peak 1726 at #5 on 11-27 01:09 PDT (the record until t135's 1733 at #6 on 11-27 07:44); permanent slot (owner #45)
+# t118 (retired: replica reference until 11-27 18:05, displaced by t140 (r140) 1782 when t160 set 1785 at #5; -91 vs t158 after 15483 games)
 # y247 (retired before play: both parents y245 and y241 fell behind)
 # t119 (retired: built on t111, champion now t118)
 # t120 (retired: -12 vs t118 after 628 games; study 9 2.1a on t118)
@@ -477,6 +477,7 @@ t135  # replica reference: peak 1733 at #6 on 11-27 07:44 PDT; slot since t158 t
 # y293 (retired: -16 vs t140 after 756 games; refill paint towers 40% closer. The dial is flat from -40% to +50%)
 # y294 (retired: flat, -2 vs t140 after 765 games; refill paint towers 50% closer)
 # r140 (retired: lost the replica-record slot when t158 (its child) set 1783 at #5 on 11-27 17:27; -41 vs t158 after 15707 games)
+r140  # replica reference: t140 peak 1782 at #5 on 11-27 14:47 PDT (r140 substitutes t140, owner #57/#58); slot since t160 set 1785 at #5 (11-27 18:05); permanent slot (owner #45)
 # t149 (retired: -27 vs r140 after 515 games; opening cover from 150 paint)
 # t150 (retired: -12 vs r140 after 695 games; opening cover from 100 paint)
 # t151 (retired: -79 vs r140 after 315 games; explore painting from r1)
@@ -491,21 +492,28 @@ t135  # replica reference: peak 1733 at #6 on 11-27 07:44 PDT; slot since t158 t
 # t156 (retired: built on r140, +12 after 311 games; y295 + t152 (ported as t160))
 # y299 (retired: built on r140, -36 after 328 games; cover from 75 paint)
 # t157 (retired: built on r140, -9 after 327 games; y295 + t150)
-t158  # champion (study 12 2.2 moppers hit and run; crowned 2026-11-27 16:27)
+# t158 (retired: champion until t160 (11-27 17:56); +17 behind t160 after 2428 games)
 # y300 (retired: built on r140, -16 after 211 games; explore painting from r60)
 # y301 (retired: built on r140, -10 after 222 games; y295 + Nav weight 4)
 # y302 (retired: built on r140, 0 games; Nav weight 4 (ported as y303))
 # t159 (retired: -59 +-29 vs t158 after 183 games; t158 + single-robot swing)
-t160
-y303
+t160  # champion (t158 + study 12 n1 Nav ally term + m1 single-robot swing; crowned 2026-11-27 17:56)
+# y303 (retired: built on t158, +14 after 688 games; Nav weight 4 (ported as y312))
 # y304 (retired: -31 vs t158 after 230 games; mixed cycle from r60)
-y305
+# y305 (retired: built on t158, +2 after 592 games; retreat d2 13 (ported as y313))
 # t161 (retired: -72 vs t158 after 220 games; opening mopper)
 # t162 (retired: -59 vs t158 after 270 games; a second mopper per six)
-y306
+# y306 (retired: built on t158, -2 after 613 games; retreat ground weight 8)
 # y307 (retired: -25 vs t158 after 252 games; retreat ground weight 50)
-y308
-t163
-y309
-y310
-y311
+# y308 (retired: built on t158, +4 after 409 games; retreat d2 20 (ported as y315))
+# t163 (retired: built on t158, -35 after 191 games; splasher hit and run)
+# y309 (retired: built on t158, -31 after 218 games; tower retreat d2 16)
+# y310 (retired: built on t158, -35 after 153 games; mopper refill 25)
+# y311 (retired: built on t158, +19 after 142 games; y303 + y305 (ported as y314))
+y312
+y313
+y314
+y315
+t164
+y316
+y317

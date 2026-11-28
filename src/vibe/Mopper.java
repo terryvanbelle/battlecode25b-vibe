@@ -38,7 +38,10 @@ public strictfp class Mopper {
     static void act() throws GameActionException {
         RobotController rc = G.rc;
         // 1. swing
-        Direction bestDir = null; int bestN = 1;
+        // study 12 2.2 m1: with no enemy robot in mop reach (d2 2), swing at a single robot too (theirs hit 1.2 a swing)
+        int bestN = 0;
+        for (RobotInfo e : G.enemies) if (e.type.isRobotType() && G.here.distanceSquaredTo(e.location) <= 2) { bestN = 1; break; }
+        Direction bestDir = null;
         for (Direction d : new Direction[]{Direction.NORTH, Direction.EAST, Direction.SOUTH, Direction.WEST}) {
             if (!rc.canMopSwing(d)) continue;
             int n = 0;

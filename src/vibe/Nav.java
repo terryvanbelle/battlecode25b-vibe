@@ -17,7 +17,11 @@ public strictfp class Nav {
     /** Paint cost of standing on the tile after a move: our paint 0, neutral 1, enemy 2 (the per-turn drain). */
     static int tileCost(MapLocation l) throws GameActionException {
         PaintType p = G.rc.senseMapInfo(l).getPaint();
-        return p.isAlly() ? 0 : p.isEnemy() ? 2 : 1;
+        // study 12 2.4 n1: the engine's end-of-turn drain, with the ally term: own paint = allies, neutral = m + allies,
+        // enemy = 2m + 2 allies (m = 2 for a mopper; allies = our robots and towers within d2 2 of the tile)
+        int m = G.rc.getType() == UnitType.MOPPER ? 2 : 1, a = 0;
+        for (RobotInfo r : G.allies) if (r.location.distanceSquaredTo(l) <= 2) a++;
+        return p.isAlly() ? a : p.isEnemy() ? 2 * m + 2 * a : m + a;
     }
 
     static boolean moveTo(MapLocation t) throws GameActionException {

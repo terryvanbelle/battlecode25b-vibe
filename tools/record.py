@@ -75,10 +75,10 @@ def main():
             if l.split('#')[0].strip() and 'replica reference' in l.split('#', 1)[-1]]
     print('replica references (owner #45): ' + ', '.join(f'{b} {pk[b][0]} at #{pk[b][1]}' for b in want))
     for b in want:
-        if b not in refs:
+        if b not in refs and tourney.canon(b) not in refs:   # owner #58: its verified substitute may hold the slot
             print(f'  ADD {b} to research/tourney/pool.txt, its comment saying "replica reference" (owner #45)')
     for b in refs:
-        if b not in want:
+        if b not in want and b not in {tourney.canon(w) for w in want}:
             print(f'  {b} has a replica-reference slot but is no longer among the best peaks: retire it')
 
 
