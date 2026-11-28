@@ -124,7 +124,7 @@ public strictfp class Tune {
     static final int REFILL_PAINT_NUM = 7;           // Unit.refill: a paint tower's d2 counts NUM/DEN (paint towers preferred)
     static final int REFILL_PAINT_DEN = 10;
     static final int DRY_PAINT_ROUNDS = 10;          // Unit.refill: a dry flag on a paint tower lasts this many rounds (t116/t122 crowned, was 40; y254 5; y264 20)
-    static final int DRY_ROUNDS = 40;                // Unit.refill: a dry flag on another tower lasts this many rounds
+    static final int DRY_ROUNDS = 60; // y328 (was 40)                // Unit.refill: a dry flag on another tower lasts this many rounds
     static final int DRY_CLEAR_PAINT = 50;           // Unit.refill: a flagged tower in sight holding this much is unflagged (y260/y266/y270 25; y263 10; y267 35)
     static final int DRY_ADJ_PAINT = 20;             // Unit.refill: an adjacent tower holding less than this is flagged dry
     static final int DRY_FAR_PAINT = 40;             // Unit.refill: a tower in sight holding less than min(this, our room) is flagged dry (t57 50)
