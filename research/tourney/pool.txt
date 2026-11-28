@@ -558,11 +558,14 @@ y332
 y336
 # y337 (retired: -45 vs y328 after 291 games; SRP right weight 6)
 y338
-t181
-t182
+# t181 (retired: -22 vs y328 after 244 games; study 14 2.1a+b siege edge/step-out)
+# t182 (retired: -34 vs y328 after 274 games; t181 + free-shot step-out)
 # t183 (retired: -158 vs y328 after 77 games (4 SE behind); study 14 2.2 no lone siege)
-t184
+# t184 (retired: -26 vs y328 after 246 games; study 14 2.4 paint-tower rebuild)
 y339
 y340
 y341
 t185
+t186
+t187
+y342

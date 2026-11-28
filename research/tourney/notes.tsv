@@ -330,3 +330,6 @@ y339	towers count a soldier/splasher no weaker than a mopper when picking a targ
 y340	dry flags on paint towers last 30 rounds (was 10; y332 20)
 y341	y336 + y332 (tower target weight 20; paint-tower dry flags 20 rounds)
 t185	study 14 4.5 bug fix: Towers.forget swaps the dry flag along with the tower
+t186	study 14 2.1b alone: siege steps fully out of tower range after a hit (approach unchanged)
+t187	study 14 2.5: soldiers paint tiles inside a known paint/money tower 5x5 in its pattern colour
+y342	towers count a soldier/splasher 40 weaker than a mopper (was 60; y336 20, y339 0)
