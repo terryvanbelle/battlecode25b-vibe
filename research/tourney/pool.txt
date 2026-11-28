@@ -549,9 +549,12 @@ y329
 # y330 (retired: built on y323, -1 after 128 games; adjacent dry below 40 (rebuilt as y334))
 y331
 y332
-y333
+# y333 (retired: -37 vs y328 after 301 games; dry clear at 100 paint)
 y334
-y335
-t178
-t179
+# y335 (retired: -19 vs y328 after 341 games; far dry below 60)
+# t178 (retired: -35 vs y328 after 285 games; repair leaves SRP tiles)
+# t179 (retired: -21 vs y328 after 325 games; mopper cooling-turn retreat)
 t180
+y336
+y337
+y338

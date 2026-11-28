@@ -1,6 +1,6 @@
 # Local tournament Elo
 
-Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 192694 games in one fit as of 2026-11-27 21:17 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
+Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py`), all 193912 games in one fit as of 2026-11-27 21:33 PDT, so every point is on the same scale; earlier champions are shown at their current rating, and "Gain" is the rating over the champion it replaced. `tools/tourney.py rank` rewrites this table; `tools/tourney.py chart` also redraws the chart.
 
 ![local elo](local-elo.png)
 
@@ -13,7 +13,7 @@ Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py
 | 2026-11-25 10:09 | sw06 | no moppers before r80; a third of spawns moppers after (field study 1) on y02 | #36 | 276 +- 12 | +79 | 863 |
 | 2026-11-25 11:04 | y11 | mid-game mix 3 moppers per 6 (soldier mopper splasher mopper soldier mopper) on sw06 | #37 | 308 +- 14 | +33 | 655 |
 | 2026-11-25 11:24 | sw11 | at most 1 helper soldier per ruin (more ruins claimed in parallel) on y11 | #38 | 366 +- 11 | +58 | 1159 |
-| 2026-11-25 12:24 | y17 | sw11 + moppers prefer enemies within r2 25 of our towers (sw12) on sw11 | #39 | 384 +- 12 | +18 | 871 |
+| 2026-11-25 12:24 | y17 | sw11 + moppers prefer enemies within r2 25 of our towers (sw12) on sw11 | #39 | 385 +- 12 | +18 | 871 |
 | 2026-11-25 12:44 | y19 | sw11 with soldiers joining an occupied ruin only when adjacent (r2<=2) on y17 | #40 | 420 +- 14 | +35 | 678 |
 | 2026-11-25 13:04 | y24 | y17 with mopper defence widened (DEFEND_R2 36 / bonus 80) on y19 | #41 | 454 +- 13 | +35 | 679 |
 | 2026-11-25 13:24 | y25 | y19 (adjacent-only ruin helping) + y17 tower-defending moppers on y24 | #42 | 464 +- 12 | +9 | 898 |
@@ -28,7 +28,7 @@ Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py
 | 2026-11-25 20:50 | t16 | t12 (t08 + study 4 2.1 spawn freeze 8 rounds in 20 below 1000+cost) + study 4 2.4 money-first: builds money until 8 towers then paint while paint towers < n/5; paint first only if none (all towers known) on t08 | #51 | 1175 +- 12 | +274 | 1213 |
 | 2026-11-25 21:50 | t20 | study 4 2.3: splashers weight enemy towers 30 (was 12) in the splash score on t16 | #52 | 1216 +- 15 | +41 | 587 |
 | 2026-11-25 22:10 | y74 | unit audit (owner prompt #15): splash-grid bug fix (enemy tiles never scored) + moppers stop once enemy paint is in mop reach; built on t16 on t20 | #53 | 1360 +- 10 | +145 | 1255 |
-| 2026-11-25 23:10 | t25 | unit audit + top teams' unit mix (616 S / 662 X / 701 M): after r80 paint towers cycle soldier-splasher-mopper; money towers keep S M X M S M on y74 | #54 | 1396 +- 13 | +36 | 680 |
+| 2026-11-25 23:10 | t25 | unit audit + top teams' unit mix (616 S / 662 X / 701 M): after r80 paint towers cycle soldier-splasher-mopper; money towers keep S M X M S M on y74 | #54 | 1397 +- 13 | +36 | 680 |
 | 2026-11-25 23:30 | t27 | top teams' splasher-heavy late mix pushed further: paint towers cycle soldier-splasher-splasher-mopper after r80 on t25 | #55 | 1419 +- 9 | +22 | 1554 |
 | 2026-11-26 00:30 | y95 | upgrade spare 1200 (was 800): chips stay for new towers longer on t27 | #56 | 1454 +- 9 | +35 | 1822 |
 | 2026-11-26 02:01 | t36 | late SRPs (study 4 2.6 / study 3 tactic 7): soldiers without a ruin build SRPs on the x%4==2 y%4==2 lattice from r100 with chips>=1000; splashers avoid repainting SRP secondary tiles on y95 | #57 | 1491 +- 11 | +37 | 977 |
@@ -42,19 +42,19 @@ Bradley-Terry ratings of our own bots in the local tournament (`tools/tourney.py
 | 2026-11-26 08:27 | t70 | y155 + splashers weight enemy towers 30 (t68) + 2000+ chips makes the next tower a paint tower (y159) on y155 | #65 | 1768 +- 7 | +26 | 2530 |
 | 2026-11-26 09:47 | t74 | moppers weight enemy paint near ruins 40 (study 6 2.1c) on t70 | #66 | 1787 +- 8 | +19 | 2200 |
 | 2026-11-26 10:47 | y170 | soldiers make the next tower a paint tower at 1500+ chips (t63 tuning; was 2000) on t74 | #67 | 1783 +- 7 | -4 | 2823 |
-| 2026-11-26 11:27 | t85 | study 6 2.2 ruin denial from where the soldier stands: a soldier with no ruin paints empty tiles of a ruin the enemy is building; without walking to it on y170 | #68 | 1840 +- 7 | +58 | 2556 |
+| 2026-11-26 11:27 | t85 | study 6 2.2 ruin denial from where the soldier stands: a soldier with no ruin paints empty tiles of a ruin the enemy is building; without walking to it on y170 | #68 | 1841 +- 7 | +58 | 2556 |
 | 2026-11-26 12:47 | t91 | study 7 2.5: moppers ignore ruins under enemy towers when weighting ruin paint on t85 | #69 | 1852 +- 5 | +12 | 5663 |
 | 2026-11-26 13:27 | y195 | study 7 2.1a: explore unseen tiles first; up to 16 random draws on t91 | #70 | 1866 +- 9 | +14 | 1349 |
 | 2026-11-26 14:12 | y197 | ruin denial stops at 2 of our tiles (tuning of study 6 2.2) on y195 | #71 | 1882 +- 7 | +16 | 2235 |
 | 2026-11-26 15:27 | y211 | study 7 2.1a tuned: up to 128 random draws for an unseen explore target (was 16) on y197 | #72 | 1886 +- 6 | +3 | 4141 |
 | 2026-11-26 17:47 | y221 | study 8 2.2 (paint the first tower's pattern on the way in; a second soldier on the first ruin) + explore timeout 90; first champion through the confirmation stage (owner #46) on y211 | #73 | 1921 +- 5 | +35 | 6990 |
 | 2026-11-26 19:34 | t111 | splashers attack enemy paint/money towers from a stand-off tile outside their range (study 8 2.4) on y221 | #74 | 1935 +- 4 | +14 | 7551 |
-| 2026-11-26 23:27 | t118 | study 9 2.1b: a soldier on a blocked pattern with no own mopper or splasher in view gives up after 5 turns (was 25); confirmed +71 +-29 in 153 fresh games on t111 | #75 | 1971 +- 4 | +37 | 15801 |
+| 2026-11-26 23:27 | t118 | study 9 2.1b: a soldier on a blocked pattern with no own mopper or splasher in view gives up after 5 turns (was 25); confirmed +71 +-29 in 153 fresh games on t111 | #75 | 1972 +- 4 | +37 | 15801 |
 | 2026-11-27 01:07 | t122 | study 9 2.4: paint-tower dry flags expire after 10 rounds (was 40) and a flagged tower in sight is re-sensed; confirmed +6 +-19 in 378 fresh games; +16 overall on t118 | #76 | 1982 +- 4 | +11 | 18772 |
 | 2026-11-27 06:10 | t135 | study 10 2.6d: a soldier with no other soldier in view skips the 25-paint pattern mark (the top teams never mark); confirmed +9 +-22 in 262 fresh games; +14 overall on t122 | #77 | 1978 +- 5 | -4 | 6458 |
 | 2026-11-27 08:28 | t140 (now r140, verified identical) | study 11 2.1: free single marks (rc.mark on the 5x5 outer ring) replace the 25-paint pattern mark; marks re-read beside the ruin; confirmed +40 +-23 in 251 fresh games; +30 overall on t135 | #78 | 2019 +- 4 | +41 | 16443 |
-| 2026-11-27 16:27 | t158 | study 12 2.2: moppers hit and run (after acting; step off non-ally paint and away from enemy moppers within d2 8 and towers within d2 9); +40 +-24 over r140 in 217 games; first crowning without the confirmation stage (owner #66) on r140 | #79 | 2064 +- 6 | +46 | 3370 |
-| 2026-11-27 17:47 | t160 | t158 + study 12 2.4 n1 (Nav.tileCost counts adjacent allies; the engine's drain rule; y295) + 2.2 m1 (moppers swing at a single robot; t152); +17 +-15 over t158 in 818 games on t158 | #80 | 2076 +- 8 | +12 | 2084 |
-| 2026-11-27 18:25 | y316 | t160 + Nav paint weight 8 (was 6); +34 +-25 over t160 in 224 games on t160 | #81 | 2079 +- 6 | +3 | 3361 |
-| 2026-11-27 20:07 | y323 | y316 + churn wait 2 rounds (was 3; study 13 2.1: waiters hit 0 paint after a median 3 rounds); +36 +-21 over y316 in 306 games on y316 | #82 | 2094 +- 9 | +14 | 1488 |
-| 2026-11-27 20:47 | y328 | y323 + dry flags on money/defence towers last 60 rounds (was 40); +49 +-25 over y323 in 233 games on y323 | #83 | 2108 +- 13 | +14 | 720 |
+| 2026-11-27 16:27 | t158 | study 12 2.2: moppers hit and run (after acting; step off non-ally paint and away from enemy moppers within d2 8 and towers within d2 9); +40 +-24 over r140 in 217 games; first crowning without the confirmation stage (owner #66) on r140 | #79 | 2065 +- 6 | +46 | 3397 |
+| 2026-11-27 17:47 | t160 | t158 + study 12 2.4 n1 (Nav.tileCost counts adjacent allies; the engine's drain rule; y295) + 2.2 m1 (moppers swing at a single robot; t152); +17 +-15 over t158 in 818 games on t158 | #80 | 2076 +- 8 | +11 | 2182 |
+| 2026-11-27 18:25 | y316 | t160 + Nav paint weight 8 (was 6); +34 +-25 over t160 in 224 games on t160 | #81 | 2079 +- 6 | +4 | 3423 |
+| 2026-11-27 20:07 | y323 | y316 + churn wait 2 rounds (was 3; study 13 2.1: waiters hit 0 paint after a median 3 rounds); +36 +-21 over y316 in 306 games on y316 | #82 | 2094 +- 9 | +14 | 1533 |
+| 2026-11-27 20:47 | y328 | y323 + dry flags on money/defence towers last 60 rounds (was 40); +49 +-25 over y323 in 233 games on y323 | #83 | 2108 +- 10 | +15 | 1106 |

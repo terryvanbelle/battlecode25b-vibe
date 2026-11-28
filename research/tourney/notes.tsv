@@ -319,3 +319,6 @@ y335	a tower in sight below 60 paint is flagged dry (was 40)
 t178	study 13 2.2 s2: the money-pattern repair leaves our paint inside our SRPs alone
 t179	moppers retreat on cooling turns too (t174 ported to y328)
 t180	a completed SRP is skipped 150 rounds, not forever (t177 ported)
+y336	towers count a soldier/splasher 20 weaker than a mopper when choosing a target (was 60)
+y337	SRP centre choice weights tiles already right 6 (was 3)
+y338	an explore target counts as reached within d2 20 (was 8)
