@@ -1,0 +1,48 @@
+
+== lost: 31 games; towers completed in the game (starting towers left out)
+  us   money_tower    360 towers,  40360 tower-rounds, intact  45% of them
+       breaks per 100 tower-rounds  5.75: own splash 0.35, own soldier 0.85, enemy mop 0.52, enemy splash 4.02
+       repairs per 100 tower-rounds  1.75: own soldier 1.02, own splash 0.74
+       first break: 55% of towers, median 29.0 rounds after completion; cause own soldier 38%, enemy splash 34%, enemy mop 20%, own splash 7%
+  us   paint_tower     71 towers,  14249 tower-rounds, intact  19% of them
+       breaks per 100 tower-rounds  8.96: own splash 0.49, own soldier 1.03, enemy mop 0.42, enemy splash 7.02
+       repairs per 100 tower-rounds  5.01: own splash 4.40, own soldier 0.61
+       first break: 90% of towers, median 7.0 rounds after completion; cause own soldier 48%, enemy splash 28%, enemy mop 12%, own splash 11%
+  them money_tower    347 towers,  54336 tower-rounds, intact  48% of them
+       breaks per 100 tower-rounds  2.38: own splash 0.26, own soldier 1.32, enemy mop 0.06, enemy splash 0.74
+       repairs per 100 tower-rounds  0.72: own soldier 0.57, own splash 0.15
+       first break: 53% of towers, median 16 rounds after completion; cause own soldier 66%, enemy splash 18%, own splash 12%, enemy mop 4%
+  them paint_tower    179 towers,  25450 tower-rounds, intact  40% of them
+       breaks per 100 tower-rounds  3.96: own splash 0.46, own soldier 2.07, enemy mop 0.06, enemy splash 1.38
+       repairs per 100 tower-rounds  1.91: own splash 0.77, own soldier 1.14
+       first break: 63% of towers, median 9 rounds after completion; cause own soldier 60%, enemy splash 22%, own splash 12%, enemy mop 5%
+  them defense_tower   44 towers,   5865 tower-rounds, intact  36% of them
+       breaks per 100 tower-rounds  4.31: own splash 0.39, own soldier 2.30, enemy mop 0.05, enemy splash 1.57
+       repairs per 100 tower-rounds  1.67: own soldier 1.02, own splash 0.65
+       first break: 77% of towers, median 8.5 rounds after completion; cause own soldier 71%, enemy splash 24%, own splash 6%
+  us: splashes 104.2 a game; 4.5% of them cover a right secondary tile of a standing own tower's pattern
+  them: splashes 125.6 a game; 4.5% of them cover a right secondary tile of a standing own tower's pattern
+
+== won: 51 games; towers completed in the game (starting towers left out)
+  us   money_tower    986 towers,  96072 tower-rounds, intact  50% of them
+       breaks per 100 tower-rounds  3.36: own splash 0.24, own soldier 1.35, enemy mop 0.36, enemy splash 1.42
+       repairs per 100 tower-rounds  1.20: own soldier 0.90, own splash 0.30
+       first break: 48% of towers, median 23.5 rounds after completion; cause own soldier 57%, enemy mop 19%, enemy splash 14%, own splash 10%
+  us   paint_tower    290 towers,  34633 tower-rounds, intact  24% of them
+       breaks per 100 tower-rounds  5.41: own splash 0.26, own soldier 2.30, enemy mop 0.32, enemy splash 2.53
+       repairs per 100 tower-rounds  2.12: own splash 1.67, own soldier 0.45
+       first break: 85% of towers, median 7 rounds after completion; cause own soldier 78%, enemy splash 9%, enemy mop 8%, own splash 6%
+  them money_tower    515 towers,  57588 tower-rounds, intact  59% of them
+       breaks per 100 tower-rounds  3.62: own splash 0.17, own soldier 1.56, enemy mop 0.13, enemy splash 1.75
+       repairs per 100 tower-rounds  0.68: own splash 0.21, own soldier 0.47
+       first break: 57% of towers, median 21 rounds after completion; cause own soldier 65%, enemy splash 23%, own splash 6%, enemy mop 5%
+  them paint_tower    122 towers,  14379 tower-rounds, intact  40% of them
+       breaks per 100 tower-rounds  5.74: own splash 0.33, own soldier 1.70, enemy mop 0.12, enemy splash 3.60
+       repairs per 100 tower-rounds  1.41: own soldier 0.26, own splash 1.15
+       first break: 71% of towers, median 15 rounds after completion; cause own soldier 56%, enemy splash 32%, own splash 8%, enemy mop 3%
+  them defense_tower   23 towers,   5102 tower-rounds, intact  61% of them
+       breaks per 100 tower-rounds  7.74: own splash 0.73, own soldier 0.94, enemy mop 0.16, enemy splash 5.92
+       repairs per 100 tower-rounds  2.86: own splash 2.21, own soldier 0.65
+       first break: 87% of towers, median 19.0 rounds after completion; cause enemy splash 60%, own soldier 25%, own splash 10%, enemy mop 5%
+  us: splashes 137.8 a game; 3.3% of them cover a right secondary tile of a standing own tower's pattern
+  them: splashes 86.8 a game; 3.4% of them cover a right secondary tile of a standing own tower's pattern

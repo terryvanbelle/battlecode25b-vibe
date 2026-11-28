@@ -1,0 +1,54 @@
+
+== lost: 31 games; towers killed by damage, by the side that lost them
+                                               r1-100 us   r1-100 them   r101-200 us r101-200 them      r201+ us    r201+ them        all us      all them
+killed (towers)                                       28            35            56            54           182            72           266           161
+rebuilt by the same side                             61%           91%           54%           91%           35%           85%           42%           88%
+at death: pattern intact (24/24)                     61%           63%           45%           57%           12%           21%           24%           42%
+at death: intact and 1000+ chips                     11%           17%           20%           26%            8%           14%           11%           19%
+at death: own robots d2<=2 (mean)                   0.18          0.17          0.39           0.2          0.69          0.44          0.58           0.3
+at death: own robots d2<=8 (mean)                   0.46          0.91          0.75          0.89          1.53          1.67          1.25          1.24
+at death: own robots d2<=20 (mean)                  0.61          1.57          1.45          1.98          2.87          3.88          2.33          2.74
+  same, mean over the 10 rounds before              0.84          1.43          1.21          1.91           2.8          3.55          2.26          2.54
+at death: enemy robots d2<=20 (mean)                2.43           2.4          2.52          1.59          2.82          1.61          2.71          1.78
+final assault, rounds (median)                      14.0            12          12.0          15.0          13.5          13.0          13.0            13
+own robot beside the tower in the assault            46%           63%           57%           44%           75%           61%           68%           56%
+pattern broken already at death                      39%           37%           55%           43%           88%           79%           76%           58%
+broken after: rounds after death (med)                14             2             9             8          10.0             3          10.5             5
+  within 3 rounds of the death                        0%            9%            4%            9%            2%            4%            2%            7%
+  within 10 rounds                                    4%            9%            5%           15%            3%            6%            4%            9%
+  by an enemy mop                                     7%            0%            7%            6%            3%            1%            4%            2%
+  by an enemy splash                                  4%            0%            0%            4%            4%            0%            3%            1%
+  by an enemy soldier                                 0%            0%            0%            0%            0%            0%            0%            0%
+  by own paint                                        0%           14%            2%           19%            0%            6%            0%           12%
+never broken (in the window)                         50%           49%           36%           30%            5%           14%           16%           27%
+first own robot adjacent, rounds (med)           1 (68%)     3.5 (86%)       2 (66%)     2.5 (89%)       0 (85%)     1.0 (92%)       1 (79%)     2.0 (89%)
+first own robot within d2 8 (med)                5 (96%)     0.0 (97%)       0 (91%)    0.0 (100%)       0 (94%)    0.0 (100%)       0 (94%)     0.0 (99%)
+own robot adjacent before the break                  43%           43%           18%           37%            7%           12%           13%           27%
+  and 1000+ chips then                                0%            9%            4%           19%            4%            7%            3%           11%
+
+== won: 51 games; towers killed by damage, by the side that lost them
+                                               r1-100 us   r1-100 them   r101-200 us r101-200 them      r201+ us    r201+ them        all us      all them
+killed (towers)                                       57            64           106           106           199           309           362           479
+rebuilt by the same side                             89%           77%           92%           65%           78%           34%           84%           47%
+at death: pattern intact (24/24)                     79%           66%           53%           63%           17%           17%           37%           34%
+at death: intact and 1000+ chips                     19%           11%           29%           33%           13%           13%           19%           17%
+at death: own robots d2<=2 (mean)                   0.09          0.23           0.2          0.14           0.7          0.33          0.46          0.28
+at death: own robots d2<=8 (mean)                   0.19          0.67          0.73          0.68          1.78          1.16          1.22          0.99
+at death: own robots d2<=20 (mean)                  0.56          1.31          1.52          1.63          3.83          2.77          2.64          2.32
+  same, mean over the 10 rounds before               0.5          1.13          1.43          1.46          3.65          2.52          2.51           2.1
+at death: enemy robots d2<=20 (mean)                1.98          1.77          2.21          1.72          2.24          2.02          2.19          1.92
+final assault, rounds (median)                        15          16.0          12.0          13.0            12            14          12.0            14
+own robot beside the tower in the assault            30%           52%           54%           37%           75%           57%           62%           52%
+pattern broken already at death                      21%           34%           47%           37%           83%           83%           63%           66%
+broken after: rounds after death (med)              29.0          10.0           9.5            16             3             3            11           9.0
+  within 3 rounds of the death                        2%            3%            1%            6%            1%            5%            1%            5%
+  within 10 rounds                                    2%           17%            3%           13%            2%            6%            2%            9%
+  by an enemy mop                                     9%            5%            3%           11%            1%            2%            2%            4%
+  by an enemy splash                                  2%            0%            3%            5%            1%            3%            1%            3%
+  by an enemy soldier                                 0%            0%            0%            0%            0%            0%            0%            0%
+  by own paint                                        0%           27%            0%           17%            1%            3%            0%            9%
+never broken (in the window)                         68%           34%           47%           30%           15%            9%           33%           17%
+first own robot adjacent, rounds (med)         9.5 (60%)     4.0 (91%)     3.0 (70%)       5 (78%)       0 (84%)       2 (82%)       1 (76%)     2.5 (82%)
+first own robot within d2 8 (med)              7.0 (91%)     1.0 (94%)       0 (99%)     1.0 (91%)     0.0 (99%)     0.0 (89%)       0 (98%)     0.0 (90%)
+own robot adjacent before the break                  42%           50%           22%           39%            7%            8%           17%           21%
+  and 1000+ chips then                                0%            5%            6%           18%            4%            6%            4%            9%

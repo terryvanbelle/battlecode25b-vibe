@@ -1,0 +1,36 @@
+
+== lost: 31 games; soldier hits on towers that stood
+  us   hits 165.5/game; ends the turn in the tower's range  63% (death within 5 rounds after: in range  25%, out  13%); stepped in to hit  44%
+       under 100 HP: stepped in 11.1/game (then died  79%), already in range 21.6/game (died  67%);  hits on a defense-buffed side  23% (died  42% vs  14% unbuffed); on defense towers   8%
+  them hits 172.4/game; ends the turn in the tower's range  57% (death within 5 rounds after: in range   9%, out   6%); stepped in to hit  53%
+       under 100 HP: stepped in 14.3/game (then died  42%), already in range 15.5/game (died  33%);  hits on a defense-buffed side   0% (died   0% vs   8% unbuffed); on defense towers   0%
+  per opponent: defense towers completed per game (us / them); robots killed by tower fire per game (ours / theirs)
+    confused                    2 g  defense  0.0 /  0.0   tower kills of ours  11.5, of theirs  11.5
+    immutable                   7 g  defense  0.0 /  2.9   tower kills of ours  14.6, of theirs   5.6
+    just-woke-up                7 g  defense  0.0 /  0.6   tower kills of ours  11.9, of theirs   1.7
+    om-nom                      2 g  defense  0.0 /  0.0   tower kills of ours   7.5, of theirs  31.5
+    scienceqiu                  1 g  defense  0.0 /  0.0   tower kills of ours   1.0, of theirs   4.0
+    spaark                      7 g  defense  0.0 /  2.7   tower kills of ours  20.1, of theirs   4.4
+    subscribe-to-caterpillow    5 g  defense  0.0 /  0.2   tower kills of ours   6.6, of theirs   5.0
+
+== won: 51 games; soldier hits on towers that stood
+  us   hits 208.8/game; ends the turn in the tower's range  62% (death within 5 rounds after: in range  22%, out  12%); stepped in to hit  45%
+       under 100 HP: stepped in 15.6/game (then died  77%), already in range 27.9/game (died  62%);  hits on a defense-buffed side  16% (died  41% vs  14% unbuffed); on defense towers   6%
+  them hits 171.7/game; ends the turn in the tower's range  58% (death within 5 rounds after: in range  13%, out   7%); stepped in to hit  51%
+       under 100 HP: stepped in 13.8/game (then died  48%), already in range 17.0/game (died  37%);  hits on a defense-buffed side   0% (died   0% vs  10% unbuffed); on defense towers   0%
+  per opponent: defense towers completed per game (us / them); robots killed by tower fire per game (ours / theirs)
+    confused                    6 g  defense  0.0 /  0.0   tower kills of ours  14.3, of theirs  13.0
+    immutable                   9 g  defense  0.0 /  1.0   tower kills of ours  14.0, of theirs   3.3
+    just-woke-up                2 g  defense  0.0 /  0.0   tower kills of ours   5.5, of theirs   1.5
+    om-nom                      7 g  defense  0.0 /  0.0   tower kills of ours   4.7, of theirs  11.3
+    scienceqiu                  5 g  defense  0.0 /  0.4   tower kills of ours  13.6, of theirs  17.6
+    spaark                     10 g  defense  0.0 /  0.8   tower kills of ours  23.5, of theirs   3.0
+    subscribe-to-caterpillow   12 g  defense  0.0 /  0.3   tower kills of ours  17.6, of theirs   7.1
+
+== soldier hits on L1/L2 paint and money towers that stood: d2 to the tower at the end of the hit turn (share of hits; death to that tower within 5 rounds after)
+  lost:
+    us   1-2:   1% (41%)  4:  10% (17%)  5:  14% (19%)  edge 8-9:  36% (18%)  out (>9):  39% (12%)   |  out->in  46%  in->out  39%  in->in  14%  in->in, moved   8%  out->out   0%
+    them 1-2:   0% (17%)  4:   4% (12%)  5:  16% ( 8%)  edge 8-9:  37% ( 9%)  out (>9):  43% ( 6%)   |  out->in  53%  in->out  43%  in->in   4%  in->in, moved   1%  out->out   0%
+  won:
+    us   1-2:   1% (58%)  4:  11% (16%)  5:  13% (17%)  edge 8-9:  36% (17%)  out (>9):  40% (12%)   |  out->in  47%  in->out  40%  in->in  13%  in->in, moved   8%  out->out   0%
+    them 1-2:   0% (41%)  4:   3% (17%)  5:  18% (16%)  edge 8-9:  37% (10%)  out (>9):  42% ( 7%)   |  out->in  51%  in->out  42%  in->in   6%  in->in, moved   2%  out->out   0%

@@ -547,7 +547,7 @@ y316  # replica reference: peak 1825 at #5 on 11-27 20:12 PDT; slot since y328 s
 y328  # champion (y323 + dry flags 60 rounds; crowned 2026-11-27 20:47)
 y329
 # y330 (retired: built on y323, -1 after 128 games; adjacent dry below 40 (rebuilt as y334))
-y331
+# y331 (retired: -9 vs y328 after 332 games; dry flags 100 rounds, the same knob as y329 (80); room for study 14)
 y332
 # y333 (retired: -37 vs y328 after 301 games; dry clear at 100 paint)
 y334
@@ -558,3 +558,7 @@ t180
 y336
 y337
 y338
+t181
+t182
+t183
+t184

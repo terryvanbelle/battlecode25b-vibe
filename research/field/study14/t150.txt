@@ -1,0 +1,42 @@
+
+== lost: 31 games; towers killed by damage, by the side that lost them and the phase of the death
+                                                    r1-100 us    them   r101-200 us    them      r201+ us    them
+   killed (per game)                                     0.90    1.13          1.81    1.74          5.87    2.32
+   rebuilt by the same side                               61%     91%           52%     91%           35%     83%
+     median delay, rounds                                  11    29.0            22      28            21    16.0
+     completed by a soldier                               61%     86%           45%     74%           34%     76%
+     by a mopper                                           0%      6%            7%     15%            0%      4%
+     by a splasher                                         0%      0%            0%      2%            1%      3%
+     same type as before                                  61%     57%           52%     63%           34%     56%
+   taken by the killers                                   21%      0%           25%      2%           30%      8%
+     median delay                                       107.5       -         127.5     169            81   123.5
+   vacant to the end                                      18%      9%           23%      7%           35%      8%
+     median rounds vacant                                 159     201            72   320.5          50.5    98.0
+   at death: pattern tiles right (of 24)                 24.0      24          21.5    24.0          14.0    19.0
+   at death: enemy tiles in the 5x5                       0.0       0           0.0     0.0           3.0     0.0
+   at death: chips                                      880.0     890        1195.0   980.0        2122.5  1353.0
+   at death: own robots within r2 8                       0.0       1           1.0     1.0           1.0     1.0
+   vacant rounds with enemy paint in the 5x5              76%     30%           75%     41%           81%     63%
+   vacant rounds with 20+ tiles right                     29%     41%           24%     46%           17%     20%
+   rounds until the 5x5 is clear (101 = never)              1       1            20       1          24.5     1.0
+
+== won: 51 games; towers killed by damage, by the side that lost them and the phase of the death
+                                                    r1-100 us    them   r101-200 us    them      r201+ us    them
+   killed (per game)                                     1.12    1.25          2.08    2.08          3.90    6.06
+   rebuilt by the same side                               89%     77%           92%     64%           78%     33%
+     median delay, rounds                                  23      27            13    19.5          13.0      14
+     completed by a soldier                               88%     75%           87%     57%           73%     30%
+     by a mopper                                           2%      2%            5%      7%            4%      2%
+     by a splasher                                         0%      0%            0%      1%            2%      1%
+     same type as before                                  81%     48%           87%     44%           77%     24%
+   taken by the killers                                    9%      8%            6%     15%            2%     13%
+     median delay                                          40     237         140.0   135.0          63.5      83
+   vacant to the end                                       2%     16%            3%     21%           20%     53%
+     median rounds vacant                                1927   195.0            96   128.5            72      45
+   at death: pattern tiles right (of 24)                   24    24.0          24.0    24.0            19      17
+   at death: enemy tiles in the 5x5                         0     0.0           0.0     0.0             0       0
+   at death: chips                                        780   840.0        1047.5  1010.0          1230    2204
+   at death: own robots within r2 8                         0     0.0           1.0     0.0             1       1
+   vacant rounds with enemy paint in the 5x5              46%     22%           58%     44%           66%     73%
+   vacant rounds with 20+ tiles right                     56%     53%           47%     47%           23%     20%
+   rounds until the 5x5 is clear (101 = never)            1.0     1.0             1     1.0           1.0     6.0

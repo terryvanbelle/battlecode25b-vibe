@@ -1,0 +1,46 @@
+
+== lost: 31 games; SRPs by the side that completed them and the phase of completion
+                                                    r1-100 us    them   r101-200 us    them      r201+ us    them
+   completed per game                                         0.00    0.87          2.23    2.13          2.71   11.06
+     of them a centre completed before (redo)                   0%     19%            7%     15%           61%     49%
+   reached lifetime 50 (active)                                 0%     59%           67%     77%           35%     43%
+     median rounds active (until broken / end)                   -   145.5         101.5     185            59      65
+   broke (deregistered) before the end                          0%     63%           77%     47%           93%     50%
+     broke before 50                                            0%     41%           33%     21%           64%     40%
+     median rounds intact when it broke                          -      19            66      62          23.5    10.5
+     completed again later (of breaks)                          0%     82%           49%     65%           38%     88%
+     breaker: enemy soldier paint                               0%      0%            2%      0%            3%      0%
+     breaker: enemy splasher paint                              0%      6%           40%     16%           44%     25%
+     breaker: enemy mopper unpaint                              0%      6%           13%     23%           18%      1%
+     breaker: own soldier paint                                 0%     71%           38%     45%           33%     47%
+     breaker: own splasher paint                                0%     18%            8%     16%            3%     22%
+     breaker: own mopper unpaint                                0%      0%            0%      0%            0%      5%
+     breaker: unknown                                           0%      0%            0%      0%            0%      0%
+   at completion: Chebyshev to enemy paint (11 = non             -       6             6     5.0           5.0       6
+   at completion: enemy robots within r2 20                      -       0             0     0.0           0.0       0
+   at completion: own towers within Chebyshev 4                  -       1             1     1.0           1.0       1
+   round of completion (median)                                  -      75           155   147.0         316.0     421
+
+== won: 51 games; SRPs by the side that completed them and the phase of completion
+                                                    r1-100 us    them   r101-200 us    them      r201+ us    them
+   completed per game                                         0.00    1.00          4.16    2.94         10.55    5.16
+     of them a centre completed before (redo)                   0%      6%            4%     21%           43%     48%
+   reached lifetime 50 (active)                                 0%     65%           78%     67%           45%     44%
+     median rounds active (until broken / end)                   -     116            96     121            71     101
+   broke (deregistered) before the end                          0%     84%           37%     76%           41%     79%
+     broke before 50                                            0%     35%           19%     31%           33%     48%
+     median rounds intact when it broke                          -      83          40.5    67.0          15.5      31
+     completed again later (of breaks)                          0%     53%           74%     45%           83%     42%
+     breaker: enemy soldier paint                               0%      0%            0%      0%            0%      0%
+     breaker: enemy splasher paint                              0%     14%           29%     29%           34%     38%
+     breaker: enemy mopper unpaint                              0%     19%           12%     11%           14%      4%
+     breaker: own soldier paint                                 0%     60%           56%     53%           48%     44%
+     breaker: own splasher paint                                0%      7%            1%      8%            4%     14%
+     breaker: own mopper unpaint                                0%      0%            1%      0%            0%      0%
+     breaker: unknown                                           0%      0%            0%      0%            0%      0%
+   at completion: Chebyshev to enemy paint (11 = non             -       6           6.0     5.0           6.0       5
+   at completion: enemy robots within r2 20                      -       0           0.0     0.0           0.0       0
+   at completion: own towers within Chebyshev 4                  -       1           1.0     1.0           1.0       1
+   round of completion (median)                                  -      82         154.5   157.0         297.0     298
+
+check: replayed active SRP count = rounds.tsv srp column in 69792 of 69792 side-rounds (100.00%)

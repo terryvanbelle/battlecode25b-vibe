@@ -1,0 +1,230 @@
+87 games in the main set (29 matches)
+match g ver  rk opponent                 map              size   tiles res  end  how  cov% us/them   repeat of
+m6515 g0 t158  R  subscribe-to-caterpillow Castle           27x27   636 W    431 MAJ   70.1/ 21.2   
+m6515 g1 t158  R  subscribe-to-caterpillow lighthouse       31x31   853 L    189 ALL   14.1/ 50.3   
+m6515 g2 t158  R  subscribe-to-caterpillow roads            30x30   770 W    390 MAJ   70.3/ 19.1   
+m6592 g0 t160  R  om-nom                   Castle           27x27   636 L    518 MAJ   11.2/ 70.9   
+m6592 g1 t160  R  om-nom                   Paintball        20x20   354 W    212 MAJ   70.1/ 19.5   
+m6592 g2 t160  R  om-nom                   Thirds           55x40  1932 W    427 MAJ   69.9/ 17.0   
+m6593 g0 t160  u  subscribe-to-caterpillow Crab             40x30  1046 W    395 MAJ   71.0/ 14.2   
+m6593 g1 t160  u  subscribe-to-caterpillow Justice          21x20   389 W    342 MAJ   70.7/ 20.1   
+m6593 g2 t160  u  subscribe-to-caterpillow Portal           35x35  1129 W    387 MAJ   70.1/ 18.7   
+m6594 g0 t160  R  confused                 DefaultMedium    35x35  1193 L    432 MAJ    6.9/ 70.3   
+m6594 g1 t160  R  confused                 Piglets2         60x40  2032 W    452 MAJ   70.4/  8.6   
+m6594 g2 t160  R  confused                 UnderTheSea      45x45  1847 W    641 MAJ   69.9/ 26.3   
+m6595 g0 t160  u  spaark                   Castle           27x27   636 L    413 MAJ   16.0/ 70.8   
+m6595 g1 t160  u  spaark                   starburst        30x30   844 W    249 MAJ   71.1/  9.4   
+m6595 g2 t160  u  spaark                   walalilongla     45x45  1811 W    414 MAJ   69.9/ 20.5   
+m6596 g0 t160  R  just-woke-up             FourCorners      25x25   542 L    225 MAJ   14.0/ 70.3   
+m6596 g1 t160  R  just-woke-up             maze             60x60  2888 L    932 MAJ   28.5/ 70.1   
+m6596 g2 t160  R  just-woke-up             sierpinski       39x50  1620 L    403 MAJ   14.3/ 70.1   
+m6597 g0 t160  u  immutable                AlarmClock       35x35  1091 W    274 MAJ   70.3/ 21.4   
+m6597 g1 t160  u  immutable                FourCorners      25x25   542 W    190 MAJ   71.0/ 20.7   
+m6597 g2 t160  u  immutable                fix              40x50  1856 W    326 MAJ   70.0/ 13.8   
+m6598 g0 t160  R  spaark                   DefaultLarge     50x30  1476 L    393 MAJ   16.3/ 70.0   
+m6598 g1 t160  R  spaark                   Paintball        20x20   354 L    226 MAJ   14.1/ 70.1   
+m6598 g2 t160  R  spaark                   SaltyPepper      40x40  1484 W    254 MAJ   70.6/ 18.3   
+m6635 g0 y316  R  immutable                AlarmClock       35x35  1091 W    428 MAJ   69.8/ 26.2   
+m6635 g1 y316  R  immutable                BatSignal        40x25   890 L    603 MAJ   22.8/ 70.1   
+m6635 g2 y316  R  immutable                Bread            35x29   914 L    451 MAJ   23.4/ 70.5   
+m6662 g0 y316  R  om-nom                   AlarmClock       35x35  1091 W    279 MAJ   70.6/ 17.6   
+m6662 g1 y316  R  om-nom                   Mirage           40x40  1480 W    218 MAJ   70.0/  3.4   
+m6662 g2 y316  R  om-nom                   sayhi            40x50  1734 W    330 MAJ   70.2/ 13.8   
+m6663 g0 y316  u  spaark                   Filter           21x21   419 W   2000 ARE   27.2/ 21.0   
+m6663 g1 y316  u  spaark                   fix              40x50  1856 W    594 MAJ   70.4/ 16.7   
+m6663 g2 y316  u  spaark                   sunrise          45x55  2208 W    503 MAJ   70.5/ 20.6   
+m6664 g0 y316  R  confused                 SaltyPepper      40x40  1484 W    338 MAJ   70.1/ 18.6   
+m6664 g1 y316  R  confused                 boxofchocolates  55x55  2435 W    867 MAJ   69.7/ 14.8   
+m6664 g2 y316  R  confused                 sayhi            40x50  1734 W    594 MAJ   70.5/ 21.8   
+m6665 g0 y316  u  immutable                CastleDefense    20x20   340 W    258 MAJ   72.9/ 12.3   
+m6665 g1 y316  u  immutable                gridworld        31x31   769 L    319 MAJ   20.0/ 70.0   
+m6665 g2 y316  u  immutable                windmill         30x30   780 L    387 MAJ   17.9/ 69.4   
+m6666 g0 y316  R  just-woke-up             DefaultSmall     20x20   372 L    258 MAJ    4.6/ 70.7   
+m6666 g1 y316  R  just-woke-up             Parking_lot      45x45  1795 W    481 MAJ   70.2/ 24.6   
+m6666 g2 y316  R  just-woke-up             lighthouse       31x31   853 W    309 MAJ   70.1/  2.1   
+m6667 g0 y316  u  subscribe-to-caterpillow Barcode          50x21   966 L    343 ALL    5.6/ 64.0   
+m6667 g1 y316  u  subscribe-to-caterpillow DonkeyKong       60x60  3232 W    530 MAJ   70.0/ 25.1   
+m6667 g2 y316  u  subscribe-to-caterpillow SaltyPepper      40x40  1484 W    312 MAJ   70.2/ 18.5   
+m6678 g0 y316  R  scienceqiu               DefaultSmall     20x20   372 L    108 ALL    7.8/ 30.6   
+m6678 g1 y316  R  scienceqiu               Fossil           30x30   868 W    278 MAJ   69.8/ 18.1   
+m6678 g2 y316  R  scienceqiu               fix              40x50  1856 W    462 MAJ   70.0/ 11.9   
+m6706 g0 y316  R  om-nom                   Piglets2         60x40  2032 W    424 MAJ   70.5/ 11.7   
+m6706 g1 y316  R  om-nom                   Restart          55x55  2657 L    917 MAJ   17.0/ 70.0   
+m6706 g2 y316  R  om-nom                   UnderTheSea      45x45  1847 W    281 MAJ   70.5/ 20.8   
+m6707 g0 y316  u  spaark                   Paintball        20x20   354 L    194 MAJ   18.9/ 70.3   
+m6707 g1 y316  u  spaark                   maze             60x60  2888 L    821 MAJ   17.5/ 69.8   
+m6707 g2 y316  u  spaark                   walalilongla     45x45  1811 L    585 MAJ   13.5/ 70.9   
+m6708 g0 y316  R  confused                 SaltyPepper      40x40  1484 W    338 MAJ   70.1/ 18.6   m6664g0 (y316)
+m6708 g1 y316  R  confused                 Terminal         40x30  1022 L    360 ALL    9.4/ 65.2   
+m6708 g2 y316  R  confused                 sierpinski       39x50  1620 W    659 MAJ   70.0/ 18.8   
+m6709 g0 y316  u  immutable                DefaultHuge      59x59  3421 W    356 MAJ   70.1/ 20.6   
+m6709 g1 y316  u  immutable                HungerGames      50x50  2258 L    403 MAJ   25.6/ 70.3   
+m6709 g2 y316  u  immutable                Money            35x35  1141 W    276 MAJ   70.5/ 23.3   
+m6710 g0 y316  R  just-woke-up             Parking_lot      45x45  1795 L    582 MAJ   27.9/ 70.4   
+m6710 g1 y316  R  just-woke-up             Snowglobe        40x40  1478 L    266 MAJ   26.5/ 69.6   
+m6710 g2 y316  R  just-woke-up             rain             30x30   850 L    399 MAJ   19.8/ 71.3   
+m6711 g0 y316  u  subscribe-to-caterpillow Gears            55x55  2885 W    799 MAJ   70.1/ 22.6   
+m6711 g1 y316  u  subscribe-to-caterpillow SandyBeach       30x30   822 L    461 MAJ    5.8/ 70.1   
+m6711 g2 y316  u  subscribe-to-caterpillow TargetPractice   30x30   816 W    330 MAJ   70.3/ 15.7   
+m6748 g0 y316  R  spaark                   AlarmClock       35x35  1091 L    375 ALL   11.0/ 69.8   
+m6748 g1 y316  R  spaark                   Flower           45x41  1623 W    224 ALL   63.0/  6.0   
+m6748 g2 y316  R  spaark                   Snowglobe        40x40  1478 W    302 MAJ   70.1/ 11.2   
+m6774 g0 y316  R  spaark                   Bunny            44x30  1228 W    389 MAJ   71.0/  8.6   
+m6774 g1 y316  R  spaark                   DonkeyKong       60x60  3232 W    362 MAJ   70.0/  7.1   
+m6774 g2 y316  R  spaark                   Snowglobe        40x40  1478 W    302 MAJ   70.1/ 11.2   m6748g2 (y316)
+m6776 g0 y316  R  immutable                Racetrack        25x25   562 L    312 MAJ   27.4/ 68.2   
+m6776 g1 y316  R  immutable                UnderTheSea      45x45  1847 W    254 MAJ   70.4/ 25.1   
+m6776 g2 y316  R  immutable                windmill         30x30   780 L    387 MAJ   17.9/ 69.4   m6665g2 (y316)
+m6777 g0 y316  R  scienceqiu               MoneyTower       35x50  1501 W    410 MAJ   70.3/  8.7   
+m6777 g1 y316  R  scienceqiu               UglySweater      50x50  2340 W    379 MAJ   70.7/ 10.2   
+m6777 g2 y316  R  scienceqiu               rain             30x30   850 W    365 MAJ   70.0/ 19.2   
+m6796 g0 y316  R  immutable                AlarmClock       35x35  1091 W    428 MAJ   69.8/ 26.2   m6635g0 (y316)
+m6796 g1 y316  R  immutable                TargetPractice   30x30   816 L    672 MAJ   27.4/ 70.2   
+m6796 g2 y316  R  immutable                Thirds           55x40  1932 W    428 MAJ   71.0/ 21.3   
+m6816 g0 y323  R  subscribe-to-caterpillow Barcode          50x21   966 L    503 MAJ   11.0/ 70.7   
+m6816 g1 y323  R  subscribe-to-caterpillow catface          30x30   868 W    279 MAJ   70.7/  7.4   
+m6816 g2 y323  R  subscribe-to-caterpillow galaxy           45x45  1834 W    415 MAJ   70.1/ 13.3   
+m6860 g0 y323  R  subscribe-to-caterpillow catface          30x30   868 W    279 MAJ   70.7/  7.4   m6816g1 (y323)
+m6860 g1 y323  R  subscribe-to-caterpillow gardenworld      60x60  3180 W    325 MAJ   70.2/ 10.1   
+m6860 g2 y323  R  subscribe-to-caterpillow memstore         59x39  2081 L    424 MAJ   15.0/ 70.3   
+
+exact repeats (5): m6708g0 (y316) = m6664g0 (y316), m6774g2 (y316) = m6748g2 (y316), m6776g2 (y316) = m6665g2 (y316), m6796g0 (y316) = m6635g0 (y316), m6860g0 (y323) = m6816g1 (y323)
+DUP set for lib.py: {(6708, 0), (6774, 2), (6776, 2), (6796, 0), (6860, 0)}
+
+per match (repeats left out): won-lost
+m6515 t158  R subscribe-to-caterpillow 2-1
+m6592 t160  R om-nom                   2-1
+m6593 t160  u subscribe-to-caterpillow 3-0
+m6594 t160  R confused                 2-1
+m6595 t160  u spaark                   2-1
+m6596 t160  R just-woke-up             0-3
+m6597 t160  u immutable                3-0
+m6598 t160  R spaark                   1-2
+m6635 y316  R immutable                1-2
+m6662 y316  R om-nom                   3-0
+m6663 y316  u spaark                   3-0
+m6664 y316  R confused                 3-0
+m6665 y316  u immutable                1-2
+m6666 y316  R just-woke-up             2-1
+m6667 y316  u subscribe-to-caterpillow 2-1
+m6678 y316  R scienceqiu               2-1
+m6706 y316  R om-nom                   2-1
+m6707 y316  u spaark                   0-3
+m6708 y316  R confused                 1-1  (dup g0)
+m6709 y316  u immutable                2-1
+m6710 y316  R just-woke-up             0-3
+m6711 y316  u subscribe-to-caterpillow 2-1
+m6748 y316  R spaark                   2-1
+m6774 y316  R spaark                   2-0  (dup g2)
+m6776 y316  R immutable                1-1  (dup g2)
+m6777 y316  R scienceqiu               3-0
+m6796 y316  R immutable                1-1  (dup g0)
+m6816 y323  R subscribe-to-caterpillow 2-1
+m6860 y323  R subscribe-to-caterpillow 1-1  (dup g0)
+
+== t158
+   top 7: 2-1 (67%)
+   rest : 0-0
+   all  : 2-1 (67%)
+   ranked: 2-1
+   unranked: 0-0
+
+== t160
+   top 7: 11-4 (73%)
+   rest : 2-4 (33%)
+   all  : 13-8 (62%)
+   ranked: 5-7
+   unranked: 8-1
+
+== y316
+   top 7: 27-15 (64%)
+   rest : 6-5 (55%)
+   all  : 33-20 (62%)
+   ranked: 23-12
+   unranked: 10-8
+
+== y323
+   top 7: 3-2 (60%)
+   rest : 0-0
+   all  : 3-2 (60%)
+   ranked: 3-2
+   unranked: 0-0
+
+== all versions
+   top 7: 43-22 (66%)
+   rest : 8-9 (47%)
+   all  : 51-31 (62%)
+   ranked: 33-22
+   unranked: 18-9
+
+per opponent (repeats left out): t158 | t160 | y316 | y323 | all
+   confused                      - |    2-1 |    4-1 |      - |    6-2
+   immutable                     - |    3-0 |    6-7 |      - |    9-7
+   just-woke-up                  - |    0-3 |    2-4 |      - |    2-7
+   om-nom                        - |    2-1 |    5-1 |      - |    7-2
+   scienceqiu                    - |      - |    5-1 |      - |    5-1
+   spaark                        - |    3-3 |    7-4 |      - |   10-7
+   subscribe-to-caterpillow    2-1 |    3-0 |    4-2 |    3-2 |   12-5
+
+win types (repeats left out): Counter({('W', 'MAJ'): 49, ('L', 'MAJ'): 26, ('L', 'ALL'): 5, ('W', 'ARE'): 1, ('W', 'ALL'): 1})
+loss end rounds by version:
+   t158: 1 losses, median end r189, eliminations 1
+   t160: 8 losses, median end r408.0, eliminations 0
+   y316: 20 losses, median end r393.0, eliminations 4
+   y323: 2 losses, median end r463.5, eliminations 0
+
+per map (repeats left out): t158 W-L | t160 W-L | y316 W-L | y323 W-L
+   AlarmClock             - |   1-0 |   2-1 |     -
+   Barcode                - |     - |   0-1 |   0-1
+   BatSignal              - |     - |   0-1 |     -
+   Bread                  - |     - |   0-1 |     -
+   Bunny                  - |     - |   1-0 |     -
+   Castle               1-0 |   0-2 |     - |     -
+   CastleDefense          - |     - |   1-0 |     -
+   Crab                   - |   1-0 |     - |     -
+   DefaultHuge            - |     - |   1-0 |     -
+   DefaultLarge           - |   0-1 |     - |     -
+   DefaultMedium          - |   0-1 |     - |     -
+   DefaultSmall           - |     - |   0-2 |     -
+   DonkeyKong             - |     - |   2-0 |     -
+   Filter                 - |     - |   1-0 |     -
+   Flower                 - |     - |   1-0 |     -
+   Fossil                 - |     - |   1-0 |     -
+   FourCorners            - |   1-1 |     - |     -
+   Gears                  - |     - |   1-0 |     -
+   HungerGames            - |     - |   0-1 |     -
+   Justice                - |   1-0 |     - |     -
+   Mirage                 - |     - |   1-0 |     -
+   Money                  - |     - |   1-0 |     -
+   MoneyTower             - |     - |   1-0 |     -
+   Paintball              - |   1-1 |   0-1 |     -
+   Parking_lot            - |     - |   1-1 |     -
+   Piglets2               - |   1-0 |   1-0 |     -
+   Portal                 - |   1-0 |     - |     -
+   Racetrack              - |     - |   0-1 |     -
+   Restart                - |     - |   0-1 |     -
+   SaltyPepper            - |   1-0 |   2-0 |     -
+   SandyBeach             - |     - |   0-1 |     -
+   Snowglobe              - |     - |   1-1 |     -
+   TargetPractice         - |     - |   1-1 |     -
+   Terminal               - |     - |   0-1 |     -
+   Thirds                 - |   1-0 |   1-0 |     -
+   UglySweater            - |     - |   1-0 |     -
+   UnderTheSea            - |   1-0 |   2-0 |     -
+   boxofchocolates        - |     - |   1-0 |     -
+   catface                - |     - |     - |   1-0
+   fix                    - |   1-0 |   2-0 |     -
+   galaxy                 - |     - |     - |   1-0
+   gardenworld            - |     - |     - |   1-0
+   gridworld              - |     - |   0-1 |     -
+   lighthouse           0-1 |     - |   1-0 |     -
+   maze                   - |   0-1 |   0-1 |     -
+   memstore               - |     - |     - |   0-1
+   rain                   - |     - |   1-1 |     -
+   roads                1-0 |     - |     - |     -
+   sayhi                  - |     - |   2-0 |     -
+   sierpinski             - |   0-1 |   1-0 |     -
+   starburst              - |   1-0 |     - |     -
+   sunrise                - |     - |   1-0 |     -
+   walalilongla           - |   1-0 |   0-1 |     -
+   windmill               - |     - |   0-1 |     -

@@ -1,0 +1,78 @@
+
+== lost: 31 games; towers killed by damage, by the side that lost them
+                                               r1-100 us   r1-100 them   r101-200 us r101-200 them      r201+ us    r201+ them        all us      all them
+killed (towers)                                       28            35            56            54           182            72           266           161
+rebuilt by the same side                             61%           91%           54%           91%           35%           85%           42%           88%
+taken by the killers                                 21%            0%           25%            2%           30%            8%           28%            4%
+ready at some round (intact+adj+chips)                0%           11%            2%           24%            4%           22%            3%           20%
+  first ready, rounds after death (med)                -           5.0             0             7             1           8.0           0.5             7
+  rebuilt at once (<= 1 round of it)                  0%           25%            0%           31%           14%           56%           12%           42%
+  ready rounds missed (mean)                           -           2.5           1.0          2.23          2.43          0.62          2.25          1.48
+  first ready: a soldier adjacent                     0%          100%          100%           46%            0%           94%           12%           76%
+  first ready: a mopper adjacent                      0%            0%            0%           23%           43%            6%           38%           12%
+  first ready: a splasher adjacent                    0%            0%            0%           31%           71%            0%           62%           12%
+never ready: broken before any robot                 39%           37%           62%           28%           85%           58%           75%           43%
+never ready: intact, never adjacent                  18%           17%           29%           22%            7%           10%           13%           16%
+never ready: adjacent, no 1000 chips                 43%           34%            7%           26%            4%           10%            9%           20%
+own paint turning a right tile wrong                0.07          5.91          0.38          3.89          0.72          4.12          0.58          4.43
+marks say the same type                    79% (reb 73%) 6% (reb 100%) 82% (reb 61%) 7% (reb 100%) 91% (reb 35%) 6% (reb 100%) 88% (reb 44%) 6% (reb 100%)
+marks say another type                       0% (reb 0%)29% (reb 100%)   0% (reb 0%) 39% (reb 95%)   0% (reb 0%) 61% (reb 86%)   0% (reb 0%) 47% (reb 91%)
+no mark in the 5x5                         21% (reb 17%) 66% (reb 87%) 18% (reb 20%) 54% (reb 86%)  9% (reb 38%) 33% (reb 79%) 12% (reb 28%) 47% (reb 84%)
+  by tower type and origin (all phases)
+                                            them defense built    them money built    them money start    them paint built    them paint start      us money built      us money start      us paint built      us paint start
+killed (towers)                                              2                 106                  10                  37                   6                 180                  18                  52                  16
+rebuilt by the same side                                   50%                 92%                 60%                 89%                 83%                 43%                 22%                 42%                 44%
+taken by the killers                                       50%                  3%                  0%                  8%                  0%                 32%                 28%                 25%                  0%
+ready at some round (intact+adj+chips)                     50%                 21%                 10%                 19%                 33%                  2%                  0%                 10%                  0%
+  first ready, rounds after death (med)                      3                 5.5                  85                   6                45.0                   0                   -                   2                   -
+  rebuilt at once (<= 1 round of it)                      100%                 45%                  0%                 14%                100%                 33%                  0%                  0%                  0%
+  ready rounds missed (mean)                               0.0                0.95                 1.0                3.86                 0.0                0.67                   -                 3.2                   -
+  first ready: a soldier adjacent                         100%                 77%                100%                 57%                100%                 33%                  0%                  0%                  0%
+  first ready: a mopper adjacent                            0%                 14%                  0%                 14%                  0%                  0%                  0%                 60%                  0%
+  first ready: a splasher adjacent                          0%                  9%                  0%                 29%                  0%                 67%                  0%                 60%                  0%
+never ready: broken before any robot                       50%                 40%                 70%                 43%                 67%                 72%                100%                 75%                 81%
+never ready: intact, never adjacent                         0%                 15%                  0%                 24%                  0%                 15%                  0%                  8%                 19%
+never ready: adjacent, no 1000 chips                        0%                 25%                 20%                 14%                  0%                 11%                  0%                  8%                  0%
+own paint turning a right tile wrong                       0.0                3.88                 0.1                7.46                4.33                0.48                 0.5                0.44                2.25
+marks say the same type                         50% (reb 100%)         0% (reb 0%)         0% (reb 0%)      24% (reb 100%)         0% (reb 0%)      100% (reb 43%)       6% (reb 100%)      100% (reb 42%)       6% (reb 100%)
+marks say another type                             0% (reb 0%)       51% (reb 91%)         0% (reb 0%)       57% (reb 90%)         0% (reb 0%)         0% (reb 0%)         0% (reb 0%)         0% (reb 0%)         0% (reb 0%)
+no mark in the 5x5                                50% (reb 0%)       49% (reb 92%)      100% (reb 60%)       19% (reb 71%)      100% (reb 83%)         0% (reb 0%)       94% (reb 18%)         0% (reb 0%)       94% (reb 40%)
+
+== won: 51 games; towers killed by damage, by the side that lost them
+                                               r1-100 us   r1-100 them   r101-200 us r101-200 them      r201+ us    r201+ them        all us      all them
+killed (towers)                                       57            64           106           106           199           309           362           479
+rebuilt by the same side                             89%           77%           92%           65%           78%           34%           84%           47%
+taken by the killers                                  9%            8%            6%           14%            2%           13%            4%           13%
+ready at some round (intact+adj+chips)                0%           20%            5%           32%            8%           15%            6%           19%
+  first ready, rounds after death (med)                -            38             0          13.0           5.5             8             3          10.5
+  rebuilt at once (<= 1 round of it)                  0%           15%           60%           53%           62%           64%           62%           53%
+  ready rounds missed (mean)                           -          1.46           0.4          1.68          1.06          0.98           0.9           1.3
+  first ready: a soldier adjacent                     0%           69%          100%           76%           69%           76%           76%           75%
+  first ready: a mopper adjacent                      0%           15%            0%           26%           31%           16%           24%           20%
+  first ready: a splasher adjacent                    0%           15%            0%            0%           25%           18%           19%           11%
+never ready: broken before any robot                 23%           27%           38%           27%           67%           74%           52%           58%
+never ready: intact, never adjacent                  39%           14%           40%           23%           15%            8%           26%           12%
+never ready: adjacent, no 1000 chips                 39%           39%           18%           18%           10%            3%           17%           11%
+own paint turning a right tile wrong                0.28          4.59           0.4          3.32          0.68          2.13          0.53          2.72
+marks say the same type                    84% (reb 94%)   0% (reb 0%) 94% (reb 91%)   0% (reb 0%) 94% (reb 80%)  8% (reb 33%) 93% (reb 85%)  5% (reb 33%)
+marks say another type                       0% (reb 0%)  9% (reb 83%)   0% (reb 0%) 24% (reb 68%)   0% (reb 0%) 35% (reb 43%)   0% (reb 0%) 29% (reb 49%)
+no mark in the 5x5                         16% (reb 67%) 91% (reb 76%) 6% (reb 100%) 76% (reb 64%)  6% (reb 50%) 57% (reb 29%)  7% (reb 67%) 66% (reb 47%)
+  by tower type and origin (all phases)
+                                            them defense built    them money built    them money start    them paint built    them paint start      us money built      us money start      us paint built      us paint start
+killed (towers)                                             17                 319                  30                  90                  23                 271                  15                  64                  12
+rebuilt by the same side                                    0%                 54%                 10%                 46%                 30%                 87%                 67%                 78%                 67%
+taken by the killers                                       12%                 10%                 37%                 11%                 22%                  4%                 13%                  0%                  8%
+ready at some round (intact+adj+chips)                      0%                 23%                  7%                 18%                  0%                  6%                  0%                  9%                  0%
+  first ready, rounds after death (med)                      -                12.0                21.5                 7.5                   -                   3                   -                 0.5                   -
+  rebuilt at once (<= 1 round of it)                        0%                 57%                100%                 31%                  0%                 73%                  0%                 33%                  0%
+  ready rounds missed (mean)                                 -                0.92                 0.0                3.25                   -                0.33                   -                2.33                   -
+  first ready: a soldier adjacent                           0%                 73%                100%                 81%                  0%                 87%                  0%                 50%                  0%
+  first ready: a mopper adjacent                            0%                 20%                  0%                 19%                  0%                 20%                  0%                 33%                  0%
+  first ready: a splasher adjacent                          0%                 11%                  0%                 12%                  0%                 13%                  0%                 33%                  0%
+never ready: broken before any robot                      100%                 48%                 93%                 64%                 91%                 43%                100%                 69%                 92%
+never ready: intact, never adjacent                         0%                 17%                  0%                  7%                  0%                 32%                  0%                  8%                  8%
+never ready: adjacent, no 1000 chips                        0%                 13%                  0%                 11%                  9%                 19%                  0%                 14%                  0%
+own paint turning a right tile wrong                      4.94                2.75                 0.2                3.24                2.04                0.42                0.93                0.52                2.67
+marks say the same type                           53% (reb 0%)         0% (reb 0%)         0% (reb 0%)       17% (reb 53%)         0% (reb 0%)      100% (reb 87%)         0% (reb 0%)      100% (reb 78%)         0% (reb 0%)
+marks say another type                             0% (reb 0%)       37% (reb 51%)         0% (reb 0%)       23% (reb 38%)         0% (reb 0%)         0% (reb 0%)         0% (reb 0%)         0% (reb 0%)         0% (reb 0%)
+no mark in the 5x5                                47% (reb 0%)       63% (reb 56%)      100% (reb 10%)       60% (reb 46%)      100% (reb 30%)         0% (reb 0%)      100% (reb 67%)         0% (reb 0%)      100% (reb 67%)

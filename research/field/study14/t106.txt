@@ -1,0 +1,68 @@
+
+== eliminations (lost ALL_UNITS_DESTROYED): 5 games
+   rounds without a paint tower       games us  3 / them  0;  share of all rounds us 26.4% / them  0.0%;  median where > 0: us 125 / them -
+   rounds every tower < 200 paint     games us  5 / them  5;  share of all rounds us 55.1% / them 36.1%;  median where > 0: us 130 / them 66
+   rounds with towers but no robot    games us  0 / them  0;  share of all rounds us  0.0% / them  0.0%;  median where > 0: us - / them -
+   median chips held in famine rounds: us 2735.0 / them 1616
+   games where the last paint tower died for good: us 5 (median r146, robots alive then 5) / them 0
+
+== other losses: 26 games
+   rounds without a paint tower       games us  8 / them  4;  share of all rounds us  7.1% / them  1.3%;  median where > 0: us 29.5 / them 44.5
+   rounds every tower < 200 paint     games us 26 / them 25;  share of all rounds us 52.6% / them 30.5%;  median where > 0: us 214.0 / them 99
+   rounds with towers but no robot    games us  3 / them  0;  share of all rounds us  1.7% / them  0.0%;  median where > 0: us 43 / them -
+   median chips held in famine rounds: us 2666.2 / them 1774
+   games where the last paint tower died for good: us 6 (median r276.5, robots alive then 5.5) / them 0
+
+== all losses: 31 games
+   rounds without a paint tower       games us 11 / them  4;  share of all rounds us  9.0% / them  1.2%;  median where > 0: us 47 / them 44.5
+   rounds every tower < 200 paint     games us 31 / them 30;  share of all rounds us 52.8% / them 31.0%;  median where > 0: us 205 / them 92.0
+   rounds with towers but no robot    games us  3 / them  0;  share of all rounds us  1.5% / them  0.0%;  median where > 0: us 43 / them -
+   median chips held in famine rounds: us 2687.5 / them 1740.0
+   games where the last paint tower died for good: us 11 (median r202, robots alive then 5) / them 0
+
+== losses to the top teams: 22 games
+   rounds without a paint tower       games us  8 / them  3;  share of all rounds us 10.8% / them  1.0%;  median where > 0: us 49.0 / them 36
+   rounds every tower < 200 paint     games us 22 / them 21;  share of all rounds us 55.4% / them 26.8%;  median where > 0: us 204.0 / them 66
+   rounds with towers but no robot    games us  2 / them  0;  share of all rounds us  2.1% / them  0.0%;  median where > 0: us 95.5 / them -
+   median chips held in famine rounds: us 2745.0 / them 1490
+   games where the last paint tower died for good: us 8 (median r185.5, robots alive then 5.0) / them 0
+
+== won games: 51 games
+   rounds without a paint tower       games us  7 / them 13;  share of all rounds us 12.2% / them 14.5%;  median where > 0: us 130 / them 90
+   rounds every tower < 200 paint     games us 51 / them 51;  share of all rounds us 42.2% / them 48.2%;  median where > 0: us 117 / them 144
+   rounds with towers but no robot    games us  1 / them  4;  share of all rounds us  8.8% / them  9.8%;  median where > 0: us 1798 / them 90.0
+   median chips held in famine rounds: us 1660.0 / them 1952.5
+   games where the last paint tower died for good: us 1 (median r73, robots alive then 3) / them 13
+
+per lost game: us nopt/famine/dead (lastpt r, robots then) | them nopt/famine/dead
+   m6515g1 t158  subscribe-to lighthouse     ALL189   us    0/ 130/   0 (lastpt 169, robots 2, famine chips 3035.0) | them    0/  66/   0
+   m6592g0 t160  om-nom       Castle         MAJ518   us   11/ 320/   0 (lastpt 508, robots 4, famine chips 3632.0) | them    1/ 298/   0
+   m6594g0 t160  confused     DefaultMedium  MAJ432   us    9/ 113/   0 (lastpt 337, robots 9, famine chips 1120) | them   66/ 208/   0
+   m6595g0 t160  spaark       Castle         MAJ413   us   47/ 262/   0 (lastpt None, robots None, famine chips 2775.0) | them    0/  37/   0
+   m6596g0 t160  just-woke-up FourCorners    MAJ225   us    0/ 154/   0 (lastpt None, robots None, famine chips 1885.0) | them    0/  41/   0
+   m6596g1 t160  just-woke-up maze           MAJ932   us    0/ 205/   0 (lastpt None, robots None, famine chips 1658) | them    0/ 365/   0
+   m6596g2 t160  just-woke-up sierpinski     MAJ403   us    0/ 286/   0 (lastpt None, robots None, famine chips 3330.0) | them    0/ 199/   0
+   m6598g0 t160  spaark       DefaultLarge   MAJ393   us    0/ 189/   0 (lastpt None, robots None, famine chips 1378) | them    0/  53/   0
+   m6598g1 t160  spaark       Paintball      MAJ226   us   25/  70/  43 (lastpt 202, robots 0, famine chips 2645.0) | them    0/  23/   0
+   m6635g1 y316  immutable    BatSignal      MAJ603   us    0/ 430/   0 (lastpt None, robots None, famine chips 2755.0) | them    0/  30/   0
+   m6635g2 y316  immutable    Bread          MAJ451   us    0/ 313/   0 (lastpt None, robots None, famine chips 4170) | them    0/  90/   0
+   m6665g1 y316  immutable    gridworld      MAJ319   us    0/ 169/   0 (lastpt None, robots None, famine chips 4320) | them    0/  24/   0
+   m6665g2 y316  immutable    windmill       MAJ387   us    0/ 184/   0 (lastpt None, robots None, famine chips 1455.0) | them    0/  60/   0
+   m6666g0 y316  just-woke-up DefaultSmall   MAJ258   us    0/ 212/   6 (lastpt None, robots None, famine chips 3915.0) | them    0/  15/   0
+   m6667g0 y316  subscribe-to Barcode        ALL343   us  162/ 237/   0 (lastpt 108, robots 7, famine chips 1940) | them    0/  94/   0
+   m6678g0 y316  scienceqiu   DefaultSmall   ALL108   us   51/  60/   0 (lastpt 29, robots 5, famine chips 2735.0) | them    0/  44/   0
+   m6706g1 y316  om-nom       Restart        MAJ917   us   14/ 339/   0 (lastpt None, robots None, famine chips 1790) | them    0/ 405/   0
+   m6707g0 y316  spaark       Paintball      MAJ194   us    0/   7/   0 (lastpt None, robots None, famine chips 800) | them    0/  53/   0
+   m6707g1 y316  spaark       maze           MAJ821   us    0/ 492/   0 (lastpt None, robots None, famine chips 4714.0) | them    0/ 148/   0
+   m6707g2 y316  spaark       walalilongla   MAJ585   us    0/ 192/   0 (lastpt None, robots None, famine chips 1891.0) | them    0/ 133/   0
+   m6708g1 y316  confused     Terminal       ALL360   us  125/ 112/   0 (lastpt 146, robots 11, famine chips 1370.0) | them    0/ 223/   0
+   m6709g1 y316  immutable    HungerGames    MAJ403   us    0/ 114/   0 (lastpt None, robots None, famine chips 2419.0) | them    0/  44/   0
+   m6710g0 y316  just-woke-up Parking_lot    MAJ582   us    0/ 221/   0 (lastpt None, robots None, famine chips 1693) | them    0/ 220/   0
+   m6710g1 y316  just-woke-up Snowglobe      MAJ266   us    0/ 141/   0 (lastpt None, robots None, famine chips 2141) | them    0/  43/   0
+   m6710g2 y316  just-woke-up rain           MAJ399   us   34/ 264/   0 (lastpt 362, robots 4, famine chips 3148.0) | them    0/ 220/   0
+   m6711g1 y316  subscribe-to SandyBeach     MAJ461   us  424/ 349/ 148 (lastpt 38, robots 7, famine chips 5000) | them    0/ 193/   0
+   m6748g0 y316  spaark       AlarmClock     ALL375   us    0/ 166/   0 (lastpt 338, robots 5, famine chips 2788.0) | them    0/  35/   0
+   m6776g0 y316  immutable    Racetrack      MAJ312   us    0/ 216/   0 (lastpt None, robots None, famine chips 4316.5) | them    0/   0/   0
+   m6796g1 y316  immutable    TargetPractice MAJ672   us    0/ 343/   0 (lastpt None, robots None, famine chips 4998) | them   36/ 352/   0
+   m6816g0 y323  subscribe-to Barcode        MAJ503   us  259/ 364/   0 (lastpt 216, robots 9, famine chips 1765.0) | them    0/ 182/   0
+   m6860g2 y323  subscribe-to memstore       MAJ424   us    0/ 152/   0 (lastpt None, robots None, famine chips 2687.5) | them   53/  99/   0

@@ -1,0 +1,48 @@
+
+== lost: 31 games; attack runs on towers by robots of each side
+  us   soldier  tower stood runs  18.1/game  hits 6  hp at first hit 250  paint at first 116 last 38
+       died after it  63% (tower 52%, other tower 2%, robot 0%, starved 9%);  lived: hp at last hit med 130, under 100 24%, paint at last hit med 33
+  us   soldier  tower fell  runs   7.0/game  hits 6.0  hp at first hit 250.0  paint at first 147.5 last 91.0
+       died after it   5% (tower 1%, other tower 2%, robot 0%, starved 2%);  lived: hp at last hit med 160.0, under 100 21%, paint at last hit med 93.0
+  us   splasher tower stood runs   3.6/game  hits 1.0  hp at first hit 150.0  paint at first 119.0 last 77.5
+       died after it  10% (tower 10%, other tower 0%, robot 0%, starved 0%);  lived: hp at last hit med 150, under 100 12%, paint at last hit med 76
+  us   splasher tower fell  runs   0.5/game  hits 2.0  hp at first hit 150.0  paint at first 130.5 last 82.5
+       died after it   0% (tower 0%, other tower 0%, robot 0%, starved 0%);  lived: hp at last hit med 150.0, under 100 6%, paint at last hit med 82.5
+  them soldier  tower stood runs  14.8/game  hits 7.0  hp at first hit 250.0  paint at first 99.0 last 45.0
+       died after it  42% (tower 29%, other tower 3%, robot 0%, starved 10%);  lived: hp at last hit med 90.0, under 100 51%, paint at last hit med 52.0
+  them soldier  tower fell  runs  11.5/game  hits 6.0  hp at first hit 250.0  paint at first 147.0 last 97.0
+       died after it   3% (tower 1%, other tower 1%, robot 0%, starved 1%);  lived: hp at last hit med 160.0, under 100 20%, paint at last hit med 98.5
+  them splasher tower stood runs   9.6/game  hits 1  hp at first hit 150  paint at first 117 last 77
+       died after it   5% (tower 4%, other tower 0%, robot 0%, starved 1%);  lived: hp at last hit med 150, under 100 8%, paint at last hit med 79
+  them splasher tower fell  runs   1.5/game  hits 1  hp at first hit 150  paint at first 143 last 104
+       died after it   0% (tower 0%, other tower 0%, robot 0%, starved 0%);  lived: hp at last hit med 150, under 100 13%, paint at last hit med 104
+  us: robots killed by tower fire 12.8/game (S 10.0, X 1.2, M 1.7);  turns ending in enemy tower range 124/game = 1.9% of robot-turns, hp then med 160.0
+  them: robots killed by tower fire 6.4/game (S 4.9, X 0.9, M 0.5);  turns ending in enemy tower range 137/game = 1.0% of robot-turns, hp then med 160
+
+== won: 51 games; attack runs on towers by robots of each side
+  us   soldier  tower stood runs  19.3/game  hits 7.0  hp at first hit 250.0  paint at first 119.0 last 43.5
+       died after it  64% (tower 55%, other tower 2%, robot 0%, starved 7%);  lived: hp at last hit med 130.0, under 100 32%, paint at last hit med 32.0
+  us   soldier  tower fell  runs  13.0/game  hits 6  hp at first hit 250  paint at first 140 last 93
+       died after it   4% (tower 1%, other tower 2%, robot 0%, starved 1%);  lived: hp at last hit med 160.0, under 100 23%, paint at last hit med 93.0
+  us   splasher tower stood runs   5.0/game  hits 1  hp at first hit 150  paint at first 125 last 83
+       died after it  13% (tower 13%, other tower 0%, robot 0%, starved 0%);  lived: hp at last hit med 150, under 100 3%, paint at last hit med 81
+  us   splasher tower fell  runs   1.3/game  hits 1  hp at first hit 150  paint at first 158 last 114
+       died after it   1% (tower 0%, other tower 0%, robot 0%, starved 1%);  lived: hp at last hit med 150.0, under 100 11%, paint at last hit med 115.0
+  them soldier  tower stood runs  14.8/game  hits 7  hp at first hit 250  paint at first 103 last 29
+       died after it  55% (tower 36%, other tower 1%, robot 0%, starved 18%);  lived: hp at last hit med 70.0, under 100 55%, paint at last hit med 50.0
+  them soldier  tower fell  runs   9.6/game  hits 7  hp at first hit 250  paint at first 143 last 87
+       died after it   6% (tower 1%, other tower 2%, robot 0%, starved 3%);  lived: hp at last hit med 160, under 100 18%, paint at last hit med 91
+  them splasher tower stood runs   5.2/game  hits 1  hp at first hit 150  paint at first 115 last 52
+       died after it   7% (tower 5%, other tower 0%, robot 0%, starved 2%);  lived: hp at last hit med 150, under 100 4%, paint at last hit med 54
+  them splasher tower fell  runs   1.1/game  hits 2.0  hp at first hit 150.0  paint at first 139.5 last 65.5
+       died after it   0% (tower 0%, other tower 0%, robot 0%, starved 0%);  lived: hp at last hit med 150.0, under 100 6%, paint at last hit med 65.5
+  us: robots killed by tower fire 15.1/game (S 11.1, X 1.9, M 2.1);  turns ending in enemy tower range 154/game = 1.7% of robot-turns, hp then med 160.0
+  them: robots killed by tower fire 7.7/game (S 6.1, X 0.6, M 1.0);  turns ending in enemy tower range 134/game = 2.2% of robot-turns, hp then med 150
+
+== soldiers' hits on towers that stood, by the attacker's hit points at the hit (turn row of that round)
+  lost: hits per game in each hit-point band (share of them followed by the soldier's death to that tower within 5 rounds)
+    us     0- 49:  16.7 (85%)   50- 99:  16.0 (56%)  100-149:  33.4 (17%)  150-199:  46.1 ( 7%)  200-249:  35.9 ( 2%)  250-299:  17.5 ( 5%)
+    them   0- 49:  12.0 (53%)   50- 99:  17.7 (27%)  100-149:  35.8 ( 5%)  150-199:  52.1 ( 1%)  200-249:  37.9 ( 0%)  250-299:  16.8 ( 0%)
+  won: hits per game in each hit-point band (share of them followed by the soldier's death to that tower within 5 rounds)
+    us     0- 49:  22.0 (83%)   50- 99:  21.6 (52%)  100-149:  42.3 (12%)  150-199:  57.5 ( 5%)  200-249:  44.4 ( 2%)  250-299:  20.9 ( 3%)
+    them   0- 49:  13.9 (56%)   50- 99:  16.8 (30%)  100-149:  37.5 ( 9%)  150-199:  49.5 ( 2%)  200-249:  37.2 ( 1%)  250-299:  16.7 ( 0%)

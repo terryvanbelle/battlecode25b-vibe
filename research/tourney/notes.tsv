@@ -322,3 +322,7 @@ t180	a completed SRP is skipped 150 rounds, not forever (t177 ported)
 y336	towers count a soldier/splasher 20 weaker than a mopper when choosing a target (was 60)
 y337	SRP centre choice weights tiles already right 6 (was 3)
 y338	an explore target counts as reached within d2 20 (was 8)
+t181	study 14 2.1a+b: siege steps to the edge of tower range (largest r2 <= 9) and steps out beyond it (r2 9; 16 for defense)
+t182	t181 + study 14 2.1c: also steps out after the free shot (unless a held ruin is within r2 8)
+t183	study 14 2.2: no lone siege: does not enter range of a seen tower without a soldier/splasher within r2 16 of it, unless it is at 200 HP or less
+t184	study 14 2.4: Churn.rebuild re-completes paint towers too, not only money towers

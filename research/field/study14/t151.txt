@@ -1,0 +1,86 @@
+45 (opponent, map) pairings played by t160, y316 or y323 and by at least one other version
+opponent                 map              y323          y316          t160          t158          t140          t135          t122          
+confused                 Piglets2         -             -             w             -             Lw            -             -             
+confused                 SaltyPepper      -             w             -             -             W             -             -             
+confused                 UnderTheSea      -             -             w             w             -             -             -             
+immutable                AlarmClock       -             w             W             -             -             -             -             
+immutable                BatSignal        -             l             -             -             -             -             Ll            
+immutable                CastleDefense    -             W             -             -             -             -             L             
+immutable                FourCorners      -             -             W             -             L             -             -             
+immutable                HungerGames      -             L             -             -             L             -             -             
+immutable                Racetrack        -             L             -             -             L             -             -             
+immutable                Thirds           -             w             -             -             w             -             -             
+immutable                UnderTheSea      -             W             -             -             W             -             W             
+immutable                gridworld        -             L             -             -             -             -             l             
+immutable                windmill         -             L             -             -             wW            -             -             
+just-woke-up             FourCorners      -             -             L             l             -             -             -             
+just-woke-up             Parking_lot      -             wl            -             -             w             -             -             
+om-nom                   AlarmClock       -             w             -             -             w             -             -             
+om-nom                   Paintball        -             -             W             -             L             -             -             
+om-nom                   Thirds           -             -             W             -             -             -             L             
+scienceqiu               Fossil           -             W             -             -             -             w             -             
+scienceqiu               UglySweater      -             w             -             -             w             -             w             
+scienceqiu               fix              -             W             -             -             -             -             l             
+scienceqiu               rain             -             w             -             -             LL            -             -             
+spaark                   AlarmClock       -             l             -             -             wW            -             -             
+spaark                   Bunny            -             w             -             -             ww            -             W             
+spaark                   Castle           -             -             l             l             W             -             -             
+spaark                   DefaultLarge     -             -             L             -             l             -             -             
+spaark                   DonkeyKong       -             w             -             -             -             -             W             
+spaark                   Filter           -             w             -             -             Wl            -             -             
+spaark                   Flower           -             w             -             -             -             -             w             
+spaark                   Paintball        -             l             L             -             L             -             -             
+spaark                   SaltyPepper      -             -             W             -             W             -             -             
+spaark                   Snowglobe        -             w             -             -             l             -             -             
+spaark                   fix              -             w             -             w             W             -             -             
+spaark                   maze             -             l             -             -             l             -             l             
+spaark                   sunrise          -             w             -             -             w             -             -             
+spaark                   walalilongla     -             l             w             -             -             -             -             
+subscribe-to-caterpillow Barcode          l             L             -             -             -             -             -             
+subscribe-to-caterpillow Crab             -             -             W             w             -             -             -             
+subscribe-to-caterpillow DonkeyKong       -             W             -             -             L             -             -             
+subscribe-to-caterpillow Justice          -             -             W             -             W             -             -             
+subscribe-to-caterpillow Portal           -             -             W             -             -             w             -             
+subscribe-to-caterpillow TargetPractice   -             W             -             -             ww            -             -             
+subscribe-to-caterpillow catface          w             -             -             -             W             w             -             
+subscribe-to-caterpillow galaxy           w             -             -             -             w             -             -             
+subscribe-to-caterpillow memstore         L             -             -             -             L             -             -             
+
+version against version, over the pairings both played (all opponents | the seven top teams):
+   y316 vs t160:  3 pairings: y316 1-2, t160 2-1   | top:  3 pairings: y316 1-2, t160 2-1
+   y316 vs t158:  1 pairings: y316 1-0, t158 1-0   | top:  1 pairings: y316 1-0, t158 1-0
+   y316 vs t140: 20 pairings: y316 14-7, t140 17-9   | top: 18 pairings: y316 12-6, t140 15-9
+   t160 vs t158:  4 pairings: t160 2-2, t158 2-2   | top:  2 pairings: t160 1-1, t158 1-1
+   t160 vs t140:  8 pairings: t160 5-3, t140 4-5   | top:  7 pairings: t160 4-3, t140 3-4
+   y323 vs y316:  1 pairings: y323 0-1, y316 0-1   | top:  1 pairings: y323 0-1, y316 0-1
+   y323 vs t140:  3 pairings: y323 2-1, t140 2-1   | top:  3 pairings: y323 2-1, t140 2-1
+   y323 vs t158:  0 pairings: y323 0-0, t158 0-0   | top:  0 pairings: y323 0-0, t158 0-0
+
+flips (every game of the first version lost / won while every game of the second won / lost):
+   y316 lost, t140 won: 2: immutable/windmill, spaark/AlarmClock
+   y316 won, t140 lost: 3: scienceqiu/rain, spaark/Snowglobe, subscribe-/DonkeyKong
+   t160 lost, t140 won: 1: spaark/Castle
+   t160 won, t140 lost: 2: immutable/FourCorners, om-nom/Paintball
+   y316 lost, t158 won: 0: 
+   y316 won, t158 lost: 0: 
+   t160 lost, t158 won: 0: 
+   t160 won, t158 lost: 0: 
+
+whole sets, per opponent: y323 | y316 | t160 | t158 | t140 | t135 | t122
+   angtn                         - |      - |      - |      - |      - |      - |    2-1
+   confused                      - |    4-1 |    2-1 |    3-6 |   8-11 |      - |      -
+   gone-whalin                   - |      - |      - |      - |   16-6 |    7-5 |  15-14
+   immutable                     - |    6-7 |    3-0 |    7-2 |  17-10 |    6-8 |   9-11
+   just-woke-up                  - |    2-4 |    0-3 |    2-4 |    1-5 |      - |      -
+   lobster-roll                  - |      - |      - |      - |    2-1 |    2-1 |   11-9
+   old-but-gold                  - |      - |      - |    1-2 |    0-3 |      - |      -
+   om-nom                        - |    5-1 |    2-1 |    3-3 |   9-13 |      - |    0-3
+   placeholder-name-2            - |      - |      - |      - |    3-0 |    4-5 |    3-3
+   scienceqiu                    - |    5-1 |      - |      - |   14-9 |    6-3 |  15-13
+   slifland                      - |      - |      - |      - |      - |    6-0 |    3-0
+   spaark                        - |    7-4 |    3-3 |    4-5 |  24-19 |    1-2 |   8-16
+   subscribe-to-caterpillow    3-2 |    4-2 |    3-0 |    9-3 |  17-18 |    3-3 |    3-3
+   varunvejalla                  - |      - |      - |      - |      - |      - |    3-0
+
+whole sets: y323 3-2, y316 33-20, t160 13-8, t158 29-25, t140 111-95, t135 35-27, t122 72-73
+top 7 only: y323 3-2, y316 27-15, t160 11-4, t158 23-13, t140 99-76, t135 25-22, t122 61-69
