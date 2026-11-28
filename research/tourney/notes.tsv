@@ -333,3 +333,6 @@ t185	study 14 4.5 bug fix: Towers.forget swaps the dry flag along with the tower
 t186	study 14 2.1b alone: siege steps fully out of tower range after a hit (approach unchanged)
 t187	study 14 2.5: soldiers paint tiles inside a known paint/money tower 5x5 in its pattern colour
 y342	towers count a soldier/splasher 40 weaker than a mopper (was 60; y336 20, y339 0)
+t188	t186 + t187 (siege step-out fix; pattern-colour painting near our towers)
+y343	an SRP is dropped when its centre is within d2 36 of an enemy tower (was 25)
+y344	splashers value an enemy tower 50 in the splash grid (was 30)

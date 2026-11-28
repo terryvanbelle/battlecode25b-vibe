@@ -548,7 +548,7 @@ y328  # champion (y323 + dry flags 60 rounds; crowned 2026-11-27 20:47)
 # y329 (retired: -5 vs y328 after 619 games (flat); dry flags 80 rounds)
 # y330 (retired: built on y323, -1 after 128 games; adjacent dry below 40 (rebuilt as y334))
 # y331 (retired: -9 vs y328 after 332 games; dry flags 100 rounds, the same knob as y329 (80); room for study 14)
-y332
+# y332 (retired: -1 vs y328 after 821 games (flat); paint-tower dry 20)
 # y333 (retired: -37 vs y328 after 301 games; dry clear at 100 paint)
 # y334 (retired: -6 vs y328 after 510 games (flat); adjacent dry below 40)
 # y335 (retired: -19 vs y328 after 341 games; far dry below 60)
@@ -557,15 +557,18 @@ y332
 # t180 (retired: -2 vs y328 after 665 games (flat); SRP skip 150 rounds)
 y336
 # y337 (retired: -45 vs y328 after 291 games; SRP right weight 6)
-y338
+# y338 (retired: -12 vs y328 after 563 games (flat); explore reached 20)
 # t181 (retired: -22 vs y328 after 244 games; study 14 2.1a+b siege edge/step-out)
 # t182 (retired: -34 vs y328 after 274 games; t181 + free-shot step-out)
 # t183 (retired: -158 vs y328 after 77 games (4 SE behind); study 14 2.2 no lone siege)
 # t184 (retired: -26 vs y328 after 246 games; study 14 2.4 paint-tower rebuild)
-y339
-y340
+# y339 (retired: -20 vs y328 after 216 games; tower target weight 0)
+# y340 (retired: -57 vs y328 after 216 games; paint-tower dry 30)
 y341
 t185
 t186
 t187
 y342
+t188
+y343
+y344
