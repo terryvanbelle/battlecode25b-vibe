@@ -1,0 +1,31 @@
+19 won games: m7490g0 Racetrack(just-w,MAJ291), m7491g1 galaxy(confus,MAJ819), m7520g2 leavemealone(old-bu,MAJ315), m7527g0 Gears(just-w,MAJ435), m7528g0 Portal(confus,MAJ257), m7528g1 TargetPractice(confus,MAJ274), m7544g2 starburst(om-nom,ALL403), m7547g0 CastleDefense(confus,MAJ153), m7547g1 HungerGames(confus,MAJ442), m7564g0 AlarmClock(old-bu,MAJ311), m7572g1 box(immuta,MAJ231), m7572g2 gardenworld(immuta,MAJ476), m7599g2 roads(om-nom,MAJ283), m7600g0 Restart(spaark,MAJ454), m7600g2 starburst(spaark,MAJ312), m7627g1 Dominoes(lobste,MAJ350), m7627g2 quack(lobste,MAJ244), m7631g2 UglySweater(spaark,MAJ266), m7636g1 TheBest(spaark,MAJ333)
+wintypes: {'MAJORITY_PAINTED': 18, 'ALL_UNITS_DESTROYED': 1}  median end round 312
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   19 |   10.5/10.0      124/110          3/3          1/1          2/2          0/0     740/1000    1291/1241          0/0          7/5          7/5          0/0          0/0
+r50   19 |   14.4/14.5      190/180          4/4          1/1          3/3          0/0      800/900    1589/1608          0/0          8/7          8/5          0/0          0/1
+r75   19 |   18.4/18.4      201/217          5/4          1/1          4/3          0/0     590/1030    2145/1876          0/0          7/9          7/6          0/0          0/2
+r100  19 |   25.8/21.4      294/256          6/4          1/1          5/3          0/0     1010/930    2020/2095          0/0         10/9          9/6          0/0          1/2
+r150  19 |   36.1/24.1      453/271          7/5          1/1          6/4          0/0    1860/2008    2066/1878          0/0        14/13         10/7          1/1          3/4
+r200  18 |   43.0/26.8  546.5/319.5      7.5/6.0      2.0/1.0      6.0/3.5      0.0/0.0  1328.5/1592.5  3064.0/1802.5      1.5/1.0    19.5/12.5     10.5/6.0      2.0/1.0      5.0/5.5
+r300  11 |   50.4/25.6      900/482          9/6          3/1          7/4          0/0    1140/2423    5999/2431          7/1        40/21         19/8         10/2         11/8
+r400   6 |   59.5/30.6  1415.5/646.5     10.0/6.5      4.0/1.5      6.0/3.0      0.0/0.0  1637.5/2213.0  9405.0/4040.5      7.5/2.5    63.5/30.5    25.0/12.5    24.5/10.0     15.0/8.0
+
+m7490g0 y360 just-woke-up Racetrack      rounds r101-400 with chips>=3000: us  58 them   0; max srp us 0 them 1
+m7491g1 y360 confused     galaxy         rounds r101-400 with chips>=3000: us   7 them  50; max srp us 8 them 3
+m7520g2 y360 old-but-gold leavemealone   rounds r101-400 with chips>=3000: us  46 them 134; max srp us 11 them 3
+m7527g0 y360 just-woke-up Gears          rounds r101-400 with chips>=3000: us  35 them  44; max srp us 39 them 19
+m7528g0 y360 confused     Portal         rounds r101-400 with chips>=3000: us   1 them  63; max srp us 1 them 0
+m7528g1 y360 confused     TargetPractice rounds r101-400 with chips>=3000: us  43 them 168; max srp us 3 them 0
+m7544g2 y360 om-nom       starburst      rounds r101-400 with chips>=3000: us  34 them 135; max srp us 1 them 2
+m7547g0 y360 confused     CastleDefense  rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0
+m7547g1 y360 confused     HungerGames    rounds r101-400 with chips>=3000: us   9 them  56; max srp us 10 them 6
+m7564g0 y360 old-but-gold AlarmClock     rounds r101-400 with chips>=3000: us   2 them  28; max srp us 8 them 3
+m7572g1 y360 immutable    box            rounds r101-400 with chips>=3000: us   0 them   0; max srp us 2 them 0
+m7572g2 y360 immutable    gardenworld    rounds r101-400 with chips>=3000: us  48 them   0; max srp us 28 them 15
+m7599g2 y360 om-nom       roads          rounds r101-400 with chips>=3000: us  12 them  60; max srp us 3 them 1
+m7600g0 y360 spaark       Restart        rounds r101-400 with chips>=3000: us   8 them 133; max srp us 6 them 2
+m7600g2 y360 spaark       starburst      rounds r101-400 with chips>=3000: us  12 them  19; max srp us 3 them 1
+m7627g1 y360 lobster-roll Dominoes       rounds r101-400 with chips>=3000: us   4 them  18; max srp us 3 them 1
+m7627g2 y360 lobster-roll quack          rounds r101-400 with chips>=3000: us  11 them   0; max srp us 1 them 3
+m7631g2 y360 spaark       UglySweater    rounds r101-400 with chips>=3000: us   4 them  11; max srp us 12 them 6
+m7636g1 y374 spaark       TheBest        rounds r101-400 with chips>=3000: us   0 them  64; max srp us 16 them 4

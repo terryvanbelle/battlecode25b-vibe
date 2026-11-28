@@ -1,0 +1,57 @@
+45 games (15 matches)
+m7490 g0 y360  R  just-woke-up   Racetrack        W   291 MAJ   70.3/ 19.6  
+m7490 g1 y360  R  just-woke-up   Thirds           L   448 MAJ   23.2/ 69.6  
+m7490 g2 y360  R  just-woke-up   leavemealone     L   270 MAJ   22.3/ 70.0  
+m7491 g0 y360  u  confused       DonkeyKong       L   448 MAJ   21.8/ 70.3  
+m7491 g1 y360  u  confused       galaxy           W   819 MAJ   70.5/ 24.3  
+m7491 g2 y360  u  confused       maze             L  2000 ARE   40.0/ 56.7  
+m7520 g0 y360  u  old-but-gold   Racetrack        L   284 MAJ   19.2/ 71.2  
+m7520 g1 y360  u  old-but-gold   TheBest          L   422 MAJ   28.0/ 70.0  
+m7520 g2 y360  u  old-but-gold   leavemealone     W   315 MAJ   70.1/ 19.3  
+m7527 g0 y360  R  just-woke-up   Gears            W   435 MAJ   70.4/ 28.4  
+m7527 g1 y360  R  just-woke-up   SandyBeach       L   324 MAJ   20.7/ 72.0  
+m7527 g2 y360  R  just-woke-up   boxofchocolates  L   680 MAJ   22.3/ 69.8  
+m7528 g0 y360  u  confused       Portal           W   257 MAJ   70.7/ 12.4  
+m7528 g1 y360  u  confused       TargetPractice   W   274 MAJ   70.2/ 12.2  
+m7528 g2 y360  u  confused       yearofthesnake   L   500 MAJ   17.2/ 70.4  
+m7544 g0 y360  R  om-nom         BatSignal        L   569 ALL    9.6/ 63.8  
+m7544 g1 y360  R  om-nom         boxofchocolates  L   583 ALL    6.4/ 59.8  
+m7544 g2 y360  R  om-nom         starburst        W   403 ALL   65.0/  7.3  
+m7547 g0 y360  R  confused       CastleDefense    W   153 MAJ   70.3/ 20.0  
+m7547 g1 y360  R  confused       HungerGames      W   442 MAJ   70.0/ 23.2  
+m7547 g2 y360  R  confused       memstore         L   355 MAJ   17.4/ 70.0  
+m7564 g0 y360  u  old-but-gold   AlarmClock       W   311 MAJ   70.1/ 26.8  
+m7564 g1 y360  u  old-but-gold   DefaultLarge     L   318 MAJ   25.6/ 70.6  
+m7564 g2 y360  u  old-but-gold   TargetPractice   L   324 MAJ   25.4/ 70.6  
+m7565 g0 y360  R  om-nom         Brat             L   207 ALL    7.4/ 54.0  
+m7565 g1 y360  R  om-nom         Jail             L   112 ALL   10.4/ 27.4  
+m7565 g2 y360  R  om-nom         TheBest          L   502 MAJ   17.9/ 70.5  
+m7572 g0 y360  R  immutable      Barcode          L   407 MAJ   24.6/ 70.8  
+m7572 g1 y360  R  immutable      box              W   231 MAJ   70.1/ 21.2  
+m7572 g2 y360  R  immutable      gardenworld      W   476 MAJ   70.1/ 24.5  
+m7599 g0 y360  R  om-nom         DefaultMedium    L   374 MAJ    7.2/ 70.2  
+m7599 g1 y360  R  om-nom         gardenworld      L   485 MAJ    7.4/ 70.1  
+m7599 g2 y360  R  om-nom         roads            W   283 MAJ   70.3/ 17.8  
+m7600 g0 y360  u  spaark         Restart          W   454 MAJ   70.0/  6.9  
+m7600 g1 y360  u  spaark         gardenworld      L   613 MAJ    5.8/ 70.1  
+m7600 g2 y360  u  spaark         starburst        W   312 MAJ   70.6/ 11.5  
+m7627 g0 y360  R  lobster-roll   BatSignal        L   531 MAJ    9.0/ 70.0  
+m7627 g1 y360  R  lobster-roll   Dominoes         W   350 MAJ   70.6/ 14.5  
+m7627 g2 y360  R  lobster-roll   quack            W   244 MAJ   70.7/ 19.3  
+m7631 g0 y360  R  spaark         Crab             L   414 ALL    3.5/ 68.5  
+m7631 g1 y360  R  spaark         Money            L   547 MAJ   19.8/ 70.0  
+m7631 g2 y360  R  spaark         UglySweater      W   266 MAJ   70.5/ 12.2  
+m7636 g0 y374  R  spaark         SaltyPepper      L   337 MAJ   15.8/ 70.2  
+m7636 g1 y374  R  spaark         TheBest          W   333 MAJ   70.1/ 12.7  
+m7636 g2 y374  R  spaark         UnderTheSea      L   331 MAJ   14.0/ 70.2  
+
+exact repeats (0): 
+
+y360: 18-24; TOP7 16-23; ranked 11-16, unranked 7-8; losses 24, median end r435.0, eliminations 5 (om-nom, spaark)
+   confused 5-4, immutable 2-1, just-woke-up 2-4, lobster-roll 2-1, old-but-gold 2-4, om-nom 2-7, spaark 3-3
+
+y374: 1-2; TOP7 1-2; ranked 1-2, unranked 0-0; losses 2, median end r334.0, eliminations 0 ()
+   spaark 1-2
+
+both: 19-26; TOP7 17-25; ranked 12-18, unranked 7-8; losses 26, median end r418.0, eliminations 5 (om-nom, spaark)
+   confused 5-4, immutable 2-1, just-woke-up 2-4, lobster-roll 2-1, old-but-gold 2-4, om-nom 2-7, spaark 4-5

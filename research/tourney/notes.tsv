@@ -384,3 +384,9 @@ y378	soldiers paint underfoot from 5 paint (y374 10)
 y379	soldiers refill below 110 paint (y358 120)
 y380	soldiers siege enemy towers within d2 100 (was 144)
 y381	soldiers explore-paint from 45 paint (y360 40)
+y382	soldiers start an SRP from 45 paint (was 60)
+y383	SRPs start from 700 chips (was 1000)
+t200	study 16 2.1 r1: the churn-wait repair steps along the tower ring to reach a wrong pattern tile
+t201	study 16 2.2 d1: the dry flag holds at L2+ money towers (only L1 churns)
+t202	study 16 2.3 v1: an SRP centre needs every tile within Chebyshev 4 seen
+t203	study 16 r1v1: t200 + t202

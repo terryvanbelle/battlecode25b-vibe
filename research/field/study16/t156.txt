@@ -1,0 +1,38 @@
+
+== lost: 29 games
+  us:
+    A. robot-turns per game 11305; at 0 paint 507.7 (4.5%): soldier 287.5, splasher 180.8, mopper 39.4; own robots within r2 2 of a stuck robot 1.05
+    B. hit 0 paint per game 67.6 (soldier 30.4, splasher 23.8, mopper 13.3)
+       beside an own tower 16% (11.1 a game; that tower holding 50+ paint 2%); own tower in sight 26% (50+ paint 8%); none in sight 58%
+       beside: money_tower with chips 2000+ 67%, money_tower with chips under 2000 13%, paint_tower with chips 2000+ 7%, paint_tower with chips under 2000 14%
+       beside: rounds already beside it (median) 3, paint on arrival (median) 9
+    C. robot-turns beside an own drained money tower (< 10 paint) per game 510
+    D. starved per game: soldier 28.10, splasher 22.48, mopper 13.28; disintegrated per game: soldier 0.00, splasher 0.00, mopper 0.00
+  them:
+    A. robot-turns per game 22186; at 0 paint 646.4 (2.9%): soldier 300.0, splasher 250.3, mopper 96.0; own robots within r2 2 of a stuck robot 1.45
+    B. hit 0 paint per game 106.7 (soldier 35.1, splasher 37.6, mopper 34.0)
+       beside an own tower 3% (3.0 a game; that tower holding 50+ paint 1%); own tower in sight 16% (50+ paint 7%); none in sight 81%
+       beside: money_tower with chips 2000+ 44%, money_tower with chips under 2000 32%, paint_tower with chips 2000+ 14%, paint_tower with chips under 2000 10%
+       beside: rounds already beside it (median) 2.0, paint on arrival (median) 4.0
+    C. robot-turns beside an own drained money tower (< 10 paint) per game 405
+    D. starved per game: soldier 28.69, splasher 29.90, mopper 30.10; disintegrated per game: soldier 1.72, splasher 5.38, mopper 3.31
+  their disintegrated robots per game, by opponent: confused 30.0 (2 g), spaark 40.3 (6 g)
+
+== won: 37 games
+  us:
+    A. robot-turns per game 11032; at 0 paint 229.1 (2.1%): soldier 130.2, splasher 77.8, mopper 21.1; own robots within r2 2 of a stuck robot 1.34
+    B. hit 0 paint per game 33.4 (soldier 15.6, splasher 10.5, mopper 7.2)
+       beside an own tower 14% (4.5 a game; that tower holding 50+ paint 2%); own tower in sight 26% (50+ paint 11%); none in sight 60%
+       beside: money_tower with chips 2000+ 44%, money_tower with chips under 2000 42%, paint_tower with chips 2000+ 3%, paint_tower with chips under 2000 11%
+       beside: rounds already beside it (median) 3.0, paint on arrival (median) 9.5
+    C. robot-turns beside an own drained money tower (< 10 paint) per game 272
+    D. starved per game: soldier 13.76, splasher 9.54, mopper 7.08; disintegrated per game: soldier 0.00, splasher 0.00, mopper 0.00
+  them:
+    A. robot-turns per game 6274; at 0 paint 222.8 (3.6%): soldier 119.7, splasher 53.4, mopper 49.7; own robots within r2 2 of a stuck robot 0.58
+    B. hit 0 paint per game 43.2 (soldier 17.5, splasher 7.9, mopper 17.8)
+       beside an own tower 3% (1.3 a game; that tower holding 50+ paint 1%); own tower in sight 13% (50+ paint 7%); none in sight 84%
+       beside: defense_tower with chips 2000+ 12%, money_tower with chips 2000+ 22%, money_tower with chips under 2000 20%, paint_tower with chips 2000+ 14%, paint_tower with chips under 2000 31%
+       beside: rounds already beside it (median) 2, paint on arrival (median) 4
+    C. robot-turns beside an own drained money tower (< 10 paint) per game 71
+    D. starved per game: soldier 13.78, splasher 7.22, mopper 16.59; disintegrated per game: soldier 0.11, splasher 0.03, mopper 0.19
+  their disintegrated robots per game, by opponent: confused 3.0 (1 g), lobster-roll 1.2 (5 g), spaark 0.3 (9 g)

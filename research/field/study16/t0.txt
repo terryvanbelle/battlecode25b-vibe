@@ -1,0 +1,41 @@
+29 lost games: m7239g0 BatSignal(just-w,MAJ399), m7239g1 Fossil(just-w,MAJ256), m7240g0 HungerGames(spaark,MAJ499), m7241g0 Portal(om-nom,MAJ449), m7241g1 SMILE(om-nom,MAJ1045), m7242g1 Terminal(immuta,MAJ381), m7294g1 Fossil(gone-w,MAJ366), m7294g2 TargetPractice(gone-w,MAJ365), m7310g0 Justice(spaark,ALL265), m7310g2 maze(spaark,MAJ849), m7351g0 DefaultMedium(spaark,ALL329), m7351g1 Mirage(spaark,ALL392), m7351g2 windmill(spaark,ALL417), m7365g2 maze(om-nom,MAJ609), m7373g0 HungerGames(old-bu,MAJ488), m7373g1 Racetrack(old-bu,MAJ697), m7394g1 Restart(confus,ALL268), m7394g2 gridworld(confus,MAJ480), m7422g0 Brat(just-w,MAJ428), m7422g1 Snowglobe(just-w,MAJ240), m7424g0 Fossil(gone-w,MAJ434), m7424g1 TargetPractice(gone-w,MAJ464), m7426g2 rain(lobste,MAJ433), m7432g1 Restart(om-nom,MAJ451), m7432g2 windmill(om-nom,ALL370), m7452g0 Snowman(old-bu,MAJ420), m7452g1 maze(old-bu,MAJ725), m7452g2 roads(old-bu,MAJ308), m7459g0 CastleDefense(om-nom,ALL95)
+wintypes: {'MAJORITY_PAINTED': 22, 'ALL_UNITS_DESTROYED': 7}  median end round 420
+round  n |      covpct          cov          tow           pt           mt           dt        money        paint          srp        units          sol          spl          mop   (us/them)
+r25   29 |   11.2/11.6       111/99          3/3          1/1          2/2          0/0     720/1120    1265/1349          0/0          7/5          7/5          0/0          0/0
+r50   29 |   14.9/15.4      166/145          4/4          1/1          3/3          0/0      860/700    1541/1791          0/0          8/6          8/5          0/0          0/1
+r75   29 |   18.8/16.6      199/187          5/5          1/1          4/4          0/0      850/860    1983/2220          0/0          8/9          8/5          0/0          0/3
+r100  28 |   25.6/18.6  277.5/219.5      5.0/5.0      1.0/1.0      5.0/4.0      0.0/0.0  1035.0/1000.0  1883.0/2400.5      0.0/0.0    10.0/11.5      8.5/6.0      0.0/0.0      1.0/4.5
+r150  28 |   34.5/26.2  361.0/274.0      6.0/7.0      1.0/1.0      5.0/5.0      0.0/0.0  1940.0/1312.0  1801.5/2717.0      0.0/0.0    12.5/16.0      7.0/8.0      1.0/1.0      3.0/7.0
+r200  28 |   32.2/33.1  365.5/358.5      6.5/7.5      1.0/1.0      5.0/5.0      0.0/0.0  2170.0/1482.5  1702.5/2806.0      0.0/1.0    12.5/19.5      6.5/8.5      2.0/3.0      4.0/9.0
+r300  24 |   30.4/43.0  325.5/488.0      6.0/8.5      1.0/2.0      4.5/7.0      0.0/0.0  3389.5/1860.0  1270.5/4072.0      0.0/1.5    13.0/28.0      5.0/9.0      2.0/5.5     5.0/11.5
+r400  16 |   23.9/55.2  267.0/597.5     5.5/11.5      1.0/4.0      4.0/8.5      0.0/0.0  3681.5/1210.0  884.0/6475.5      0.0/3.0    12.5/39.5     4.0/15.0      3.0/9.5     4.0/15.0
+
+m7239g0 t188 just-woke-up BatSignal      rounds r101-400 with chips>=3000: us 239 them  68; max srp us 1 them 6
+m7239g1 t188 just-woke-up Fossil         rounds r101-400 with chips>=3000: us  79 them   0; max srp us 0 them 6
+m7240g0 t188 spaark       HungerGames    rounds r101-400 with chips>=3000: us  61 them  23; max srp us 2 them 10
+m7241g0 t188 om-nom       Portal         rounds r101-400 with chips>=3000: us  95 them  69; max srp us 2 them 5
+m7241g1 t188 om-nom       SMILE          rounds r101-400 with chips>=3000: us  41 them 190; max srp us 28 them 32
+m7242g1 t188 immutable    Terminal       rounds r101-400 with chips>=3000: us  51 them   2; max srp us 0 them 3
+m7294g1 t188 gone-whalin  Fossil         rounds r101-400 with chips>=3000: us 126 them  23; max srp us 0 them 0
+m7294g2 t188 gone-whalin  TargetPractice rounds r101-400 with chips>=3000: us  92 them  51; max srp us 1 them 0
+m7310g0 t188 spaark       Justice        rounds r101-400 with chips>=3000: us 125 them  20; max srp us 0 them 0
+m7310g2 t188 spaark       maze           rounds r101-400 with chips>=3000: us 117 them  36; max srp us 2 them 17
+m7351g0 y358 spaark       DefaultMedium  rounds r101-400 with chips>=3000: us 156 them   8; max srp us 3 them 6
+m7351g1 y358 spaark       Mirage         rounds r101-400 with chips>=3000: us 127 them   2; max srp us 6 them 5
+m7351g2 y358 spaark       windmill       rounds r101-400 with chips>=3000: us   0 them  24; max srp us 0 them 3
+m7365g2 y358 om-nom       maze           rounds r101-400 with chips>=3000: us  68 them  30; max srp us 1 them 10
+m7373g0 y358 old-but-gold HungerGames    rounds r101-400 with chips>=3000: us  24 them 140; max srp us 3 them 14
+m7373g1 y358 old-but-gold Racetrack      rounds r101-400 with chips>=3000: us 114 them  75; max srp us 2 them 3
+m7394g1 y358 confused     Restart        rounds r101-400 with chips>=3000: us  37 them   5; max srp us 0 them 5
+m7394g2 y358 confused     gridworld      rounds r101-400 with chips>=3000: us  14 them  16; max srp us 0 them 0
+m7422g0 y358 just-woke-up Brat           rounds r101-400 with chips>=3000: us  98 them  34; max srp us 0 them 0
+m7422g1 y358 just-woke-up Snowglobe      rounds r101-400 with chips>=3000: us  20 them   0; max srp us 4 them 8
+m7424g0 y358 gone-whalin  Fossil         rounds r101-400 with chips>=3000: us 184 them  45; max srp us 1 them 0
+m7424g1 y358 gone-whalin  TargetPractice rounds r101-400 with chips>=3000: us 148 them   0; max srp us 2 them 0
+m7426g2 y358 lobster-roll rain           rounds r101-400 with chips>=3000: us 246 them   0; max srp us 1 them 4
+m7432g1 y358 om-nom       Restart        rounds r101-400 with chips>=3000: us  28 them  42; max srp us 2 them 11
+m7432g2 y358 om-nom       windmill       rounds r101-400 with chips>=3000: us   0 them  80; max srp us 0 them 1
+m7452g0 y358 old-but-gold Snowman        rounds r101-400 with chips>=3000: us 247 them 148; max srp us 1 them 1
+m7452g1 y358 old-but-gold maze           rounds r101-400 with chips>=3000: us  14 them 121; max srp us 0 them 15
+m7452g2 y358 old-but-gold roads          rounds r101-400 with chips>=3000: us  64 them 100; max srp us 1 them 6
+m7459g0 y358 om-nom       CastleDefense  rounds r101-400 with chips>=3000: us   0 them   0; max srp us 0 them 0

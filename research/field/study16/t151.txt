@@ -1,0 +1,117 @@
+68 (opponent, map) pairings played by y374, y360, y358 or t188 and by at least one other version
+opponent                 map              y374      y360      y358      t188      t186      y328      y323      y316      t160      t158      t140      
+confused                 DonkeyKong       -         l         -         -         -         -         -         -         -         -         L         
+confused                 Portal           -         W         -         -         -         -         -         -         -         W         -         
+confused                 SandyBeach       -         -         -         W         -         -         -         -         -         -         W         
+confused                 TargetPractice   -         W         -         -         -         -         -         -         -         w         -         
+confused                 galaxy           -         w         -         -         -         -         -         -         -         -         w         
+confused                 walalilongla     -         -         -         L         -         w         -         -         -         -         -         
+gone-whalin              Bread            -         -         -         L         -         -         -         -         -         -         l         
+gone-whalin              DefaultMedium    -         -         -         w         -         -         -         -         -         -         w         
+gone-whalin              Fossil           -         -         L         l         -         -         -         -         -         -         -         
+gone-whalin              PlumberGame      -         -         -         W         -         -         -         -         -         -         W         
+gone-whalin              TargetPractice   -         -         L         l         -         -         -         -         -         -         -         
+immutable                AlarmClock       -         -         -         L         -         w         -         w         W         -         -         
+immutable                Barcode          -         L         -         -         -         L         -         -         -         -         -         
+immutable                Circuit          -         -         -         W         -         -         -         -         -         w         -         
+immutable                Fossil           -         -         -         W         -         -         -         -         -         -         w         
+immutable                Leaf             -         -         -         W         -         -         -         -         -         w         -         
+immutable                gardenworld      -         W         -         -         -         -         -         -         -         -         W         
+immutable                sayhi            -         -         -         W         -         -         -         -         -         -         W         
+just-woke-up             BatSignal        -         -         -         L         -         -         -         -         -         L         -         
+just-woke-up             Racetrack        -         w         -         -         -         -         -         -         -         -         l         
+just-woke-up             Snowglobe        -         -         L         -         -         -         -         l         -         -         -         
+just-woke-up             TheBest          -         -         -         l         -         L         -         -         -         -         -         
+just-woke-up             boxofchocolates  -         l         -         -         -         -         -         -         -         -         l         
+old-but-gold             AlarmClock       -         w         -         -         -         -         -         -         -         w         -         
+old-but-gold             DefaultLarge     -         l         -         -         -         -         -         -         -         l         -         
+old-but-gold             Racetrack        -         l         l         -         -         -         -         -         -         -         -         
+old-but-gold             TheBest          -         l         -         -         -         -         -         -         -         -         l         
+old-but-gold             leavemealone     -         w         w         -         -         -         -         -         -         -         -         
+old-but-gold             roads            -         -         L         -         -         -         -         -         -         -         l         
+om-nom                   AlarmClock       -         -         -         W         -         -         -         w         -         -         w         
+om-nom                   BatSignal        -         L         -         -         -         W         -         -         -         -         -         
+om-nom                   Brat             -         l         -         -         -         -         -         -         -         l         l         
+om-nom                   CastleDefense    -         -         L         -         -         -         -         -         -         -         L         
+om-nom                   Circuit          -         -         W         -         -         -         -         -         -         -         L         
+om-nom                   Jail             -         l         -         -         -         L         -         -         -         -         -         
+om-nom                   Piglets2         -         -         w         -         -         -         -         w         -         -         -         
+om-nom                   Portal           -         -         W         L         -         -         -         -         -         -         l         
+om-nom                   Restart          -         -         l         -         -         -         -         l         -         -         -         
+om-nom                   UglySweater      -         -         W         -         -         -         -         -         -         -         w         
+om-nom                   defensetower     -         -         W         W         -         -         -         -         -         -         -         
+om-nom                   gardenworld      -         l         -         -         -         -         -         -         -         -         W         
+om-nom                   shell            -         -         -         W         -         w         -         -         -         -         -         
+om-nom                   starburst        -         W         -         -         -         -         -         -         -         -         w         
+scienceqiu               Fossil           -         -         -         w         -         -         -         W         -         -         -         
+scienceqiu               Paintball        -         -         w         w         -         -         -         -         -         -         W         
+scienceqiu               SMILE            -         -         -         w         -         -         -         -         -         -         w         
+scienceqiu               memstore         -         -         w         -         -         -         -         -         -         -         w         
+spaark                   Circuit          -         -         -         W         -         -         -         -         -         -         W         
+spaark                   Crab             -         l         -         -         -         -         -         -         -         L         L         
+spaark                   DefaultMedium    -         -         l         -         -         l         -         -         -         -         L         
+spaark                   DonkeyKong       -         -         -         w         W         -         -         w         -         -         -         
+spaark                   HungerGames      -         -         -         l         -         -         -         -         -         -         w         
+spaark                   Justice          -         -         -         L         -         -         -         -         -         -         L         
+spaark                   Leaf             -         -         -         W         -         -         -         -         -         -         LL        
+spaark                   Money            -         l         -         -         -         l         -         -         -         -         W         
+spaark                   Oasis            -         -         W         -         -         -         -         -         -         -         W         
+spaark                   Piglets2         -         -         -         l         -         -         -         -         -         -         L         
+spaark                   SaltyPepper      l         -         -         -         -         -         -         -         W         -         W         
+spaark                   UglySweater      -         w         -         -         -         -         -         -         -         -         W         
+spaark                   UnderTheSea      l         -         -         -         -         -         -         -         -         L         -         
+spaark                   catface          -         -         -         w         -         L         -         -         -         -         -         
+spaark                   gardenworld      -         l         -         -         -         w         -         -         -         -         -         
+spaark                   gridworld        -         -         -         w         -         -         -         -         -         w         -         
+spaark                   maze             -         -         -         L         -         -         -         l         -         -         l         
+spaark                   memstore         -         -         -         w         -         -         -         -         -         w         -         
+spaark                   mit              -         -         W         -         -         W         -         -         -         -         W         
+spaark                   starburst        -         w         -         -         -         -         -         -         w         -         -         
+spaark                   windmill         -         -         l         -         -         -         -         -         -         -         l         
+
+version against version, over the pairings both played (all opponents | the seven teams of the brief, TOP7):
+   y360 vs y358:  2 pairings: y360 1-1, y358 1-1   | TOP7:  2 pairings: y360 1-1, y358 1-1
+   y360 vs t188:  0 pairings: y360 0-0, t188 0-0   | TOP7:  0 pairings: y360 0-0, t188 0-0
+   y360 vs y328:  5 pairings: y360 0-5, y328 2-3   | TOP7:  5 pairings: y360 0-5, y328 2-3
+   y360 vs t140: 12 pairings: y360 5-7, t140 6-6   | TOP7: 12 pairings: y360 5-7, t140 6-6
+   y374 vs y360:  0 pairings: y374 0-0, y360 0-0   | TOP7:  0 pairings: y374 0-0, y360 0-0
+   y374 vs y358:  0 pairings: y374 0-0, y358 0-0   | TOP7:  0 pairings: y374 0-0, y358 0-0
+   y358 vs t188:  5 pairings: y358 3-2, t188 2-3   | TOP7:  4 pairings: y358 2-2, t188 1-3
+   y358 vs t188new:  5 pairings: y358 3-2, t188new 2-3   | TOP7:  4 pairings: y358 2-2, t188new 1-3
+   y358 vs t188old:  0 pairings: y358 0-0, t188old 0-0   | TOP7:  0 pairings: y358 0-0, t188old 0-0
+   t188new vs t188old:  0 pairings: t188new 0-0, t188old 0-0   | TOP7:  0 pairings: t188new 0-0, t188old 0-0
+   y358 vs y328:  2 pairings: y358 1-1, y328 1-1   | TOP7:  2 pairings: y358 1-1, y328 1-1
+   t188 vs y328:  5 pairings: t188 2-3, y328 3-2   | TOP7:  5 pairings: t188 2-3, y328 3-2
+   y358 vs y316:  3 pairings: y358 1-2, y316 1-2   | TOP7:  3 pairings: y358 1-2, y316 1-2
+   t188 vs y316:  5 pairings: t188 3-2, y316 4-1   | TOP7:  4 pairings: t188 2-2, y316 3-1
+   y358 vs t140: 11 pairings: y358 7-4, t140 5-6   | TOP7:  9 pairings: y358 5-4, t140 3-6
+   t188 vs t140: 16 pairings: t188 10-6, t140 10-7   | TOP7: 14 pairings: t188 8-6, t140 8-7
+
+flips (every game of the first version lost / won while every game of the second won / lost):
+   y360 lost, y358 won: 0: 
+   y360 won, y358 lost: 0: 
+   y360 lost, t188 won: 0: 
+   y360 won, t188 lost: 0: 
+   y358 lost, t188 won: 0: 
+   y358 won, t188 lost: 1: om-nom/Portal
+   y358 lost, y328 won: 0: 
+   y358 won, y328 lost: 0: 
+   t188 lost, y328 won: 2: confused/walalilongla, immutable/AlarmClock
+   t188 won, y328 lost: 1: spaark/catface
+   t188new lost, t188old won: 0: 
+   t188new won, t188old lost: 0: 
+
+whole sets, per opponent: y374 | y360 | y358 | t188 | t186 | y328 | y323 | y316 | t160 | t158 | t140
+   confused                      - |    5-4 |    1-2 |    2-1 |      - |    4-5 |      - |    4-1 |    2-1 |    3-6 |    7-9
+   gone-whalin                   - |      - |    1-2 |    3-3 |      - |      - |      - |      - |      - |      - |    9-5
+   immutable                     - |    2-1 |      - |    4-2 |    2-1 |   11-7 |      - |    6-7 |    3-0 |    7-2 |   16-8
+   just-woke-up                  - |    2-4 |    1-2 |    3-3 |      - |    0-5 |      - |    2-4 |    0-3 |    2-4 |    1-5
+   lobster-roll                  - |    2-1 |    5-1 |      - |      - |      - |      - |      - |      - |      - |    2-1
+   old-but-gold                  - |    2-4 |    1-5 |      - |      - |      - |      - |      - |      - |    1-2 |    0-3
+   om-nom                        - |    2-7 |    8-4 |    3-3 |      - |    4-5 |      - |    5-1 |    2-1 |    3-3 |   7-10
+   scienceqiu                    - |      - |    3-0 |    6-0 |      - |      - |      - |    5-1 |      - |      - |   12-8
+   spaark                      1-2 |    3-3 |    3-3 |    8-4 |    3-0 |    7-8 |      - |    7-4 |    3-3 |    4-5 |  22-15
+   subscribe-to-caterpillow      - |      - |      - |      - |      - |   10-7 |    3-2 |    4-2 |    3-0 |    9-3 |  15-14
+
+whole sets: y374 1-2, y360 18-24, y358 23-19, t188 29-16, t186 5-1, y328 36-37, y323 3-2, y316 33-20, t160 13-8, t158 29-25, t140 91-78
+TOP7 only: y374 1-2, y360 16-23, y358 15-18, t188 23-16, t186 5-1, y328 26-30, y323 0-0, y316 24-17, t160 10-8, t158 20-22, t140 62-55

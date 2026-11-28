@@ -1,0 +1,20 @@
+
+== lost: 28 games; clean spells of free ruins in r101-300
+   us   ruins nearer to own towers: 7.3 spells/game, length med 10 rounds; began by a cleaning 28%; a soldier of the side within Chebyshev 2 during it 78% (after med 0 rounds; after a cleaning 75%)
+        ended: built by the side 67%, enemy paint back 25%, r300 / end 7% | after a cleaning: built by the side 61%, enemy paint back 35%, r300 / end 4%
+   us   ruins nearer to the other side towers: 2.6 spells/game, length med 68 rounds; began by a cleaning 5%; a soldier of the side within Chebyshev 2 during it 30% (after med 3.0 rounds; after a cleaning 100%)
+        ended: built by the side 27%, enemy paint back 52%, r300 / end 21% | after a cleaning: built by the side 100%, enemy paint back 0%, r300 / end 0%
+   them ruins nearer to own towers: 9.2 spells/game, length med 16 rounds; began by a cleaning 31%; a soldier of the side within Chebyshev 2 during it 77% (after med 2 rounds; after a cleaning 72%)
+        ended: built by the side 69%, enemy paint back 15%, r300 / end 16% | after a cleaning: built by the side 58%, enemy paint back 30%, r300 / end 12%
+   them ruins nearer to the other side towers: 4.9 spells/game, length med 14 rounds; began by a cleaning 54%; a soldier of the side within Chebyshev 2 during it 62% (after med 0 rounds; after a cleaning 76%)
+        ended: built by the side 46%, enemy paint back 39%, r300 / end 15% | after a cleaning: built by the side 51%, enemy paint back 32%, r300 / end 16%
+
+== won: 37 games; clean spells of free ruins in r101-300
+   us   ruins nearer to own towers: 12.0 spells/game, length med 14.0 rounds; began by a cleaning 34%; a soldier of the side within Chebyshev 2 during it 80% (after med 0 rounds; after a cleaning 84%)
+        ended: built by the side 69%, enemy paint back 16%, r300 / end 15% | after a cleaning: built by the side 62%, enemy paint back 23%, r300 / end 15%
+   us   ruins nearer to the other side towers: 5.0 spells/game, length med 32.0 rounds; began by a cleaning 35%; a soldier of the side within Chebyshev 2 during it 58% (after med 6 rounds; after a cleaning 77%)
+        ended: built by the side 42%, enemy paint back 38%, r300 / end 20% | after a cleaning: built by the side 51%, enemy paint back 26%, r300 / end 23%
+   them ruins nearer to own towers: 7.6 spells/game, length med 31.0 rounds; began by a cleaning 24%; a soldier of the side within Chebyshev 2 during it 62% (after med 8.0 rounds; after a cleaning 61%)
+        ended: built by the side 49%, enemy paint back 36%, r300 / end 15% | after a cleaning: built by the side 45%, enemy paint back 45%, r300 / end 10%
+   them ruins nearer to the other side towers: 4.4 spells/game, length med 60 rounds; began by a cleaning 16%; a soldier of the side within Chebyshev 2 during it 26% (after med 6.0 rounds; after a cleaning 58%)
+        ended: built by the side 12%, enemy paint back 75%, r300 / end 13% | after a cleaning: built by the side 35%, enemy paint back 62%, r300 / end 4%

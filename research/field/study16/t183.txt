@@ -1,0 +1,464 @@
+
+== lost: 29 games
+  SOLDIER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.1         0.6 / 0.2         1.0 / 0.2         1.0 / 0.2
+       blocked by L2+ (%)                                          50 / 0            42 / 6           41 / 11           64 / 22
+       blocked by chips < 2000 (%)                               12 / 100            9 / 63            8 / 44           16 / 59
+       blocked by enemy paint (%)                                   0 / 0             5 / 0             9 / 2             3 / 2
+       blocked by pattern wrong (%)                                12 / 0           30 / 14           36 / 27            12 / 9
+       blocked by enemy in view (%)                                25 / 0           14 / 11             6 / 7             4 / 1
+       blocked by none (%)                                          0 / 0             0 / 6             0 / 9             0 / 6
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.2 / 0.1         0.3 / 0.1         0.2 / 0.1
+     episode rounds per 100 robot-rounds                        0.5 / 1.5         7.3 / 3.7         8.5 / 2.4         8.9 / 3.9
+       of these with chips 2000+ (not L2+), per 100 r-r         0.2 / 0.0         3.5 / 0.7         4.5 / 0.6         2.5 / 0.5
+       of these at L2+ towers, per 100 r-r                      0.2 / 0.0         3.2 / 0.3         2.4 / 0.9         3.7 / 1.2
+     episode length, rounds (median)                          25.5 / 12.0         25.0 / 26       23.5 / 14.5           28 / 24
+       ends with a refill (%)                                     50 / 83           48 / 80           41 / 65           51 / 51
+       ends with the robot dead (%)                               50 / 17           50 / 20           48 / 15           45 / 38
+       re-entries next to the same tower (mean)                 1.2 / 1.5         3.3 / 0.4         3.0 / 0.3         2.7 / 0.4
+       share of rounds within Chebyshev 3 of it (%)               41 / 42           72 / 32           83 / 42           62 / 40
+       share of rounds at 0 paint (%)                              19 / 6            15 / 5            19 / 9           16 / 14
+       tiles painted per 10 episode rounds                      0.9 / 1.8         0.8 / 1.4         1.0 / 0.6         0.4 / 0.2
+       nearest own tower with 60+ paint, Chebyshev (median)           7 / 9.0           8.0 / 8         9.5 / 8.0        10.0 / 9.0
+       none exists (%)                                             25 / 0             4 / 0            10 / 0             4 / 0
+       L2+: episode length (median)                                44 / -         52 / 34.5           51 / 37           43 / 41
+       L2+: re-entries (mean)                                     3.0 / -         5.6 / 0.0         7.8 / 0.2         7.1 / 0.4
+       enemy paint: episode length (median)                         - / -            25 / -            17 / -         26 / 36.5
+       enemy paint: re-entries (mean)                               - / -           1.0 / -           0.4 / -         0.6 / 0.5
+       pattern wrong: episode length (median)                       - / -           24 / 37         26 / 47.0       24.5 / 21.5
+       pattern wrong: re-entries (mean)                             - / -         3.4 / 0.7         2.3 / 1.0         1.6 / 0.1
+  SPLASHER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         1.4 / 0.2         1.7 / 0.2         1.2 / 0.2
+       blocked by L2+ (%)                                           - / -             8 / 0           28 / 15           47 / 78
+       blocked by chips < 2000 (%)                                  - / -           10 / 86            4 / 55           19 / 15
+       blocked by enemy paint (%)                                   - / -             5 / 0            26 / 5             5 / 0
+       blocked by pattern wrong (%)                                 - / -           72 / 14           41 / 20            25 / 4
+       blocked by enemy in view (%)                                 - / -             0 / 0             1 / 0             4 / 0
+       blocked by none (%)                                          - / -             5 / 0             0 / 5             0 / 2
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.6 / 0.1         0.4 / 0.1         0.3 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.0        15.5 / 3.4        17.5 / 6.0        10.4 / 4.5
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0        10.2 / 0.4        10.8 / 1.6         3.2 / 0.2
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         3.3 / 0.0         6.3 / 1.2         3.5 / 3.7
+     episode length, rounds (median)                                - / -         20.0 / 42           36 / 21         29 / 37.0
+       ends with a refill (%)                                       - / -           81 / 67           52 / 82           44 / 28
+       ends with the robot dead (%)                                 - / -           19 / 33            45 / 0           51 / 51
+       re-entries next to the same tower (mean)                     - / -         2.4 / 1.3         4.4 / 0.2         2.4 / 0.7
+       share of rounds within Chebyshev 3 of it (%)                 - / -           76 / 70           75 / 19           59 / 41
+       share of rounds at 0 paint (%)                               - / -             5 / 1             9 / 0            11 / 7
+       tiles painted per 10 episode rounds                          - / -         0.1 / 0.1         0.1 / 0.1         0.1 / 0.0
+       nearest own tower with 60+ paint, Chebyshev (median)             - / -           7.0 / 7             8 / 8           9 / 7.0
+       none exists (%)                                              - / -             0 / 0            7 / 12             5 / 0
+       L2+: episode length (median)                                 - / -          45.5 / -         50 / 69.5         38.5 / 47
+       L2+: re-entries (mean)                                       - / -           3.5 / -         5.7 / 0.0         5.2 / 0.9
+       enemy paint: episode length (median)                         - / -          24.0 / -           38 / 40         23 / 10.5
+       enemy paint: re-entries (mean)                               - / -           2.0 / -         4.8 / 0.0         1.1 / 0.0
+       pattern wrong: episode length (median)                       - / -           24 / 17         36 / 14.0         25.0 / 15
+       pattern wrong: re-entries (mean)                             - / -         3.7 / 0.0         4.0 / 0.5         1.9 / 0.1
+
+== won: 37 games
+  SOLDIER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         0.3 / 0.1         0.4 / 0.2         0.3 / 0.1
+       blocked by L2+ (%)                                          0 / 17           55 / 19           41 / 14           16 / 56
+       blocked by chips < 2000 (%)                               100 / 67           23 / 15           20 / 43           56 / 19
+       blocked by enemy paint (%)                                   0 / 0             6 / 0             1 / 0             2 / 8
+       blocked by pattern wrong (%)                                 0 / 0            12 / 4           36 / 11           23 / 14
+       blocked by enemy in view (%)                                0 / 17             2 / 0             1 / 0             2 / 0
+       blocked by none (%)                                          0 / 0            2 / 63            1 / 31             0 / 3
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.1 / 0.0         0.1 / 0.1         0.1 / 0.1
+     episode rounds per 100 robot-rounds                        0.1 / 0.3         4.8 / 2.0         3.0 / 1.8         2.9 / 2.7
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.1         1.3 / 0.9         1.4 / 1.0         0.8 / 0.8
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         2.3 / 0.9         1.0 / 0.1         0.1 / 1.7
+     episode length, rounds (median)                              22 / 12         15.0 / 29           17 / 19           16 / 26
+       ends with a refill (%)                                      0 / 80           75 / 45           56 / 82           46 / 55
+       ends with the robot dead (%)                              100 / 20           25 / 45           32 / 12           27 / 38
+       re-entries next to the same tower (mean)                 0.0 / 0.4         2.3 / 2.7         1.4 / 0.5         0.8 / 0.3
+       share of rounds within Chebyshev 3 of it (%)               35 / 77           60 / 80           58 / 42           62 / 36
+       share of rounds at 0 paint (%)                             30 / 22            7 / 10            13 / 6           19 / 15
+       tiles painted per 10 episode rounds                      0.0 / 0.8         1.0 / 0.3         1.1 / 0.6         0.7 / 0.5
+       nearest own tower with 60+ paint, Chebyshev (median)            10 / 6          10 / 6.5          10.0 / 7            7 / 12
+       none exists (%)                                              0 / 0            2 / 45             2 / 0             0 / 0
+       L2+: episode length (median)                                 - / -         32.5 / 59           32 / 33         15 / 31.0
+       L2+: re-entries (mean)                                       - / -         5.6 / 2.0         3.4 / 0.0         7.3 / 0.2
+       enemy paint: episode length (median)                         - / -            22 / -             - / -         12.5 / 15
+       enemy paint: re-entries (mean)                               - / -           1.0 / -             - / -         0.5 / 0.7
+       pattern wrong: episode length (median)                       - / -         24.0 / 29           15 / 45           13 / 39
+       pattern wrong: re-entries (mean)                             - / -         3.5 / 2.0         1.1 / 0.0         0.7 / 0.4
+  SPLASHER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         1.3 / 0.3         0.6 / 0.1         0.4 / 0.2
+       blocked by L2+ (%)                                           - / -           70 / 75           21 / 10            3 / 43
+       blocked by chips < 2000 (%)                                  - / -             9 / 8           19 / 60           61 / 22
+       blocked by enemy paint (%)                                   - / -             2 / 0            6 / 10             3 / 3
+       blocked by pattern wrong (%)                                 - / -           16 / 17            51 / 0           32 / 32
+       blocked by enemy in view (%)                                 - / -             2 / 0            1 / 10             0 / 0
+       blocked by none (%)                                          - / -             0 / 0            1 / 10             1 / 0
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.5 / 0.1         0.2 / 0.1         0.2 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.0        12.8 / 4.2         6.5 / 2.2         4.2 / 3.1
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         4.9 / 0.6         3.3 / 1.3         1.4 / 1.2
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         6.9 / 3.3         0.8 / 0.1         0.1 / 1.2
+     episode length, rounds (median)                                - / -           20 / 14           23 / 11       17.5 / 20.0
+       ends with a refill (%)                                       - / -           67 / 60           74 / 56           44 / 68
+       ends with the robot dead (%)                                 - / -           27 / 40            4 / 22           22 / 18
+       re-entries next to the same tower (mean)                     - / -         1.9 / 1.4         1.7 / 0.2         1.0 / 0.2
+       share of rounds within Chebyshev 3 of it (%)                 - / -           67 / 53           52 / 38           67 / 36
+       share of rounds at 0 paint (%)                               - / -            7 / 10             1 / 5            10 / 5
+       tiles painted per 10 episode rounds                          - / -         0.2 / 0.1         0.1 / 0.3         0.0 / 0.2
+       nearest own tower with 60+ paint, Chebyshev (median)             - / -             6 / 9             8 / 7         8.0 / 6.0
+       none exists (%)                                              - / -            0 / 40            0 / 22             0 / 0
+       L2+: episode length (median)                                 - / -         37 / 61.5            14 / 8           27 / 15
+       L2+: re-entries (mean)                                       - / -         3.3 / 3.5         0.9 / 0.0         2.0 / 0.2
+       enemy paint: episode length (median)                         - / -            25 / -         51.0 / 74          32.5 / 9
+       enemy paint: re-entries (mean)                               - / -           2.0 / -         2.0 / 0.0         2.5 / 0.0
+       pattern wrong: episode length (median)                       - / -       30.5 / 10.5            31 / -         18.5 / 36
+       pattern wrong: re-entries (mean)                             - / -         1.0 / 0.0           3.1 / -         1.7 / 0.3
+
+== ver t188: 24 games
+  SOLDIER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.1         0.5 / 0.2         0.6 / 0.2         0.7 / 0.2
+       blocked by L2+ (%)                                           - / 0           39 / 15           25 / 24           53 / 35
+       blocked by chips < 2000 (%)                                - / 100           19 / 61           17 / 36           27 / 53
+       blocked by enemy paint (%)                                   - / 0             7 / 0             3 / 0             2 / 2
+       blocked by pattern wrong (%)                                 - / 0            24 / 3           54 / 27            13 / 6
+       blocked by enemy in view (%)                                 - / 0             9 / 3             1 / 6             4 / 1
+       blocked by none (%)                                          - / 0            1 / 18             1 / 6             0 / 3
+     episodes per 100 robot-rounds                              0.0 / 0.1         0.2 / 0.1         0.2 / 0.1         0.2 / 0.2
+     episode rounds per 100 robot-rounds                        0.0 / 0.6         6.8 / 5.1         5.2 / 2.3         7.0 / 4.8
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         2.8 / 0.6         2.9 / 0.5         1.8 / 0.4
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         3.0 / 1.0         0.7 / 1.3         2.2 / 2.0
+     episode length, rounds (median)                               - / 10           22 / 29           17 / 14         25.0 / 28
+       ends with a refill (%)                                     - / 100           60 / 70           49 / 71           49 / 42
+       ends with the robot dead (%)                                 - / 0           38 / 26           40 / 24           41 / 50
+       re-entries next to the same tower (mean)                   - / 1.4         2.6 / 0.9         2.1 / 0.6         2.0 / 0.4
+       share of rounds within Chebyshev 3 of it (%)               - / 100           66 / 46           76 / 60           61 / 37
+       share of rounds at 0 paint (%)                               - / 0            10 / 6           16 / 12           18 / 16
+       tiles painted per 10 episode rounds                        - / 3.3         0.8 / 1.1         1.2 / 0.2         0.4 / 0.2
+       nearest own tower with 60+ paint, Chebyshev (median)             - / 9          11 / 7.0          10.0 / 6           9 / 9.0
+       none exists (%)                                              - / 0            0 / 13             2 / 0             2 / 1
+       L2+: episode length (median)                                 - / -         42.0 / 59           25 / 37           41 / 36
+       L2+: re-entries (mean)                                       - / -         3.6 / 2.0         4.1 / 0.2         7.5 / 0.4
+       enemy paint: episode length (median)                         - / -          23.5 / -          15.0 / -           27 / 38
+       enemy paint: re-entries (mean)                               - / -           1.0 / -           0.2 / -         0.7 / 0.7
+       pattern wrong: episode length (median)                       - / -         31.5 / 29           20 / 83           18 / 22
+       pattern wrong: re-entries (mean)                             - / -         5.8 / 2.0         1.7 / 1.0         0.8 / 0.1
+  SPLASHER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         2.2 / 0.5         1.1 / 0.1         0.8 / 0.3
+       blocked by L2+ (%)                                           - / -           44 / 69           31 / 15           33 / 88
+       blocked by chips < 2000 (%)                                  - / -            8 / 31            9 / 62            37 / 9
+       blocked by enemy paint (%)                                   - / -             4 / 0            13 / 0             3 / 0
+       blocked by pattern wrong (%)                                 - / -            42 / 0            47 / 8            23 / 3
+       blocked by enemy in view (%)                                 - / -             0 / 0             0 / 8             3 / 0
+       blocked by none (%)                                          - / -             2 / 0             1 / 8             0 / 0
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.7 / 0.1         0.3 / 0.1         0.2 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.0        21.1 / 6.2        10.5 / 5.5         7.3 / 5.1
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         9.4 / 0.0         5.8 / 0.5         2.0 / 0.1
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0        10.3 / 4.3         2.1 / 1.6         1.6 / 4.6
+     episode length, rounds (median)                                - / -         22 / 50.0         31 / 16.5       24.0 / 38.0
+       ends with a refill (%)                                       - / -           73 / 50           54 / 58           42 / 27
+       ends with the robot dead (%)                                 - / -           27 / 50            32 / 8           43 / 53
+       re-entries next to the same tower (mean)                     - / -         2.8 / 2.2         3.7 / 0.2         1.8 / 0.8
+       share of rounds within Chebyshev 3 of it (%)                 - / -           71 / 54           68 / 23           61 / 42
+       share of rounds at 0 paint (%)                               - / -             6 / 9             7 / 2            12 / 7
+       tiles painted per 10 episode rounds                          - / -         0.1 / 0.2         0.1 / 0.2         0.0 / 0.0
+       nearest own tower with 60+ paint, Chebyshev (median)             - / -           8 / 7.5         7.5 / 8.0         9.0 / 6.0
+       none exists (%)                                              - / -            0 / 50            3 / 17             3 / 0
+       L2+: episode length (median)                                 - / -         43 / 61.5       16.0 / 69.5           41 / 42
+       L2+: re-entries (mean)                                       - / -         4.4 / 3.5         3.4 / 0.0         6.0 / 0.8
+       enemy paint: episode length (median)                         - / -          24.0 / -            38 / -          23.5 / -
+       enemy paint: re-entries (mean)                               - / -           2.0 / -           4.9 / -           1.0 / -
+       pattern wrong: episode length (median)                       - / -            19 / -         42.5 / 13         20.0 / 15
+       pattern wrong: re-entries (mean)                             - / -           3.2 / -         5.3 / 0.0         1.2 / 0.0
+
+== ver t188 lost: 10 games
+  SOLDIER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.1         0.8 / 0.2         1.2 / 0.2         1.0 / 0.2
+       blocked by L2+ (%)                                           - / 0            32 / 5           26 / 20           63 / 30
+       blocked by chips < 2000 (%)                                - / 100           16 / 85           11 / 30           19 / 57
+       blocked by enemy paint (%)                                   - / 0             9 / 0             5 / 0             3 / 2
+       blocked by pattern wrong (%)                                 - / 0            29 / 0           57 / 40            10 / 6
+       blocked by enemy in view (%)                                 - / 0            13 / 5            1 / 10             5 / 1
+       blocked by none (%)                                          - / 0             0 / 5             0 / 0             0 / 4
+     episodes per 100 robot-rounds                              0.0 / 0.1         0.3 / 0.2         0.3 / 0.1         0.3 / 0.2
+     episode rounds per 100 robot-rounds                        0.0 / 1.2        10.4 / 6.9        10.7 / 3.6         9.1 / 5.0
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         4.0 / 0.0         6.2 / 0.9         2.4 / 0.5
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         5.1 / 0.3         1.3 / 2.2         3.5 / 1.8
+     episode length, rounds (median)                               - / 10         25 / 28.0       23.5 / 10.5           29 / 27
+       ends with a refill (%)                                     - / 100           52 / 81           50 / 75           51 / 41
+       ends with the robot dead (%)                                 - / 0           45 / 19           43 / 25           46 / 51
+       re-entries next to the same tower (mean)                   - / 1.6         3.0 / 0.3         3.0 / 0.5         2.6 / 0.4
+       share of rounds within Chebyshev 3 of it (%)               - / 100           72 / 30           82 / 50           61 / 38
+       share of rounds at 0 paint (%)                               - / 0            13 / 5           16 / 12           17 / 17
+       tiles painted per 10 episode rounds                        - / 3.3         0.7 / 1.5         1.2 / 0.1         0.3 / 0.2
+       nearest own tower with 60+ paint, Chebyshev (median)             - / 9          11 / 7.5         8.5 / 6.0        10.0 / 9.0
+       none exists (%)                                              - / 0             0 / 0             0 / 0             2 / 1
+       L2+: episode length (median)                                 - / -           40 / 26         25 / 52.0           43 / 41
+       L2+: re-entries (mean)                                       - / -         4.3 / 0.0         6.3 / 0.2         7.7 / 0.5
+       enemy paint: episode length (median)                         - / -            25 / -          15.0 / -           27 / 38
+       enemy paint: re-entries (mean)                               - / -           1.0 / -           0.2 / -         0.7 / 0.7
+       pattern wrong: episode length (median)                       - / -            30 / -         27.0 / 83         27.0 / 22
+       pattern wrong: re-entries (mean)                             - / -           3.9 / -         2.1 / 1.0         1.1 / 0.1
+  SPLASHER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         2.3 / 0.2         2.4 / 0.2         1.0 / 0.3
+       blocked by L2+ (%)                                           - / -             8 / 0           32 / 25           47 / 88
+       blocked by chips < 2000 (%)                                  - / -           8 / 100            3 / 50            25 / 9
+       blocked by enemy paint (%)                                   - / -             8 / 0            26 / 0             5 / 0
+       blocked by pattern wrong (%)                                 - / -            72 / 0           39 / 12            19 / 3
+       blocked by enemy in view (%)                                 - / -             0 / 0             0 / 0             4 / 0
+       blocked by none (%)                                          - / -             4 / 0            0 / 12             0 / 0
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.8 / 0.1         0.5 / 0.2         0.3 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.0        27.6 / 2.4        20.2 / 8.1         9.6 / 5.3
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0        18.0 / 0.0        14.4 / 0.6         2.5 / 0.1
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         8.3 / 0.0         5.1 / 2.6         3.0 / 4.7
+     episode length, rounds (median)                                - / -           22 / 42         38 / 33.0           30 / 41
+       ends with a refill (%)                                       - / -          78 / 100           29 / 75           44 / 23
+       ends with the robot dead (%)                                 - / -            22 / 0            65 / 0           53 / 56
+       re-entries next to the same tower (mean)                     - / -         2.8 / 2.0         5.3 / 0.1         2.2 / 0.8
+       share of rounds within Chebyshev 3 of it (%)                 - / -           71 / 49           88 / 16           57 / 42
+       share of rounds at 0 paint (%)                               - / -             5 / 0            14 / 0            12 / 7
+       tiles painted per 10 episode rounds                          - / -         0.1 / 0.2         0.2 / 0.1         0.1 / 0.0
+       nearest own tower with 60+ paint, Chebyshev (median)             - / -             8 / 9           6.5 / 8            10 / 7
+       none exists (%)                                              - / -             0 / 0            6 / 12             5 / 0
+       L2+: episode length (median)                                 - / -            89 / -         50 / 69.5         42.0 / 47
+       L2+: re-entries (mean)                                       - / -           6.0 / -         9.0 / 0.0         6.1 / 0.9
+       enemy paint: episode length (median)                         - / -          24.0 / -            38 / -          23.5 / -
+       enemy paint: re-entries (mean)                               - / -           2.0 / -           4.9 / -           1.0 / -
+       pattern wrong: episode length (median)                       - / -          24.5 / -         36.5 / 13       25.0 / 15.0
+       pattern wrong: re-entries (mean)                             - / -           3.8 / -         4.8 / 0.0         1.2 / 0.0
+
+== ver t188 won: 14 games
+  SOLDIER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         0.2 / 0.1         0.3 / 0.1         0.3 / 0.1
+       blocked by L2+ (%)                                           - / 0           56 / 31           22 / 31           3 / 100
+       blocked by chips < 2000 (%)                                - / 100           25 / 23           27 / 46            70 / 0
+       blocked by enemy paint (%)                                   - / 0             3 / 0             0 / 0             0 / 0
+       blocked by pattern wrong (%)                                 - / 0            12 / 8            50 / 8            28 / 0
+       blocked by enemy in view (%)                                 - / 0             0 / 0             0 / 0             0 / 0
+       blocked by none (%)                                          - / 0            3 / 38            2 / 15             0 / 0
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.1 / 0.1         0.1 / 0.1         0.2 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.1         4.3 / 3.4         2.6 / 1.0         3.8 / 3.5
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         1.9 / 1.2         1.3 / 0.0         0.8 / 0.0
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         1.6 / 1.6         0.5 / 0.4         0.1 / 3.5
+     episode length, rounds (median)                              - / 5.0         14.0 / 29           16 / 16         17 / 31.0
+       ends with a refill (%)                                     - / 100           75 / 43           48 / 60           45 / 64
+       ends with the robot dead (%)                                 - / 0           25 / 43           36 / 20           30 / 29
+       re-entries next to the same tower (mean)                   - / 1.0         2.1 / 2.3         1.0 / 0.8         0.6 / 0.2
+       share of rounds within Chebyshev 3 of it (%)               - / 100           55 / 76           65 / 96           60 / 33
+       share of rounds at 0 paint (%)                               - / 0             6 / 8           15 / 13           22 / 10
+       tiles painted per 10 episode rounds                        - / 3.3         1.0 / 0.4         1.2 / 0.4         0.8 / 0.3
+       nearest own tower with 60+ paint, Chebyshev (median)           - / 7.5        10.5 / 6.5          10.0 / 5          7 / 14.0
+       none exists (%)                                              - / 0            0 / 43             4 / 0             0 / 0
+       L2+: episode length (median)                                 - / -         44 / 71.5         21.5 / 33       14.5 / 31.0
+       L2+: re-entries (mean)                                       - / -         2.4 / 3.0         2.5 / 0.0         1.0 / 0.2
+       enemy paint: episode length (median)                         - / -            12 / -             - / -             - / -
+       enemy paint: re-entries (mean)                               - / -           1.0 / -             - / -             - / -
+       pattern wrong: episode length (median)                       - / -          243 / 29            15 / -            13 / -
+       pattern wrong: re-entries (mean)                             - / -        19.0 / 2.0           1.0 / -           0.5 / -
+  SPLASHER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         2.1 / 0.9         0.7 / 0.1         0.5 / 0.1
+       blocked by L2+ (%)                                           - / -           80 / 90            29 / 0            1 / 94
+       blocked by chips < 2000 (%)                                  - / -            8 / 10           16 / 80            66 / 0
+       blocked by enemy paint (%)                                   - / -             0 / 0             0 / 0             0 / 0
+       blocked by pattern wrong (%)                                 - / -            12 / 0            55 / 0            32 / 6
+       blocked by enemy in view (%)                                 - / -             0 / 0            0 / 20             0 / 0
+       blocked by none (%)                                          - / -             0 / 0             1 / 0             1 / 0
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.5 / 0.3         0.2 / 0.1         0.2 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.0       15.2 / 11.8         7.5 / 1.5         4.7 / 2.1
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         1.6 / 0.0         3.2 / 0.3         1.5 / 0.2
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0       12.2 / 11.0         1.1 / 0.0         0.0 / 1.9
+     episode length, rounds (median)                                - / -         28.0 / 58       28.5 / 11.0           18 / 15
+       ends with a refill (%)                                       - / -           67 / 33           75 / 25           39 / 77
+       ends with the robot dead (%)                                 - / -           33 / 67            5 / 25           29 / 15
+       re-entries next to the same tower (mean)                     - / -         2.8 / 2.3         2.4 / 0.5         1.1 / 0.2
+       share of rounds within Chebyshev 3 of it (%)                 - / -           71 / 55           52 / 78           71 / 54
+       share of rounds at 0 paint (%)                               - / -            9 / 12            1 / 15            12 / 7
+       tiles painted per 10 episode rounds                          - / -         0.3 / 0.1         0.1 / 0.4         0.0 / 0.2
+       nearest own tower with 60+ paint, Chebyshev (median)             - / -           8.0 / 6           8.0 / 7             8 / 6
+       none exists (%)                                              - / -            0 / 67            0 / 25             0 / 0
+       L2+: episode length (median)                                 - / -       40.0 / 61.5            14 / -         32 / 14.5
+       L2+: re-entries (mean)                                       - / -         4.0 / 3.5           1.0 / -         1.0 / 0.2
+       enemy paint: episode length (median)                         - / -             - / -             - / -             - / -
+       enemy paint: re-entries (mean)                               - / -             - / -             - / -             - / -
+       pattern wrong: episode length (median)                       - / -            19 / -          46.0 / -         19.0 / 18
+       pattern wrong: re-entries (mean)                             - / -           1.0 / -           5.8 / -         1.3 / 0.0
+
+== ver y358: 42 games
+  SOLDIER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         0.4 / 0.1         0.5 / 0.2         0.5 / 0.1
+       blocked by L2+ (%)                                         44 / 20            53 / 7            54 / 4            59 / 3
+       blocked by chips < 2000 (%)                                22 / 60           13 / 21           11 / 49           16 / 61
+       blocked by enemy paint (%)                                   0 / 0             4 / 0             7 / 2             3 / 4
+       blocked by pattern wrong (%)                                11 / 0           20 / 17           22 / 15           19 / 19
+       blocked by enemy in view (%)                               22 / 20            8 / 10             7 / 2             2 / 1
+       blocked by none (%)                                          0 / 0            1 / 45            0 / 28            0 / 12
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.2 / 0.0         0.1 / 0.1         0.1 / 0.1
+     episode rounds per 100 robot-rounds                        0.4 / 0.9         5.1 / 1.4         4.4 / 2.0         4.2 / 2.1
+       of these with chips 2000+ (not L2+), per 100 r-r         0.2 / 0.1         1.8 / 0.9         2.0 / 1.0         1.6 / 0.7
+       of these at L2+ towers, per 100 r-r                      0.2 / 0.0         2.4 / 0.4         1.9 / 0.1         1.8 / 0.2
+     episode length, rounds (median)                            22 / 16.5           19 / 17       24.5 / 20.0         18.0 / 15
+       ends with a refill (%)                                     40 / 50           64 / 69           48 / 73           52 / 75
+       ends with the robot dead (%)                               60 / 50           36 / 31            40 / 8           32 / 11
+       re-entries next to the same tower (mean)                 1.0 / 0.2         2.9 / 1.4         2.3 / 0.3         2.4 / 0.5
+       share of rounds within Chebyshev 3 of it (%)               40 / 29           66 / 58           68 / 29           66 / 47
+       share of rounds at 0 paint (%)                             21 / 13            11 / 9            16 / 5            12 / 6
+       tiles painted per 10 episode rounds                      0.7 / 0.9         1.0 / 0.7         0.9 / 0.9         0.6 / 0.3
+       nearest own tower with 60+ paint, Chebyshev (median)         8.5 / 6.5           8.0 / 8        10.0 / 8.0          10.0 / 7
+       none exists (%)                                             20 / 0            5 / 15            10 / 0             7 / 0
+       L2+: episode length (median)                                44 / -         38 / 49.0           53 / 18         49 / 43.5
+       L2+: re-entries (mean)                                     3.0 / -         7.4 / 0.0         6.0 / 0.0         6.1 / 0.0
+       enemy paint: episode length (median)                         - / -          22.0 / -            22 / -       20.0 / 14.0
+       enemy paint: re-entries (mean)                               - / -           1.0 / -           0.6 / -         0.3 / 0.5
+       pattern wrong: episode length (median)                       - / -           20 / 37         22 / 31.5       21.5 / 24.5
+       pattern wrong: re-entries (mean)                             - / -         2.4 / 0.7         1.7 / 0.2         2.2 / 0.2
+  SPLASHER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         0.9 / 0.1         0.6 / 0.1         0.8 / 0.1
+       blocked by L2+ (%)                                           - / -            33 / 0           16 / 12            35 / 3
+       blocked by chips < 2000 (%)                                  - / -           12 / 50           17 / 53           18 / 55
+       blocked by enemy paint (%)                                   - / -             3 / 0           18 / 12             7 / 4
+       blocked by pattern wrong (%)                                 - / -           45 / 50           46 / 18           39 / 28
+       blocked by enemy in view (%)                                 - / -             3 / 0             2 / 0             1 / 0
+       blocked by none (%)                                          - / -             3 / 0             1 / 6            0 / 10
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.4 / 0.1         0.2 / 0.1         0.2 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.0         9.8 / 2.4         7.9 / 3.5         6.6 / 2.4
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         6.1 / 0.8         4.3 / 2.2         2.9 / 0.9
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         2.2 / 0.0         2.1 / 0.1         1.8 / 0.1
+     episode length, rounds (median)                                - / -       19.0 / 15.5         24 / 19.5         18 / 23.5
+       ends with a refill (%)                                       - / -           75 / 75           77 / 86           49 / 54
+       ends with the robot dead (%)                                 - / -           19 / 25             8 / 7           25 / 23
+       re-entries next to the same tower (mean)                     - / -         1.6 / 0.5         1.7 / 0.2         1.9 / 0.2
+       share of rounds within Chebyshev 3 of it (%)                 - / -           72 / 72           56 / 24           64 / 29
+       share of rounds at 0 paint (%)                               - / -             6 / 2             2 / 1             8 / 5
+       tiles painted per 10 episode rounds                          - / -         0.1 / 0.1         0.1 / 0.1         0.1 / 0.1
+       nearest own tower with 60+ paint, Chebyshev (median)             - / -         6.5 / 8.0         9.5 / 8.0           9 / 7.0
+       none exists (%)                                              - / -             0 / 0            3 / 14             3 / 0
+       L2+: episode length (median)                                 - / -          14.5 / -          26.0 / 8         25.5 / 71
+       L2+: re-entries (mean)                                       - / -           2.0 / -         2.0 / 0.0         3.1 / 0.0
+       enemy paint: episode length (median)                         - / -            25 / -       51.0 / 57.0            17 / 9
+       enemy paint: re-entries (mean)                               - / -           2.0 / -         3.2 / 0.0         2.0 / 0.0
+       pattern wrong: episode length (median)                       - / -         30.0 / 14         27.5 / 15         21.0 / 36
+       pattern wrong: re-entries (mean)                             - / -         2.3 / 0.0         1.9 / 0.7         3.3 / 0.3
+
+== ver y358 lost: 19 games
+  SOLDIER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.1 / 0.0         0.5 / 0.1         0.9 / 0.2         1.0 / 0.1
+       blocked by L2+ (%)                                          50 / 0            51 / 7            56 / 4            68 / 2
+       blocked by chips < 2000 (%)                               12 / 100            3 / 33            5 / 56            7 / 65
+       blocked by enemy paint (%)                                   0 / 0             1 / 0            12 / 4             3 / 2
+       blocked by pattern wrong (%)                                12 / 0           30 / 33           15 / 16           21 / 17
+       blocked by enemy in view (%)                                25 / 0           15 / 20            12 / 4             1 / 1
+       blocked by none (%)                                          0 / 0             0 / 7            0 / 16            0 / 13
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.1 / 0.1         0.2 / 0.1         0.2 / 0.1
+     episode rounds per 100 robot-rounds                        0.8 / 1.6         5.1 / 1.6         6.9 / 1.8         8.2 / 2.1
+       of these with chips 2000+ (not L2+), per 100 r-r         0.4 / 0.0         3.1 / 1.2         3.3 / 0.4         3.0 / 0.5
+       of these at L2+ towers, per 100 r-r                      0.3 / 0.0         2.0 / 0.3         3.2 / 0.1         4.2 / 0.1
+     episode length, rounds (median)                           25.5 / 152           24 / 17       25.0 / 19.5       23.0 / 16.0
+       ends with a refill (%)                                      50 / 0           42 / 78           32 / 57           54 / 81
+       ends with the robot dead (%)                              50 / 100           58 / 22            54 / 7            40 / 3
+       re-entries next to the same tower (mean)                 1.2 / 1.0         3.9 / 0.4         3.1 / 0.2         3.1 / 0.5
+       share of rounds within Chebyshev 3 of it (%)               41 / 16           73 / 38           83 / 32           66 / 49
+       share of rounds at 0 paint (%)                              19 / 8            18 / 6            22 / 7            13 / 2
+       tiles painted per 10 episode rounds                      0.9 / 1.2         0.9 / 1.0         0.7 / 1.1         0.6 / 0.2
+       nearest own tower with 60+ paint, Chebyshev (median)            7 / 14             7 / 8       10.0 / 13.0        11.0 / 7.0
+       none exists (%)                                             25 / 0            11 / 0            21 / 0            12 / 0
+       L2+: episode length (median)                                44 / -         73.0 / 43         65.0 / 18       41.5 / 43.5
+       L2+: re-entries (mean)                                     3.0 / -         8.5 / 0.0         8.5 / 0.0         5.4 / 0.0
+       enemy paint: episode length (median)                         - / -             - / -            22 / -         22.5 / 11
+       enemy paint: re-entries (mean)                               - / -             - / -           0.6 / -         0.2 / 0.0
+       pattern wrong: episode length (median)                       - / -         22.0 / 37           23 / 11         22.0 / 21
+       pattern wrong: re-entries (mean)                             - / -         3.1 / 0.7         2.5 / 1.0         2.5 / 0.1
+  SPLASHER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         0.9 / 0.2         1.2 / 0.2         2.0 / 0.1
+       blocked by L2+ (%)                                           - / -             7 / 0            21 / 8            46 / 2
+       blocked by chips < 2000 (%)                                  - / -           13 / 75            7 / 58            3 / 62
+       blocked by enemy paint (%)                                   - / -             0 / 0            26 / 8             6 / 4
+       blocked by pattern wrong (%)                                 - / -           73 / 25           44 / 25           43 / 18
+       blocked by enemy in view (%)                                 - / -             0 / 0             2 / 0             1 / 0
+       blocked by none (%)                                          - / -             7 / 0             0 / 0            0 / 14
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.4 / 0.1         0.3 / 0.1         0.4 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.0         7.8 / 4.1        15.1 / 4.3        14.7 / 1.9
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         5.2 / 0.7         7.7 / 2.4         6.8 / 0.5
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         0.1 / 0.0         7.4 / 0.0         6.2 / 0.0
+     episode length, rounds (median)                                - / -         18 / 50.0         33.0 / 18         25.5 / 17
+       ends with a refill (%)                                       - / -           86 / 50           83 / 89           43 / 52
+       ends with the robot dead (%)                                 - / -           14 / 50            17 / 0           46 / 24
+       re-entries next to the same tower (mean)                     - / -         2.0 / 1.0         3.2 / 0.3         3.1 / 0.2
+       share of rounds within Chebyshev 3 of it (%)                 - / -           87 / 78           59 / 24           68 / 30
+       share of rounds at 0 paint (%)                               - / -             6 / 2             3 / 0            10 / 6
+       tiles painted per 10 episode rounds                          - / -         0.1 / 0.1         0.1 / 0.0         0.1 / 0.0
+       nearest own tower with 60+ paint, Chebyshev (median)             - / -           7 / 6.0          11 / 8.0           8.0 / 7
+       none exists (%)                                              - / -             0 / 0            8 / 11             7 / 0
+       L2+: episode length (median)                                 - / -             2 / -          51.0 / -          27.5 / -
+       L2+: re-entries (mean)                                       - / -           1.0 / -           3.2 / -           3.2 / -
+       enemy paint: episode length (median)                         - / -             - / -         47.5 / 40         17 / 10.5
+       enemy paint: re-entries (mean)                               - / -             - / -         4.5 / 0.0         1.7 / 0.0
+       pattern wrong: episode length (median)                       - / -           24 / 17           36 / 15         24.0 / 16
+       pattern wrong: re-entries (mean)                             - / -         3.7 / 0.0         3.0 / 0.7         3.4 / 0.2
+
+== ver y358 won: 23 games
+  SOLDIER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         0.4 / 0.1         0.4 / 0.2         0.3 / 0.1
+       blocked by L2+ (%)                                          0 / 25            54 / 7            51 / 5           37 / 11
+       blocked by chips < 2000 (%)                               100 / 50            22 / 7           16 / 41           36 / 39
+       blocked by enemy paint (%)                                   0 / 0             7 / 0             2 / 0            5 / 17
+       blocked by pattern wrong (%)                                 0 / 0            12 / 0           28 / 14           16 / 28
+       blocked by enemy in view (%)                                0 / 25             2 / 0             2 / 0             5 / 0
+       blocked by none (%)                                          0 / 0            2 / 86            1 / 41             1 / 6
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.2 / 0.0         0.1 / 0.1         0.1 / 0.1
+     episode rounds per 100 robot-rounds                        0.1 / 0.4         5.1 / 1.1         3.3 / 2.3         1.6 / 2.1
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.1         1.0 / 0.6         1.5 / 1.7         0.7 / 1.3
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         2.7 / 0.4         1.4 / 0.0         0.2 / 0.5
+     episode length, rounds (median)                              22 / 14       15.0 / 34.5       23.5 / 21.0         11.0 / 15
+       ends with a refill (%)                                      0 / 67           75 / 50           62 / 92           50 / 47
+       ends with the robot dead (%)                              100 / 33           25 / 50            28 / 8           19 / 47
+       re-entries next to the same tower (mean)                 0.0 / 0.0         2.4 / 3.5         1.7 / 0.3         1.3 / 0.3
+       share of rounds within Chebyshev 3 of it (%)               35 / 71           62 / 87           55 / 26           68 / 39
+       share of rounds at 0 paint (%)                             30 / 27            7 / 13            12 / 4           11 / 20
+       tiles painted per 10 episode rounds                      0.0 / 0.2         1.1 / 0.2         1.0 / 0.6         0.7 / 0.7
+       nearest own tower with 60+ paint, Chebyshev (median)            10 / 6           9 / 6.5        10.0 / 7.0           9.0 / 8
+       none exists (%)                                              0 / 0            2 / 50             0 / 0             0 / 0
+       L2+: episode length (median)                                 - / -           28 / 55            53 / -         90 / 49.5
+       L2+: re-entries (mean)                                       - / -         7.0 / 0.0           3.9 / -        20.0 / 0.0
+       enemy paint: episode length (median)                         - / -          22.0 / -             - / -         12.5 / 15
+       enemy paint: re-entries (mean)                               - / -           1.0 / -             - / -         0.5 / 0.7
+       pattern wrong: episode length (median)                       - / -            15 / -         18.0 / 45         18.0 / 39
+       pattern wrong: re-entries (mean)                             - / -           1.3 / -         1.2 / 0.0         1.5 / 0.4
+  SPLASHER  (us / them)
+                                                                   r1-100          r101-200          r201-300             r301+
+     dry money-tower visits per 100 robot-rounds                0.0 / 0.0         0.9 / 0.1         0.5 / 0.1         0.4 / 0.2
+       blocked by L2+ (%)                                           - / -            56 / 0           13 / 20            10 / 5
+       blocked by chips < 2000 (%)                                  - / -            11 / 0           24 / 40           49 / 38
+       blocked by enemy paint (%)                                   - / -             6 / 0           13 / 20            10 / 5
+       blocked by pattern wrong (%)                                 - / -          22 / 100            48 / 0           30 / 52
+       blocked by enemy in view (%)                                 - / -             6 / 0             2 / 0             1 / 0
+       blocked by none (%)                                          - / -             0 / 0            2 / 20             0 / 0
+     episodes per 100 robot-rounds                              0.0 / 0.0         0.4 / 0.1         0.2 / 0.1         0.2 / 0.1
+     episode rounds per 100 robot-rounds                        0.0 / 0.0        11.4 / 0.8         5.8 / 2.6         3.3 / 4.0
+       of these with chips 2000+ (not L2+), per 100 r-r         0.0 / 0.0         6.8 / 0.8         3.3 / 2.0         1.3 / 2.2
+       of these at L2+ towers, per 100 r-r                      0.0 / 0.0         3.9 / 0.0         0.6 / 0.1         0.1 / 0.6
+     episode length, rounds (median)                                - / -         20 / 10.5           22 / 21           15 / 29
+       ends with a refill (%)                                       - / -          67 / 100           74 / 80           54 / 60
+       ends with the robot dead (%)                                 - / -            22 / 0            4 / 20            6 / 20
+       re-entries next to the same tower (mean)                     - / -         1.3 / 0.0         1.1 / 0.0         0.9 / 0.2
+       share of rounds within Chebyshev 3 of it (%)                 - / -           64 / 43           53 / 24           56 / 27
+       share of rounds at 0 paint (%)                               - / -             6 / 0             1 / 2             4 / 3
+       tiles painted per 10 episode rounds                          - / -         0.1 / 0.0         0.1 / 0.2         0.1 / 0.2
+       nearest own tower with 60+ paint, Chebyshev (median)             - / -          6 / 12.0          9 / 10.5            10 / 8
+       none exists (%)                                              - / -             0 / 0            0 / 20             0 / 0
+       L2+: episode length (median)                                 - / -            20 / -          18.0 / 8         16.5 / 71
+       L2+: re-entries (mean)                                       - / -           2.3 / -         0.8 / 0.0         2.5 / 0.0
+       enemy paint: episode length (median)                         - / -            25 / -         51.0 / 74          32.5 / 9
+       enemy paint: re-entries (mean)                               - / -           2.0 / -         2.0 / 0.0         2.5 / 0.0
+       pattern wrong: episode length (median)                       - / -         42 / 10.5            25 / -       17.5 / 37.0
+       pattern wrong: re-entries (mean)                             - / -         1.0 / 0.0           1.2 / -         3.0 / 0.4

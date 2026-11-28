@@ -1,0 +1,23 @@
+
+== lost: 29 games; soldiers that starved
+  us: 28.1/g; in the 30 rounds before 0 paint: hit a tower  41% (paint at its last hit med 29, rounds from it to 0 paint med 4), painted  73%, marked/completed  10%, none of these  20%; paint 30 rounds before med 130
+      at 0 paint: nearest own tower d2 med 65.0 (in sight  28%, a money tower  74%, its paint med 0.0); nearest own paint tower d2 med 218, none alive   9%; age at 0 paint 143.8 rounds
+  them: 28.7/g; in the 30 rounds before 0 paint: hit a tower  41% (paint at its last hit med 13, rounds from it to 0 paint med 3), painted  48%, marked/completed   8%, none of these  35%; paint 30 rounds before med 100.5
+      at 0 paint: nearest own tower d2 med 104.0 (in sight  14%, a money tower  73%, its paint med 0.0); nearest own paint tower d2 med 298.0, none alive   1%; age at 0 paint 126.9 rounds
+
+== won: 37 games; soldiers that starved
+  us: 13.8/g; in the 30 rounds before 0 paint: hit a tower  49% (paint at its last hit med 28.5, rounds from it to 0 paint med 5.0), painted  78%, marked/completed  20%, none of these  15%; paint 30 rounds before med 134
+      at 0 paint: nearest own tower d2 med 58 (in sight  26%, a money tower  70%, its paint med 18); nearest own paint tower d2 med 169, none alive   4%; age at 0 paint 110.9 rounds
+  them: 13.8/g; in the 30 rounds before 0 paint: hit a tower  46% (paint at its last hit med 16.0, rounds from it to 0 paint med 3.0), painted  79%, marked/completed  21%, none of these  13%; paint 30 rounds before med 121.0
+      at 0 paint: nearest own tower d2 med 125 (in sight  12%, a money tower  65%, its paint med 56); nearest own paint tower d2 med 305, none alive  10%; age at 0 paint  98.5 rounds
+
+== defense towers built per game (us / them) and our soldiers killed by towers with a defense tower among the damage dealers, per opponent
+  confused                     3 g  defense towers 0.00 / 0.00   our soldiers killed by towers   7.7/g, with a defense tower   0%
+  gone-whalin                  6 g  defense towers 0.00 / 0.00   our soldiers killed by towers   4.7/g, with a defense tower   0%
+  immutable                    3 g  defense towers 0.00 / 1.00   our soldiers killed by towers   9.3/g, with a defense tower  46%
+  just-woke-up                 6 g  defense towers 0.00 / 0.83   our soldiers killed by towers   6.8/g, with a defense tower  24%
+  lobster-roll                 6 g  defense towers 0.00 / 0.00   our soldiers killed by towers   3.5/g, with a defense tower   0%
+  old-but-gold                 6 g  defense towers 0.00 / 0.00   our soldiers killed by towers   2.7/g, with a defense tower   0%
+  om-nom                      15 g  defense towers 0.00 / 0.00   our soldiers killed by towers   4.1/g, with a defense tower   0%
+  scienceqiu                   6 g  defense towers 0.00 / 0.83   our soldiers killed by towers  12.2/g, with a defense tower  55%
+  spaark                      15 g  defense towers 0.00 / 1.20   our soldiers killed by towers  10.0/g, with a defense tower  38%

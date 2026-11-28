@@ -1,0 +1,158 @@
+
+m7310g0 t188 vs spaark on Justice (21x20), eliminated r265
+   r50: towers 3/4 robots 6/8 sold. 6/7   r100: towers 4/4 robots 11/9 sold. 9/5   r150: towers 3/4 robots 9/6 sold. 6/2   r200: towers 3/4 robots 5/9 sold. 2/4
+   r  45 MONEY_TOWER   at (7, 7): paint before the assault 56, assault 20 rounds, attackers soldier 2, spawned 0, own robots near 2
+   r  85 PAINT_TOWER   at (7, 2): paint before the assault 353, assault 14 rounds, attackers soldier 3, spawned 2, own robots near 4
+   r 120 MONEY_TOWER   at (2, 17): disintegrated (no damage rows; our churn)
+   r 131 MONEY_TOWER   at (2, 7): paint before the assault 34, assault 7 rounds, attackers soldier 1, spawned 0, own robots near 1
+   r 232 MONEY_TOWER   at (2, 12): paint before the assault 0, assault 9 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r 242 MONEY_TOWER   at (2, 17): paint before the assault 171, assault 14 rounds, attackers soldier 3, spawned 0, own robots near 0
+   r 260 MONEY_TOWER   at (2, 2): paint before the assault 0, assault 15 rounds, attackers soldier 5, spawned 0, own robots near 1
+   last tower fell r260; robots alive then 1, paint median 0, of them starved (last turn at 0 paint) 1
+
+m7351g0 y358 vs spaark on DefaultMedium (35x35), eliminated r329
+   r50: towers 4/6 robots 9/5 sold. 9/5   r100: towers 7/7 robots 6/11 sold. 5/8   r150: towers 6/10 robots 5/16 sold. 3/8   r200: towers 4/10 robots 2/17 sold. 1/6
+   r  80 MONEY_TOWER   at (22, 20): paint before the assault 49, assault 12 rounds, attackers soldier 3, spawned 0, own robots near 4
+   r  95 MONEY_TOWER   at (22, 20): paint before the assault 492, assault 10 rounds, attackers soldier 4, spawned 0, own robots near 1
+   r 102 MONEY_TOWER   at (22, 20): paint before the assault None, assault 4 rounds, attackers soldier 5, spawned 0, own robots near 2
+   r 130 MONEY_TOWER   at (17, 11): paint before the assault 199, assault 16 rounds, attackers soldier 4, spawned 0, own robots near 0
+   r 153 MONEY_TOWER   at (17, 5): disintegrated (no damage rows; our churn)
+   r 155 MONEY_TOWER   at (27, 17): paint before the assault 11, assault 11 rounds, attackers soldier 2, spawned 0, own robots near 1
+   r 158 MONEY_TOWER   at (27, 22): paint before the assault 63, assault 15 rounds, attackers soldier 5, spawned 0, own robots near 0
+   r 170 PAINT_TOWER   at (27, 27): paint before the assault 40, assault 19 rounds, attackers soldier 4, splasher 1, spawned 0, own robots near 1
+   r 185 MONEY_TOWER   at (27, 17): paint before the assault 188, assault 26 rounds, attackers soldier 3, spawned 1, own robots near 2
+   r 258 MONEY_TOWER   at (17, 11): paint before the assault 154, assault 32 rounds, attackers soldier 3, splasher 1, spawned 0, own robots near 0
+   r 301 MONEY_TOWER   at (17, 5): paint before the assault 182, assault 23 rounds, attackers soldier 3, spawned 0, own robots near 0
+   r 315 MONEY_TOWER   at (27, 12): paint before the assault 0, assault 5 rounds, attackers soldier 3, spawned 0, own robots near 0
+   r 329 MONEY_TOWER   at (27, 7): paint before the assault 100, assault 25 rounds, attackers soldier 6, spawned 0, own robots near 0
+   last tower fell r329; robots alive then 0, paint median -, of them starved (last turn at 0 paint) 0
+
+m7351g1 y358 vs spaark on Mirage (40x40), eliminated r392
+   r50: towers 2/3 robots 8/5 sold. 8/5   r100: towers 3/7 robots 8/5 sold. 8/5   r150: towers 6/10 robots 7/10 sold. 7/8   r200: towers 5/9 robots 13/21 sold. 10/11
+   r  20 MONEY_TOWER   at (22, 36): paint before the assault 100, assault 17 rounds, attackers soldier 2, spawned 0, own robots near 2
+   r 100 MONEY_TOWER   at (13, 24): paint before the assault 191, assault 11 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r 148 MONEY_TOWER   at (7, 29): paint before the assault 346, assault 6 rounds, attackers soldier 1, spawned 0, own robots near 1
+   r 173 MONEY_TOWER   at (33, 34): paint before the assault None, assault 25 rounds, attackers soldier 2, spawned 0, own robots near 1
+   r 197 MONEY_TOWER   at (14, 13): paint before the assault 0, assault 40 rounds, attackers soldier 2, splasher 1, spawned 0, own robots near 0
+   r 198 MONEY_TOWER   at (13, 24): paint before the assault None, assault 33 rounds, attackers soldier 2, spawned 1, own robots near 2
+   r 208 MONEY_TOWER   at (9, 12): paint before the assault 0, assault 3 rounds, attackers soldier 1, splasher 1, spawned 0, own robots near 1
+   r 221 MONEY_TOWER   at (7, 7): paint before the assault 269, assault 66 rounds, attackers soldier 1, spawned 1, own robots near 1
+   r 231 MONEY_TOWER   at (7, 29): paint before the assault 131, assault 26 rounds, attackers soldier 3, spawned 0, own robots near 0
+   r 282 MONEY_TOWER   at (7, 7): paint before the assault 0, assault 13 rounds, attackers soldier 4, spawned 0, own robots near 4
+   r 292 PAINT_TOWER   at (3, 13): paint before the assault 50, assault 36 rounds, attackers soldier 4, splasher 1, spawned 3, own robots near 4
+   r 317 MONEY_TOWER   at (7, 29): paint before the assault 0, assault 2 rounds, attackers soldier 2, spawned 0, own robots near 1
+   r 392 MONEY_TOWER   at (6, 34): paint before the assault 0, assault 10 rounds, attackers soldier 7, spawned 0, own robots near 1
+   last tower fell r392; robots alive then 0, paint median -, of them starved (last turn at 0 paint) 0
+
+m7351g2 y358 vs spaark on windmill (30x30), eliminated r417
+   r50: towers 2/3 robots 9/7 sold. 9/6   r100: towers 4/4 robots 6/8 sold. 6/5   r150: towers 3/4 robots 6/13 sold. 3/7   r200: towers 2/5 robots 7/15 sold. 3/9
+   r  49 MONEY_TOWER   at (13, 7): paint before the assault 100, assault 19 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r  69 MONEY_TOWER   at (13, 7): paint before the assault 34, assault 8 rounds, attackers soldier 4, spawned 0, own robots near 4
+   r 113 MONEY_TOWER   at (13, 7): paint before the assault 473, assault 28 rounds, attackers soldier 2, spawned 2, own robots near 0
+   r 152 MONEY_TOWER   at (7, 3): paint before the assault 0, assault 19 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r 163 MONEY_TOWER   at (24, 10): paint before the assault None, assault 98 rounds, attackers soldier 1, spawned 1, own robots near 1
+   r 215 MONEY_TOWER   at (24, 10): paint before the assault 0, assault 30 rounds, attackers soldier 2, spawned 0, own robots near 1
+   r 274 MONEY_TOWER   at (24, 10): paint before the assault 409, assault 45 rounds, attackers soldier 3, spawned 2, own robots near 1
+   r 308 MONEY_TOWER   at (24, 10): paint before the assault None, assault 16 rounds, attackers soldier 4, spawned 0, own robots near 3
+   r 375 PAINT_TOWER   at (21, 2): paint before the assault 169, assault 33 rounds, attackers soldier 2, spawned 0, own robots near 0
+   last tower fell r375; robots alive then 3, paint median 0, of them starved (last turn at 0 paint) 3
+
+m7394g1 y358 vs confused on Restart (55x55), eliminated r268
+   r50: towers 3/4 robots 7/8 sold. 7/8   r100: towers 2/5 robots 8/12 sold. 7/8   r150: towers 1/9 robots 3/16 sold. 2/8   r200: towers 2/16 robots 2/27 sold. 1/17
+   r  54 PAINT_TOWER   at (12, 16): paint before the assault 70, assault 16 rounds, attackers soldier 2, spawned 1, own robots near 0
+   r  79 MONEY_TOWER   at (18, 10): disintegrated (no damage rows; our churn)
+   r 114 MONEY_TOWER   at (22, 32): paint before the assault 0, assault 40 rounds, attackers soldier 2, splasher 1, spawned 0, own robots near 0
+   r 220 PAINT_TOWER   at (12, 16): paint before the assault 280, assault 21 rounds, attackers soldier 2, splasher 1, spawned 1, own robots near 1
+   r 252 MONEY_TOWER   at (18, 10): paint before the assault 0, assault 0 rounds, attackers splasher 1, spawned 0, own robots near 1
+   last tower fell r252; robots alive then 2, paint median 0.0, of them starved (last turn at 0 paint) 2
+
+m7432g2 y358 vs om-nom on windmill (30x30), eliminated r370
+   r50: towers 3/3 robots 8/7 sold. 8/5   r100: towers 3/4 robots 4/8 sold. 4/4   r150: towers 3/4 robots 6/9 sold. 5/4   r200: towers 4/5 robots 8/12 sold. 5/4
+   r  46 MONEY_TOWER   at (13, 7): paint before the assault 100, assault 11 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r  56 MONEY_TOWER   at (13, 7): paint before the assault None, assault 8 rounds, attackers soldier 3, spawned 0, own robots near 2
+   r  71 MONEY_TOWER   at (13, 7): paint before the assault None, assault 13 rounds, attackers soldier 3, spawned 0, own robots near 2
+   r 105 MONEY_TOWER   at (24, 10): paint before the assault 347, assault 14 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r 145 MONEY_TOWER   at (23, 15): paint before the assault None, assault 25 rounds, attackers soldier 3, spawned 0, own robots near 1
+   r 147 MONEY_TOWER   at (7, 3): paint before the assault 0, assault 36 rounds, attackers soldier 2, splasher 2, spawned 0, own robots near 0
+   r 208 MONEY_TOWER   at (27, 20): paint before the assault 26, assault 19 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r 223 MONEY_TOWER   at (23, 15): paint before the assault 6, assault 22 rounds, attackers soldier 3, spawned 0, own robots near 3
+   r 276 PAINT_TOWER   at (21, 2): paint before the assault 1000, assault 54 rounds, attackers soldier 1, splasher 2, spawned 3, own robots near 0
+   r 278 MONEY_TOWER   at (23, 15): paint before the assault 20, assault 16 rounds, attackers soldier 1, splasher 2, spawned 0, own robots near 5
+   r 285 MONEY_TOWER   at (24, 10): paint before the assault 25, assault 6 rounds, attackers soldier 2, spawned 0, own robots near 3
+   r 293 MONEY_TOWER   at (27, 20): paint before the assault 174, assault 4 rounds, attackers soldier 1, spawned 0, own robots near 0
+   last tower fell r293; robots alive then 11, paint median 0, of them starved (last turn at 0 paint) 10
+
+m7459g0 y358 vs om-nom on CastleDefense (20x20), eliminated r95
+   r50: towers 1/2 robots 4/8 sold. 4/4
+   r  40 PAINT_TOWER   at (9, 17): paint before the assault 160, assault 13 rounds, attackers soldier 3, spawned 1, own robots near 1
+   r  55 MONEY_TOWER   at (17, 17): paint before the assault 100, assault 33 rounds, attackers soldier 3, spawned 0, own robots near 1
+   last tower fell r55; robots alive then 4, paint median 0.0, of them starved (last turn at 0 paint) 4
+
+m7544g0 y360 vs om-nom on BatSignal (40x25), eliminated r569
+   r50: towers 4/4 robots 8/6 sold. 8/5   r100: towers 6/5 robots 9/9 sold. 9/3   r150: towers 6/4 robots 9/13 sold. 7/1   r200: towers 6/6 robots 8/17 sold. 4/3
+   r  81 MONEY_TOWER   at (17, 11): paint before the assault 0, assault 10 rounds, attackers soldier 2, spawned 0, own robots near 2
+   r  90 MONEY_TOWER   at (12, 14): paint before the assault 0, assault 3 rounds, attackers soldier 1, spawned 0, own robots near 0
+   r 108 MONEY_TOWER   at (15, 2): paint before the assault 292, assault 11 rounds, attackers soldier 2, spawned 0, own robots near 1
+   r 126 MONEY_TOWER   at (17, 11): paint before the assault 0, assault 0 rounds, attackers splasher 1, spawned 0, own robots near 4
+   r 170 MONEY_TOWER   at (15, 2): paint before the assault None, assault 59 rounds, attackers soldier 2, spawned 0, own robots near 1
+   r 211 MONEY_TOWER   at (12, 14): paint before the assault 0, assault 25 rounds, attackers splasher 2, spawned 0, own robots near 2
+   r 236 MONEY_TOWER   at (9, 19): paint before the assault 0, assault 11 rounds, attackers soldier 3, splasher 1, spawned 0, own robots near 4
+   r 243 MONEY_TOWER   at (9, 19): paint before the assault None, assault 5 rounds, attackers soldier 4, spawned 1, own robots near 4
+   r 251 MONEY_TOWER   at (9, 19): paint before the assault None, assault 7 rounds, attackers soldier 4, spawned 2, own robots near 5
+   r 262 MONEY_TOWER   at (15, 2): paint before the assault 53, assault 14 rounds, attackers soldier 1, splasher 1, spawned 0, own robots near 1
+   r 312 MONEY_TOWER   at (8, 2): disintegrated (no damage rows; our churn)
+   r 332 MONEY_TOWER   at (8, 2): disintegrated (no damage rows; our churn)
+   r 358 MONEY_TOWER   at (8, 2): paint before the assault 44, assault 8 rounds, attackers soldier 1, spawned 0, own robots near 1
+   r 367 MONEY_TOWER   at (8, 2): disintegrated (no damage rows; our churn)
+   r 407 MONEY_TOWER   at (8, 2): paint before the assault 106, assault 33 rounds, attackers splasher 1, spawned 0, own robots near 3
+   r 408 MONEY_TOWER   at (9, 19): paint before the assault 0, assault 14 rounds, attackers splasher 2, spawned 0, own robots near 2
+   r 413 MONEY_TOWER   at (8, 2): disintegrated (no damage rows; our churn)
+   r 417 PAINT_TOWER   at (5, 14): paint before the assault 161, assault 6 rounds, attackers soldier 3, spawned 0, own robots near 1
+   r 518 MONEY_TOWER   at (8, 2): paint before the assault 0, assault 39 rounds, attackers soldier 2, spawned 0, own robots near 3
+   r 557 MONEY_TOWER   at (2, 6): paint before the assault 0, assault 38 rounds, attackers soldier 2, spawned 0, own robots near 2
+   last tower fell r557; robots alive then 2, paint median 0.0, of them starved (last turn at 0 paint) 2
+
+m7544g1 y360 vs om-nom on boxofchocolates (55x55), eliminated r583
+   r50: towers 2/2 robots 7/7 sold. 7/6   r100: towers 2/2 robots 7/7 sold. 7/6   r150: towers 2/3 robots 6/9 sold. 6/5   r200: towers 2/3 robots 5/11 sold. 5/6
+   r 308 MONEY_TOWER   at (37, 18): paint before the assault 0, assault 2 rounds, attackers soldier 1, spawned 0, own robots near 0
+   r 337 MONEY_TOWER   at (49, 40): disintegrated (no damage rows; our churn)
+   r 497 PAINT_TOWER   at (45, 45): paint before the assault 120, assault 25 rounds, attackers soldier 1, splasher 2, spawned 0, own robots near 2
+   r 543 MONEY_TOWER   at (49, 40): paint before the assault 0, assault 21 rounds, attackers splasher 2, spawned 0, own robots near 1
+   last tower fell r543; robots alive then 4, paint median 0.0, of them starved (last turn at 0 paint) 4
+
+m7565g0 y360 vs om-nom on Brat (29x29), eliminated r207
+   r50: towers 3/3 robots 7/8 sold. 7/5   r100: towers 1/2 robots 3/10 sold. 3/5   r150: towers 1/4 robots 1/12 sold. 1/6   r200: towers 1/8 robots 0/16 sold. 0/10
+   r  53 MONEY_TOWER   at (13, 3): paint before the assault 34, assault 28 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r  62 MONEY_TOWER   at (8, 2): paint before the assault 63, assault 14 rounds, attackers soldier 4, spawned 0, own robots near 1
+   r 100 PAINT_TOWER   at (18, 2): paint before the assault 286, assault 16 rounds, attackers soldier 2, spawned 0, own robots near 0
+   r 207 PAINT_TOWER   at (26, 24): paint before the assault 712, assault 16 rounds, attackers soldier 1, spawned 0, own robots near 0
+   last tower fell r207; robots alive then 0, paint median -, of them starved (last turn at 0 paint) 0
+
+m7565g1 y360 vs om-nom on Jail (20x30), eliminated r112
+   r50: towers 0/1 robots 5/9 sold. 5/5   r100: towers 0/1 robots 1/8 sold. 1/5
+   r  35 PAINT_TOWER   at (2, 26): paint before the assault 120, assault 12 rounds, attackers soldier 3, spawned 1, own robots near 0
+   r  49 MONEY_TOWER   at (3, 15): paint before the assault 81, assault 22 rounds, attackers soldier 3, spawned 0, own robots near 0
+   last tower fell r49; robots alive then 5, paint median 0, of them starved (last turn at 0 paint) 5
+
+m7631g0 y360 vs spaark on Crab (40x30), eliminated r414
+   r50: towers 4/5 robots 8/6 sold. 8/6   r100: towers 7/6 robots 12/11 sold. 11/7   r150: towers 7/7 robots 17/16 sold. 10/9   r200: towers 7/8 robots 12/17 sold. 6/9
+   r  81 MONEY_TOWER   at (22, 5): paint before the assault 247, assault 26 rounds, attackers soldier 2, spawned 0, own robots near 4
+   r 108 MONEY_TOWER   at (22, 5): paint before the assault None, assault 26 rounds, attackers soldier 2, spawned 2, own robots near 2
+   r 138 MONEY_TOWER   at (29, 2): disintegrated (no damage rows; our churn)
+   r 162 MONEY_TOWER   at (25, 16): paint before the assault 0, assault 8 rounds, attackers soldier 1, spawned 0, own robots near 3
+   r 172 MONEY_TOWER   at (27, 10): paint before the assault 0, assault 44 rounds, attackers soldier 1, spawned 0, own robots near 2
+   r 202 MONEY_TOWER   at (22, 5): paint before the assault 0, assault 2 rounds, attackers soldier 1, spawned 0, own robots near 3
+   r 228 MONEY_TOWER   at (25, 16): paint before the assault 0, assault 2 rounds, attackers soldier 2, spawned 0, own robots near 2
+   r 240 MONEY_TOWER   at (29, 2): paint before the assault 113, assault 4 rounds, attackers soldier 1, spawned 0, own robots near 0
+   r 260 MONEY_TOWER   at (27, 10): paint before the assault 0, assault 4 rounds, attackers soldier 3, spawned 0, own robots near 2
+   r 279 MONEY_TOWER   at (25, 16): paint before the assault 104, assault 3 rounds, attackers soldier 1, spawned 0, own robots near 0
+   r 291 MONEY_TOWER   at (30, 19): paint before the assault 0, assault 10 rounds, attackers soldier 4, spawned 0, own robots near 0
+   r 354 MONEY_TOWER   at (36, 16): paint before the assault 0, assault 35 rounds, attackers soldier 3, splasher 1, spawned 0, own robots near 1
+   r 366 PAINT_TOWER   at (36, 6): paint before the assault 105, assault 23 rounds, attackers soldier 5, spawned 0, own robots near 1
+   last tower fell r366; robots alive then 4, paint median 0.0, of them starved (last turn at 0 paint) 4
+
+== 12 eliminations, 95 of our towers killed (churns left out)
+   r1-100: 22 deaths; paint before the assault (median) 100.0; assault rounds (median) 13.5; attackers per death: soldier 2.6; spawned during it 0.23; own robots near at the first hit (median) 1.0
+   r101-200: 24 deaths; paint before the assault (median) 34; assault rounds (median) 22.0; attackers per death: soldier 2.2, splasher 0.2; spawned during it 0.29; own robots near at the first hit (median) 1.0
+   r201-300: 31 deaths; paint before the assault (median) 25; assault rounds (median) 14; attackers per death: soldier 2.2, splasher 0.4; spawned during it 0.42; own robots near at the first hit (median) 1
+   r301-2000: 18 deaths; paint before the assault (median) 0; assault rounds (median) 22.0; attackers per death: soldier 2.5, splasher 0.4; spawned during it 0.00; own robots near at the first hit (median) 1.0

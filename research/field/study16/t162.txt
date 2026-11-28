@@ -1,0 +1,98 @@
+
+== lost: 29 games; tower assaults (hits < 15 rounds apart), by the side whose tower was hit
+                                                 r1-100 us   r1-100 them   r101-200 us r101-200 them      r201+ us    r201+ them        all us      all them
+assaults                                                82            91           119           115           484           273           685           479
+  lost (the tower died)                                49%           45%           39%           27%           43%           30%           43%           32%
+length, rounds (median)                               15.0            14            13            11          11.0            10            12            11
+damage taken (median)                                850.0           850           500           450         450.0           400           500           500
+distinct attackers (mean)                             1.83          1.85          1.81          1.61          2.17          1.77          2.07          1.74
+tower paint before the first hit (median)            100.0         276.5            40         146.0             0            63          21.0           114
+spawns during it (mean)                               0.27          0.81          0.23          0.47          0.28          0.38          0.27          0.48
+  of them moppers (mean)                              0.06          0.74          0.09          0.32          0.06          0.26          0.06          0.37
+own robots d2<=20, mean per round                     1.00          1.76          1.96          2.86          5.67          5.53          4.46          4.17
+  of them moppers                                     0.13          1.06          0.78          1.60          1.52          2.38          1.23          1.94
+alone (no own robot at any round end)                  16%            3%            4%            3%            8%            1%            8%            2%
+mop hits by own moppers near it (mean)                0.76          5.36          3.54          5.37          6.75          7.04          5.47          6.32
+attackers killed by the tower (mean)                  0.33          0.43          0.26          0.43          0.31          0.32          0.30          0.37
+attackers killed by others (mean)                     0.10          0.04          0.05          0.08          0.02          0.04          0.03          0.05
+attackers starved (mean)                              0.13          0.26          0.17          0.28          0.40          0.32          0.33          0.30
+attackers alive at 0 paint (mean)                     0.00          0.02          0.02          0.01          0.03          0.03          0.03          0.02
+  -- held assaults only (all phases), us / them
+  length, rounds (median)                              8.5             9
+  damage taken (median)                              300.0           400
+  distinct attackers (mean)                           1.34          1.38
+  tower paint before the first hit (median)             31           121
+  spawns during it (mean)                             0.23          0.42
+    of them moppers (mean)                            0.05          0.32
+  own robots d2<=20, mean per round                   3.86          4.23
+    of them moppers                                   1.16          2.02
+  alone (no own robot at any round end)                 9%            2%
+  mop hits by own moppers near it (mean)              2.91          5.38
+  attackers killed by the tower (mean)                0.29          0.43
+  attackers killed by others (mean)                   0.02          0.04
+  attackers starved (mean)                            0.22          0.27
+  attackers alive at 0 paint (mean)                   0.01          0.01
+  -- lost assaults only (all phases), us / them
+  length, rounds (median)                               17          14.0
+  damage taken (median)                               1000        1000.0
+  distinct attackers (mean)                           3.03          2.51
+  tower paint before the first hit (median)             10          87.5
+  spawns during it (mean)                             0.32          0.61
+    of them moppers (mean)                            0.08          0.46
+  own robots d2<=20, mean per round                   5.26          4.05
+    of them moppers                                   1.32          1.76
+  alone (no own robot at any round end)                 6%            1%
+  mop hits by own moppers near it (mean)              8.86          8.31
+  attackers killed by the tower (mean)                0.32          0.23
+  attackers killed by others (mean)                   0.05          0.06
+  attackers starved (mean)                            0.47          0.36
+  attackers alive at 0 paint (mean)                   0.05          0.04
+
+== won: 37 games; tower assaults (hits < 15 rounds apart), by the side whose tower was hit
+                                                 r1-100 us   r1-100 them   r101-200 us r101-200 them      r201+ us    r201+ them        all us      all them
+assaults                                               100           112           177           109           314           369           591           590
+  lost (the tower died)                                39%           51%           32%           43%           30%           44%           32%           45%
+length, rounds (median)                               15.0          15.0            12            13           9.0            11            11          13.0
+damage taken (median)                                750.0         850.0           450           600         300.0           500           450         600.0
+distinct attackers (mean)                             1.75          1.86          1.41          1.66          1.61          2.18          1.58          2.02
+tower paint before the first hit (median)              148         175.0            59          85.0          28.0            59          66.0            88
+spawns during it (mean)                               0.33          0.66          0.25          0.41          0.34          0.38          0.31          0.44
+  of them moppers (mean)                              0.09          0.49          0.08          0.26          0.07          0.19          0.07          0.26
+own robots d2<=20, mean per round                     0.77          1.33          1.78          1.88          5.13          3.14          3.39          2.56
+  of them moppers                                     0.09          0.85          0.77          1.09          1.57          1.69          1.08          1.42
+alone (no own robot at any round end)                  15%           13%           10%           13%            3%           14%            7%           14%
+mop hits by own moppers near it (mean)                0.56          4.72          2.90          4.46          5.38          5.19          3.82          4.97
+attackers killed by the tower (mean)                  0.54          0.59          0.43          0.50          0.35          0.41          0.41          0.46
+attackers killed by others (mean)                     0.11          0.06          0.02          0.04          0.04          0.02          0.05          0.03
+attackers starved (mean)                              0.12          0.16          0.21          0.20          0.29          0.20          0.24          0.19
+attackers alive at 0 paint (mean)                     0.01          0.01          0.00          0.01          0.01          0.02          0.01          0.02
+  -- held assaults only (all phases), us / them
+  length, rounds (median)                                9             9
+  damage taken (median)                                300           350
+  distinct attackers (mean)                           1.30          1.42
+  tower paint before the first hit (median)             66          87.0
+  spawns during it (mean)                             0.27          0.33
+    of them moppers (mean)                            0.06          0.19
+  own robots d2<=20, mean per round                   3.40          2.57
+    of them moppers                                   1.13          1.50
+  alone (no own robot at any round end)                 8%           15%
+  mop hits by own moppers near it (mean)              3.23          4.00
+  attackers killed by the tower (mean)                0.48          0.54
+  attackers killed by others (mean)                   0.04          0.02
+  attackers starved (mean)                            0.20          0.15
+  attackers alive at 0 paint (mean)                   0.01          0.01
+  -- lost assaults only (all phases), us / them
+  length, rounds (median)                             14.0            16
+  damage taken (median)                             1000.0          1000
+  distinct attackers (mean)                           2.16          2.76
+  tower paint before the first hit (median)             59            93
+  spawns during it (mean)                             0.40          0.57
+    of them moppers (mean)                            0.11          0.35
+  own robots d2<=20, mean per round                   3.36          2.56
+    of them moppers                                   0.97          1.32
+  alone (no own robot at any round end)                 6%           12%
+  mop hits by own moppers near it (mean)              5.07          6.15
+  attackers killed by the tower (mean)                0.26          0.37
+  attackers killed by others (mean)                   0.07          0.05
+  attackers starved (mean)                            0.31          0.24
+  attackers alive at 0 paint (mean)                   0.00          0.03

@@ -1,0 +1,32 @@
+
+== lost: 26 games; r101-300, per game (means); a dead money tower = L2+, under 10 paint, side at 2000+ chips
+   us   start     money tower: dead-and-churnable-looking rounds 58, own low robots that came adjacent 0.8, their robot-rounds within Chebyshev 2 36; games with any such round 19
+   us   upgraded  money tower: dead-and-churnable-looking rounds 4, own low robots that came adjacent 0.2, their robot-rounds within Chebyshev 2 6; games with any such round 2
+   us   money-tower upgrades (all rounds) 0.58 per game, first at median r339.5
+   them start     money tower: dead-and-churnable-looking rounds 40, own low robots that came adjacent 0.2, their robot-rounds within Chebyshev 2 4; games with any such round 17
+   them upgraded  money tower: dead-and-churnable-looking rounds 17, own low robots that came adjacent 0.0, their robot-rounds within Chebyshev 2 0; games with any such round 6
+   them money-tower upgrades (all rounds) 1.50 per game, first at median r210.0
+
+== won: 19 games; r101-300, per game (means); a dead money tower = L2+, under 10 paint, side at 2000+ chips
+   us   start     money tower: dead-and-churnable-looking rounds 38, own low robots that came adjacent 1.2, their robot-rounds within Chebyshev 2 18; games with any such round 16
+   us   upgraded  money tower: dead-and-churnable-looking rounds 0, own low robots that came adjacent 0.0, their robot-rounds within Chebyshev 2 0; games with any such round 1
+   us   money-tower upgrades (all rounds) 0.11 per game, first at median r296
+   them start     money tower: dead-and-churnable-looking rounds 45, own low robots that came adjacent 0.1, their robot-rounds within Chebyshev 2 2; games with any such round 10
+   them upgraded  money tower: dead-and-churnable-looking rounds 29, own low robots that came adjacent 0.3, their robot-rounds within Chebyshev 2 2; games with any such round 6
+   them money-tower upgrades (all rounds) 1.84 per game, first at median r175.5
+
+== ver y360: 42 games; r101-300, per game (means); a dead money tower = L2+, under 10 paint, side at 2000+ chips
+   us   start     money tower: dead-and-churnable-looking rounds 51, own low robots that came adjacent 1.0, their robot-rounds within Chebyshev 2 28; games with any such round 34
+   us   upgraded  money tower: dead-and-churnable-looking rounds 3, own low robots that came adjacent 0.1, their robot-rounds within Chebyshev 2 4; games with any such round 3
+   us   money-tower upgrades (all rounds) 0.40 per game, first at median r309
+   them start     money tower: dead-and-churnable-looking rounds 42, own low robots that came adjacent 0.2, their robot-rounds within Chebyshev 2 3; games with any such round 26
+   them upgraded  money tower: dead-and-churnable-looking rounds 19, own low robots that came adjacent 0.1, their robot-rounds within Chebyshev 2 1; games with any such round 9
+   them money-tower upgrades (all rounds) 1.24 per game, first at median r184
+
+== ver y374: 3 games; r101-300, per game (means); a dead money tower = L2+, under 10 paint, side at 2000+ chips
+   us   start     money tower: dead-and-churnable-looking rounds 29, own low robots that came adjacent 1.0, their robot-rounds within Chebyshev 2 29; games with any such round 1
+   us   upgraded  money tower: dead-and-churnable-looking rounds 0, own low robots that came adjacent 0.0, their robot-rounds within Chebyshev 2 0; games with any such round 0
+   us   money-tower upgrades (all rounds) 0.00 per game, first at median r-
+   them start     money tower: dead-and-churnable-looking rounds 41, own low robots that came adjacent 0.0, their robot-rounds within Chebyshev 2 0; games with any such round 1
+   them upgraded  money tower: dead-and-churnable-looking rounds 66, own low robots that came adjacent 0.7, their robot-rounds within Chebyshev 2 5; games with any such round 3
+   them money-tower upgrades (all rounds) 7.33 per game, first at median r243

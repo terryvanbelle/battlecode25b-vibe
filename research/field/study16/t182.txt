@@ -1,0 +1,432 @@
+
+== lost: 29 games
+  SOLDIER  (us / them; visits = refill arrivals under 100 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.3 / 0.4         1.5 / 0.8         1.8 / 0.7         1.8 / 0.5
+       filled (% of visits)                                   73 / 81           38 / 54           26 / 50           30 / 45
+       partial (% of visits)                                    5 / 3            6 / 13             6 / 3             2 / 5
+       churn (% of visits)                                      6 / 0            14 / 8            9 / 15             4 / 7
+       dry (% of visits)                                      16 / 16           42 / 25           59 / 32           64 / 43
+       at paint tower (% of visits)                            13 / 9           14 / 27           18 / 32           33 / 38
+         of these dry (%)                                      25 / 0            0 / 14             4 / 3            16 / 7
+       at money, chips 2000+, intact (% of visits)             11 / 0           19 / 18           11 / 25            5 / 11
+         of these dry (%)                                      29 / -           32 / 21           34 / 16           55 / 43
+       at money, chips 2000+, broken (% of visits)             11 / 0            38 / 7            56 / 9           45 / 10
+         of these dry (%)                                      71 / -           83 / 45           87 / 94           95 / 93
+       at money, chips < 2000 (% of visits)                   65 / 86           28 / 47           15 / 27           16 / 41
+         of these dry (%)                                      2 / 16           16 / 31           35 / 48           74 / 64
+       at defense (% of visits)                                 0 / 5             0 / 2             0 / 8             0 / 0
+         of these dry (%)                                      - / 33            - / 33            - / 79            - / 75
+     paint on arrival (median)                              70 / 46.5         64.5 / 48           58 / 48           66 / 46
+     tower paint on arrival (median)                      100 / 382.0          0.0 / 99            0 / 75          0 / 34.0
+     approach rounds (median)                                 9 / 6.5           7.0 / 8             3 / 9             3 / 9
+     wait rounds adjacent (median)                            2 / 2.0           2.0 / 2             2 / 2             2 / 2
+       dry visits: wait (median)                              2.0 / 3           2 / 2.0           2 / 2.0           2 / 2.0
+     rounds in dry visits per 100 robot-rounds              0.7 / 0.5         5.0 / 2.1         7.5 / 3.1         7.7 / 2.5
+     after a dry visit: painted in 10 rounds (%)              80 / 89           45 / 45           31 / 38           12 / 11
+     after a dry visit: withdrew elsewhere (%)                30 / 56            9 / 36           12 / 34            9 / 20
+     after a dry visit: hit 0 paint (%)                         0 / 0            11 / 0             9 / 0             8 / 5
+  SPLASHER  (us / them; visits = refill arrivals under 150 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.0 / 0.0         2.6 / 0.5         3.1 / 0.8         2.2 / 0.4
+       filled (% of visits)                                     - / -           39 / 62           35 / 53           34 / 39
+       partial (% of visits)                                    - / -             1 / 0             3 / 6             3 / 3
+       churn (% of visits)                                      - / -             3 / 0             3 / 7             2 / 2
+       dry (% of visits)                                        - / -           56 / 38           59 / 33           61 / 56
+       at paint tower (% of visits)                             - / -           24 / 48           31 / 36           40 / 41
+         of these dry (%)                                       - / -            0 / 10            11 / 9           16 / 13
+       at money, chips 2000+, intact (% of visits)              - / -             8 / 0            5 / 23            4 / 13
+         of these dry (%)                                       - / -            33 / -            10 / 5           54 / 76
+       at money, chips 2000+, broken (% of visits)              - / -            46 / 5            56 / 8           42 / 27
+         of these dry (%)                                       - / -          97 / 100           93 / 75           97 / 96
+       at money, chips < 2000 (% of visits)                     - / -           21 / 48            8 / 22           14 / 19
+         of these dry (%)                                       - / -           40 / 60           33 / 62           81 / 76
+       at defense (% of visits)                                 - / -             0 / 0            0 / 10             0 / 0
+         of these dry (%)                                       - / -             - / -            - / 90             - / -
+     paint on arrival (median)                                  - / -           71 / 70         66 / 56.5         60 / 69.0
+     tower paint on arrival (median)                            - / -            0 / 51            0 / 57             0 / 0
+     approach rounds (median)                                   - / -             4 / 7          4 / 12.0           4 / 8.0
+     wait rounds adjacent (median)                              - / -             2 / 2           2 / 2.0           2 / 2.0
+       dry visits: wait (median)                                - / -         2.0 / 2.5           2 / 2.0           2 / 2.0
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.0        11.5 / 1.9        13.0 / 3.4         9.8 / 2.8
+     after a dry visit: painted in 10 rounds (%)                - / -           12 / 12           14 / 12             8 / 3
+     after a dry visit: withdrew elsewhere (%)                  - / -           20 / 12            9 / 25             8 / 8
+     after a dry visit: hit 0 paint (%)                         - / -            10 / 0             9 / 3            13 / 8
+
+== won: 37 games
+  SOLDIER  (us / them; visits = refill arrivals under 100 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.2 / 0.2         1.2 / 0.4         1.1 / 0.5         0.8 / 0.5
+       filled (% of visits)                                   87 / 73           58 / 56           51 / 56           53 / 63
+       partial (% of visits)                                   11 / 3             7 / 9             4 / 4             3 / 4
+       churn (% of visits)                                      0 / 0             9 / 3            10 / 6             4 / 5
+       dry (% of visits)                                       2 / 24           27 / 32           35 / 34           40 / 28
+       at paint tower (% of visits)                           22 / 35           30 / 20           44 / 33           51 / 49
+         of these dry (%)                                      0 / 23             2 / 0            2 / 12             5 / 2
+       at money, chips 2000+, intact (% of visits)              0 / 5            9 / 32           11 / 19             3 / 3
+         of these dry (%)                                      - / 50           19 / 68           38 / 52           40 / 20
+       at money, chips 2000+, broken (% of visits)              0 / 0            19 / 3           26 / 12           17 / 17
+         of these dry (%)                                       - / -           78 / 33           83 / 47           85 / 68
+       at money, chips < 2000 (% of visits)                   78 / 59           41 / 41           18 / 34           29 / 26
+         of these dry (%)                                      2 / 23           23 / 19           44 / 39           76 / 36
+       at defense (% of visits)                                 0 / 0             0 / 3             0 / 2             0 / 5
+         of these dry (%)                                       - / -            - / 33            - / 50            - / 89
+     paint on arrival (median)                                77 / 44         63 / 42.5         61.0 / 47           75 / 38
+     tower paint on arrival (median)                      176.5 / 276           68 / 77         49 / 94.0         22 / 78.0
+     approach rounds (median)                                  12 / 8           7 / 6.0           6.0 / 9            7 / 10
+     wait rounds adjacent (median)                              1 / 2           2 / 2.0           2.0 / 2             2 / 2
+       dry visits: wait (median)                                4 / 3         2.0 / 2.0             2 / 2         2.0 / 3.0
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.5         2.5 / 1.3         2.8 / 2.0         3.0 / 1.7
+     after a dry visit: painted in 10 rounds (%)               0 / 56           45 / 11           31 / 20           15 / 39
+     after a dry visit: withdrew elsewhere (%)                 0 / 67            19 / 7           11 / 24           18 / 17
+     after a dry visit: hit 0 paint (%)                         0 / 0             8 / 7             7 / 7            10 / 7
+  SPLASHER  (us / them; visits = refill arrivals under 150 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.0 / 0.0         2.8 / 0.7         1.5 / 0.6         1.1 / 1.0
+       filled (% of visits)                                     - / -           42 / 46           48 / 72           52 / 68
+       partial (% of visits)                                    - / -             2 / 8             6 / 4             3 / 2
+       churn (% of visits)                                      - / -             3 / 0             4 / 4             2 / 2
+       dry (% of visits)                                        - / -           53 / 46           43 / 21           43 / 29
+       at paint tower (% of visits)                             - / -           36 / 12           50 / 55           53 / 74
+         of these dry (%)                                       - / -            15 / 0             7 / 3             6 / 9
+       at money, chips 2000+, intact (% of visits)              - / -             3 / 8            4 / 13             2 / 3
+         of these dry (%)                                       - / -            33 / 0           21 / 29           28 / 17
+       at money, chips 2000+, broken (% of visits)              - / -           40 / 42            29 / 4           16 / 10
+         of these dry (%)                                       - / -           97 / 73          94 / 100          93 / 100
+       at money, chips < 2000 (% of visits)                     - / -           21 / 38           17 / 26            30 / 8
+         of these dry (%)                                       - / -           37 / 40           63 / 43           86 / 78
+       at defense (% of visits)                                 - / -             0 / 0             0 / 2             0 / 6
+         of these dry (%)                                       - / -             - / -             - / 0            - / 93
+     paint on arrival (median)                                  - / -         78 / 36.0         76.0 / 38           75 / 41
+     tower paint on arrival (median)                            - / -         41 / 14.5       56.5 / 93.0        35 / 107.5
+     approach rounds (median)                                   - / -           5 / 8.0          6.0 / 12            9 / 12
+     wait rounds adjacent (median)                              - / -           2 / 2.0           2.0 / 2             2 / 2
+       dry visits: wait (median)                                - / -         2.0 / 2.0             2 / 3           2 / 2.0
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.0        10.0 / 2.3         4.8 / 1.7         4.8 / 3.6
+     after a dry visit: painted in 10 rounds (%)                - / -           17 / 17           10 / 18            2 / 30
+     after a dry visit: withdrew elsewhere (%)                  - / -           23 / 17           19 / 36           14 / 30
+     after a dry visit: hit 0 paint (%)                         - / -             4 / 0            3 / 18             9 / 6
+
+== ver t188: 24 games
+  SOLDIER  (us / them; visits = refill arrivals under 100 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.3 / 0.4         1.6 / 0.7         1.3 / 0.7         1.4 / 0.5
+       filled (% of visits)                                   93 / 68           54 / 51           40 / 50           37 / 45
+       partial (% of visits)                                    2 / 4             6 / 9             4 / 2             2 / 5
+       churn (% of visits)                                      5 / 0            11 / 5            8 / 15             3 / 5
+       dry (% of visits)                                       0 / 28           29 / 35           48 / 34           58 / 44
+       at paint tower (% of visits)                           12 / 19           23 / 24           30 / 29           41 / 37
+         of these dry (%)                                      0 / 33            1 / 19             3 / 8            15 / 4
+       at money, chips 2000+, intact (% of visits)              5 / 0           13 / 18            7 / 19             4 / 8
+         of these dry (%)                                       0 / -           23 / 43            8 / 21           64 / 50
+       at money, chips 2000+, broken (% of visits)              0 / 0            24 / 4           42 / 12           35 / 12
+         of these dry (%)                                       - / -           79 / 20           89 / 87           96 / 87
+       at money, chips < 2000 (% of visits)                   83 / 77           40 / 50           21 / 31           21 / 41
+         of these dry (%)                                      0 / 25           18 / 40           42 / 38           78 / 65
+       at defense (% of visits)                                 0 / 4             0 / 4             0 / 9             0 / 2
+         of these dry (%)                                      - / 50            - / 50            - / 64            - / 91
+     paint on arrival (median)                                83 / 43       70.0 / 45.5           66 / 44           69 / 40
+     tower paint on arrival (median)                        200 / 360        63.0 / 102          0 / 91.0            0 / 16
+     approach rounds (median)                                   9 / 5         8.0 / 7.0             4 / 7             4 / 9
+     wait rounds adjacent (median)                              1 / 2         2.0 / 2.0             2 / 2             2 / 2
+       dry visits: wait (median)                                - / 3         2.0 / 2.0           2.0 / 2             2 / 2
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.8         4.3 / 2.4         5.4 / 2.9         6.5 / 2.8
+     after a dry visit: painted in 10 rounds (%)               - / 92           50 / 35           30 / 28           11 / 13
+     after a dry visit: withdrew elsewhere (%)                 - / 77           14 / 28           10 / 28           10 / 12
+     after a dry visit: hit 0 paint (%)                         - / 0             6 / 0            10 / 2             8 / 8
+  SPLASHER  (us / them; visits = refill arrivals under 150 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.0 / 0.0         3.6 / 0.7         2.0 / 0.8         1.5 / 0.5
+       filled (% of visits)                                     - / -           37 / 29           34 / 59           40 / 42
+       partial (% of visits)                                    - / -             0 / 5             3 / 4             2 / 2
+       churn (% of visits)                                      - / -             1 / 0             4 / 4             2 / 1
+       dry (% of visits)                                        - / -           62 / 67           59 / 32           56 / 55
+       at paint tower (% of visits)                             - / -           23 / 29           35 / 44           45 / 45
+         of these dry (%)                                       - / -            5 / 17             9 / 6           13 / 11
+       at money, chips 2000+, intact (% of visits)              - / -             4 / 0            4 / 17            3 / 11
+         of these dry (%)                                       - / -            33 / -           10 / 17           67 / 84
+       at money, chips 2000+, broken (% of visits)              - / -           54 / 29            49 / 4           30 / 27
+         of these dry (%)                                       - / -          95 / 100           99 / 67           97 / 98
+       at money, chips < 2000 (% of visits)                     - / -           20 / 43           12 / 21           22 / 14
+         of these dry (%)                                       - / -           44 / 78           58 / 60           85 / 84
+       at defense (% of visits)                                 - / -             0 / 0            0 / 14             0 / 2
+         of these dry (%)                                       - / -             - / -            - / 80            - / 93
+     paint on arrival (median)                                  - / -         82.5 / 64           78 / 49       65.0 / 65.0
+     tower paint on arrival (median)                            - / -           0.0 / 0        0.0 / 61.0           0.0 / 1
+     approach rounds (median)                                   - / -           3.0 / 3            4 / 10         5.0 / 7.0
+     wait rounds adjacent (median)                              - / -           2.0 / 2             2 / 2         2.0 / 2.0
+       dry visits: wait (median)                                - / -           2 / 2.0             2 / 2           2 / 2.0
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.0        14.6 / 3.0         7.7 / 2.6         7.0 / 3.0
+     after a dry visit: painted in 10 rounds (%)                - / -           16 / 21             9 / 9             6 / 4
+     after a dry visit: withdrew elsewhere (%)                  - / -           16 / 14           10 / 22             9 / 9
+     after a dry visit: hit 0 paint (%)                         - / -             4 / 0             6 / 4            13 / 8
+
+== ver t188 lost: 10 games
+  SOLDIER  (us / them; visits = refill arrivals under 100 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.3 / 0.6         1.8 / 0.9         2.0 / 0.8         1.8 / 0.5
+       filled (% of visits)                                   91 / 68           39 / 47           22 / 42           32 / 44
+       partial (% of visits)                                    0 / 6            6 / 12             6 / 1             2 / 5
+       churn (% of visits)                                      9 / 0            14 / 5            9 / 22             3 / 6
+       dry (% of visits)                                       0 / 26           42 / 35           62 / 35           63 / 45
+       at paint tower (% of visits)                           13 / 10           12 / 26           14 / 23           37 / 36
+         of these dry (%)                                       0 / 0            0 / 26             4 / 0            18 / 4
+       at money, chips 2000+, intact (% of visits)              9 / 0           19 / 15            7 / 25             5 / 9
+         of these dry (%)                                       0 / -           29 / 18            8 / 11           70 / 50
+       at money, chips 2000+, broken (% of visits)              0 / 0            35 / 5           61 / 13           41 / 11
+         of these dry (%)                                       - / -            83 / 0          88 / 100           97 / 91
+       at money, chips < 2000 (% of visits)                   78 / 84           33 / 53           18 / 26           17 / 43
+         of these dry (%)                                      0 / 27           22 / 46           41 / 40           78 / 66
+       at defense (% of visits)                                 0 / 6             0 / 1            0 / 13             0 / 0
+         of these dry (%)                                      - / 50           - / 100            - / 70           - / 100
+     paint on arrival (median)                                84 / 43       64.5 / 46.5         56.5 / 44           66 / 41
+     tower paint on arrival (median)                        180 / 361            0 / 91          0.0 / 75          0.0 / 13
+     approach rounds (median)                                   9 / 6         9.0 / 8.5           3.0 / 7             3 / 9
+     wait rounds adjacent (median)                              2 / 2         2.0 / 2.0           2.0 / 2             2 / 2
+       dry visits: wait (median)                              - / 2.5           2 / 2.0           2.0 / 2           2.0 / 2
+     rounds in dry visits per 100 robot-rounds              0.0 / 1.1         7.9 / 3.2        10.3 / 3.5         8.3 / 2.9
+     after a dry visit: painted in 10 rounds (%)              - / 100           47 / 46           34 / 22           10 / 10
+     after a dry visit: withdrew elsewhere (%)                 - / 62           12 / 38           12 / 33            9 / 13
+     after a dry visit: hit 0 paint (%)                         - / 0             9 / 0             9 / 0             7 / 8
+  SPLASHER  (us / them; visits = refill arrivals under 150 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.0 / 0.0         3.4 / 0.5         3.6 / 1.0         2.0 / 0.5
+       filled (% of visits)                                     - / -           30 / 56           23 / 55           38 / 37
+       partial (% of visits)                                    - / -             0 / 0             4 / 6             2 / 2
+       churn (% of visits)                                      - / -             3 / 0             4 / 6             2 / 1
+       dry (% of visits)                                        - / -           68 / 44           70 / 33           59 / 59
+       at paint tower (% of visits)                             - / -           16 / 56           22 / 39           45 / 41
+         of these dry (%)                                       - / -            0 / 20             8 / 5           17 / 13
+       at money, chips 2000+, intact (% of visits)              - / -             8 / 0            4 / 22            3 / 13
+         of these dry (%)                                       - / -            33 / -             0 / 9           72 / 84
+       at money, chips 2000+, broken (% of visits)              - / -            59 / 0            68 / 6           36 / 30
+         of these dry (%)                                       - / -            95 / -           97 / 67           98 / 98
+       at money, chips < 2000 (% of visits)                     - / -           16 / 44            6 / 16           16 / 16
+         of these dry (%)                                       - / -           50 / 75           29 / 62           84 / 83
+       at defense (% of visits)                                 - / -             0 / 0            0 / 18             0 / 0
+         of these dry (%)                                       - / -             - / -            - / 89             - / -
+     paint on arrival (median)                                  - / -           78 / 67           68 / 60       62.0 / 71.0
+     tower paint on arrival (median)                            - / -            0 / 39          0.0 / 48           0 / 0.0
+     approach rounds (median)                                   - / -             3 / 4            1 / 10         4.0 / 7.0
+     wait rounds adjacent (median)                              - / -             3 / 2             2 / 2         2.0 / 2.0
+       dry visits: wait (median)                                - / -           3 / 1.5             2 / 2             2 / 2
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.0        17.8 / 1.6        14.8 / 3.2         9.1 / 3.0
+     after a dry visit: painted in 10 rounds (%)                - / -           12 / 25            14 / 6             8 / 2
+     after a dry visit: withdrew elsewhere (%)                  - / -           16 / 25            3 / 18             8 / 7
+     after a dry visit: hit 0 paint (%)                         - / -             4 / 0            11 / 0            14 / 8
+
+== ver t188 won: 14 games
+  SOLDIER  (us / them; visits = refill arrivals under 100 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.2 / 0.2         1.4 / 0.5         1.0 / 0.5         0.8 / 0.5
+       filled (% of visits)                                   94 / 69           68 / 58           56 / 62           53 / 57
+       partial (% of visits)                                    6 / 0             6 / 2             3 / 2             2 / 4
+       churn (% of visits)                                      0 / 0             9 / 5             7 / 4             5 / 0
+       dry (% of visits)                                       0 / 31           18 / 35           34 / 32           40 / 38
+       at paint tower (% of visits)                           11 / 38           32 / 20           46 / 38           53 / 46
+         of these dry (%)                                      0 / 50             2 / 0            2 / 16             6 / 0
+       at money, chips 2000+, intact (% of visits)              0 / 0            7 / 25            6 / 10             1 / 0
+         of these dry (%)                                       - / -            8 / 70            8 / 60             0 / -
+       at money, chips 2000+, broken (% of visits)              0 / 0            14 / 2           25 / 10           12 / 19
+         of these dry (%)                                       - / -          69 / 100           92 / 60           86 / 69
+       at money, chips < 2000 (% of visits)                   89 / 62           47 / 45           23 / 40           34 / 22
+         of these dry (%)                                      0 / 20           15 / 28           42 / 35           79 / 60
+       at defense (% of visits)                                 0 / 0             0 / 8             0 / 2            0 / 13
+         of these dry (%)                                       - / -            - / 33             - / 0            - / 89
+     paint on arrival (median)                            81.5 / 39.5       75.5 / 44.0         76 / 43.0       76.5 / 26.5
+     tower paint on arrival (median)                    262.5 / 270.0        92 / 127.5          61 / 112          3 / 42.5
+     approach rounds (median)                               9.0 / 2.0         7.5 / 6.5           6 / 7.5        6.0 / 10.5
+     wait rounds adjacent (median)                          1.0 / 2.0         2.0 / 2.0           2 / 2.0         2.0 / 2.0
+       dry visits: wait (median)                                - / 3           2 / 3.0         2.0 / 3.0           2 / 3.0
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.6         1.6 / 1.7         3.0 / 2.3         3.7 / 2.1
+     after a dry visit: painted in 10 rounds (%)               - / 80           58 / 14           24 / 38           16 / 42
+     after a dry visit: withdrew elsewhere (%)                - / 100            18 / 7            8 / 19            19 / 8
+     after a dry visit: hit 0 paint (%)                         - / 0             0 / 0            11 / 6           12 / 12
+  SPLASHER  (us / them; visits = refill arrivals under 150 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.0 / 0.0         3.8 / 1.1         1.6 / 0.6         1.0 / 1.1
+       filled (% of visits)                                     - / -            42 / 8           41 / 70           46 / 70
+       partial (% of visits)                                    - / -             0 / 8             3 / 0             2 / 1
+       churn (% of visits)                                      - / -             0 / 0             4 / 0             3 / 0
+       dry (% of visits)                                        - / -           58 / 83           52 / 30           49 / 29
+       at paint tower (% of visits)                             - / -            29 / 8           44 / 55           47 / 73
+         of these dry (%)                                       - / -             8 / 0            10 / 9             6 / 4
+       at money, chips 2000+, intact (% of visits)              - / -             0 / 0             4 / 5             1 / 1
+         of these dry (%)                                       - / -             - / -          17 / 100          38 / 100
+       at money, chips 2000+, broken (% of visits)              - / -           49 / 50            36 / 0            17 / 8
+         of these dry (%)                                       - / -          95 / 100           100 / -          93 / 100
+       at money, chips < 2000 (% of visits)                     - / -           22 / 42           16 / 35            36 / 5
+         of these dry (%)                                       - / -           40 / 80           65 / 57          86 / 100
+       at defense (% of visits)                                 - / -             0 / 0             0 / 5            0 / 13
+         of these dry (%)                                       - / -             - / -             - / 0            - / 93
+     paint on arrival (median)                                  - / -         85 / 43.5       80.0 / 40.0       76.0 / 38.5
+     tower paint on arrival (median)                            - / -           0 / 0.0         31.5 / 95           0 / 119
+     approach rounds (median)                                   - / -           3 / 2.0        5.0 / 10.0        7.0 / 13.0
+     wait rounds adjacent (median)                              - / -           2 / 3.0         2.0 / 2.0         2.0 / 2.0
+       dry visits: wait (median)                                - / -         2.0 / 2.5         2.0 / 3.0           2.0 / 3
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.0        11.6 / 5.2         5.6 / 1.6         4.7 / 3.0
+     after a dry visit: painted in 10 rounds (%)                - / -           19 / 20            5 / 17            0 / 27
+     after a dry visit: withdrew elsewhere (%)                  - / -           15 / 10           17 / 33           12 / 30
+     after a dry visit: hit 0 paint (%)                         - / -             4 / 0            1 / 17            11 / 9
+
+== ver y358: 42 games
+  SOLDIER  (us / them; visits = refill arrivals under 100 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.3 / 0.2         1.2 / 0.5         1.3 / 0.6         1.0 / 0.4
+       filled (% of visits)                                   73 / 88           46 / 58           41 / 54           34 / 53
+       partial (% of visits)                                   10 / 2            6 / 14             6 / 5             5 / 5
+       churn (% of visits)                                      3 / 0            10 / 7            10 / 9             8 / 8
+       dry (% of visits)                                      14 / 10           37 / 22           44 / 32           54 / 35
+       at paint tower (% of visits)                           19 / 19           24 / 25           34 / 35           32 / 44
+         of these dry (%)                                      13 / 0             2 / 3             2 / 7             2 / 9
+       at money, chips 2000+, intact (% of visits)              6 / 4           14 / 26           14 / 25            6 / 12
+         of these dry (%)                                     40 / 50           30 / 44           46 / 32           29 / 33
+       at money, chips 2000+, broken (% of visits)              9 / 0            30 / 6            37 / 9            45 / 9
+         of these dry (%)                                      71 / -           82 / 56           83 / 56           90 / 86
+       at money, chips < 2000 (% of visits)                   65 / 75           32 / 41           14 / 28           17 / 35
+         of these dry (%)                                      4 / 11           23 / 14           39 / 49           62 / 53
+       at defense (% of visits)                                 0 / 2             0 / 1             0 / 3             0 / 1
+         of these dry (%)                                       - / 0             - / 0           - / 100            - / 50
+     paint on arrival (median)                              71 / 47.0           59 / 47         57.0 / 50           70 / 53
+     tower paint on arrival (median)                    100.0 / 355.5           41 / 77            0 / 92            0 / 69
+     approach rounds (median)                                11 / 8.5             6 / 7          5.0 / 10            4 / 10
+     wait rounds adjacent (median)                            1 / 2.0             2 / 2           2.0 / 2             2 / 2
+       dry visits: wait (median)                                3 / 3           2 / 2.0         2.0 / 2.0           2.0 / 2
+     rounds in dry visits per 100 robot-rounds              0.5 / 0.3         2.9 / 1.2         3.5 / 2.4         3.5 / 1.8
+     after a dry visit: painted in 10 rounds (%)              73 / 20           42 / 27           31 / 32           18 / 16
+     after a dry visit: withdrew elsewhere (%)                27 / 20           13 / 20           13 / 32           11 / 35
+     after a dry visit: hit 0 paint (%)                         0 / 0            12 / 7             7 / 4             8 / 0
+  SPLASHER  (us / them; visits = refill arrivals under 150 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.0 / 0.0         2.1 / 0.5         1.8 / 0.6         1.7 / 0.5
+       filled (% of visits)                                     - / -           45 / 73           52 / 60           41 / 56
+       partial (% of visits)                                    - / -             4 / 4             6 / 6             4 / 5
+       churn (% of visits)                                      - / -             5 / 0             3 / 8             3 / 5
+       dry (% of visits)                                        - / -           46 / 23           39 / 26           52 / 34
+       at paint tower (% of visits)                             - / -           39 / 27           50 / 42           43 / 55
+         of these dry (%)                                       - / -            13 / 0             7 / 6            7 / 13
+       at money, chips 2000+, intact (% of visits)              - / -             8 / 8            5 / 22             4 / 9
+         of these dry (%)                                       - / -            33 / 0            21 / 6           21 / 29
+       at money, chips 2000+, broken (% of visits)              - / -           31 / 23            30 / 9           39 / 11
+         of these dry (%)                                       - / -          100 / 50           87 / 86           96 / 83
+       at money, chips < 2000 (% of visits)                     - / -           22 / 42           15 / 26           14 / 24
+         of these dry (%)                                       - / -           33 / 27           56 / 50           77 / 61
+       at defense (% of visits)                                 - / -             0 / 0             0 / 1             0 / 0
+         of these dry (%)                                       - / -             - / -           - / 100             - / -
+     paint on arrival (median)                                  - / -       67.5 / 40.5       67.0 / 46.5         64.0 / 50
+     tower paint on arrival (median)                            - / -       58.0 / 97.0           72 / 81        0.0 / 84.0
+     approach rounds (median)                                   - / -        7.5 / 15.5        7.0 / 15.0          7.0 / 13
+     wait rounds adjacent (median)                              - / -         2.0 / 2.0         2.0 / 2.0           2.0 / 2
+       dry visits: wait (median)                                - / -           2 / 3.0           2 / 2.0           2 / 2.0
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.0         8.3 / 1.6         5.8 / 2.6         7.5 / 2.6
+     after a dry visit: painted in 10 rounds (%)                - / -            14 / 0           15 / 20            9 / 17
+     after a dry visit: withdrew elsewhere (%)                  - / -           30 / 17           21 / 35           11 / 21
+     after a dry visit: hit 0 paint (%)                         - / -            11 / 0            6 / 10             8 / 7
+
+== ver y358 lost: 19 games
+  SOLDIER  (us / them; visits = refill arrivals under 100 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.3 / 0.3         1.2 / 0.7         1.6 / 0.6         1.5 / 0.4
+       filled (% of visits)                                   62 / 96           38 / 59           30 / 56           20 / 48
+       partial (% of visits)                                    8 / 0            6 / 13             6 / 4             5 / 5
+       churn (% of visits)                                      5 / 0           13 / 10            8 / 11            10 / 8
+       dry (% of visits)                                       25 / 4           43 / 18           56 / 30           65 / 40
+       at paint tower (% of visits)                            12 / 7           17 / 27           21 / 38           19 / 41
+         of these dry (%)                                      40 / 0             0 / 4             5 / 5            1 / 11
+       at money, chips 2000+, intact (% of visits)             12 / 0           18 / 20           14 / 25            7 / 14
+         of these dry (%)                                      40 / -           35 / 22           46 / 19           12 / 35
+       at money, chips 2000+, broken (% of visits)             18 / 0            42 / 8            52 / 6            61 / 7
+         of these dry (%)                                      71 / -           83 / 71           87 / 83          92 / 100
+       at money, chips < 2000 (% of visits)                   58 / 89           23 / 43           12 / 27           13 / 37
+         of these dry (%)                                       4 / 4            8 / 15           28 / 54           55 / 61
+       at defense (% of visits)                                 0 / 4             0 / 2             0 / 4             0 / 1
+         of these dry (%)                                       - / 0             - / 0           - / 100            - / 50
+     paint on arrival (median)                              68.5 / 47         64.5 / 50         59 / 50.0       66.0 / 60.5
+     tower paint on arrival (median)                      100.0 / 390         0 / 100.5          0 / 72.0            0 / 56
+     approach rounds (median)                                 9.0 / 7           5.0 / 8          3 / 10.0         1.0 / 9.0
+     wait rounds adjacent (median)                            1.5 / 2           2.0 / 2           2 / 2.0         2.0 / 2.0
+       dry visits: wait (median)                              2.0 / 3         2.0 / 2.0             2 / 2             2 / 1
+     rounds in dry visits per 100 robot-rounds              1.0 / 0.1         2.9 / 1.4         5.5 / 2.9         5.5 / 1.9
+     after a dry visit: painted in 10 rounds (%)               80 / 0           43 / 44           28 / 52           21 / 12
+     after a dry visit: withdrew elsewhere (%)                 30 / 0            5 / 31           12 / 35            8 / 36
+     after a dry visit: hit 0 paint (%)                         0 / 0            14 / 0             9 / 0             9 / 0
+  SPLASHER  (us / them; visits = refill arrivals under 150 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.0 / 0.0         2.0 / 0.5         2.8 / 0.7         3.0 / 0.3
+       filled (% of visits)                                     - / -           50 / 67           49 / 51           22 / 48
+       partial (% of visits)                                    - / -             3 / 0             2 / 7             5 / 7
+       churn (% of visits)                                      - / -             3 / 0             2 / 9             4 / 7
+       dry (% of visits)                                        - / -           44 / 33           47 / 33           69 / 39
+       at paint tower (% of visits)                             - / -           32 / 42           40 / 33           23 / 41
+         of these dry (%)                                       - / -             0 / 0           12 / 13           11 / 12
+       at money, chips 2000+, intact (% of visits)              - / -             9 / 0            6 / 24            6 / 13
+         of these dry (%)                                       - / -            33 / -            17 / 0           21 / 37
+       at money, chips 2000+, broken (% of visits)              - / -            32 / 8           43 / 11           65 / 11
+         of these dry (%)                                       - / -         100 / 100           86 / 80           96 / 71
+       at money, chips < 2000 (% of visits)                     - / -           26 / 50           11 / 29            7 / 35
+         of these dry (%)                                       - / -           33 / 50           36 / 62           56 / 60
+       at defense (% of visits)                                 - / -             0 / 0             0 / 2             0 / 0
+         of these dry (%)                                       - / -             - / -           - / 100             - / -
+     paint on arrival (median)                                  - / -       67.5 / 79.0         63.5 / 54         54 / 58.0
+     tower paint on arrival (median)                            - / -       72.5 / 75.5         71 / 80.5          0.0 / 70
+     approach rounds (median)                                   - / -        7.5 / 12.5          6.0 / 15          1 / 15.0
+     wait rounds adjacent (median)                              - / -         2.0 / 2.5           3.0 / 2           2 / 2.0
+       dry visits: wait (median)                                - / -           2 / 3.0           2.0 / 2           2.0 / 2
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.0         7.4 / 2.1        11.5 / 3.5        13.9 / 2.2
+     after a dry visit: painted in 10 rounds (%)                - / -            13 / 0           15 / 20            10 / 7
+     after a dry visit: withdrew elsewhere (%)                  - / -            27 / 0           19 / 33            8 / 16
+     after a dry visit: hit 0 paint (%)                         - / -            20 / 0             6 / 7             9 / 9
+
+== ver y358 won: 23 games
+  SOLDIER  (us / them; visits = refill arrivals under 100 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.2 / 0.2         1.2 / 0.4         1.1 / 0.5         0.7 / 0.5
+       filled (% of visits)                                   84 / 76           52 / 54           47 / 52           52 / 68
+       partial (% of visits)                                   14 / 5            7 / 15             5 / 6             5 / 4
+       churn (% of visits)                                      0 / 0             9 / 2            12 / 7             4 / 8
+       dry (% of visits)                                       3 / 19           33 / 29           36 / 35           39 / 20
+       at paint tower (% of visits)                           27 / 33           29 / 21           43 / 30           49 / 51
+         of these dry (%)                                       0 / 0             2 / 0            1 / 10             2 / 4
+       at money, chips 2000+, intact (% of visits)             0 / 10           11 / 38           15 / 25             5 / 5
+         of these dry (%)                                      - / 50           23 / 67           46 / 50           57 / 20
+       at money, chips 2000+, broken (% of visits)              0 / 0            23 / 4           27 / 14           24 / 15
+         of these dry (%)                                       - / -            81 / 0           78 / 40           84 / 67
+       at money, chips < 2000 (% of visits)                   73 / 57           37 / 38           15 / 30           22 / 29
+         of these dry (%)                                      4 / 25           29 / 11           45 / 43           68 / 24
+       at defense (% of visits)                                 0 / 0             0 / 0             0 / 1             0 / 0
+         of these dry (%)                                       - / -             - / -           - / 100             - / -
+     paint on arrival (median)                                73 / 45         54 / 39.0           55 / 49           74 / 43
+     tower paint on arrival (median)                      162.0 / 276         50.5 / 49         36.0 / 94      47.0 / 104.5
+     approach rounds (median)                                 14 / 11           7 / 6.0             6 / 9            7 / 10
+     wait rounds adjacent (median)                              1 / 2           2 / 2.0             2 / 2             2 / 2
+       dry visits: wait (median)                              4 / 4.0           2 / 2.0             2 / 1           2 / 2.5
+     rounds in dry visits per 100 robot-rounds              0.1 / 0.5         3.0 / 1.1         2.6 / 1.8         2.2 / 1.4
+     after a dry visit: painted in 10 rounds (%)               0 / 25            41 / 7            35 / 8           12 / 35
+     after a dry visit: withdrew elsewhere (%)                 0 / 25            20 / 7           13 / 28           15 / 30
+     after a dry visit: hit 0 paint (%)                         0 / 0           11 / 14             5 / 8             7 / 0
+  SPLASHER  (us / them; visits = refill arrivals under 150 paint)
+                                                               r1-100          r101-200          r201-300             r301+
+     visits per 100 robot-rounds                            0.0 / 0.0         2.2 / 0.5         1.5 / 0.6         1.2 / 1.0
+       filled (% of visits)                                     - / -           41 / 79           53 / 73           60 / 66
+       partial (% of visits)                                    - / -             4 / 7             8 / 6             4 / 3
+       churn (% of visits)                                      - / -             7 / 0             4 / 6             2 / 3
+       dry (% of visits)                                        - / -           48 / 14           35 / 15           34 / 28
+       at paint tower (% of visits)                             - / -           43 / 14           55 / 55           63 / 74
+         of these dry (%)                                       - / -            20 / 0             6 / 0            6 / 14
+       at money, chips 2000+, intact (% of visits)              - / -            7 / 14            4 / 18             2 / 4
+         of these dry (%)                                       - / -            33 / 0           25 / 17            20 / 0
+       at money, chips 2000+, broken (% of visits)              - / -           30 / 36            23 / 6           14 / 11
+         of these dry (%)                                       - / -          100 / 40          87 / 100          93 / 100
+       at money, chips < 2000 (% of visits)                     - / -           20 / 36           17 / 21           20 / 10
+         of these dry (%)                                       - / -            33 / 0           62 / 29           84 / 67
+       at defense (% of visits)                                 - / -             0 / 0             0 / 0             0 / 0
+         of these dry (%)                                       - / -             - / -             - / -             - / -
+     paint on arrival (median)                                  - / -       69.5 / 28.5         69.0 / 36           74 / 44
+     tower paint on arrival (median)                            - / -      50.0 / 101.5         72.5 / 81        86.0 / 106
+     approach rounds (median)                                   - / -        7.5 / 16.5          8.0 / 16           10 / 11
+     wait rounds adjacent (median)                              - / -         2.5 / 2.0           2.0 / 2             2 / 2
+       dry visits: wait (median)                                - / -         2.0 / 1.5             2 / 2             2 / 2
+     rounds in dry visits per 100 robot-rounds              0.0 / 0.0         9.0 / 1.1         4.1 / 1.7         5.0 / 4.1
+     after a dry visit: painted in 10 rounds (%)                - / -            14 / 0           16 / 20            6 / 33
+     after a dry visit: withdrew elsewhere (%)                  - / -           32 / 50           22 / 40           18 / 30
+     after a dry visit: hit 0 paint (%)                         - / -             5 / 0            6 / 20             4 / 3

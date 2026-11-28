@@ -546,7 +546,7 @@
 # t177 (retired: built on y323, -5 after 280 games; SRP redo (ported as t180))
 # y327 (retired: built on y323, +0 after 287 games; churn reset 20)
 # y328 (retired: replica record 1828 until t186 (its child) set 1829 at #5 on 11-27 23:33; -13 vs t186 after 3554 games; t186's parent, so no reference slot)
-y328  # replica reference: peak 1828 at #5 on 11-27 21:11 PDT; slot since t188 set 1845 (11-27 23:50); permanent slot (owner #45)
+# y328 (retired: replica reference until 11-28 03:32, displaced by t188/y358; -61 vs y374 after 5157 games)
 # y329 (retired: -5 vs y328 after 619 games (flat); dry flags 80 rounds)
 # y330 (retired: built on y323, -1 after 128 games; adjacent dry below 40 (rebuilt as y334))
 # y331 (retired: -9 vs y328 after 332 games; dry flags 100 rounds, the same knob as y329 (80); room for study 14)
@@ -574,7 +574,7 @@ y328  # replica reference: peak 1828 at #5 on 11-27 21:11 PDT; slot since t188 s
 # t187 (retired: +27 vs y328 after 235 games; kept as t188 (t186 + t187))
 # t187 (retired: guardrail diagnostic, -5 vs t188 after 354 games; retired at y358 crowning)
 # y342 (retired: +2 vs y328 after 218 games; tower target weight 40, built on y328)
-t188  # replica record 1854 at #5, 2026-11-28 00:10 PDT (owner #35); champion until y358 (11-28 00:46)
+t188  # replica reference: peak 1854 at #5 on 11-28 00:10 PDT (record until y374 set 1862 at #3, 11-28 03:32); permanent slot (owner #45)
 # y343 (retired: +94 vs y328 after 111 games, built on y328; ported to t186 as y345)
 # y344 (retired: +14 vs y328 after 128 games, built on y328; ported to t186 as y346)
 # y345 (retired: +31 vs t186 after 66 games; ported to t188 as y351)
@@ -595,8 +595,9 @@ t188  # replica record 1854 at #5, 2026-11-28 00:10 PDT (owner #35); champion un
 # y356 (retired: +0 vs t188 after 268; built on t188)
 # y357 (retired: +23 vs t188 after 261; built on t188, ported as y360)
 # y358 (retired: champion until y360 (11-28 01:46); replica 1849 at #3 (t188's child, so no reference slot))
+y358  # replica reference: peak 1852 at #3 on 11-28 01:52 PDT; slot since y374 set 1862 (11-28 03:32); permanent slot (owner #45)
 # y359 (retired: +20 vs t188 after 211; built on t188, ported as y361)
-y360  # replica reference: peak 1850 at #3 on 11-28 02:09 PDT; champion until y374 (11-28 03:07); permanent slot (owner #45)
+# y360 (retired: replica reference until 11-28 03:32 (y374's parent once y374 set the record); -16 vs y374 after 2543 games)
 # y361 (retired: -12 vs y358 after 327; guardrail diagnostic (alarm cleared))
 # y362 (retired: -59 vs y358 after 184 games (80-104); moppers refill below 60)
 # y363 (retired: +3 vs y358 after 332; built on y358, ported as y369)
@@ -625,3 +626,9 @@ y378
 y379
 y380
 y381
+y382
+y383
+t200
+t201
+t202
+t203

@@ -1,0 +1,60 @@
+
+== lost: 28 games (r101-300, every 2nd round; ruin-rounds per game)
+   us  : free ruin-rounds 1399/game;  contested 66%,  clean & seen by a soldier with 60+ paint 4%,  clean & seen only under 60 1%,  clean & unseen 28%;  a soldier within Chebyshev 2 4%
+         ruins free at r101: 10.1/game, Chebyshev to own nearest tower med 12.0, to the other side's 10.0
+           nearer to us: 116 ruins: built by us 43% (med r149.5), by the other side 18%, free at r300 39%
+           nearer to the other side: 148 ruins: built by us 7% (med r143.0), by the other side 64%, free at r300 29%
+   them: free ruin-rounds 1399/game;  contested 56%,  clean & seen by a soldier with 60+ paint 8%,  clean & seen only under 60 2%,  clean & unseen 34%;  a soldier within Chebyshev 2 8%
+         ruins free at r101: 10.1/game, Chebyshev to own nearest tower med 10.0, to the other side's 12.0
+           nearer to them: 148 ruins: built by them 64% (med r155), by the other side 7%, free at r300 29%
+           nearer to the other side: 116 ruins: built by them 18% (med r198), by the other side 43%, free at r300 39%
+
+== won: 37 games (r101-300, every 2nd round; ruin-rounds per game)
+   us  : free ruin-rounds 1912/game;  contested 56%,  clean & seen by a soldier with 60+ paint 8%,  clean & seen only under 60 2%,  clean & unseen 33%;  a soldier within Chebyshev 2 9%
+         ruins free at r101: 13.8/game, Chebyshev to own nearest tower med 11.0, to the other side's 13.0
+           nearer to us: 260 ruins: built by us 67% (med r173), by the other side 5%, free at r300 28%
+           nearer to the other side: 210 ruins: built by us 24% (med r237), by the other side 43%, free at r300 32%
+   them: free ruin-rounds 1912/game;  contested 59%,  clean & seen by a soldier with 60+ paint 5%,  clean & seen only under 60 2%,  clean & unseen 34%;  a soldier within Chebyshev 2 6%
+         ruins free at r101: 13.8/game, Chebyshev to own nearest tower med 13.0, to the other side's 11.0
+           nearer to them: 210 ruins: built by them 43% (med r155), by the other side 24%, free at r300 32%
+           nearer to the other side: 260 ruins: built by them 5% (med r185), by the other side 67%, free at r300 28%
+
+== ver t188 lost: 10 games (r101-300, every 2nd round; ruin-rounds per game)
+   us  : free ruin-rounds 1391/game;  contested 66%,  clean & seen by a soldier with 60+ paint 5%,  clean & seen only under 60 2%,  clean & unseen 28%;  a soldier within Chebyshev 2 4%
+         ruins free at r101: 10.2/game, Chebyshev to own nearest tower med 13.0, to the other side's 10.5
+           nearer to us: 42 ruins: built by us 50% (med r171), by the other side 2%, free at r300 48%
+           nearer to the other side: 57 ruins: built by us 4% (med r193.0), by the other side 77%, free at r300 19%
+   them: free ruin-rounds 1391/game;  contested 56%,  clean & seen by a soldier with 60+ paint 8%,  clean & seen only under 60 1%,  clean & unseen 35%;  a soldier within Chebyshev 2 7%
+         ruins free at r101: 10.2/game, Chebyshev to own nearest tower med 10.5, to the other side's 13.0
+           nearer to them: 57 ruins: built by them 77% (med r150.5), by the other side 4%, free at r300 19%
+           nearer to the other side: 42 ruins: built by them 2% (med r281), by the other side 50%, free at r300 48%
+
+== ver t188 won: 14 games (r101-300, every 2nd round; ruin-rounds per game)
+   us  : free ruin-rounds 1881/game;  contested 48%,  clean & seen by a soldier with 60+ paint 10%,  clean & seen only under 60 2%,  clean & unseen 40%;  a soldier within Chebyshev 2 9%
+         ruins free at r101: 14.7/game, Chebyshev to own nearest tower med 12.0, to the other side's 15
+           nearer to us: 90 ruins: built by us 74% (med r173), by the other side 7%, free at r300 19%
+           nearer to the other side: 94 ruins: built by us 29% (med r237), by the other side 45%, free at r300 27%
+   them: free ruin-rounds 1881/game;  contested 51%,  clean & seen by a soldier with 60+ paint 5%,  clean & seen only under 60 1%,  clean & unseen 42%;  a soldier within Chebyshev 2 5%
+         ruins free at r101: 14.7/game, Chebyshev to own nearest tower med 15, to the other side's 12.0
+           nearer to them: 94 ruins: built by them 45% (med r179.5), by the other side 29%, free at r300 27%
+           nearer to the other side: 90 ruins: built by them 7% (med r157.0), by the other side 74%, free at r300 19%
+
+== ver y358 lost: 18 games (r101-300, every 2nd round; ruin-rounds per game)
+   us  : free ruin-rounds 1404/game;  contested 66%,  clean & seen by a soldier with 60+ paint 4%,  clean & seen only under 60 1%,  clean & unseen 28%;  a soldier within Chebyshev 2 4%
+         ruins free at r101: 10.0/game, Chebyshev to own nearest tower med 11.0, to the other side's 10.0
+           nearer to us: 74 ruins: built by us 39% (med r138), by the other side 27%, free at r300 34%
+           nearer to the other side: 91 ruins: built by us 9% (med r143.0), by the other side 56%, free at r300 35%
+   them: free ruin-rounds 1404/game;  contested 56%,  clean & seen by a soldier with 60+ paint 8%,  clean & seen only under 60 3%,  clean & unseen 34%;  a soldier within Chebyshev 2 8%
+         ruins free at r101: 10.0/game, Chebyshev to own nearest tower med 10.0, to the other side's 11.0
+           nearer to them: 91 ruins: built by them 56% (med r166), by the other side 9%, free at r300 35%
+           nearer to the other side: 74 ruins: built by them 27% (med r196.0), by the other side 39%, free at r300 34%
+
+== ver y358 won: 23 games (r101-300, every 2nd round; ruin-rounds per game)
+   us  : free ruin-rounds 1931/game;  contested 62%,  clean & seen by a soldier with 60+ paint 8%,  clean & seen only under 60 2%,  clean & unseen 28%;  a soldier within Chebyshev 2 8%
+         ruins free at r101: 13.3/game, Chebyshev to own nearest tower med 10.0, to the other side's 13
+           nearer to us: 170 ruins: built by us 62% (med r173.5), by the other side 4%, free at r300 34%
+           nearer to the other side: 116 ruins: built by us 21% (med r226.0), by the other side 42%, free at r300 37%
+   them: free ruin-rounds 1931/game;  contested 63%,  clean & seen by a soldier with 60+ paint 6%,  clean & seen only under 60 2%,  clean & unseen 29%;  a soldier within Chebyshev 2 6%
+         ruins free at r101: 13.3/game, Chebyshev to own nearest tower med 13, to the other side's 10.0
+           nearer to them: 116 ruins: built by them 42% (med r146), by the other side 21%, free at r300 37%
+           nearer to the other side: 170 ruins: built by them 4% (med r242), by the other side 62%, free at r300 34%

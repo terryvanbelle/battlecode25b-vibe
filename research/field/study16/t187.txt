@@ -1,0 +1,59 @@
+
+== lost, per opponent (medians us / them; a checkpoint counts the games that reached it)
+  just-woke-up: 4 games, end median r327.5; MAJORITY_PAINTED 4
+     r100 (4): cov% 25.6/22.2  towers 7.0/5.5  paint t. 1.0/1.0  chips 990.0/855.0  paint 2316.5/2334.0  sold. 8.5/6.0  splash. 0.5/0.5  mopp. 1.0/6.0
+     r200 (4): cov% 32.2/44.2  towers 6.5/8.0  paint t. 1.0/2.5  chips 2104.5/695.5  paint 1079.0/1854.5  sold. 2.5/9.0  splash. 2.5/3.0  mopp. 4.0/10.0
+     r300 (2): cov% 32.6/42.8  towers 3.5/7.5  paint t. 1.0/2.0  chips 4267.0/3256.0  paint 857.5/1670.0  sold. 2.0/6.5  splash. 2.5/2.0  mopp. 3.0/6.0
+  spaark: 6 games, end median r404.5; ALL_UNITS_DESTROYED 4, MAJORITY_PAINTED 2
+     r100 (6): cov% 19.1/18.0  towers 5.5/6.5  paint t. 1.0/1.0  chips 875.0/1025.0  paint 1950.5/2584.5  sold. 8.5/6.5  splash. 0.0/1.0  mopp. 0.5/3.0
+     r200 (6): cov% 27.2/32.2  towers 4.5/9.5  paint t. 1.0/1.5  chips 3515.5/2195.0  paint 1293.5/2059.0  sold. 6.5/10.0  splash. 2.0/3.0  mopp. 2.5/6.0
+     r300 (5): cov% 25.4/45.3  towers 3/13  paint t. 1/5  chips 3770/754  paint 1089/6488  sold. 3/11  splash. 2/9  mopp. 2/11
+  om-nom: 6 games, end median r450.0; ALL_UNITS_DESTROYED 2, MAJORITY_PAINTED 4
+     r100 (5): cov% 16.4/16.7  towers 4/6  paint t. 1/1  chips 1020/1040  paint 1466/2188  sold. 9/6  splash. 0/1  mopp. 1/4
+     r200 (5): cov% 26.9/29.6  towers 5/8  paint t. 1/1  chips 2170/1860  paint 1707/3314  sold. 9/9  splash. 1/4  mopp. 3/7
+     r300 (5): cov% 28.5/39.3  towers 7/13  paint t. 2/3  chips 1600/1870  paint 1722/4345  sold. 7/14  splash. 2/7  mopp. 5/13
+  confused: 2 games, end median r374.0; ALL_UNITS_DESTROYED 1, MAJORITY_PAINTED 1
+     r100 (2): cov% 27.2/24.0  towers 5.5/8.0  paint t. 0.5/1.0  chips 1390.0/815.0  paint 2039.5/3647.0  sold. 9.5/9.0  splash. 0.5/0.5  mopp. 0.5/2.0
+     r200 (2): cov% 26.0/36.7  towers 6.0/14.0  paint t. 1.0/1.0  chips 2640.0/1750.0  paint 1610.0/4286.5  sold. 7.0/14.5  splash. 1.0/2.0  mopp. 4.0/10.0
+     r300 (1): cov% 32.0/49.3  towers 6/13  paint t. 1/2  chips 910/2120  paint 2946/2653  sold. 10/8  splash. 3/5  mopp. 9/12
+  old-but-gold: 5 games, end median r488; MAJORITY_PAINTED 5
+     r100 (5): cov% 31.8/19.3  towers 5/5  paint t. 1/1  chips 1060/570  paint 1845/2079  sold. 9/4  splash. 0/0  mopp. 0/10
+     r200 (5): cov% 38.5/27.2  towers 7/5  paint t. 2/1  chips 1922/1368  paint 1698/2650  sold. 6/5  splash. 2/2  mopp. 4/10
+     r300 (5): cov% 43.8/37.6  towers 7/5  paint t. 3/2  chips 3659/4299  paint 2035/3124  sold. 6/9  splash. 5/5  mopp. 4/11
+  immutable: 1 games, end median r381; MAJORITY_PAINTED 1
+     r100 (1): cov% 27.4/32.7  towers 8/5  paint t. 1/1  chips 1360/470  paint 2790/2361  sold. 12/9  splash. 0/0  mopp. 3/2
+     r200 (1): cov% 41.1/44.4  towers 6/7  paint t. 1/1  chips 1770/1449  paint 2433/3566  sold. 11/11  splash. 2/9  mopp. 8/11
+     r300 (1): cov% 34.1/56.5  towers 5/8  paint t. 1/2  chips 1120/1502  paint 1610/3775  sold. 3/12  splash. 2/10  mopp. 7/14
+  gone-whalin: 4 games, end median r400.0; MAJORITY_PAINTED 4
+     r100 (4): cov% 33.0/18.2  towers 5.0/5.0  paint t. 0.0/1.0  chips 1910.0/1680.0  paint 1215.0/2400.5  sold. 8.0/6.5  splash. 0.0/0.0  mopp. 2.0/6.0
+     r200 (4): cov% 44.8/36.0  towers 7.5/7.0  paint t. 0.5/1.0  chips 2638.5/1610.0  paint 1892.5/3371.0  sold. 8.5/6.0  splash. 0.0/2.0  mopp. 7.0/10.0
+     r300 (4): cov% 37.5/49.5  towers 7.5/8.0  paint t. 1.0/0.5  chips 4919.5/1890.0  paint 1174.5/4169.5  sold. 5.0/8.0  splash. 2.0/4.0  mopp. 7.5/14.0
+
+== won, per opponent (medians us / them; a checkpoint counts the games that reached it)
+  just-woke-up: 2 games, end median r485.5; MAJORITY_PAINTED 2
+     r100 (2): cov% 14.1/13.2  towers 5.5/4.0  paint t. 1.0/0.0  chips 965.0/705.0  paint 1634.5/1854.5  sold. 7.0/4.5  splash. 0.0/0.0  mopp. 2.5/5.0
+     r200 (2): cov% 36.0/20.7  towers 10.5/8.5  paint t. 4.5/3.0  chips 828.5/1308.0  paint 2995.5/2408.0  sold. 11.0/8.5  splash. 2.5/1.5  mopp. 5.5/6.0
+     r300 (2): cov% 53.4/26.9  towers 14.0/7.5  paint t. 6.5/3.0  chips 1855.5/1181.0  paint 6534.5/2552.5  sold. 15.5/10.5  splash. 10.5/5.5  mopp. 10.5/9.0
+  spaark: 9 games, end median r335; MAJORITY_PAINTED 9
+     r100 (9): cov% 15.0/12.9  towers 7/4  paint t. 1/1  chips 860/1530  paint 2557/1592  sold. 9/7  splash. 0/1  mopp. 2/2
+     r200 (9): cov% 39.1/19.0  towers 10/5  paint t. 2/1  chips 1448/1781  paint 3586/1788  sold. 16/6  splash. 3/1  mopp. 5/3
+     r300 (5): cov% 46.3/19.5  towers 13/8  paint t. 6/1  chips 1089/1826  paint 10738/1694  sold. 31/7  splash. 21/2  mopp. 12/5
+  om-nom: 9 games, end median r306; MAJORITY_PAINTED 9
+     r100 (9): cov% 20.8/16.8  towers 6/4  paint t. 1/1  chips 870/1130  paint 1924/1549  sold. 9/5  splash. 0/0  mopp. 2/3
+     r200 (9): cov% 40.8/18.8  towers 9/4  paint t. 2/1  chips 1527/3440  paint 2736/1475  sold. 12/4  splash. 3/2  mopp. 7/5
+     r300 (7): cov% 66.8/12.8  towers 13/3  paint t. 6/0  chips 1017/5852  paint 6372/526  sold. 19/2  splash. 11/1  mopp. 10/5
+  confused: 1 games, end median r320; MAJORITY_PAINTED 1
+     r100 (1): cov% 18.9/16.1  towers 3/3  paint t. 0/1  chips 1170/130  paint 933/1716  sold. 5/5  splash. 0/0  mopp. 1/4
+     r200 (1): cov% 28.8/25.7  towers 3/1  paint t. 0/1  chips 5580/70  paint 655/1200  sold. 3/4  splash. 0/1  mopp. 2/1
+     r300 (1): cov% 63.2/14.3  towers 7/0  paint t. 4/0  chips 710/70  paint 2357/268  sold. 7/3  splash. 3/0  mopp. 4/1
+  old-but-gold: 1 games, end median r343; MAJORITY_PAINTED 1
+     r100 (1): cov% 29.0/22.9  towers 7/5  paint t. 0/1  chips 1170/550  paint 2052/2058  sold. 10/4  splash. 0/0  mopp. 1/10
+     r200 (1): cov% 46.7/24.4  towers 9/5  paint t. 2/1  chips 3566/1155  paint 3084/1229  sold. 13/4  splash. 1/1  mopp. 6/3
+     r300 (1): cov% 61.0/30.4  towers 8/3  paint t. 2/1  chips 1210/4706  paint 6472/1770  sold. 20/5  splash. 10/3  mopp. 15/8
+  immutable: 2 games, end median r273.0; MAJORITY_PAINTED 2
+     r100 (2): cov% 17.0/17.6  towers 6.0/3.0  paint t. 1.0/1.0  chips 1295.0/592.0  paint 2232.0/1823.0  sold. 8.0/6.5  splash. 0.0/0.5  mopp. 1.5/3.0
+     r200 (2): cov% 46.7/24.2  towers 12.0/4.5  paint t. 5.0/1.0  chips 1285.0/500.0  paint 3826.0/2405.0  sold. 14.5/8.5  splash. 3.0/3.5  mopp. 6.0/4.0
+  gone-whalin: 2 games, end median r340.0; MAJORITY_PAINTED 2
+     r100 (2): cov% 16.5/10.3  towers 6.5/6.5  paint t. 1.0/1.0  chips 760.0/1595.0  paint 2109.0/3503.5  sold. 10.0/6.5  splash. 0.0/0.0  mopp. 2.0/5.5
+     r200 (2): cov% 34.5/13.0  towers 10.0/6.0  paint t. 2.5/0.0  chips 1188.5/2545.0  paint 2907.5/3144.0  sold. 10.0/10.0  splash. 3.0/0.5  mopp. 6.0/12.0
+     r300 (2): cov% 56.6/11.1  towers 13.0/6.0  paint t. 5.5/0.0  chips 1641.5/1940.0  paint 8907.5/3223.0  sold. 20.5/12.5  splash. 15.5/1.0  mopp. 12.5/12.5

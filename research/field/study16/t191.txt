@@ -1,0 +1,32 @@
+
+== lost: 29 games; dry visits at L1 money towers with 2000+ chips and no enemy paint in the 5x5 (us / them)
+                                                                         r1-100        r101-200        r201-300           r301+
+     visits                                                               3 / 0         96 / 12        144 / 24        472 / 84
+       pattern intact (%)                                                67 / -         24 / 50         10 / 33         17 / 39
+       wrong tiles per broken pattern (median)                            1 / -         1 / 5.0         1 / 4.0         4.0 / 5
+         empty (% of wrong tiles)                                       100 / -          38 / 0          20 / 3           6 / 3
+         own wrong colour, SRP-coloured (% of wrong tiles)                0 / -         11 / 90         33 / 51         42 / 80
+         own wrong colour, other (% of wrong tiles)                       0 / -         51 / 10         47 / 46         52 / 17
+       broken patterns with an SRP-coloured tile (%)                      0 / -         14 / 83         36 / 56         58 / 88
+       soldiers at 1-3 wrong tiles: visits                                1 / 0          38 / 1          61 / 1          82 / 7
+         a wrong tile in r2 9 at the arrival (%)                        100 / -        32 / 100        26 / 100         52 / 86
+         ... at any turn of the stay (%)                                100 / -        32 / 100        28 / 100         56 / 86
+         ... with 5+ paint then (%)                                     100 / -        32 / 100        26 / 100         51 / 57
+         stay beside the tower, rounds (median)                           3 / -         2.0 / 3           2 / 4         2.0 / 2
+       broken patterns whose only wrong tiles are SRP-coloured (%)           0 / -         14 / 83         28 / 31         40 / 59
+
+== won: 37 games; dry visits at L1 money towers with 2000+ chips and no enemy paint in the 5x5 (us / them)
+                                                                         r1-100        r101-200        r201-300           r301+
+     visits                                                               0 / 1         28 / 20        142 / 17        207 / 18
+       pattern intact (%)                                               - / 100         21 / 85          5 / 76           5 / 6
+       wrong tiles per broken pattern (median)                            - / -         2.0 / 2         4 / 5.5          4 / 12
+         empty (% of wrong tiles)                                         - / -         14 / 50         13 / 14           1 / 4
+         own wrong colour, SRP-coloured (% of wrong tiles)                - / -         56 / 33         37 / 14         66 / 26
+         own wrong colour, other (% of wrong tiles)                       - / -         30 / 17         50 / 73         33 / 70
+       broken patterns with an SRP-coloured tile (%)                      - / -         59 / 33         52 / 25         66 / 59
+       soldiers at 1-3 wrong tiles: visits                                0 / 0          11 / 1          41 / 0          27 / 1
+         a wrong tile in r2 9 at the arrival (%)                          - / -        27 / 100          41 / -        70 / 100
+         ... at any turn of the stay (%)                                  - / -        27 / 100          46 / -        70 / 100
+         ... with 5+ paint then (%)                                       - / -        27 / 100          41 / -        59 / 100
+         stay beside the tower, rounds (median)                           - / -           2 / 3           2 / -           2 / 3
+       broken patterns whose only wrong tiles are SRP-coloured (%)           - / -         45 / 33          27 / 0          35 / 0

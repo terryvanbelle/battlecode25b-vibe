@@ -1,0 +1,35 @@
+
+== lost
+   m7490g1 just-woke-up Thirds         tower 11913 (upgraded r340 to L2): r301+ 0/6  (intact / visits)
+   m7490g2 just-woke-up leavemealone   tower 12726 (upgraded r224 to L2): r201-300 0/6  (intact / visits)
+   m7491g0 confused     DonkeyKong     tower 4 (start L2): r201-300 0/1  (intact / visits)
+   m7491g2 confused     maze           tower 6 (start L2): r201-300 0/13  r301+ 15/15  (intact / visits)
+   m7520g0 old-but-gold Racetrack      tower 11410 (upgraded r251 to L2): r201-300 14/17  (intact / visits)
+   m7527g2 just-woke-up boxofchocolate tower 4 (start L2): r1-100 0/22  r101-200 0/34  r201-300 0/3  r301+ 0/19  (intact / visits)
+   m7527g2 just-woke-up boxofchocolate tower 13357 (upgraded r370 to L2): r301+ 0/9  (intact / visits)
+   m7544g0 om-nom       BatSignal      tower 3 (start L2): r301+ 0/64  (intact / visits)
+   m7544g1 om-nom       boxofchocolate tower 4 (start L2): r1-100 0/14  r101-200 0/39  (intact / visits)
+   m7547g2 confused     memstore       tower 3 (start L2): r101-200 5/9  r201-300 32/32  r301+ 1/1  (intact / visits)
+   m7565g2 om-nom       TheBest        tower 4 (start L2): r301+ 0/2  (intact / visits)
+   m7599g0 om-nom       DefaultMedium  tower 7 (start L2): r201-300 0/13  r301+ 0/6  (intact / visits)
+   m7631g0 spaark       Crab           tower 4 (start L2): r201-300 0/5  r301+ 0/13  (intact / visits)
+   m7636g2 spaark       UnderTheSea    tower 4 (start L2): r201-300 0/8  (intact / visits)
+   start towers: r1-100 intact 0 of 36  r101-200 intact 5 of 82  r201-300 intact 32 of 75  r301+ intact 16 of 120
+   upg   towers: r1-100 intact 0 of 0  r101-200 intact 0 of 0  r201-300 intact 14 of 23  r301+ intact 0 of 15
+
+== won
+   m7491g1 confused     galaxy         tower 3 (start L2): r301+ 0/7  (intact / visits)
+   m7520g2 old-but-gold leavemealone   tower 10143 (upgraded r308 to L2): r301+ 0/1  (intact / visits)
+   m7527g0 just-woke-up Gears          tower 4 (start L2): r101-200 0/2  r201-300 0/2  r301+ 0/2  (intact / visits)
+   m7528g0 confused     Portal         tower 1 (start L2): r101-200 0/1  (intact / visits)
+   m7528g1 confused     TargetPractice tower 2 (start L2): r101-200 0/11  (intact / visits)
+   m7564g0 old-but-gold AlarmClock     tower 4 (start L2): r101-200 0/4  (intact / visits)
+   m7599g2 om-nom       roads          tower 3 (start L2): r101-200 0/11  (intact / visits)
+   m7600g0 spaark       Restart        tower 4 (start L2): r101-200 0/17  r201-300 0/6  r301+ 0/5  (intact / visits)
+   m7600g2 spaark       starburst      tower 4 (start L2): r101-200 0/6  r201-300 0/2  (intact / visits)
+   m7627g1 lobster-roll Dominoes       tower 4 (start L2): r201-300 0/9  r301+ 0/7  (intact / visits)
+   m7627g2 lobster-roll quack          tower 1 (start L2): r101-200 0/2  (intact / visits)
+   m7631g2 spaark       UglySweater    tower 4 (start L2): r101-200 0/2  (intact / visits)
+   m7636g1 spaark       TheBest        tower 3 (start L2): r201-300 0/1  (intact / visits)
+   start towers: r1-100 intact 0 of 0  r101-200 intact 0 of 56  r201-300 intact 0 of 20  r301+ intact 0 of 21
+   upg   towers: r1-100 intact 0 of 0  r101-200 intact 0 of 0  r201-300 intact 0 of 0  r301+ intact 0 of 1

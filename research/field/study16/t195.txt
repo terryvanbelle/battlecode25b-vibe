@@ -1,0 +1,20 @@
+
+== main set, lost: 29 games; rounds from r40, per game (means)
+   us  : soldier affordable but held back 92.3 rounds (spawned in 22.1); with no money tower standing 1.0; games with 20+ such rounds 1
+   them: soldier affordable but held back 151.1 rounds (spawned in 51.5); with no money tower standing 0.0; games with 20+ such rounds 0
+      m7351g2 spaark windmill end r417 ALL: rounds held back with no money tower 30 from r323, our robots then (median) 4.0, towers 1.0
+
+== main set, won: 37 games; rounds from r40, per game (means)
+   us  : soldier affordable but held back 177.0 rounds (spawned in 43.0); with no money tower standing 44.3; games with 20+ such rounds 1
+   them: soldier affordable but held back 101.2 rounds (spawned in 20.2); with no money tower standing 4.2; games with 20+ such rounds 2
+      m7423g0 scienceqiu Paintball end r2000 ARE: rounds held back with no money tower 1638 from r86, our robots then (median) 3.0, towers 1.0
+
+== set fetched during the study, lost: 26 games; rounds from r40, per game (means)
+   us  : soldier affordable but held back 132.0 rounds (spawned in 23.0); with no money tower standing 7.3; games with 20+ such rounds 2
+   them: soldier affordable but held back 158.0 rounds (spawned in 51.8); with no money tower standing 1.9; games with 20+ such rounds 1
+      m7565g0 om-nom Brat end r207 ALL: rounds held back with no money tower 137 from r71, our robots then (median) 1, towers 1
+      m7599g1 om-nom gardenworld end r485 MAJ: rounds held back with no money tower 43 from r420, our robots then (median) 27, towers 1
+
+== set fetched during the study, won: 19 games; rounds from r40, per game (means)
+   us  : soldier affordable but held back 113.9 rounds (spawned in 27.2); with no money tower standing 0.0; games with 20+ such rounds 0
+   them: soldier affordable but held back 100.1 rounds (spawned in 19.1); with no money tower standing 0.0; games with 20+ such rounds 0

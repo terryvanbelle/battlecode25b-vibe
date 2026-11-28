@@ -1,0 +1,56 @@
+
+== lost: 29 games; drains on soldiers and splashers, by the side drained (us / them)
+                                                               r1-100        r101-200        r201-300           r301+
+  SOLDIER
+     drains per 100 robot-rounds                            4.2 / 0.2       7.5 / 3.1       8.8 / 3.6       7.2 / 2.3
+     paint drained per 100 robot-rounds                        34 / 2         59 / 20         67 / 23         49 / 15
+       mop attacks (10) (% of drains)                         59 / 39         57 / 31         53 / 31         36 / 37
+       at ruin (% of paint drained)                           22 / 13         24 / 34         15 / 30         18 / 14
+       at own tower (% of paint drained)                        3 / 0           7 / 3           4 / 2           3 / 0
+       at siege (% of paint drained)                          21 / 24         15 / 17         13 / 13          6 / 18
+       at other (% of paint drained)                          55 / 63         55 / 47         68 / 56         72 / 67
+       victim paint before (median)                           88 / 96     92.0 / 77.5      101.0 / 77       93.0 / 38
+       distinct victims per game                            3.8 / 0.3       7.3 / 3.9       7.7 / 4.3     19.1 / 15.2
+       drains per victim (mean)                             7.7 / 3.7       8.5 / 5.8       8.4 / 7.2      13.4 / 9.1
+       repeat drains within 10 rounds (%)                     85 / 73         83 / 77         82 / 82         85 / 86
+  SPLASHER
+     drains per 100 robot-rounds                            0.0 / 0.0       6.5 / 2.2       6.9 / 3.5       5.0 / 1.3
+     paint drained per 100 robot-rounds                         0 / 0         51 / 14         54 / 22          33 / 8
+       mop attacks (10) (% of drains)                           - / -         56 / 26         58 / 27         32 / 25
+       at ruin (% of paint drained)                             - / -         23 / 34         23 / 23         17 / 25
+       at own tower (% of paint drained)                        - / -          18 / 2          10 / 0           4 / 0
+       at siege (% of paint drained)                            - / -           1 / 5           0 / 4           0 / 5
+       at other (% of paint drained)                            - / -         58 / 59         66 / 72         79 / 69
+       victim paint before (median)                             - / -       136 / 134        120 / 89      105 / 42.0
+       distinct victims per game                            0.0 / 0.0       0.9 / 1.1       2.2 / 3.0     17.8 / 14.9
+       drains per victim (mean)                                 - / -       6.7 / 2.8       7.4 / 4.6       8.5 / 6.0
+       repeat drains within 10 rounds (%)                       - / -         83 / 61         82 / 74         78 / 80
+  MOPPER robot-rounds per game (us / them): r1-100 12 / 167   r101-200 272 / 693   r201-300 454 / 929   r301+ 1427 / 4918
+
+== won: 37 games; drains on soldiers and splashers, by the side drained (us / them)
+                                                               r1-100        r101-200        r201-300           r301+
+  SOLDIER
+     drains per 100 robot-rounds                            3.9 / 0.2       4.6 / 4.0       4.8 / 5.9       3.5 / 7.5
+     paint drained per 100 robot-rounds                        31 / 1         38 / 29         39 / 41         29 / 53
+       mop attacks (10) (% of drains)                         62 / 57         66 / 46         63 / 38         68 / 42
+       at ruin (% of paint drained)                           29 / 15         25 / 21         25 / 24         23 / 21
+       at own tower (% of paint drained)                        2 / 0           7 / 2           5 / 1           1 / 0
+       at siege (% of paint drained)                          22 / 24         12 / 22         10 / 20         12 / 21
+       at other (% of paint drained)                          46 / 62         56 / 56         60 / 54         63 / 58
+       victim paint before (median)                       103.5 / 103         95 / 70    101.5 / 60.0      105.0 / 44
+       distinct victims per game                            3.8 / 0.4       6.4 / 4.0       8.3 / 5.0      12.6 / 7.9
+       drains per victim (mean)                             6.8 / 2.7       7.2 / 6.0       7.5 / 7.2       6.7 / 9.1
+       repeat drains within 10 rounds (%)                     83 / 63         81 / 79         81 / 84         77 / 85
+  SPLASHER
+     drains per 100 robot-rounds                            0.0 / 0.0       4.6 / 2.7       4.3 / 4.7       3.6 / 5.7
+     paint drained per 100 robot-rounds                         0 / 0         39 / 18         35 / 30         31 / 38
+       mop attacks (10) (% of drains)                           - / -         69 / 30         66 / 29         74 / 34
+       at ruin (% of paint drained)                             - / -         28 / 22         33 / 31         27 / 20
+       at own tower (% of paint drained)                        - / -           9 / 2           4 / 1           2 / 0
+       at siege (% of paint drained)                            - / -          1 / 11           0 / 7           1 / 5
+       at other (% of paint drained)                            - / -         62 / 65         62 / 60         70 / 74
+       victim paint before (median)                             - / -        139 / 96    123.5 / 55.0    128.0 / 22.0
+       distinct victims per game                            0.0 / 0.0       0.5 / 0.7       4.4 / 2.5      14.5 / 5.7
+       drains per victim (mean)                                 - / -       8.1 / 3.9       6.1 / 4.7       6.7 / 6.1
+       repeat drains within 10 rounds (%)                       - / -         85 / 68         80 / 74         79 / 79
+  MOPPER robot-rounds per game (us / them): r1-100 16 / 153   r101-200 407 / 499   r201-300 713 / 734   r301+ 1095 / 1209

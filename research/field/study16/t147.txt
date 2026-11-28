@@ -1,0 +1,175 @@
+66 games in the main set (22 matches)
+match g ver  rk opponent                 map              size   tiles res  end  how  cov% us/them   repeat of
+m7239 g0 t188  R  just-woke-up             BatSignal        40x25   890 L    399 MAJ   24.8/ 69.2   
+m7239 g1 t188  R  just-woke-up             Fossil           30x30   868 L    256 MAJ   21.3/ 70.7   
+m7239 g2 t188  R  just-woke-up             Rose             40x40  1512 W    318 MAJ   70.9/ 12.6   
+m7240 g0 t188  u  spaark                   HungerGames      50x50  2258 L    499 MAJ    5.1/ 70.2   
+m7240 g1 t188  u  spaark                   catface          30x30   868 W    293 MAJ   70.8/  8.5   
+m7240 g2 t188  u  spaark                   memstore         59x39  2081 W    415 MAJ   70.2/ 14.2   
+m7241 g0 t188  R  om-nom                   Portal           35x35  1129 L    449 MAJ    7.3/ 70.2   
+m7241 g1 t188  R  om-nom                   SMILE            60x60  3482 L   1045 MAJ   23.6/ 70.2   
+m7241 g2 t188  R  om-nom                   defensetower     40x59  2173 W    302 MAJ   70.4/  3.3   
+m7242 g0 t188  u  immutable                Circuit          60x21  1096 W    262 MAJ   71.1/ 17.0   
+m7242 g1 t188  u  immutable                Terminal         40x30  1022 L    381 MAJ   22.6/ 70.1   
+m7242 g2 t188  u  immutable                sayhi            40x50  1734 W    284 MAJ   70.1/ 19.6   
+m7265 g0 t188  R  spaark                   Circuit          60x21  1096 W    266 MAJ   70.1/ 15.2   
+m7265 g1 t188  R  spaark                   Leaf             60x60  3440 W    485 MAJ   70.1/ 18.9   
+m7265 g2 t188  R  spaark                   leavemealone     50x30  1364 W    241 MAJ   70.1/  9.3   
+m7268 g0 t188  R  scienceqiu               Fossil           30x30   868 W    281 MAJ   70.2/ 15.4   
+m7268 g1 t188  R  scienceqiu               Paintball        20x20   354 W    204 MAJ   70.3/ 15.5   
+m7268 g2 t188  R  scienceqiu               SMILE            60x60  3482 W    542 MAJ   70.1/ 25.0   
+m7294 g0 t188  R  gone-whalin              DefaultMedium    35x35  1193 W    321 MAJ   70.1/  6.0   
+m7294 g1 t188  R  gone-whalin              Fossil           30x30   868 L    366 MAJ   14.3/ 69.9   
+m7294 g2 t188  R  gone-whalin              TargetPractice   30x30   816 L    365 MAJ   22.3/ 70.2   
+m7310 g0 t188  R  spaark                   Justice          21x20   389 L    265 ALL   15.2/ 59.9   
+m7310 g1 t188  R  spaark                   headphones       60x60  3186 W    335 MAJ   70.1/  9.5   
+m7310 g2 t188  R  spaark                   maze             60x60  2888 L    849 MAJ   17.6/ 69.9   
+m7351 g0 y358  R  spaark                   DefaultMedium    35x35  1193 L    329 ALL    4.4/ 51.5   
+m7351 g1 y358  R  spaark                   Mirage           40x40  1480 L    392 ALL    5.2/ 67.6   
+m7351 g2 y358  R  spaark                   windmill         30x30   780 L    417 ALL    8.1/ 68.5   
+m7358 g0 y358  R  lobster-roll             Racetrack        25x25   562 W    243 MAJ   70.1/ 20.1   
+m7358 g1 y358  R  lobster-roll             SaltyPepper      40x40  1484 W    433 MAJ   70.5/ 19.3   
+m7358 g2 y358  R  lobster-roll             UglySweater      50x50  2340 W    388 MAJ   70.5/ 16.0   
+m7365 g0 y358  R  om-nom                   Circuit          60x21  1096 W    244 MAJ   70.3/ 19.3   
+m7365 g1 y358  R  om-nom                   Portal           35x35  1129 W    309 MAJ   70.3/ 11.2   
+m7365 g2 y358  R  om-nom                   maze             60x60  2888 L    609 MAJ   17.6/ 70.0   
+m7373 g0 y358  R  old-but-gold             HungerGames      50x50  2258 L    488 MAJ   26.3/ 70.6   
+m7373 g1 y358  R  old-but-gold             Racetrack        25x25   562 L    697 MAJ   17.6/ 70.3   
+m7373 g2 y358  R  old-but-gold             leavemealone     50x30  1364 W    343 MAJ   70.2/ 25.2   
+m7394 g0 y358  R  confused                 Brat             29x29   715 W    320 MAJ   70.1/ 12.2   
+m7394 g1 y358  R  confused                 Restart          55x55  2657 L    268 ALL    9.5/ 51.5   
+m7394 g2 y358  R  confused                 gridworld        31x31   769 L    480 MAJ   14.0/ 71.0   
+m7418 g0 y358  R  spaark                   Oasis            59x59  3339 W    367 MAJ   70.1/ 16.6   
+m7418 g1 y358  R  spaark                   SandyBeach       30x30   822 W    216 MAJ   70.1/ 21.8   
+m7418 g2 y358  R  spaark                   mit              60x60  3012 W    385 MAJ   70.1/ 10.4   
+m7422 g0 y358  R  just-woke-up             Brat             29x29   715 L    428 MAJ   15.4/ 70.2   
+m7422 g1 y358  R  just-woke-up             Snowglobe        40x40  1478 L    240 MAJ   22.3/ 70.2   
+m7422 g2 y358  R  just-woke-up             memstore         59x39  2081 W    653 MAJ   69.8/ 27.6   
+m7423 g0 y358  u  scienceqiu               Paintball        20x20   354 W   2000 ARE   52.0/ 44.6   
+m7423 g1 y358  u  scienceqiu               SaltyPepper      40x40  1484 W    330 MAJ   70.0/ 15.3   
+m7423 g2 y358  u  scienceqiu               memstore         59x39  2081 W    431 MAJ   70.2/ 16.6   
+m7424 g0 y358  u  gone-whalin              Fossil           30x30   868 L    434 MAJ   15.3/ 70.2   
+m7424 g1 y358  u  gone-whalin              TargetPractice   30x30   816 L    464 MAJ   21.6/ 70.2   
+m7424 g2 y358  u  gone-whalin              headphones       60x60  3186 W    359 MAJ   70.3/ 14.2   
+m7425 g0 y358  R  om-nom                   DefaultLarge     50x30  1476 W    400 MAJ   71.4/ 11.9   
+m7425 g1 y358  R  om-nom                   UglySweater      50x50  2340 W    300 MAJ   70.2/ 10.0   
+m7425 g2 y358  R  om-nom                   windmill         30x30   780 W    259 MAJ   70.6/  5.0   
+m7426 g0 y358  u  lobster-roll             DefaultHuge      59x59  3421 W    425 MAJ   70.5/ 21.8   
+m7426 g1 y358  u  lobster-roll             fix              40x50  1856 W    328 MAJ   70.1/  9.8   
+m7426 g2 y358  u  lobster-roll             rain             30x30   850 L    433 MAJ    8.0/ 70.1   
+m7432 g0 y358  R  om-nom                   Piglets2         60x40  2032 W    348 MAJ   70.4/ 12.3   
+m7432 g1 y358  R  om-nom                   Restart          55x55  2657 L    451 MAJ    4.3/ 70.0   
+m7432 g2 y358  R  om-nom                   windmill         30x30   780 L    370 ALL   10.6/ 52.2   
+m7452 g0 y358  u  old-but-gold             Snowman          25x25   553 L    420 MAJ    8.1/ 71.1   
+m7452 g1 y358  u  old-but-gold             maze             60x60  2888 L    725 MAJ   24.9/ 70.1   
+m7452 g2 y358  u  old-but-gold             roads            30x30   770 L    308 MAJ   23.5/ 70.1   
+m7459 g0 y358  R  om-nom                   CastleDefense    20x20   340 L     95 ALL   16.8/ 34.4   
+m7459 g1 y358  R  om-nom                   Money            35x35  1141 W    374 MAJ   69.7/ 21.6   
+m7459 g2 y358  R  om-nom                   defensetower     40x59  2173 W    306 MAJ   70.5/  3.5   
+
+exact repeats (0): 
+DUP set for lib.py: {}
+
+per match (repeats left out): won-lost
+m7239 t188  R just-woke-up             1-2
+m7240 t188  u spaark                   2-1
+m7241 t188  R om-nom                   1-2
+m7242 t188  u immutable                2-1
+m7265 t188  R spaark                   3-0
+m7268 t188  R scienceqiu               3-0
+m7294 t188  R gone-whalin              1-2
+m7310 t188  R spaark                   1-2
+m7351 y358  R spaark                   0-3
+m7358 y358  R lobster-roll             3-0
+m7365 y358  R om-nom                   2-1
+m7373 y358  R old-but-gold             1-2
+m7394 y358  R confused                 1-2
+m7418 y358  R spaark                   3-0
+m7422 y358  R just-woke-up             1-2
+m7423 y358  u scienceqiu               3-0
+m7424 y358  u gone-whalin              1-2
+m7425 y358  R om-nom                   3-0
+m7426 y358  u lobster-roll             2-1
+m7432 y358  R om-nom                   1-2
+m7452 y358  u old-but-gold             0-3
+m7459 y358  R om-nom                   2-1
+
+== t188
+   top 7: 11-10 (52%)
+   rest : 3-0 (100%)
+   all  : 14-10 (58%)
+   ranked: 10-8
+   unranked: 4-2
+
+== y358
+   top 7: 15-18 (45%)
+   rest : 8-1 (89%)
+   all  : 23-19 (55%)
+   ranked: 17-13
+   unranked: 6-6
+
+== all versions
+   top 7: 26-28 (48%)
+   rest : 11-1 (92%)
+   all  : 37-29 (56%)
+   ranked: 27-21
+   unranked: 10-8
+
+per opponent (repeats left out): t188 | y358 | all
+   confused                      - |    1-2 |    1-2
+   gone-whalin                 1-2 |    1-2 |    2-4
+   immutable                   2-1 |      - |    2-1
+   just-woke-up                1-2 |    1-2 |    2-4
+   lobster-roll                  - |    5-1 |    5-1
+   old-but-gold                  - |    1-5 |    1-5
+   om-nom                      1-2 |    8-4 |    9-6
+   scienceqiu                  3-0 |    3-0 |    6-0
+   spaark                      6-3 |    3-3 |    9-6
+
+win types (repeats left out): Counter({('W', 'MAJ'): 36, ('L', 'MAJ'): 22, ('L', 'ALL'): 7, ('W', 'ARE'): 1})
+loss end rounds by version:
+   t188: 10 losses, median end r390.0, eliminations 1
+   y358: 19 losses, median end r428, eliminations 6
+
+per map (repeats left out): t188 W-L | y358 W-L
+   BatSignal            0-1 |     -
+   Brat                   - |   1-1
+   CastleDefense          - |   0-1
+   Circuit              2-0 |   1-0
+   DefaultHuge            - |   1-0
+   DefaultLarge           - |   1-0
+   DefaultMedium        1-0 |   0-1
+   Fossil               1-2 |   0-1
+   HungerGames          0-1 |   0-1
+   Justice              0-1 |     -
+   Leaf                 1-0 |     -
+   Mirage                 - |   0-1
+   Money                  - |   1-0
+   Oasis                  - |   1-0
+   Paintball            1-0 |   1-0
+   Piglets2               - |   1-0
+   Portal               0-1 |   1-0
+   Racetrack              - |   1-1
+   Restart                - |   0-2
+   Rose                 1-0 |     -
+   SMILE                1-1 |     -
+   SaltyPepper            - |   2-0
+   SandyBeach             - |   1-0
+   Snowglobe              - |   0-1
+   Snowman                - |   0-1
+   TargetPractice       0-1 |   0-1
+   Terminal             0-1 |     -
+   UglySweater            - |   2-0
+   catface              1-0 |     -
+   defensetower         1-0 |   1-0
+   fix                    - |   1-0
+   gridworld              - |   0-1
+   headphones           1-0 |   1-0
+   leavemealone         1-0 |   1-0
+   maze                 0-1 |   0-2
+   memstore             1-0 |   2-0
+   mit                    - |   1-0
+   rain                   - |   0-1
+   roads                  - |   0-1
+   sayhi                1-0 |     -
+   windmill               - |   1-2

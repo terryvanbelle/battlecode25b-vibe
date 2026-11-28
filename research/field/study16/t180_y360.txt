@@ -1,0 +1,174 @@
+
+== lost: 26 games (means per game; a phase counts games that reached its start)
+                                                     r1-100        r101-200        r201-300           r301+
+   new paint towers built                         0.15/0.12       0.96/0.77       0.88/1.12       0.41/1.00
+   new money towers built                         4.23/3.73       0.46/1.46       0.56/1.24       0.09/1.68
+   new defense towers built                       0.00/0.04       0.00/0.08       0.00/0.04       0.00/0.05
+   taken paint towers built                       0.00/0.00       0.00/0.08       0.08/0.20       0.00/1.45
+   taken money towers built                       0.00/0.04       0.00/0.08       0.00/0.32       0.00/1.09
+   taken defense towers built                     0.00/0.00       0.00/0.00       0.00/0.08       0.00/0.09
+   rebuild paint towers built                     0.00/0.00       0.15/0.38       0.16/0.56       0.86/1.18
+   rebuild money towers built                     0.38/0.27       0.92/1.04       0.92/0.72       1.45/1.91
+   rebuild defense towers built                   0.00/0.00       0.00/0.08       0.00/0.04       0.00/0.05
+   churn paint towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn money towers built                       0.12/0.00       1.88/0.77       1.36/1.36      2.23/12.45
+   churn defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   paint tower upgrades to L2                     0.00/0.00       0.23/0.23       0.40/0.56       0.27/2.05
+   paint tower upgrades to L3                     0.00/0.00       0.19/0.15       0.20/0.36       0.23/0.36
+   money tower upgrades to L2                     0.00/0.04       0.00/0.23       0.20/0.48       0.41/0.50
+   money tower upgrades to L3                     0.00/0.00       0.00/0.00       0.00/0.08       0.05/0.32
+   paint towers destroyed                         0.12/0.08       0.35/0.15       0.60/0.32       2.09/0.91
+   first round with 2 paint towers: us median r161.5 (in 18 games; by r200 in 12, by r300 in 17) | them r166 (25; by r200 17, by r300 25)
+   first round with 3 paint towers: us median r187.0 (in 10 games; by r200 in 7, by r300 in 9) | them r243.5 (24; by r200 9, by r300 17)
+   first round with 4 paint towers: us median r216 (in 5 games; by r200 in 2, by r300 in 4) | them r279.5 (22; by r200 3, by r300 12)
+   ruins at r100 (26 games): held by us 6.0 / them 5.0 / free 11.0 (medians); games with 0 free: 0, with 2+ free: 26; mean free 12.8
+   ruins at r150 (25 games): held by us 7 / them 7 / free 11 (medians); games with 0 free: 0, with 2+ free: 25; mean free 11.6
+   ruins at r200 (25 games): held by us 7 / them 8 / free 8 (medians); games with 0 free: 0, with 2+ free: 25; mean free 9.9
+   ruins at r300 (22 games): held by us 5.5 / them 11.0 / free 7.0 (medians); games with 0 free: 0, with 2+ free: 22; mean free 8.0
+   us: first built paint tower is build no. median 7.0 (none among the first 8 in 10 games); orders: MMMMMMPM MMMMMP MMMMMMMM MPMMMPPM MMMMMM MMMMMMMP MMMPPM MPP MMMMMMMM MMMMMMMM M MMMMMMPM MMMMMMMP MMMMMMPM MP  MMMMMMMP MMMMMM MMMMMMMM MMMMMMPP MMMMMMPP MMMMMM MMMMMMMM MMMMMPPM MMMMMMP MMMMMMMP
+   them: first built paint tower is build no. median 5 (none among the first 8 in 11 games); orders: MMMMPMMP MMMPPPMP MMMMMMMM MMMMMMMP MMMMMMMM MMMMMMMM MMMPPMMP MPMMPDPM MMMMMMMM MMMMMMMM PPPMMMMM MMMMMMMM MMMMMMMP MMPPMM MMMMPPMP M MMMMMMMP MMPDMPMM MMMMMMMM MMMMMMMM MMMMMMMM MMMPMPMM MMMMMMPP MMMMMMPD MMMMMMMM MMMMMDPP
+
+== won: 19 games (means per game; a phase counts games that reached its start)
+                                                     r1-100        r101-200        r201-300           r301+
+   new paint towers built                         0.11/0.16       1.37/0.32       1.56/0.22       1.18/0.09
+   new money towers built                         4.63/3.00       0.79/0.79       0.50/0.44       0.55/0.27
+   new defense towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   taken paint towers built                       0.00/0.00       0.11/0.00       0.17/0.00       0.64/0.00
+   taken money towers built                       0.00/0.00       0.00/0.05       0.00/0.00       0.45/0.18
+   taken defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   rebuild paint towers built                     0.00/0.00       0.16/0.32       0.22/0.17       0.91/0.64
+   rebuild money towers built                     0.53/0.37       1.53/0.79       0.78/0.67       2.27/1.18
+   rebuild defense towers built                   0.00/0.00       0.00/0.00       0.00/0.06       0.00/0.18
+   churn paint towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn money towers built                       0.26/0.00       2.47/0.26       3.33/1.28       4.82/5.09
+   churn defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   paint tower upgrades to L2                     0.00/0.00       0.21/0.16       0.28/0.11       1.18/0.18
+   paint tower upgrades to L3                     0.00/0.00       0.00/0.00       0.06/0.06       0.09/0.18
+   money tower upgrades to L2                     0.00/0.00       0.00/0.53       0.06/1.00       0.09/0.09
+   money tower upgrades to L3                     0.00/0.00       0.00/0.00       0.00/0.17       0.00/0.27
+   paint towers destroyed                         0.26/0.26       0.21/0.11       0.06/0.61       0.91/1.00
+   first round with 2 paint towers: us median r186.5 (in 16 games; by r200 in 10, by r300 in 16) | them r157.0 (10; by r200 8, by r300 8)
+   first round with 3 paint towers: us median r211 (in 13 games; by r200 in 5, by r300 in 11) | them r177.5 (4; by r200 3, by r300 4)
+   first round with 4 paint towers: us median r208.5 (in 10 games; by r200 in 4, by r300 in 8) | them r175.5 (2; by r200 1, by r300 2)
+   ruins at r100 (19 games): held by us 6 / them 4 / free 10 (medians); games with 0 free: 0, with 2+ free: 18; mean free 11.3
+   ruins at r150 (19 games): held by us 7 / them 5 / free 6 (medians); games with 0 free: 0, with 2+ free: 18; mean free 9.6
+   ruins at r200 (18 games): held by us 8.0 / them 6.0 / free 5.5 (medians); games with 0 free: 0, with 2+ free: 18; mean free 8.3
+   ruins at r300 (11 games): held by us 9 / them 6 / free 7 (medians); games with 0 free: 0, with 2+ free: 11; mean free 7.5
+   us: first built paint tower is build no. median 6 (none among the first 8 in 8 games); orders: MMMMMP MMMMMMMM MMMMMMMM MMMMMMMP MMMMMMMM MMMMMPMM MMMMMMMM MMP MMMMMMMM MMMMMMMP MMMMMMP MMMMMMPP MMMMMMMM MMPPPPMP MMMMMMMM MPMMMMMP MMMMMPPP MMMMMMMM MMMMMMMP
+   them: first built paint tower is build no. median 4.5 (none among the first 8 in 11 games); orders: MMPMMMPP MMMMMMMM MMMMMMPP MMMMPMPM MMMM MM MMMPM  MMMMMMMM MMPPMMM MMM MMMMMPPP MMMM MMMMMMM MMMMMMMM MMMMMMPP MMMPPPP MMMMMMMM MMMMMMMM
+
+== ver y360 lost: 24 games (means per game; a phase counts games that reached its start)
+                                                     r1-100        r101-200        r201-300           r301+
+   new paint towers built                         0.12/0.12       0.96/0.71       0.91/1.13       0.45/1.10
+   new money towers built                         4.04/3.67       0.50/1.38       0.61/1.17       0.10/1.85
+   new defense towers built                       0.00/0.00       0.00/0.04       0.00/0.04       0.00/0.05
+   taken paint towers built                       0.00/0.00       0.00/0.04       0.09/0.22       0.00/1.55
+   taken money towers built                       0.00/0.04       0.00/0.08       0.00/0.26       0.00/1.15
+   taken defense towers built                     0.00/0.00       0.00/0.00       0.00/0.09       0.00/0.10
+   rebuild paint towers built                     0.00/0.00       0.17/0.33       0.13/0.52       0.95/1.15
+   rebuild money towers built                     0.42/0.29       0.96/0.96       1.00/0.70       1.60/2.10
+   rebuild defense towers built                   0.00/0.00       0.00/0.08       0.00/0.04       0.00/0.05
+   churn paint towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn money towers built                       0.12/0.00       1.75/0.83       1.30/1.48      2.40/13.70
+   churn defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   paint tower upgrades to L2                     0.00/0.00       0.21/0.25       0.39/0.61       0.25/2.05
+   paint tower upgrades to L3                     0.00/0.00       0.21/0.17       0.13/0.39       0.25/0.40
+   money tower upgrades to L2                     0.00/0.04       0.00/0.25       0.22/0.22       0.45/0.45
+   money tower upgrades to L3                     0.00/0.00       0.00/0.00       0.00/0.09       0.05/0.35
+   paint towers destroyed                         0.12/0.08       0.33/0.17       0.52/0.26       2.25/0.95
+   first round with 2 paint towers: us median r164.0 (in 16 games; by r200 in 10, by r300 in 15) | them r175 (23; by r200 15, by r300 23)
+   first round with 3 paint towers: us median r188 (in 9 games; by r200 in 6, by r300 in 8) | them r249.5 (22; by r200 7, by r300 15)
+   first round with 4 paint towers: us median r216 (in 5 games; by r200 in 2, by r300 in 4) | them r294.5 (20; by r200 2, by r300 10)
+   ruins at r100 (24 games): held by us 6.0 / them 5.0 / free 11.0 (medians); games with 0 free: 0, with 2+ free: 24; mean free 13.0
+   ruins at r150 (23 games): held by us 7 / them 6 / free 11 (medians); games with 0 free: 0, with 2+ free: 23; mean free 11.9
+   ruins at r200 (23 games): held by us 7 / them 8 / free 9 (medians); games with 0 free: 0, with 2+ free: 23; mean free 10.2
+   ruins at r300 (20 games): held by us 6.0 / them 11.0 / free 7.5 (medians); games with 0 free: 0, with 2+ free: 20; mean free 8.3
+   us: first built paint tower is build no. median 7.0 (none among the first 8 in 10 games); orders: MMMMMMPM MMMMMP MMMMMMMM MPMMMPPM MMMMMM MMMMMMMP MMMPPM MPP MMMMMMMM MMMMMMMM M MMMMMMPM MMMMMMMP MMMMMMPM MP  MMMMMMMP MMMMMM MMMMMMMM MMMMMMPP MMMMMMPP MMMMMM MMMMMMMM MMMMMPPM
+   them: first built paint tower is build no. median 4.5 (none among the first 8 in 10 games); orders: MMMMPMMP MMMPPPMP MMMMMMMM MMMMMMMP MMMMMMMM MMMMMMMM MMMPPMMP MPMMPDPM MMMMMMMM MMMMMMMM PPPMMMMM MMMMMMMM MMMMMMMP MMPPMM MMMMPPMP M MMMMMMMP MMPDMPMM MMMMMMMM MMMMMMMM MMMMMMMM MMMPMPMM MMMMMMPP MMMMMMPD
+
+== ver y360 won: 18 games (means per game; a phase counts games that reached its start)
+                                                     r1-100        r101-200        r201-300           r301+
+   new paint towers built                         0.11/0.17       0.94/0.33       1.35/0.24       1.10/0.10
+   new money towers built                         4.50/2.89       0.83/0.78       0.41/0.29       0.60/0.30
+   new defense towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   taken paint towers built                       0.00/0.00       0.11/0.00       0.18/0.00       0.70/0.00
+   taken money towers built                       0.00/0.00       0.00/0.06       0.00/0.00       0.50/0.20
+   taken defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   rebuild paint towers built                     0.00/0.00       0.17/0.33       0.24/0.18       1.00/0.70
+   rebuild money towers built                     0.56/0.39       1.50/0.72       0.71/0.59       2.50/1.30
+   rebuild defense towers built                   0.00/0.00       0.00/0.00       0.00/0.06       0.00/0.20
+   churn paint towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn money towers built                       0.28/0.00       2.61/0.28       3.53/1.35       5.30/5.60
+   churn defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   paint tower upgrades to L2                     0.00/0.00       0.22/0.17       0.29/0.12       1.30/0.20
+   paint tower upgrades to L3                     0.00/0.00       0.00/0.00       0.06/0.06       0.10/0.10
+   money tower upgrades to L2                     0.00/0.00       0.00/0.39       0.06/0.65       0.10/0.10
+   money tower upgrades to L3                     0.00/0.00       0.00/0.00       0.00/0.12       0.00/0.10
+   paint towers destroyed                         0.28/0.28       0.22/0.11       0.06/0.65       0.90/1.10
+   first round with 2 paint towers: us median r192 (in 15 games; by r200 in 9, by r300 in 15) | them r157.0 (10; by r200 8, by r300 8)
+   first round with 3 paint towers: us median r217.5 (in 12 games; by r200 in 4, by r300 in 10) | them r177.5 (4; by r200 3, by r300 4)
+   first round with 4 paint towers: us median r211 (in 9 games; by r200 in 3, by r300 in 7) | them r175.5 (2; by r200 1, by r300 2)
+   ruins at r100 (18 games): held by us 6.0 / them 4.0 / free 9.5 (medians); games with 0 free: 0, with 2+ free: 17; mean free 10.1
+   ruins at r150 (18 games): held by us 7.0 / them 4.5 / free 6.0 (medians); games with 0 free: 0, with 2+ free: 17; mean free 8.7
+   ruins at r200 (17 games): held by us 8 / them 6 / free 5 (medians); games with 0 free: 0, with 2+ free: 17; mean free 7.5
+   ruins at r300 (10 games): held by us 9.0 / them 5.0 / free 6.0 (medians); games with 0 free: 0, with 2+ free: 10; mean free 7.0
+   us: first built paint tower is build no. median 6.0 (none among the first 8 in 8 games); orders: MMMMMP MMMMMMMM MMMMMMMM MMMMMMMP MMMMMMMM MMMMMPMM MMMMMMMM MMP MMMMMMMM MMMMMMMP MMMMMMP MMMMMMPP MMMMMMMM MMPPPPMP MMMMMMMM MPMMMMMP MMMMMPPP MMMMMMMM
+   them: first built paint tower is build no. median 4.5 (none among the first 8 in 10 games); orders: MMPMMMPP MMMMMMMM MMMMMMPP MMMMPMPM MMMM MM MMMPM  MMMMMMMM MMPPMMM MMM MMMMMPPP MMMM MMMMMMM MMMMMMMM MMMMMMPP MMMPPPP MMMMMMMM
+
+== ver y374 lost: 2 games (means per game; a phase counts games that reached its start)
+                                                     r1-100        r101-200        r201-300           r301+
+   new paint towers built                         0.50/0.00       1.00/1.50       0.50/1.00       0.00/0.00
+   new money towers built                         6.50/4.50       0.00/2.50       0.00/2.00       0.00/0.00
+   new defense towers built                       0.00/0.50       0.00/0.50       0.00/0.00       0.00/0.00
+   taken paint towers built                       0.00/0.00       0.00/0.50       0.00/0.00       0.00/0.50
+   taken money towers built                       0.00/0.00       0.00/0.00       0.00/1.00       0.00/0.50
+   taken defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   rebuild paint towers built                     0.00/0.00       0.00/1.00       0.50/1.00       0.00/1.50
+   rebuild money towers built                     0.00/0.00       0.50/2.00       0.00/1.00       0.00/0.00
+   rebuild defense towers built                   0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn paint towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn money towers built                       0.00/0.00       3.50/0.00       2.00/0.00       0.50/0.00
+   churn defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   paint tower upgrades to L2                     0.00/0.00       0.50/0.00       0.50/0.00       0.50/2.00
+   paint tower upgrades to L3                     0.00/0.00       0.00/0.00       1.00/0.00       0.00/0.00
+   money tower upgrades to L2                     0.00/0.00       0.00/0.00       0.00/3.50       0.00/1.00
+   money tower upgrades to L3                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   paint towers destroyed                         0.00/0.00       0.50/0.00       1.50/1.00       0.50/0.50
+   first round with 2 paint towers: us median r133.5 (in 2 games; by r200 in 2, by r300 in 2) | them r137.5 (2; by r200 2, by r300 2)
+   first round with 3 paint towers: us median r106 (in 1 games; by r200 in 1, by r300 in 1) | them r154.5 (2; by r200 2, by r300 2)
+   first round with 4 paint towers: us median r- (in 0 games; by r200 in 0, by r300 in 0) | them r205.0 (2; by r200 1, by r300 2)
+   ruins at r100 (2 games): held by us 8.5 / them 6.5 / free 10.5 (medians); games with 0 free: 0, with 2+ free: 2; mean free 10.5
+   ruins at r150 (2 games): held by us 9.0 / them 8.5 / free 8.0 (medians); games with 0 free: 0, with 2+ free: 2; mean free 8.0
+   ruins at r200 (2 games): held by us 8.0 / them 11.5 / free 6.0 (medians); games with 0 free: 0, with 2+ free: 2; mean free 6.0
+   ruins at r300 (2 games): held by us 5.0 / them 15.5 / free 5.0 (medians); games with 0 free: 0, with 2+ free: 2; mean free 5.0
+   us: first built paint tower is build no. median 7.5 (none among the first 8 in 0 games); orders: MMMMMMP MMMMMMMP
+   them: first built paint tower is build no. median 7 (none among the first 8 in 1 games); orders: MMMMMMMM MMMMMDPP
+
+== ver y374 won: 1 games (means per game; a phase counts games that reached its start)
+                                                     r1-100        r101-200        r201-300           r301+
+   new paint towers built                         0.00/0.00       9.00/0.00       5.00/0.00       2.00/0.00
+   new money towers built                         7.00/5.00       0.00/1.00       2.00/3.00       0.00/0.00
+   new defense towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   taken paint towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   taken money towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   taken defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   rebuild paint towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   rebuild money towers built                     0.00/0.00       2.00/2.00       2.00/2.00       0.00/0.00
+   rebuild defense towers built                   0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn paint towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn money towers built                       0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   churn defense towers built                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   paint tower upgrades to L2                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/0.00
+   paint tower upgrades to L3                     0.00/0.00       0.00/0.00       0.00/0.00       0.00/1.00
+   money tower upgrades to L2                     0.00/0.00       0.00/3.00       0.00/7.00       0.00/0.00
+   money tower upgrades to L3                     0.00/0.00       0.00/0.00       0.00/1.00       0.00/2.00
+   paint towers destroyed                         0.00/0.00       0.00/0.00       0.00/0.00       1.00/0.00
+   first round with 2 paint towers: us median r111 (in 1 games; by r200 in 1, by r300 in 1) | them r- (0; by r200 0, by r300 0)
+   first round with 3 paint towers: us median r125 (in 1 games; by r200 in 1, by r300 in 1) | them r- (0; by r200 0, by r300 0)
+   first round with 4 paint towers: us median r131 (in 1 games; by r200 in 1, by r300 in 1) | them r- (0; by r200 0, by r300 0)
+   ruins at r100 (1 games): held by us 9 / them 6 / free 33 (medians); games with 0 free: 0, with 2+ free: 1; mean free 33.0
+   ruins at r150 (1 games): held by us 15 / them 7 / free 26 (medians); games with 0 free: 0, with 2+ free: 1; mean free 26.0
+   ruins at r200 (1 games): held by us 17 / them 8 / free 23 (medians); games with 0 free: 0, with 2+ free: 1; mean free 23.0
+   ruins at r300 (1 games): held by us 25 / them 10 / free 13 (medians); games with 0 free: 0, with 2+ free: 1; mean free 13.0
+   us: first built paint tower is build no. median 8 (none among the first 8 in 0 games); orders: MMMMMMMP
+   them: first built paint tower is build no. median - (none among the first 8 in 1 games); orders: MMMMMMMM

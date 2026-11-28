@@ -1,0 +1,212 @@
+
+== lost: 26 games.  Per 100 robot-rounds of that type (rates), or as marked; sums over the games, us / them
+  SOLDIER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                   698 / 543           889 / 783          819 / 1075         2333 / 4940
+     mean paint held                                137 / 133           109 / 122           117 / 126           122 / 127
+     % of turns under 100 paint                       24 / 29             40 / 37             36 / 33             32 / 32
+     % of turns under 50 paint                         8 / 12             21 / 19             20 / 18             16 / 16
+     % of turns at 0 paint                              1 / 1               5 / 2               5 / 2               5 / 3
+     withdrawn from towers                          138 / 124           152 / 121           132 / 108             72 / 86
+     received from moppers                              0 / 3               3 / 8               5 / 8               3 / 3
+     spent (paint + attacks)                        203 / 221           191 / 162           144 / 139             65 / 66
+     drained by enemy moppers                          27 / 1             50 / 21             59 / 22             54 / 15
+     ground penalty (residual)                        61 / 58             54 / 63             55 / 66            64 / 105
+     tiles painted from empty                         34 / 35             29 / 21             19 / 17               7 / 8
+     tiles flipped from enemy                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles repainted (ours already)                     2 / 3               5 / 4               5 / 6               3 / 3
+  SPLASHER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                       1 / 7            97 / 159           367 / 555         2342 / 6216
+     mean paint held                                282 / 237           178 / 185           158 / 179           142 / 187
+     % of turns under 100 paint                        0 / 11             28 / 32             39 / 33             45 / 25
+     % of turns under 50 paint                          0 / 2             10 / 18             22 / 23             25 / 14
+     % of turns at 0 paint                              0 / 0               2 / 2               3 / 3               4 / 2
+     withdrawn from towers                              0 / 0            130 / 63            171 / 70            154 / 46
+     received from moppers                             0 / 37               6 / 6               7 / 7              15 / 2
+     spent (paint + attacks)                        500 / 374           437 / 336           370 / 276            245 / 94
+     drained by enemy moppers                           0 / 0             28 / 17             42 / 18              27 / 7
+     ground penalty (residual)                        10 / 41             35 / 45             42 / 55             51 / 97
+     tiles painted from empty                        110 / 29             42 / 10              18 / 6               4 / 1
+     tiles flipped from enemy                          0 / 41             27 / 42             34 / 36             26 / 12
+     tiles repainted (ours already)                   15 / 11             24 / 17             25 / 14              17 / 5
+  MOPPER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                    10 / 156           277 / 630           456 / 934         1394 / 4210
+     mean paint held                                  94 / 84             74 / 70             65 / 70             63 / 64
+     % of turns under 100 paint                       73 / 81             87 / 94             93 / 93             97 / 97
+     % of turns under 50 paint                         1 / 10             18 / 24             33 / 25             36 / 32
+     % of turns at 0 paint                              0 / 0               1 / 1               1 / 1               1 / 1
+     withdrawn from towers                            14 / 33             27 / 45             42 / 43             56 / 33
+     received from moppers                            11 / 42             30 / 32             30 / 31             26 / 14
+     spent (paint + attacks)                            0 / 0               0 / 0               0 / 0               0 / 0
+     drained by enemy moppers                          11 / 1             32 / 17             36 / 22              21 / 8
+     ground penalty (residual)                       90 / 134            88 / 117            91 / 106            107 / 99
+     tiles painted from empty                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles flipped from enemy                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles repainted (ours already)                     0 / 0               0 / 0               0 / 0               0 / 0
+     given by moppers                                 22 / 12             12 / 13             15 / 14              31 / 9
+  all robot types, means per game (paint): withdrawn W, received R, spent S, drained D, penalty pen; spent share on tiles
+     r1-100    (26 games) us: W 962 R 3 S 1423 D 188 pen 432 | them: W 722 R 84 S 1226 D 4 pen 527
+     r101-200  (26 games) us: W 1553 R 115 S 2119 D 560 pen 755 | them: W 1330 R 275 S 1800 D 300 pen 1305
+     r201-300  (25 games) us: W 1974 R 215 S 2632 D 833 pen 1065 | them: W 2033 R 429 S 3148 D 564 pen 2091
+     r301+     (22 games) us: W 7167 R 940 S 8582 D 2588 pen 4948 | them: W 10006 R 1063 S 10709 D 1748 pen 18177
+
+== won: 19 games.  Per 100 robot-rounds of that type (rates), or as marked; sums over the games, us / them
+  SOLDIER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                   687 / 541           967 / 673          1186 / 529          2015 / 843
+     mean paint held                                140 / 127           113 / 113           132 / 105           141 / 111
+     % of turns under 100 paint                       22 / 32             38 / 40             26 / 46             21 / 41
+     % of turns under 50 paint                         8 / 14             18 / 23             11 / 28              9 / 23
+     % of turns at 0 paint                              1 / 1               3 / 2               2 / 4               2 / 5
+     withdrawn from towers                          152 / 101            181 / 75            156 / 76             89 / 84
+     received from moppers                              0 / 4               2 / 8              6 / 11               6 / 9
+     spent (paint + attacks)                        219 / 206           205 / 148           150 / 129            77 / 106
+     drained by enemy moppers                          26 / 2             34 / 24             33 / 36             18 / 47
+     ground penalty (residual)                        63 / 57             45 / 69             52 / 60             72 / 84
+     tiles painted from empty                         35 / 30             34 / 17             20 / 16              7 / 10
+     tiles flipped from enemy                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles repainted (ours already)                     1 / 3               5 / 4               6 / 5               5 / 7
+  SPLASHER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                      1 / 17            87 / 105           463 / 228          1765 / 755
+     mean paint held                                283 / 212           192 / 171           188 / 155           196 / 150
+     % of turns under 100 paint                        0 / 19             25 / 32             28 / 41             26 / 43
+     % of turns under 50 paint                         0 / 13              3 / 20             12 / 22             12 / 23
+     % of turns at 0 paint                              0 / 1               0 / 2               1 / 3               2 / 2
+     withdrawn from towers                              0 / 0            240 / 79            164 / 76           143 / 101
+     received from moppers                              0 / 0              3 / 12              15 / 2             22 / 11
+     spent (paint + attacks)                        312 / 410           436 / 359           322 / 329           216 / 281
+     drained by enemy moppers                           0 / 0             20 / 14             19 / 45             12 / 29
+     ground penalty (residual)                        56 / 62             35 / 40             43 / 50             73 / 83
+     tiles painted from empty                         81 / 19             41 / 15              16 / 5               4 / 2
+     tiles flipped from enemy                          0 / 43             23 / 41             27 / 43             23 / 41
+     tiles repainted (ours already)                    0 / 20             29 / 18             24 / 17             18 / 13
+  MOPPER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                    11 / 129           297 / 429           621 / 491           977 / 633
+     mean paint held                                  95 / 85             81 / 64             76 / 63             66 / 60
+     % of turns under 100 paint                       48 / 78             82 / 93             92 / 92             95 / 95
+     % of turns under 50 paint                          0 / 9             12 / 36             17 / 36             33 / 40
+     % of turns at 0 paint                              0 / 0               0 / 1               0 / 2               1 / 2
+     withdrawn from towers                             0 / 16             21 / 34             45 / 38             75 / 41
+     received from moppers                            33 / 47             25 / 33             21 / 42             20 / 30
+     spent (paint + attacks)                            0 / 0               0 / 0               0 / 0               0 / 0
+     drained by enemy moppers                           0 / 0             17 / 17             19 / 41              7 / 25
+     ground penalty (residual)                       89 / 115            74 / 117            90 / 106           137 / 121
+     tiles painted from empty                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles flipped from enemy                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles repainted (ours already)                     0 / 0               0 / 0               0 / 0               0 / 0
+     given by moppers                                  0 / 16              8 / 16             22 / 14             52 / 26
+  all robot types, means per game (paint): withdrawn W, received R, spent S, drained D, penalty pen; spent share on tiles
+     r1-100    (19 games) us: W 1042 R 4 S 1508 D 175 pen 441 | them: W 565 R 81 S 1184 D 9 pen 465
+     r101-200  (19 games) us: W 2026 R 98 S 2364 D 400 pen 689 | them: W 736 R 209 S 1372 D 250 pen 1006
+     r201-300  (18 games) us: W 3042 R 285 S 3454 D 632 pen 1455 | them: W 802 R 287 S 1510 D 522 pen 1005
+     r301+     (11 games) us: W 8734 R 1222 S 9248 D 1104 pen 7037 | them: W 2986 R 599 S 5204 D 1344 pen 3633
+
+== all games of y360: 42 games.  Per 100 robot-rounds of that type (rates), or as marked; sums over the games, us / them
+  SOLDIER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                   692 / 542           913 / 719           936 / 778         2298 / 3392
+     mean paint held                                138 / 131           110 / 118           123 / 120           129 / 125
+     % of turns under 100 paint                       24 / 30             40 / 39             32 / 37             28 / 33
+     % of turns under 50 paint                         8 / 13             20 / 21             16 / 21             14 / 17
+     % of turns at 0 paint                              1 / 1               4 / 2               3 / 3               4 / 3
+     withdrawn from towers                          144 / 113           160 / 101            146 / 98             79 / 86
+     received from moppers                              0 / 3               3 / 8               6 / 9               4 / 4
+     spent (paint + attacks)                        210 / 212           192 / 157           147 / 139             69 / 70
+     drained by enemy moppers                          28 / 1             45 / 22             48 / 26             40 / 18
+     ground penalty (residual)                        62 / 58             51 / 65             55 / 58            67 / 103
+     tiles painted from empty                         34 / 33             30 / 20             20 / 17               7 / 8
+     tiles flipped from enemy                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles repainted (ours already)                     1 / 3               4 / 4               6 / 5               4 / 4
+  SPLASHER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                      1 / 12            90 / 129           379 / 384         2197 / 4147
+     mean paint held                                281 / 218           182 / 177           169 / 168           159 / 183
+     % of turns under 100 paint                        0 / 17             27 / 33             35 / 37             39 / 27
+     % of turns under 50 paint                          0 / 9              8 / 19             17 / 24             21 / 14
+     % of turns at 0 paint                              0 / 1               1 / 2               2 / 3               3 / 2
+     withdrawn from towers                              0 / 0            173 / 76            175 / 75            150 / 49
+     received from moppers                             0 / 14               6 / 9              12 / 7              18 / 3
+     spent (paint + attacks)                        323 / 412           439 / 352           354 / 302           237 / 108
+     drained by enemy moppers                           0 / 0             25 / 15             32 / 27              22 / 9
+     ground penalty (residual)                        35 / 55             36 / 45             43 / 50             59 / 96
+     tiles painted from empty                         74 / 23             42 / 11              17 / 6               4 / 1
+     tiles flipped from enemy                          0 / 44             25 / 42             31 / 38             25 / 14
+     tiles repainted (ours already)                    6 / 17             26 / 18             25 / 16              17 / 5
+  MOPPER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                    10 / 147           277 / 548           520 / 712         1278 / 2852
+     mean paint held                                  94 / 85             77 / 68             70 / 68             64 / 63
+     % of turns under 100 paint                       64 / 80             85 / 94             93 / 93             96 / 97
+     % of turns under 50 paint                          1 / 9             15 / 29             25 / 27             35 / 33
+     % of turns at 0 paint                              0 / 0               0 / 1               1 / 1               1 / 1
+     withdrawn from towers                             9 / 26             24 / 44             45 / 43             63 / 34
+     received from moppers                            21 / 46             28 / 33             26 / 35             24 / 16
+     spent (paint + attacks)                            0 / 0               0 / 0               0 / 0               0 / 0
+     drained by enemy moppers                           7 / 0             27 / 17             28 / 30              16 / 9
+     ground penalty (residual)                       94 / 127            81 / 119            91 / 105           118 / 101
+     tiles painted from empty                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles flipped from enemy                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles repainted (ours already)                     0 / 0               0 / 0               0 / 0               0 / 0
+     given by moppers                                 14 / 14             11 / 14             19 / 14             39 / 10
+  all robot types, means per game (paint): withdrawn W, received R, spent S, drained D, penalty pen; spent share on tiles
+     r1-100    (42 games) us: W 994 R 4 S 1454 D 193 pen 438 | them: W 652 R 88 S 1195 D 6 pen 508
+     r101-200  (42 games) us: W 1682 R 108 S 2145 D 505 pen 717 | them: W 1065 R 252 S 1585 D 276 pen 1174
+     r201-300  (40 games) us: W 2379 R 244 S 2851 D 750 pen 1202 | them: W 1429 R 365 S 2351 D 545 pen 1465
+     r301+     (30 games) us: W 8306 R 1124 S 9507 D 2269 pen 6089 | them: W 8304 R 978 S 9606 D 1744 pen 14471
+
+== all games of y374: 3 games.  Per 100 robot-rounds of that type (rates), or as marked; sums over the games, us / them
+  SOLDIER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                   708 / 554          1045 / 978         1498 / 1771           812 / 663
+     mean paint held                                146 / 126           123 / 124           140 / 125           152 / 103
+     % of turns under 100 paint                       20 / 34             31 / 34             21 / 34             15 / 49
+     % of turns under 50 paint                         4 / 14             13 / 20              9 / 19              7 / 31
+     % of turns at 0 paint                              0 / 2               1 / 3               2 / 3               2 / 5
+     withdrawn from towers                          144 / 123           226 / 125           125 / 109             55 / 58
+     received from moppers                              0 / 0               2 / 5               4 / 6               2 / 9
+     spent (paint + attacks)                        214 / 251           263 / 152           146 / 122             71 / 98
+     drained by enemy moppers                           4 / 2             22 / 23             24 / 20             29 / 33
+     ground penalty (residual)                        55 / 47             43 / 70            47 / 102            62 / 102
+     tiles painted from empty                         35 / 40             38 / 19             20 / 13               8 / 9
+     tiles flipped from enemy                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles repainted (ours already)                     4 / 6               8 / 6               5 / 7               3 / 6
+  SPLASHER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                       2 / 6           131 / 226           813 / 872           719 / 588
+     mean paint held                                290 / 300           197 / 208           194 / 209           232 / 210
+     % of turns under 100 paint                         0 / 0             21 / 24             28 / 21             15 / 18
+     % of turns under 50 paint                          0 / 0              8 / 14             17 / 15              5 / 13
+     % of turns at 0 paint                              0 / 0               0 / 5               3 / 3               1 / 3
+     withdrawn from towers                              0 / 0             185 / 4            122 / 46           138 / 111
+     received from moppers                              0 / 0               0 / 0               4 / 3               3 / 5
+     spent (paint + attacks)                         1000 / 0           419 / 272           301 / 205           167 / 153
+     drained by enemy moppers                           0 / 0             30 / 24              26 / 8               9 / 6
+     ground penalty (residual)                         0 / 11             25 / 37             42 / 75             55 / 87
+     tiles painted from empty                         240 / 0             39 / 15              15 / 5               4 / 2
+     tiles flipped from enemy                           0 / 0             26 / 37             26 / 30             16 / 23
+     tiles repainted (ours already)                    20 / 0              24 / 7              22 / 6              14 / 7
+  MOPPER
+                                                       r1-100            r101-200            r201-300               r301+
+     robot-rounds                                    19 / 116           405 / 504          609 / 1237           371 / 575
+     mean paint held                                  97 / 75             75 / 72             71 / 63             73 / 67
+     % of turns under 100 paint                       47 / 91             84 / 91             88 / 92             95 / 92
+     % of turns under 50 paint                         0 / 18             16 / 21             23 / 34             23 / 28
+     % of turns at 0 paint                              0 / 1               0 / 1               1 / 1               1 / 2
+     withdrawn from towers                             0 / 24              35 / 9             22 / 31             24 / 43
+     received from moppers                            17 / 13             21 / 25             24 / 25             23 / 23
+     spent (paint + attacks)                            0 / 0               0 / 0               0 / 0               0 / 0
+     drained by enemy moppers                           0 / 0             10 / 10             26 / 11             10 / 10
+     ground penalty (residual)                       57 / 120             92 / 93            86 / 118            82 / 126
+     tiles painted from empty                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles flipped from enemy                           0 / 0               0 / 0               0 / 0               0 / 0
+     tiles repainted (ours already)                     0 / 0               0 / 0               0 / 0               0 / 0
+     given by moppers                                   0 / 0               5 / 9             16 / 11             12 / 15
+  all robot types, means per game (paint): withdrawn W, received R, spent S, drained D, penalty pen; spent share on tiles
+     r1-100    ( 3 games) us: W 1019 R 3 S 1533 D 32 pen 402 | them: W 709 R 15 S 1388 D 13 pen 400
+     r101-200  ( 3 games) us: W 2746 R 102 S 3302 D 312 pen 861 | them: W 1278 R 172 S 2105 D 325 pen 1241
+     r201-300  ( 3 games) us: W 2991 R 241 S 4640 D 730 pen 1575 | them: W 2707 R 437 S 3943 D 567 pen 3915
+     r301+     ( 3 games) us: W 1528 R 129 S 1773 D 338 pen 1200 | them: W 1291 R 219 S 1552 D 305 pen 1909

@@ -1,0 +1,183 @@
+shared pairings: gone-whalin/Fossil, gone-whalin/TargetPractice, om-nom/Portal, om-nom/defensetower, scienceqiu/Paintball
+
+== t188
+
+  all: 45 games, won 29
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              676         931        1111
+     turns ending under 120 paint (%)                    35.8        52.3        40.0
+     under 100 (%)                                       25.5        43.6        32.1
+     under 50 (%)                                         8.6        18.3        14.1
+     at 0 (%)                                             0.8         3.1         2.9
+     starved soldiers per game                           1.04        3.51        4.00
+     other soldier deaths per game                       1.53        1.89        2.04
+     tiles painted + attacks per 100 soldier-rounds        45.0        42.3        29.8
+     withdrawals per 100 soldier-rounds                  2.07        2.69        2.67
+     y360 window: 40-49 paint, no paint (/100 s-r)        3.07        2.49        1.87
+     coverage at r100 (median %): us 20.5 / them 17.4  (45 games)
+     coverage at r150 (median %): us 31.0 / them 22.6  (45 games)
+     coverage at r200 (median %): us 38.3 / them 26.6  (44 games)
+
+  shared pairings: 5 games, won 2
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              628         781         721
+     turns ending under 120 paint (%)                    33.8        53.2        48.2
+     under 100 (%)                                       24.9        46.0        37.6
+     under 50 (%)                                        10.3        22.7        18.7
+     at 0 (%)                                             1.4         5.9         5.9
+     starved soldiers per game                           1.80        5.40        5.40
+     other soldier deaths per game                       2.20        0.20        0.40
+     tiles painted + attacks per 100 soldier-rounds        47.2        42.9        36.4
+     withdrawals per 100 soldier-rounds                  1.50        3.23        2.33
+     y360 window: 40-49 paint, no paint (/100 s-r)        1.08        2.84        1.61
+     coverage at r100 (median %): us 31.9 / them 18.8  (5 games)
+     coverage at r150 (median %): us 35.9 / them 30.3  (5 games)
+     coverage at r200 (median %): us 41.1 / them 31.0  (5 games)
+
+  top7: 39 games, won 23
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              675         940        1110
+     turns ending under 120 paint (%)                    35.7        52.7        40.5
+     under 100 (%)                                       25.9        43.8        32.5
+     under 50 (%)                                         8.8        18.3        14.2
+     at 0 (%)                                             0.8         3.1         2.7
+     starved soldiers per game                           1.08        3.59        3.97
+     other soldier deaths per game                       1.59        2.03        2.18
+     tiles painted + attacks per 100 soldier-rounds        45.7        42.9        30.2
+     withdrawals per 100 soldier-rounds                  2.11        2.60        2.68
+     y360 window: 40-49 paint, no paint (/100 s-r)        3.23        2.37        1.85
+     coverage at r100 (median %): us 19.8 / them 16.8  (39 games)
+     coverage at r150 (median %): us 31.0 / them 21.0  (39 games)
+     coverage at r200 (median %): us 38.3 / them 26.5  (38 games)
+
+  top7 lost: 16 games, won 0
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              675         860         799
+     turns ending under 120 paint (%)                    34.5        56.7        52.6
+     under 100 (%)                                       25.3        48.2        44.5
+     under 50 (%)                                         8.9        20.3        22.7
+     at 0 (%)                                             0.9         4.0         4.8
+     starved soldiers per game                           1.06        4.44        4.62
+     other soldier deaths per game                       1.50        1.81        1.75
+     tiles painted + attacks per 100 soldier-rounds        45.2        38.5        28.7
+     withdrawals per 100 soldier-rounds                  2.01        2.38        2.09
+     y360 window: 40-49 paint, no paint (/100 s-r)        3.09        2.27        3.00
+     coverage at r100 (median %): us 26.2 / them 18.4  (16 games)
+     coverage at r150 (median %): us 34.8 / them 26.4  (16 games)
+     coverage at r200 (median %): us 32.9 / them 31.8  (15 games)
+
+== y358
+
+  all: 42 games, won 23
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              678         898         980
+     turns ending under 120 paint (%)                    34.5        50.1        42.9
+     under 100 (%)                                       25.2        36.3        30.9
+     under 50 (%)                                         9.8        18.3        15.5
+     at 0 (%)                                             1.4         3.7         3.3
+     starved soldiers per game                           1.43        4.12        4.12
+     other soldier deaths per game                       1.19        1.29        1.10
+     tiles painted + attacks per 100 soldier-rounds        42.1        41.4        29.7
+     withdrawals per 100 soldier-rounds                  2.00        2.70        2.93
+     y360 window: 40-49 paint, no paint (/100 s-r)        2.56        2.57        1.79
+     coverage at r100 (median %): us 19.5 / them 17.1  (41 games)
+     coverage at r150 (median %): us 30.2 / them 22.5  (41 games)
+     coverage at r200 (median %): us 35.9 / them 25.7  (41 games)
+
+  shared pairings: 5 games, won 3
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              653         814         927
+     turns ending under 120 paint (%)                    29.9        47.4        46.5
+     under 100 (%)                                       20.7        31.9        31.8
+     under 50 (%)                                         8.6        14.9        16.5
+     at 0 (%)                                             1.3         3.2         2.7
+     starved soldiers per game                           1.40        3.60        3.80
+     other soldier deaths per game                       2.00        0.80        0.80
+     tiles painted + attacks per 100 soldier-rounds        44.5        40.7        32.3
+     withdrawals per 100 soldier-rounds                  2.11        3.12        2.39
+     y360 window: 40-49 paint, no paint (/100 s-r)        1.32        2.43        1.94
+     coverage at r100 (median %): us 32.8 / them 18.5  (5 games)
+     coverage at r150 (median %): us 39.9 / them 25.6  (5 games)
+     coverage at r200 (median %): us 43.1 / them 32.3  (5 games)
+
+  top7: 33 games, won 15
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              681         877         962
+     turns ending under 120 paint (%)                    34.2        50.6        43.1
+     under 100 (%)                                       24.7        36.6        31.1
+     under 50 (%)                                         9.2        19.0        15.7
+     at 0 (%)                                             1.4         3.6         2.7
+     starved soldiers per game                           1.45        3.88        3.67
+     other soldier deaths per game                       1.15        1.27        0.97
+     tiles painted + attacks per 100 soldier-rounds        40.9        40.4        28.5
+     withdrawals per 100 soldier-rounds                  2.00        2.66        2.91
+     y360 window: 40-49 paint, no paint (/100 s-r)        1.87        2.54        1.90
+     coverage at r100 (median %): us 19.4 / them 16.9  (32 games)
+     coverage at r150 (median %): us 28.7 / them 20.8  (32 games)
+     coverage at r200 (median %): us 36.0 / them 25.6  (32 games)
+
+  top7 lost: 18 games, won 0
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              682         745         673
+     turns ending under 120 paint (%)                    37.5        49.6        50.0
+     under 100 (%)                                       27.8        36.6        37.8
+     under 50 (%)                                        10.7        18.7        19.6
+     at 0 (%)                                             1.7         4.4         4.0
+     starved soldiers per game                           1.67        4.33        3.83
+     other soldier deaths per game                       1.06        1.56        1.11
+     tiles painted + attacks per 100 soldier-rounds        39.2        37.0        23.2
+     withdrawals per 100 soldier-rounds                  1.87        2.59        2.64
+     y360 window: 40-49 paint, no paint (/100 s-r)        2.41        1.46        2.06
+     coverage at r100 (median %): us 19.5 / them 18.0  (17 games)
+     coverage at r150 (median %): us 29.1 / them 25.5  (17 games)
+     coverage at r200 (median %): us 31.3 / them 32.3  (17 games)
+
+== y360
+
+  all: 42 games, won 18
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              692         913         936
+     turns ending under 120 paint (%)                    32.8        54.4        44.5
+     under 100 (%)                                       23.5        39.7        32.1
+     under 50 (%)                                         8.2        20.1        15.9
+     at 0 (%)                                             0.9         4.3         3.4
+     starved soldiers per game                           1.12        4.50        3.45
+     other soldier deaths per game                       1.17        0.95        1.40
+     tiles painted + attacks per 100 soldier-rounds        41.9        38.4        29.4
+     withdrawals per 100 soldier-rounds                  2.14        2.36        2.70
+     y360 window: 40-49 paint, no paint (/100 s-r)        1.27        2.10        2.04
+     coverage at r100 (median %): us 22.0 / them 20.9  (42 games)
+     coverage at r150 (median %): us 31.7 / them 24.4  (41 games)
+     coverage at r200 (median %): us 34.7 / them 26.8  (40 games)
+
+  top7: 39 games, won 16
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              697         909         952
+     turns ending under 120 paint (%)                    32.9        54.8        44.8
+     under 100 (%)                                       23.7        40.3        32.3
+     under 50 (%)                                         8.4        20.4        16.1
+     at 0 (%)                                             1.0         4.3         3.4
+     starved soldiers per game                           1.13        4.44        3.51
+     other soldier deaths per game                       1.10        1.00        1.28
+     tiles painted + attacks per 100 soldier-rounds        41.5        38.4        29.0
+     withdrawals per 100 soldier-rounds                  2.12        2.36        2.59
+     y360 window: 40-49 paint, no paint (/100 s-r)        1.28        2.15        2.09
+     coverage at r100 (median %): us 21.3 / them 20.5  (39 games)
+     coverage at r150 (median %): us 31.5 / them 22.9  (38 games)
+     coverage at r200 (median %): us 33.7 / them 26.9  (37 games)
+
+  top7 lost: 23 games, won 0
+                                                       r1-100    r101-200    r201-300
+     soldier-rounds per game                              692         876         828
+     turns ending under 120 paint (%)                    33.7        55.2        47.5
+     under 100 (%)                                       24.8        40.8        35.9
+     under 50 (%)                                         8.5        21.2        19.3
+     at 0 (%)                                             1.1         4.9         4.5
+     starved soldiers per game                           1.22        4.83        4.09
+     other soldier deaths per game                       0.83        1.26        1.48
+     tiles painted + attacks per 100 soldier-rounds        40.7        38.1        28.8
+     withdrawals per 100 soldier-rounds                  2.12        2.35        2.32
+     y360 window: 40-49 paint, no paint (/100 s-r)        1.54        2.10        2.18
+     coverage at r100 (median %): us 16.0 / them 17.9  (23 games)
+     coverage at r150 (median %): us 26.4 / them 22.7  (22 games)
+     coverage at r200 (median %): us 30.3 / them 26.6  (22 games)
