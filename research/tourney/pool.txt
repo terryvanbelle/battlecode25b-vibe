@@ -582,11 +582,14 @@ t188  # champion (t186 + study 14 2.5 pattern-colour painting; crowned 2026-11-2
 # t190 (retired: -20 vs t186 after 77 games; ported to t188 as t192)
 # y348 (retired: +54 vs t186 after 71 games; ported to t188 as y350)
 y349
-y350
-t191
-y351
+# y350 (retired: -46 vs t188 after 299 games; siege from 20 paint)
+# t191 (retired: -56 vs t188 after 258 games; dry-flag fix)
+# y351 (retired: -21 vs t188 after 291 games; SRP enemy-tower d2 36)
 t192
-y352
-y353
+# y352 (retired: -37 vs t188 after 306 games; splasher tower value 50)
+# y353 (retired: -34 vs t188 after 235 games; y349 + y350)
 y354
 y355
+y356
+y357
+y358
