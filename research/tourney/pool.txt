@@ -598,7 +598,7 @@ y358  # champion (t188 + soldiers refill below 120 paint; crowned 2026-11-28 00:
 # y359 (retired: +20 vs t188 after 211; built on t188, ported as y361)
 y360
 y361
-y362
+# y362 (retired: -59 vs y358 after 184 games (80-104); moppers refill below 60)
 y363
 t193
 y364
@@ -606,4 +606,6 @@ y365
 # t194 (retired: -172 vs y358 after 48 games (13-35), hopelessly behind; study 15 2.1a alone; t195 carries 2.1a+b)
 t195
 y366
-t196
+# t196 (retired: -102 vs y358 after 211 games (78-133); study 15 4.3 own wrong-colour repaint)
+t197
+y367
